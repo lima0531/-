@@ -1,0 +1,22 @@
+[
+  {
+    "file": "purchase_tax_data_v1_4.zip",
+    "bytes": 19654200,
+    "sha256": "4bf05256dc2b3802e84dd2d8746ccd431b7f64950bb087b13daeb6cbad005a19"
+  },
+  {
+    "file": "purchase_tax_sources_v1_4.zip",
+    "bytes": 17047745,
+    "sha256": "2d97e5757bf2e237d0567f86b560464d55e71a7d2ea5309774af0dc38970d65a"
+  },
+  {
+    "file": "audit_report.md",
+    "bytes": 7231,
+    "sha256": "cd2d90cb3c0f2b18d195337d5f3ab7f4d3ccddb646db707c73a686b7a77bf31c"
+  },
+  {
+    "file": "reading_guide.zip",
+    "bytes": 1028964,
+    "sha256": "7041d62be2469cc0eeca51bf8a2cfdc604102388fc7bb69a3d78dc80a91cb8d5"
+  }
+]
