@@ -1,0 +1,14 @@
+[
+  {
+    "file": "mf_batch01.pdf",
+    "bytes": 442883,
+    "sha256": "eac13628c37f01c4da157a2d1916d97acc81fdc295f18e1783549075ce7e5aa7",
+    "path": "/workspace/purchase_tax_audit/round5/originals/mf_batch01.pdf"
+  },
+  {
+    "file": "mf_batch64.doc",
+    "bytes": 597504,
+    "sha256": "c4e238989e7e40ec2c3a6a899ead170b4a745bc72546ba6fd4a5731d8890c6cb",
+    "path": "/workspace/purchase_tax_audit/round5/originals/mf_batch64.doc"
+  }
+]

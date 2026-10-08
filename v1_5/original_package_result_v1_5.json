@@ -1,0 +1,45 @@
+{
+  "path": "/workspace/购置税项目_完整原件106份及推荐资料_v1_5_20261009.zip",
+  "bytes": 17442543,
+  "sha256": "17b10d905721b38526a6fc0191680721bb10dc977e8efbad6a28e2385d0f06a2",
+  "prefix": "购置税项目_原件补齐与修订_v1_5_20261009",
+  "historical_exact_originals": 106,
+  "historical_catalogues": 97,
+  "historical_withdrawals": 9,
+  "recommendation_pdfs": 3,
+  "official_alternate_byte_versions": 2,
+  "source_files": 111,
+  "zip_members": 113,
+  "total_uncompressed_source_bytes": 113529413,
+  "historical_source_bytes_and_sha_verified": true,
+  "ancillary_acquisition_receipt_fingerprints_verified": [
+    {
+      "file": "rec2020_04_original.pdf",
+      "receipt": "round3/technical/rec2020_04_original_request.json",
+      "sha256": "ec5b42f7c8cdcea71f0fdecdee67b8d4a161f2389527f41ee3e4ed431cbd2736"
+    },
+    {
+      "file": "rec2022_04_original.pdf",
+      "receipt": "round3/technical/rec2022_04_original_request.json",
+      "sha256": "022b14b038c2f782fc35988b08756c262187f1dccaeccd65edef82af8566a4d2"
+    },
+    {
+      "file": "rec2022_12_original.pdf",
+      "receipt": "round3/technical/rec2022_12_original_request.json",
+      "sha256": "dae8aac7e9ccbe9c046bc0be62323deddcb91e52ed3fb3202e0fbe0e5e7993e7"
+    },
+    {
+      "file": "batch26_7368842.wps",
+      "receipt": "round3/archive/version_search/batch26_7368842.wps.request.json",
+      "sha256": "c9ea4cdf312f32d39eb9a4bc2255f54f618f85bcb54be090593a92c9f136ff32"
+    },
+    {
+      "file": "batch26_7368844.docx",
+      "receipt": "round3/archive/version_search/batch26_7368844.docx.request.json",
+      "sha256": "ee9325e79d91945e2e22986ebc4cb7894634e21f3be04611ab38942c799eebe7"
+    }
+  ],
+  "all_members_crc_and_sha_verified": true,
+  "original_source_files_modified": false,
+  "repository_uploaded": false
+}

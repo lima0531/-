@@ -1,20 +1,19 @@
-# 购置税项目核查文件 v1.4
+# 购置税项目资料：最新版 v1.5
 
-本目录用于文件交付。两份大数据ZIP、1MB查看包、核查报告均已核验。
+两份本轮原件已核完，历史索引106份全部齐备。SGM6500BEBEV局部续航勘误按字段生效后，公告前单值可用2425、单值不足380；风险集2805及资格状态不变。v1.4文件保留用于历史追溯，当前结论以v1.5为准。
 
-- reading_guide.zip：先下载并解压，打开view_report.html查看报告与材料清单。
-- purchase_tax_data_v1_4.zip：规范数据和核查证据，解压后进入round4/data_v1_4。
-- purchase_tax_sources_v1_4.zip：公开原件资料，与主包解压到同一父目录并合并同名文件夹。
-- audit_report.md：可在GitHub页面直接阅读本轮报告。
+## 先在网页查看
 
-如果GitHub提示文件太大无法预览，请使用Download raw file下载按钮。CSV用Excel打开；乱码时按UTF-8导入。
+- [v1.5核查报告](v1_5/audit_report.md)
+- [仍需你提供的材料、型号和获取渠道](v1_5/requirements/需要用户亲自提供的数据.md)
+- [当前数据入口和阅读说明](v1_5/README.md)
 
-本轮补齐104/106份历史同字节原件；95份可得目录、9份历史撤销名单已全表核查，科学参数和冻结暴露未变。仍需取回的两份原件为mf_batch01.pdf、mf_batch64.doc，具体嵌套位置见查看包材料清单。
+## 下载两个ZIP
 
-## 在网页直接查看
+- [主数据包：约26MB](v1_5/purchase_tax_data_v1_5.zip)：打开文件页，点击 **Download raw file**。解压后进入 `round5/reconstruction/data_v1_5`。
+- [完整原件包：约17MB](v1_5/purchase_tax_sources_v1_5.zip)：同样下载，解压到与主包相同父目录，合并同名顶层文件夹。
+- [文件大小与SHA256清单](v1_5/file_manifest.json)
 
-- [核查报告](audit_report.md)
-- [需要你提供的材料、型号和获取渠道](requirements/需要用户亲自提供的数据.md)
-- [两份原件的精确嵌套位置](requirements/2份历史原件_嵌套归档精确路径.csv)
+也可以在本分支页面点击绿色 **Code → Download ZIP** 下载仓库全部版本。私有仓库需登录有权限的GitHub账号。下载后，报告用浏览器/GitHub阅读，CSV用Excel打开；中文乱码时按UTF-8导入。
 
-下载完整资料：在本分支页面点击绿色 Code，再选 Download ZIP；也可打开单个ZIP文件页面，使用 Download raw file 按钮。私有仓库需登录有权限的GitHub账号。
+原始7203行参数表完整保留；分析读取新增的字段勘误生效视图。公告前风险集的真实原空字段请求只剩JX6550T-M5BEV第48批电池总能量。配置、检测、工况及逐车资料继续按用途列在材料清单中。

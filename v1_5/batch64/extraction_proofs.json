@@ -1,0 +1,180 @@
+{
+  "batch64_cfb": {
+    "engine": "CFB bounded CLX cells plus source power/class headers; no expected model filter",
+    "tables": [
+      {
+        "start_char": 47,
+        "end_char": 2372,
+        "column_count": 9,
+        "row_stride": 10,
+        "data_rows": 40,
+        "repeated_headers": 0,
+        "kind": "目录列入",
+        "header_raw": [
+          "序号",
+          "汽车生产企业名称",
+          "车辆型号",
+          "通用名称",
+          "纯电动续驶里程(km)",
+          "整车整备质量(kg)",
+          "动力蓄电池组总质量(kg)",
+          "动力蓄电池组总能量(kWh)",
+          "备注"
+        ],
+        "header_columns": {
+          "sequence_raw": 0,
+          "firm_raw": 1,
+          "model_raw": 2,
+          "trade_name_raw": 3,
+          "range_raw": 4,
+          "curb_mass_raw": 5,
+          "battery_mass_raw": 6,
+          "battery_energy_raw": 7,
+          "remarks_raw": 8
+        }
+      }
+    ],
+    "text_proof": {
+      "source_sha256": "c4e238989e7e40ec2c3a6a899ead170b4a745bc72546ba6fd4a5731d8890c6cb",
+      "reader": "bounded CFB and MS-DOC CLX main-story pieces; no layout reconstruction",
+      "fib_nFib": 193,
+      "table_stream": "0Table",
+      "main_story_utf16_units": 15282,
+      "extracted_main_story_units": 15282,
+      "piece_count_total": 1,
+      "piece_count_main_story": 1,
+      "word_stream_sha256": "6dca0b7fb9a6630afd50200e26d0ba1a84934513573c69dc2340ac2f3182a32e",
+      "table_stream_sha256": "6247ec0143236b9210fa22346a519a601c64de101de295b4a4ee7ba4e86d8603",
+      "independent_table_enumeration": false
+    }
+  },
+  "batch64_lo_ooxml": {
+    "engine": "OOXML source-flow power/class headings and complete cell tables",
+    "tables": [
+      {
+        "table": 1,
+        "data_rows": 40,
+        "kind": "目录列入",
+        "header_raw": [
+          "序号",
+          "汽车生产企业名称",
+          "车辆型号",
+          "通用名称",
+          "纯电动续驶里程(km)",
+          "整车整备质量(kg)",
+          "动力蓄电池组总质量(kg)",
+          "动力蓄电池组总能量(kWh)",
+          "备注"
+        ],
+        "header_columns": {
+          "sequence_raw": 0,
+          "firm_raw": 1,
+          "model_raw": 2,
+          "trade_name_raw": 3,
+          "range_raw": 4,
+          "curb_mass_raw": 5,
+          "battery_mass_raw": 6,
+          "battery_energy_raw": 7,
+          "remarks_raw": 8
+        }
+      }
+    ]
+  },
+  "batch62_cfb": {
+    "engine": "CFB bounded CLX cells plus source power/class headers; no expected model filter",
+    "tables": [
+      {
+        "start_char": 47,
+        "end_char": 4022,
+        "column_count": 9,
+        "row_stride": 10,
+        "data_rows": 74,
+        "repeated_headers": 0,
+        "kind": "目录列入",
+        "header_raw": [
+          "序号",
+          "汽车生产企业名称",
+          "车辆型号",
+          "通用名称",
+          "纯电动续驶里程(km)",
+          "整车整备质量(kg)",
+          "动力蓄电池组总质量(kg)",
+          "动力蓄电池组总能量(kWh)",
+          "备注"
+        ],
+        "header_columns": {
+          "sequence_raw": 0,
+          "firm_raw": 1,
+          "model_raw": 2,
+          "trade_name_raw": 3,
+          "range_raw": 4,
+          "curb_mass_raw": 5,
+          "battery_mass_raw": 6,
+          "battery_energy_raw": 7,
+          "remarks_raw": 8
+        }
+      }
+    ],
+    "text_proof": {
+      "source_sha256": "7694ac7207998b6af7c895cdd2c1d752421df436d4b28f83195261dd47f6509c",
+      "reader": "bounded CFB and MS-DOC CLX main-story pieces; no layout reconstruction",
+      "fib_nFib": 193,
+      "table_stream": "0Table",
+      "main_story_utf16_units": 30076,
+      "extracted_main_story_units": 30076,
+      "piece_count_total": 1,
+      "piece_count_main_story": 1,
+      "word_stream_sha256": "45ec0e693a46c8601d8595eabc9af004751b0e4e511033ea83ac5b2841ddddb5",
+      "table_stream_sha256": "40b156c0036cadd63d68f61545532626d25ce53435cba790a06fd8d308f1d576",
+      "independent_table_enumeration": false
+    }
+  },
+  "batch62_lo_ooxml": {
+    "engine": "OOXML source-flow power/class headings and complete cell tables",
+    "tables": [
+      {
+        "table": 1,
+        "data_rows": 74,
+        "kind": "目录列入",
+        "header_raw": [
+          "序号",
+          "汽车生产企业名称",
+          "车辆型号",
+          "通用名称",
+          "纯电动续驶里程(km)",
+          "整车整备质量(kg)",
+          "动力蓄电池组总质量(kg)",
+          "动力蓄电池组总能量(kWh)",
+          "备注"
+        ],
+        "header_columns": {
+          "sequence_raw": 0,
+          "firm_raw": 1,
+          "model_raw": 2,
+          "trade_name_raw": 3,
+          "range_raw": 4,
+          "curb_mass_raw": 5,
+          "battery_mass_raw": 6,
+          "battery_energy_raw": 7,
+          "remarks_raw": 8
+        }
+      }
+    ]
+  },
+  "cfb_main_story": {
+    "source_sha256": "c4e238989e7e40ec2c3a6a899ead170b4a745bc72546ba6fd4a5731d8890c6cb",
+    "reader": "bounded CFB and MS-DOC CLX main-story pieces; no layout reconstruction",
+    "fib_nFib": 193,
+    "table_stream": "0Table",
+    "main_story_utf16_units": 15282,
+    "extracted_main_story_units": 15282,
+    "piece_count_total": 1,
+    "piece_count_main_story": 1,
+    "word_stream_sha256": "6dca0b7fb9a6630afd50200e26d0ba1a84934513573c69dc2340ac2f3182a32e",
+    "table_stream_sha256": "6247ec0143236b9210fa22346a519a601c64de101de295b4a4ee7ba4e86d8603",
+    "independent_table_enumeration": false
+  },
+  "whole_main_story_whitespace_normalized_equal": true,
+  "whole_main_story_normalized_characters": 12811,
+  "conversion": "soffice headless DOC -> DOCX in isolated /tmp/batch64_final_lo_profile; XML flow/table parser separate from CFB/CLX parser"
+}

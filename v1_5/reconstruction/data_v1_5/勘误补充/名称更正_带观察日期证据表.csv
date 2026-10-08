@@ -1,0 +1,7 @@
+﻿record_id,source_file,model_key,field,old_value,new_value,observed_date,evidence_source_file,evidence_sha256,apply_as
+new-06-cell-288,原件/减免目录/cat_batch6.doc,MR6525BEV13,trade_name_raw,9,009,2024-07-09,cat_batch7.doc,64daa450394c7247fa213d342695ed4d2f08adf7c665a68ae5c8f1eb1118a202,"dated correction companion, preserve historic raw name"
+new-06-cell-299,原件/减免目录/cat_batch6.doc,MR6525BEV12,trade_name_raw,9,009,2024-07-09,cat_batch7.doc,64daa450394c7247fa213d342695ed4d2f08adf7c665a68ae5c8f1eb1118a202,"dated correction companion, preserve historic raw name"
+new-06-cell-552,原件/减免目录/cat_batch6.doc,SC6481EBABEV,trade_name_raw,7,07,2024-07-09,cat_batch7.doc,64daa450394c7247fa213d342695ed4d2f08adf7c665a68ae5c8f1eb1118a202,"dated correction companion, preserve historic raw name"
+new-06-cell-563,原件/减免目录/cat_batch6.doc,SC6481ECABEV,trade_name_raw,7,07,2024-07-09,cat_batch7.doc,64daa450394c7247fa213d342695ed4d2f08adf7c665a68ae5c8f1eb1118a202,"dated correction companion, preserve historic raw name"
+new-06-cell-4897,原件/减免目录/cat_batch6.doc,JX6480EUABEV,trade_name_raw,6,06,2024-07-09,cat_batch7.doc,64daa450394c7247fa213d342695ed4d2f08adf7c665a68ae5c8f1eb1118a202,"dated correction companion, preserve historic raw name"
+old-40-Word97-correction--8-2,原件/免征目录/mf_batch40.doc,JX6570T-M5BEV,trade_name_raw,,特顺EV,2021-03-08,mf_batch40.doc,93047c8e87a1f45948933ee36d00160788032370ecf11b551624e0ca45ecc1d1,fill missing metadata of same existing correction record

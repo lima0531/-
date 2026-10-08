@@ -1,0 +1,6 @@
+﻿metric,numerator,denominator,exact_fraction,fraction_6dp,denominator_filter,numerator_additional_filter,grain,observation_window,relisting_relation
+全队列2024撤销观察,503,3328,503/3328,0.151142,全队列3328型号,post2024_withdrawal_observed=1,DISTINCT model_key,2024-01-01至2024-12-31；已收集目录事件，非停产或市场退出,再列入5个属于503及496的子集，不另加；503=496+7
+公告前风险集2024撤销观察,496,2805,496/2805,0.176827,in_preannouncement_active_riskset=1,post2024_withdrawal_observed=1,DISTINCT model_key,2024-01-01至2024-12-31；已收集目录事件，非停产或市场退出,再列入5个属于503及496的子集，不另加；503=496+7
+风险集外2024撤销观察,7,523,7/523,0.013384,in_preannouncement_active_riskset=0,post2024_withdrawal_observed=1,DISTINCT model_key,2024-01-01至2024-12-31；已收集目录事件，非停产或市场退出,再列入5个属于503及496的子集，不另加；503=496+7
+全队列撤销后再列入,5,503,5/503,0.009940,post2024_withdrawal_observed=1,relisted_after_2024_withdrawal_observed=1,DISTINCT model_key,2024-01-01至2024-12-31；已收集目录事件，非停产或市场退出,再列入5个属于503及496的子集，不另加；503=496+7
+风险集撤销后再列入,5,496,5/496,0.010081,in_preannouncement_active_riskset=1 AND post2024_withdrawal_observed=1,relisted_after_2024_withdrawal_observed=1,DISTINCT model_key,2024-01-01至2024-12-31；已收集目录事件，非停产或市场退出,再列入5个属于503及496的子集，不另加；503=496+7

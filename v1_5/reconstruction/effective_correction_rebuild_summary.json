@@ -1,0 +1,154 @@
+{
+  "version": "v1.5",
+  "source_original_sha256_verified": "c4e238989e7e40ec2c3a6a899ead170b4a745bc72546ba6fd4a5731d8890c6cb",
+  "raw_parameter_rows": 7203,
+  "effective_parameter_rows": 7203,
+  "raw_parameter_file_byte_unchanged": true,
+  "corrected_record_id": "old-text-correction-64-SGM6500BEBEV",
+  "target_record_id": "old-62-Word97--0-7",
+  "corrected_fields": [
+    "range"
+  ],
+  "inherited_fields": [
+    "curb_mass",
+    "battery_mass",
+    "battery_energy"
+  ],
+  "effective_view_original_columns_changed": [
+    "battery_energy_lower",
+    "battery_energy_parse_status_new",
+    "battery_energy_point",
+    "battery_energy_upper",
+    "battery_energy_values_new",
+    "battery_mass_lower",
+    "battery_mass_parse_status_new",
+    "battery_mass_point",
+    "battery_mass_upper",
+    "battery_mass_values_new",
+    "curb_mass_lower",
+    "curb_mass_parse_status_new",
+    "curb_mass_point",
+    "curb_mass_upper",
+    "curb_mass_values_new",
+    "density_proxy_lower",
+    "density_proxy_point",
+    "density_proxy_upper"
+  ],
+  "all_effective_view_original_raw_fields_and_identity_certification_flags_unchanged": true,
+  "affected_model_key": "SGM6500BEBEV",
+  "changed_tables": [
+    {
+      "table": "官方技术清单/五档数值层_逐型号归属与判据.csv",
+      "changed_rows": 1,
+      "changed_cells": 5,
+      "before_sha256": "6e5dcbd2ab8018d3e297ca6f81e321a10012a18d853a9a398541b179819df576",
+      "after_sha256": "167ca79d52ee82d5dae706c7d5b6311791acfdb976981aad203f2f9f9edaf7b4"
+    },
+    {
+      "table": "官方技术清单/五档数值层_逐型号归属与判据2877行.csv",
+      "changed_rows": 1,
+      "changed_cells": 5,
+      "before_sha256": "6e5dcbd2ab8018d3e297ca6f81e321a10012a18d853a9a398541b179819df576",
+      "after_sha256": "167ca79d52ee82d5dae706c7d5b6311791acfdb976981aad203f2f9f9edaf7b4"
+    },
+    {
+      "table": "官方技术清单/公告前风险集_官方标记与数值层对账.csv",
+      "changed_rows": 2,
+      "changed_cells": 10,
+      "before_sha256": "53a40bbf142a74902e42ed6a7ad3537dcfdf510bfac089ccd4bcb485f657cf8e",
+      "after_sha256": "3ca8db79542a6bd3175edb8be1abcec19f5ffca483167eab1871a4ef7f79e127"
+    },
+    {
+      "table": "官方技术清单/重建3328_官方清单标记与资格轨迹.csv",
+      "changed_rows": 1,
+      "changed_cells": 2,
+      "before_sha256": "1963fd09c4502d60c90a4a4a28660d9236ae19a3d126520c54c4ba5c98a5863d",
+      "after_sha256": "11e493ec70376fde3b463dcbc701bbda91f2bb7fc94c1a567e41e031a4fb8ce7"
+    },
+    {
+      "table": "研究数据/公告前风险集_连续处理强度输入.csv",
+      "changed_rows": 1,
+      "changed_cells": 4,
+      "before_sha256": "9aba2a717294bc5425ce72b364c85383348595fbc42deaba9dcbda786bb7df4d",
+      "after_sha256": "8adf5f12dd05109d4084723b47e9249c9adc9227b4f14e5787cd198d8c1552ff"
+    },
+    {
+      "table": "研究数据/车型月度面板_2022至2024.csv",
+      "changed_rows": 36,
+      "changed_cells": 116,
+      "before_sha256": "312444104c04dc91ceb5d4531880db8ee622ae9d7c14fa25e853228eb7fe2e87",
+      "after_sha256": "a9013b4ed53cf833ab4dddcba23efd1259e3c98b1c9002fd09267fff475528fb"
+    },
+    {
+      "table": "研究数据/重建样本_两截点参数与暴露.csv",
+      "changed_rows": 1,
+      "changed_cells": 19,
+      "before_sha256": "0da1d8d14806a0066eba05302035c2aaf492340394b8d38a69bc1bf2632a90b3",
+      "after_sha256": "924bf800155102bfe1421f219dfb92aab9e54f00fc7976475c42c2342095a728"
+    }
+  ],
+  "changed_cells": 161,
+  "monthly_current_density_changed": [
+    "2023-04",
+    "2023-05",
+    "2023-06",
+    "2023-07",
+    "2023-08",
+    "2023-09",
+    "2023-10",
+    "2023-11"
+  ],
+  "announcement_risk_models": 2805,
+  "numeric_ready_models": 2425,
+  "layer_counts": {
+    "两项数值低于常规阈值": 344,
+    "单值不足": 380,
+    "密度代理单项低于常规阈值": 228,
+    "两项数值均达到常规阈值": 1822,
+    "续航单项低于常规阈值": 31
+  },
+  "qualification_states_changed": 0,
+  "source_field_no_future_leakage": [
+    {
+      "field": "battery_energy",
+      "source_observation_upper_bounds": [
+        "2023-02-20"
+      ],
+      "all_observed_before_announcement_cutoff": true
+    },
+    {
+      "field": "battery_mass",
+      "source_observation_upper_bounds": [
+        "2023-02-20"
+      ],
+      "all_observed_before_announcement_cutoff": true
+    },
+    {
+      "field": "curb_mass",
+      "source_observation_upper_bounds": [
+        "2023-02-20"
+      ],
+      "all_observed_before_announcement_cutoff": true
+    },
+    {
+      "field": "density_proxy",
+      "source_observation_upper_bounds": [
+        "2023-02-20"
+      ],
+      "all_observed_before_announcement_cutoff": true
+    },
+    {
+      "field": "range",
+      "source_observation_upper_bounds": [
+        "2023-04-17"
+      ],
+      "all_observed_before_announcement_cutoff": true
+    }
+  ],
+  "all_non_SGM_original_scientific_cells_unchanged": true,
+  "unaffected_parameter_points_recomputed_mismatches": 0,
+  "configuration_identity_certified": 0,
+  "full_technical_qualification_certified": 0,
+  "causal_identification_certified": 0,
+  "remaining_companion_work": "Root updates 380 insufficiency companion, source registry, requirements, final validation and final manifest."
+}

@@ -1,0 +1,2 @@
+﻿sequence_raw,firm_raw,model_raw,trade_name_raw,range_raw,curb_mass_raw,battery_mass_raw,battery_energy_raw,remarks_raw,model_key,kind,location,product_name_raw,catalogue_batch_marked_raw,source_file,source_sha256,source_BEV_passenger_row_ordinal
+,,SGM6500BEBEV,LYRIQ,502,2620,620,95.7,,SGM6500BEBEV,目录列入,CFB CLX; section_char=47; row_start_cell=60; stride=10,,,mf_batch62.doc,7694ac7207998b6af7c895cdd2c1d752421df436d4b28f83195261dd47f6509c,6

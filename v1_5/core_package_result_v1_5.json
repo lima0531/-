@@ -1,0 +1,10 @@
+{
+  "path": "/workspace/购置税项目_原件补齐与修订_v1_5_20261009.zip",
+  "bytes": 25935981,
+  "sha256": "3fd50d6aa95eca0d8483b5bcc409b4c246b024b1dd707ef8e67d95df84e70f20",
+  "files": 1458,
+  "all_members_crc_and_sha_verified": true,
+  "original_input_preserved": true,
+  "canonical_data_root": "购置税项目_原件补齐与修订_v1_5_20261009/round5/reconstruction/data_v1_5",
+  "previous_v1_4_package_sha256": "4bf05256dc2b3802e84dd2d8746ccd431b7f64950bb087b13daeb6cbad005a19"
+}

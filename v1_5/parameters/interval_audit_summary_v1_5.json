@@ -1,0 +1,18 @@
+{
+  "rows": 380,
+  "two_parameter_threshold_results_determined": 343,
+  "interval_screen_counts": {
+    "两项数值在整个外包络均达到常规阈值": 300,
+    "区间跨越阈值，具体配置仍待匹配": 32,
+    "至少一项数值在整个外包络低于常规阈值": 47,
+    "缺少可用原始字段/更正范围证据": 1
+  },
+  "genuine_source_or_correction_evidence_gaps": [
+    "JX6550T-M5BEV"
+  ],
+  "closed_model": "SGM6500BEBEV",
+  "closed_by": "64批明确指向62批第6项仅续航更正；字段生效视图承接其余原数值",
+  "frozen_numeric_ready_models": 2425,
+  "parent_version": "v1.4",
+  "full_technical_certification_added": 0
+}

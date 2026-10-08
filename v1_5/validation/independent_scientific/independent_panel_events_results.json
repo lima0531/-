@@ -1,0 +1,629 @@
+{
+  "generated_at_utc": "2026-10-08T16:18:46.907251+00:00",
+  "input_root": "/workspace/purchase_tax_audit/round5/reconstruction/data_v1_5",
+  "method": "Independent standard-library implementation, written from the dictionaries; supplied verification script was neither read nor executed.",
+  "scope_limits": [
+    "CSV consistency and observed event/date-bound reconstruction only.",
+    "This validator checks derived CSV reconstruction. Public originals and selected full-table extractions are separately archived; their recovery does not certify a global source/event universe.",
+    "Date inputs use the accepted registered-date version; first-online times and current-site migration metadata remain separate evidence questions.",
+    "Month-end observed states and robust date-bound flags do not certify legal eligibility for a particular vehicle.",
+    "This validator checks the batch-6 effective-date exception in CSV metadata; original text authentication is recorded separately in round3/technical.",
+    "Frozen-source upper dates prevent within-table future parameter backfill; this does not prove all real historical publication times or unchanged configuration identity."
+  ],
+  "field_semantics_observation": {
+    "potential_event_count": "Not explicitly defined in supplied dictionaries. All 9984 values match the possible-last-event candidate count. It is therefore checked for that observed relationship, without labeling a different interpretation as a data error."
+  },
+  "summary": {
+    "checks": 23,
+    "pass": 23,
+    "fail": 0,
+    "differences": 0
+  },
+  "checks": [
+    {
+      "name": "panel_119808_unique_keys_full_3328_times_36",
+      "status": "PASS",
+      "mismatch_count": 0,
+      "detail": {
+        "rows": 119808,
+        "models": 3328,
+        "months": [
+          "2022-01",
+          "2022-02",
+          "2022-03",
+          "2022-04",
+          "2022-05",
+          "2022-06",
+          "2022-07",
+          "2022-08",
+          "2022-09",
+          "2022-10",
+          "2022-11",
+          "2022-12",
+          "2023-01",
+          "2023-02",
+          "2023-03",
+          "2023-04",
+          "2023-05",
+          "2023-06",
+          "2023-07",
+          "2023-08",
+          "2023-09",
+          "2023-10",
+          "2023-11",
+          "2023-12",
+          "2024-01",
+          "2024-02",
+          "2024-03",
+          "2024-04",
+          "2024-05",
+          "2024-06",
+          "2024-07",
+          "2024-08",
+          "2024-09",
+          "2024-10",
+          "2024-11",
+          "2024-12"
+        ]
+      }
+    },
+    {
+      "name": "member_3328_unique_keys",
+      "status": "PASS",
+      "mismatch_count": 0,
+      "detail": null
+    },
+    {
+      "name": "parameter_snapshot_6656_unique_keys_two_cutoffs",
+      "status": "PASS",
+      "mismatch_count": 0,
+      "detail": null
+    },
+    {
+      "name": "three_cutoff_states_9984_unique_keys",
+      "status": "PASS",
+      "mismatch_count": 0,
+      "detail": null
+    },
+    {
+      "name": "NFKC_whitespace_uppercase_keys",
+      "status": "PASS",
+      "mismatch_count": 0,
+      "detail": null
+    },
+    {
+      "name": "frozen_1991_reconstructed_from_16753_supplied_rows",
+      "status": "PASS",
+      "mismatch_count": 0,
+      "detail": {
+        "selected_rows": 2013,
+        "deduplicated_models": 1991,
+        "duplicates_removed": 22
+      }
+    },
+    {
+      "name": "3328_equals_1991_plus_disjoint_1337",
+      "status": "PASS",
+      "mismatch_count": 0,
+      "detail": null
+    },
+    {
+      "name": "membership_flags_recomputed_from_supplied_listing_source_upper_dates",
+      "status": "PASS",
+      "mismatch_count": 0,
+      "detail": {
+        "announcement_members": 3222,
+        "gap_members": 106
+      }
+    },
+    {
+      "name": "event_keys_and_source_connections",
+      "status": "PASS",
+      "mismatch_count": 0,
+      "detail": {
+        "event_rows": 6801,
+        "connection_rows": 6873
+      }
+    },
+    {
+      "name": "event_date_intervals_and_exact_values_internally_consistent",
+      "status": "PASS",
+      "mismatch_count": 0,
+      "detail": null
+    },
+    {
+      "name": "all_503_effective_date_exceptions_are_june_1_withdrawals",
+      "status": "PASS",
+      "mismatch_count": 0,
+      "detail": null
+    },
+    {
+      "name": "monthly_state_independently_recomputed_from_event_intervals",
+      "status": "PASS",
+      "mismatch_count": 0,
+      "detail": {
+        "rows": 119808,
+        "comparison_fields": [
+          "state",
+          "catalogue_active_observed",
+          "state_robust_under_date_bounds",
+          "possible_last_event_ids",
+          "last_event_exact_date"
+        ]
+      }
+    },
+    {
+      "name": "three_cutoff_state_independently_recomputed_from_event_intervals",
+      "status": "PASS",
+      "mismatch_count": 0,
+      "detail": {
+        "rows": 9984,
+        "comparison_fields": [
+          "state",
+          "catalogue_active_observed",
+          "state_robust_under_date_bounds",
+          "possible_last_event_ids",
+          "last_event_exact_date"
+        ]
+      }
+    },
+    {
+      "name": "month_end_calendar_and_policy_flags",
+      "status": "PASS",
+      "mismatch_count": 0,
+      "detail": null
+    },
+    {
+      "name": "both_parameter_snapshots_independent_candidate_sets_and_points",
+      "status": "PASS",
+      "mismatch_count": 0,
+      "detail": null
+    },
+    {
+      "name": "monthly_current_parameter_candidates_upper_dates_and_points",
+      "status": "PASS",
+      "mismatch_count": 0,
+      "detail": null
+    },
+    {
+      "name": "7203_parameter_observations_density_points_and_envelopes",
+      "status": "PASS",
+      "mismatch_count": 0,
+      "detail": null
+    },
+    {
+      "name": "riskset_states_readiness_and_continuous_formulas",
+      "status": "PASS",
+      "mismatch_count": 0,
+      "detail": {
+        "active_preannouncement_risk_models": 2805,
+        "numeric_input_ready": 2425,
+        "missing_two_single_values": 380
+      }
+    },
+    {
+      "name": "no_exposure_source_public_upper_after_2023_12_10",
+      "status": "PASS",
+      "mismatch_count": 0,
+      "detail": null
+    },
+    {
+      "name": "all_36_months_locked_exposures_and_source_sets_match_preannouncement",
+      "status": "PASS",
+      "mismatch_count": 0,
+      "detail": null
+    },
+    {
+      "name": "2024_withdrawal_and_subsequent_relisting_labels_independent",
+      "status": "PASS",
+      "mismatch_count": 0,
+      "detail": {
+        "withdrawn_models": 503,
+        "relisted_models": 5,
+        "relisting_is_withdrawal_subset": true
+      }
+    },
+    {
+      "name": "monthly_withdrawal_and_reapplication_cumulative_flags",
+      "status": "PASS",
+      "mismatch_count": 0,
+      "detail": null
+    },
+    {
+      "name": "unknown_configuration_legal_causal_population_exit_certifications_stay_zero",
+      "status": "PASS",
+      "mismatch_count": 0,
+      "detail": null
+    }
+  ],
+  "month_end_state_counts": {
+    "在册（区间口径下的已收集事件）": 87127,
+    "已撤销（区间口径下的已收集事件）": 18527,
+    "未列入（已收集记录范围）": 14154
+  },
+  "cutoff_state_counts": [
+    {
+      "cutoff": "2023-12-10",
+      "state": "在册（区间口径下的已收集事件）",
+      "models": 2805
+    },
+    {
+      "cutoff": "2023-12-10",
+      "state": "已撤销（区间口径下的已收集事件）",
+      "models": 417
+    },
+    {
+      "cutoff": "2023-12-10",
+      "state": "未列入（已收集记录范围）",
+      "models": 106
+    },
+    {
+      "cutoff": "2023-12-31",
+      "state": "在册（区间口径下的已收集事件）",
+      "models": 2911
+    },
+    {
+      "cutoff": "2023-12-31",
+      "state": "已撤销（区间口径下的已收集事件）",
+      "models": 417
+    },
+    {
+      "cutoff": "2024-12-31",
+      "state": "在册（区间口径下的已收集事件）",
+      "models": 2413
+    },
+    {
+      "cutoff": "2024-12-31",
+      "state": "已撤销（区间口径下的已收集事件）",
+      "models": 915
+    }
+  ],
+  "inputs": {
+    "研究数据/样本成员重建.csv": {
+      "sha256": "7bc82499c2b093650576e25d9b143e88140127dd536f76f41d5cb3d7767321f1",
+      "rows": 3328,
+      "fields": [
+        "model_key",
+        "in_frozen_1991",
+        "membership_announcement_cohort",
+        "membership_implementation_cohort",
+        "membership_gap_first_listed",
+        "admitted_to_analysis_cohort",
+        "classification_conflict_quarantined",
+        "membership_rule",
+        "vehicle_class_independently_certified",
+        "membership_vs_frozen",
+        "recovered_member",
+        "source_listing_record_count",
+        "old_bottom_rows_seen",
+        "old_bottom_power_class_tags",
+        "old_bottom_record_kind_tags",
+        "source_batches",
+        "source_record_ids",
+        "has_mf29_source",
+        "listed_in_new_cat1",
+        "whole_catalogue_population_exhaustiveness_certified"
+      ]
+    },
+    "研究数据/车型月度面板_2022至2024.csv": {
+      "sha256": "a9013b4ed53cf833ab4dddcba23efd1259e3c98b1c9002fd09267fff475528fb",
+      "rows": 119808,
+      "fields": [
+        "model_key",
+        "month",
+        "month_end",
+        "in_frozen_1991",
+        "membership_announcement_cohort",
+        "membership_gap_first_listed",
+        "post_announcement",
+        "post_implementation",
+        "post_transition_end",
+        "catalogue_active_observed",
+        "state",
+        "state_robust_under_date_bounds",
+        "possible_last_event_ids",
+        "last_event_exact_date",
+        "reapplication_observed_cumulative",
+        "explicit_withdrawal_observed_cumulative",
+        "new_parameter_observation_in_month",
+        "parameter_possible_latest_ids",
+        "parameter_latest_upper",
+        "range_record_point",
+        "density_proxy_record_point",
+        "parameter_range_cycle_explicit",
+        "exposure_range_locked_preannouncement",
+        "exposure_density_proxy_locked_preannouncement",
+        "exposure_joint_max_locked_preannouncement",
+        "exposure_source_ids",
+        "descriptive_continuous_did_input_ready",
+        "low_temperature_stratum",
+        "configuration_identity_certified",
+        "production_or_market_exit_inferred"
+      ]
+    },
+    "研究数据/重建样本_两截点参数与暴露.csv": {
+      "sha256": "924bf800155102bfe1421f219dfb92aab9e54f00fc7976475c42c2342095a728",
+      "rows": 6656,
+      "fields": [
+        "model_key",
+        "cutoff",
+        "possible_latest_record_ids",
+        "possible_latest_record_count",
+        "all_possible_latest_observed_before_cutoff",
+        "possible_date_lower_min",
+        "possible_date_upper_max",
+        "source_systems",
+        "source_batches",
+        "configuration_identity_certified",
+        "low_temperature_evidence_obtained",
+        "point_scope",
+        "range_point",
+        "range_lower",
+        "range_upper",
+        "curb_mass_point",
+        "curb_mass_lower",
+        "curb_mass_upper",
+        "battery_mass_point",
+        "battery_mass_lower",
+        "battery_mass_upper",
+        "battery_energy_point",
+        "battery_energy_lower",
+        "battery_energy_upper",
+        "density_proxy_point",
+        "density_proxy_lower",
+        "density_proxy_upper",
+        "range_cycle_explicit",
+        "range_relative_shortfall",
+        "range_shortfall_lower",
+        "range_shortfall_upper",
+        "density_proxy_relative_shortfall",
+        "density_proxy_shortfall_lower",
+        "density_proxy_shortfall_upper",
+        "two_parameter_point_available",
+        "joint_max_relative_shortfall",
+        "ordinary_two_parameter_screen"
+      ]
+    },
+    "研究数据/重建样本_三截点状态.csv": {
+      "sha256": "535a9b81e2f2f6bef12cbc3fb1530d8343c3133c972c2bface0426feebb33fb7",
+      "rows": 9984,
+      "fields": [
+        "model_key",
+        "cutoff",
+        "in_frozen_1991",
+        "membership_announcement_cohort",
+        "state",
+        "catalogue_active_observed",
+        "state_robust_under_date_bounds",
+        "possible_last_event_ids",
+        "possible_last_actions",
+        "last_event_exact_date",
+        "certain_observed_event_count",
+        "potential_event_count",
+        "state_scope"
+      ]
+    },
+    "研究数据/资格事件_重建去重表.csv": {
+      "sha256": "5daba3d6ff7c03174de8d6022969ac91d20df4295db4cbceaa07bd67078afba2",
+      "rows": 6801,
+      "fields": [
+        "model_key",
+        "action",
+        "system",
+        "event_batch",
+        "publish_date_exact",
+        "public_date_lower_bound",
+        "public_date_upper_bound",
+        "event_date_basis",
+        "event_id",
+        "source_record_count",
+        "source_record_ids",
+        "source_batches",
+        "reapplication_signal",
+        "effective_date_exception"
+      ]
+    },
+    "研究数据/资格事件_逐原件连接.csv": {
+      "sha256": "725eb3c0fdabef8112dff848047410bd861ff8e50f8c0028116400bb6e4e7b61",
+      "rows": 6873,
+      "fields": [
+        "event_id",
+        "model_key",
+        "action",
+        "system",
+        "event_batch",
+        "source_batch",
+        "source_record_id",
+        "observation_kind",
+        "source_owner",
+        "source_file",
+        "source_sha256",
+        "source_location",
+        "publish_date_exact",
+        "public_date_lower_bound",
+        "public_date_upper_bound",
+        "event_date_basis",
+        "source_parameter_observation_lower",
+        "source_parameter_observation_upper",
+        "reapplication_signal",
+        "effective_date_exception"
+      ]
+    },
+    "研究数据/参数版本_字段勘误生效视图.csv": {
+      "sha256": "93b6dbbf41cdaada23f286f4ca3b4923b5b71ccbe6be117e2dedbd02626355c4",
+      "rows": 7203,
+      "fields": [
+        "admitted_to_analysis_cohort",
+        "battery_energy_lower",
+        "battery_energy_parse_status_new",
+        "battery_energy_point",
+        "battery_energy_raw",
+        "battery_energy_upper",
+        "battery_energy_values_new",
+        "battery_mass_lower",
+        "battery_mass_parse_status_new",
+        "battery_mass_point",
+        "battery_mass_raw",
+        "battery_mass_upper",
+        "battery_mass_values_new",
+        "catalogue_batch_marked_raw",
+        "class",
+        "classification_conflict_quarantined",
+        "column_alignment_verified",
+        "curb_mass_lower",
+        "curb_mass_parse_status_new",
+        "curb_mass_point",
+        "curb_mass_raw",
+        "curb_mass_upper",
+        "curb_mass_values_new",
+        "date_basis",
+        "density_measure",
+        "density_proxy_lower",
+        "density_proxy_point",
+        "density_proxy_upper",
+        "entity_verified",
+        "firm_context_candidate",
+        "firm_raw",
+        "full_configuration_match_verified",
+        "interval_scope",
+        "low_temperature_evidence_obtained",
+        "low_temperature_status",
+        "model_key",
+        "model_raw",
+        "observation_kind",
+        "part",
+        "power",
+        "product_name_raw",
+        "public_date_lower_bound",
+        "public_date_upper_bound",
+        "publish_date_exact",
+        "range_cycle_explicit_new",
+        "range_lower",
+        "range_parse_status_new",
+        "range_point",
+        "range_raw",
+        "range_upper",
+        "range_values_new",
+        "record_id",
+        "remarks_raw",
+        "same_cycle_comparability_verified",
+        "source_batch",
+        "source_file",
+        "source_format",
+        "source_location",
+        "source_owner",
+        "source_sha256",
+        "system",
+        "trade_name_raw",
+        "composition_kind",
+        "target_record_id",
+        "corrected_fields",
+        "inherited_fields",
+        "field_source_record_ids_json",
+        "field_source_sha256_json",
+        "field_observation_upper_bounds_json",
+        "correction_scope_verified",
+        "original_field_parse_status_json",
+        "effective_values_scope"
+      ]
+    },
+    "研究数据/原件列入_成员来源长表.csv": {
+      "sha256": "a52eeb0db087a88c4e53deebd76d48d5cc88f7a7b22d3a578df11e2cfca89ee6",
+      "rows": 3339,
+      "fields": [
+        "record_id",
+        "system",
+        "source_batch",
+        "source_owner",
+        "source_file",
+        "source_sha256",
+        "model_key",
+        "model_raw",
+        "power",
+        "class",
+        "source_location",
+        "public_date_lower_bound",
+        "public_date_upper_bound"
+      ]
+    },
+    "研究数据/公告前风险集_连续处理强度输入.csv": {
+      "sha256": "8adf5f12dd05109d4084723b47e9249c9adc9227b4f14e5787cd198d8c1552ff",
+      "rows": 3328,
+      "fields": [
+        "model_key",
+        "in_frozen_1991",
+        "membership_announcement_cohort",
+        "membership_implementation_cohort",
+        "membership_gap_first_listed",
+        "admitted_to_analysis_cohort",
+        "classification_conflict_quarantined",
+        "membership_rule",
+        "vehicle_class_independently_certified",
+        "membership_vs_frozen",
+        "recovered_member",
+        "source_listing_record_count",
+        "old_bottom_rows_seen",
+        "old_bottom_power_class_tags",
+        "old_bottom_record_kind_tags",
+        "source_batches",
+        "source_record_ids",
+        "has_mf29_source",
+        "listed_in_new_cat1",
+        "whole_catalogue_population_exhaustiveness_certified",
+        "announcement_state",
+        "announcement_active_observed",
+        "descriptive_continuous_did_input_ready",
+        "eligibility_classification_certified",
+        "continuous_exposure_range",
+        "continuous_exposure_density_proxy",
+        "continuous_exposure_joint_max",
+        "exposure_record_ids",
+        "exposure_max_observation_upper",
+        "range_cycle_explicit",
+        "low_temperature_stratum",
+        "low_temperature_evidence_obtained",
+        "causal_identification_certified",
+        "exclusion_from_numeric_primary_reason"
+      ]
+    },
+    "研究数据/政策后资格轨迹与重申报标签.csv": {
+      "sha256": "657b02dd5bd8d70c7ff1e6176d0a51d1fb3c76058a42af3f88227ada4555dde5",
+      "rows": 3328,
+      "fields": [
+        "model_key",
+        "in_frozen_1991",
+        "membership_announcement_cohort",
+        "state_preannouncement",
+        "state_preimplementation",
+        "state_year_end_2024",
+        "post2024_withdrawal_observed",
+        "withdrawal_event_ids",
+        "relisted_after_2024_withdrawal_observed",
+        "relisting_event_ids",
+        "reapplication_observed_by_2024_year_end",
+        "label_scope"
+      ]
+    },
+    "1991基线/16753_逐行筛选说明.csv": {
+      "sha256": "d7c9d081e1a9237cc404190063eea8610e3dff23e2ddda7d76b4dd00d89cf41f",
+      "rows": 16753,
+      "fields": [
+        "csv_line_1based",
+        "batch",
+        "model_raw",
+        "model_key",
+        "power",
+        "vehicle_class",
+        "record_kind",
+        "decision"
+      ]
+    },
+    "1991基线/1991_独立重建名单.csv": {
+      "sha256": "4a909b0b068a92db801186cecded98f49d40167b73515afc6157fa4e36f5189c",
+      "rows": 1991,
+      "fields": [
+        "model_key"
+      ]
+    }
+  }
+}

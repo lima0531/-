@@ -1,0 +1,24 @@
+{
+  "catalogue_sources": 97,
+  "historical_exact_catalogue_originals": 97,
+  "independent_parameter_rows": 7203,
+  "prior_round_independent_rows": 7145,
+  "new_source_table_rows": 57,
+  "new_narrative_partial_correction_rows": 1,
+  "scientific_fields": [
+    "model_key",
+    "kind",
+    "range_raw",
+    "curb_mass_raw",
+    "battery_mass_raw",
+    "battery_energy_raw",
+    "remarks_raw"
+  ],
+  "model_or_scientific_multiset_missing": 0,
+  "model_or_scientific_multiset_extra": 0,
+  "all_historic_originals_verified": 106,
+  "normalization": "NFKC and whitespace removal only; slash choices and tolerances preserved",
+  "scope": "All retained BEV passenger parameter rows in 97 historical catalogue sources; not legal/configuration identity or global catalogue exhaustiveness",
+  "partial_correction_raw_blanks_preserved": true,
+  "first_batch_primary_first_online_date_still_unverified": true
+}

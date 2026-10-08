@@ -1,0 +1,181 @@
+{
+  "source_file": "/workspace/purchase_tax_audit/round5/originals/mf_batch01.pdf",
+  "source_bytes": 442883,
+  "source_sha256": "eac13628c37f01c4da157a2d1916d97acc81fdc295f18e1783549075ce7e5aa7",
+  "historical_archive_identity_exact": true,
+  "pdf_pages": 8,
+  "engines": [
+    {
+      "engine": "PyMuPDF ruled-grid geometry plus standalone class heading bounds",
+      "tables": [
+        {
+          "page": 1,
+          "table": 0,
+          "bbox": [
+            34.19999885559082,
+            161.0600128173828,
+            807.8399658203125,
+            501.33599853515625
+          ],
+          "data_rows": 17,
+          "header_raw": [
+            "序\n号",
+            "汽车生产企业名称",
+            "车辆型号",
+            "通用名称",
+            "纯电动续驶\n里程（km）",
+            "整车整备质\n量（kg）",
+            "动力蓄电池组\n总质量（kg）",
+            "动力蓄电池组\n总能量（kWh）",
+            "备注"
+          ],
+          "header_columns": {
+            "sequence_raw": 0,
+            "firm_raw": 1,
+            "model_raw": 2,
+            "trade_name_raw": 3,
+            "range_raw": 4,
+            "curb_mass_raw": 5,
+            "battery_mass_raw": 6,
+            "battery_energy_raw": 7,
+            "remarks_raw": 8
+          }
+        }
+      ]
+    },
+    {
+      "engine": "pdfplumber/pdfminer plus independent ruled-grid and power/class headings",
+      "tables": [
+        {
+          "page_1based": 1,
+          "table_0based": 0,
+          "bbox": [
+            34.2,
+            161.06000000000006,
+            807.83999,
+            501.3359950000001
+          ],
+          "header_raw": [
+            "序\n号",
+            "汽车生产企业名称",
+            "车辆型号",
+            "通用名称",
+            "纯电动续驶\n里程（km）",
+            "整车整备质\n量（kg）",
+            "动力蓄电池组\n总质量（kg）",
+            "动力蓄电池组\n总能量（kWh）",
+            "备注"
+          ],
+          "data_rows": 17
+        }
+      ],
+      "end_boundary": "(二)客车 on page 2"
+    }
+  ],
+  "source_header_title_verified": [
+    "免征车辆购置税的新能源汽车车型目录(第一批)"
+  ],
+  "source_enumeration_rows": 17,
+  "sequence_1_to_17_complete": true,
+  "models_unique": true,
+  "comparisons": [
+    {
+      "comparison": "two_independent_engines",
+      "source_rows": 17,
+      "reference_rows": 17,
+      "fields": [
+        "sequence_raw",
+        "firm_raw",
+        "model_raw",
+        "trade_name_raw",
+        "range_raw",
+        "curb_mass_raw",
+        "battery_mass_raw",
+        "battery_energy_raw",
+        "remarks_raw"
+      ],
+      "field_positions": 153,
+      "source_only_rows": 0,
+      "reference_only_rows": 0,
+      "normalization": "NFKC then whitespace removal only; slash options preserved"
+    },
+    {
+      "comparison": "source_vs_v1_4_parameters",
+      "source_rows": 17,
+      "reference_rows": 17,
+      "fields": [
+        "model_raw",
+        "firm_raw",
+        "trade_name_raw",
+        "product_name_raw",
+        "range_raw",
+        "curb_mass_raw",
+        "battery_mass_raw",
+        "battery_energy_raw",
+        "remarks_raw",
+        "catalogue_batch_marked_raw"
+      ],
+      "field_positions": 170,
+      "source_only_rows": 0,
+      "reference_only_rows": 0,
+      "normalization": "NFKC then whitespace removal only; slash options preserved"
+    },
+    {
+      "comparison": "source_vs_v1_4_enumeration",
+      "source_rows": 17,
+      "reference_rows": 17,
+      "fields": [
+        "model_raw",
+        "model_key",
+        "kind",
+        "sequence_raw"
+      ],
+      "field_positions": 68,
+      "source_only_rows": 0,
+      "reference_only_rows": 0,
+      "normalization": "NFKC then whitespace removal only; slash options preserved"
+    }
+  ],
+  "differences": 0,
+  "scientific_raw_positions_checked": 68,
+  "scientific_raw_difference_count": 0,
+  "class_conflicts": [
+    {
+      "model_key": "BJ5021XXYV3R1-BEV",
+      "source_heading": "一、纯电动汽车 / （一）乘用车",
+      "sequence_raw": "5",
+      "trade_name_raw": "威旺307EV",
+      "product_name_column_present": false,
+      "original_category_conflict_preserved": true,
+      "admitted_to_analysis_cohort": "0",
+      "other_source_configuration_identity_certified": false,
+      "interpretation": "来源分组与通用名称已直接验证；本附件没有产品名称栏，不能单凭该表认证 M1 或解决跨来源分类冲突"
+    }
+  ],
+  "merged_enterprise_cells": {
+    "policy": "firm_raw keeps the literal source cell, including blanks covered by vertically merged cells; do not fabricate repeated raw text",
+    "blank_literal_cells": 6
+  },
+  "date_review": {
+    "body_date_strings": [],
+    "contains_primary_announcement_or_signature": false,
+    "metadata": {
+      "format": "PDF 1.5",
+      "title": "工业和信息化部   国家税务总局",
+      "author": "Administrator",
+      "subject": "",
+      "keywords": "",
+      "creator": "Microsoft® Word 2013",
+      "producer": "Microsoft® Word 2013",
+      "creationDate": "D:20140829164833+08'00'",
+      "modDate": "D:20140829164833+08'00'",
+      "trapped": "",
+      "encryption": null
+    },
+    "conclusion": "附件本身无首发日期或落款；PDF 创建时间 2014-08-29 仅为文档元数据，不能升级为首发日，也不能将外部公告签署日等同首发日",
+    "primary_first_publication_date_closed": false
+  },
+  "parameters_and_frozen_values_modified": false,
+  "manual_render_review": "第 1 页 2x 渲染已目视复核；车型、四个数字列、斜杠选项、企业合并格、类别冲突第 5 行均与两引擎网格文本一致",
+  "scope": "仅此份附件全部纯电动乘用车 17 行，不声称对附件其余车辆类别做参数核查，不认证 M1、配置身份或法律资格"
+}

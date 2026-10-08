@@ -1,0 +1,137 @@
+{
+  "status": "explicit_source_bound_partial_correction_supported",
+  "scope": "目录条目字段更正的可重现计算承接；不作逐车法律资格认定",
+  "reproducible_assertions_passed": true,
+  "canonical_csv_mutated": false,
+  "raw_parameter_rows": 7203,
+  "source_proofs": {
+    "base62": {
+      "source_sha256": "7694ac7207998b6af7c895cdd2c1d752421df436d4b28f83195261dd47f6509c",
+      "reader": "bounded CFB and MS-DOC CLX main-story pieces; no layout reconstruction",
+      "fib_nFib": 193,
+      "table_stream": "0Table",
+      "main_story_utf16_units": 30076,
+      "extracted_main_story_units": 30076,
+      "piece_count_total": 1,
+      "piece_count_main_story": 1,
+      "word_stream_sha256": "45ec0e693a46c8601d8595eabc9af004751b0e4e511033ea83ac5b2841ddddb5",
+      "table_stream_sha256": "40b156c0036cadd63d68f61545532626d25ce53435cba790a06fd8d308f1d576",
+      "independent_table_enumeration": false
+    },
+    "correction64": {
+      "source_sha256": "c4e238989e7e40ec2c3a6a899ead170b4a745bc72546ba6fd4a5731d8890c6cb",
+      "reader": "bounded CFB and MS-DOC CLX main-story pieces; no layout reconstruction",
+      "fib_nFib": 193,
+      "table_stream": "0Table",
+      "main_story_utf16_units": 15282,
+      "extracted_main_story_units": 15282,
+      "piece_count_total": 1,
+      "piece_count_main_story": 1,
+      "word_stream_sha256": "6dca0b7fb9a6630afd50200e26d0ba1a84934513573c69dc2340ac2f3182a32e",
+      "table_stream_sha256": "6247ec0143236b9210fa22346a519a601c64de101de295b4a4ee7ba4e86d8603",
+      "independent_table_enumeration": false
+    }
+  },
+  "correction_quote": "勘误：《免征车辆购置税的新能源汽车车型目录》（第六十二批）纯电动乘用车部分第6项，上汽通用汽车有限公司凯迪拉克(CADILLAC)牌SGM6500BEBEV纯电动多用途乘用车，纯电动续驶里程应为608km。",
+  "correction_primary_main_story_character_slice_0based": [
+    2267,
+    2370
+  ],
+  "target_logical_record_id": "old-62-Word97--0-7",
+  "correction_logical_record_id": "old-text-correction-64-SGM6500BEBEV",
+  "target_table_derivative_location": {
+    "table_0based": 0,
+    "row_0based_including_header": 6,
+    "data_item_1based": 6,
+    "model_column_0based": 2,
+    "range_column_0based": 4,
+    "curb_mass_column_0based": 5,
+    "battery_mass_column_0based": 6,
+    "battery_energy_column_0based": 7
+  },
+  "target_source_location_preserved": "{\"model_cell_0based\": 62, \"page_1based\": \"\", \"row_1based\": 7, \"row_start_cell_0based\": 60, \"table_0based\": 0}",
+  "correction_source_location_preserved": "source_cell_0based=410",
+  "unambiguous_original_passenger_table_model_match_count": 1,
+  "target_automatic_numbering_independently_checked": {
+    "numId": 8,
+    "level": 0,
+    "number_format": "decimal",
+    "start": 1,
+    "first_six_data_rows_same_numbering_instance": true,
+    "target_rendered_sequence": 6
+  },
+  "field_replacement": {
+    "range": {
+      "old": "502",
+      "corrected": "608"
+    }
+  },
+  "inherited_unmodified_fields": {
+    "curb_mass": "2620",
+    "battery_mass": "620",
+    "battery_energy": "95.7"
+  },
+  "derived_density_proxy_Wh_per_kg": "154.3548387096774193548387097",
+  "effective_view_inherited_calculation_columns": [
+    "curb_mass_lower",
+    "curb_mass_upper",
+    "curb_mass_point",
+    "curb_mass_values_new",
+    "curb_mass_parse_status_new",
+    "battery_mass_lower",
+    "battery_mass_upper",
+    "battery_mass_point",
+    "battery_mass_values_new",
+    "battery_mass_parse_status_new",
+    "battery_energy_lower",
+    "battery_energy_upper",
+    "battery_energy_point",
+    "battery_energy_values_new",
+    "battery_energy_parse_status_new"
+  ],
+  "do_not_use_future_record": "new-01-cell-4193 / 2023-12-26",
+  "availability_rule": "更正视图自 2023-04-17 公开观察信息集使用；不将 608 回填此前月度参数观察",
+  "expected_delta_if_only_this_source_bound_patch_is_applied": {
+    "risk_models": {
+      "before": 2805,
+      "after": 2805
+    },
+    "numeric_ready_models": {
+      "before": 2424,
+      "after": 2425
+    },
+    "single_value_insufficient_models": {
+      "before": 381,
+      "after": 380
+    },
+    "both_numeric_thresholds_met_layer": {
+      "before": 1821,
+      "after": 1822
+    },
+    "frozen_range_exposure": {
+      "before": "0",
+      "after": "0"
+    },
+    "frozen_density_exposure": {
+      "before": "",
+      "after": "0"
+    },
+    "frozen_joint_max_exposure": {
+      "before": "",
+      "after": "0"
+    },
+    "monthly_record_density_blank_to_source_bound_value_months": [
+      "2023-04",
+      "2023-05",
+      "2023-06",
+      "2023-07",
+      "2023-08",
+      "2023-09",
+      "2023-10",
+      "2023-11"
+    ],
+    "monthly_frozen_exposure_and_ready_flag_updated_rows": 36,
+    "member_and_eligibility_event_changes": 0,
+    "official_marked_threshold_met_count_changes": 0
+  }
+}

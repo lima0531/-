@@ -1,0 +1,40 @@
+[
+  {
+    "tag": "withdrawal_20180522",
+    "event_batch": "2018-05-22独立撤销公告",
+    "signed_date": "2018-05-21",
+    "published_date": "2018-05-22",
+    "record_prefix": "new-wd20180522",
+    "expected_rows": 1882,
+    "source_file": "/workspace/purchase_tax_audit/round3/coverage/raw/withdrawal_20180522.doc",
+    "source_sha256": "f943ccd1e796aba5e16386cf5e0b83e4ec9c6b8f33ba57522dc011d940e89915",
+    "source_bytes": 3350904,
+    "source_url": "https://www.miit.gov.cn/cms_files/filemanager/oldfile/miit/n1146285/n1146352/n3054355/n3057585/n3057589/c6181659/part/6181674.doc",
+    "announcement_url": "https://www.miit.gov.cn/jgsj/zbys/gzdt/art/2020/art_c997557027dd4ca7b299a4456467c94d.html",
+    "announcement_page_sha256": "6b265ad08d60a1d02af42882ac28e5792c8dcf623f764eeaae2c5dca74a94f6e",
+    "full_table_rows": 1882,
+    "unique_models": 1882,
+    "cohort_models": 65,
+    "source_missing_from_106_index": true,
+    "legal_effective_date_verified": false
+  },
+  {
+    "tag": "withdrawal_batch28",
+    "event_batch": "28",
+    "signed_date": "2019-12-06",
+    "published_date": "2019-12-10",
+    "record_prefix": "new-wd28",
+    "expected_rows": 138,
+    "source_file": "/workspace/purchase_tax_audit/round3/coverage/raw/withdrawal_batch28.doc",
+    "source_sha256": "666f5befd4f2b67c08d2e2022cb2708007fb89babb38aa5c66b04ffb5702ae10",
+    "source_bytes": 243712,
+    "source_url": "https://www.miit.gov.cn/cms_files/filemanager/oldfile/miit/n1146295/n1652858/n1652930/n4509607/c7564229/part/7564256.doc",
+    "announcement_url": "https://www.miit.gov.cn/zwgk/zcwj/wjfb/gg/art/2020/art_891208b8af8448f9b37ccf41476d0c13.html",
+    "announcement_page_sha256": "dda966ad7f1f788cd03e3fc22cf779e9ecb5f6c9c0dcaf168f557a414e7e9999",
+    "full_table_rows": 138,
+    "unique_models": 138,
+    "cohort_models": 8,
+    "source_missing_from_106_index": true,
+    "legal_effective_date_verified": false
+  }
+]

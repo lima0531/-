@@ -1,0 +1,43 @@
+{
+  "source_sha256": "c4e238989e7e40ec2c3a6a899ead170b4a745bc72546ba6fd4a5731d8890c6cb",
+  "source_bytes": 597504,
+  "recovered_historical_exact": true,
+  "independently_enumerated_BEV_passenger_table_rows": 40,
+  "narrative_BEV_corrections": 1,
+  "all_powertrain_narrative_corrections": 2,
+  "dual_engine_comparison_fields": [
+    "sequence_raw",
+    "firm_raw",
+    "model_raw",
+    "trade_name_raw",
+    "range_raw",
+    "curb_mass_raw",
+    "battery_mass_raw",
+    "battery_energy_raw",
+    "remarks_raw"
+  ],
+  "dual_engine_batch64_field_comparisons": 360,
+  "dual_engine_batch62_referred_field_comparisons": 9,
+  "dual_engine_differences": 0,
+  "base_parameter_field_comparisons": 440,
+  "base_parameter_differences": 0,
+  "existing_enumeration_model_multiset_equal": true,
+  "narrative_record_differences": [],
+  "narrative_sparse_unmodified_fields_are_blank": {
+    "curb_mass_raw": true,
+    "battery_mass_raw": true,
+    "battery_energy_raw": true
+  },
+  "field_specific_correction_from": "502",
+  "field_specific_correction_to": "608",
+  "preserved_curb_mass_from_batch62": "2620",
+  "preserved_battery_mass_from_batch62": "620",
+  "preserved_battery_energy_from_batch62": "95.7",
+  "corrected_record_source_cell": 410,
+  "future_information_used": false,
+  "base_tables_modified": false,
+  "methodological_finding": "当前仅续航文字勘误是稀疏更正记录。原文直接指定第62批第6项，续航更正不撤销或清空该原项电池质量/能量。采用整行最新记录冻结参数会把未更正字段误计为缺值；字段级继承可由公告前原文支持，须由主流程另做显式版本化实现和状态/暴露验证。",
+  "base_parameter_file_sha256": "d72dddbc280eec061894e39321c0cf37a2b3b0ec89bdbe1623614616604888ab",
+  "base_enumeration_file_sha256": "2921701b8a459e15bb663a56fd3153925413b7890199116774c59cc55f426637",
+  "checks_passed": true
+}
