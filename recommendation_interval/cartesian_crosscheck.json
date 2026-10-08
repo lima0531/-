@@ -1,0 +1,182 @@
+{
+  "method": "recompute each Cartesian numeric combination from parsed evidence using independent piecewise formula; no actual option pairing certified",
+  "versions": 29,
+  "numeric_combinations": 72,
+  "differences": 0,
+  "checks": [
+    {
+      "observation_version_key": "rec2022_12|rec2022_12-p20-t3|NC025187",
+      "unpaired_cartesian_combinations": 2,
+      "all_pass": true,
+      "all_fail": false
+    },
+    {
+      "observation_version_key": "rec2022_12|rec2022_12-p60-t1|NC026300",
+      "unpaired_cartesian_combinations": 2,
+      "all_pass": true,
+      "all_fail": false
+    },
+    {
+      "observation_version_key": "rec2022_12|rec2022_12-p60-t1|NC023012",
+      "unpaired_cartesian_combinations": 2,
+      "all_pass": true,
+      "all_fail": false
+    },
+    {
+      "observation_version_key": "rec2022_12|rec2022_12-p60-t1|NC003295",
+      "unpaired_cartesian_combinations": 2,
+      "all_pass": true,
+      "all_fail": false
+    },
+    {
+      "observation_version_key": "rec2022_12|rec2022_12-p60-t1|NC011183",
+      "unpaired_cartesian_combinations": 2,
+      "all_pass": true,
+      "all_fail": false
+    },
+    {
+      "observation_version_key": "rec2022_12|rec2022_12-p64-t1|NC009116",
+      "unpaired_cartesian_combinations": 2,
+      "all_pass": true,
+      "all_fail": false
+    },
+    {
+      "observation_version_key": "rec2022_12|rec2022_12-p64-t1|NC012203",
+      "unpaired_cartesian_combinations": 2,
+      "all_pass": true,
+      "all_fail": false
+    },
+    {
+      "observation_version_key": "rec2022_12|rec2022_12-p64-t1|NC012201",
+      "unpaired_cartesian_combinations": 2,
+      "all_pass": true,
+      "all_fail": false
+    },
+    {
+      "observation_version_key": "rec2022_12|rec2022_12-p64-t1|NC009134",
+      "unpaired_cartesian_combinations": 2,
+      "all_pass": true,
+      "all_fail": false
+    },
+    {
+      "observation_version_key": "rec2022_12|rec2022_12-p64-t1|NC009123",
+      "unpaired_cartesian_combinations": 2,
+      "all_pass": true,
+      "all_fail": false
+    },
+    {
+      "observation_version_key": "rec2022_12|rec2022_12-p64-t1|NC009120",
+      "unpaired_cartesian_combinations": 2,
+      "all_pass": true,
+      "all_fail": false
+    },
+    {
+      "observation_version_key": "rec2022_12|rec2022_12-p70-t3|NC003362",
+      "unpaired_cartesian_combinations": 4,
+      "all_pass": true,
+      "all_fail": false
+    },
+    {
+      "observation_version_key": "rec2022_12|rec2022_12-p77-t4|NC573180",
+      "unpaired_cartesian_combinations": 4,
+      "all_pass": true,
+      "all_fail": false
+    },
+    {
+      "observation_version_key": "rec2020_04|rec2020_04-p18-t2|NC507855",
+      "unpaired_cartesian_combinations": 2,
+      "all_pass": true,
+      "all_fail": false
+    },
+    {
+      "observation_version_key": "rec2022_04|rec2022_04-p23-t2|NC015700",
+      "unpaired_cartesian_combinations": 2,
+      "all_pass": true,
+      "all_fail": false
+    },
+    {
+      "observation_version_key": "rec2022_04|rec2022_04-p74-t2|NC490755",
+      "unpaired_cartesian_combinations": 4,
+      "all_pass": true,
+      "all_fail": false
+    },
+    {
+      "observation_version_key": "rec2022_04|rec2022_04-p75-t0|NC496406",
+      "unpaired_cartesian_combinations": 4,
+      "all_pass": true,
+      "all_fail": false
+    },
+    {
+      "observation_version_key": "rec2022_04|rec2022_04-p82-t0|NC016881",
+      "unpaired_cartesian_combinations": 2,
+      "all_pass": true,
+      "all_fail": false
+    },
+    {
+      "observation_version_key": "rec2022_04|rec2022_04-p82-t0|NC002583",
+      "unpaired_cartesian_combinations": 2,
+      "all_pass": true,
+      "all_fail": false
+    },
+    {
+      "observation_version_key": "rec2022_04|rec2022_04-p87-t3|NC004482",
+      "unpaired_cartesian_combinations": 2,
+      "all_pass": true,
+      "all_fail": false
+    },
+    {
+      "observation_version_key": "rec2022_04|rec2022_04-p101-t0|NC560417",
+      "unpaired_cartesian_combinations": 2,
+      "all_pass": true,
+      "all_fail": false
+    },
+    {
+      "observation_version_key": "rec2022_04|rec2022_04-p101-t0|NC015326",
+      "unpaired_cartesian_combinations": 2,
+      "all_pass": true,
+      "all_fail": false
+    },
+    {
+      "observation_version_key": "rec2022_04|rec2022_04-p101-t1|NC576257",
+      "unpaired_cartesian_combinations": 3,
+      "all_pass": true,
+      "all_fail": false
+    },
+    {
+      "observation_version_key": "rec2022_04|rec2022_04-p101-t1|NC018159",
+      "unpaired_cartesian_combinations": 3,
+      "all_pass": true,
+      "all_fail": false
+    },
+    {
+      "observation_version_key": "rec2022_04|rec2022_04-p101-t2|NC005151",
+      "unpaired_cartesian_combinations": 2,
+      "all_pass": true,
+      "all_fail": false
+    },
+    {
+      "observation_version_key": "rec2022_04|rec2022_04-p101-t3|NC009555",
+      "unpaired_cartesian_combinations": 2,
+      "all_pass": true,
+      "all_fail": false
+    },
+    {
+      "observation_version_key": "rec2022_04|rec2022_04-p106-t2|NC530212",
+      "unpaired_cartesian_combinations": 4,
+      "all_pass": true,
+      "all_fail": false
+    },
+    {
+      "observation_version_key": "rec2022_04|rec2022_04-p106-t3|NC005120",
+      "unpaired_cartesian_combinations": 4,
+      "all_pass": true,
+      "all_fail": false
+    },
+    {
+      "observation_version_key": "rec2022_04|rec2022_04-p108-t1|NC008570",
+      "unpaired_cartesian_combinations": 2,
+      "all_pass": false,
+      "all_fail": true
+    }
+  ]
+}

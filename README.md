@@ -10,3 +10,11 @@
 如果GitHub提示文件太大无法预览，请使用Download raw file下载按钮。CSV用Excel打开；乱码时按UTF-8导入。
 
 本轮补齐104/106份历史同字节原件；95份可得目录、9份历史撤销名单已全表核查，科学参数和冻结暴露未变。仍需取回的两份原件为mf_batch01.pdf、mf_batch64.doc，具体嵌套位置见查看包材料清单。
+
+## 在网页直接查看
+
+- [核查报告](audit_report.md)
+- [需要你提供的材料、型号和获取渠道](requirements/需要用户亲自提供的数据.md)
+- [两份原件的精确嵌套位置](requirements/2份历史原件_嵌套归档精确路径.csv)
+
+下载完整资料：在本分支页面点击绿色 Code，再选 Download ZIP；也可打开单个ZIP文件页面，使用 Download raw file 按钮。私有仓库需登录有权限的GitHub账号。

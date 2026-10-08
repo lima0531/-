@@ -1,0 +1,25 @@
+{
+  "rows": 381,
+  "two_parameter_threshold_results_determined": 343,
+  "interval_screen_counts": {
+    "两项数值在整个外包络均达到常规阈值": 300,
+    "区间跨越阈值，具体配置仍待匹配": 32,
+    "至少一项数值在整个外包络低于常规阈值": 47,
+    "缺少可用原始字段/更正范围证据": 2
+  },
+  "reason_counts": {
+    "多个数值/配置选项；原值已经取得": 86,
+    "公差区间（可能同时含多配置）；原值已经取得": 286,
+    "数值附注；原值已经取得，冻结主表保留原点估计口径": 5,
+    "原件空格或局部更正范围待核": 2,
+    "公开原件已有可识别数值，解析补充完成": 2
+  },
+  "genuine_source_or_correction_evidence_gaps": [
+    "JX6550T-M5BEV",
+    "SGM6500BEBEV"
+  ],
+  "public_annotation_parse_supplements": 2,
+  "frozen_numeric_ready_models_unchanged": 2424,
+  "source_bytes_hash_verified_for_supplements": true,
+  "scope": "2023-12-10已在册风险集；冻结单值不回填，旁表只给保守区间判断；不认证同配置、低温或全部技术要求"
+}

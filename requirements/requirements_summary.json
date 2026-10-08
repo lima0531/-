@@ -1,0 +1,29 @@
+{
+  "base_scientific_version": "v1_4",
+  "generated_utc": "2026-10-08T15:10:13.871838+00:00",
+  "new_test_observations_added": 0,
+  "new_vehicle_observations_added": 0,
+  "base_cohort": 3328,
+  "risk_active": 2805,
+  "numeric_ready": 2424,
+  "numeric_ready_cycle_blank": 2207,
+  "numeric_ready_explicit_cltc": 217,
+  "recommendation_versions": 285,
+  "recommendation_config_ids": 278,
+  "recommendation_models": 170,
+  "low_temperature_priority_versions": 19,
+  "low_temperature_priority_models": 12,
+  "reapplication_models": 92,
+  "remaining_historical_files": 2,
+  "raw_empty_or_partial_correction_models": 2,
+  "interval_crossing_priority_models": 32,
+  "interval_crossing_additional_single_condition_models": 4,
+  "recommendation_29_interval": {
+    "四项声明值在全部外包络满足常规门槛": 28,
+    "至少一项在全部外包络不满足常规门槛": 1
+  },
+  "recommendation_29_needing_new_raw_numeric_values": 0,
+  "scientific_core_changed": false,
+  "material_list_is_collected_data": false,
+  "validation": "all assertions passed; input lists copied byte-for-byte; 2207 exact record links resolved; 32+4 conservative crossing models derived; recommendation 29 interval summary source linked"
+}

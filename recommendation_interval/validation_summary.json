@@ -1,0 +1,18 @@
+{
+  "source": "/workspace/purchase_tax_audit/round4/data_v1_4/推荐参数/推荐参数_配置版本长表.csv",
+  "source_sha256": "84c945d3c19dbffa5c1d2ae0f82f73e8717e85d2ebe63afa3246cf0b06d80807",
+  "source_raw_fields_previously_verified": "round3/technical/recommendation_original_verification.json; 3701 location-based original field comparisons",
+  "selected_versions": 29,
+  "selected_models": 18,
+  "full_string_fields_parsed": 145,
+  "results": {
+    "四项声明值在全部外包络满足常规门槛": 28,
+    "至少一项在全部外包络不满足常规门槛": 1
+  },
+  "crossing_versions_needing_numeric_pairing": 0,
+  "core_source_changed": false,
+  "new_report_or_vehicle_observations_added": 0,
+  "single_points_imputed": 0,
+  "configuration_or_legal_certification_added": 0,
+  "validation": "full-string parsing, conservative envelope, policy segment boundaries, 21.2 exact energy equality, source hash unchanged all passed"
+}
