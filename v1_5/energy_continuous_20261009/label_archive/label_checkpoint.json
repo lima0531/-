@@ -1,14 +1,14 @@
 {
-  "started_utc": "2026-10-09T15:46:25.441931+00:00",
-  "updated_utc": "2026-10-09T15:55:21.126572+00:00",
+  "started_utc": "2026-10-09T15:55:37.546695+00:00",
+  "updated_utc": "2026-10-09T16:04:24.315525+00:00",
   "completed": false,
   "unique_label_jobs": 936,
-  "jobs_validated": 400,
-  "accepted_pdfs": 400,
-  "cache_reused": 300,
+  "jobs_validated": 500,
+  "accepted_pdfs": 500,
+  "cache_reused": 400,
   "newly_accepted_jobs_this_run": 100,
-  "stop_reason": "planned_review_stage_boundary: accepted 400 of 936; resume available",
+  "stop_reason": "planned_review_stage_boundary: accepted 500 of 936; resume available",
   "pause_kind": "planned_review_stage_boundary",
   "source_queue_sha256": "e8890cdd7192ae0481ce4791c3b9543424d7523075eef31a17dd25fcae5323b2",
-  "finished_utc": "2026-10-09T15:55:21.126572+00:00"
+  "finished_utc": "2026-10-09T16:04:24.315525+00:00"
 }
