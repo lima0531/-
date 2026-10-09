@@ -1,0 +1,40 @@
+{
+  "label_job_id": "2064caadc3d1edf45fc852635c1fdd0c4d66a0fdcf45f5ab2b0278a385141134",
+  "fullLabel": "6f812333689f48df628f1c26aa8e38bb@55764",
+  "pdf_file": "responses/2064caadc3d1edf45fc852635c1fdd0c4d66a0fdcf45f5ab2b0278a385141134_attempt01.pdf",
+  "pdf_sha256": "4b4570f3c73cdfe82320b77fa4c9951a0b38ea0b4f34a13b25186c278b68affb",
+  "pdf_bytes": 55764,
+  "pdf_pages": 1,
+  "receipt_file": "receipts/2064caadc3d1edf45fc852635c1fdd0c4d66a0fdcf45f5ab2b0278a385141134_attempt01_receipt.json",
+  "observed_utc": "2026-10-09T15:49:23.975963+00:00",
+  "full_text_file": "extracted/2064caadc3d1edf45fc852635c1fdd0c4d66a0fdcf45f5ab2b0278a385141134.txt",
+  "full_text_sha256": "89aaf3f57bb45f5a7916e489a799fdbfef450013bca7424c33fc1f3f18acb4b0",
+  "standard_contexts": [
+    "本标识所采用的电能消耗量和续驶里程数据是按\n照GB/T 18386.1—2021《电动汽车能量消耗量和续驶\n里程试验方法 第1部分：轻型汽车》测定。预估能源\n成本的计算基于电费0.66元/度。",
+    "照GB/T 18386.1—2021《电动汽车能量消耗量和续驶\n里程试验方法 第1部分：轻型汽车》测定。预估能源\n成本的计算基于电费0.66元/度。\n由于驾驶习惯、道路状况、气候条件、电价等 因"
+  ],
+  "battery_energy_words_present": false,
+  "record_refs": [
+    {
+      "model_key": "DFM7001G1F1BEV",
+      "vehicleModel_raw": "DFM7001G1F1BEV",
+      "matching_mode": "raw",
+      "uuid": "77de223d48e340b1809992c968f1863b",
+      "recordNumber": "GD20240705102257334",
+      "source_file": "../../energy_new_complete_20261009/public_new_snapshot/new_currentPage/page0048_response.json",
+      "source_page_sha256": "942550ef1ceaba202b512913426d402e7b6263f4566e30eac596eaab3a611032",
+      "page": 48,
+      "json_pointer": "/info/list/11",
+      "full_row_sha256": "77fdf0bada16da498ad31f46193bf68f1e71b6da6c40b767fe77e292dc28be38",
+      "label_job_id": "2064caadc3d1edf45fc852635c1fdd0c4d66a0fdcf45f5ab2b0278a385141134",
+      "fullLabel": "6f812333689f48df628f1c26aa8e38bb@55764",
+      "testBasisStandard_raw": "5",
+      "issueDate_raw": "2023-09-13",
+      "enableDate_raw": "2024-07-05",
+      "createTime_raw": "2024-07-05 10:22:53",
+      "updateTime_raw": "2024-07-05 10:38:10",
+      "abandonTime_raw": null,
+      "is_new_library_only_model": false
+    }
+  ]
+}
