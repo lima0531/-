@@ -1,0 +1,26 @@
+{
+  "generated_utc": "2026-10-09T15:27:45.864765+00:00",
+  "labels": {
+    "validated_pdfs": 100,
+    "standards_literal_counts": {
+      "GB/T18386.1-2021": 51,
+      "GB/T18386-2017": 49
+    },
+    "dual_text_engines": true,
+    "source_pointer_and_actual_fullLabel_pass": true,
+    "same_tax_configuration_certified": false
+  },
+  "old_details": {
+    "validated_details": 100,
+    "standard_fields_raw_counts": {
+      "GB/T 18386.1-2021": 85,
+      "BJ_18386_2017": 11,
+      "GB/T18386.1-2021": 3,
+      "GB/T18386-2017": 1
+    },
+    "identity_echo_not_invented": true,
+    "same_tax_configuration_certified": false
+  },
+  "protected_scientific_csv": 52,
+  "protected_zips": 7
+}

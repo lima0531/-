@@ -1,0 +1,40 @@
+{
+  "label_job_id": "44648891c736afea51ba97dc3f41a5a9709d99875ae0e6c662ed7ed9eefe36c2",
+  "fullLabel": "47ddad7748ec6677fdf29fb4faa700f6@63335",
+  "pdf_file": "responses/44648891c736afea51ba97dc3f41a5a9709d99875ae0e6c662ed7ed9eefe36c2_attempt01.pdf",
+  "pdf_sha256": "b62fee0f0e910260e097807de908d0093f18c2fb5b31885276ce0223b4c54eb3",
+  "pdf_bytes": 63335,
+  "pdf_pages": 1,
+  "receipt_file": "receipts/44648891c736afea51ba97dc3f41a5a9709d99875ae0e6c662ed7ed9eefe36c2_attempt01_receipt.json",
+  "observed_utc": "2026-10-09T11:04:16.628783+00:00",
+  "full_text_file": "extracted/44648891c736afea51ba97dc3f41a5a9709d99875ae0e6c662ed7ed9eefe36c2.txt",
+  "full_text_sha256": "ec198235a9fa9f04f6303855d41be9bbf8c9fd05d6e955debd68d3873ed1ceba",
+  "standard_contexts": [
+    "本标识所采用的电能消耗量和续驶里程数据是按\n照GB/T 18386—2017《电动汽车能量消耗率和续驶里\n程试验方法》测定。预估能源成本的计算基于电费0.\n66元/度。",
+    "照GB/T 18386—2017《电动汽车能量消耗率和续驶里\n程试验方法》测定。预估能源成本的计算基于电费0.\n66元/度。\n由于驾驶习惯、道路状况、气候条件、电价等 因"
+  ],
+  "battery_energy_words_present": false,
+  "record_refs": [
+    {
+      "model_key": "LZ7009SLAEV",
+      "vehicleModel_raw": "LZ7009SLAEV",
+      "matching_mode": "raw",
+      "uuid": "9641971092df4bcca0465742c8967172",
+      "recordNumber": "GD20240701144278076",
+      "source_file": "../../energy_new_complete_20261009/public_new_snapshot/new_currentPage/page0050_response.json",
+      "source_page_sha256": "6d0feb45c4e6800ea12832c3271fa8c8c2b96736b4ad4dafbe8a85cabe060045",
+      "page": 50,
+      "json_pointer": "/info/list/194",
+      "full_row_sha256": "eedc3f9ed89b0ccb807c24818afb08dd6c762076520ac5b100ed32ccef03a4c4",
+      "label_job_id": "44648891c736afea51ba97dc3f41a5a9709d99875ae0e6c662ed7ed9eefe36c2",
+      "fullLabel": "47ddad7748ec6677fdf29fb4faa700f6@63335",
+      "testBasisStandard_raw": "6",
+      "issueDate_raw": "2022-01-29",
+      "enableDate_raw": "2024-07-01",
+      "createTime_raw": "2024-07-01 14:42:32",
+      "updateTime_raw": "2024-07-01 14:46:53",
+      "abandonTime_raw": null,
+      "is_new_library_only_model": false
+    }
+  ]
+}

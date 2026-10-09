@@ -1,0 +1,40 @@
+{
+  "reviewed_utc": "2026-10-09T11:18:00.874904+00:00",
+  "fixed_queue_records": 4497,
+  "fixed_queue_input_sha256": "54edef6f8a0d0a43f4f790cb4e6493ef70242d016e961ba66bd6f51cbb72d5e9",
+  "accepted_detail_records": 100,
+  "accepted_detail_models": 65,
+  "remaining_automatic_queue_records": 4397,
+  "accepted_original_response_bytes": 157840,
+  "actual_network_attempts_total": 100,
+  "http_status_counts_all_attempts": {
+    "200": 100
+  },
+  "network_error_counts_all_attempts": {},
+  "testBasisStandard_raw_values_counts": {
+    "GB/T 18386.1-2021": 85,
+    "BJ_18386_2017": 11,
+    "GB/T18386.1-2021": 3,
+    "GB/T18386-2017": 1
+  },
+  "document_standard_literals_record_counts": {
+    "GB/T 18386.1-2021": 85,
+    "GB/T 18386-2017": 11,
+    "GB/T18386.1-2021": 3,
+    "GB/T18386-2017": 1
+  },
+  "source_workConditionType_raw_values_counts": {
+    "CATC": 88,
+    "NEDC": 12
+  },
+  "applyId_nonempty_response_echo_records": 0,
+  "uniqId_nonempty_response_echo_records": 0,
+  "list_detail_literal_difference_records": 0,
+  "source_and_later_detail_temporal_boundary_retained": true,
+  "standard_to_cycle_mapping_performed": false,
+  "historical_frozen_2208_gap_closed": 0,
+  "historical_frozen_2208_gap_remaining": 2208,
+  "configuration_identity_certified": false,
+  "normal_planned_batch_pause": true,
+  "verification": "PASS"
+}

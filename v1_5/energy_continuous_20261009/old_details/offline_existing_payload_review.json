@@ -1,0 +1,49 @@
+{
+  "verification": "Existing official pilot payload processed offline; no network requests; not credited to fixed4497 queue",
+  "model": "JX6550T-M5BEV",
+  "response_validation_error": null,
+  "checks": {
+    "raw_sha256_matches_receipt": true,
+    "raw_bytes_match_receipt": true,
+    "http_200": true,
+    "exact_request_applyId": true,
+    "business_result_1": true,
+    "detail_is_object": true,
+    "exact_model_echo": true,
+    "applyId_echo_if_present_agrees": true,
+    "applyId_nonempty_echo_present": false,
+    "record_number_echo_if_present_agrees": true,
+    "record_number_nonempty_echo_present": false
+  },
+  "standard_literals_with_paths": [
+    {
+      "json_pointer": "/info/energyConsumptionMarkDes",
+      "literal": "GB/T 18386.1-2021",
+      "source_value_raw": "<p>本标识所采用的燃料消耗量和续航里程数据系根据GB/T 18386.1-2021《电动汽车能量消耗量和续驶里程试验方法 第1部分：轻型汽车》测定。</p><p>电能消耗量与燃料消耗量是按照等量热值的方法进行折算，1kW.h电能消耗量约合0.1131L汽油燃料消耗量。</p><p>由于驾驶习惯、道路情况、气候条件和燃料品质等因素的影响，实际电能消耗量与续航里程可能与本标识的电能消耗量不同。</p><p>为避免标识影响视野，请在购买车辆后去除标识。</p>"
+    },
+    {
+      "json_pointer": "/info/testBasisStandard",
+      "literal": "GB/T 18386.1-2021",
+      "source_value_raw": "GB/T 18386.1-2021"
+    }
+  ],
+  "work_condition_raw": [
+    {
+      "json_pointer": "/info/workConditionType",
+      "value_raw": null
+    },
+    {
+      "json_pointer": "/info/otherInfo1",
+      "value_raw": null
+    },
+    {
+      "json_pointer": "/info/otherInfo2",
+      "value_raw": null
+    },
+    {
+      "json_pointer": "/info/otherInfo",
+      "value_raw": "本车型能耗、里程基于新的中国工况，与NEDC工况略有差异。"
+    }
+  ],
+  "automatic_cycle_classification_performed": false
+}

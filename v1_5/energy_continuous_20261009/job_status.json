@@ -1,0 +1,14 @@
+{
+  "started_utc": "2026-10-09T15:27:44.249261+00:00",
+  "pid": 147515,
+  "status": "running",
+  "active_library": "starting",
+  "message": "实际续采进程已启动，准备核验缓存并继续下一批。",
+  "updated_utc": "2026-10-09T15:27:45.864463+00:00",
+  "labels": 100,
+  "old_details": 100,
+  "remaining_labels": 836,
+  "remaining_old_details": 4397,
+  "frozen_cycle_gaps_closed": 0,
+  "scientific_csv_modified": false
+}

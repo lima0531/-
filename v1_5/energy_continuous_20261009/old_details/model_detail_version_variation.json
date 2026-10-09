@@ -1,0 +1,476 @@
+[
+  {
+    "model_key": "CSA6493YSEV2",
+    "versions": [
+      {
+        "fields_raw": {
+          "testBasisStandard": "GB/T 18386.1-2021",
+          "vehicleQuality": "2280",
+          "maximumDesignMass": "2725",
+          "peakPower": "前:150/后:250",
+          "runingRange": "634",
+          "powerConsumption": "15.8",
+          "otherInfo": "本车型能耗、里程基于新的中国工况,与NEDC工况略有差异。"
+        },
+        "record_keys": [
+          "old:8b3426c1e7be41858ff4910d7eb58238:0b3a8fc4eb607c77b2b720b93951c96aafc85359848b034b715887d8f1c4d5d9"
+        ]
+      },
+      {
+        "fields_raw": {
+          "testBasisStandard": "GB/T 18386.1-2021",
+          "vehicleQuality": "2280",
+          "maximumDesignMass": "2725",
+          "peakPower": " 前:150/后:250",
+          "runingRange": "634",
+          "powerConsumption": "15.8",
+          "otherInfo": "本车型能耗、里程基于新的中国工况,与NEDC工况略有差异。"
+        },
+        "record_keys": [
+          "old:d6f3caa778aa46fb875557d937746095:612843fbb8d330eb9d0bc88c821d96abbda474800d6cbe32bea34544e581cfa5"
+        ]
+      }
+    ],
+    "interpretation": "different literal fields across records; not proof of a contradiction or configuration equivalence"
+  },
+  {
+    "model_key": "HFC7001AEV6",
+    "versions": [
+      {
+        "fields_raw": {
+          "testBasisStandard": "GB/T 18386.1-2021",
+          "vehicleQuality": "1300",
+          "maximumDesignMass": "1715",
+          "peakPower": "45",
+          "runingRange": "320",
+          "powerConsumption": "11.3",
+          "otherInfo": "本车型能耗、里程基于新的中国工况,与NEDC工况略有差异"
+        },
+        "record_keys": [
+          "old:ed49465c04fe452d980df5c462690e2c:df15c1ff0a0b809e2ec222bbc8cf43e6e8b2c4e0de2d199a56facfd724189517"
+        ]
+      },
+      {
+        "fields_raw": {
+          "testBasisStandard": "GB/T 18386.1-2021",
+          "vehicleQuality": "1230",
+          "maximumDesignMass": "1605",
+          "peakPower": "45",
+          "runingRange": "320",
+          "powerConsumption": "10.9",
+          "otherInfo": "本车型能耗、里程基于新的中国工况,与NEDC工况略有差异"
+        },
+        "record_keys": [
+          "old:84946aa333f54f32aa013ae3e85cad66:5094f40386cca0464215c0687b4cb71cb267b6796997e7eae71669d3b3cc126e"
+        ]
+      }
+    ],
+    "interpretation": "different literal fields across records; not proof of a contradiction or configuration equivalence"
+  },
+  {
+    "model_key": "JHC7002BEV69",
+    "versions": [
+      {
+        "fields_raw": {
+          "testBasisStandard": "GB/T 18386.1-2021",
+          "vehicleQuality": "1590",
+          "maximumDesignMass": "2052",
+          "peakPower": "150",
+          "runingRange": "500",
+          "powerConsumption": "12.4",
+          "otherInfo": "本车型能耗、里程基于新的中国工况，与NEDC工况略有差异。"
+        },
+        "record_keys": [
+          "old:11d32b2c62b949dfbd65551e7a88bdff:445c7d74808bad1ed89641fe52c62fd18badf12d3015b34c267ea5bda1edee65"
+        ]
+      },
+      {
+        "fields_raw": {
+          "testBasisStandard": "GB/T 18386.1-2021",
+          "vehicleQuality": "1590",
+          "maximumDesignMass": "2032",
+          "peakPower": "150",
+          "runingRange": "500",
+          "powerConsumption": "12.4",
+          "otherInfo": "本车型能耗、里程基于新的中国工况，与NEDC工况略有差异。"
+        },
+        "record_keys": [
+          "old:20b86ca1efce4793995b4b9772634679:3da3581a17c33442ac47c292d383f80b8c3324ae9f3979f7f4697472557fe1d0"
+        ]
+      }
+    ],
+    "interpretation": "different literal fields across records; not proof of a contradiction or configuration equivalence"
+  },
+  {
+    "model_key": "JX6556T-M6BEV",
+    "versions": [
+      {
+        "fields_raw": {
+          "testBasisStandard": "GB/T 18386.1-2021",
+          "vehicleQuality": "2835",
+          "maximumDesignMass": "3495",
+          "peakPower": "155",
+          "runingRange": "465",
+          "powerConsumption": "21.1",
+          "otherInfo": "本车型能耗、里程基于新的中国工况，与NEDC工况略有差异。"
+        },
+        "record_keys": [
+          "old:e9377f8cd2824028bf4a125761483856:d8eeb5f2d93dd031209633fb967d4d1c2830b66efae091294693894d838b22e7"
+        ]
+      },
+      {
+        "fields_raw": {
+          "testBasisStandard": "GB/T 18386.1-2021",
+          "vehicleQuality": "2660",
+          "maximumDesignMass": "3495",
+          "peakPower": "155",
+          "runingRange": "465",
+          "powerConsumption": "21.1",
+          "otherInfo": "本车型能耗、里程基于新的中国工况，与NEDC工况略有差异。"
+        },
+        "record_keys": [
+          "old:bca2310369884389821fb7efcb95ba7c:b3927884fe4e80faf7cfdddc6b4779c5ae4ad0f9d28a869c70b519318d53d1b0"
+        ]
+      }
+    ],
+    "interpretation": "different literal fields across records; not proof of a contradiction or configuration equivalence"
+  },
+  {
+    "model_key": "JX6556TA-M6BEV",
+    "versions": [
+      {
+        "fields_raw": {
+          "testBasisStandard": "GB/T 18386.1-2021",
+          "vehicleQuality": "2685",
+          "maximumDesignMass": "3495",
+          "peakPower": "155",
+          "runingRange": "357",
+          "powerConsumption": "20.6",
+          "otherInfo": "本车型能耗、里程基于新的中国工况，与NEDC工况略有差异。"
+        },
+        "record_keys": [
+          "old:bb66682d51124b34b5aca2001c48baa4:f7efbeec8d78b9c240b824dddda298e85fc307aedb1beb417166b212b0881320"
+        ]
+      },
+      {
+        "fields_raw": {
+          "testBasisStandard": "GB/T 18386.1-2021",
+          "vehicleQuality": "2515",
+          "maximumDesignMass": "3495",
+          "peakPower": "155",
+          "runingRange": "357",
+          "powerConsumption": "20.6",
+          "otherInfo": "本车型能耗、里程基于新的中国工况，与NEDC工况略有差异。"
+        },
+        "record_keys": [
+          "old:7d0e8cd2a8154491a0e25dcd539835ae:2cc866be7913a118cccc70ad702de8afa6e47570b4218d1d245d884f00cf2618"
+        ]
+      }
+    ],
+    "interpretation": "different literal fields across records; not proof of a contradiction or configuration equivalence"
+  },
+  {
+    "model_key": "JX6556TB-M6BEV",
+    "versions": [
+      {
+        "fields_raw": {
+          "testBasisStandard": "GB/T 18386.1-2021",
+          "vehicleQuality": "2660",
+          "maximumDesignMass": "3495",
+          "peakPower": "155",
+          "runingRange": "465",
+          "powerConsumption": "21.1",
+          "otherInfo": "本车型能耗、里程基于新的中国工况，与NEDC工况略有差异。"
+        },
+        "record_keys": [
+          "old:732a5095cd174336b6351f22412e1406:eb8df6b63567f4251917a7d974a734336b61f18e8fefcba6f51fc7cae8394b75"
+        ]
+      },
+      {
+        "fields_raw": {
+          "testBasisStandard": "GB/T 18386.1-2021",
+          "vehicleQuality": "2835",
+          "maximumDesignMass": "3495",
+          "peakPower": "155",
+          "runingRange": "465",
+          "powerConsumption": "21.1",
+          "otherInfo": "本车型能耗、里程基于新的中国工况，与NEDC工况略有差异。"
+        },
+        "record_keys": [
+          "old:b957e9d30d8049c5983a835d51574939:3a851bdf2a654901b4a93bcd738ae2cd5d5e96e171327138ddfea17036a44687"
+        ]
+      }
+    ],
+    "interpretation": "different literal fields across records; not proof of a contradiction or configuration equivalence"
+  },
+  {
+    "model_key": "JX6556TC-M6BEV",
+    "versions": [
+      {
+        "fields_raw": {
+          "testBasisStandard": "GB/T 18386.1-2021",
+          "vehicleQuality": "2685",
+          "maximumDesignMass": "3495",
+          "peakPower": "155",
+          "runingRange": "357",
+          "powerConsumption": "20.6",
+          "otherInfo": "本车型能耗、里程基于新的中国工况，与NEDC工况略有差异。"
+        },
+        "record_keys": [
+          "old:599ec08c3b294caa887b9258b6ee3e4f:dc5f87ba8b70e830290b6e3b4e09787dc11ebcb715433808bbac31818afec641"
+        ]
+      },
+      {
+        "fields_raw": {
+          "testBasisStandard": "GB/T 18386.1-2021",
+          "vehicleQuality": "2515",
+          "maximumDesignMass": "3495",
+          "peakPower": "155",
+          "runingRange": "357",
+          "powerConsumption": "20.6",
+          "otherInfo": "本车型能耗、里程基于新的中国工况，与NEDC工况略有差异。"
+        },
+        "record_keys": [
+          "old:81f289e4a06046128b22513261f106a0:54f89b0eb81497dc0d845c020fbb7f9967fbadf4d0b163e5ec21426c507a3bc3"
+        ]
+      }
+    ],
+    "interpretation": "different literal fields across records; not proof of a contradiction or configuration equivalence"
+  },
+  {
+    "model_key": "LZW7006EVA2",
+    "versions": [
+      {
+        "fields_raw": {
+          "testBasisStandard": "GB/T 18386.1-2021",
+          "vehicleQuality": "1595",
+          "maximumDesignMass": "2010",
+          "peakPower": "100",
+          "runingRange": "460",
+          "powerConsumption": "12.7",
+          "otherInfo": "本车型能耗、里程基于新的中国工况,与NEDC工况略有差异。"
+        },
+        "record_keys": [
+          "old:bdb480261eac414f91ce34a8c7e86153:067b73ff56ebc551abb60b5f3f502208e5a7cf3ebde445af68bcc6c01907da7f"
+        ]
+      },
+      {
+        "fields_raw": {
+          "testBasisStandard": "GB/T 18386.1-2021",
+          "vehicleQuality": "1665",
+          "maximumDesignMass": "2070",
+          "peakPower": "100",
+          "runingRange": "505",
+          "powerConsumption": "12.7",
+          "otherInfo": "本车型能耗、里程基于新的中国工况,与NEDC工况略有差异。"
+        },
+        "record_keys": [
+          "old:30e4bbe4cb684fdaa380947168e151cf:2e7ebd0c7ebe25707bfe275edd4e31e1a37821be1b4ba132b9ffbec3f644511e"
+        ]
+      },
+      {
+        "fields_raw": {
+          "testBasisStandard": "GB/T 18386.1-2021",
+          "vehicleQuality": "1615",
+          "maximumDesignMass": "2010",
+          "peakPower": "100",
+          "runingRange": "460",
+          "powerConsumption": "12.7",
+          "otherInfo": "本车型能耗、里程基于新的中国工况,与NEDC工况略有差异。"
+        },
+        "record_keys": [
+          "old:4b0ac8495a184833a3de1df508f5c9dd:5326bc05c50efff9dc9f86954084c172c0046401c923f22dc12aff677432be36"
+        ]
+      }
+    ],
+    "interpretation": "different literal fields across records; not proof of a contradiction or configuration equivalence"
+  },
+  {
+    "model_key": "NEQ6470BEVS61A",
+    "versions": [
+      {
+        "fields_raw": {
+          "testBasisStandard": "GB/T 18386.1-2021",
+          "vehicleQuality": "1718",
+          "maximumDesignMass": "2146",
+          "peakPower": "135",
+          "runingRange": "412",
+          "powerConsumption": "14.8",
+          "otherInfo": "本车型能耗、里程基于新的中国工况，与NEDC工况略有差异。"
+        },
+        "record_keys": [
+          "old:f2d60715ebf2454a92298460dc65c54a:37967a2c362323358cc5760a1402444974e31cb197b9e7b6a533646f15dd52ed"
+        ]
+      },
+      {
+        "fields_raw": {
+          "testBasisStandard": "GB/T 18386.1-2021",
+          "vehicleQuality": "1771",
+          "maximumDesignMass": "2146",
+          "peakPower": "135",
+          "runingRange": "412",
+          "powerConsumption": "14.8",
+          "otherInfo": "本车型能耗、里程基于新的中国工况，与NEDC工况略有差异。"
+        },
+        "record_keys": [
+          "old:551a4a3500044658a320367ca25669e0:75f088cbc94c5aff85b341e5f9335fb2f781e1eeffd18d8fbaf2543edadd2eae"
+        ]
+      }
+    ],
+    "interpretation": "different literal fields across records; not proof of a contradiction or configuration equivalence"
+  },
+  {
+    "model_key": "NEQ7000BEVJH11P",
+    "versions": [
+      {
+        "fields_raw": {
+          "testBasisStandard": "GB/T 18386.1-2021",
+          "vehicleQuality": "699",
+          "maximumDesignMass": "1043",
+          "peakPower": "20",
+          "runingRange": "120",
+          "powerConsumption": "8.8",
+          "otherInfo": "本车型能耗、里程基于新的中国工况,于NEDC略有差异"
+        },
+        "record_keys": [
+          "old:6077d32a8a6346f086fa46cab8ee6a0e:5a15e729b82f9af686c8536a6564f1f81cc139a26b3ce552592c59b5f2066eec"
+        ]
+      },
+      {
+        "fields_raw": {
+          "testBasisStandard": "GB/T 18386.1-2021",
+          "vehicleQuality": "715",
+          "maximumDesignMass": "1043",
+          "peakPower": "20",
+          "runingRange": "120",
+          "powerConsumption": "8.8",
+          "otherInfo": "本车型能耗、里程基于新的中国工况,于NEDC略有差异"
+        },
+        "record_keys": [
+          "old:f69b162b104b4e92aa37aaaca3339545:3fe6ffc7bef71ec0e683f2656adb6db1d9e490ec4c82d926e587eae1781e99d5"
+        ]
+      }
+    ],
+    "interpretation": "different literal fields across records; not proof of a contradiction or configuration equivalence"
+  },
+  {
+    "model_key": "SC6453BAABEV",
+    "versions": [
+      {
+        "fields_raw": {
+          "testBasisStandard": "BJ_18386_2017",
+          "vehicleQuality": "1700",
+          "maximumDesignMass": "2580",
+          "peakPower": "60",
+          "runingRange": "220",
+          "powerConsumption": "19.0",
+          "otherInfo": "无"
+        },
+        "record_keys": [
+          "old:9054309b35f2449e9d9146b5307d735a:3edd6636968b670a617ebd87a53df91459e267ca932afd3155d53a6694c3334f",
+          "old:d2de0d9283df45b39373c6c935ec0538:78f59582130c3fc7938a0208ce69e856058b00212c4c2dd23798f147df5c0cca"
+        ]
+      },
+      {
+        "fields_raw": {
+          "testBasisStandard": "BJ_18386_2017",
+          "vehicleQuality": "1700",
+          "maximumDesignMass": "2580",
+          "peakPower": "60",
+          "runingRange": "300",
+          "powerConsumption": "14.4",
+          "otherInfo": "无"
+        },
+        "record_keys": [
+          "old:096fa1aff87c4464867aede3932da778:6b81f85aa2b80081ebb0b42c0d40d26b9154d9e39393162917ef6716803be1ce",
+          "old:0b024b59ef72473e8c65da0f5ff79e2d:b0a05a8133f3167d578e41047108a36c4586cfee426b2dcb31e20f082162ad86"
+        ]
+      },
+      {
+        "fields_raw": {
+          "testBasisStandard": "BJ_18386_2017",
+          "vehicleQuality": "1700",
+          "maximumDesignMass": "2580",
+          "peakPower": "70",
+          "runingRange": "300",
+          "powerConsumption": "14.4",
+          "otherInfo": "无"
+        },
+        "record_keys": [
+          "old:ca401e9f131441b1a8bd630c38ff6797:cb74edc15a657f82e12e83a55264d17421b9778a0645a59a5097372d05bdcf97",
+          "old:c8268624164b4608852056804bce0bec:8f9fed7cba0a751fe80a479f311b3ef3e95a5d2d487590ce45d6c9e76644bfcf"
+        ]
+      }
+    ],
+    "interpretation": "different literal fields across records; not proof of a contradiction or configuration equivalence"
+  },
+  {
+    "model_key": "SC7001GAABEV",
+    "versions": [
+      {
+        "fields_raw": {
+          "testBasisStandard": "GB/T 18386.1-2021",
+          "vehicleQuality": "2300",
+          "maximumDesignMass": "2700",
+          "peakPower": "195/230",
+          "runingRange": "650",
+          "powerConsumption": "16.0",
+          "otherInfo": "本车型能耗、里程基于新的中国工况,与NEDC工况略有差异。"
+        },
+        "record_keys": [
+          "old:aa224bd9600b4105acdaba1a43f89ec4:5e5daea677023f34ab7b8db866d18f8e5323803db314b7eb87f64aeb5457adbf"
+        ]
+      },
+      {
+        "fields_raw": {
+          "testBasisStandard": "GB/T 18386.1-2021",
+          "vehicleQuality": "2325",
+          "maximumDesignMass": "2700",
+          "peakPower": "195/230",
+          "runingRange": "650",
+          "powerConsumption": "16.0",
+          "otherInfo": "本车型能耗、里程基于新的中国工况,与NEDC工况略有差异。"
+        },
+        "record_keys": [
+          "old:c0be18ed3a0d497bb8a434358ae180e2:df44835ceb35e58418a41cec1db9260f7553cfbb49407c9d0a26c23d04c1452d"
+        ]
+      }
+    ],
+    "interpretation": "different literal fields across records; not proof of a contradiction or configuration equivalence"
+  },
+  {
+    "model_key": "SC7001GBABEV",
+    "versions": [
+      {
+        "fields_raw": {
+          "testBasisStandard": "GB/T 18386.1-2021",
+          "vehicleQuality": "2180",
+          "maximumDesignMass": "2580",
+          "peakPower": "230",
+          "runingRange": "700",
+          "powerConsumption": "15.0",
+          "otherInfo": "本车型能耗、里程基于新的中国工况,与NEDC工况略有差异。"
+        },
+        "record_keys": [
+          "old:34316607646940cbb28ed9207a834ec7:aa97c4b2bf92d2cb837f08f70497dffbcc081194724d63e011e74981813f3abc",
+          "old:4e302ae3d64b44c7925573f593cab708:9a35613fbaf04c10a4a0a688e81c0b023bbdf119367a610404284a4e8e1e8c7d"
+        ]
+      },
+      {
+        "fields_raw": {
+          "testBasisStandard": "GB/T 18386.1-2021",
+          "vehicleQuality": "2205",
+          "maximumDesignMass": "2580",
+          "peakPower": "230",
+          "runingRange": "700",
+          "powerConsumption": "15.0",
+          "otherInfo": "本车型能耗、里程基于新的中国工况,与NEDC工况略有差异。"
+        },
+        "record_keys": [
+          "old:9db222250f2b4cff9dd2960f9dfdc30e:54752750d56e2da228c7c2cbd1becf6d2606d20a7c18532db5c090b60fe3c2d0"
+        ]
+      }
+    ],
+    "interpretation": "different literal fields across records; not proof of a contradiction or configuration equivalence"
+  }
+]

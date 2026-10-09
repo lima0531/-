@@ -1,3 +1,5 @@
+> [当前自动续采进度](energy_continuous_20261009/README.md)逐批更新，首阶段验收与科学版本v1.5保持独立。
+
 > 最新[新库53页独立验收与实际标签批次](energy_new_complete_20261009/README.md)已发布：539型号/936原样精确记录，两库并集1246；938是去首尾空格口径，519误含空日期。科学版本仍为v1.5。
 
 > 最新[官方能耗库实取证据与严格边界](energy_registry_20261009/README.md)及[可直接交给DeepSeek的批量要求](energy_registry_20261009/bulk_handoff/README.md)已发布。JX不在2208数值齐备清单，issueDate不作为历史首次公开证明，主数据保持原字节。
