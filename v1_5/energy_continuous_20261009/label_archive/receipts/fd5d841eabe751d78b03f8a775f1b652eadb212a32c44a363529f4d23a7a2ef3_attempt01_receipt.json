@@ -1,0 +1,20 @@
+{
+  "label_job_id": "fd5d841eabe751d78b03f8a775f1b652eadb212a32c44a363529f4d23a7a2ef3",
+  "fullLabel": "31c5cb1905d059cca59c63bbf1da6816@60665",
+  "attempt": 1,
+  "method": "GET",
+  "requested_url": "https://yhgscx.miit.gov.cn/fuel-consumption-center/fuel-consumption-center/file/file/file/download?m=31c5cb1905d059cca59c63bbf1da6816%4060665&p=1",
+  "observed_utc": "2026-10-09T16:07:57.839814+00:00",
+  "tls_verified": true,
+  "no_credentials_or_captcha_solution_submitted": true,
+  "accepted": true,
+  "record_reference_count": 1,
+  "http_status": 200,
+  "content_type": "application/pdf;charset=UTF-8",
+  "final_url": "https://yhgscx.miit.gov.cn/fuel-consumption-center/fuel-consumption-center/file/file/file/download?m=31c5cb1905d059cca59c63bbf1da6816%4060665&p=1",
+  "bytes": 60665,
+  "sha256": "518f94ceb58f04f7f67437c9f9551401985cfede4463b03686143b6124679746",
+  "response_file": "responses/fd5d841eabe751d78b03f8a775f1b652eadb212a32c44a363529f4d23a7a2ef3_attempt01.pdf",
+  "finished_utc": "2026-10-09T16:08:00.351093+00:00",
+  "pdf_pages": 1
+}
