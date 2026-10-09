@@ -1,0 +1,81 @@
+{
+ "source_file": "records.jsonl",
+ "bytes": 29903860,
+ "lines": 10479,
+ "sha256": "21ba00a808ec1102aac3c60afd01d55b4e1a5a9b8a5d44b29eb176773a0e672d",
+ "split_bytes_target": 3000000,
+ "parts": [
+  {
+   "part": 1,
+   "file": "records_plain_part01of10.jsonl",
+   "bytes": 3002804,
+   "lines": 1058,
+   "sha256": "63a5b71d8b3e261b64fb2de04c4bcf16c3516acc3b226c9a501fa1de80f16293"
+  },
+  {
+   "part": 2,
+   "file": "records_plain_part02of10.jsonl",
+   "bytes": 3000889,
+   "lines": 1056,
+   "sha256": "db4776040f53275c7335ce8f9fa2e29e4fdaf1b5660d3bad3c2be44b4481170a"
+  },
+  {
+   "part": 3,
+   "file": "records_plain_part03of10.jsonl",
+   "bytes": 3001714,
+   "lines": 1056,
+   "sha256": "d18475ee9570167c4f756773a209335f17dd4df25ff4df781f3d098ef3fcf252"
+  },
+  {
+   "part": 4,
+   "file": "records_plain_part04of10.jsonl",
+   "bytes": 3001995,
+   "lines": 1052,
+   "sha256": "40b7296b48bc0e2a3758c25f9266e440697a68ca4e04d6456f2cb3403a65f84d"
+  },
+  {
+   "part": 5,
+   "file": "records_plain_part05of10.jsonl",
+   "bytes": 3002658,
+   "lines": 1053,
+   "sha256": "295b6eae8475fb13ae4d02d5dd46f33581032dec3271aa40b4d2a03080b8b2ec"
+  },
+  {
+   "part": 6,
+   "file": "records_plain_part06of10.jsonl",
+   "bytes": 3002688,
+   "lines": 1043,
+   "sha256": "e405e73cb0743b814df3a11c477e95a9b2d6aa4383120c89a52983070b5cac79"
+  },
+  {
+   "part": 7,
+   "file": "records_plain_part07of10.jsonl",
+   "bytes": 3002105,
+   "lines": 1043,
+   "sha256": "dbc11fdec1615a19567d307709d9e3f027a2863fff318ef05c9d781ef8248eb6"
+  },
+  {
+   "part": 8,
+   "file": "records_plain_part08of10.jsonl",
+   "bytes": 3001748,
+   "lines": 1054,
+   "sha256": "b6507033ca93cddc8a73557589628e620317a19522a1946b7ac412ff76695684"
+  },
+  {
+   "part": 9,
+   "file": "records_plain_part09of10.jsonl",
+   "bytes": 3001888,
+   "lines": 1053,
+   "sha256": "c600fe6380b363278f49ff3bec1cab6d8c88c7e50c57aea20ca7669d3a9368f6"
+  },
+  {
+   "part": 10,
+   "file": "records_plain_part10of10.jsonl",
+   "bytes": 2885371,
+   "lines": 1011,
+   "sha256": "e0aa40cb1b07e010adc477eecdbc14c1d9a677e4cf1225c832feab640dfd698c"
+  }
+ ],
+ "reassemble": "cat records_plain_part*.jsonl > records.jsonl 后 sha256 应等于上面的 sha256",
+ "equivalence": "与同目录 records.jsonl.gz 解压结果逐字节相同"
+}
