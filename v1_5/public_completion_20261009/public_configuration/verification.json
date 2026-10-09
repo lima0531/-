@@ -1,0 +1,13 @@
+{
+  "checks_passed": 10,
+  "target36_unique": true,
+  "32_and4_disjoint": true,
+  "each_target_exact_source_record_present": true,
+  "36_query_records_present": true,
+  "positive_control_2_hits": true,
+  "285_versions_preserved": true,
+  "43_raw_firm_groups_no_alias_merge": true,
+  "285_config_ids_unique278": true,
+  "main_scientific_input_sha_unchanged": true,
+  "manual_query_not_bypassed": true
+}

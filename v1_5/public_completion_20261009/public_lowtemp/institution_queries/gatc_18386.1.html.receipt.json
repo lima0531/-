@@ -1,0 +1,29 @@
+{
+  "requested_url": "https://www.gatc.ac.cn/search/?title=18386.1&model=article%2Cpic&navlist=329",
+  "retrieved_utc": "2026-10-09T07:47:36.091674+00:00",
+  "local_file": "institution_queries/gatc_18386.1.html",
+  "purpose": "广州检验中心官网可见GET搜索表单查询",
+  "query": "18386.1",
+  "target_models": [],
+  "tls_verification": true,
+  "status": "ok",
+  "http_status": 200,
+  "final_url": "https://www.gatc.ac.cn/search/?title=18386.1&model=article%2Cpic&navlist=329",
+  "response_headers": {
+    "date": "Fri, 09 Oct 2026 07:47:38 GMT",
+    "content-type": "text/html; charset=utf-8",
+    "server": "envoy",
+    "x-powered-by": "PHP/7.4.33",
+    "set-cookie": "PHPSESSID=aa808br2uutj26n27i7q2242p1; expires=Sat, 10-Oct-2026 07:47:36 GMT; Max-Age=86400; path=/; HttpOnly",
+    "expires": "Thu, 19 Nov 1981 08:52:00 GMT",
+    "cache-control": "no-store, no-cache, must-revalidate",
+    "pragma": "no-cache",
+    "x-ct-request-id": "113c0d722e835dbe0aaf83629fee300d",
+    "x-envoy-upstream-service-time": "2186",
+    "connection": "close",
+    "transfer-encoding": "chunked"
+  },
+  "bytes": 19928,
+  "sha256": "01705984165f79c5775d58a5b1a81fb13fd7ad935d077caec1995640bf8518d6",
+  "truncated": false
+}

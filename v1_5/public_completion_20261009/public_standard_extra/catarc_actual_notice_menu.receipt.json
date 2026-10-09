@@ -1,0 +1,13 @@
+{
+  "name": "catarc_actual_notice_menu",
+  "requested_url": "https://zxd.catarc.org.cn/zxd/portal/bzgg",
+  "observed_utc": "2026-10-09T08:08:19.630068+00:00",
+  "tls_verified": true,
+  "context": "跟实际公示页的标准公告菜单，不推断最终修改单日期",
+  "http_status": 200,
+  "status": "received",
+  "final_url": "https://zxd.catarc.org.cn/zxd/portal/bzgg",
+  "file": "catarc_actual_notice_menu.html",
+  "bytes": 18043,
+  "sha256": "083d098059b6ef1d6b0180686db28b2dbcd0adff3916f0d30721d0dbd72ae824"
+}

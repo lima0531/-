@@ -1,0 +1,25 @@
+{
+  "request_url": "https://www.mof.gov.cn/",
+  "purpose": "财政部真实门户定位原生公开检索入口",
+  "retrieved_at_utc": "2026-10-09T07:44:57.701300+00:00",
+  "request_method": "GET",
+  "tls_verification": true,
+  "retry_policy": "one request; cache receipt thereafter",
+  "http_status": 200,
+  "final_url": "https://www.mof.gov.cn/",
+  "response_headers": {
+    "date": "Fri, 09 Oct 2026 07:45:01 GMT",
+    "content-type": "text/html",
+    "server": "envoy",
+    "x-via": "1.1 PS-SHA-01JkR56:3 (Cdn Cache Server V2.0), 1.1 PS-CZX-01T3c138:0 (Cdn Cache Server V2.0), 1.1 PS-SIN-049Ni63:11 (Cdn Cache Server V2.0)",
+    "x-ws-request-id": "6ac89b7c_PS-SIN-049Ni63_24744-62877",
+    "age": "164",
+    "x-envoy-upstream-service-time": "1000",
+    "connection": "close",
+    "transfer-encoding": "chunked"
+  },
+  "status": "retrieved",
+  "evidence_file": "/workspace/purchase_tax_audit/round9/public_first_batch/mof_home.html",
+  "bytes": 2534,
+  "sha256": "60ae22486cd2612ce1432c8e85908e9226ec0afa40786080ab7c92cbc81af8bf"
+}

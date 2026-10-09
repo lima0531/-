@@ -1,0 +1,48 @@
+{
+  "as_of_shanghai": "2026-10-09T15:53:49.731199+08:00",
+  "scope": {
+    "configuration_versions": 19,
+    "distinct_configuration_ids": 19,
+    "models": 12,
+    "firms": 8,
+    "unit_note": "19是待验证的配置版本数，不保证恰好19份独立报告；单报告能否覆盖多个配置需机构确认"
+  },
+  "newly_obtained_matching_full_reports": 0,
+  "newly_obtained_original_report_ids": 0,
+  "remaining_configuration_versions": 19,
+  "matching_low_temperature_evidence_obtained_flags_changed": 0,
+  "scientific_data_written": false,
+  "actual_request_count": 133,
+  "actual_request_status_counts": {
+    "ok": 110,
+    "http_error": 14,
+    "fetch_error": 9
+  },
+  "validated_miit_exact_model_queries": 12,
+  "validated_miit_exact_configuration_queries": 19,
+  "institution_get_search_requests": 28,
+  "public_pdf_text_layer_scanned_pages": 193,
+  "search_semantics": "初版简化selectFields接口阳性对照失败，初版零结果排除；完整参数重跑31目标请求及政策查询有阳性结果。所有精确搜索仅是当前官方公开索引观察，不是全网无资料证明。",
+  "annex_a_requirement": "需同配置附录A检测与不超过35%低温里程衰减证据，才可讨论95Wh/kg与120km；常规速度及电耗要求继续核验。",
+  "handoff_owner": "8家申报企业技术认证/准入部门；由企业确认原检测机构并授权索取原报告及配置桥接。未替用户发送任何对外信息。",
+  "standard_amendment_clue": {
+    "title": "E7-GB/T18386.1-2021 …《第1号修改单》",
+    "institution_list_date": "2026-07-09",
+    "url": "https://hss.smvic.com.cn/indexnews/1384",
+    "body_status": "HTTP200但正文标需登录，未取得全文",
+    "official_release_and_effective_dates_confirmed": false,
+    "can_backfill_historical_frozen_input": false
+  },
+  "completion_criteria": [
+    "原报告正文可验机构、编号与版本/附录A方法",
+    "常温、低温里程和衰减率可复算，或原报告声明采用合规值并有相应依据",
+    "试验车辆/电池/电机与指定推荐配置、减免申报配置身份桥接",
+    "按报告日期、历史适用版本和实际申报生效期检查，不用2026网页时点替代历史证据"
+  ],
+  "limitations": [
+    "未索引的企业/检测委托报告、登录平台材料本轮无法取得",
+    "403/503/超时仅记访问结果，不能当报告不存在",
+    "营销冬测、第三方媒体续航、政策条文、CCC证书及其他型号报告不用于闭合19版本",
+    "2022推荐原件没有报告字段，不证明之后从未检测"
+  ]
+}

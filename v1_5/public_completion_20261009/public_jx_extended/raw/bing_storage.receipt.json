@@ -1,0 +1,14 @@
+{
+  "name": "bing_storage",
+  "requested_url": "https://www.bing.com/search?q=%22L173C01%22+%22%E6%B1%9F%E9%93%83%22",
+  "purpose": "Storage variant source leads; cannot bridge configurations by name",
+  "retrieved_at_utc": "2026-10-09T07:43:51.192857+00:00",
+  "tls_verified": true,
+  "http_status": 200,
+  "final_url": "https://www.bing.com/search?q=%22L173C01%22+%22%E6%B1%9F%E9%93%83%22",
+  "bytes": 121607,
+  "sha256": "de580d4ba2e787713c84abe38d2ceae82cf6f40fd7e6e2dee284cf30c568a008",
+  "local_file": "raw/bing_storage.html",
+  "response_content_type": "text/html; charset=utf-8",
+  "status": "received"
+}

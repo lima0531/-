@@ -1,0 +1,144 @@
+{
+  "model_key": "SC6443PABBEV",
+  "requested_q": "\"SC6443PABBEV\"",
+  "query_echo": "\"SC6443PABBEV\"",
+  "receipt": {
+    "requested_url": "https://www.bing.com/search?q=%22SC6443PABBEV%22&mkt=zh-CN&setlang=zh-hans&count=10",
+    "retrieved_utc": "2026-10-09T07:46:54.581248+00:00",
+    "tls_verification": true,
+    "status": "ok",
+    "http_status": 200,
+    "final_url": "https://www.bing.com/search?q=%22SC6443PABBEV%22&mkt=zh-CN&setlang=zh-hans&count=10",
+    "bytes": 102763,
+    "sha256": "011cb556d6c71216c3e43fc50f2406fdec5a15a49642d0e488fafb273abdaab8",
+    "response_headers": {
+      "content-type": "text/html; charset=utf-8",
+      "cache-control": "private, max-age=0",
+      "expires": "Fri, 09 Oct 2026 07:45:54 GMT",
+      "vary": "User-Agent,Accept-Encoding",
+      "x-eventid": "6ac89bee2f1c41889d3cf1b5190d39a4",
+      "x-as-setsessionmarket": "zh-CN",
+      "x-as-setsessionuilang": "zh-hans",
+      "useragentreductionoptout": "A7kgTC5xdZ2WIVGZEfb1hUoNuvjzOZX3VIV/BA6C18kQOOF50Q0D3oWoAm49k3BQImkujKILc7JmPysWk3CSjwUAAACMeyJvcmlnaW4iOiJodHRwczovL3d3dy5iaW5nLmNvbTo0NDMiLCJmZWF0dXJlIjoiU2VuZEZ1bGxVc2VyQWdlbnRBZnRlclJlZHVjdGlvbiIsImV4cGlyeSI6MTY4NDg4NjM5OSwiaXNTdWJkb21haW4iOnRydWUsImlzVGhpcmRQYXJ0eSI6dHJ1ZX0=",
+      "strict-transport-security": "max-age=31536000; includeSubDomains; preload",
+      "permissions-policy": "unload=()",
+      "content-security-policy": "script-src https: 'strict-dynamic' 'report-sample' 'wasm-unsafe-eval' 'nonce-bSDxL4UGHP5CfhaaxnOY46/btznypS0SpRXNt7OmptM='; base-uri 'self';",
+      "p3p": "CP=\"NON UNI COM NAV STA LOC CURa DEVa PSAa PSDa OUR IND\"",
+      "x-display-context": "full",
+      "date": "Fri, 09 Oct 2026 07:46:54 GMT",
+      "content-length": "102763",
+      "set-cookie": "_SS=SID=1B6302C39ED363A61070152E9FC36257; domain=.bing.com; path=/",
+      "alt-svc": "h3=\":443\"; ma=93600",
+      "x-cdn-traceid": "0.c41c2117.1791532014.97fb73f",
+      "x-envoy-upstream-service-time": "157",
+      "server": "envoy",
+      "connection": "close"
+    },
+    "relative_path": "external/model_SC6443PABBEV.html"
+  },
+  "hits": [
+    {
+      "model_key": "SC6443PABBEV",
+      "result_url": "https://www.bilibili.com/",
+      "result_text": "bilibili.com https://www. bilibili .com 哔哩哔哩 (゜-゜)つロ 干杯~- bilibili 哔哩哔哩（bilibili.com)是国内知名的视频弹幕网站，这里有及时的动漫新番，活跃的ACG氛围，有创意的Up主。大家可以在这里找到 …    ",
+      "exact_model_in_result_text": 0,
+      "government_domain_candidate": 0,
+      "usable_as_scientific_evidence": 0,
+      "source_search_file": "external/model_SC6443PABBEV.html",
+      "source_search_sha256": "011cb556d6c71216c3e43fc50f2406fdec5a15a49642d0e488fafb273abdaab8"
+    },
+    {
+      "model_key": "SC6443PABBEV",
+      "result_url": "https://app.bilibili.com/",
+      "result_text": "bilibili.com https://app. bilibili .com 哔哩哔哩下载中心 2026年1月6日 · 哔哩哔哩下载中心提供APP和PC客户端的免费下载入口，轻松畅享弹幕视频、直播等多种内容。",
+      "exact_model_in_result_text": 0,
+      "government_domain_candidate": 0,
+      "usable_as_scientific_evidence": 0,
+      "source_search_file": "external/model_SC6443PABBEV.html",
+      "source_search_sha256": "011cb556d6c71216c3e43fc50f2406fdec5a15a49642d0e488fafb273abdaab8"
+    },
+    {
+      "model_key": "SC6443PABBEV",
+      "result_url": "https://www.bilibili.com/v/tv/mainland/",
+      "result_text": "bilibili.com https://www. bilibili .com › tv › mainland 哔哩哔哩 (゜-゜)つロ 干杯~- bilibili 2026年4月10日 · 赛事库课堂2021拜年纪",
+      "exact_model_in_result_text": 0,
+      "government_domain_candidate": 0,
+      "usable_as_scientific_evidence": 0,
+      "source_search_file": "external/model_SC6443PABBEV.html",
+      "source_search_sha256": "011cb556d6c71216c3e43fc50f2406fdec5a15a49642d0e488fafb273abdaab8"
+    },
+    {
+      "model_key": "SC6443PABBEV",
+      "result_url": "https://big.bilibili.com/pc/video",
+      "result_text": "bilibili.com https://big. bilibili .com › pc › video 哔哩哔哩弹幕视频网 - ( ゜- ゜)つロ 乾杯~ -  bilibili 2026年9月11日 · 不良信息举报邮箱：help@bilibili.com 涉未成年举报邮箱：teenprotect@bilibili.com 不良信息举报电 …",
+      "exact_model_in_result_text": 0,
+      "government_domain_candidate": 0,
+      "usable_as_scientific_evidence": 0,
+      "source_search_file": "external/model_SC6443PABBEV.html",
+      "source_search_sha256": "011cb556d6c71216c3e43fc50f2406fdec5a15a49642d0e488fafb273abdaab8"
+    },
+    {
+      "model_key": "SC6443PABBEV",
+      "result_url": "https://t.bilibili.com/index.html",
+      "result_text": "bilibili.com https://t. bilibili .com › index.html 动态首页-哔哩哔哩 2025年7月15日 · 哔哩哔哩动态首页，展示最新的内容更新和用户动态，随时掌握社区热点。",
+      "exact_model_in_result_text": 0,
+      "government_domain_candidate": 0,
+      "usable_as_scientific_evidence": 0,
+      "source_search_file": "external/model_SC6443PABBEV.html",
+      "source_search_sha256": "011cb556d6c71216c3e43fc50f2406fdec5a15a49642d0e488fafb273abdaab8"
+    },
+    {
+      "model_key": "SC6443PABBEV",
+      "result_url": "https://h.bilibili.com/ywh/h5/home",
+      "result_text": "bilibili.com https://h. bilibili .com › ywh › home Bilibili 2019年7月2日 · 首页 动画 番剧 国创 音乐 舞蹈 科技 游戏 娱乐 鬼畜 电影 电视剧 纪录片 影视 时尚 生活 广告 直播 相簿",
+      "exact_model_in_result_text": 0,
+      "government_domain_candidate": 0,
+      "usable_as_scientific_evidence": 0,
+      "source_search_file": "external/model_SC6443PABBEV.html",
+      "source_search_sha256": "011cb556d6c71216c3e43fc50f2406fdec5a15a49642d0e488fafb273abdaab8"
+    },
+    {
+      "model_key": "SC6443PABBEV",
+      "result_url": "https://www.bilibili.tv/en",
+      "result_text": "bilibili.tv https://www. bilibili .tv › en BiliBili BiliBili, Southeast Asia's leading anime, comics, and games (ACG) community where people can create, watch and share engaging …",
+      "exact_model_in_result_text": 0,
+      "government_domain_candidate": 0,
+      "usable_as_scientific_evidence": 0,
+      "source_search_file": "external/model_SC6443PABBEV.html",
+      "source_search_sha256": "011cb556d6c71216c3e43fc50f2406fdec5a15a49642d0e488fafb273abdaab8"
+    },
+    {
+      "model_key": "SC6443PABBEV",
+      "result_url": "https://live.bilibili.com/",
+      "result_text": "bilibili.com https://live. bilibili .com 哔哩哔哩直播，二次元弹幕直播平台 bilibili 关于我们 友情链接 哔哩哔哩周边 联系我们 加入我们 bilibili直播服务协议 帮助中心 工具使用教程 如何成为主播 公会中心 广播 …",
+      "exact_model_in_result_text": 0,
+      "government_domain_candidate": 0,
+      "usable_as_scientific_evidence": 0,
+      "source_search_file": "external/model_SC6443PABBEV.html",
+      "source_search_sha256": "011cb556d6c71216c3e43fc50f2406fdec5a15a49642d0e488fafb273abdaab8"
+    },
+    {
+      "model_key": "SC6443PABBEV",
+      "result_url": "https://tv.bilibili.tv/",
+      "result_text": "bilibili.tv https://tv. bilibili .tv Bilibili 2024年10月18日 · 哔哩哔哩是一个领先的动漫、漫画和游戏（ACG）社区，用户可以在这里创作、观看并分享有趣的视频。",
+      "exact_model_in_result_text": 0,
+      "government_domain_candidate": 0,
+      "usable_as_scientific_evidence": 0,
+      "source_search_file": "external/model_SC6443PABBEV.html",
+      "source_search_sha256": "011cb556d6c71216c3e43fc50f2406fdec5a15a49642d0e488fafb273abdaab8"
+    },
+    {
+      "model_key": "SC6443PABBEV",
+      "result_url": "https://link.bilibili.com/p/eden/download",
+      "result_text": "bilibili.com https://link. bilibili .com › eden › download 哔哩哔哩直播姬下载 2026年6月3日 · 集成关注UP主的直播、小视频、图文最新动态，轻松发现哔哩哔哩 UP主的精彩日常 一键开播功能，登录后可直接推 …",
+      "exact_model_in_result_text": 0,
+      "government_domain_candidate": 0,
+      "usable_as_scientific_evidence": 0,
+      "source_search_file": "external/model_SC6443PABBEV.html",
+      "source_search_sha256": "011cb556d6c71216c3e43fc50f2406fdec5a15a49642d0e488fafb273abdaab8"
+    }
+  ],
+  "exact_model_relevant_hits": 0,
+  "same_model_is_configuration_identity": false,
+  "negative_search_conclusion_permitted": false
+}

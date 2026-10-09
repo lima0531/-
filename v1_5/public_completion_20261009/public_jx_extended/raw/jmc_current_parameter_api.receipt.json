@@ -1,0 +1,14 @@
+{
+  "name": "jmc_current_parameter_api",
+  "requested_url": "https://sale-api.jmc.com.cn/api/parameter/getconfigurelist?brand_id=1092&configure_id=1007&car_types=0&sub_model_id=0",
+  "purpose": "Read-only GET exactly exposed by official public configuration frontend; not historical certification",
+  "retrieved_at_utc": "2026-10-09T07:48:08.396621+00:00",
+  "tls_verified": true,
+  "http_status": 200,
+  "final_url": "https://sale-api.jmc.com.cn/api/parameter/getconfigurelist?brand_id=1092&configure_id=1007&car_types=0&sub_model_id=0",
+  "bytes": 111523,
+  "sha256": "1d7f2be841b120b47a52fd06e922e04cab8206221fca0112464e93cd2d72d368",
+  "local_file": "raw/jmc_current_parameter_api.html",
+  "response_content_type": "text/html; charset=utf-8",
+  "status": "received"
+}

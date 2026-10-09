@@ -1,0 +1,17 @@
+{
+  "requested_url": "https://hss.smvic.com.cn/indexsearch?search=DXK7001RD2BEV",
+  "retrieved_utc": "2026-10-09T07:47:16.758414+00:00",
+  "local_file": "institution_queries/smvic_DXK7001RD2BEV.html",
+  "purpose": "SMVIC认证平台可见GET搜索表单查询，不能用CCC证书替代附录A报告",
+  "query": "DXK7001RD2BEV",
+  "target_models": [
+    "DXK7001RD2BEV"
+  ],
+  "tls_verification": true,
+  "status": "http_error",
+  "http_status": 503,
+  "error": "HTTP Error 503: Service Unavailable",
+  "final_url": "https://hss.smvic.com.cn/indexsearch?search=DXK7001RD2BEV",
+  "bytes": 91,
+  "sha256": "2f85832e31ca57711e6107af6b142363351ae516adb71c69afc643fac26be7f6"
+}

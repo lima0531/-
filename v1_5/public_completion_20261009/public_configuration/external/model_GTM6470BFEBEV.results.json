@@ -1,0 +1,144 @@
+{
+  "model_key": "GTM6470BFEBEV",
+  "requested_q": "\"GTM6470BFEBEV\"",
+  "query_echo": "\"GTM6470BFEBEV\"",
+  "receipt": {
+    "requested_url": "https://www.bing.com/search?q=%22GTM6470BFEBEV%22&mkt=zh-CN&setlang=zh-hans&count=10",
+    "retrieved_utc": "2026-10-09T07:46:54.326676+00:00",
+    "tls_verification": true,
+    "status": "ok",
+    "http_status": 200,
+    "final_url": "https://www.bing.com/search?q=%22GTM6470BFEBEV%22&mkt=zh-CN&setlang=zh-hans&count=10",
+    "bytes": 98565,
+    "sha256": "f5bb4e67d398773a0e4035bb36efb4ffc05dfbd4f43594b79e1982b53a9b837d",
+    "response_headers": {
+      "content-type": "text/html; charset=utf-8",
+      "cache-control": "private, max-age=0",
+      "expires": "Fri, 09 Oct 2026 07:45:54 GMT",
+      "vary": "User-Agent,Accept-Encoding",
+      "x-eventid": "6ac89beeb0d1448883f17b49011de852",
+      "x-as-setsessionmarket": "zh-CN",
+      "x-as-setsessionuilang": "zh-hans",
+      "useragentreductionoptout": "A7kgTC5xdZ2WIVGZEfb1hUoNuvjzOZX3VIV/BA6C18kQOOF50Q0D3oWoAm49k3BQImkujKILc7JmPysWk3CSjwUAAACMeyJvcmlnaW4iOiJodHRwczovL3d3dy5iaW5nLmNvbTo0NDMiLCJmZWF0dXJlIjoiU2VuZEZ1bGxVc2VyQWdlbnRBZnRlclJlZHVjdGlvbiIsImV4cGlyeSI6MTY4NDg4NjM5OSwiaXNTdWJkb21haW4iOnRydWUsImlzVGhpcmRQYXJ0eSI6dHJ1ZX0=",
+      "strict-transport-security": "max-age=31536000; includeSubDomains; preload",
+      "permissions-policy": "unload=()",
+      "content-security-policy": "script-src https: 'strict-dynamic' 'report-sample' 'wasm-unsafe-eval' 'nonce-quHZVcJX8y9aI9gHcOPpEleJzaOBPG17shc335fpprQ='; base-uri 'self';",
+      "p3p": "CP=\"NON UNI COM NAV STA LOC CURa DEVa PSAa PSDa OUR IND\"",
+      "x-display-context": "full",
+      "date": "Fri, 09 Oct 2026 07:46:54 GMT",
+      "set-cookie": "_SS=SID=08B5E40C13C36AA12BC2F3E112A16B31; domain=.bing.com; path=/",
+      "alt-svc": "h3=\":443\"; ma=93600",
+      "x-cdn-traceid": "0.cf1c2117.1791532014.649b2b7",
+      "x-envoy-upstream-service-time": "125",
+      "server": "envoy",
+      "connection": "close",
+      "transfer-encoding": "chunked"
+    },
+    "relative_path": "external/model_GTM6470BFEBEV.html"
+  },
+  "hits": [
+    {
+      "model_key": "GTM6470BFEBEV",
+      "result_url": "https://www.zhihu.com/question/649995555",
+      "result_text": "zhihu.com https://www.zhihu.com › question 1688上面的东西这么便宜是真的吗? - 知乎 2024年7月29日 · 1688厂家最多，其次是贸易商也就是中间商 为什么便宜，因为是源头，源头要的是批发，要的是量大，因为量大所 …    ",
+      "exact_model_in_result_text": 0,
+      "government_domain_candidate": 0,
+      "usable_as_scientific_evidence": 0,
+      "source_search_file": "external/model_GTM6470BFEBEV.html",
+      "source_search_sha256": "f5bb4e67d398773a0e4035bb36efb4ffc05dfbd4f43594b79e1982b53a9b837d"
+    },
+    {
+      "model_key": "GTM6470BFEBEV",
+      "result_url": "https://www.zhihu.com/question/388898562",
+      "result_text": "zhihu.com https://www.zhihu.com › question 我在阿里巴巴找的供货商一件代发 我开网店铺货侵权嘛? - 知乎 2020年4月18日 · 题主问在阿里巴巴找的供货商一件代发，开网店是否侵权——这里我想分情况说明一下， 1.如果题主做的是传 …",
+      "exact_model_in_result_text": 0,
+      "government_domain_candidate": 0,
+      "usable_as_scientific_evidence": 0,
+      "source_search_file": "external/model_GTM6470BFEBEV.html",
+      "source_search_sha256": "f5bb4e67d398773a0e4035bb36efb4ffc05dfbd4f43594b79e1982b53a9b837d"
+    },
+    {
+      "model_key": "GTM6470BFEBEV",
+      "result_url": "https://club.1688.com/unithread/146810499.html",
+      "result_text": "1688.com https://club.1688.com › unithread 1688店铺产品标题这样写展现狂飙 2020年8月3日 · 写好标题是做好1688产品的基础，一个产品能否做起来，1688标题是一个基础， 标题的关键词的准确程度,直接影响 …",
+      "exact_model_in_result_text": 0,
+      "government_domain_candidate": 0,
+      "usable_as_scientific_evidence": 0,
+      "source_search_file": "external/model_GTM6470BFEBEV.html",
+      "source_search_sha256": "f5bb4e67d398773a0e4035bb36efb4ffc05dfbd4f43594b79e1982b53a9b837d"
+    },
+    {
+      "model_key": "GTM6470BFEBEV",
+      "result_url": "https://club.1688.com/unithread/289152737.html",
+      "result_text": "1688.com https://club.1688.com › unithread 官方物流快递类产品 迷你小件上线啦 <h2 style=\"margin: 30.0px 0;color: #333333;font-size: 20.0px;font-weight: bold;line-height: 30.0px;\">一.迷你小件快递介绍</h2> <p …",
+      "exact_model_in_result_text": 0,
+      "government_domain_candidate": 0,
+      "usable_as_scientific_evidence": 0,
+      "source_search_file": "external/model_GTM6470BFEBEV.html",
+      "source_search_sha256": "f5bb4e67d398773a0e4035bb36efb4ffc05dfbd4f43594b79e1982b53a9b837d"
+    },
+    {
+      "model_key": "GTM6470BFEBEV",
+      "result_url": "https://www.zhihu.com/question/630788679",
+      "result_text": "zhihu.com https://www.zhihu.com › question 1688卖家拒绝退款申请，态度恶劣，怎么办？ - 知乎 2025年6月19日 · 1688卖家拒绝退款申请，态度恶劣，怎么办？ 买的照明灯。 白天收到货，晚上验货发现有瑕疵，当天找客服说了这 …",
+      "exact_model_in_result_text": 0,
+      "government_domain_candidate": 0,
+      "usable_as_scientific_evidence": 0,
+      "source_search_file": "external/model_GTM6470BFEBEV.html",
+      "source_search_sha256": "f5bb4e67d398773a0e4035bb36efb4ffc05dfbd4f43594b79e1982b53a9b837d"
+    },
+    {
+      "model_key": "GTM6470BFEBEV",
+      "result_url": "https://www.zhihu.com/question/442523469",
+      "result_text": "zhihu.com https://www.zhihu.com › question 请问为什么同样的商品阿里巴巴国际站要比国内1688报价 ... 2021年2月2日 · 总结上面回答，为什么说国际站的有的产品会比1688上的便宜，原因有很多种，而上面是很重要的三点，一是厂家的 …",
+      "exact_model_in_result_text": 0,
+      "government_domain_candidate": 0,
+      "usable_as_scientific_evidence": 0,
+      "source_search_file": "external/model_GTM6470BFEBEV.html",
+      "source_search_sha256": "f5bb4e67d398773a0e4035bb36efb4ffc05dfbd4f43594b79e1982b53a9b837d"
+    },
+    {
+      "model_key": "GTM6470BFEBEV",
+      "result_url": "https://club.1688.com/unithread/131243044.html",
+      "result_text": "1688.com https://club.1688.com › unithread 完善工厂档案，获取定制买家 - 1688.com 2021年1月25日 · 合计50条需要完善内容，其中必填项33条，必填项全部填完后完整度为70%，建议先入驻再去拍摄高质量老板带看 …",
+      "exact_model_in_result_text": 0,
+      "government_domain_candidate": 0,
+      "usable_as_scientific_evidence": 0,
+      "source_search_file": "external/model_GTM6470BFEBEV.html",
+      "source_search_sha256": "f5bb4e67d398773a0e4035bb36efb4ffc05dfbd4f43594b79e1982b53a9b837d"
+    },
+    {
+      "model_key": "GTM6470BFEBEV",
+      "result_url": "https://club.1688.com/unithread/226521959.html",
+      "result_text": "1688.com https://club.1688.com › unithread 小额打款操作引导 - 1688.com 2023年9月22日 · A：开通小额打款，商家需先充值一定金额的钱到小额打款专用的账户中，这个账户跟买家保证金账户类似。充值的 …",
+      "exact_model_in_result_text": 0,
+      "government_domain_candidate": 0,
+      "usable_as_scientific_evidence": 0,
+      "source_search_file": "external/model_GTM6470BFEBEV.html",
+      "source_search_sha256": "f5bb4e67d398773a0e4035bb36efb4ffc05dfbd4f43594b79e1982b53a9b837d"
+    },
+    {
+      "model_key": "GTM6470BFEBEV",
+      "result_url": "https://www.zhihu.com/question/28521555",
+      "result_text": "zhihu.com https://www.zhihu.com › question 为什么阿里巴巴（www.1688.com）大部分商户几乎没有销量 ... 2019年6月20日 · 在1688上面开店，每年还要交6680元，这是为什么？ 没人是傻子，有利可图才持续开店。 最后，我们来分析一下“ …",
+      "exact_model_in_result_text": 0,
+      "government_domain_candidate": 0,
+      "usable_as_scientific_evidence": 0,
+      "source_search_file": "external/model_GTM6470BFEBEV.html",
+      "source_search_sha256": "f5bb4e67d398773a0e4035bb36efb4ffc05dfbd4f43594b79e1982b53a9b837d"
+    },
+    {
+      "model_key": "GTM6470BFEBEV",
+      "result_url": "https://club.1688.com/unithread/162086348.html",
+      "result_text": "1688.com https://club.1688.com › unithread 1688买家等级&mdash;&mdash;L会员权益介绍 2020年11月29日 · <h1 style=\"color: #333333;font-size: 20.0px;font-weight: bold;line-height: 30.0px;\"> <div style=\"width: …",
+      "exact_model_in_result_text": 0,
+      "government_domain_candidate": 0,
+      "usable_as_scientific_evidence": 0,
+      "source_search_file": "external/model_GTM6470BFEBEV.html",
+      "source_search_sha256": "f5bb4e67d398773a0e4035bb36efb4ffc05dfbd4f43594b79e1982b53a9b837d"
+    }
+  ],
+  "exact_model_relevant_hits": 0,
+  "same_model_is_configuration_identity": false,
+  "negative_search_conclusion_permitted": false
+}

@@ -1,0 +1,2 @@
+﻿firm_routing_name,model_key,JX原空能量,32联合跨界,4单项细分,92逐车资格,2208试验口径,purpose_scopes,source_versions_json,same_model_is_same_configuration,reply_rule
+江西昌河铃木汽车有限责任公司,CH7000BEVH2CA,0,0,0,0,1,2208试验口径,"[{""purpose_scope"":""2208试验口径"",""source_record_ids"":""old-12-PDF-grid-2-0-8"",""source_observation_date_upper"":""2017-09-05"",""source_file"":""原件/免征目录/mf_batch12.pdf"",""source_sha256"":""afbd7133ccf901dbdc065b2ff80768450dc901def8d216cf5bb87baa98f7a1e2"",""firm_route_basis"":""原件企业合并格/上下文候选；非登记实体认证""}]",0,按来源/日期/配置版本分别答复；同型号合并附件不等于同配置或逐车资格认证

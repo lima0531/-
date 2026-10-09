@@ -1,0 +1,25 @@
+{
+  "request_url": "https://law.esnai.com/view/148900/",
+  "purpose": "公开检索命中的完整54号法规转载；区别颁布/实施日期与网页公开日期，寻找明确原始来源链接",
+  "retrieved_at_utc": "2026-10-09T07:50:37.708558+00:00",
+  "request_method": "GET",
+  "tls_verification": true,
+  "retry_policy": "one request; cache receipt thereafter",
+  "http_status": 200,
+  "final_url": "https://law.esnai.cn/view/148900/",
+  "response_headers": {
+    "server": "envoy",
+    "date": "Fri, 09 Oct 2026 07:50:44 GMT",
+    "content-type": "text/html; charset=utf-8",
+    "content-length": "75655",
+    "cache-control": "private",
+    "x-aspnet-version": "4.0.30319",
+    "x-powered-by": "ASP.NET",
+    "x-envoy-upstream-service-time": "3792",
+    "connection": "close"
+  },
+  "status": "retrieved",
+  "evidence_file": "/workspace/purchase_tax_audit/round9/public_first_batch/esnai_first_full.html",
+  "bytes": 75655,
+  "sha256": "2d4cce67b2b83e4b5d8c2fe4967caa768ca3bcc0a965d08a0a757e1876256d02"
+}

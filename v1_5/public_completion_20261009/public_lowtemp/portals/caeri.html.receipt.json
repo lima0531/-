@@ -1,0 +1,26 @@
+{
+  "requested_url": "https://www.caeri.com.cn/",
+  "retrieved_utc": "2026-10-09T07:43:09.433336+00:00",
+  "local_file": "portals/caeri.html",
+  "purpose": "中国汽研公开检测/认证入口",
+  "query": "",
+  "target_models": [],
+  "tls_verification": true,
+  "status": "ok",
+  "http_status": 200,
+  "final_url": "https://www.caeri.com.cn/",
+  "response_headers": {
+    "date": "Fri, 09 Oct 2026 07:43:12 GMT",
+    "content-type": "text/html; charset=utf-8",
+    "var-cache": "HIT",
+    "server": "envoy",
+    "cache-control": "max-age=14400",
+    "age": "0",
+    "x-envoy-upstream-service-time": "1110",
+    "connection": "close",
+    "transfer-encoding": "chunked"
+  },
+  "bytes": 91936,
+  "sha256": "3b22b4b7ef743fdadff1c1a5577dba9215b02eea2ac96911a8cdea267171d3ce",
+  "truncated": false
+}

@@ -1,0 +1,28 @@
+{
+  "script": "gov_native_search_js.html",
+  "home": "gov_home.html",
+  "code": "17da70961a7",
+  "endpoint": "https://sousuoht.www.gov.cn/athena/forward/2B22E8E39E850E17F95A016A74FCB6B673336FA8B6FEC0E2955907EF9AEE06BE",
+  "derivation": "Public frontend exact endpoint/header encryption algorithm and homepage code; no denied request retried; no authentication bypass.",
+  "request_parameters": {
+    "code": "17da70961a7",
+    "historySearchWords": [],
+    "dataTypeId": "107",
+    "orderBy": "time",
+    "searchBy": "all",
+    "appendixType": "",
+    "granularity": "ALL",
+    "trackTotalHits": true,
+    "beginDateTime": 1408838400000,
+    "endDateTime": 1410134399999,
+    "isSearchForced": 0,
+    "filters": [],
+    "pageNo": 1,
+    "pageSize": 10,
+    "customFilter": {
+      "operator": "and",
+      "properties": []
+    },
+    "searchWord": "免征车辆购置税"
+  }
+}

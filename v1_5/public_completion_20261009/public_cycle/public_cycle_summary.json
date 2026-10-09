@@ -1,0 +1,53 @@
+{
+  "as_of_shanghai": "2026-10-09T15:55:38.225845+08:00",
+  "audit_scope": "2208 frozen numeric-ready BEV passenger model records without explicit cycle label; inspect entire 71 exact-SHA sources used by their five scientific fields",
+  "backlog_models_before": 2208,
+  "field_lineage_rows": 11040,
+  "range_lineage_rows": 2208,
+  "source_files_requested": 71,
+  "source_files_same_sha_obtained": 71,
+  "source_files_fully_scanned": 71,
+  "detected_source_formats": {
+    "CFB_WORD_WPS": 52,
+    "PDF": 15,
+    "ZIP_DOCX": 4
+  },
+  "pdf_pages_each_reader": 382,
+  "pdf_pages_without_text": 0,
+  "pdf_and_word_embedded_images": 0,
+  "native_CFB_all_auxiliary_stories_scanned": 52,
+  "native_CFB_nonzero_footnote_or_endnote_counts": 0,
+  "CFB_DOCX_keyword_multiset_comparisons_passed": 52,
+  "candidate_keyword_occurrences_including_reader_duplicates": 1359,
+  "sources_with_candidate_keywords": 35,
+  "source_model_location_methods": {
+    "Word_exact_model_cell_located": 1843,
+    "PDF_both_readers_model_located": 358,
+    "PDF_one_reader_model_located": 6,
+    "explicit_same_entry_correction_body": 1
+  },
+  "new_explicit_cycle_labels_obtained": 0,
+  "new_original_test_standard_revisions_obtained": 0,
+  "matching_original_test_reports_obtained": 0,
+  "same_cycle_comparability_certified": 0,
+  "backlog_models_after": 2208,
+  "scientific_primary_files_modified": 0,
+  "any_year_or_general_standard_cycle_inference": false,
+  "any_future_backfill": false,
+  "conclusion": "The applicable original rows, table headers, general/body notes and all auxiliary text stories provide no additional explicit cycle or matching test-standard revision. Keep all 2208 in the conditional original-test-report backlog. This source-bounded negative result does not assert that such evidence does not exist elsewhere.",
+  "delivery_excluded_scratch": [
+    {
+      "directory": "conversion_inputs",
+      "purpose": "temporary same-SHA CFB input copies for LibreOffice; originals available in the existing full-source ZIP and 71-source SHA location table",
+      "files": 52
+    },
+    {
+      "directory": "__pycache__",
+      "purpose": "Python bytecode cache"
+    },
+    {
+      "directory": "proof/profile_*",
+      "purpose": "temporary LibreOffice profiles, removed after conversion"
+    }
+  ]
+}

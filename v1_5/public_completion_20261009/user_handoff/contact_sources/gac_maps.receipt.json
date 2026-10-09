@@ -1,0 +1,18 @@
+{
+  "key": "gac_maps",
+  "firm": "广汽丰田汽车有限公司",
+  "requested_url": "https://www.gac-toyota.com.cn/2022/src/utils/maps.js",
+  "url_basis": "round9/public_lowtemp/portals/gac_toyota.html script src",
+  "retrieved_utc": "2026-10-09T07:47:26.057388+00:00",
+  "tls_verification": true,
+  "method": "GET_only_no_submission",
+  "external_message_sent": false,
+  "http_status": 200,
+  "final_url": "https://www.gac-toyota.com.cn/2022/src/utils/maps.js",
+  "content_type": "application/javascript",
+  "truncated": false,
+  "status": "retrieved",
+  "source_file": "contact_sources/gac_maps.txt",
+  "bytes": 5909,
+  "sha256": "30d498487d9a0a23578906829b866473c34451679777406736ed3c0a9054085d"
+}

@@ -1,0 +1,24 @@
+{
+  "request_url": "https://www.mof.gov.cn/index.htm",
+  "purpose": "跟进财政部门户明确PC跳转，寻找公开历史政策检索",
+  "retrieved_at_utc": "2026-10-09T07:45:58.305551+00:00",
+  "request_method": "GET",
+  "tls_verification": true,
+  "retry_policy": "one request; cache receipt thereafter",
+  "http_status": 200,
+  "final_url": "https://www.mof.gov.cn/index.htm",
+  "response_headers": {
+    "date": "Fri, 09 Oct 2026 07:46:00 GMT",
+    "content-type": "text/html",
+    "server": "envoy",
+    "x-via": "1.1 PS-CZX-01eE5171:8 (Cdn Cache Server V2.0), 1.1 PS-CZX-01T3c138:0 (Cdn Cache Server V2.0), 1.1 PS-SIN-049Ni63:11 (Cdn Cache Server V2.0)",
+    "x-ws-request-id": "6ac89bb8_PS-SIN-049Ni63_24744-234",
+    "x-envoy-upstream-service-time": "574",
+    "connection": "close",
+    "transfer-encoding": "chunked"
+  },
+  "status": "retrieved",
+  "evidence_file": "/workspace/purchase_tax_audit/round9/public_first_batch/mof_index.html",
+  "bytes": 107184,
+  "sha256": "d784009a34f675545f163d3fba1b73b6772b1bcf76633470809bf230abb3409b"
+}

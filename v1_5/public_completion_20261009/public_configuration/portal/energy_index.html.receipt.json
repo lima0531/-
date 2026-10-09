@@ -1,0 +1,29 @@
+{
+  "requested_url": "https://yhgscx.miit.gov.cn",
+  "retrieved_utc": "2026-10-09T07:43:29.641443+00:00",
+  "tls_verification": true,
+  "status": "ok",
+  "http_status": 200,
+  "final_url": "https://yhgscx.miit.gov.cn",
+  "bytes": 941,
+  "sha256": "0d8f4e37faed6f80a6a13211b748bcee9e8dfedb4271491e58ad2672945b3f60",
+  "response_headers": {
+    "date": "Fri, 09 Oct 2026 07:43:32 GMT",
+    "content-type": "text/html; charset=UTF-8",
+    "content-length": "941",
+    "vary": "Accept-Encoding",
+    "set-cookie": "route=1791531812.347.6220.862536; Expires=Sun, 11-Oct-26 07:43:32 GMT; Max-Age=172800; Path=/; Secure; HttpOnly",
+    "last-modified": "Tue, 13 May 2025 07:22:50 GMT",
+    "etag": "\"6822f34a-3ad\"",
+    "accept-ranges": "bytes",
+    "strict-transport-security": "max-age=15724800; includeSubDomains",
+    "x-kong-upstream-latency": "16",
+    "x-kong-proxy-latency": "1",
+    "via": "kong/1.4.3",
+    "wzws-ray": "1129-1791560612.369-waf03fst",
+    "x-envoy-upstream-service-time": "1711",
+    "server": "envoy",
+    "connection": "close"
+  },
+  "relative_path": "portal/energy_index.html"
+}

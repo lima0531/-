@@ -1,0 +1,144 @@
+{
+  "model_key": "FZ7000BEV13",
+  "requested_q": "\"FZ7000BEV13\"",
+  "query_echo": "\"FZ7000BEV13\"",
+  "receipt": {
+    "requested_url": "https://www.bing.com/search?q=%22FZ7000BEV13%22&mkt=zh-CN&setlang=zh-hans&count=10",
+    "retrieved_utc": "2026-10-09T07:46:54.038580+00:00",
+    "tls_verification": true,
+    "status": "ok",
+    "http_status": 200,
+    "final_url": "https://www.bing.com/search?q=%22FZ7000BEV13%22&mkt=zh-CN&setlang=zh-hans&count=10",
+    "bytes": 100788,
+    "sha256": "adc14e58b6c216d5cbdf3608922fb7990a745e27b1a98223af6965c24ecda904",
+    "response_headers": {
+      "content-type": "text/html; charset=utf-8",
+      "cache-control": "private, max-age=0",
+      "expires": "Fri, 09 Oct 2026 07:45:54 GMT",
+      "vary": "User-Agent,Accept-Encoding",
+      "x-eventid": "6ac89beebc5c4bf9bd4022150e65f194",
+      "x-as-setsessionmarket": "zh-CN",
+      "x-as-setsessionuilang": "zh-hans",
+      "useragentreductionoptout": "A7kgTC5xdZ2WIVGZEfb1hUoNuvjzOZX3VIV/BA6C18kQOOF50Q0D3oWoAm49k3BQImkujKILc7JmPysWk3CSjwUAAACMeyJvcmlnaW4iOiJodHRwczovL3d3dy5iaW5nLmNvbTo0NDMiLCJmZWF0dXJlIjoiU2VuZEZ1bGxVc2VyQWdlbnRBZnRlclJlZHVjdGlvbiIsImV4cGlyeSI6MTY4NDg4NjM5OSwiaXNTdWJkb21haW4iOnRydWUsImlzVGhpcmRQYXJ0eSI6dHJ1ZX0=",
+      "strict-transport-security": "max-age=31536000; includeSubDomains; preload",
+      "permissions-policy": "unload=()",
+      "content-security-policy": "script-src https: 'strict-dynamic' 'report-sample' 'wasm-unsafe-eval' 'nonce-WTk714sFbnxwTrnVZY/8/55rVpCZG6lllIVFPl667ao='; base-uri 'self';",
+      "p3p": "CP=\"NON UNI COM NAV STA LOC CURa DEVa PSAa PSDa OUR IND\"",
+      "x-display-context": "full",
+      "date": "Fri, 09 Oct 2026 07:46:54 GMT",
+      "set-cookie": "_SS=SID=234E7D0F7C496E3320446AE27DC46F30; domain=.bing.com; path=/",
+      "alt-svc": "h3=\":443\"; ma=93600",
+      "x-cdn-traceid": "0.cd1c2117.1791532014.9151d1d1",
+      "x-envoy-upstream-service-time": "87",
+      "server": "envoy",
+      "connection": "close",
+      "transfer-encoding": "chunked"
+    },
+    "relative_path": "external/model_FZ7000BEV13.html"
+  },
+  "hits": [
+    {
+      "model_key": "FZ7000BEV13",
+      "result_url": "https://jobs.echinacities.com/Beijing-jobs",
+      "result_text": "echinacities.com https:// jobs .e china cities.com ›  Beijing - jobs Jobs in Beijing  -  Job  Opportunities  in Beijing  for Expats eChinacities Jobs provides expats who want to work in Beijing with updated employment opportunities. Full time and part-time jobs …    ",
+      "exact_model_in_result_text": 0,
+      "government_domain_candidate": 0,
+      "usable_as_scientific_evidence": 0,
+      "source_search_file": "external/model_FZ7000BEV13.html",
+      "source_search_sha256": "adc14e58b6c216d5cbdf3608922fb7990a745e27b1a98223af6965c24ecda904"
+    },
+    {
+      "model_key": "FZ7000BEV13",
+      "result_url": "https://www.randstad.cn/en/jobs/beijing/beijing/",
+      "result_text": "randstad.cn https://www.randstad.cn › en ›  jobs  ›  beijing 109  Jobs in Beijing ,  Beijing  | Randstad Browse 109 jobs in Beijing, Beijing. Choose from temporary and permanent jobs that'll help you reach your career goals.",
+      "exact_model_in_result_text": 0,
+      "government_domain_candidate": 0,
+      "usable_as_scientific_evidence": 0,
+      "source_search_file": "external/model_FZ7000BEV13.html",
+      "source_search_sha256": "adc14e58b6c216d5cbdf3608922fb7990a745e27b1a98223af6965c24ecda904"
+    },
+    {
+      "model_key": "FZ7000BEV13",
+      "result_url": "https://www.glassdoor.com/Job/beijing-jobs-SRCH_IL.0,7_IC2398510.htm",
+      "result_text": "glassdoor.com https://www.glassdoor.com ›  Job 2,139  Beijing, Beijing jobs  - Glassdoor Search jobs in Beijing, Beijing. Get the right job in Beijing with company ratings & salaries. 2,139 open jobs in Beijing. Get hired!",
+      "exact_model_in_result_text": 0,
+      "government_domain_candidate": 0,
+      "usable_as_scientific_evidence": 0,
+      "source_search_file": "external/model_FZ7000BEV13.html",
+      "source_search_sha256": "adc14e58b6c216d5cbdf3608922fb7990a745e27b1a98223af6965c24ecda904"
+    },
+    {
+      "model_key": "FZ7000BEV13",
+      "result_url": "https://www.isacjobs.com/job-location/beijing/",
+      "result_text": "isacjobs.com https://www.isac jobs .com ›  job -location ›  beijing Jobs in Beijing  -  China  Foreigner  Jobs  - isacjobs.com 2026年9月16日 · Browse the latest jobs in Beijing for foreigners, including teaching and company jobs for international jobseekers.",
+      "exact_model_in_result_text": 0,
+      "government_domain_candidate": 0,
+      "usable_as_scientific_evidence": 0,
+      "source_search_file": "external/model_FZ7000BEV13.html",
+      "source_search_sha256": "adc14e58b6c216d5cbdf3608922fb7990a745e27b1a98223af6965c24ecda904"
+    },
+    {
+      "model_key": "FZ7000BEV13",
+      "result_url": "https://chinajobsdaily.com/",
+      "result_text": "chinajobsdaily.com https:// chinajobs daily.com Jobs  and Recruitment on chinajobsdaily.com, the #1  job  site for ... 2026年9月29日 · China's #1 job and career site for foreigners, with jobs from top employers all over China added daily!",
+      "exact_model_in_result_text": 0,
+      "government_domain_candidate": 0,
+      "usable_as_scientific_evidence": 0,
+      "source_search_file": "external/model_FZ7000BEV13.html",
+      "source_search_sha256": "adc14e58b6c216d5cbdf3608922fb7990a745e27b1a98223af6965c24ecda904"
+    },
+    {
+      "model_key": "FZ7000BEV13",
+      "result_url": "https://cn.indeed.com/",
+      "result_text": "indeed.com https://cn.indeed.com Indeed 中国 | 招聘职位搜索引擎 Indeed 让您可以在线搜索数百万个职位，帮您快速找到下一份工作。 通过职位搜索、Indeed 简历、公司点评等工具，我们为您的求 …",
+      "exact_model_in_result_text": 0,
+      "government_domain_candidate": 0,
+      "usable_as_scientific_evidence": 0,
+      "source_search_file": "external/model_FZ7000BEV13.html",
+      "source_search_sha256": "adc14e58b6c216d5cbdf3608922fb7990a745e27b1a98223af6965c24ecda904"
+    },
+    {
+      "model_key": "FZ7000BEV13",
+      "result_url": "https://jobs.echinacities.com/",
+      "result_text": "echinacities.com https:// jobs .e china cities.com China Jobs  –  Job  Opportunities for Expats  in China  ... eChinacities Jobs provides expats who want to work in China with updated employment opportunities. Full time and part-time jobs …",
+      "exact_model_in_result_text": 0,
+      "government_domain_candidate": 0,
+      "usable_as_scientific_evidence": 0,
+      "source_search_file": "external/model_FZ7000BEV13.html",
+      "source_search_sha256": "adc14e58b6c216d5cbdf3608922fb7990a745e27b1a98223af6965c24ecda904"
+    },
+    {
+      "model_key": "FZ7000BEV13",
+      "result_url": "https://www.linkedin.com/jobs/search/?geoId=103873152&location=Beijing%2C%20China",
+      "result_text": "linkedin.com https://www.linkedin.com ›  jobs  › search 13,000+  jobs in Beijing Today's top 13,000+ jobs in Beijing. Leverage your professional network, and get hired. New Beijing jobs added daily.",
+      "exact_model_in_result_text": 0,
+      "government_domain_candidate": 0,
+      "usable_as_scientific_evidence": 0,
+      "source_search_file": "external/model_FZ7000BEV13.html",
+      "source_search_sha256": "adc14e58b6c216d5cbdf3608922fb7990a745e27b1a98223af6965c24ecda904"
+    },
+    {
+      "model_key": "FZ7000BEV13",
+      "result_url": "https://cn.indeed.com/%E5%B7%A5%E4%BD%9C-%E5%9C%B0%E7%82%B9-beijing",
+      "result_text": "indeed.com https://cn.indeed.com › 工作-地点- beijing 2,000  Jobs , Employment in 北京市 2026年10月8日| Indeed 1 天前 · Job Summary: Beijing Office of International Food Policy research Institute (IFPRI...",
+      "exact_model_in_result_text": 0,
+      "government_domain_candidate": 0,
+      "usable_as_scientific_evidence": 0,
+      "source_search_file": "external/model_FZ7000BEV13.html",
+      "source_search_sha256": "adc14e58b6c216d5cbdf3608922fb7990a745e27b1a98223af6965c24ecda904"
+    },
+    {
+      "model_key": "FZ7000BEV13",
+      "result_url": "https://unjobs.org/duty_stations/bjs",
+      "result_text": "unjobs.org https://un jobs .org › duty_stations › bjs Vacancies  in Beijing ,  China  - UNjobs Vacancies in Beijing, China Executive Coordinator, Beijing, Beijing, China International Financial Reporting Standards Foundation …",
+      "exact_model_in_result_text": 0,
+      "government_domain_candidate": 0,
+      "usable_as_scientific_evidence": 0,
+      "source_search_file": "external/model_FZ7000BEV13.html",
+      "source_search_sha256": "adc14e58b6c216d5cbdf3608922fb7990a745e27b1a98223af6965c24ecda904"
+    }
+  ],
+  "exact_model_relevant_hits": 0,
+  "same_model_is_configuration_identity": false,
+  "negative_search_conclusion_permitted": false
+}

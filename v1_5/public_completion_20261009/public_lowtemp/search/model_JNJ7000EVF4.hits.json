@@ -1,0 +1,38 @@
+{
+  "query": "JNJ7000EVF4",
+  "receipt": {
+    "requested_url": "https://www.miit.gov.cn/search-front-server/api/search/info?websiteid=110000000000000&scope=basic&q=JNJ7000EVF4&pg=10&p=1&cateid=47&pos=title_text%2Ctitlepy%2Cinfocontent%2Cfilenumbername%2Ckeyword%2Ccontentdescribe&selectFields=title%2Curl%2Ccontent%2Cdeploytime%2Ccolumnname&group=distinct&level=6",
+    "retrieved_utc": "2026-10-09T07:42:56.436662+00:00",
+    "local_file": "search/model_JNJ7000EVF4.json",
+    "purpose": "工信部公共全文搜索：查同型号/配置公开低温检测证据",
+    "query": "JNJ7000EVF4",
+    "target_models": [
+      "JNJ7000EVF4"
+    ],
+    "tls_verification": true,
+    "status": "ok",
+    "http_status": 200,
+    "final_url": "https://www.miit.gov.cn/search-front-server/api/search/info?websiteid=110000000000000&scope=basic&q=JNJ7000EVF4&pg=10&p=1&cateid=47&pos=title_text%2Ctitlepy%2Cinfocontent%2Cfilenumbername%2Ckeyword%2Ccontentdescribe&selectFields=title%2Curl%2Ccontent%2Cdeploytime%2Ccolumnname&group=distinct&level=6",
+    "response_headers": {
+      "date": "Fri, 09 Oct 2026 07:42:58 GMT",
+      "content-type": "text/html;charset=UTF-8",
+      "content-length": "225",
+      "set-cookie": "__jsluid_s=13156919f38a42bd0e91b0e74243d1c4; max-age=31536000; path=/; HttpOnly; SameSite=None; secure",
+      "x-kong-upstream-latency": "113",
+      "x-kong-proxy-latency": "0",
+      "via": "kong/1.4.3",
+      "x-via-jsl": "c80bc51,-",
+      "x-cache": "bypass",
+      "x-envoy-upstream-service-time": "1447",
+      "server": "envoy",
+      "connection": "close"
+    },
+    "bytes": 225,
+    "sha256": "2d174dd74392503259f9c0e22f13a5ba9d4f59882869750db0bd5320d6718d8f",
+    "truncated": false
+  },
+  "json_parsed": true,
+  "returned_hits": 0,
+  "pagination_scope": "第1页，至多10条；不是全网穷尽搜索",
+  "hits": []
+}

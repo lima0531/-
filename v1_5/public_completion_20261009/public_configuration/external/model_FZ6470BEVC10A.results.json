@@ -1,0 +1,144 @@
+{
+  "model_key": "FZ6470BEVC10A",
+  "requested_q": "\"FZ6470BEVC10A\"",
+  "query_echo": "\"FZ6470BEVC10A\"",
+  "receipt": {
+    "requested_url": "https://www.bing.com/search?q=%22FZ6470BEVC10A%22&mkt=zh-CN&setlang=zh-hans&count=10",
+    "retrieved_utc": "2026-10-09T07:46:53.872627+00:00",
+    "tls_verification": true,
+    "status": "ok",
+    "http_status": 200,
+    "final_url": "https://www.bing.com/search?q=%22FZ6470BEVC10A%22&mkt=zh-CN&setlang=zh-hans&count=10",
+    "bytes": 99683,
+    "sha256": "b927cd5a789131f55995079ba80729c5808f9cab484f88b82dc3767cfd181a7d",
+    "response_headers": {
+      "content-type": "text/html; charset=utf-8",
+      "cache-control": "private, max-age=0",
+      "expires": "Fri, 09 Oct 2026 07:45:53 GMT",
+      "vary": "User-Agent,Accept-Encoding",
+      "x-eventid": "6ac89bed91894590a4ca95577f2fdee0",
+      "x-as-setsessionmarket": "zh-CN",
+      "x-as-setsessionuilang": "zh-hans",
+      "useragentreductionoptout": "A7kgTC5xdZ2WIVGZEfb1hUoNuvjzOZX3VIV/BA6C18kQOOF50Q0D3oWoAm49k3BQImkujKILc7JmPysWk3CSjwUAAACMeyJvcmlnaW4iOiJodHRwczovL3d3dy5iaW5nLmNvbTo0NDMiLCJmZWF0dXJlIjoiU2VuZEZ1bGxVc2VyQWdlbnRBZnRlclJlZHVjdGlvbiIsImV4cGlyeSI6MTY4NDg4NjM5OSwiaXNTdWJkb21haW4iOnRydWUsImlzVGhpcmRQYXJ0eSI6dHJ1ZX0=",
+      "strict-transport-security": "max-age=31536000; includeSubDomains; preload",
+      "permissions-policy": "unload=()",
+      "content-security-policy": "script-src https: 'strict-dynamic' 'report-sample' 'wasm-unsafe-eval' 'nonce-jVYB3gzTYuJkiblery9jW0A8KFf4i5JdXG35PcO/Gjg='; base-uri 'self';",
+      "p3p": "CP=\"NON UNI COM NAV STA LOC CURa DEVa PSAa PSDa OUR IND\"",
+      "x-display-context": "full",
+      "date": "Fri, 09 Oct 2026 07:46:54 GMT",
+      "set-cookie": "_SS=SID=067C59429CB2600C33994EAF9D106195; domain=.bing.com; path=/",
+      "alt-svc": "h3=\":443\"; ma=93600",
+      "x-cdn-traceid": "0.cd1c2117.1791532013.9151cf99",
+      "x-envoy-upstream-service-time": "118",
+      "server": "envoy",
+      "connection": "close",
+      "transfer-encoding": "chunked"
+    },
+    "relative_path": "external/model_FZ6470BEVC10A.html"
+  },
+  "hits": [
+    {
+      "model_key": "FZ6470BEVC10A",
+      "result_url": "https://maps.google.com/",
+      "result_text": "google.com https://maps.google.com Google Maps Find local businesses, view maps and get driving directions in Google Maps.    ",
+      "exact_model_in_result_text": 0,
+      "government_domain_candidate": 0,
+      "usable_as_scientific_evidence": 0,
+      "source_search_file": "external/model_FZ6470BEVC10A.html",
+      "source_search_sha256": "b927cd5a789131f55995079ba80729c5808f9cab484f88b82dc3767cfd181a7d"
+    },
+    {
+      "model_key": "FZ6470BEVC10A",
+      "result_url": "https://maps.google.com/localguides/",
+      "result_text": "google.com https://maps.google.com › localguides Local Guides - Google Maps 2026年9月29日 · People like you make it easier to discover local places. Become a Local Guide and share your world on Google Maps.",
+      "exact_model_in_result_text": 0,
+      "government_domain_candidate": 0,
+      "usable_as_scientific_evidence": 0,
+      "source_search_file": "external/model_FZ6470BEVC10A.html",
+      "source_search_sha256": "b927cd5a789131f55995079ba80729c5808f9cab484f88b82dc3767cfd181a7d"
+    },
+    {
+      "model_key": "FZ6470BEVC10A",
+      "result_url": "https://maps.google.com/intl/en/earth/",
+      "result_text": "google.com https://maps.google.com › intl › en › earth Google Earth 2024年9月17日 · Google Earth is the most photorealistic, digital version of our planet. Where do the images come from? How are …",
+      "exact_model_in_result_text": 0,
+      "government_domain_candidate": 0,
+      "usable_as_scientific_evidence": 0,
+      "source_search_file": "external/model_FZ6470BEVC10A.html",
+      "source_search_sha256": "b927cd5a789131f55995079ba80729c5808f9cab484f88b82dc3767cfd181a7d"
+    },
+    {
+      "model_key": "FZ6470BEVC10A",
+      "result_url": "https://maps.google.com/intl/ALL_es/help/maps/streetview/privacy.html",
+      "result_text": "google.com https://maps.google.com › intl › ALL_es › help › maps › streetview › privacy.html Explora Street View y sube tus propias imágenes en 360° a … 2024年9月17日 · Aprende a desplazarte con Street View. Descubre el mundo sin levantarte del sofá, crea tus propias imágenes y …",
+      "exact_model_in_result_text": 0,
+      "government_domain_candidate": 0,
+      "usable_as_scientific_evidence": 0,
+      "source_search_file": "external/model_FZ6470BEVC10A.html",
+      "source_search_sha256": "b927cd5a789131f55995079ba80729c5808f9cab484f88b82dc3767cfd181a7d"
+    },
+    {
+      "model_key": "FZ6470BEVC10A",
+      "result_url": "https://maps.google.com/intl/ru/earth/download/gep/agree.html",
+      "result_text": "google.com https://maps.google.com › intl › ru › earth › download › gep › agree... Google Планета Земля 2024年9月17日 · Путешествуйте по всему миру вместе с Google Планета Земля: изучайте спутниковые снимки, карты …",
+      "exact_model_in_result_text": 0,
+      "government_domain_candidate": 0,
+      "usable_as_scientific_evidence": 0,
+      "source_search_file": "external/model_FZ6470BEVC10A.html",
+      "source_search_sha256": "b927cd5a789131f55995079ba80729c5808f9cab484f88b82dc3767cfd181a7d"
+    },
+    {
+      "model_key": "FZ6470BEVC10A",
+      "result_url": "https://maps.google.com/intl/ja/help/maps/streetview/privacy.html",
+      "result_text": "google.com https://maps.google.com › intl › ja › help › maps › streetview › ... ストリートビューを探索して、オリジナルの 360°画像を Google ... 2024年9月17日 · ストリートビューの操作方法をご紹介します。自宅のソファに座ったまま世界中を見てまわったり、オリジナルの …",
+      "exact_model_in_result_text": 0,
+      "government_domain_candidate": 0,
+      "usable_as_scientific_evidence": 0,
+      "source_search_file": "external/model_FZ6470BEVC10A.html",
+      "source_search_sha256": "b927cd5a789131f55995079ba80729c5808f9cab484f88b82dc3767cfd181a7d"
+    },
+    {
+      "model_key": "FZ6470BEVC10A",
+      "result_url": "https://maps.google.com/intl/ALL_fr/help/maps/streetview/privacy.html",
+      "result_text": "google.com https://maps.google.com › intl › ALL_fr › help › maps › streetview › privacy.html Parcourez Street View et ajoutez vos propres images à 2024年9月17日 · Découvrez comment parcourir et utiliser Street View. Parcourez le monde sans quitter votre canapé, et créez et …",
+      "exact_model_in_result_text": 0,
+      "government_domain_candidate": 0,
+      "usable_as_scientific_evidence": 0,
+      "source_search_file": "external/model_FZ6470BEVC10A.html",
+      "source_search_sha256": "b927cd5a789131f55995079ba80729c5808f9cab484f88b82dc3767cfd181a7d"
+    },
+    {
+      "model_key": "FZ6470BEVC10A",
+      "result_url": "https://maps.google.com/intl/ALL_jp/localguides/",
+      "result_text": "google.com https://maps.google.com › intl › ALL_jp › localguides ローカルガイド - Google Maps Local Guides 2026年9月29日 · 誰でも簡単に地域のお店やスポットを見つけられるように、ローカルガイドになって Google マップに情報を投稿 …",
+      "exact_model_in_result_text": 0,
+      "government_domain_candidate": 0,
+      "usable_as_scientific_evidence": 0,
+      "source_search_file": "external/model_FZ6470BEVC10A.html",
+      "source_search_sha256": "b927cd5a789131f55995079ba80729c5808f9cab484f88b82dc3767cfd181a7d"
+    },
+    {
+      "model_key": "FZ6470BEVC10A",
+      "result_url": "https://maps.google.com/intl/zh-CN/earth/",
+      "result_text": "google.com https://maps.google.com › intl › zh-CN › earth 世界上最详尽的地球仪 - Google Maps 2024年9月17日 · Google 地球为我们居住的星球提供最逼真的数字实景图像。这些图像源于何处？如何组合在一起？多久更新一次？ …",
+      "exact_model_in_result_text": 0,
+      "government_domain_candidate": 0,
+      "usable_as_scientific_evidence": 0,
+      "source_search_file": "external/model_FZ6470BEVC10A.html",
+      "source_search_sha256": "b927cd5a789131f55995079ba80729c5808f9cab484f88b82dc3767cfd181a7d"
+    },
+    {
+      "model_key": "FZ6470BEVC10A",
+      "result_url": "https://contentpartners.maps.google.com/",
+      "result_text": "google.com https://contentpartners.maps.google.com Google Search - Maps Content Partners Make your geospatial data accessible and useful to everyone. Help keep Google Maps up to date so the world can be accurately …",
+      "exact_model_in_result_text": 0,
+      "government_domain_candidate": 0,
+      "usable_as_scientific_evidence": 0,
+      "source_search_file": "external/model_FZ6470BEVC10A.html",
+      "source_search_sha256": "b927cd5a789131f55995079ba80729c5808f9cab484f88b82dc3767cfd181a7d"
+    }
+  ],
+  "exact_model_relevant_hits": 0,
+  "same_model_is_configuration_identity": false,
+  "negative_search_conclusion_permitted": false
+}

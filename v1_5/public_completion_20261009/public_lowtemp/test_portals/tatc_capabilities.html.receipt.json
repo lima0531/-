@@ -1,0 +1,27 @@
+{
+  "requested_url": "https://www.tatc.com.cn/jcnl",
+  "retrieved_utc": "2026-10-09T07:46:37.541073+00:00",
+  "local_file": "test_portals/tatc_capabilities.html",
+  "purpose": "公开检测能力，不能替代目标报告",
+  "query": "",
+  "target_models": [],
+  "tls_verification": true,
+  "status": "ok",
+  "http_status": 200,
+  "final_url": "https://www.tatc.com.cn/jcnl",
+  "response_headers": {
+    "date": "Fri, 09 Oct 2026 07:46:39 GMT",
+    "content-type": "text/html;charset=UTF-8",
+    "server": "envoy",
+    "content-language": "en-US",
+    "x-frame-options": "SAMEORIGIN",
+    "set-cookie": "Path=/; HttpOnly; Secure",
+    "x-ct-request-id": "2b8e946ca8598ba19760379be252e2c2",
+    "x-envoy-upstream-service-time": "716",
+    "connection": "close",
+    "transfer-encoding": "chunked"
+  },
+  "bytes": 6475,
+  "sha256": "0d728e52cedd9512adf7b6002944f07f9e835ff538afdd5f1c2fc3fbaa7325e3",
+  "truncated": false
+}

@@ -1,0 +1,29 @@
+﻿query,institution,request_file,http_status,status,observed_result,candidates_json,matching_full_report_obtained
+BAW7000UB44BEV,广州检验中心,institution_queries/gatc_BAW7000UB44BEV.html,403,http_error,请求失败，未取得页面内容,[],0
+BAW7000UB44BEV,SMVIC公开认证平台,institution_queries/smvic_BAW7000UB44BEV.html,200,ok,公开页面未见对应报告链接；不能排除委托系统或未索引附件,[],0
+BAW7000UL47BEV,广州检验中心,institution_queries/gatc_BAW7000UL47BEV.html,,fetch_error,请求失败，未取得页面内容,[],0
+BAW7000UL47BEV,SMVIC公开认证平台,institution_queries/smvic_BAW7000UL47BEV.html,503,http_error,请求失败，未取得页面内容,[],0
+DXK7001RD2BEV,广州检验中心,institution_queries/gatc_DXK7001RD2BEV.html,,fetch_error,请求失败，未取得页面内容,[],0
+DXK7001RD2BEV,SMVIC公开认证平台,institution_queries/smvic_DXK7001RD2BEV.html,503,http_error,请求失败，未取得页面内容,[],0
+DXK7001RD5BEV,广州检验中心,institution_queries/gatc_DXK7001RD5BEV.html,,fetch_error,请求失败，未取得页面内容,[],0
+DXK7001RD5BEV,SMVIC公开认证平台,institution_queries/smvic_DXK7001RD5BEV.html,200,ok,公开页面未见对应报告链接；不能排除委托系统或未索引附件,[],0
+GTM6470BFEBEV,广州检验中心,institution_queries/gatc_GTM6470BFEBEV.html,403,http_error,请求失败，未取得页面内容,[],0
+GTM6470BFEBEV,SMVIC公开认证平台,institution_queries/smvic_GTM6470BFEBEV.html,200,ok,公开页面未见对应报告链接；不能排除委托系统或未索引附件,[],0
+HXK7000BEVA13,广州检验中心,institution_queries/gatc_HXK7000BEVA13.html,403,http_error,请求失败，未取得页面内容,[],0
+HXK7000BEVA13,SMVIC公开认证平台,institution_queries/smvic_HXK7000BEVA13.html,503,http_error,请求失败，未取得页面内容,[],0
+JNJ7000EVF4,广州检验中心,institution_queries/gatc_JNJ7000EVF4.html,,fetch_error,请求失败，未取得页面内容,[],0
+JNJ7000EVF4,SMVIC公开认证平台,institution_queries/smvic_JNJ7000EVF4.html,503,http_error,请求失败，未取得页面内容,[],0
+JX7004ESABEV,广州检验中心,institution_queries/gatc_JX7004ESABEV.html,200,ok,页面明示未查询到相关记录；仅是站内文章搜索结果,[],0
+JX7004ESABEV,SMVIC公开认证平台,institution_queries/smvic_JX7004ESABEV.html,200,ok,公开页面未见对应报告链接；不能排除委托系统或未索引附件,[],0
+LZW7005EVA5KBJA,广州检验中心,institution_queries/gatc_LZW7005EVA5KBJA.html,200,ok,页面明示未查询到相关记录；仅是站内文章搜索结果,[],0
+LZW7005EVA5KBJA,SMVIC公开认证平台,institution_queries/smvic_LZW7005EVA5KBJA.html,503,http_error,请求失败，未取得页面内容,[],0
+LZW7005EVC1EBJ,广州检验中心,institution_queries/gatc_LZW7005EVC1EBJ.html,,fetch_error,请求失败，未取得页面内容,[],0
+LZW7005EVC1EBJ,SMVIC公开认证平台,institution_queries/smvic_LZW7005EVC1EBJ.html,503,http_error,请求失败，未取得页面内容,[],0
+SQJ7002YAC1BEV,广州检验中心,institution_queries/gatc_SQJ7002YAC1BEV.html,200,ok,页面明示未查询到相关记录；仅是站内文章搜索结果,[],0
+SQJ7002YAC1BEV,SMVIC公开认证平台,institution_queries/smvic_SQJ7002YAC1BEV.html,200,ok,公开页面未见对应报告链接；不能排除委托系统或未索引附件,[],0
+SQJ7002YACBEV,广州检验中心,institution_queries/gatc_SQJ7002YACBEV.html,,fetch_error,请求失败，未取得页面内容,[],0
+SQJ7002YACBEV,SMVIC公开认证平台,institution_queries/smvic_SQJ7002YACBEV.html,200,ok,公开页面未见对应报告链接；不能排除委托系统或未索引附件,[],0
+低温,广州检验中心,institution_queries/gatc_低温.html,200,ok,命中测试服务/标准相关新闻，未获目标配置报告正文,"[{""title"": ""· 排放节能试验研究部"", ""url"": ""https://www.gatc.ac.cn/n-330/""}, {""title"": ""· 零部件试验研究部"", ""url"": ""https://www.gatc.ac.cn/n-331/""}, {""title"": ""· 智能及飞行汽车试验研究部"", ""url"": ""https://www.gatc.ac.cn/n-332/""}, {""title"": ""· 整车试验研究部"", ""url"": ""https://www.gatc.ac.cn/n-333/""}, {""title"": ""· 新能源试验研究部"", ""url"": ""https://www.gatc.ac.cn/n-334/""}, {""title"": ""· 碰撞安全试验研究部"", ""url"": ""https://www.gatc.ac.cn/n-335/""}, {""title"": ""· 电磁兼容试验研究部"", ""url"": ""https://www.gatc.ac.cn/n-336/""}, {""title"": ""凝聚行业智慧 共筑绿色未来——轻型汽车能耗标准系列2026年第一次会议成功举办 2026-04-30"", ""url"": ""https://www.gatc.ac.cn/n-337/4388.html""}, {""title"": ""排放节能试验研究部 2023-09-23"", ""url"": ""https://www.gatc.ac.cn/n-330/""}, {""title"": ""“粤”见新质|解答车企“极寒之问”，助力产业“破冰”突围 2024-07-26"", ""url"": ""https://www.gatc.ac.cn/n-337/3856.html""}]",0
+低温,SMVIC公开认证平台,institution_queries/smvic_低温.html,200,ok,公开页面未见对应报告链接；不能排除委托系统或未索引附件,[],0
+18386.1,广州检验中心,institution_queries/gatc_18386.1.html,200,ok,页面明示未查询到相关记录；仅是站内文章搜索结果,[],0
+18386.1,SMVIC公开认证平台,institution_queries/smvic_18386.1.html,200,ok,命中标准/修改单条目，不能当配置低温报告；修改单正文需登录,"[{""title"": ""E7-GB/T18386.1-2021 电动汽车能量消耗量和续驶里程试验方法第1部分:轻型汽车《第1号修改单》 2026-07-09"", ""url"": ""https://hss.smvic.com.cn/indexnews/1384""}, {""title"": ""E7-GB/T 18386.1-2021《电动汽车能量消耗量和续驶里程试验方法》 2021-10-01"", ""url"": ""https://hss.smvic.com.cn/indexnews/330""}]",0

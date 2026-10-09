@@ -1,0 +1,11 @@
+{
+  "requested_url": "https://www.cmvic.com/#/index/index/",
+  "retrieved_utc": "2026-10-09T07:44:30.761907+00:00",
+  "local_file": "test_portals/cmvic.html",
+  "purpose": "中国汽研官网链接的国家机动车质量检验检测中心（重庆）",
+  "query": "",
+  "target_models": [],
+  "tls_verification": true,
+  "status": "fetch_error",
+  "error": "TimeoutError('The read operation timed out')"
+}

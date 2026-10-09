@@ -1,0 +1,27 @@
+{
+  "request_url": "https://openstd.samr.gov.cn/bzgk/std/newGbInfo?hcno=018D351EFF1AACD87C5919D0F21BEEBE",
+  "retrieved_at_utc": "2026-10-09T07:59:40.707742+00:00",
+  "purpose": "公开搜索实际返回的SAMR全文平台18386.1-2021具体页，核其明示修改单条目及正式登记字段，不下载受限全文",
+  "tls_verification": true,
+  "proxy_environment_preserved": true,
+  "request_method": "GET",
+  "automatic_redirects": false,
+  "same_url_retries": 0,
+  "http_status": 403,
+  "final_url": "https://openstd.samr.gov.cn/bzgk/std/newGbInfo?hcno=018D351EFF1AACD87C5919D0F21BEEBE",
+  "response_headers": {
+    "server": "envoy",
+    "date": "Fri, 09 Oct 2026 07:59:42 GMT",
+    "content-type": "text/html",
+    "vary": "Accept-Encoding",
+    "x-envoy-upstream-service-time": "754",
+    "connection": "close",
+    "transfer-encoding": "chunked"
+  },
+  "bytes": 1322,
+  "sha256": "20c2ceeba75d5193ee0218f2ddd84918b93755e75b43e0b80fb70f2d30f0e215",
+  "evidence_file": "official_openstd_base_amendment.html",
+  "status": "http_error",
+  "stored_body_representation": "urllib.read after transfer decoding; Content-Encoding preserved",
+  "finished_at_utc": "2026-10-09T07:59:42.599973+00:00"
+}

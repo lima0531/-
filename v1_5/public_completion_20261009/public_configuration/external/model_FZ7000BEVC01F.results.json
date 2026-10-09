@@ -1,0 +1,144 @@
+{
+  "model_key": "FZ7000BEVC01F",
+  "requested_q": "\"FZ7000BEVC01F\"",
+  "query_echo": "\"FZ7000BEVC01F\"",
+  "receipt": {
+    "requested_url": "https://www.bing.com/search?q=%22FZ7000BEVC01F%22&mkt=zh-CN&setlang=zh-hans&count=10",
+    "retrieved_utc": "2026-10-09T07:46:54.258334+00:00",
+    "tls_verification": true,
+    "status": "ok",
+    "http_status": 200,
+    "final_url": "https://www.bing.com/search?q=%22FZ7000BEVC01F%22&mkt=zh-CN&setlang=zh-hans&count=10",
+    "bytes": 100104,
+    "sha256": "dcee903358ef72b4e74120974d8d6220f5f9b24470b953bb94cdffafe2a00d6d",
+    "response_headers": {
+      "content-type": "text/html; charset=utf-8",
+      "cache-control": "private, max-age=0",
+      "expires": "Fri, 09 Oct 2026 07:45:54 GMT",
+      "vary": "User-Agent,Accept-Encoding",
+      "x-eventid": "6ac89bee25df472daf8664ecb766f1b8",
+      "x-as-setsessionmarket": "zh-CN",
+      "x-as-setsessionuilang": "zh-hans",
+      "useragentreductionoptout": "A7kgTC5xdZ2WIVGZEfb1hUoNuvjzOZX3VIV/BA6C18kQOOF50Q0D3oWoAm49k3BQImkujKILc7JmPysWk3CSjwUAAACMeyJvcmlnaW4iOiJodHRwczovL3d3dy5iaW5nLmNvbTo0NDMiLCJmZWF0dXJlIjoiU2VuZEZ1bGxVc2VyQWdlbnRBZnRlclJlZHVjdGlvbiIsImV4cGlyeSI6MTY4NDg4NjM5OSwiaXNTdWJkb21haW4iOnRydWUsImlzVGhpcmRQYXJ0eSI6dHJ1ZX0=",
+      "strict-transport-security": "max-age=31536000; includeSubDomains; preload",
+      "permissions-policy": "unload=()",
+      "content-security-policy": "script-src https: 'strict-dynamic' 'report-sample' 'wasm-unsafe-eval' 'nonce-3XocYjbC0An14iBQCPX6dsV1GVJl+AkNve7hqfNJTZI='; base-uri 'self';",
+      "p3p": "CP=\"NON UNI COM NAV STA LOC CURa DEVa PSAa PSDa OUR IND\"",
+      "x-display-context": "full",
+      "date": "Fri, 09 Oct 2026 07:46:54 GMT",
+      "set-cookie": "_SS=SID=1E191B53E31F6CBD22FE0CBEE2E86D4D; domain=.bing.com; path=/",
+      "alt-svc": "h3=\":443\"; ma=93600",
+      "x-cdn-traceid": "0.cd1c2117.1791532014.9151d430",
+      "x-envoy-upstream-service-time": "165",
+      "server": "envoy",
+      "connection": "close",
+      "transfer-encoding": "chunked"
+    },
+    "relative_path": "external/model_FZ7000BEVC01F.html"
+  },
+  "hits": [
+    {
+      "model_key": "FZ7000BEVC01F",
+      "result_url": "https://zhidao.baidu.com/question/384072823.html",
+      "result_text": "baidu.com https://zhidao.baidu.com › question 长治市有几个区、几个县 - 百度知道 2019年4月10日 · 长治现在还是辖10个县、2个区、1个县级市：长治县、襄垣县、长子县（Zhǎngzǐ）、屯留县、壶关县、黎城县、平 …    ",
+      "exact_model_in_result_text": 0,
+      "government_domain_candidate": 0,
+      "usable_as_scientific_evidence": 0,
+      "source_search_file": "external/model_FZ7000BEVC01F.html",
+      "source_search_sha256": "dcee903358ef72b4e74120974d8d6220f5f9b24470b953bb94cdffafe2a00d6d"
+    },
+    {
+      "model_key": "FZ7000BEVC01F",
+      "result_url": "https://zhidao.baidu.com/question/1242881808558253779.html",
+      "result_text": "baidu.com https://zhidao.baidu.com › question 河南壶关属于哪个市 - 百度知道 2018年3月24日 · 河南壶关属于哪个市壶关隶属于山西省长治市，不在河南省，与之相邻；壶关县，隶属于山西省长治市，位于山西东 …",
+      "exact_model_in_result_text": 0,
+      "government_domain_candidate": 0,
+      "usable_as_scientific_evidence": 0,
+      "source_search_file": "external/model_FZ7000BEVC01F.html",
+      "source_search_sha256": "dcee903358ef72b4e74120974d8d6220f5f9b24470b953bb94cdffafe2a00d6d"
+    },
+    {
+      "model_key": "FZ7000BEVC01F",
+      "result_url": "https://zhidao.baidu.com/question/529972517238195925.html",
+      "result_text": "baidu.com https://zhidao.baidu.com › question 马关县属于云南哪个市 - 百度知道 2023年5月7日 · 马关县属于云南哪个市属于文山壮族苗族自治州。马关县是中华人民共和国云南省文山壮族苗族自治州下辖的一个 …",
+      "exact_model_in_result_text": 0,
+      "government_domain_candidate": 0,
+      "usable_as_scientific_evidence": 0,
+      "source_search_file": "external/model_FZ7000BEVC01F.html",
+      "source_search_sha256": "dcee903358ef72b4e74120974d8d6220f5f9b24470b953bb94cdffafe2a00d6d"
+    },
+    {
+      "model_key": "FZ7000BEVC01F",
+      "result_url": "https://zhidao.baidu.com/question/1937292084432089147.html",
+      "result_text": "baidu.com https://zhidao.baidu.com › question 上饶县属于哪个区 - 百度知道 2025年2月9日 · 上饶县属于哪个区上饶县现在属于江西省上饶市的广信区。上饶县历史悠久，在历史上曾多次变更行政区划。2019 …",
+      "exact_model_in_result_text": 0,
+      "government_domain_candidate": 0,
+      "usable_as_scientific_evidence": 0,
+      "source_search_file": "external/model_FZ7000BEVC01F.html",
+      "source_search_sha256": "dcee903358ef72b4e74120974d8d6220f5f9b24470b953bb94cdffafe2a00d6d"
+    },
+    {
+      "model_key": "FZ7000BEVC01F",
+      "result_url": "https://zhidao.baidu.com/question/212521837.html",
+      "result_text": "baidu.com https://zhidao.baidu.com › question 湖北 天门市属于哪个市区 - 百度知道 2019年10月9日 · 湖北省天门市，是湖北省直辖县级行政单位，不属于哪个市区。 天门市： 湖北省省辖市，拥有 地级市 管理权限，是 …",
+      "exact_model_in_result_text": 0,
+      "government_domain_candidate": 0,
+      "usable_as_scientific_evidence": 0,
+      "source_search_file": "external/model_FZ7000BEVC01F.html",
+      "source_search_sha256": "dcee903358ef72b4e74120974d8d6220f5f9b24470b953bb94cdffafe2a00d6d"
+    },
+    {
+      "model_key": "FZ7000BEVC01F",
+      "result_url": "https://zhidao.baidu.com/question/431482182846575052.html",
+      "result_text": "baidu.com https://zhidao.baidu.com › question 山西省的长治县，为何改名为上党区？ - 百度知道 2020年4月2日 · 在山西省的东南部，有一个地方叫做长治县，也就是现在的上党区，它隶属于长治市。长治县地处于上党盆地的南 …",
+      "exact_model_in_result_text": 0,
+      "government_domain_candidate": 0,
+      "usable_as_scientific_evidence": 0,
+      "source_search_file": "external/model_FZ7000BEVC01F.html",
+      "source_search_sha256": "dcee903358ef72b4e74120974d8d6220f5f9b24470b953bb94cdffafe2a00d6d"
+    },
+    {
+      "model_key": "FZ7000BEVC01F",
+      "result_url": "https://zhidao.baidu.com/question/374256743361521724.html",
+      "result_text": "baidu.com https://zhidao.baidu.com › question 怎么查一个地址属于哪个区的哪个街道?_百度知道 2020年5月12日 · 3、地级市的市辖区或功能区所辖的街道、不设市辖区的地级市所辖的街道以及地级市所代管县级市、县所辖的街道 …",
+      "exact_model_in_result_text": 0,
+      "government_domain_candidate": 0,
+      "usable_as_scientific_evidence": 0,
+      "source_search_file": "external/model_FZ7000BEVC01F.html",
+      "source_search_sha256": "dcee903358ef72b4e74120974d8d6220f5f9b24470b953bb94cdffafe2a00d6d"
+    },
+    {
+      "model_key": "FZ7000BEVC01F",
+      "result_url": "https://zhidao.baidu.com/question/1682251980976345147.html",
+      "result_text": "baidu.com https://zhidao.baidu.com › question 云南河口县属于哪个市 - 百度知道 2025年8月5日 · 云南河口县全称为河口瑶族自治县，隶属于云南省红河哈尼族彝族自治州（简称“红河州”），是红河州直接管辖的县级 …",
+      "exact_model_in_result_text": 0,
+      "government_domain_candidate": 0,
+      "usable_as_scientific_evidence": 0,
+      "source_search_file": "external/model_FZ7000BEVC01F.html",
+      "source_search_sha256": "dcee903358ef72b4e74120974d8d6220f5f9b24470b953bb94cdffafe2a00d6d"
+    },
+    {
+      "model_key": "FZ7000BEVC01F",
+      "result_url": "https://zhidao.baidu.com/question/563106527.html",
+      "result_text": "baidu.com https://zhidao.baidu.com › question 遂溪县属于哪个市？_百度知道 2019年6月27日 · 遂溪县属于哪个市？遂溪县，隶属广东省湛江市。遂溪县历史悠久，最早可追溯到新石器时代中期。公元前355年， …",
+      "exact_model_in_result_text": 0,
+      "government_domain_candidate": 0,
+      "usable_as_scientific_evidence": 0,
+      "source_search_file": "external/model_FZ7000BEVC01F.html",
+      "source_search_sha256": "dcee903358ef72b4e74120974d8d6220f5f9b24470b953bb94cdffafe2a00d6d"
+    },
+    {
+      "model_key": "FZ7000BEVC01F",
+      "result_url": "https://zhidao.baidu.com/question/157284471.html",
+      "result_text": "baidu.com https://zhidao.baidu.com › question 兰考县属于哪个市管辖 - 百度知道 2010年6月3日 · 兰考县属于哪个市管辖兰考县归开封市管辖。兰考县位于河南省东北部，东连商丘，西接开封，属开封市。兰考，河 …",
+      "exact_model_in_result_text": 0,
+      "government_domain_candidate": 0,
+      "usable_as_scientific_evidence": 0,
+      "source_search_file": "external/model_FZ7000BEVC01F.html",
+      "source_search_sha256": "dcee903358ef72b4e74120974d8d6220f5f9b24470b953bb94cdffafe2a00d6d"
+    }
+  ],
+  "exact_model_relevant_hits": 0,
+  "same_model_is_configuration_identity": false,
+  "negative_search_conclusion_permitted": false
+}

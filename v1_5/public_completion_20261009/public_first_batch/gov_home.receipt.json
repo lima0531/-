@@ -1,0 +1,29 @@
+{
+  "request_url": "https://www.gov.cn/",
+  "purpose": "中国政府网门户真实搜索配置及历史栏目入口",
+  "retrieved_at_utc": "2026-10-09T07:45:58.304892+00:00",
+  "request_method": "GET",
+  "tls_verification": true,
+  "retry_policy": "one request; cache receipt thereafter",
+  "http_status": 200,
+  "final_url": "https://www.gov.cn/",
+  "response_headers": {
+    "date": "Fri, 09 Oct 2026 07:46:00 GMT",
+    "content-type": "text/html",
+    "vary": "Accept-Encoding",
+    "access-control-allow-origin": "*",
+    "access-control-allow-headers": "DNT,X-CustomHeader,Keep-Alive,User-Agent,X-Requested-With,If-Modified-Since,Cache-Control,Content-Type",
+    "access-control-allow-methods": "GET,POST,OPTIONS",
+    "access-control-allow-credentials": "true",
+    "x-ser": "i47214_c26071, i2103129_c28197, i2315569_c28195, i90192_c27779",
+    "x-cache": "HIT from i90192_c27779(cloudsvr)",
+    "x-envoy-upstream-service-time": "112",
+    "server": "envoy",
+    "connection": "close",
+    "transfer-encoding": "chunked"
+  },
+  "status": "retrieved",
+  "evidence_file": "/workspace/purchase_tax_audit/round9/public_first_batch/gov_home.html",
+  "bytes": 67905,
+  "sha256": "219725e077de04100e11e6bb669a897ac36855a848cebd6ecd6a5b300f7f2f13"
+}

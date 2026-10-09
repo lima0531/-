@@ -1,0 +1,144 @@
+{
+  "model_key": "FZ7000BEV14",
+  "requested_q": "\"FZ7000BEV14\"",
+  "query_echo": "\"FZ7000BEV14\"",
+  "receipt": {
+    "requested_url": "https://www.bing.com/search?q=%22FZ7000BEV14%22&mkt=zh-CN&setlang=zh-hans&count=10",
+    "retrieved_utc": "2026-10-09T07:46:54.126610+00:00",
+    "tls_verification": true,
+    "status": "ok",
+    "http_status": 200,
+    "final_url": "https://www.bing.com/search?q=%22FZ7000BEV14%22&mkt=zh-CN&setlang=zh-hans&count=10",
+    "bytes": 101501,
+    "sha256": "2b9d34555b854a285ccaf52eb818131f52ca07fdacc3ad74f6845b08d29b3557",
+    "response_headers": {
+      "content-type": "text/html; charset=utf-8",
+      "cache-control": "private, max-age=0",
+      "expires": "Fri, 09 Oct 2026 07:45:54 GMT",
+      "vary": "User-Agent,Accept-Encoding",
+      "x-eventid": "6ac89bee9cf34d99a5d94f0df71c82be",
+      "x-as-setsessionmarket": "zh-CN",
+      "x-as-setsessionuilang": "zh-hans",
+      "useragentreductionoptout": "A7kgTC5xdZ2WIVGZEfb1hUoNuvjzOZX3VIV/BA6C18kQOOF50Q0D3oWoAm49k3BQImkujKILc7JmPysWk3CSjwUAAACMeyJvcmlnaW4iOiJodHRwczovL3d3dy5iaW5nLmNvbTo0NDMiLCJmZWF0dXJlIjoiU2VuZEZ1bGxVc2VyQWdlbnRBZnRlclJlZHVjdGlvbiIsImV4cGlyeSI6MTY4NDg4NjM5OSwiaXNTdWJkb21haW4iOnRydWUsImlzVGhpcmRQYXJ0eSI6dHJ1ZX0=",
+      "strict-transport-security": "max-age=31536000; includeSubDomains; preload",
+      "permissions-policy": "unload=()",
+      "content-security-policy": "script-src https: 'strict-dynamic' 'report-sample' 'wasm-unsafe-eval' 'nonce-NjL6adpZ/0u1A6wrox2YlrexDt18LkG1+kRlxQC97ps='; base-uri 'self';",
+      "p3p": "CP=\"NON UNI COM NAV STA LOC CURa DEVa PSAa PSDa OUR IND\"",
+      "x-display-context": "full",
+      "date": "Fri, 09 Oct 2026 07:46:54 GMT",
+      "set-cookie": "_SS=SID=25F110959C0568340B1507789D356974; domain=.bing.com; path=/",
+      "alt-svc": "h3=\":443\"; ma=93600",
+      "x-cdn-traceid": "0.cd1c2117.1791532014.9151d30c",
+      "x-envoy-upstream-service-time": "115",
+      "server": "envoy",
+      "connection": "close",
+      "transfer-encoding": "chunked"
+    },
+    "relative_path": "external/model_FZ7000BEV14.html"
+  },
+  "hits": [
+    {
+      "model_key": "FZ7000BEV14",
+      "result_url": "https://baike.baidu.com/item/%E5%8D%97%E6%9E%81%E6%B4%B2/361230",
+      "result_text": "baidu.com https://baike.baidu.com › item › 南极 南极洲 （世界七大洲之一）_百度百科 1983年7月21日 · 南极洲由大陆、陆缘冰、岛屿组成，总面积1424.5万平方公里，其中大陆面积1239.3万平方千米，陆缘冰面积158.2 …    ",
+      "exact_model_in_result_text": 0,
+      "government_domain_candidate": 0,
+      "usable_as_scientific_evidence": 0,
+      "source_search_file": "external/model_FZ7000BEV14.html",
+      "source_search_sha256": "2b9d34555b854a285ccaf52eb818131f52ca07fdacc3ad74f6845b08d29b3557"
+    },
+    {
+      "model_key": "FZ7000BEV14",
+      "result_url": "https://zh.wikipedia.org/wiki/%E5%8D%97%E6%9E%81%E6%B4%B2",
+      "result_text": "wikipedia.org https://zh.wikipedia.org › wiki ›  南极洲 南极洲  - 维基百科，自由的百科全书 5 天之前 · 南极洲 ... 南极洲 （英語： Antarctica）是 地球 最南端的 洲，位於 南半球 的 南極區，为 地理南极 的所在地。 南极洲大部 …",
+      "exact_model_in_result_text": 0,
+      "government_domain_candidate": 0,
+      "usable_as_scientific_evidence": 0,
+      "source_search_file": "external/model_FZ7000BEV14.html",
+      "source_search_sha256": "2b9d34555b854a285ccaf52eb818131f52ca07fdacc3ad74f6845b08d29b3557"
+    },
+    {
+      "model_key": "FZ7000BEV14",
+      "result_url": "https://zhuanlan.zhihu.com/p/711632671",
+      "result_text": "zhihu.com https://zhuanlan.zhihu.com 超出你想象的南极世界 |  南极洲  - 知乎 2024年7月29日 · 大家好，欢迎来到超奇趣。 今天我们探索地球上最遥远、最神秘的大陆——南极洲。 南极洲位于地球的最南端，冰 …",
+      "exact_model_in_result_text": 0,
+      "government_domain_candidate": 0,
+      "usable_as_scientific_evidence": 0,
+      "source_search_file": "external/model_FZ7000BEV14.html",
+      "source_search_sha256": "2b9d34555b854a285ccaf52eb818131f52ca07fdacc3ad74f6845b08d29b3557"
+    },
+    {
+      "model_key": "FZ7000BEV14",
+      "result_url": "https://zh.wikipedia.org/zh-cn/%E5%8D%97%E6%9E%81%E6%B4%B2",
+      "result_text": "wikipedia.org https://zh.wikipedia.org › zh-cn ›  南极洲 南极洲  - 维基百科，自由的百科全书 2026年8月6日 · 南极洲现在是法律意义上的 共管 领土，由 南极条约体系 成员国 协商 管辖。 1959年，12个国家签署《南极条约》， …",
+      "exact_model_in_result_text": 0,
+      "government_domain_candidate": 0,
+      "usable_as_scientific_evidence": 0,
+      "source_search_file": "external/model_FZ7000BEV14.html",
+      "source_search_sha256": "2b9d34555b854a285ccaf52eb818131f52ca07fdacc3ad74f6845b08d29b3557"
+    },
+    {
+      "model_key": "FZ7000BEV14",
+      "result_url": "https://www.sohu.com/a/933879185_637401",
+      "result_text": "sohu.com https://www.sohu.com 全球最大的一块无主领土，面积远超我国，日本野心大早已布局 2025年9月11日 · 南极洲，这片被冰雪覆盖的广袤大陆，面积约1420万平方公里，比中国（约960万平方公里）还要大近一半。 然 …",
+      "exact_model_in_result_text": 0,
+      "government_domain_candidate": 0,
+      "usable_as_scientific_evidence": 0,
+      "source_search_file": "external/model_FZ7000BEV14.html",
+      "source_search_sha256": "2b9d34555b854a285ccaf52eb818131f52ca07fdacc3ad74f6845b08d29b3557"
+    },
+    {
+      "model_key": "FZ7000BEV14",
+      "result_url": "https://baike.baidu.com/item/%E5%8D%97%E6%9E%81%E6%B4%B2/20435838",
+      "result_text": "baidu.com https://baike.baidu.com › item ›  南极洲 南极洲 （ 南极洲 ）_百度百科 南极洲 本词条是一个多义词，请在下列义项中选择浏览 添加义项 世界七大洲之一 2017年商务印书馆出版的图书 纪录片 2020年美国 …",
+      "exact_model_in_result_text": 0,
+      "government_domain_candidate": 0,
+      "usable_as_scientific_evidence": 0,
+      "source_search_file": "external/model_FZ7000BEV14.html",
+      "source_search_sha256": "2b9d34555b854a285ccaf52eb818131f52ca07fdacc3ad74f6845b08d29b3557"
+    },
+    {
+      "model_key": "FZ7000BEV14",
+      "result_url": "https://www.china-shj.org.cn/dqbk-dqts-di/2025/04/17/detail_2025041718452.html",
+      "result_text": "china-shj.org.cn https://www.china-shj.org.cn › dqbk-dqts-di › ... 南极的自然环境 2025年4月17日 · 南极洲，位于南极点四周，为冰雪覆盖的大陆，周围岛屿星罗棋布。 南极洲的面积，包括南极大陆及其岛屿面积共 …",
+      "exact_model_in_result_text": 0,
+      "government_domain_candidate": 0,
+      "usable_as_scientific_evidence": 0,
+      "source_search_file": "external/model_FZ7000BEV14.html",
+      "source_search_sha256": "2b9d34555b854a285ccaf52eb818131f52ca07fdacc3ad74f6845b08d29b3557"
+    },
+    {
+      "model_key": "FZ7000BEV14",
+      "result_url": "https://zhuanlan.zhihu.com/p/709933405",
+      "result_text": "zhihu.com https://zhuanlan.zhihu.com 南极洲 地图 - 知乎 2024年7月20日 · 南极洲 (Antarctica)，围绕南极的大陆，地球七大洲之一。 位于 地球南端，四周被南冰洋所包围， [11]边缘有别林斯 …",
+      "exact_model_in_result_text": 0,
+      "government_domain_candidate": 0,
+      "usable_as_scientific_evidence": 0,
+      "source_search_file": "external/model_FZ7000BEV14.html",
+      "source_search_sha256": "2b9d34555b854a285ccaf52eb818131f52ca07fdacc3ad74f6845b08d29b3557"
+    },
+    {
+      "model_key": "FZ7000BEV14",
+      "result_url": "https://news.qq.com/rain/a/20240121A076LA00",
+      "result_text": "qq.com https://news.qq.com › rain 南极大陆细节至今模糊不清！是卫星技术不够，还是掩盖什么 ... 2024年1月21日 · 比如 visible earth 的网站里就有很多，南极大陆的高清卫星照片，除了 visible earth 还有Nasa的 Modis 网站里也有 …",
+      "exact_model_in_result_text": 0,
+      "government_domain_candidate": 0,
+      "usable_as_scientific_evidence": 0,
+      "source_search_file": "external/model_FZ7000BEV14.html",
+      "source_search_sha256": "2b9d34555b854a285ccaf52eb818131f52ca07fdacc3ad74f6845b08d29b3557"
+    },
+    {
+      "model_key": "FZ7000BEV14",
+      "result_url": "https://baike.sogou.com/m/v83096.htm",
+      "result_text": "sogou.com https://baike.sogou.com 南极洲  _ 百科 南极洲仅有一些来自其它大陆的科学考查人员和捕鲸队，南极洲最具特色的是没有土著居民，也没有发现任何古人类活动的痕迹。 直 …",
+      "exact_model_in_result_text": 0,
+      "government_domain_candidate": 0,
+      "usable_as_scientific_evidence": 0,
+      "source_search_file": "external/model_FZ7000BEV14.html",
+      "source_search_sha256": "2b9d34555b854a285ccaf52eb818131f52ca07fdacc3ad74f6845b08d29b3557"
+    }
+  ],
+  "exact_model_relevant_hits": 0,
+  "same_model_is_configuration_identity": false,
+  "negative_search_conclusion_permitted": false
+}

@@ -1,0 +1,27 @@
+{
+  "requested_url": "https://www.baw.com.cn/",
+  "retrieved_utc": "2026-10-09T07:43:07.532894+00:00",
+  "local_file": "portals/baw.html",
+  "purpose": "北京汽车制造厂公共官网入口",
+  "query": "",
+  "target_models": [
+    "BAW7000UB44BEV",
+    "BAW7000UL47BEV"
+  ],
+  "tls_verification": true,
+  "status": "ok",
+  "http_status": 200,
+  "final_url": "https://www.baw.com.cn/",
+  "response_headers": {
+    "server": "envoy",
+    "date": "Fri, 09 Oct 2026 07:43:09 GMT",
+    "content-type": "text/html; charset=utf-8",
+    "access-control-allow-origin": "*",
+    "x-envoy-upstream-service-time": "1261",
+    "connection": "close",
+    "transfer-encoding": "chunked"
+  },
+  "bytes": 13295,
+  "sha256": "41fe44b368be85cbc29b85c7322ea60c189613710e299f51c02bda9adda56266",
+  "truncated": false
+}

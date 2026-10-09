@@ -1,0 +1,14 @@
+{
+  "name": "google_exact",
+  "requested_url": "https://www.google.com/search?q=%22JX6550T-M5BEV%22",
+  "purpose": "Independent public index lead discovery",
+  "retrieved_at_utc": "2026-10-09T07:43:51.160489+00:00",
+  "tls_verified": true,
+  "http_status": 200,
+  "final_url": "https://www.google.com/search?q=%22JX6550T-M5BEV%22",
+  "bytes": 93260,
+  "sha256": "8742510571ca5ed2aa825dd28f6b14142ee8d807b9f7b50c69a4fd44f0b37ba4",
+  "local_file": "raw/google_exact.html",
+  "response_content_type": "text/html; charset=UTF-8",
+  "status": "received"
+}

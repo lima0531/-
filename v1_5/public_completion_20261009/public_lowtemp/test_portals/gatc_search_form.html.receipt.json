@@ -1,0 +1,29 @@
+{
+  "requested_url": "https://www.gatc.ac.cn/search/?model=article,pic",
+  "retrieved_utc": "2026-10-09T07:46:37.542169+00:00",
+  "local_file": "test_portals/gatc_search_form.html",
+  "purpose": "官网链接的公开搜索表单",
+  "query": "",
+  "target_models": [],
+  "tls_verification": true,
+  "status": "ok",
+  "http_status": 200,
+  "final_url": "https://www.gatc.ac.cn/search/?model=article,pic",
+  "response_headers": {
+    "date": "Fri, 09 Oct 2026 07:46:41 GMT",
+    "content-type": "text/html; charset=utf-8",
+    "server": "envoy",
+    "x-powered-by": "PHP/7.4.33",
+    "set-cookie": "PHPSESSID=atdi62gt82t192ap2mr4f4avdf; expires=Sat, 10-Oct-2026 07:46:39 GMT; Max-Age=86400; path=/; HttpOnly",
+    "expires": "Thu, 19 Nov 1981 08:52:00 GMT",
+    "cache-control": "no-store, no-cache, must-revalidate",
+    "pragma": "no-cache",
+    "x-ct-request-id": "a3c12e9239ed54248da4777e840549a7",
+    "x-envoy-upstream-service-time": "2523",
+    "connection": "close",
+    "transfer-encoding": "chunked"
+  },
+  "bytes": 19423,
+  "sha256": "db96f1fcc34273b3927ebb170a5d722dbb17b13cc490ddcbeb46a8b45e2177cf",
+  "truncated": false
+}

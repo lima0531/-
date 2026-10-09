@@ -1,0 +1,78 @@
+{
+  "generated_at_utc": "2026-10-09T08:18:36.636732+00:00",
+  "scientific_version": "v1.5",
+  "core_counts": {
+    "historical_originals": 106,
+    "missing_originals": 0,
+    "cohort_models": 3328,
+    "monthly_rows": 119808,
+    "risk_models": 2805,
+    "numeric_ready_models": 2425,
+    "numeric_insufficient_models": 380,
+    "same_legal_or_configuration_certification_implied": false
+  },
+  "purpose_scopes_remaining": {
+    "JX原空字段": 1,
+    "32联合跨界": 32,
+    "4单项跨界": 4,
+    "推荐配置身份": 285,
+    "低温例外": 19,
+    "再申报逐车": 92,
+    "公告前工况": 2208
+  },
+  "scopes_have_overlapping_grains_do_not_sum": true,
+  "new_evidence_closures": {
+    "JX_energy_fields": 0,
+    "configuration_interval_models": 0,
+    "cross_tax_recommendation_identity_versions": 0,
+    "explicit_cycle_labels": 0,
+    "matching_low_temperature_full_reports": 0,
+    "actual_first_online_dates": 0
+  },
+  "cycle_source_files_fully_scanned": 71,
+  "recommendation_firm_names_as_written": 43,
+  "source_summaries": [
+    {
+      "file": "public_jx_extended/jx_extended_summary.json",
+      "sha256": "3645910c2ed14711a3dfadbabe4c85df39318b9c1468c1c9d03f8c2aa0033fbf"
+    },
+    {
+      "file": "public_configuration/public_configuration_summary.json",
+      "sha256": "51aa1f4d5f7ee87732ca1af8c8738eddc5ca06e06709791d65bbd4d7ed1901a3"
+    },
+    {
+      "file": "public_cycle/public_cycle_summary.json",
+      "sha256": "cd8d3b8fea1f5351ed0c8a725ce125445df4c0ecec906470149ef1cf5eea94d1"
+    },
+    {
+      "file": "public_lowtemp/public_lowtemp_summary.json",
+      "sha256": "9b4552670a2b8b76978a43b36652f14f852c87b04cd67d6730b7ada540f95b70"
+    },
+    {
+      "file": "public_first_batch/conclusion.json",
+      "sha256": "7a7bb3e41528b5f15495247ddcc9d01f78673503faf316ee67d3b1da1d15ece2"
+    },
+    {
+      "file": "public_standard_amendment/standard_amendment_evidence.json",
+      "sha256": "c42802da09c08ecc8571399732c6dadf92ad6d00bcac7d250dfef2296965e768"
+    },
+    {
+      "file": "public_standard_extra/standard_extra_summary.json",
+      "sha256": "5b16b8062e5b5c56b74ff06d59ca37c8b11305069f15800165dce5bcf8d90cfd"
+    },
+    {
+      "file": "user_handoff/handoff_summary.json",
+      "sha256": "86e360c485c785e504c66d5e3a4fa03906bcc052fe1c7c66bc97fc333b06c7fc"
+    }
+  ],
+  "next_action": "用户本人正常使用已验证公开入口；企业技术认证/原检测机构/授权业务系统交付对应历史材料。当前目录状态与保守数值分析可继续。",
+  "material_acquisition_time_is_not_guaranteed": true,
+  "historical_private_material_not_automatically_public_before_freeze": true,
+  "new_public_reference_originals": {
+    "standard_draft_pdf_files": 2,
+    "consultation_publication_date": "2024-05-13",
+    "consultation_deadline": "2024-07-12",
+    "formal_final_amendment_dates_closed": false,
+    "vehicle_missing_data_gaps_closed": 0
+  }
+}

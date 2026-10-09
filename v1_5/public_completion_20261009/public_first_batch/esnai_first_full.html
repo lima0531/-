@@ -1,0 +1,921 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<title> 免征车辆购置税的新能源汽车车型目录[第一批]-全文-工业和信息化部国家税务总局公告2014年第54号 - 法规库 - 中国会计视野</title>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta http-equiv="X-UA-Compatible" content="IE=8" />
+<link rel="stylesheet" type="text/css" href="//js.isnai.cn/easyui-1.3.2/themes/default/easyui.css" />
+<link rel="stylesheet" type="text/css" href="//js.isnai.cn/easyui-1.3.2/themes/icon.css" />
+<script type="text/javascript" charset="utf-8" src="//js.isnai.cn/easyui-1.3.2/jquery-1.8.0.min.js"></script>
+<script type="text/javascript" charset="utf-8" src="//js.isnai.cn/easyui-1.3.2/jquery.easyui.min.js"></script>
+<script type="text/javascript" charset="utf-8" src="//js.isnai.cn/easyui-1.3.2/locale/easyui-lang-zh_CN.js"></script>
+<!--by 飞鸟 flybird@snai.edu-->
+<link rel="stylesheet" type="text/css" href="/css/icon.css" />
+<link rel="stylesheet" type="text/css" href="/template/css/style.css" />
+<script type="text/javascript" >
+    jQuery.fn.datebox.defaults.formatter = function (date) {
+        var y = date.getFullYear();
+        var m = date.getMonth() + 1;
+        var d = date.getDate();
+        return y + '-' + m + '-' + d;
+    };
+    jQuery.fn.datebox.defaults.parser = function (s) {
+        if (s) {
+            var a = s.split('-');
+            var d = new Date(parseInt(a[0]), parseInt(a[1]) - 1, parseInt(a[2]));
+            return d;
+        } else {
+            return new Date();
+        }
+
+    };
+</script>
+<script type="text/javascript" src="https://tajs.qq.com/stats?sId=23505327" charset="UTF-8"></script>
+<script>
+    var _hmt = _hmt || [];
+    (function () {
+        var hm = document.createElement("script");
+        hm.src = "//hm.baidu.com/hm.js?117c90b441dc59584d8b235c5c69a870";
+        var s = document.getElementsByTagName("script")[0];
+        s.parentNode.insertBefore(hm, s);
+    })();
+</script>
+<script type="text/javascript">
+    jQuery.parser.onComplete = function () {
+        jQuery('#w_set_fav').css('visibility', 'visible');
+    }
+</script>
+<script type="text/javascript">
+    //user_folder_mark
+    function save2userfolder() {
+        var value = '';
+        jQuery("input[name='folderid']:checked").each(function () {
+            value = (value == '' ? $(this).val() : value + ',' + $(this).val());
+        });
+        if (value == '' && (jQuery('#new_userfolder').val() == '')) { alert('请选择一个目录'); return; }
+        jQuery.ajax({
+            url: "/do.aspx?controller=ajax&action=save2usefolder&rnd=" + Math.random(),
+            type: 'POST',
+            data: { lawid: 148900, folders: value, new_folders: jQuery('#new_userfolder').val() },
+            beforeSend: function () { },
+            error: function () {
+                //alert("发生错误数据未能载入");
+                jQuery('#w_set_fav').window('close');
+                jQuery.messager.alert('操作失败', '发生错误数据未能载入', 'error');
+            },
+            success: function (html) {
+                if (html == "OK") {
+                    jQuery('#w_set_fav').window('close');
+                    jQuery('#user_folder_mark').html('<span style="color:red">已经搜藏</span> <a href="javascript:;" onclick="show_folder_win();return false">更改收藏位置</a>');
+                }
+                else {
+                    jQuery('#w_set_fav').window('close');
+                    jQuery.messager.alert('操作失败', html, 'error');
+                }
+            }
+        });
+    }
+
+    function show_folder_win() {
+        jQuery('#new_userfolder').val('');
+        jQuery('#folder_list').load("/do.aspx?controller=ajax&action=get_usefolders_form&lawid=148900&rnd=" + Math.random(), function () {
+            //jQuery('#w_set_fav').css('visibility', 'visible');
+            jQuery('#w_set_fav').window('open');
+            jQuery('#w_set_fav').window('center');
+        })
+    }
+
+    jQuery(function () {
+        jQuery('.showip').each(function () {
+            var id = jQuery(this).attr("id");
+            jQuery('#'+id).load("/do.aspx?controller=ajax&action=ip2location&id=" + id + "&rnd=" + Math.random(), function () {
+                //alert(jQuery(id));
+            })
+        });
+    });
+
+</script>
+</head>
+<body>
+
+        <div id='wx_logo' style='margin:0 auto;display:none;'>
+<img src='/images/esnai-logo.jpg' />
+</div>
+<script type="text/javascript">
+</script>
+
+
+
+<div class="area2">
+  <table width="100%" border="0" cellspacing="0" cellpadding="0">
+    
+<tr>
+      
+<td>
+      <link href="//img-news.esnai.cn/css/style_esnai.css" rel="stylesheet" type="text/css" />
+<script type="text/javascript" src="https://cbjs.baidu.com/js/m.js"></script>
+<script type="text/javascript">
+BAIDU_CLB_preloadSlots("748797","748796","748794","748793","752012","752011","752010","752008");
+</script>
+
+
+<div class="area">
+<table width="100%" border="0" cellpadding="0" cellspacing="0" background="//img-news.esnai.cn/images_esnai/bg-search.gif" style="border-top:1px solid #E3E3E3;border-left:1px solid #E3E3E3;border-right:1px solid #E3E3E3;">
+  <tr>
+    <td height="31" align="left" style="padding-left:10px;">[<script language="javascript">document.write("<sc" + "ript language=\'javascript\' src=\'//passport.esnai.cn/passportapi.php?charset=utf8&loginFrom=" + escape(window.location) + "\'></sc" + "ript>")</script>]<a href="//bbs.esnai.cn/money.php">金币中心</a>|<a id="sethomepage" href="javascript:Void();">设首页</a>|<a id="setfavorite" href="javascript:Void();">收藏</a>|<a href="//news.esnai.cn/english/" target="_blank">Eng</a>|<a href="//www.xbrl-cn.org/" target="_blank">XBRL中国</a>|<a href="//news.esnai.cn/36/2005/0331/16259.shtml" target="_blank"><img src="https://img-news.esnai.cn/images_esnai/rss.gif" width="12" height="12" align="absmiddle" /></a>&nbsp;&nbsp;<a href="//www.esnai.cn/m/" class="or12"><img src="//news.esnai.cn/index2012/images/mobile.gif" align="absmiddle" /><strong style="color:#FF6600;">手机版</strong></a></td>
+    <td align="right" style="padding-right:10px;">
+        <form action="//app-news.esnai.cn/ks.php" target="_blank" method="GET" id="search" name="search">
+    <span style="padding-right:10px;">
+    <input name="key" type="text" style="WIDTH: 80px" value="" size="18" />
+    <select name="infoType" style="width: 83px;">
+        <option value="0" selected="">视野全站</option>
+        <option value="1">资讯</option>
+        <option value="11">招贴/招聘</option>
+        <option value="4">学院课程</option>
+        <option value="13">百科</option>
+        <option value="6">法规</option>
+        <option value="7">社区精华</option>
+        <option value="14">远程教育</option>
+    </select>
+    <input type="submit" value=" " style="border: medium none; width:66px; background: url('//img-news.esnai.cn/images_esnai/input_bg3.gif') no-repeat scroll 0pt 0pt transparent; cursor: pointer;"></span>
+</form>
+
+      <!--
+        <input id="headSearchKey" name="headSearchKey" style="width: 80px;"/>&nbsp;<SELECT id=headInfoType style="WIDTH: 80px" name=headInfoType> <OPTION value=0 selected>视野全站</OPTION> <OPTION value=1>资讯</OPTION> <OPTION value=11>招贴/招聘</OPTION> <OPTION value=4>学院课程</OPTION> <OPTION value=12>爱享</OPTION> <OPTION value=13>百科</OPTION> <OPTION value=6>法规</OPTION> <OPTION value=7>社区精华</OPTION> <OPTION value=8>文库</OPTION> <OPTION value=9>书店</OPTION> <OPTION value=10>博客</OPTION><OPTION value=14>远程教育</OPTION></SELECT>&nbsp;
+        <a href="javascript:doKSSearch()"><img src="//img-news.esnai.cn/images_esnai/input_bg3.gif" align="absmiddle" /></a>
+      -->
+    </td>
+  </tr>
+</table>
+<script type="text/javascript">
+$(document).ready(function(){
+// 添加收藏
+$("#setfavorite").click(function(){
+            var ctrl = (navigator.userAgent.toLowerCase()).indexOf('mac') != -1 ? 'Command/Cmd': 'CTRL';
+            if (document.all) {
+                window.external.addFavorite('//www.esnai.cn/', '中国会计视野');
+            } else if (window.sidebar) {
+                window.sidebar.addPanel('中国会计视野', '//www.esnai.cn/', "");
+            } else {
+                alert('您可以尝试通过快捷键' + ctrl + ' + D 加入到收藏夹~');
+            }
+                return false;
+});
+// 设为首页
+$("#sethomepage").click(function(){
+        var url = this.href;
+        try {
+            this.style.behavior = "url(#default#homepage)";
+            this.setHomePage(url);
+        } catch (e) {
+            if (document.all) {
+        document.body.style.behavior="url(#default#homepage)";
+        document.body.setHomePage(url);            
+            } else if (window.sidebar) {
+if (window.netscape) {
+                try {
+                    netscape.security.PrivilegeManager.enablePrivilege("UniversalXPConnect");
+                } catch (e) {
+                    alert("此操作被浏览器拒绝！\n请在浏览器地址栏输入“about:config”并回车\n然后将 [signed.applets.codebase_principal_support]的值设置为'true',双击即可。");
+                    return false;
+                }
+}
+                var prefs = Components.classes["@mozilla.org/preferences-service;1"].getService(Components.interfaces.nsIPrefBranch);
+                prefs.setCharPref('browser.startup.homepage',url);
+            } else {
+                alert('您的浏览器不支持自动设置首页, 使用浏览器菜单或在浏览器地址栏输入“chrome://settings/browser”手动设置!');
+            }
+        }
+        return false;
+});
+});
+</script> 
+<table width="100%" border="0" cellspacing="0" cellpadding="0" style="border-bottom:1px solid #CDCDCD;border-left:1px solid #E3E3E3;border-right:1px solid #E3E3E3;">
+  <tr>
+    <td width="27%" align="center"><a href="//www.esnai.cn"><img src="//img-news.esnai.cn/images_esnai/logo.gif" width="160" height="60" /></a></td>
+    <td align="left" class="line-height130">
+	<div class="headnav">
+    <ul>
+    <li><a href="//www.esnai.cn">首页</a></li>
+	    <li><a href="//ks.esnai.cn/" target="_blank">会搜</a></li>
+            <li><strong class="blue">信息</strong></li>
+            <li><a href="//kuaibao.esnai.cn/" target="_blank">会报</a> </li>
+            <li><a href="//news.esnai.cn/33/" target="_blank">资讯</a> </li>
+            <li><a href="//law.esnai.cn/" target="_blank">法规</a> </li>
+            <li><a href="//shuo-news.esnai.cn/" target="_blank">会说</a> </li>
+            <li><a href="//news.esnai.cn/39" target="_blank">职场</a> </li>
+            <li><strong class="blue">知识</strong></li>
+            
+            <li><a href="//baike.esnai.cn/" target="_blank">百科</a> </li>
+            <li><a href="//news.esnai.cn/34/" target="_blank">考试</a> </li>
+            <li><strong class="blue">交流</strong></li>
+            <li><a href="//bbs.esnai.cn/" target="_blank">论坛</a> </li>
+	</ul>
+	</div>
+	<div class="headnav">
+    <ul>
+<li><strong class="blue">上国会课程</strong></li>
+              <li><a href="//www.snai.edu.cn/" target="_blank">面授\学位</a> </li>
+              <li><a href="//www.isnai.cn/" target="_blank">网络教育</a> </li>
+    </ul>
+
+  </div></td>
+  </tr>
+</table>
+<table width="100%" border="0" cellspacing="0" cellpadding="0">
+  <tr>
+    <td height="5"></td>
+  </tr>
+</table>
+
+
+
+
+</div>
+
+      
+</td>
+    
+</tr>
+  
+</table>
+</div>
+
+
+<div class="area2">
+  <table width="100%" border="0" cellspacing="0" cellpadding="0">
+    <tr>
+      <td height="5" colspan="2"></td>
+    </tr>
+    <tr>
+      <td width="18%" height="30" align="left" class="ztwhtie"><a href="/"><img src="/template/images/logo-laws.jpg" width="287" height="30" border="0" /></a></td>
+      <td width="82%" align="center" bgcolor="#2851a9"><a href="/my/" class="white">我的法规</a>　<a href="/newlaw/" class="white">最新法规</a>　<a 
+      href="/toplaw/" class="white">点击最多</a>　<!--<a href="/topcomment/" class="white">评论最多</a>-->　<a 
+      href="/#disabledlaws" class="white">失效法规</a>　<a 
+      href="/#downloads" class="white">资料下载</a>　<a href="/#articles" class="white">法规解读</a>　<!--<a 
+      href="http://ishare.esnai.com/view/122374.aspx" target="_blank" class="white">下载绿色版</a>-->　<a 
+      href="https://law.esnai.cn/do.aspx?controller=home&action=show_search_form" target="_blank" class="white">法规搜索</a>
+      </td>
+    </tr>
+    <tr>
+      <td height="5" colspan="2"></td>
+    </tr>
+  </table>
+</div>
+        <div class="area2">
+        <table width="100%" border="0" cellspacing="0" cellpadding="0">
+            <tr>
+                <td width="260" height="600" valign="top">
+                          <table width="100%" border="0" cellspacing="0" cellpadding="0">
+        <tr>
+          <td bgcolor="#f1f1f1" style="border:1px solid #f1f1f1;"><table width="100%" border="0" cellspacing="0" cellpadding="0">
+            <tr>
+              <td align="center" valign="top" bgcolor="#f6f6f6" style="border:1px solid #e2e2e2;">              
+              
+              </td>
+            </tr>
+          </table></td>
+        </tr>
+      </table>
+      <!--
+        <table width="100%" border="0" cellspacing="0" cellpadding="0">
+          <tr>
+            <td height="8"></td>
+          </tr>
+        </table>
+        -->
+                            <table width="100%" border="0" cellspacing="0" cellpadding="0">
+                        <tr>
+                            <td height="8"></td>
+                        </tr>
+                    </table>
+                            <table width="100%" border="0" cellspacing="0" cellpadding="0">
+          <tr>
+            <td bgcolor="#f1f1f1" style="border:1px solid #f1f1f1;"><table width="100%" border="0" cellspacing="0" cellpadding="0">
+                <tr>
+                  <td align="center" valign="top" bgcolor="#FFFFFF" style="border:1px solid #e2e2e2;"><table width="100%" border="0" cellspacing="0" cellpadding="5">
+                    <tr>
+                      <td width="82%" bgcolor="#FFFFFF" style="border-bottom:1px solid #e2e2e2;font-family:'微软雅黑';"><strong>　法规分类</strong></td>
+                      <td width="18%" align="center" bgcolor="#FFFFFF" style="border-bottom:1px solid #e2e2e2;"><img src="/template/images/arrow-red-bt.gif" width="10" height="12" /></td>
+                    </tr>
+                  </table>
+                    <table width="90%" border="0" cellspacing="0" cellpadding="0">
+                      <tr>
+                        <td height="300" valign="top">
+						<div class="lb0">
+
+                            <ul id="tLawType">
+                            Loading...
+                            </ul> 
+						</div>
+						</td>
+                      </tr>
+                    </table></td>
+                </tr>
+            </table>
+            </td>
+          </tr>
+        </table>                    <table width="100%" border="0" cellspacing="0" cellpadding="0">
+                        <tr>
+                            <td height="8"></td>
+                        </tr>
+                    </table>
+                    <table width="100%" border="0" cellspacing="0" cellpadding="0">
+    <tr>
+    <td bgcolor="#f1f1f1" style="border:1px solid #f1f1f1;"><table width="100%" border="0" cellspacing="0" cellpadding="0">
+        <tr>
+            <td valign="top" bgcolor="#FFFFFF" style="border:1px solid #e2e2e2;"><table width="100%" border="0" cellspacing="0" cellpadding="5">
+                <tr>
+                <td width="52%" style="border-bottom:1px solid #e2e2e2;font-family:'微软雅黑';"><strong>　热点专题</strong></td>
+                <td width="48%" align="right" style="border-bottom:1px solid #e2e2e2;"><a href="#"><img src="/template/images/more.gif" width="67" height="17" border="0" /></a></td>
+                </tr>
+                <tr>
+                <td colspan="2" align="center" valign="top" bgcolor="#f6f6f6">
+                <table width="95%" border="0" cellspacing="0" cellpadding="5">
+                                                            <tr>
+                    <td align=left><img src="/template/images/dot-red.gif" /><a href="/do.aspx?controller=home&action=subject&id=17"></a></td>
+                    </tr>
+                                                            <tr>
+                    <td align=left><img src="/template/images/dot-red.gif" /><a href="/do.aspx?controller=home&action=subject&id=26">【企业会计准则】</a></td>
+                    </tr>
+                                                            <tr>
+                    <td align=left><img src="/template/images/dot-red.gif" /><a href="/do.aspx?controller=home&action=subject&id=16">CPA考试法规汇编（2015）</a></td>
+                    </tr>
+                                                            <tr>
+                    <td align=left><img src="/template/images/dot-red.gif" /><a href="/do.aspx?controller=home&action=subject&id=8">IPO相关法规</a></td>
+                    </tr>
+                                                            <tr>
+                    <td align=left><img src="/template/images/dot-red.gif" /><a href="/do.aspx?controller=home&action=subject&id=18">电子商务法规汇编（2014）</a></td>
+                    </tr>
+                                        <tr>
+                    <td height="10"></td>
+                    </tr>
+                                                            <tr>
+                    <td align=left><img src="/template/images/dot-red.gif" /><a href="/do.aspx?controller=home&action=subject&id=3">二手房买卖</a></td>
+                    </tr>
+                                                            <tr>
+                    <td align=left><img src="/template/images/dot-red.gif" /><a href="/do.aspx?controller=home&action=subject&id=19">公司法及司法解释汇编（2015）</a></td>
+                    </tr>
+                                                            <tr>
+                    <td align=left><img src="/template/images/dot-red.gif" /><a href="/do.aspx?controller=home&action=subject&id=20">会计专业技术资格考试法规汇编（2015）</a></td>
+                    </tr>
+                                                            <tr>
+                    <td align=left><img src="/template/images/dot-red.gif" /><a href="/do.aspx?controller=home&action=subject&id=21">借款担保法规专辑（2014）</a></td>
+                    </tr>
+                                                            <tr>
+                    <td align=left><img src="/template/images/dot-red.gif" /><a href="/do.aspx?controller=home&action=subject&id=10">境外上市相关法规</a></td>
+                    </tr>
+                                        <tr>
+                    <td height="10"></td>
+                    </tr>
+                                                            <tr>
+                    <td align=left><img src="/template/images/dot-red.gif" /><a href="/do.aspx?controller=home&action=subject&id=22">民间资本法规专辑（2014）</a></td>
+                    </tr>
+                                                            <tr>
+                    <td align=left><img src="/template/images/dot-red.gif" /><a href="/do.aspx?controller=home&action=subject&id=23">上海自贸区政策汇编（2014）</a></td>
+                    </tr>
+                                                            <tr>
+                    <td align=left><img src="/template/images/dot-red.gif" /><a href="/do.aspx?controller=home&action=subject&id=24">外汇管理法规（2014）</a></td>
+                    </tr>
+                                                            <tr>
+                    <td align=left><img src="/template/images/dot-red.gif" /><a href="/do.aspx?controller=home&action=subject&id=1">西部大开发</a></td>
+                    </tr>
+                                                            <tr>
+                    <td align=left><img src="/template/images/dot-red.gif" /><a href="/do.aspx?controller=home&action=subject&id=2">振兴东北</a></td>
+                    </tr>
+                                        <tr>
+                    <td height="10"></td>
+                    </tr>
+                                                            <tr>
+                    <td align=left><img src="/template/images/dot-red.gif" /><a href="/do.aspx?controller=home&action=subject&id=25">征收拆迁补偿法规专辑（2014）</a></td>
+                    </tr>
+                                                        </table></td>
+                </tr>
+            </table></td>
+        </tr>
+    </table></td>
+    </tr>
+</table>                </td>
+                <td width="8">&nbsp;</td>
+                <td valign="top">
+                    <!--start-->
+
+
+                    <table width="100%" border="0" cellspacing="0" cellpadding="0">
+                        <tr>
+                            <td style="border:1px solid #f1f1f1;">
+
+                                <table width="100%" border="0" cellspacing="0" cellpadding="0">
+                                    <tr>
+                                        <td style="border:1px solid #f1f1f1;">
+                                            <table width="100%" border="0" cellspacing="0" cellpadding="5">
+                                                <tr>
+                                                    <td height="40" align="left" style="border:1px solid #e2e2e2;">
+                                                        &nbsp;&nbsp;
+                                                        <a href="/">首页</a> >
+                                                                                                                <a href="/do.aspx?controller=home&action=ListByType&lawtype=011">税费法规</a> >
+                                                                                                                <a href="/do.aspx?controller=home&action=ListByType&lawtype=011002">车辆购置税</a> >
+                                                                                                                <a href="/do.aspx?controller=home&action=ListByType&lawtype=011002000">车辆购置税优惠政策</a> >
+                                                                                                            </td>
+                                                </tr>
+                                            </table>
+                                        </td>
+                                    </tr>
+                                </table>
+
+
+
+                                <table width="100%" border="0" cellspacing="0" cellpadding="0">
+                                    <tr>
+                                        <td align="center" valign="top" style="border:1px solid #e2e2e2;">
+
+                                            <table width="95%" border="0" cellspacing="0" cellpadding="0">
+                                                <tr>
+                                                    <td width="19%" height="40" align="center" class="zt-large"><strong>法规内容</strong> </td>
+                                                    <td width="81%" height="40" class="zt14">&nbsp;<span style="color:red">本文仅供参考，如需引用请以正式文件为准</span></td>
+                                                </tr>
+                                                <tr>
+                                                    <td height="1" colspan="2" bgcolor="#003399"></td>
+                                                </tr>
+                                            </table>
+                                            <table width="90%" border="0" cellspacing="0" cellpadding="3" style="margin-top:10px; text-align:left;">
+                                                <tbody>
+                                                    <tr>
+                                                        <td width="74" align="left" nowrap="nowrap" class="grey" id="tdTitle">发文标题：</td>
+                                                        <td width="524" align="left" class="zt12"><b>免征车辆购置税的新能源汽车车型目录[第一批]</b></td>
+                                                    </tr>
+                                                                                                        <tr>
+                                                        <td class="grey" align="left" nowrap="nowrap" colspan="">发文文号：</td>
+                                                        <td class="zt12">工业和信息化部国家税务总局公告2014年第54号</td>
+                                                    </tr>
+                                                                                                        <tr>
+                                                        <td class="grey" align="left" nowrap="nowrap">发文部门：</td>
+                                                        <td class="zt12">
+                                                                                                                        <a href="/do.aspx?controller=home&action=search&Department=1128" target=_blank>工业和信息化部</a>
+                                                                                                                        <a href="/do.aspx?controller=home&action=search&Department=120" target=_blank>国家税务总局</a>
+                                                                                                                    </td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td class="grey" align="left" nowrap="nowrap">发文时间：</td>
+                                                        <td class="zt12">2014-8-27</td>
+                                                    </tr>
+
+                                                    <tr>
+                                                        <td class="grey" align="left" nowrap="nowrap">实施时间：</td>
+                                                        <td class="zt12">2014-9-1</td>
+                                                    </tr>
+                                                                                                        <tr>
+                                                        <td class="grey" align="left" nowrap="nowrap">法规类型：</td>
+                                                        <td class="zt12">
+                                                                                                                        <a href="/do.aspx?controller=home&action=search&LawType=011002000" target=_blank>车辆购置税优惠政策</a>
+                                                                                                                    </td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td class="grey" align="left" nowrap="nowrap">所属行业：</td>
+                                                        <td class="zt12" align="left">
+                                                                                                                        <a href="/do.aspx?controller=home&action=search&Trade=" target=_blank>所有行业</a>
+                                                                                                                    </td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td class="grey" align="left" nowrap="nowrap">所属区域：</td>
+                                                        <td class="zt12" align="left">
+                                                                                                                        <a href="/do.aspx?controller=home&action=search&District=000100000000" target=_blank>中国</a>
+                                                                                                                    </td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td class="grey" align="left" nowrap="nowrap">阅读人次：</td>
+                                                        <td class="zt12">5065</td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td name="Ctitle" class="grey" align="left" nowrap="nowrap">评论人次：</td>
+                                                        <td name="Ccontent" class="zt12">0</td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td name="Ctitle" class="grey" align="left" nowrap="nowrap">页面功能：</td>
+                                                        <td class="zt12" name="Ccontent">
+
+                                                            <div class="function">
+                                                                <ul class="funclf">
+                                                                                                                                        <li class="drop_on" onMouseOver1="this.className=&#39;drop_on&#39;" onMouseOut1="this.className=&#39;drop_off&#39;">
+                                                                        <a class="f_favor" href="javascript:;" onclick="show_folder_win();return false"></a>
+                                                                        <span class="tooltip">加入收藏</span>
+                                                                    </li>
+                                                                                                                                        <a href="/print/148900/" title="打印" style="margin-right:3px"><img width="22" height="22" src="/template/images/printer.png" border="0" /></a>
+                                                                                                                                        <li class="drop_off" onMouseOver="this.className=&#39;drop_on&#39;" onMouseOut="this.className=&#39;drop_off&#39;">
+                                                                                                                                                                                                                    </li>
+                                                                                                                                        <li class="drop_off" onMouseOver="this.className=&#39;drop_on&#39;" onMouseOut="this.className=&#39;drop_off&#39;"><a class="f_close" href="javascript:void(0);" onClick="window.open(&#39;/print/print.jsp&#39;,&#39;print&#39;,&#39;height=500,width=570,top=0,left=0,toolbar=no,menubar=no,scrollbars=yes,location=no, status=no&#39;);" target="_self"></a><span class="tooltip">关闭</span></li>
+                                                                </ul>
+
+                                                            </div>
+                                                        </td>
+                                                    </tr>
+                                                </tbody>
+                                            </table>
+                                            <table width="90%" border="0" cellspacing="0" cellpadding="3">
+                                                <tbody>
+                                                    <tr>
+                                                        <td align="left" valign="top" nowrap="nowrap" class="grey" id="tdTitle">发文内容：</td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td class="line-height2 zt14" colspan="2" id="tdContent" style="padding:10px 20px 10px 20px;text-align:left">
+                                                            <p>
+	　　为促进我国交通能源战略转型、推进生态文明建设、支持新能源汽车产业发展，根据《财政部 国家税务总局 工业和信息化部<a href="http://law.esnai.com/law_show.aspx?LawID=148104" target="_blank" title="法规:关于免征新能源汽车车辆购置税的公告">关于免征新能源汽车车辆购置税的公告</a>》(公告2014年第53号)的要求，工业和信息化部会同国家税务总局等部门对企业提交的申请材料进行了审查。现将《免征车辆购置税的新能源汽车车型目录》(第一批)予以公告，自2014年9月1日起开始实施。<br />
+	　　附件：免征车辆购置税的新能源汽车车型目录(第一批)<br />
+	　　工业和信息化部&nbsp;&nbsp; 国家税务总局<br />
+	　　2014年8月27日</p><a href="http://news.esnai.cn/36/2012/1211/83936.shtml" target="_blank"><img src="/template/images/logo-mini.gif" width="17" height="19" align="absmiddle" /></a>
+                                                        </td>
+                                                    </tr>
+                                                                                                                                                                                                                <tr>
+                                                        <td align="left" valign="top" nowrap="nowrap" class="grey" id="td3">相关附件：</td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td class="line-height2 zt14" colspan="2" id="td1" style="padding:10px 20px 10px 20px;">
+                                                                                                                        <A target='_blank' href='/upload_files/14/20149122313185431.pdf' title='大小：442883 类别：pdf'> 免征车辆购置税的新能源汽车车型目录（第一批）.pdf </A>&nbsp;&nbsp;&nbsp;<br />
+                                                                                                                    </td>
+                                                    </tr>
+                                                                                                                                                            
+                                                </tbody>
+                                            </table>
+                                                                                        <table width="90%" border="0" cellspacing="0" cellpadding="3" style="margin-top:10px; text-align:center; margin-bottom:20px" align="center">
+                                                <tbody>
+                                                    <tr>
+                                                        <td width="74" align="left" nowrap="nowrap" class="grey" id="tdTitle">&nbsp;</td>
+                                                        <td width="524" align="left" class="zt12">
+
+                                                            <div class="function">
+                                                                <ul class="funclf">
+                                                                                                                                        <li class="drop_on" onMouseOver1="this.className=&#39;drop_on&#39;" onMouseOut1="this.className=&#39;drop_off&#39;">
+                                                                        <a class="f_favor" href="javascript:;" onclick="show_folder_win();return false"></a>
+                                                                        <span class="tooltip">加入收藏</span>
+                                                                    </li>
+                                                                                                                                        <a href="/print/148900/" title="打印" style="margin-right:3px"><img width="22" height="22" src="/template/images/printer.png" border="0" /></a>
+                                                                                                                                        <li class="drop_off" onMouseOver="this.className=&#39;drop_on&#39;" onMouseOut="this.className=&#39;drop_off&#39;">
+                                                                                                                                                                                                                    </li>
+                                                                                                                                        <li class="drop_off" onMouseOver="this.className=&#39;drop_on&#39;" onMouseOut="this.className=&#39;drop_off&#39;"><a class="f_close" href="javascript:void(0);" onClick="window.open(&#39;/print/print.jsp&#39;,&#39;print&#39;,&#39;height=500,width=570,top=0,left=0,toolbar=no,menubar=no,scrollbars=yes,location=no, status=no&#39;);" target="_self"></a><span class="tooltip">关闭</span></li>
+                                                                </ul>
+
+                                                            </div>
+                                                        </td>
+                                                    </tr>
+                                            </table>
+                                                                                                                                                                                
+											<!--2020年08月24日应杨武要求关闭该功能-->
+                                            <!--<br />
+                                            <div id="PanComment">
+
+                                                <input type="hidden" name="hidItemID" id="hidItemID" value="1353">
+                                                <strong style="float:left;margin-left:35px;">新评论：</strong>
+                                                <table width="94%" border="0" cellspacing="0" cellpadding="0">
+                                                    <tbody>
+                                                        <tr>
+                                                            <td align="center">
+                                                                <table width="96%" border="0" cellspacing="0" cellpadding="0">
+
+                                                                    <tbody>
+                                                                        <tr>
+                                                                            <td colspan="2">
+                                                                                
+                                                                                <table id="commenttable" width="100%" border="0" cellpadding="0" cellspacing="1" bgcolor="#F1F1F1" style="">
+                                                                                    <tbody>
+                                                                                        <tr>
+                                                                                            <td valign="top">
+                                                                                                <style type="text/css">
+                                                                                                    .commnetTitle {
+                                                                                                        height: 40px;
+                                                                                                        width: 95%;
+                                                                                                        clear: both;
+                                                                                                        border-bottom: 1px solid #e5e5e5;
+                                                                                                    }
+
+                                                                                                        .commnetTitle .name {
+                                                                                                            width: 20%;
+                                                                                                            float: left;
+                                                                                                            text-align: left;
+                                                                                                            margin-top: 10px;
+                                                                                                        }
+
+                                                                                                    .aqw_pub {
+                                                                                                        cursor: pointer;
+                                                                                                        width: 54px;
+                                                                                                        height: 24px;
+                                                                                                        line-height: 24px;
+                                                                                                        float: right;
+                                                                                                        background-color: #00a5e8;
+                                                                                                        color: #ffffff;
+                                                                                                        font-size: 12px;
+                                                                                                        margin-top: 6px;
+                                                                                                        text-align: center;
+                                                                                                        border: 0;
+                                                                                                    }
+
+                                                                                                        .aqw_pub a {
+                                                                                                            text-decoration: none;
+                                                                                                            color: #FFF;
+                                                                                                        }
+
+                                                                                                    .mainContent {
+                                                                                                        padding: 10px 10px 0 10px;
+                                                                                                        text-align: left;
+                                                                                                        width: 90%;
+                                                                                                    }
+
+                                                                                                        .mainContent .aq_write {
+                                                                                                            border-bottom: dashed 1px #d9d9d9;
+                                                                                                        }
+
+                                                                                                            .mainContent .aq_write .aqwright h3 {
+                                                                                                                height: 14px;
+                                                                                                                line-height: 14px;
+                                                                                                                font-size: 12px;
+                                                                                                                font-weight: 400;
+                                                                                                                color: #00a5eb;
+                                                                                                            }
+
+                                                                                                                .mainContent .aq_write .aqwright h3 a {
+                                                                                                                    color: #00a5eb;
+                                                                                                                }
+
+                                                                                                                .mainContent .aq_write .aqwright h3 span {
+                                                                                                                    color: #8C8C8C;
+                                                                                                                    margin-left: 15px;
+                                                                                                                    font-family: Microsoft YaHei;
+                                                                                                                    font-size: 12px;
+                                                                                                                }
+
+                                                                                                            .mainContent .aq_write .ansright_cont {
+                                                                                                                position: relative;
+                                                                                                                min-height: 20px;
+                                                                                                                line-height: 20px;
+                                                                                                                overflow: hidden;
+                                                                                                                margin: 6px 0 0 0;
+                                                                                                                font-size: 14px;
+                                                                                                                color: #4c4c4c;
+                                                                                                                word-break: break-all;
+                                                                                                                word-wrap: break-word;
+                                                                                                                font-family: Microsoft YaHei;
+                                                                                                                font-size: 14px;
+                                                                                                                padding-bottom: 15px;
+                                                                                                            }
+
+                                                                                                                .mainContent .aq_write .ansright_cont a {
+                                                                                                                    position: absolute;
+                                                                                                                    width: 100px;
+                                                                                                                    height: 20px;
+                                                                                                                    bottom: 0;
+                                                                                                                    left: 50%;
+                                                                                                                    margin-left: -50px;
+                                                                                                                }
+
+                                                                                                    .jiazai {
+                                                                                                        margin-bottom: 20px;
+                                                                                                    }
+
+                                                                                                        .jiazai .conBtn {
+                                                                                                            width: 250px;
+                                                                                                            height: 35px;
+                                                                                                            line-height: 35px;
+                                                                                                            color: #ffffff;
+                                                                                                            background: #00a5e8;
+                                                                                                            font-size: 16px;
+                                                                                                            text-align: center;
+                                                                                                            display: block;
+                                                                                                            margin: 20px auto 0;
+                                                                                                        }
+
+                                                                                                            .jiazai .conBtn:hover {
+                                                                                                                background: #028cc4;
+                                                                                                                color: #ffffff;
+                                                                                                                text-decoration: none;
+                                                                                                            }
+                                                                                                </style>
+
+                                                                                                <table width="100%" border="0" cellpadding="0" cellspacing="1" bgcolor="#E2E2E2">
+                                                                                                    <tbody>
+                                                                                                        <tr>
+                                                                                                            <td align="center" valign="top" bgcolor="#FFFFFF">
+                                                                                                                <div class="commnetTitle">
+                                                                                                                    <div class="name"><strong>评论<img src="//img-news.esnai.cn/images_esnai/arrow-red.gif" width="19" height="10"></strong></div>
+                                                                                                                    <div class="aqw_pub"><a href="http://bbs.esnai.cn/forum.php?mod=viewthread&amp;tid=5138735#f_pst" target="_blank" id="replyBtn">发表</a></div>
+                                                                                                                </div>
+
+                                                                                                                <span id="replyLists">
+
+                                                                                                                </span>
+                                                                                                                <div class="jiazai" id="loadMore" style="display:none;"><a class="conBtn" href="javascript:getReply();">点击加载更多</a></div>
+                                                                                                            </td>
+                                                                                                        </tr>
+                                                                                                    </tbody>
+                                                                                                </table>
+
+
+                                                                                            </td>
+                                                                                        </tr>
+                                                                                    </tbody>
+                                                                                </table>
+                                                                                <div class="blank9"></div>
+                                                                                <script type="text/javascript">
+                                                                                    var nowPage = 1;
+                                                                                    jQuery(document).ready(function() {
+                                                                                        getReply();
+                                                                                    });
+                                                                                    function getReply() {
+                                                                                        jQuery.ajax({
+                                                                                            type: "get",
+                                                                                            url: "https://bbs.esnai.cn/law/api.php?id=" + 148900 + "&page=" + nowPage,
+                                                                                            dataType: "jsonp"
+                                                                                        });
+                                                                                    }
+                                                                                    function mkReplyHtml(json) {
+                                                                                        if (json.error == 'T') {
+                                                                                            return false;
+                                                                                        }
+                                                                                        jQuery('a#replyBtn').attr('href', 'http://bbs.esnai.cn/forum.php?mod=viewthread&tid=' + json.tid + '#f_pst');
+                                                                                        if (json.error == 'N') {
+                                                                                            jQuery('div#loadMore').hide();
+                                                                                        }
+                                                                                        nowPage = json.page + 1;
+                                                                                        var html = [];
+                                                                                        for (var i in json.data) {
+                                                                                            html.push('<div class="mainContent">');
+                                                                                            html.push('<div class="aq_write">');
+                                                                                            html.push('<div class="aqwright">');
+                                                                                            html.push('<h3><a href="javascript:void(0);" ref="nofollow">' + json.data[i].n + '</a><span>' + json.data[i].t + '</span></h3>');
+                                                                                            html.push('</div>');
+                                                                                            html.push('<div class="ansright_cont">');
+                                                                                            html.push(json.data[i].m);
+                                                                                            html.push('</div></div></div>');
+                                                                                            html.push('<div class="blank9"></div>');
+                                                                                        }
+                                                                                        jQuery('span#replyLists').append(html.join(''));
+                                                                                        if (json.error == 'E') {
+                                                                                            jQuery('div#loadMore').hide();
+                                                                                        }
+                                                                                        if (json.error == 'F') {
+                                                                                            jQuery('div#loadMore').show();
+                                                                                        }
+                                                                                        jQuery('table#commenttable').show();
+                                                                                    }
+                                                                                </script>
+
+                                                                            </td>
+                                                                        </tr>
+
+                                                                    </tbody>
+                                                                </table>
+                                                            </td>
+                                                        </tr>
+                                                    </tbody>
+                                                </table>
+
+                                            </div>-->
+                                                                                                                                    <table width="90%" border="0" cellspacing="0" cellpadding="0" id="Table14">
+                                                <tbody>
+                                                    <tr>
+                                                        <td height="40" align="left" class="zt14" style="border-bottom:1px solid #003399;"><strong>相关法规</strong></td>
+                                                        <td align="right" class="grey zt12" style="border-bottom:1px solid #003399;">&nbsp;</td>
+                                                    </tr>
+                                                </tbody>
+                                            </table>
+                                            <table width="90%" border="0" cellspacing="0" cellpadding="5" class="datatable2" style="margin-bottom:20px;">
+                                                                                                                                                <tr>
+                                                    <td width="66%" align="left"><img src="/template/images/dot-red.gif" /><a href="/do.aspx?controller=home&action=show&lawid=198595" title="《道路机动车辆生产企业及产品》[第341批]、《新能源汽车推广应用推荐车型目录》[2021年第2批]、《享受车船税减免优惠的节约能源 使用新能源汽车车型目录》[第二十四批]、《免征车辆购置税的新能源汽车车型目录》[第四十批]">《道路机动车辆生产企业及产品》[第341批]、《新能源汽车</a></td>
+                                                    <td width="22%" class="grey"><span title="工业和信息化部公告2021年第7号">工业和信息化部</span></td>
+                                                    <td width="12%" class="grey" nowrap>2021/3/8</td>
+                                                </tr>
+                                                                                                                                                                                                <tr>
+                                                    <td width="66%" align="left"><img src="/template/images/dot-red.gif" /><a href="/do.aspx?controller=home&action=show&lawid=154743" title="西安市财政局关于印发西安市加快新能源汽车推广应用财政优惠政策实施细则的通知">西安市财政局关于印发西安市加快新能源汽车推广应用财政</a></td>
+                                                    <td width="22%" class="grey"><span title="市财发[2014]191号">市财发[2014]19</span></td>
+                                                    <td width="12%" class="grey" nowrap>2013/11/21</td>
+                                                </tr>
+                                                                                                                                                                                                <tr>
+                                                    <td width="66%" align="left"><img src="/template/images/dot-red.gif" /><a href="/do.aspx?controller=home&action=show&lawid=142172" title="关于支持沈阳长春等城市或区域开展新能源汽车推广应用工作的通知">关于支持沈阳长春等城市或区域开展新能源汽车推广应用工</a></td>
+                                                    <td width="22%" class="grey"><span title="财建[2014]10号">财建[2014]10号</span></td>
+                                                    <td width="12%" class="grey" nowrap>2014/1/27</td>
+                                                </tr>
+                                                                                                                                                                                                <tr>
+                                                    <td width="66%" align="left"><img src="/template/images/dot-red.gif" /><a href="/do.aspx?controller=home&action=show&lawid=196613" title="免征车辆购置税的新能源汽车车型目录[第三十二批]">免征车辆购置税的新能源汽车车型目录[第三十二批]</a></td>
+                                                    <td width="22%" class="grey"><span title="工业和信息化部国家税务总局公告2020年第23号">工业和信息化部</span></td>
+                                                    <td width="12%" class="grey" nowrap>2020/5/26</td>
+                                                </tr>
+                                                                                                                                                                                                <tr>
+                                                    <td width="66%" align="left"><img src="/template/images/dot-red.gif" /><a href="/do.aspx?controller=home&action=show&lawid=197095" title="云南省人民政府办公厅关于印发云南省加快新能源汽车产业发展和推广应用若干政策措施的通知">云南省人民政府办公厅关于印发云南省加快新能源汽车产业</a></td>
+                                                    <td width="22%" class="grey"><span title="云政办发[2020]45号">云政办发[2020]</span></td>
+                                                    <td width="12%" class="grey" nowrap>2020/8/3</td>
+                                                </tr>
+                                                                                                                                                                                                <tr>
+                                                    <td width="66%" align="left"><img src="/template/images/dot-red.gif" /><a href="/do.aspx?controller=home&action=show&lawid=229533" title="上海市人民政府办公厅关于转发市发展改革委等五部门制订的《上海市鼓励购买和使用新能源汽车实施办法》的通知">上海市人民政府办公厅关于转发市发展改革委等五部门制订</a></td>
+                                                    <td width="22%" class="grey"><span title="沪府办规[2025]21号">沪府办规[2025]</span></td>
+                                                    <td width="12%" class="grey" nowrap>2026/1/1</td>
+                                                </tr>
+                                                                                                                                                                                                <tr>
+                                                    <td width="66%" align="left"><img src="/template/images/dot-red.gif" /><a href="/do.aspx?controller=home&action=show&lawid=223293" title="《道路机动车辆生产企业及产品》[第396批]、《享受车船税减免优惠的节约能源 使用新能源汽车车型目录》[第七十五批]、《减免车辆购置税的新能源汽车车型目录》[第十九批]">《道路机动车辆生产企业及产品》[第396批]、《享受车船税</a></td>
+                                                    <td width="22%" class="grey"><span title="工业和信息化部公告2025年第15号">工业和信息化部</span></td>
+                                                    <td width="12%" class="grey" nowrap>2025/7/15</td>
+                                                </tr>
+                                                                                                                                                                                                <tr>
+                                                    <td width="66%" align="left"><img src="/template/images/dot-red.gif" /><a href="/do.aspx?controller=home&action=show&lawid=189469" title="北京市财政局北京市科学技术委员会北京市经济和信息化委员会关于调整完善北京市新能源汽车推广应用财政补助政策的通知">北京市财政局北京市科学技术委员会北京市经济和信息化委</a></td>
+                                                    <td width="22%" class="grey"><span title="京财经一[2018]1296号">京财经一[2018]</span></td>
+                                                    <td width="12%" class="grey" nowrap>2018/1/1</td>
+                                                </tr>
+                                                                                                                                                                                                <tr>
+                                                    <td width="66%" align="left"><img src="/template/images/dot-red.gif" /><a href="/do.aspx?controller=home&action=show&lawid=217958" title="青岛市工业和信息化局青岛市财政局国家税务总局青岛市税务局关于印发《青岛市加快新能源汽车产业高质量发展若干政策措施实施细则》的通知">青岛市工业和信息化局青岛市财政局国家税务总局青岛市税</a></td>
+                                                    <td width="22%" class="grey"><span title="青工信字[2023]6号">青工信字[2023]</span></td>
+                                                    <td width="12%" class="grey" nowrap>2022/1/1</td>
+                                                </tr>
+                                                                                                                                                                                                <tr>
+                                                    <td width="66%" align="left"><img src="/template/images/dot-red.gif" /><a href="/do.aspx?controller=home&action=show&lawid=166628" title="河北省人民政府办公厅关于印发河北省加快新能源汽车产业发展和推广应用若干措施的通知">河北省人民政府办公厅关于印发河北省加快新能源汽车产业</a></td>
+                                                    <td width="22%" class="grey"><span title="冀政办字[2015]173号">冀政办字[2015]</span></td>
+                                                    <td width="12%" class="grey" nowrap>2015/12/26</td>
+                                                </tr>
+                                                                                                                                            </table>
+                                                                                                                                </td>
+                                    </tr>
+                                </table>
+                            </td>
+                        </tr>
+                    </table>
+                    <!--end-->
+                </td>
+            </tr>
+        </table>
+    </div>
+    
+      <div class="blank9"></div>
+
+<div class="esnai_footer">
+<div align="center" class="pic" style="width:170px;">
+ </div>
+<div class="word" style="width:775px;" align="center">上海国家会计学院旗下更多网站：<a href="//www.snai.edu.cn" target="_blank" class="non-line">学院主页</a>　　<a href="//www.isnai.cn" target="_blank" class="non-line">上海国家会计学院远程教育网</a>　　<a href="http://www.afdi.org.cn" target="_blank" class="non-line">亚太财经与发展学院</a></div>
+<div class="word2" style="width:775px;" align="center">上海国家会计学院中国会计视野网站版权所有&nbsp;&nbsp;&nbsp;&nbsp;增值电信业务经营许可证：沪B2-20201082<br />
+  上海市青浦区蟠龙路200号(201702)   联系电话：021-69768000-68145<br />
+  工作时间:8:30-16:30　   传真：021-69768028 <br>
+<a href="//beian.miit.gov.cn" target="_blank">沪ICP备05013522号</a></div>
+</div>
+
+<!--底部广告条-->
+<!--
+<div id="appOpen"></div>
+    <div id="appAdv">
+        <div class="appAdvInner"><a href="javascript://" class="close"></a></div>
+    </div>
+-->
+
+<script type="text/javascript">
+<!--
+/*
+	$(function(){
+		$('#appAdv').find('.close').bind('click', function(){
+			$('#appAdv').animate({'width':'0'}, function(){
+				$(this).hide();
+				$('#appOpen').show().animate({'left':'0px'});
+			});
+		});
+		$('#appOpen').bind('mouseover', function(){
+			$('#appOpen').animate({'left':'-95px'}, function(){
+				$(this).hide();
+				$('#appAdv').show().animate({'width':'100%'});
+			});
+		});
+
+                if ($.cookie('advtime')) {
+                    $('#appAdv .close').click();
+                } else {
+                    var cookietime = new Date(); 
+                    cookietime.setTime(cookietime.getTime() + (1800 * 1000));
+                    $.cookie('advtime', '1', {expires: cookietime, path: '/', domain: 'esnai.com'});
+                }
+                
+	});
+*/
+//-->
+</script>
+
+<style type="text/css">
+	#appOpen{background:url(//www.esnai.cn/images/appOpen.png) no-repeat;width:44px;height:95px;position:fixed;left:-95px;bottom:100px;display:none;}
+	#appAdv{background:url(//www.esnai.cn/images/bg.png) repeat-x;width:100%;position:fixed;bottom:0;left:0;z-index:99;height:202px;}
+	#appAdv .appAdvInner{background:url(//www.esnai.cn/images/zxapp.png) center bottom no-repeat;width:961px;height:194px;margin:0px auto;position:relative;}
+	#appAdv .appAdvInner .close{background:url(//www.esnai.cn/images/close.png) no-repeat;width:25px;height:25px;display:block;position:absolute;right:5px;top:50px}
+</style>
+
+</body>
+</html>
+
+    <script type="text/javascript" src="/template/js/loadlawtype.js"></script>
+
+    <div id="w_set_fav" class="easyui-window" title="收藏法规" icon="icon-save" style="width:640px;height:420px;padding:5px;background: #fafafa;visibility:hidden" maximized="false" maximizable="true" closable="true" closed="true" collapsible="false" resizable="false" modal="true">
+        <div class="easyui-layout" fit="true">
+            <div region="center" border="false" style="padding:10px;background:#fff;border:1px solid #ccc;">
+                <div id="folder_list">
+
+                </div>
+            </div>
+            <div region="south" border="false" style="text-align:right;height:40px;line-height:30px;padding:5px;">
+                <a class="easyui-linkbutton" icon="icon-ok" href="javascript:void(0)" onclick="save2userfolder();return false;">确 定</a>
+                <a class="easyui-linkbutton" icon="icon-cancel" href="javascript:void(0)" onclick="jQuery('#w_set_fav').window('close');return false;">取 消</a>
+            </div>
+        </div>
+    </div>
+
+
+</body>
+</html>

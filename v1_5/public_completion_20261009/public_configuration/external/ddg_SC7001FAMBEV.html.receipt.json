@@ -1,0 +1,33 @@
+{
+  "requested_url": "https://html.duckduckgo.com/html/?q=%22SC7001FAMBEV%22",
+  "retrieved_utc": "2026-10-09T07:48:49.298263+00:00",
+  "tls_verification": true,
+  "status": "ok",
+  "http_status": 200,
+  "final_url": "https://html.duckduckgo.com/html/?q=%22SC7001FAMBEV%22",
+  "bytes": 18601,
+  "sha256": "4a189f1f2503bdd7d15650ff83bfdb7ba26417fee79c83f3dead23a49025aa8a",
+  "response_headers": {
+    "server": "envoy",
+    "date": "Fri, 09 Oct 2026 07:48:49 GMT",
+    "content-type": "text/html; charset=UTF-8",
+    "vary": "Accept-Encoding,Origin",
+    "server-timing": "total;dur=482;desc=\"Backend Total [n]\"",
+    "strict-transport-security": "max-age=31536000",
+    "x-robots-tag": "noindex",
+    "permissions-policy": "interest-cohort=()",
+    "content-security-policy": "default-src 'none' ; connect-src  https://duck.ai https://*.duck.ai https://duckduckgo.com https://*.duckduckgo.com https://duckduckgogg42xjoc72x3sjasowoarfbgcmvfimaftt6twagswzczad.onion/ https://spreadprivacy.com ; manifest-src  https://duck.ai https://*.duck.ai https://duckduckgo.com https://*.duckduckgo.com https://duckduckgogg42xjoc72x3sjasowoarfbgcmvfimaftt6twagswzczad.onion/ https://spreadprivacy.com ; media-src  https://duck.ai https://*.duck.ai https://duckduckgo.com https://*.duckduckgo.com https://duckduckgogg42xjoc72x3sjasowoarfbgcmvfimaftt6twagswzczad.onion/ https://spreadprivacy.com ; script-src blob:  https://duck.ai https://*.duck.ai https://duckduckgo.com https://*.duckduckgo.com https://duckduckgogg42xjoc72x3sjasowoarfbgcmvfimaftt6twagswzczad.onion/ https://spreadprivacy.com ; font-src data:  https://duck.ai https://*.duck.ai https://duckduckgo.com https://*.duckduckgo.com https://duckduckgogg42xjoc72x3sjasowoarfbgcmvfimaftt6twagswzczad.onion/ https://spreadprivacy.com ; img-src data:  https://duck.ai https://*.duck.ai https://duckduckgo.com https://*.duckduckgo.com https://duckduckgogg42xjoc72x3sjasowoarfbgcmvfimaftt6twagswzczad.onion/ https://spreadprivacy.com ; style-src  https://duck.ai https://*.duck.ai https://duckduckgo.com https://*.duckduckgo.com https://duckduckgogg42xjoc72x3sjasowoarfbgcmvfimaftt6twagswzczad.onion/ https://spreadprivacy.com ; object-src 'none' ; worker-src blob: ; child-src blob:  https://duck.ai https://*.duck.ai https://duckduckgo.com https://*.duckduckgo.com https://duckduckgogg42xjoc72x3sjasowoarfbgcmvfimaftt6twagswzczad.onion/ https://spreadprivacy.com ; frame-src blob:  https://duck.ai https://*.duck.ai https://duckduckgo.com https://*.duckduckgo.com https://duckduckgogg42xjoc72x3sjasowoarfbgcmvfimaftt6twagswzczad.onion/ https://spreadprivacy.com ; frame-ancestors 'self' ; base-uri 'self' ; block-all-mixed-content ;",
+    "x-frame-options": "SAMEORIGIN",
+    "x-xss-protection": "1;mode=block",
+    "x-content-type-options": "nosniff",
+    "referrer-policy": "origin",
+    "expect-ct": "max-age=0",
+    "expires": "Fri, 09 Oct 2026 07:48:50 GMT",
+    "cache-control": "max-age=1",
+    "x-duckduckgo-locale": "en_US",
+    "x-envoy-upstream-service-time": "539",
+    "connection": "close",
+    "transfer-encoding": "chunked"
+  },
+  "relative_path": "external/ddg_SC7001FAMBEV.html"
+}

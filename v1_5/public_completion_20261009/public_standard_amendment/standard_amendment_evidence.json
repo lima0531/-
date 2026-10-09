@@ -1,0 +1,312 @@
+{
+  "audit_generated_at_utc": "2026-10-09T08:04:01.898428+00:00",
+  "target_standard": "GB/T 18386.1-2021",
+  "target_amendment": "第1号修改单",
+  "target_standard_name": "电动汽车能量消耗量和续驶里程试验方法 第1部分：轻型汽车",
+  "status": "institutional_lead_only; official_amendment_publication_and_implementation_not_verified",
+  "official_amendment_registry_id": null,
+  "official_amendment_announcement_number": null,
+  "official_amendment_publication_date": null,
+  "official_amendment_implementation_date": null,
+  "institution_lead": {
+    "url": "https://hss.smvic.com.cn/indexnews/1384",
+    "anchor_text": "E7-GB/T18386.1-2021 电动汽车能量消耗量和续驶里程试验方法第1部分:轻型汽车《第1号修改单》 2026-07-09",
+    "list_date": "2026-07-09",
+    "list_date_is_official_amendment_publication_date": false,
+    "list_date_is_official_amendment_implementation_date": false,
+    "saved_source": "smvic_search_cached.html",
+    "body_http_status": 503,
+    "body_result": "upstream connect timeout; not retried"
+  },
+  "official_query_results": [
+    {
+      "file": "official_query_amendment_type.json",
+      "request_url": "https://std.samr.gov.cn/gb/search/gbQueryPage?searchText=%E7%AC%AC1%E5%8F%B7%E4%BF%AE%E6%94%B9%E5%8D%95",
+      "total": 0,
+      "page_number": 1,
+      "displayed_rows": []
+    },
+    {
+      "file": "official_query_exact_amendment.json",
+      "request_url": "https://std.samr.gov.cn/gb/search/gbQueryPage?searchText=GB%2FT+18386.1-2021+%E7%AC%AC1%E5%8F%B7%E4%BF%AE%E6%94%B9%E5%8D%95",
+      "total": 0,
+      "page_number": 1,
+      "displayed_rows": []
+    },
+    {
+      "file": "official_query_name.json",
+      "request_url": "https://std.samr.gov.cn/gb/search/gbQueryPage?searchText=%E7%94%B5%E5%8A%A8%E6%B1%BD%E8%BD%A6%E8%83%BD%E9%87%8F%E6%B6%88%E8%80%97%E9%87%8F%E5%92%8C%E7%BB%AD%E9%A9%B6%E9%87%8C%E7%A8%8B%E8%AF%95%E9%AA%8C%E6%96%B9%E6%B3%95",
+      "total": 2,
+      "page_number": 1,
+      "displayed_rows": [
+        {
+          "id": "BD89DE8E07723D08E05397BE0A0A4FAD",
+          "C_C_NAME": "电动汽车能量消耗量和续驶里程试验方法 第1部分：轻型汽车",
+          "C_STD_CODE": "GB/T 18386.1-2021",
+          "STD_NATURE": "推荐性",
+          "ACT_DATE": "2021-10-01",
+          "STATE": "现行",
+          "ISSUE_DATE": "2021-03-09",
+          "PROJECT_ID": 127149
+        },
+        {
+          "id": "EB58F4DA91C9B2A2E05397BE0A0A7D33",
+          "C_C_NAME": "电动汽车能量消耗量和续驶里程试验方法 第2部分：重型商用车辆",
+          "C_STD_CODE": "GB/T 18386.2-2022",
+          "STD_NATURE": "推荐性",
+          "ACT_DATE": "2023-05-01",
+          "STATE": "现行",
+          "ISSUE_DATE": "2022-10-12",
+          "PROJECT_ID": 127150
+        }
+      ]
+    },
+    {
+      "file": "official_query_number.json",
+      "request_url": "https://std.samr.gov.cn/gb/search/gbQueryPage?searchText=18386.1",
+      "total": 1,
+      "page_number": 1,
+      "displayed_rows": [
+        {
+          "id": "BD89DE8E07723D08E05397BE0A0A4FAD",
+          "C_C_NAME": "电动汽车能量消耗量和续驶里程试验方法 第1部分：轻型汽车",
+          "C_STD_CODE": "GB/T 18386.1-2021",
+          "STD_NATURE": "推荐性",
+          "ACT_DATE": "2021-10-01",
+          "STATE": "现行",
+          "ISSUE_DATE": "2021-03-09",
+          "PROJECT_ID": 127149
+        }
+      ]
+    }
+  ],
+  "strict_amendment_matches_observed": [],
+  "base_standard_reference_only": {
+    "standard_number": "GB/T 18386.1-2021",
+    "official_id": "BD89DE8E07723D08E05397BE0A0A4FAD",
+    "publication_date": "2021-03-09",
+    "implementation_date": "2021-10-01",
+    "observed_status": "现行",
+    "dates_used_as_amendment_dates": false,
+    "current_status_or_absent_successor_proves_no_amendment": false
+  },
+  "excluded_similar_amendment": {
+    "url": "https://std.samr.gov.cn/gb/search/gbDetailed?id=53B90BF525773166E06397BE0A0A5D69",
+    "anchor_text": "轻型汽车能源消耗量标识 第2部分：可外接充电式混合动力电动汽车和纯电动汽车《第1号修改单》",
+    "reason": "轻型汽车能源消耗量标识第2部分属于另标准；不得移用为18386.1修改单",
+    "dates_borrowed": false
+  },
+  "public_search_extension": {
+    "actual_public_queries": 2,
+    "actual_official_link_follow_ups": 2,
+    "search_response_file": "public_search_amendment.html",
+    "search_results_file": "public_search_results.json",
+    "returned_results": [
+      {
+        "url": "https://openstd.samr.gov.cn/bzgk/std/newGbInfo?hcno=018D351EFF1AACD87C5919D0F21BEEBE",
+        "title": "标准号：Gb/T 18386.1-2021 - 国家标准全文公开",
+        "nearby_text": "openstd.samr.gov.cn/bzgk/std/newGbInfo?hcno=018D351EFF1AACD87C5919D0F21BEEBE 版权所有 侵权必究 主管：国家市场监督管理总局 国家标准化管理委员会 主办：国家市场监督管理总局国家标准技术审评中心 技术支持：北京中标赛宇科技有限公司 支持电话：010-82261056 备案号： 京ICP备18022388号-1"
+      },
+      {
+        "url": "https://www.chinesestandard.net/PDF-EN/GBT18386.1-2021EN-P15P-H12580H-486290.pdf",
+        "title": "PDF GB/T 18386.1-2021 - chinesestandard.net",
+        "nearby_text": "www.chinesestandard.net/PDF-EN/GBT18386.1-2021EN-P15P-H12580H-486290.pdf 3 Terms and definitions The terms and definitions defined in GB/T 15089, GB/T 19596, GB 18352.6-2016 and GB/T 38146.1-2019 apply to this document."
+      },
+      {
+        "url": "https://www.chinesestandard.net/PDF.aspx/GBT18386.1-2021",
+        "title": "GB/T 18386.1-2021 | English PDF | [Including 2025XG1]",
+        "nearby_text": "www.chinesestandard.net/PDF.aspx/GBT18386.1-2021 PDF Preview | GB/T 18386.1-2021 | In 3 minutes, DOWNLOAD & GET full copy via email (Dual Auto-Delivery) [Note: Partial text extracted from the final engineering translation PDF deliverable.] GB/T 18386.1-2021 | [Including 2025XG1] Test methods for energy consumption and range of electric vehicles - Part 1 : Light-duty vehicles"
+      },
+      {
+        "url": "https://zxd.catarc.org.cn/zxd/portal/zqyj/488",
+        "title": "汽车标准制修订管理系统",
+        "nearby_text": "zxd.catarc.org.cn/zxd/portal/zqyj/488 各相关单位及专家： 由全国汽车标准化技术委员会汽车节能分技术委员会组织起草的 GB/T 18386.1—2021《电动汽车能量消耗量和续驶里程试验方法 第1部分：轻型汽车》第1号修改单已形成征求意见稿。 现提交公示，广泛征求意见。 <div class=\"links_"
+      },
+      {
+        "url": "https://www.sohu.com/a/934281987_121493058",
+        "title": "Gb/T 18386.1-2021英文版翻译 《2025年第1号修改单》 - 搜狐",
+        "nearby_text": "www.sohu.com/a/934281987_121493058 ChinaAutoRegs|GB/T 18386.1-2021英文版翻译 《2025年第1号修改单》电动汽车能量消耗量和续驶里程试验方法 第 1 部分：轻型汽车 Test methods for energy consumption and range of electric vehicles—Part 1 : Light-duty vehicles 一、附录A 1 ) A.2.2中增加\"A.2.2.3充电期间平均温度为 (23 3)℃\"。 2) A.2.4.1更改为下述内容： A.2.4.1通则 试验 ..."
+      },
+      {
+        "url": "https://www.ndls.org.cn/standard/detail/9fb455d9b0f4f957604e59ea3abf3510",
+        "title": "Gb/T 18386.1-2021-电动汽车能量消耗量和续驶里程试验方法 第1部分：轻型汽车-国家标准馆·国家数字标准馆",
+        "nearby_text": "www.ndls.org.cn/standard/detail/9fb455d9b0f4f957604e59ea3abf3510 GB/T 18386.1-2021电动汽车能量消耗量和续驶里程试验方法 第1部分：轻型汽车本文件规定了纯电动汽车的能量消耗量和续驶里程的试验方法。本文件适用于N;类和最大设计总质量不超过3500 kg的M1、M2类车辆。最大设计总质量超过3500kg的M1类车辆和L5类车辆可参照执行"
+      },
+      {
+        "url": "https://www.chinastandards.net/standard/GBT18386.1-2021.html",
+        "title": "GB/T 18386.1-2021 English PDF - Test methods for energy consumption and ...",
+        "nearby_text": "www.chinastandards.net/standard/GBT18386.1-2021.html Introduction of GB/T 18386.1-2021 GB/T 18386.1-2021 was issued on March 9, 2021 and implemented on October 1 , 2021 .This listing offers an English translation in electronic PDF format, delivered by email within 1-3 business days."
+      },
+      {
+        "url": "https://www.chinastandards.net/pdf_preview/GBT18386.1-2021.pdf",
+        "title": "PDF GB/T 18386.1-2021 in English PDF - chinastandards.net",
+        "nearby_text": "www.chinastandards.net/pdf_preview/GBT18386.1-2021.pdf 3 Terms and definitions For the purposes of this document, the terms and definitions given in GB/T 15089, GB/T 19596, GB 18352.6-2016 and GB/T 38146.1-2019 apply. <"
+      },
+      {
+        "url": "https://zhuanlan.zhihu.com/p/1949865679537828869",
+        "title": "Gb/T 18386.1-2021英文版翻译 《2025年第1号修改单》电动汽车能量消耗量和续驶里程试验方法 第1部分：轻型汽车",
+        "nearby_text": "zhuanlan.zhihu.com/p/1949865679537828869 ChinaAutoRegs|GB/T 18386.1-2021英文版翻译 《2025年第1号修改单》电动汽车能量消耗量和续驶里程试验方法 第 1 部分：轻型汽车 Test methods for energy consumption and range of electric vehicles—Part 1 : Light-duty vehicles 专业源于专注|Chinaautoregs始终专注于汽车标准翻译领域! <div cl"
+      },
+      {
+        "url": "https://std.samr.gov.cn/gb/search/gbDetailed?id=BD89DE8E07723D08E05397BE0A0A4FAD",
+        "title": "国家标准 - 全国标准信息公共服务平台",
+        "nearby_text": "std.samr.gov.cn/gb/search/gbDetailed?id=BD89DE8E07723D08E05397BE0A0A4FAD 国家标准《电动汽车能量消耗量和续驶里程试验方法 第 1 部分：轻型汽车》 由 TC114 （全国汽车标准化技术委员会）归口， TC114SC32 （全国汽车标准化技术委员会汽车节能分会）执行 ，主管部门为 工业和信息化部。 主要起草单位 中国汽车技术研究中心有限公司 、 比亚迪汽车工业有限公司 、 北京新 ..."
+      }
+    ],
+    "third_party_2025XG1_or_2025_amendment_phrases_are_official_date_evidence": false,
+    "official_openstd_response": {
+      "request_url": "https://openstd.samr.gov.cn/bzgk/std/newGbInfo?hcno=018D351EFF1AACD87C5919D0F21BEEBE",
+      "retrieved_at_utc": "2026-10-09T07:59:40.707742+00:00",
+      "purpose": "公开搜索实际返回的SAMR全文平台18386.1-2021具体页，核其明示修改单条目及正式登记字段，不下载受限全文",
+      "tls_verification": true,
+      "proxy_environment_preserved": true,
+      "request_method": "GET",
+      "automatic_redirects": false,
+      "same_url_retries": 0,
+      "http_status": 403,
+      "final_url": "https://openstd.samr.gov.cn/bzgk/std/newGbInfo?hcno=018D351EFF1AACD87C5919D0F21BEEBE",
+      "response_headers": {
+        "server": "envoy",
+        "date": "Fri, 09 Oct 2026 07:59:42 GMT",
+        "content-type": "text/html",
+        "vary": "Accept-Encoding",
+        "x-envoy-upstream-service-time": "754",
+        "connection": "close",
+        "transfer-encoding": "chunked"
+      },
+      "bytes": 1322,
+      "sha256": "20c2ceeba75d5193ee0218f2ddd84918b93755e75b43e0b80fb70f2d30f0e215",
+      "evidence_file": "official_openstd_base_amendment.html",
+      "status": "http_error",
+      "stored_body_representation": "urllib.read after transfer decoding; Content-Encoding preserved",
+      "finished_at_utc": "2026-10-09T07:59:42.599973+00:00"
+    },
+    "final_official_site_2025_query_file": "public_search_official_2025.html",
+    "final_official_site_2025_results": [
+      {
+        "url": "https://openstd.samr.gov.cn/bzgk/std/newGbInfo?hcno=018D351EFF1AACD87C5919D0F21BEEBE",
+        "title": "标准号：Gb/T 18386.1-2021 - 国家标准全文公开",
+        "nearby_text": "openstd.samr.gov.cn/bzgk/std/newGbInfo?hcno=018D351EFF1AACD87C5919D0F21BEEBE 版权所有 侵权必究 主管：国家市场监督管理总局 国家标准化管理委员会 主办：国家市场监督管理总局国家标准技术审评中心 技术支持：北京中标赛宇科技有限公司 支持电话：010-82261056 备案号： 京ICP备18022388号-1"
+      },
+      {
+        "url": "https://std.samr.gov.cn/noc/nocGB",
+        "title": "国家标准公告 - 全国标准信息公共服务平台",
+        "nearby_text": "std.samr.gov.cn/noc/nocGB 显示第 1 到第 15 条记录，总共 543 条记录 每页显示 15 条记录"
+      },
+      {
+        "url": "https://openstd.samr.gov.cn/bzgk/std/index",
+        "title": "国家标准全文公开",
+        "nearby_text": "openstd.samr.gov.cn/bzgk/std/index 2026-09-21 关于公开2026年第37号中国国家标准公告中国家标准全文的通知 2026-08-25 关于公开2026年第34号中国国家标准公告中国家标准全文的通知 2026-08-25 关于公开2026年第33号中国国家标准公告中国家标准全文的通知 查看更多 国家标准动态 <div class=\"links_main"
+      },
+      {
+        "url": "https://std.samr.gov.cn/gb/search/gbDetailed?id=E116673EC985A3B7E05397BE0A0AC6BF",
+        "title": "国家标准计划 - 全国标准信息公共服务平台",
+        "nearby_text": "std.samr.gov.cn/gb/search/gbDetailed?id=E116673EC985A3B7E05397BE0A0AC6BF 国家标准计划《电动汽车能量消耗量和续驶里程试验方法 第 1 部分：轻型汽车》由 TC114 （全国汽车标准化技术委员会）归口， TC114SC32 （全国汽车标准化技术委员会汽车节能分会）执行 ，主管部门为 工业和信息化部。 拟实施日期：发布后6个月正式实施。"
+      },
+      {
+        "url": "https://std.samr.gov.cn/",
+        "title": "首页 - 全国标准信息公共服务平台",
+        "nearby_text": "std.samr.gov.cn 中央军委装备发展部依托中国航空综合技术研究所设立军用标准服务中心（以下简称服务中心），开展军用标准信息资源窗口服务。 服务中心位于北京市朝阳区京顺路7号院7号楼，设置3部服务热线：010-84380230、84380260、84380290，工作时间（上午8:30-11:30，下午13:30-17:30）提供专人服务。"
+      },
+      {
+        "url": "https://std.samr.gov.cn/noc",
+        "title": "标准公告查询 - 全国标准信息公共服务平台",
+        "nearby_text": "std.samr.gov.cn/noc 您现在的位置： 首页 > 标准公告查询 国家标准公告 更多>> 2026年第42号 2026-09-28 2026年第39号 2026-08-31 2026年第38号 2026-08-28 2026年第37号 2026-08-27 2026年第36号 2026-08-27 2026年第35号 2026-07-31 2026年第33号 2026-07-30 2026年第32号 2026-07-30 2026年第34号 2026-07-30 2026年第30号 2026-07-02"
+      },
+      {
+        "url": "https://openstd.samr.gov.cn/bzgk/std/nd?no=2462",
+        "title": "关于公开2025年第19号中国国家标准公告中国家标准全文的通知",
+        "nearby_text": "openstd.samr.gov.cn/bzgk/std/nd?no=2462 即日起，可在本系统中查阅《钢板和钢带包装、标志及质量证明书的一般要求》等416项推荐性国家标准的题录，可查阅强制性国家标准、非采标推荐性、非采标指导性技术文件国家标准全文。可在本系统中查阅《电动汽车能量消耗量和续驶里程试验方法 第1部分：轻型汽车》等3项国家标准的修改单。"
+      },
+      {
+        "url": "https://openstd.samr.gov.cn/bzgk/std/std_list?p.p1=0&p.p90=circulation_date&p.p91=desc&p.p2=18386.1-2021",
+        "title": "国家标准全文阅读|标准检索",
+        "nearby_text": "openstd.samr.gov.cn/bzgk/std/std_list?p.p1=0&p.p90=circulation_date&p.p91=desc&p.p2=18386.1-2021 版权所有 侵权必究 主管：国家市场监督管理总局 国家标准化管理委员会 主办：国家市场监督管理总局国家标准技术审评中心 技术支持：北京中标赛宇科技有限公司 支持电话：010-82261056 备案号： 京ICP备18022388号-1"
+      },
+      {
+        "url": "https://std.samr.gov.cn/search/stdPage?q=GB/T18386",
+        "title": "国家标准检索 - 全国标准信息公共服务平台",
+        "nearby_text": "std.samr.gov.cn/search/stdPage?q=GB/T18386 归口单位 全国汽车标准化技术委员会 发布于2022-10-12 实施于2023-05-01 国家 标准 GB/T 18386.1-2021 电动汽车能量消耗量和续驶里程试验方法 第 1 部分：轻型汽车 现行 国际标准分类号（ICS）43.020 中国标准分类号（CCS）T47 英文标题 <div class=\"result results_links results_links_deep"
+      },
+      {
+        "url": "https://std.samr.gov.cn/gb/",
+        "title": "国家标准 - 全国标准信息公共服务平台",
+        "nearby_text": "std.samr.gov.cn/gb/ • 正在起草 4476 • 征求意见 2862 • 正在审查 1322 • 正在批准 3722 Feedback <div"
+      }
+    ],
+    "2025_19_fulltext_notice_result": {
+      "url": "https://openstd.samr.gov.cn/bzgk/std/nd?no=2462",
+      "title": "关于公开2025年第19号中国国家标准公告中国家标准全文的通知",
+      "nearby_text": "openstd.samr.gov.cn/bzgk/std/nd?no=2462 即日起，可在本系统中查阅《钢板和钢带包装、标志及质量证明书的一般要求》等416项推荐性国家标准的题录，可查阅强制性国家标准、非采标推荐性、非采标指导性技术文件国家标准全文。可在本系统中查阅《电动汽车能量消耗量和续驶里程试验方法 第1部分：轻型汽车》等3项国家标准的修改单。"
+    },
+    "2025_19_fulltext_notice_response": {
+      "request_url": "https://openstd.samr.gov.cn/bzgk/std/nd?no=2462",
+      "retrieved_at_utc": "2026-10-09T08:02:33.800313+00:00",
+      "purpose": "最后公开搜索实际发现的2025年第19号全文公开通知，片段严格提到18386.1轻型汽车修改单；独立公告URL，不重试已403标准全文页",
+      "tls_verification": true,
+      "proxy_environment_preserved": true,
+      "request_method": "GET",
+      "automatic_redirects": false,
+      "same_url_retries": 0,
+      "http_status": 403,
+      "final_url": "https://openstd.samr.gov.cn/bzgk/std/nd?no=2462",
+      "response_headers": {
+        "server": "envoy",
+        "date": "Fri, 09 Oct 2026 08:02:35 GMT",
+        "content-type": "text/html",
+        "vary": "Accept-Encoding",
+        "x-envoy-upstream-service-time": "769",
+        "connection": "close",
+        "transfer-encoding": "chunked"
+      },
+      "bytes": 1322,
+      "sha256": "20c2ceeba75d5193ee0218f2ddd84918b93755e75b43e0b80fb70f2d30f0e215",
+      "evidence_file": "official_2025_19_fulltext_notice.html",
+      "status": "http_error",
+      "stored_body_representation": "urllib.read after transfer decoding; Content-Encoding preserved",
+      "finished_at_utc": "2026-10-09T08:02:35.726243+00:00"
+    },
+    "2025_19_reference_only_from_search_index_not_verified_source_body": true,
+    "blocked_source_not_retried_or_access_bypassed": true
+  },
+  "actual_network_requests": 9,
+  "original_request_budget_maximum": 10,
+  "final_request_budget_maximum": 9,
+  "same_failed_url_retried": false,
+  "source_or_access_restrictions_bypassed": false,
+  "stop_reason": "机构正文一次503；四条官方查询未取得严格匹配修改单id/公告原文；两次公开搜索发现真实SAMR标准全文页及2025年第19号全文公开通知，两独立URL各一次403。累计9请求后最终停止，不重试或绕限制；正式字段未知",
+  "frozen_2023_values_changed": false,
+  "science_export_or_git_modified": false,
+  "queried_absence_proves_amendment_nonexistence": false,
+  "historical_cached_inputs": [
+    {
+      "source_relative_path": "round9/public_lowtemp/institution_queries/smvic_18386.1.html",
+      "saved_copy": "smvic_search_cached.html",
+      "bytes": 106248,
+      "sha256_before": "c0be958c62537c89e9039d8b9c82a39718b72a6ffcc529680aa068866806637d",
+      "sha256_after": "c0be958c62537c89e9039d8b9c82a39718b72a6ffcc529680aa068866806637d"
+    },
+    {
+      "source_relative_path": "round8/public_archive_final_pass/standard_registry_detail.html",
+      "saved_copy": "official_base_detail_cached.html",
+      "bytes": 84326,
+      "sha256_before": "114533aeb005b7f7d6fbf3bcc53b2ccb94232898d4f12ff03690e8e390ebd426",
+      "sha256_after": "114533aeb005b7f7d6fbf3bcc53b2ccb94232898d4f12ff03690e8e390ebd426"
+    },
+    {
+      "source_relative_path": "round8/public_archive_final_pass/standard_registry_query.html",
+      "saved_copy": "official_base_query_cached.json",
+      "bytes": 373,
+      "sha256_before": "7fe2ae9627235566888d25019e6728f05d087d67f7593d15a45705c83e7761b4",
+      "sha256_after": "7fe2ae9627235566888d25019e6728f05d087d67f7593d15a45705c83e7761b4"
+    },
+    {
+      "source_relative_path": "round8/public_archive_final_pass/standard_registered_metadata.json",
+      "saved_copy": "official_base_metadata_cached.json",
+      "bytes": 3948,
+      "sha256_before": "2655a243bd71ae7d1140a55f5f859c6b4da3fa9ca737bd303fd3fed1447d0446",
+      "sha256_after": "2655a243bd71ae7d1140a55f5f859c6b4da3fa9ca737bd303fd3fed1447d0446"
+    }
+  ],
+  "cached_source_bytes_unchanged": true
+}

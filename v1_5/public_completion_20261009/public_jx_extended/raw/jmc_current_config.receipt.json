@@ -1,0 +1,14 @@
+{
+  "name": "jmc_current_config",
+  "requested_url": "https://www.jmc.com.cn/config.html?car_type=0&brand_id=1092&configure_id=1007&car_category=2",
+  "purpose": "Official current E全顺 configuration lead; requires exact historical model/config/date match",
+  "retrieved_at_utc": "2026-10-09T07:46:25.703902+00:00",
+  "tls_verified": true,
+  "http_status": 200,
+  "final_url": "https://www.jmc.com.cn/config.html?car_type=0&brand_id=1092&configure_id=1007&car_category=2",
+  "bytes": 2088,
+  "sha256": "3d0aadd49d18e1e0571b2d6b7e805a91f53d784119c58a10897b7479beb5fbf0",
+  "local_file": "raw/jmc_current_config.html",
+  "response_content_type": "text/html",
+  "status": "received"
+}

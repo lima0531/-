@@ -1,0 +1,30 @@
+{
+  "request_url": "https://sousuoht.www.gov.cn/athena/forward/2B22E8E39E850E17F95A016A74FCB6B673336FA8B6FEC0E2955907EF9AEE06BE",
+  "purpose": "将2014窗口检索简化为新能源汽车，检查历史覆盖与正式原转载入口",
+  "retrieved_at_utc": "2026-10-09T07:47:58.036640+00:00",
+  "request_method": "POST",
+  "tls_verification": true,
+  "retry_policy": "one request; cache receipt thereafter",
+  "request_body_utf8": "{\"code\": \"17da70961a7\", \"historySearchWords\": [], \"dataTypeId\": \"107\", \"orderBy\": \"time\", \"searchBy\": \"all\", \"appendixType\": \"\", \"granularity\": \"ALL\", \"trackTotalHits\": true, \"beginDateTime\": 1408838400000, \"endDateTime\": 1410134399999, \"isSearchForced\": 0, \"filters\": [], \"pageNo\": 1, \"pageSize\": 10, \"customFilter\": {\"operator\": \"and\", \"properties\": []}, \"searchWord\": \"新能源汽车\"}",
+  "http_status": 200,
+  "final_url": "https://sousuoht.www.gov.cn/athena/forward/2B22E8E39E850E17F95A016A74FCB6B673336FA8B6FEC0E2955907EF9AEE06BE",
+  "response_headers": {
+    "date": "Fri, 09 Oct 2026 07:48:00 GMT",
+    "content-type": "application/json;charset=UTF-8",
+    "set-cookie": "acw_tc=276077ea17915320798196870e96fff2c02e40c32c34981e599ef76070bce3;path=/;HttpOnly;Max-Age=1800",
+    "vary": "Origin,Access-Control-Request-Method,Access-Control-Request-Headers",
+    "access-control-allow-origin": "https://sousuo.www.gov.cn",
+    "access-control-allow-credentials": "true,true",
+    "cache-control": "no-cache, no-store, must-revalidate, max-age=0",
+    "x-athena-request-id": "d3926b97-fb4e-4957-a483-3dd06903104b",
+    "x-ser": "i91150_c28779, i59686_c22359, i89826_c26665, i90326_c27779",
+    "x-envoy-upstream-service-time": "588",
+    "server": "envoy",
+    "connection": "close",
+    "transfer-encoding": "chunked"
+  },
+  "status": "retrieved",
+  "evidence_file": "/workspace/purchase_tax_audit/round9/public_first_batch/gov_nev_2014_native_api.html",
+  "bytes": 2669,
+  "sha256": "c4f1daa46f75ee09069bc3d400b1329a06690e7379076422db47c3c6bbaecc79"
+}

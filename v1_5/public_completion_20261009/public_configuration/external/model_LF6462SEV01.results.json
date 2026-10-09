@@ -1,0 +1,144 @@
+{
+  "model_key": "LF6462SEV01",
+  "requested_q": "\"LF6462SEV01\"",
+  "query_echo": "\"LF6462SEV01\"",
+  "receipt": {
+    "requested_url": "https://www.bing.com/search?q=%22LF6462SEV01%22&mkt=zh-CN&setlang=zh-hans&count=10",
+    "retrieved_utc": "2026-10-09T07:46:54.551104+00:00",
+    "tls_verification": true,
+    "status": "ok",
+    "http_status": 200,
+    "final_url": "https://www.bing.com/search?q=%22LF6462SEV01%22&mkt=zh-CN&setlang=zh-hans&count=10",
+    "bytes": 100156,
+    "sha256": "7d95a0c9b65c5ce5b2b3ae75c592d291ba892e1f80657e0aa0e96f573a92fa57",
+    "response_headers": {
+      "content-type": "text/html; charset=utf-8",
+      "cache-control": "private, max-age=0",
+      "expires": "Fri, 09 Oct 2026 07:45:54 GMT",
+      "vary": "User-Agent,Accept-Encoding",
+      "x-eventid": "6ac89bee4afd43b4af98e2b7ba7b9330",
+      "x-as-setsessionmarket": "zh-CN",
+      "x-as-setsessionuilang": "zh-hans",
+      "useragentreductionoptout": "A7kgTC5xdZ2WIVGZEfb1hUoNuvjzOZX3VIV/BA6C18kQOOF50Q0D3oWoAm49k3BQImkujKILc7JmPysWk3CSjwUAAACMeyJvcmlnaW4iOiJodHRwczovL3d3dy5iaW5nLmNvbTo0NDMiLCJmZWF0dXJlIjoiU2VuZEZ1bGxVc2VyQWdlbnRBZnRlclJlZHVjdGlvbiIsImV4cGlyeSI6MTY4NDg4NjM5OSwiaXNTdWJkb21haW4iOnRydWUsImlzVGhpcmRQYXJ0eSI6dHJ1ZX0=",
+      "strict-transport-security": "max-age=31536000; includeSubDomains; preload",
+      "permissions-policy": "unload=()",
+      "content-security-policy": "script-src https: 'strict-dynamic' 'report-sample' 'wasm-unsafe-eval' 'nonce-hypo2JUI8IPGLTE6K7Hf9oX7QdrEetKRDqfPGZPRTYA='; base-uri 'self';",
+      "p3p": "CP=\"NON UNI COM NAV STA LOC CURa DEVa PSAa PSDa OUR IND\"",
+      "x-display-context": "full",
+      "date": "Fri, 09 Oct 2026 07:46:54 GMT",
+      "content-length": "100156",
+      "set-cookie": "_SS=SID=310BE7D1FD936E5E1FCAF03CFCAD6FDD; domain=.bing.com; path=/",
+      "alt-svc": "h3=\":443\"; ma=93600",
+      "x-cdn-traceid": "0.c81c2117.1791532014.1ca70082",
+      "x-envoy-upstream-service-time": "230",
+      "server": "envoy",
+      "connection": "close"
+    },
+    "relative_path": "external/model_LF6462SEV01.html"
+  },
+  "hits": [
+    {
+      "model_key": "LF6462SEV01",
+      "result_url": "https://www.jiemian.com/article/15138431.html",
+      "result_text": "jiemian.com https://www.jiemian.com › article 智能体AI也变成了高通的下一张牌 |界面新闻 · 科技 2026年9月24日 · 高通在峰会上正式推出第六代骁龙8超级至尊版和第六代骁龙8至尊版两款旗舰移动平台。 这也是高通首次同时推出 …    ",
+      "exact_model_in_result_text": 0,
+      "government_domain_candidate": 0,
+      "usable_as_scientific_evidence": 0,
+      "source_search_file": "external/model_LF6462SEV01.html",
+      "source_search_sha256": "7d95a0c9b65c5ce5b2b3ae75c592d291ba892e1f80657e0aa0e96f573a92fa57"
+    },
+    {
+      "model_key": "LF6462SEV01",
+      "result_url": "https://www.toutiao.com/article/7689031127830495807/",
+      "result_text": "toutiao.com https://www.toutiao.com › article 智能体AI也变成了高通的下一张牌  - 今日头条 智能体AI也变成了高通的下一张牌 2026-09-24 17:27 · 界面新闻 界面新闻记者 | 徐美慧 界面新闻编辑 | 文姝琪 一年一度的骁龙峰会仍 …",
+      "exact_model_in_result_text": 0,
+      "government_domain_candidate": 0,
+      "usable_as_scientific_evidence": 0,
+      "source_search_file": "external/model_LF6462SEV01.html",
+      "source_search_sha256": "7d95a0c9b65c5ce5b2b3ae75c592d291ba892e1f80657e0aa0e96f573a92fa57"
+    },
+    {
+      "model_key": "LF6462SEV01",
+      "result_url": "https://t.cj.sina.com.cn/articles/view/6192937794/17120bb4202002uq1e",
+      "result_text": "sina.com.cn https://t.cj.sina.com.cn › articles › view 智能体AI也变成了高通的下一张牌 __财经头条__新浪财经 当地时间9月22日至24日，高通在美国夏威夷举行2026骁龙峰会。高通在峰会上正式推出第六代骁龙8超级至尊版和第六代骁龙8至尊 …",
+      "exact_model_in_result_text": 0,
+      "government_domain_candidate": 0,
+      "usable_as_scientific_evidence": 0,
+      "source_search_file": "external/model_LF6462SEV01.html",
+      "source_search_sha256": "7d95a0c9b65c5ce5b2b3ae75c592d291ba892e1f80657e0aa0e96f573a92fa57"
+    },
+    {
+      "model_key": "LF6462SEV01",
+      "result_url": "https://news.qq.com/rain/a/20260928A06CXN00",
+      "result_text": "qq.com https://news.qq.com › rain AI  手机只是起点， 高通 要为 智能体 铺 一 条全栈技术路线 2026年9月28日 · 这次骁龙峰会，高通首次推出双旗舰：第六代骁龙 8 至尊版面向更广泛的旗舰设备，而超级至尊版则进一步面向极致 …",
+      "exact_model_in_result_text": 0,
+      "government_domain_candidate": 0,
+      "usable_as_scientific_evidence": 0,
+      "source_search_file": "external/model_LF6462SEV01.html",
+      "source_search_sha256": "7d95a0c9b65c5ce5b2b3ae75c592d291ba892e1f80657e0aa0e96f573a92fa57"
+    },
+    {
+      "model_key": "LF6462SEV01",
+      "result_url": "https://www.xinhuanet.com/tech/20260603/44dd8c3e5fa74da08edc24cf410da524/c.html",
+      "result_text": "xinhuanet.com https://www.xinhuanet.com › tech 高通 CEO安蒙COMPUTEX 2026演讲： 智能体 已 成 现实 ... 2026年6月3日 · 智能体正成为AI词元（Token）需求增长的核心来源，推动AI规模化落地，并将定义AI架构与经济模式。 安蒙表示， …",
+      "exact_model_in_result_text": 0,
+      "government_domain_candidate": 0,
+      "usable_as_scientific_evidence": 0,
+      "source_search_file": "external/model_LF6462SEV01.html",
+      "source_search_sha256": "7d95a0c9b65c5ce5b2b3ae75c592d291ba892e1f80657e0aa0e96f573a92fa57"
+    },
+    {
+      "model_key": "LF6462SEV01",
+      "result_url": "https://www.sohu.com/a/1031137590_121198369",
+      "result_text": "sohu.com https://www.sohu.com 智能体 时代 的AI 发展新方向， 高通 COMPUTEX 2026给出 ... 高通CEO安蒙在演讲中将2026年定义为\"智能体之年\"，并提出这一转变正在改变人们与技术互动的方式。 安蒙的演讲被视为本届展会 …",
+      "exact_model_in_result_text": 0,
+      "government_domain_candidate": 0,
+      "usable_as_scientific_evidence": 0,
+      "source_search_file": "external/model_LF6462SEV01.html",
+      "source_search_sha256": "7d95a0c9b65c5ce5b2b3ae75c592d291ba892e1f80657e0aa0e96f573a92fa57"
+    },
+    {
+      "model_key": "LF6462SEV01",
+      "result_url": "https://news.qq.com/rain/a/20260603A030UJ00",
+      "result_text": "qq.com https://news.qq.com › rain 智能体AI 新纪元里， 高通的 价值新叙事_腾讯新闻 2026年6月3日 · 在分布式推理场景中，当AI智能体需要在不同设备间联网协作时，高通的连接技术正好保障了高速、稳定且低延迟的 …",
+      "exact_model_in_result_text": 0,
+      "government_domain_candidate": 0,
+      "usable_as_scientific_evidence": 0,
+      "source_search_file": "external/model_LF6462SEV01.html",
+      "source_search_sha256": "7d95a0c9b65c5ce5b2b3ae75c592d291ba892e1f80657e0aa0e96f573a92fa57"
+    },
+    {
+      "model_key": "LF6462SEV01",
+      "result_url": "https://www.c114.net.cn/industry/128015.html",
+      "result_text": "c114.net.cn https://www.c114.net.cn › industry 从模型上手机到让 智能体 落地， 高通的AI 时代新故事｜焦点 ... 2026年9月26日 · 现在，芯片行业正在进入多线混战。 高通需要守土开疆，还必须成为耦合大模型厂商、AI应用之间的长期协作者。  …",
+      "exact_model_in_result_text": 0,
+      "government_domain_candidate": 0,
+      "usable_as_scientific_evidence": 0,
+      "source_search_file": "external/model_LF6462SEV01.html",
+      "source_search_sha256": "7d95a0c9b65c5ce5b2b3ae75c592d291ba892e1f80657e0aa0e96f573a92fa57"
+    },
+    {
+      "model_key": "LF6462SEV01",
+      "result_url": "https://www.news.cn/tech/20260910/fd4bdf9751c04416b43c58a292886be1/c.html",
+      "result_text": "news.cn https://www.news.cn › tech 高通 钱堃： 智能体AI 规模化发展，带来深化产业协同、加速 ... 2026年9月10日 · 高通钱堃：智能体AI规模化发展，带来深化产业协同、加速创新落地重要机遇-在本次论坛上，高通公司全球高级副 …",
+      "exact_model_in_result_text": 0,
+      "government_domain_candidate": 0,
+      "usable_as_scientific_evidence": 0,
+      "source_search_file": "external/model_LF6462SEV01.html",
+      "source_search_sha256": "7d95a0c9b65c5ce5b2b3ae75c592d291ba892e1f80657e0aa0e96f573a92fa57"
+    },
+    {
+      "model_key": "LF6462SEV01",
+      "result_url": "https://www.163.com/dy/article/KUG4VOTH051288MF.html",
+      "result_text": "163.com https://www.163.com › dy › article 从可穿戴到数据中心， 高通 正在把 智能体 “塞进”所有 的 设备 ... 2026年6月3日 · 从毫瓦级的物理终端，再到千瓦级的数据中心，这场由智能体推动的计算架构重塑，正在深刻改变整个科技行业。 属 …",
+      "exact_model_in_result_text": 0,
+      "government_domain_candidate": 0,
+      "usable_as_scientific_evidence": 0,
+      "source_search_file": "external/model_LF6462SEV01.html",
+      "source_search_sha256": "7d95a0c9b65c5ce5b2b3ae75c592d291ba892e1f80657e0aa0e96f573a92fa57"
+    }
+  ],
+  "exact_model_relevant_hits": 0,
+  "same_model_is_configuration_identity": false,
+  "negative_search_conclusion_permitted": false
+}

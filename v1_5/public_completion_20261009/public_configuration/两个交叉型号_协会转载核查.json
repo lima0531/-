@@ -1,0 +1,26 @@
+[
+  {
+    "model_key": "GTM6470BFEBEV",
+    "url": "https://www.cdqc.org.cn/2747/19531/878573",
+    "source_file": "external/association_GTM6470BFEBEV.html",
+    "sha256": "0b4ea51a7e55908727a1f551b9fe537418bfaa305fa31bf279639a2966bc45e8",
+    "excerpt": "车辆基本信息配置参数企业名称广汽丰田汽车有限公司车辆型号GTM6470BFEBEV种类纯电动乘用车通用名bZ4X纯电动续驶里程(km)615(CLTC工况)/400(CLTC工况)整车整备质量(kg)1865动力蓄电池组总质量(kg)429动力蓄电池组总能量(kWh)66.7/50.3燃料消耗量(L/100km)发动机排量(mL)燃料电池系统额定功率(kW)驱动电机额定功率(kW)备注",
+    "claimed_tax_batch": 54,
+    "actual_config_ids_given": "",
+    "is_primary_source": 0,
+    "can_certify_identity_bridge": 0,
+    "action": "税录第54批多值/公差转载，与已归档原件信息重复，未取得配置桥；正文全站政府主页链接不是具体原件链接"
+  },
+  {
+    "model_key": "CC7000CG00FBEV",
+    "url": "https://www.cdqc.org.cn/2747/19531/878547",
+    "source_file": "external/association_CC7000CG00FBEV.html",
+    "sha256": "58c48bf2cabd5024cd9497451970528a0cf164dbe418557c210e2bef4a5a6bac",
+    "excerpt": "车辆基本信息配置参数企业名称长城汽车股份有限公司车辆型号CC7000CG00FBEV种类纯电动乘用车通用名欧拉芭蕾猫纯电动续驶里程(km)401(CLTC)整车整备质量(kg)1710动力蓄电池组总质量(kg)394±11动力蓄电池组总能量(kWh)49.92燃料消耗量(L/100km)发动机排量(mL)燃料电池系统额定功率(kW)驱动电机额定功率(kW)备注",
+    "claimed_tax_batch": 54,
+    "actual_config_ids_given": "",
+    "is_primary_source": 0,
+    "can_certify_identity_bridge": 0,
+    "action": "税录第54批多值/公差转载，与已归档原件信息重复，未取得配置桥；正文全站政府主页链接不是具体原件链接"
+  }
+]

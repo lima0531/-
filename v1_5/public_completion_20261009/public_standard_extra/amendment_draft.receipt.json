@@ -1,0 +1,15 @@
+{
+  "name": "amendment_draft",
+  "requested_url": "https://zxd.catarc.org.cn/kfs/file/downportal?md5=ab93d5889a038f0189b7ad4bd1777c81",
+  "observed_utc": "2026-10-09T08:07:03.368039+00:00",
+  "tls_verified": true,
+  "context": "附件来自TC114SC32公示页；草案不是正式实施修改单",
+  "http_status": 200,
+  "final_url": "https://zxd.catarc.org.cn/kfs/file/downportal?md5=ab93d5889a038f0189b7ad4bd1777c81",
+  "status": "received",
+  "content_type": "application/pdf;charset=UTF-8",
+  "content_disposition": "attachment;filename=20_WD_PDF_201189_%E7%94%B5%E5%8A%A8%E6%B1%BD%E8%BD%A6%E8%83%BD%E9%87%8F%E6%B6%88%E8%80%97%E9%87%8F%E5%92%8C%E7%BB%AD%E9%A9%B6%E9%87%8C%E7%A8%8B%E8%AF%95%E9%AA%8C%E6%96%B9%E6%B3%95+%E7%AC%AC1%E9%83%A8%E5%88%86%EF%BC%9A%E8%BD%BB%E5%9E%8B%E6%B1%BD%E8%BD%A6.pdf",
+  "file": "amendment_draft.pdf",
+  "bytes": 497409,
+  "sha256": "b01a5710a4e0df71e306e91f4bf205ab9023598d1cb7ff5247b293e4931decfb"
+}

@@ -1,0 +1,18 @@
+{
+  "key": "gac_config",
+  "firm": "广汽丰田汽车有限公司",
+  "requested_url": "https://www.gac-toyota.com.cn/2022/config/index.js",
+  "url_basis": "round9/public_lowtemp/portals/gac_toyota.html script src",
+  "retrieved_utc": "2026-10-09T07:49:06.075701+00:00",
+  "tls_verification": true,
+  "method": "GET_only_no_submission",
+  "external_message_sent": false,
+  "http_status": 200,
+  "final_url": "https://www.gac-toyota.com.cn/2022/config/index.js",
+  "content_type": "application/javascript",
+  "truncated": false,
+  "status": "retrieved",
+  "source_file": "contact_sources/gac_config.txt",
+  "bytes": 988,
+  "sha256": "1a7a241efafa3dfeec53d2b98dbfa1e9ac5909200c04a02dd53dee5b736e03f3"
+}

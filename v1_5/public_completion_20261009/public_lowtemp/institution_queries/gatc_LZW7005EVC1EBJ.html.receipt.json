@@ -1,0 +1,11 @@
+{
+  "requested_url": "https://www.gatc.ac.cn/search/?title=LZW7005EVC1EBJ&model=article%2Cpic&navlist=329",
+  "retrieved_utc": "2026-10-09T07:47:30.160442+00:00",
+  "local_file": "institution_queries/gatc_LZW7005EVC1EBJ.html",
+  "purpose": "广州检验中心官网可见GET搜索表单查询",
+  "query": "LZW7005EVC1EBJ",
+  "target_models": [],
+  "tls_verification": true,
+  "status": "fetch_error",
+  "error": "URLError(OSError('Tunnel connection failed: 403 Forbidden'))"
+}

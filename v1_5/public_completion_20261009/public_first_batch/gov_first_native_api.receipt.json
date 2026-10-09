@@ -1,0 +1,30 @@
+{
+  "request_url": "https://sousuoht.www.gov.cn/athena/forward/2B22E8E39E850E17F95A016A74FCB6B673336FA8B6FEC0E2955907EF9AEE06BE",
+  "purpose": "按照政府网真实公开前端执行一次2014-08-25至2014-09-08定向站内搜索；pubDate仍仅登记线索",
+  "retrieved_at_utc": "2026-10-09T07:47:08.078337+00:00",
+  "request_method": "POST",
+  "tls_verification": true,
+  "retry_policy": "one request; cache receipt thereafter",
+  "request_body_utf8": "{\"code\": \"17da70961a7\", \"historySearchWords\": [], \"dataTypeId\": \"107\", \"orderBy\": \"time\", \"searchBy\": \"all\", \"appendixType\": \"\", \"granularity\": \"ALL\", \"trackTotalHits\": true, \"beginDateTime\": 1408838400000, \"endDateTime\": 1410134399999, \"isSearchForced\": 0, \"filters\": [], \"pageNo\": 1, \"pageSize\": 10, \"customFilter\": {\"operator\": \"and\", \"properties\": []}, \"searchWord\": \"免征车辆购置税\"}",
+  "http_status": 200,
+  "final_url": "https://sousuoht.www.gov.cn/athena/forward/2B22E8E39E850E17F95A016A74FCB6B673336FA8B6FEC0E2955907EF9AEE06BE",
+  "response_headers": {
+    "date": "Fri, 09 Oct 2026 07:47:09 GMT",
+    "content-type": "application/json;charset=UTF-8",
+    "set-cookie": "acw_tc=2760824e17915320289193691ed05778b16133176a6c19d204824bfd792313;path=/;HttpOnly;Max-Age=1800",
+    "vary": "Origin,Access-Control-Request-Method,Access-Control-Request-Headers",
+    "access-control-allow-origin": "https://sousuo.www.gov.cn",
+    "access-control-allow-credentials": "true,true",
+    "cache-control": "no-cache, no-store, must-revalidate, max-age=0",
+    "x-athena-request-id": "0ca153f5-8d23-4cd8-80f0-949690489530",
+    "x-ser": "i91150_c28779, i59686_c22359, i89826_c26665, i90326_c27779",
+    "x-envoy-upstream-service-time": "595",
+    "server": "envoy",
+    "connection": "close",
+    "transfer-encoding": "chunked"
+  },
+  "status": "retrieved",
+  "evidence_file": "/workspace/purchase_tax_audit/round9/public_first_batch/gov_first_native_api.html",
+  "bytes": 335,
+  "sha256": "34d7d40871e7d55d75a707d5880f1a9184c42cb13a024617be94ce860cca33e6"
+}

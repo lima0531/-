@@ -1,0 +1,17 @@
+{
+  "requested_url": "https://www.gatc.ac.cn/search/?title=GTM6470BFEBEV&model=article%2Cpic&navlist=329",
+  "retrieved_utc": "2026-10-09T07:47:23.190062+00:00",
+  "local_file": "institution_queries/gatc_GTM6470BFEBEV.html",
+  "purpose": "广州检验中心官网可见GET搜索表单查询",
+  "query": "GTM6470BFEBEV",
+  "target_models": [
+    "GTM6470BFEBEV"
+  ],
+  "tls_verification": true,
+  "status": "http_error",
+  "http_status": 403,
+  "error": "HTTP Error 403: Forbidden",
+  "final_url": "https://www.gatc.ac.cn/search/?title=GTM6470BFEBEV&model=article%2Cpic&navlist=329",
+  "bytes": 33,
+  "sha256": "beb861eaa39f786b701fafe0c93827f91c26b4fd7bda29668712515b031e2569"
+}

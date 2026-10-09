@@ -1,0 +1,144 @@
+{
+  "model_key": "FZ7000BEVC01A",
+  "requested_q": "\"FZ7000BEVC01A\"",
+  "query_echo": "\"FZ7000BEVC01A\"",
+  "receipt": {
+    "requested_url": "https://www.bing.com/search?q=%22FZ7000BEVC01A%22&mkt=zh-CN&setlang=zh-hans&count=10",
+    "retrieved_utc": "2026-10-09T07:46:54.135323+00:00",
+    "tls_verification": true,
+    "status": "ok",
+    "http_status": 200,
+    "final_url": "https://www.bing.com/search?q=%22FZ7000BEVC01A%22&mkt=zh-CN&setlang=zh-hans&count=10",
+    "bytes": 103601,
+    "sha256": "a4898ea26afe799cb4159b584b2394913ce47d3457c512bcadcdd5f52789409e",
+    "response_headers": {
+      "content-type": "text/html; charset=utf-8",
+      "cache-control": "private, max-age=0",
+      "expires": "Fri, 09 Oct 2026 07:45:54 GMT",
+      "vary": "User-Agent,Accept-Encoding",
+      "x-eventid": "6ac89bee26424084b3250930e4275e2b",
+      "x-as-setsessionmarket": "zh-CN",
+      "x-as-setsessionuilang": "zh-hans",
+      "useragentreductionoptout": "A7kgTC5xdZ2WIVGZEfb1hUoNuvjzOZX3VIV/BA6C18kQOOF50Q0D3oWoAm49k3BQImkujKILc7JmPysWk3CSjwUAAACMeyJvcmlnaW4iOiJodHRwczovL3d3dy5iaW5nLmNvbTo0NDMiLCJmZWF0dXJlIjoiU2VuZEZ1bGxVc2VyQWdlbnRBZnRlclJlZHVjdGlvbiIsImV4cGlyeSI6MTY4NDg4NjM5OSwiaXNTdWJkb21haW4iOnRydWUsImlzVGhpcmRQYXJ0eSI6dHJ1ZX0=",
+      "strict-transport-security": "max-age=31536000; includeSubDomains; preload",
+      "permissions-policy": "unload=()",
+      "content-security-policy": "script-src https: 'strict-dynamic' 'report-sample' 'wasm-unsafe-eval' 'nonce-9D4QOiGPyN5aAP7FNQhJZB+Vp9YaRQ7Vbs9k16LXrdQ='; base-uri 'self';",
+      "p3p": "CP=\"NON UNI COM NAV STA LOC CURa DEVa PSAa PSDa OUR IND\"",
+      "x-display-context": "full",
+      "date": "Fri, 09 Oct 2026 07:46:54 GMT",
+      "set-cookie": "_SS=SID=1DDE24BECC46617113C03353CD8060C8; domain=.bing.com; path=/",
+      "alt-svc": "h3=\":443\"; ma=93600",
+      "x-cdn-traceid": "0.d21c2117.1791532014.fe426177",
+      "x-envoy-upstream-service-time": "92",
+      "server": "envoy",
+      "connection": "close",
+      "transfer-encoding": "chunked"
+    },
+    "relative_path": "external/model_FZ7000BEVC01A.html"
+  },
+  "hits": [
+    {
+      "model_key": "FZ7000BEVC01A",
+      "result_url": "https://m.city8.com/sh/cater/8d8ctu795e4ubaf9d3_location",
+      "result_text": "city8.com https://m.city8.com › sh › cater SAMMONTANA赛梦达意大利 冰激凌  (中环百联店)位置示意图 SAMMONTANA赛梦达意大利冰激凌 (中环百联店)，地址位于上海市真光路1288号中环百联1楼，靠近真光路、曹安路辅路、梅川路 …    ",
+      "exact_model_in_result_text": 0,
+      "government_domain_candidate": 0,
+      "usable_as_scientific_evidence": 0,
+      "source_search_file": "external/model_FZ7000BEVC01A.html",
+      "source_search_sha256": "a4898ea26afe799cb4159b584b2394913ce47d3457c512bcadcdd5f52789409e"
+    },
+    {
+      "model_key": "FZ7000BEVC01A",
+      "result_url": "https://map.gaode.com/",
+      "result_text": "gaode.com https://map.gaode.com 高德地图 1 天前 · 高德地图官方网站，提供全国地图浏览，地点搜索，公交驾车查询服务。可同时查看商家团购、优惠信息。高德地图，您的 ... 缺失:   冰淇淋 必须包含:   冰淇淋",
+      "exact_model_in_result_text": 0,
+      "government_domain_candidate": 0,
+      "usable_as_scientific_evidence": 0,
+      "source_search_file": "external/model_FZ7000BEVC01A.html",
+      "source_search_sha256": "a4898ea26afe799cb4159b584b2394913ce47d3457c512bcadcdd5f52789409e"
+    },
+    {
+      "model_key": "FZ7000BEVC01A",
+      "result_url": "https://api.map.baidu.com/geocoder?address=%E4%B8%8A%E6%B5%B7%E5%B8%82%E6%99%AE%E9%99%80%E5%8C%BA%E7%9C%9F%E5%85%89%E8%B7%AF1288%E5%8F%B7B-4F-50%E5%AE%A4&output=html",
+      "result_text": "baidu.com https://api.map.baidu.com › geocoder 百度地图 提供地铁线路图浏览，乘车方案查询，以及准确的票价和时间信息。 缺失:   冰淇淋 必须包含:   冰淇淋",
+      "exact_model_in_result_text": 0,
+      "government_domain_candidate": 0,
+      "usable_as_scientific_evidence": 0,
+      "source_search_file": "external/model_FZ7000BEVC01A.html",
+      "source_search_sha256": "a4898ea26afe799cb4159b584b2394913ce47d3457c512bcadcdd5f52789409e"
+    },
+    {
+      "model_key": "FZ7000BEVC01A",
+      "result_url": "https://sh.bendibao.com/wangdian/dian/4059913.shtm",
+      "result_text": "bendibao.com https://sh.bendibao.com › wangdian › dian 爱茜茜里意大利健康 冰淇淋  (中环百联店)_电话_地址|在哪里 ... 上海本地宝为您提供爱茜茜里意大利健康冰淇淋 (中环百联店)信息，包括爱茜茜里意大利健康冰淇淋 (中环百联店)店在哪里，电话，地 …",
+      "exact_model_in_result_text": 0,
+      "government_domain_candidate": 0,
+      "usable_as_scientific_evidence": 0,
+      "source_search_file": "external/model_FZ7000BEVC01A.html",
+      "source_search_sha256": "a4898ea26afe799cb4159b584b2394913ce47d3457c512bcadcdd5f52789409e"
+    },
+    {
+      "model_key": "FZ7000BEVC01A",
+      "result_url": "https://zhidao.baidu.com/question/340044708.html",
+      "result_text": "baidu.com https://zhidao.baidu.com › question 上海 “Baskin Robbins” 冰激凌 店在哪？_百度知道 2021年2月5日 · 上海“Baskin Robbins”冰激凌店在哪？天山店上海市长宁区天山路900号 汇金百货大门右侧 021-61243671 吴中店上海 …",
+      "exact_model_in_result_text": 0,
+      "government_domain_candidate": 0,
+      "usable_as_scientific_evidence": 0,
+      "source_search_file": "external/model_FZ7000BEVC01A.html",
+      "source_search_sha256": "a4898ea26afe799cb4159b584b2394913ce47d3457c512bcadcdd5f52789409e"
+    },
+    {
+      "model_key": "FZ7000BEVC01A",
+      "result_url": "https://m.map.360.cn/m/search/detail/pid=e97b0411769b5d4d",
+      "result_text": "360.cn https://m.map.360.cn › search › detail 【哈根达斯 ( 上海 中环百联店)】地址,电话,路线,周边设施 ... 提供全国地图浏览、地点搜索、公交驾车路线查询、查看实时路况、手机地图导航等服务。 可同时查看本地商家团购、优惠信息。 您 … 缺失:   冰淇淋 必须包含:   冰淇淋",
+      "exact_model_in_result_text": 0,
+      "government_domain_candidate": 0,
+      "usable_as_scientific_evidence": 0,
+      "source_search_file": "external/model_FZ7000BEVC01A.html",
+      "source_search_sha256": "a4898ea26afe799cb4159b584b2394913ce47d3457c512bcadcdd5f52789409e"
+    },
+    {
+      "model_key": "FZ7000BEVC01A",
+      "result_url": "https://gongshang.mingluji.com/shanghai/name/上海星言星膳餐饮管理有限公司",
+      "result_text": "mingluji.com https://gongshang.mingluji.com › shanghai › name › ... 上海 星言星膳餐饮管理有限公司 ( 上海市 普陀 区真光路1288  ... 2026年9月21日 · 上海星言星膳餐饮管理有限公司在上海普陀注册，至今已成立18天，在法人邱凯的带领下，公司目前处于存续状态， … 缺失:   冰淇淋 必须包含:   冰淇淋",
+      "exact_model_in_result_text": 0,
+      "government_domain_candidate": 0,
+      "usable_as_scientific_evidence": 0,
+      "source_search_file": "external/model_FZ7000BEVC01A.html",
+      "source_search_sha256": "a4898ea26afe799cb4159b584b2394913ce47d3457c512bcadcdd5f52789409e"
+    },
+    {
+      "model_key": "FZ7000BEVC01A",
+      "result_url": "https://www.amap.com/place/B0FFFRC85E",
+      "result_text": "amap.com https://www.amap.com › place 上海 百联中环购物广场A 区  -  上海市 普陀 区  - 购物服务;商场 ... 2021年4月12日 · 上海百联中环购物广场A区是一家购物中心，位于上海市普陀区（上海市普陀区真光路1288号上海百联中环购物广 … 缺失:   冰淇淋 必须包含:   冰淇淋",
+      "exact_model_in_result_text": 0,
+      "government_domain_candidate": 0,
+      "usable_as_scientific_evidence": 0,
+      "source_search_file": "external/model_FZ7000BEVC01A.html",
+      "source_search_sha256": "a4898ea26afe799cb4159b584b2394913ce47d3457c512bcadcdd5f52789409e"
+    },
+    {
+      "model_key": "FZ7000BEVC01A",
+      "result_url": "https://ditu.city8.com/sh/shopping/8d8d1d795dmcbf9d4e_address?map",
+      "result_text": "city8.com https://ditu.city8.com › sh › shopping [ 上海市 普陀 区真光路1288号上海 百联中环购物广场F1]平面 ... 上海市普陀区真光路1288号上海百联中环购物广场F1位于上海市普陀区，靠近真光路、曹安路辅路、梅川路和G2。 周边交通便捷， … 缺失:   冰淇淋 必须包含:   冰淇淋",
+      "exact_model_in_result_text": 0,
+      "government_domain_candidate": 0,
+      "usable_as_scientific_evidence": 0,
+      "source_search_file": "external/model_FZ7000BEVC01A.html",
+      "source_search_sha256": "a4898ea26afe799cb4159b584b2394913ce47d3457c512bcadcdd5f52789409e"
+    },
+    {
+      "model_key": "FZ7000BEVC01A",
+      "result_url": "https://aiqicha.baidu.com/company_detail_55293449113052",
+      "result_text": "baidu.com https://aiqicha.baidu.com 上海 茱莉亚食品有限公司 真光路 店 - 爱企查 2026年9月28日 · 上海茱莉亚食品有限公司真光路店成立于2024年09月24日，注册地位于上海市普陀区真光路1288号F01层G08 …",
+      "exact_model_in_result_text": 0,
+      "government_domain_candidate": 0,
+      "usable_as_scientific_evidence": 0,
+      "source_search_file": "external/model_FZ7000BEVC01A.html",
+      "source_search_sha256": "a4898ea26afe799cb4159b584b2394913ce47d3457c512bcadcdd5f52789409e"
+    }
+  ],
+  "exact_model_relevant_hits": 0,
+  "same_model_is_configuration_identity": false,
+  "negative_search_conclusion_permitted": false
+}

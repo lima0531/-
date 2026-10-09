@@ -1,0 +1,14 @@
+{
+  "name": "duck_exact",
+  "requested_url": "https://html.duckduckgo.com/html/?q=%22JX6550T-M5BEV%22",
+  "purpose": "Independent public index lead discovery",
+  "retrieved_at_utc": "2026-10-09T07:43:51.302807+00:00",
+  "tls_verified": true,
+  "http_status": 200,
+  "final_url": "https://html.duckduckgo.com/html/?q=%22JX6550T-M5BEV%22",
+  "bytes": 13958,
+  "sha256": "64e3955e1212ede2a6aabec212c3b1a95b0f68516cb0b5028df0d11590c95456",
+  "local_file": "raw/duck_exact.html",
+  "response_content_type": "text/html; charset=UTF-8",
+  "status": "received"
+}

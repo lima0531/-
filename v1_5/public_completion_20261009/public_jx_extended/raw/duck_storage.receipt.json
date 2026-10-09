@@ -1,0 +1,14 @@
+{
+  "name": "duck_storage",
+  "requested_url": "https://html.duckduckgo.com/html/?q=%22L173C01%22+%E6%B1%9F%E9%93%83",
+  "purpose": "Public index candidate discovery: \"L173C01\" 江铃",
+  "retrieved_at_utc": "2026-10-09T07:45:31.747396+00:00",
+  "tls_verified": true,
+  "http_status": 200,
+  "final_url": "https://html.duckduckgo.com/html/?q=%22L173C01%22+%E6%B1%9F%E9%93%83",
+  "bytes": 13501,
+  "sha256": "7866a74a14668dd85e2ec17168407fbcd1343466c1f279d3bcf7c63e7d03fe5c",
+  "local_file": "raw/duck_storage.html",
+  "response_content_type": "text/html; charset=UTF-8",
+  "status": "received"
+}

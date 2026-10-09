@@ -1,0 +1,31 @@
+{
+  "requested_url": "https://www.gatc.ac.cn/search/?title=SQJ7002YAC1BEV&model=article%2Cpic&navlist=329",
+  "retrieved_utc": "2026-10-09T07:47:30.595720+00:00",
+  "local_file": "institution_queries/gatc_SQJ7002YAC1BEV.html",
+  "purpose": "广州检验中心官网可见GET搜索表单查询",
+  "query": "SQJ7002YAC1BEV",
+  "target_models": [
+    "SQJ7002YAC1BEV"
+  ],
+  "tls_verification": true,
+  "status": "ok",
+  "http_status": 200,
+  "final_url": "https://www.gatc.ac.cn/search/?title=SQJ7002YAC1BEV&model=article%2Cpic&navlist=329",
+  "response_headers": {
+    "date": "Fri, 09 Oct 2026 07:47:33 GMT",
+    "content-type": "text/html; charset=utf-8",
+    "server": "envoy",
+    "x-powered-by": "PHP/7.4.33",
+    "set-cookie": "PHPSESSID=mgjdoruu2dn6t34pqdlovdcfac; expires=Sat, 10-Oct-2026 07:47:32 GMT; Max-Age=86400; path=/; HttpOnly",
+    "expires": "Thu, 19 Nov 1981 08:52:00 GMT",
+    "cache-control": "no-store, no-cache, must-revalidate",
+    "pragma": "no-cache",
+    "x-ct-request-id": "90e2046c274f3878862677d2b5f968aa",
+    "x-envoy-upstream-service-time": "2175",
+    "connection": "close",
+    "transfer-encoding": "chunked"
+  },
+  "bytes": 19949,
+  "sha256": "a06b84ba46e4a6957bb20042aa870252b501999b9bcd8a767ebe6f7bb8e980da",
+  "truncated": false
+}

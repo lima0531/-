@@ -1,0 +1,30 @@
+{
+  "request_url": "https://std.samr.gov.cn/gb/search/gbQueryPage?searchText=%E7%94%B5%E5%8A%A8%E6%B1%BD%E8%BD%A6%E8%83%BD%E9%87%8F%E6%B6%88%E8%80%97%E9%87%8F%E5%92%8C%E7%BB%AD%E9%A9%B6%E9%87%8C%E7%A8%8B%E8%AF%95%E9%AA%8C%E6%96%B9%E6%B3%95",
+  "retrieved_at_utc": "2026-10-09T07:53:44.874775+00:00",
+  "purpose": "按18386.1已核正式标准名称的稳定前缀检索修改单名称，排除能源消耗量标识另标准",
+  "tls_verification": true,
+  "proxy_environment_preserved": true,
+  "request_method": "GET",
+  "automatic_redirects": false,
+  "same_url_retries": 0,
+  "http_status": 200,
+  "final_url": "https://std.samr.gov.cn/gb/search/gbQueryPage?searchText=%E7%94%B5%E5%8A%A8%E6%B1%BD%E8%BD%A6%E8%83%BD%E9%87%8F%E6%B6%88%E8%80%97%E9%87%8F%E5%92%8C%E7%BB%AD%E9%A9%B6%E9%87%8C%E7%A8%8B%E8%AF%95%E9%AA%8C%E6%96%B9%E6%B3%95",
+  "response_headers": {
+    "server": "envoy",
+    "date": "Fri, 09 Oct 2026 07:53:49 GMT",
+    "content-type": "application/json;charset=utf-8",
+    "content-length": "831",
+    "x-ratelimit-remaining": "198",
+    "x-ratelimit-requested-tokens": "1",
+    "x-ratelimit-burst-capacity": "200",
+    "x-ratelimit-replenish-rate": "80",
+    "x-envoy-upstream-service-time": "1013",
+    "connection": "close"
+  },
+  "bytes": 831,
+  "sha256": "19aac41f2d7f60592faff11b68f24ce8e28156934e10cddc287f50b85887ee21",
+  "evidence_file": "official_query_name.json",
+  "status": "retrieved",
+  "stored_body_representation": "urllib.read after transfer decoding; Content-Encoding preserved",
+  "finished_at_utc": "2026-10-09T07:53:49.386717+00:00"
+}

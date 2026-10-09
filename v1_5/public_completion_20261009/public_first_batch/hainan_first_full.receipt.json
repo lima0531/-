@@ -1,0 +1,25 @@
+{
+  "request_url": "https://hainan.chinatax.gov.cn/lawlibrary/clgzs/21326.jhtml",
+  "purpose": "新发现地方税务真实完整54号第一批转载页；核明确网页发布字段及附件，不移用成文日期",
+  "retrieved_at_utc": "2026-10-09T07:52:43.845414+00:00",
+  "request_method": "GET",
+  "tls_verification": true,
+  "retry_policy": "one request; cache receipt thereafter",
+  "http_status": 200,
+  "final_url": "https://hainan.chinatax.gov.cn/lawlibrary/clgzs/21326.jhtml",
+  "response_headers": {
+    "date": "Fri, 09 Oct 2026 08:16:39 GMT",
+    "x-frame-options": "SAMEORIGIN",
+    "content-type": "text/html;charset=UTF-8",
+    "content-language": "zh-CN",
+    "set-cookie": "_site_id_cookie=1; Path=/; Secure; HttpOnly",
+    "x-envoy-upstream-service-time": "759",
+    "server": "envoy",
+    "connection": "close",
+    "transfer-encoding": "chunked"
+  },
+  "status": "retrieved",
+  "evidence_file": "/workspace/purchase_tax_audit/round9/public_first_batch/hainan_first_full.html",
+  "bytes": 10903,
+  "sha256": "9bfebbc601fcb791f1e1f643dc29901a28fcb8746b6df6dfefb0764313c9de0d"
+}

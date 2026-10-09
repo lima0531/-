@@ -1,0 +1,32 @@
+{
+  "requested_url": "https://hss.smvic.com.cn/indexnews/1384",
+  "retrieved_utc": "2026-10-09T07:48:40.242323+00:00",
+  "local_file": "test_portals/smvic_standard_amendment_clue.html",
+  "purpose": "机构平台2026修改单线索；须另核官方公告、不得回填历史标准版本",
+  "query": "",
+  "target_models": [],
+  "tls_verification": true,
+  "status": "ok",
+  "http_status": 200,
+  "final_url": "https://hss.smvic.com.cn/indexnews/1384",
+  "response_headers": {
+    "date": "Fri, 09 Oct 2026 07:48:44 GMT",
+    "content-type": "text/html; charset=utf-8",
+    "content-length": "107443",
+    "set-cookie": "csrftoken=W2Utfys960zrepHH3LiuRxcsNozKncAlCmxrVA6QYlqW6vpEZDeBpjYm7yNX2XmY; expires=Fri, 08 Oct 2027 07:48:43 GMT; HttpOnly; Max-Age=31449600; Path=/; SameSite=Lax",
+    "server": "envoy",
+    "x-frame-options": "SAMEORIGIN",
+    "vary": "Cookie",
+    "x-xss-protection": "1; mode=block",
+    "x-content-type-options": "nosniff",
+    "strict-transport-security": "max-age=0; preload",
+    "x-request-id": "159d6c055882b388e81b534d0aef3d43",
+    "x-cache": "BYPASS",
+    "accept-ranges": "bytes",
+    "x-envoy-upstream-service-time": "934",
+    "connection": "close"
+  },
+  "bytes": 107443,
+  "sha256": "6c0b7784fb8c2ddced5457c081d0e7a1022d72a8c702f5fbfaf750f6a6eb7788",
+  "truncated": false
+}

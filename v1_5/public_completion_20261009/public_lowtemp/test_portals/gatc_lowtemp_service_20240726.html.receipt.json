@@ -1,0 +1,15 @@
+{
+  "requested_url": "https://www.gatc.ac.cn/n-337/3856.html",
+  "retrieved_utc": "2026-10-09T07:48:40.241955+00:00",
+  "local_file": "test_portals/gatc_lowtemp_service_20240726.html",
+  "purpose": "公开极寒测试服务说明；并非19配置低温报告",
+  "query": "",
+  "target_models": [],
+  "tls_verification": true,
+  "status": "http_error",
+  "http_status": 403,
+  "error": "HTTP Error 403: Forbidden",
+  "final_url": "https://www.gatc.ac.cn/n-337/3856.html",
+  "bytes": 33,
+  "sha256": "beb861eaa39f786b701fafe0c93827f91c26b4fd7bda29668712515b031e2569"
+}

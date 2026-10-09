@@ -1,0 +1,24 @@
+{
+  "requested_url": "https://www.miit.gov.cn/search-front-server/api/search/info?websiteid=110000000000000&scope=basic&q=GTM6470BFEBEV&pg=40&p=1&cateid=47&pos=title_text,titlepy,infocontent,filenumbername,keyword,contentdescribe&group=distinct&level=6",
+  "retrieved_utc": "2026-10-09T07:42:20.811202+00:00",
+  "status": "ok",
+  "http_status": 200,
+  "final_url": "https://www.miit.gov.cn/search-front-server/api/search/info?websiteid=110000000000000&scope=basic&q=GTM6470BFEBEV&pg=40&p=1&cateid=47&pos=title_text,titlepy,infocontent,filenumbername,keyword,contentdescribe&group=distinct&level=6",
+  "bytes": 225,
+  "sha256": "552f25d8aabc6325e62832ef1a1e66c82f7d9607bcad6d5c4483b5f77740c6e8",
+  "response_headers": {
+    "date": "Fri, 09 Oct 2026 07:42:25 GMT",
+    "content-type": "text/html;charset=UTF-8",
+    "content-length": "225",
+    "set-cookie": "__jsluid_s=18cc1671ac751d76d27209b1cb7e6bd4; max-age=31536000; path=/; HttpOnly; SameSite=None; secure",
+    "x-kong-upstream-latency": "802",
+    "x-kong-proxy-latency": "0",
+    "via": "kong/1.4.3",
+    "x-via-jsl": "3554f18,-",
+    "x-cache": "bypass",
+    "x-envoy-upstream-service-time": "1588",
+    "server": "envoy",
+    "connection": "close"
+  },
+  "file": "probe_3.html"
+}

@@ -1,0 +1,27 @@
+{
+  "request_url": "https://openstd.samr.gov.cn/bzgk/std/nd?no=2462",
+  "retrieved_at_utc": "2026-10-09T08:02:33.800313+00:00",
+  "purpose": "最后公开搜索实际发现的2025年第19号全文公开通知，片段严格提到18386.1轻型汽车修改单；独立公告URL，不重试已403标准全文页",
+  "tls_verification": true,
+  "proxy_environment_preserved": true,
+  "request_method": "GET",
+  "automatic_redirects": false,
+  "same_url_retries": 0,
+  "http_status": 403,
+  "final_url": "https://openstd.samr.gov.cn/bzgk/std/nd?no=2462",
+  "response_headers": {
+    "server": "envoy",
+    "date": "Fri, 09 Oct 2026 08:02:35 GMT",
+    "content-type": "text/html",
+    "vary": "Accept-Encoding",
+    "x-envoy-upstream-service-time": "769",
+    "connection": "close",
+    "transfer-encoding": "chunked"
+  },
+  "bytes": 1322,
+  "sha256": "20c2ceeba75d5193ee0218f2ddd84918b93755e75b43e0b80fb70f2d30f0e215",
+  "evidence_file": "official_2025_19_fulltext_notice.html",
+  "status": "http_error",
+  "stored_body_representation": "urllib.read after transfer decoding; Content-Encoding preserved",
+  "finished_at_utc": "2026-10-09T08:02:35.726243+00:00"
+}

@@ -1,0 +1,32 @@
+{
+  "requested_url": "https://hss.smvic.com.cn/",
+  "retrieved_utc": "2026-10-09T07:44:32.254658+00:00",
+  "local_file": "test_portals/smvic_cert.html",
+  "purpose": "上海机动车检测认证技术研究中心官网链接的认证服务",
+  "query": "",
+  "target_models": [],
+  "tls_verification": true,
+  "status": "ok",
+  "http_status": 200,
+  "final_url": "https://hss.smvic.com.cn/",
+  "response_headers": {
+    "date": "Fri, 09 Oct 2026 07:44:35 GMT",
+    "content-type": "text/html; charset=utf-8",
+    "content-length": "591944",
+    "set-cookie": "csrftoken=FZhO4rZpzjiTpRaOeGNyHOzqwGq8XIVcANDnJFGQc0zeWNIjnwCPnqh8ov7k0B4d; expires=Fri, 08 Oct 2027 07:44:34 GMT; HttpOnly; Max-Age=31449600; Path=/; SameSite=Lax",
+    "server": "envoy",
+    "x-frame-options": "SAMEORIGIN",
+    "vary": "Cookie",
+    "x-xss-protection": "1; mode=block",
+    "x-content-type-options": "nosniff",
+    "strict-transport-security": "max-age=0; preload",
+    "x-request-id": "700aea73fbf27b36a03dee49566d8152",
+    "x-cache": "BYPASS",
+    "accept-ranges": "bytes",
+    "x-envoy-upstream-service-time": "1950",
+    "connection": "close"
+  },
+  "bytes": 591944,
+  "sha256": "78f79e65f3c0186ccac7bd9c1c0edd5d6eaed4d3d5c8dd62fc93970898730d9d",
+  "truncated": false
+}

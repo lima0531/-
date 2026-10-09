@@ -1,0 +1,27 @@
+{
+  "requested_url": "https://www.catarc.ac.cn/",
+  "retrieved_utc": "2026-10-09T07:43:08.458880+00:00",
+  "local_file": "portals/catarc.html",
+  "purpose": "中汽中心公开检测/认证入口",
+  "query": "",
+  "target_models": [],
+  "tls_verification": true,
+  "status": "ok",
+  "http_status": 200,
+  "final_url": "https://www.catarc.ac.cn/",
+  "response_headers": {
+    "date": "Fri, 09 Oct 2026 07:43:13 GMT",
+    "content-type": "text/html;charset=UTF-8",
+    "server": "envoy",
+    "content-language": "en-US",
+    "x-frame-options": "SAMEORIGIN",
+    "set-cookie": "Path=/; HttpOnly; Secure;SameSite=Lax;",
+    "x-ct-request-id": "2ce355a6e79d0f883757d31ec6858240",
+    "x-envoy-upstream-service-time": "1384",
+    "connection": "close",
+    "transfer-encoding": "chunked"
+  },
+  "bytes": 89445,
+  "sha256": "4ce804b7e75cbe4a690ffbd8e6a9923560607839fb79d5fae2835b9cc09d9c6e",
+  "truncated": false
+}

@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+   <head>
+      <meta charset="utf-8"/>
+      <meta content="IE=edge" http-equiv="X-UA-Compatible"/>
+      <meta content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no" name="viewport"/>
+      <title  data-translate="header_website_title">
+         BAW北京汽车制造厂
+      </title>
+    <link rel="icon" href="./images/favicon.svg" type="image/gif"  />
+
+      <meta content="BAW北京汽车制造厂" name="title">
+         <meta content="BAW北京汽车制造厂" name="keywords">
+            <meta content="BAW北京汽车制造厂" name="description">
+               <link href="css/bootstrap/bootstrap.min.css" rel="stylesheet">
+               <script src="js/bootstrap/bootstrap.bundle.min.js" async></script>
+               <link href="css/idangerous.swiper.css" rel="stylesheet" type="text/css"/>
+               <link href="css/common.css" rel="stylesheet" type="text/css"/>
+               <link href="css/responsibility.css" rel="stylesheet" type="text/css"/>
+               <script src="js/jquery-1.11.0.js">
+               </script>
+               <script src="js/idangerous.swiper.min.js" type="text/javascript">
+               </script>
+               <script src="js/common.js" type="text/javascript">
+               </script>
+               <script src="js/contact_us.js" type="text/javascript">
+               </script>
+               <script>
+                  var _hmt = _hmt || [];
+			(function() {
+			  var hm = document.createElement("script");
+			  hm.src = "https://hm.baidu.com/hm.js?fd7239d76bbcce7dd2fa510e75eb8612";
+			  var s = document.getElementsByTagName("script")[0];
+			  s.parentNode.insertBefore(hm, s);
+			})();
+               </script>
+            </meta>
+         </meta>
+      </meta>
+   </head>
+   <body>
+      <div class="site">
+         <span data-translate="contact_us">
+            联系我们
+         </span>
+      </div>
+      <div id="header_box">
+      </div>
+      <div class="bannerSecond">
+         <img class="w100" src="images/contact_us/contact_us01.jpg"/>
+         <div class="bannerSecondTitle font85">
+            <strong class="font85 size48" data-translate="contact_us">
+               联系我们
+            </strong>
+         </div>
+      </div>
+      <div class="main w100 bgMain">
+         <div class="wrapperMain contanct">
+            <div class="lunbo">
+               <div class="swiper-container">
+                  <div class="swiper-wrapper">
+                     <div class="swiper-slide">
+                        <a href="javascript:;">
+                           <img class="w100" src="images/contact_us/contact_us03.png"/>
+                        </a>
+                     </div>
+                     <div class="swiper-slide">
+                        <a href="javascript:;">
+                           <img class="w100" src="images/contact_us/contact_us04.png"/>
+                        </a>
+                     </div>
+                  </div>
+               </div>
+               <div class="swiper-pagination">
+               </div>
+               <div class="lbContent">
+                  <img src="images/contact_us/contact_us05.jpg"/>
+                  <h3 class="font65 size24" data-translate="contact_us_6ee90bb4">
+                     北京汽车制造厂（青岛）有限公司
+                  </h3>
+                  <div class="rightLine size24">
+                  </div>
+                  <p class="size18" data-translate="contact_us_001">
+                     地址：青岛市莱西市姜山镇盛达路17号
+                     <br/>
+                     服务热线：400-990-1951（24小时）
+                     <br/>
+                     邮箱：bawzs@baw.com.cn （国内）
+                     <br/>
+                     info@bawauto.com（overseas market）
+                  </p>
+               </div>
+            </div>
+            <div class="changzhi">
+               <div class="czWrap">
+
+               </div>
+            </div>
+         </div>
+      </div>
+      <div id="footer_box">
+      </div>
+      <script src="js/load_new.js" type="text/javascript">
+      </script>
+   </body>
+</html>

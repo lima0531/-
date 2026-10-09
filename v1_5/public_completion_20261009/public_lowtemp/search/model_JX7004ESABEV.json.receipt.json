@@ -1,0 +1,31 @@
+{
+  "requested_url": "https://www.miit.gov.cn/search-front-server/api/search/info?websiteid=110000000000000&scope=basic&q=JX7004ESABEV&pg=10&p=1&cateid=47&pos=title_text%2Ctitlepy%2Cinfocontent%2Cfilenumbername%2Ckeyword%2Ccontentdescribe&selectFields=title%2Curl%2Ccontent%2Cdeploytime%2Ccolumnname&group=distinct&level=6",
+  "retrieved_utc": "2026-10-09T07:42:56.589462+00:00",
+  "local_file": "search/model_JX7004ESABEV.json",
+  "purpose": "工信部公共全文搜索：查同型号/配置公开低温检测证据",
+  "query": "JX7004ESABEV",
+  "target_models": [
+    "JX7004ESABEV"
+  ],
+  "tls_verification": true,
+  "status": "ok",
+  "http_status": 200,
+  "final_url": "https://www.miit.gov.cn/search-front-server/api/search/info?websiteid=110000000000000&scope=basic&q=JX7004ESABEV&pg=10&p=1&cateid=47&pos=title_text%2Ctitlepy%2Cinfocontent%2Cfilenumbername%2Ckeyword%2Ccontentdescribe&selectFields=title%2Curl%2Ccontent%2Cdeploytime%2Ccolumnname&group=distinct&level=6",
+  "response_headers": {
+    "date": "Fri, 09 Oct 2026 07:42:58 GMT",
+    "content-type": "text/html;charset=UTF-8",
+    "content-length": "225",
+    "set-cookie": "__jsluid_s=2141a8646e2e8e09d2097e6fa08e75c3; max-age=31536000; path=/; HttpOnly; SameSite=None; secure",
+    "x-kong-upstream-latency": "143",
+    "x-kong-proxy-latency": "0",
+    "via": "kong/1.4.3",
+    "x-via-jsl": "b20b407,-",
+    "x-cache": "bypass",
+    "x-envoy-upstream-service-time": "939",
+    "server": "envoy",
+    "connection": "close"
+  },
+  "bytes": 225,
+  "sha256": "db7c9687ac5bd93b17ec792595ef681eb95d1a3b1f12c7ff76d29e5b70cc845a",
+  "truncated": false
+}

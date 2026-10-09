@@ -1,0 +1,34 @@
+{
+  "requested_url": "https://hss.smvic.com.cn/indexsearch?search=GTM6470BFEBEV",
+  "retrieved_utc": "2026-10-09T07:47:23.823475+00:00",
+  "local_file": "institution_queries/smvic_GTM6470BFEBEV.html",
+  "purpose": "SMVIC认证平台可见GET搜索表单查询，不能用CCC证书替代附录A报告",
+  "query": "GTM6470BFEBEV",
+  "target_models": [
+    "GTM6470BFEBEV"
+  ],
+  "tls_verification": true,
+  "status": "ok",
+  "http_status": 200,
+  "final_url": "https://hss.smvic.com.cn/indexsearch/?search=GTM6470BFEBEV",
+  "response_headers": {
+    "date": "Fri, 09 Oct 2026 07:47:25 GMT",
+    "content-type": "text/html; charset=utf-8",
+    "content-length": "105432",
+    "set-cookie": "csrftoken=4dWK8Itl9B2bo1AyZiuQbAfCD8ttFedoNXUKENaiUz49VIz3e5cjILRN5STGa3ES; expires=Fri, 08 Oct 2027 07:47:24 GMT; HttpOnly; Max-Age=31449600; Path=/; SameSite=Lax",
+    "server": "envoy",
+    "x-frame-options": "SAMEORIGIN",
+    "vary": "Cookie",
+    "x-xss-protection": "1; mode=block",
+    "x-content-type-options": "nosniff",
+    "strict-transport-security": "max-age=0; preload",
+    "x-request-id": "be6339d8fc8e35d5d3e8d5baef3bca1b",
+    "x-cache": "BYPASS",
+    "accept-ranges": "bytes",
+    "x-envoy-upstream-service-time": "1146",
+    "connection": "close"
+  },
+  "bytes": 105432,
+  "sha256": "14b9ad7b12b333fce9db7a7794f5012313daf3b1493f373c7959520f07fa3df3",
+  "truncated": false
+}

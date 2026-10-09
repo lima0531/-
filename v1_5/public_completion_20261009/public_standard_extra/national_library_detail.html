@@ -1,0 +1,2565 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>GB/T 18386.1-2021-电动汽车能量消耗量和续驶里程试验方法 第1部分：轻型汽车-国家标准馆·国家数字标准馆</title>
+    <link rel="icon" href="/img/favicon.ico?v=1790663949"/>
+    <meta name="viewport"
+          content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=1">
+    <meta name="keywords"
+          content="国家标准电动汽车能量消耗量和续驶里程试验方法 第1部分：轻型汽车车辆 - 汽车 - 新能源汽车及其他类型汽车 道路车辆工程 - 道路车辆综合">
+    <meta name="description"
+          content="GB/T 18386.1-2021电动汽车能量消耗量和续驶里程试验方法 第1部分：轻型汽车本文件规定了纯电动汽车的能量消耗量和续驶里程的试验方法。本文件适用于N;类和最大设计总质量不超过3500 kg的M1、M2类车辆。最大设计总质量超过3500kg的M1类车辆和L5类车辆可参照执行">
+    <link href="/css/index.css?v=1790663949" rel="stylesheet" type="text/css"/>
+    <link href="/css/index-container-5.css?v=1790663949" rel="stylesheet" type="text/css"/>
+    <link href="/css/standard-info.css?v=1790663949" rel="stylesheet" type="text/css"/>
+    <link rel="stylesheet" href="/share/css/share.min.css?v=1790663949"/>
+    <link rel="stylesheet" href="/layui-v2.9.16/css/layui.css" media="all"/>
+    <link href="/css/element-index.css?v=1790663949" rel="stylesheet" type="text/css"/>
+    <link href="/css/dialog.css?v=1790663949" rel="stylesheet" type="text/css"/>
+    <link rel="stylesheet" href="/css/common.css" media="all"/>
+    <link href="/css/scheduled-arrival.css?v=1790663949" rel="stylesheet" type="text/css"/>
+    <script src="/js/jquery-3.7.1.min.js"></script>
+    <style type="text/css">
+        #chart-panel {
+            height: 500px;
+            width: 1100px;
+            background-color: #fff;
+        }
+
+        .controls {
+            position: absolute;
+            top: 15%;
+            right: 15px;
+            display: flex;
+            flex-direction: column;
+            height: 60px;
+            justify-content: space-between;
+            align-items: center;
+            background: rgba(12, 75, 198, 0.1);
+            padding: 10px;
+        }
+
+        .controls svg {
+            width: 25px;
+            height: 25px;
+            text-align: center;
+            line-height: 25px;
+            font-size: 15px;
+            background: rgba(80, 223, 219, 0.7);
+            cursor: pointer;
+        }
+
+        .layui-input-wrap {
+            display: flex;
+        }
+
+        .layui-form-radio:hover > *, .layui-form-radioed, .layui-form-radioed > i {
+            color: #4B9FFF;
+        }
+
+        .layui-laydate .layui-this, .layui-laydate .layui-this > div {
+            background-color: #4B9FFF !important;
+        }
+
+        .layui-btn {
+            background-color: #4B9FFF;
+            border-radius: 18px;
+            width: 110px !important;
+        }
+
+        .layui-layer {
+            border-radius: 10px !important;
+        }
+
+        .layui-laydate-footer span:hover {
+            color: #4B9FFF;
+        }
+
+        .layui-btn-normal {
+            color: #5f5f5f;
+            border: 1px solid #d2d2d2;
+            background-color: white;
+            border-radius: 8px;
+        }
+
+        .layui-btn-normal:hover {
+            border-color: #4B9FFF !important;
+            color: #333 !important;
+        }
+
+        .dgRead {
+            padding: 24px;
+            display: flex;
+            align-content: center;
+            line-height: 28px;
+            font-size: 14px;
+            flex-direction: column;
+            color: #151515;
+        }
+
+    </style>
+</head>
+<body>
+<head>
+    <link rel="icon" href="/img/favicon.ico?v=1790663949"/>
+    <link href="/css/base.css?v=1790663949" rel="stylesheet" type="text/css"/>
+    <style>
+    </style>
+    <script>
+        var _hmt = _hmt || [];
+        (function () {
+            var hm = document.createElement("script");
+            hm.src = "https://hm.baidu.com/hm.js?6a662c79233f654163c0e022619cc249";
+            var s = document.getElementsByTagName("script")[0];
+            s.parentNode.insertBefore(hm, s);
+        })();
+    </script>
+</head>
+<body class="base-container">
+<div class="base-header">
+    <a href="/index" style="display: flex">
+        <div style="text-align: left; flex: 1; ">
+            <img src="/img/logo.png?v=1790663949" style="height: 80px; position: relative; left: -40px;"/>
+        </div>
+    </a>
+    <div class="login-view no-login" style="display: none">
+        <span class="login-register login-btn">登&nbsp;录&nbsp;/&nbsp;注&nbsp;册</span>
+    </div>
+    <div class="login-view yes-login" style="display: none">
+        <div class="user-info">
+            <img class="user-icon" src="/img/user-icon.png?v=1790663949"/>
+            <span class="user-name"></span>
+            <img class="arrow-icon" src="/img/user-arrow-icon.png?v=1790663949" class="arrow-icon"/>
+        </div>
+        <div class="user-info-menu" style="display: none">
+            <div class="menu-item" onclick="openUrl('/user/user-information')">
+                <img src="/img/user-center-icon.png?v=1790663949" alt=""/>
+                <a href="javascript:void 0;">个人中心</a>
+            </div>
+            <div class="menu-item message-menu" onclick="openUrl('/user/message')" style="position: relative">
+                <img src="/img/message-icon-dark.png?v=1790663949" alt=""/>
+                <a href="javascript:void 0;">我的消息</a>
+            </div>
+            <div class="menu-line"></div>
+            <div class="menu-item" id="return-account">
+                <img src="/img/return-account-icon.png?v=1790663949" alt=""/>
+                <a href="javascript:void 0;">退出账号</a>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+<div class="base-navigation">
+    <div class="base-navigation-view">
+        <a class="nav-btn active" href="/"><img src="/img/home-icon.png?v=1790663949"/>首页</a>
+        <a class="nav-btn" target="_blank" href="/resources/precious"><img
+                    src="/img/icon/nav-resources-icon.gif?v=1790663949"/>馆藏资源</a>
+        <a class="nav-btn" target="_blank" href="/news/index?type=0"><img
+                    src="/img/icon/nav-news-icon.gif?v=1790663949"/>标准快讯</a>
+        <a class="nav-btn" target="_blank" style="min-width: 150px;" href="/standard-digit/index?index=1"><img
+                    src="/img/digitization-icon.png?v=1790663949"/>标准数字化</a>
+        <a class="nav-btn" target="_blank" href="/standard-submit/index"><img
+                    src="/img/chengjiao-icon.png?v=1790663949"/>呈缴征集</a>
+        <a class="nav-btn" target="_blank" href="/standard-services/document?index=1"><img
+                    src="/img/service-icon.png?v=1790663949"/>标准服务</a>
+        <a class="nav-btn" target="_blank" href="/aboutus/index?index=1"><img
+                    src="/img/aboutus-icon.png?v=1790663949"/>关于我们</a>
+    </div>
+    <div class="subnav hide">
+        <div class="dot" style="left: 0px;"></div>
+        <div class="box">
+            <div class="item" style="top: -9999em;"></div>
+
+            <!-- 馆藏资源 -->
+            <div class="item" style="top: -9999em; left: 0px; right: auto;">
+                <a target="_blank" href="/resources/precious">珍贵馆藏</a>
+                <a target="_blank" href="/resources/index?index=1">国家标准</a>
+                <a target="_blank" href="/resources/index?index=2">行业标准</a>
+                <a target="_blank" href="/resources/index?index=3">地方标准</a>
+                <a target="_blank" href="/resources/index?index=4">团体标准</a>
+                <a target="_blank" href="/resources/index?index=5">国际（区域）标准</a>
+                <a target="_blank" href="/resources/index?index=6">国外国家标准</a>
+                <a target="_blank" href="/resources/index?index=7">国际性专业标准</a>
+                <a target="_blank" href="/resources/index?index=8">技术法规</a>
+            </div>
+            <div class="item" style="top: -9999em; left: 0px; right: auto;">
+                <a target="_blank" href="/news/index?type=0">国内快讯</a>
+                <a target="_blank" href="/news/index?type=1">国际快讯</a>
+                <a target="_blank" href="/resources/new-collection?type=1">标准速递</a>
+                <a target="_blank" href="/resources/new-collection?type=0">馆藏上新</a>
+            </div>
+            <div class="item" style="top: -9999em;">
+                <a target="_blank" href="/standard-digit/index?index=1">组织建设</a>
+                <a target="_blank" href="/standard-digit/index?index=2">标准研制</a>
+                <a target="_blank" href="/standard-digit/index?index=3">科研工作</a>
+                <a target="_blank" href="/standard-digit/index?index=4">系统工具</a>
+                <a target="_blank" href="/standard-digit/index?index=5">蓝皮书</a>
+            </div>
+
+
+            <div class="item" style="top: -9999em;">
+                <a target="_blank" href="/standard-submit/index?tab=national">国标呈缴</a>
+                <a target="_blank" href="/standard-submit/index?tab=voluntary">自愿呈缴</a>
+                <a target="_blank" href="/standard-submit/index?tab=donation">藏品征集</a>
+            </div>
+
+            <div class="item" style="top: -9999em;">
+                <a target="_blank" href="/standard-services/document?index=1">文献服务</a>
+                <a target="_blank" href="/standard-services/document?index=2">知识服务</a>
+                <a target="_blank" href="/standard-services/document?index=3">服务站点</a>
+                <a target="_blank" href="/topics/index?index=4">专题服务</a>
+            </div>
+
+            <!-- 关于我们 -->
+            <div class="item" style="top: 0px; left: 681px; right: auto;">
+                <a target="_blank" href="/aboutus/index?index=1">国家标准馆</a>
+                <a target="_blank" href="/aboutus/index?index=2">国家数字标准馆</a>
+                <a target="_blank" href="/aboutus/index?index=3">发展大事记</a>
+            </div>
+        </div>
+    </div>
+</div>
+</div>
+</body>
+<script src="/js/jquery-3.7.1.min.js" type="text/javascript"></script>
+<script src="/js/base.js?v=1790663949"></script>
+<script src="/js/sockjs.min.js"></script>
+<script src="/js/stomp.min.js"></script>
+
+<script type="application/javascript">
+
+    function openUrl(url, openNewWindow) {
+        if (openNewWindow) {
+            window.open(url)
+        } else {
+            window.location.href = url
+        }
+    }
+
+    const baseFun = {
+        menu: function () {
+            var menuTimer = null;
+
+            $('.base-navigation-view>a').hover(function () {
+                clearInterval(menuTimer);
+                let winW = $(window).width();
+                let menuRight = $('.base-navigation-view').offset().left + $('.base-navigation-view').innerWidth();
+                let index = $(this).index();
+                let radius = $(this).innerWidth() / 2;
+                let left = $(this).offset().left + radius;
+                let subNavRadius = $('.subnav .item').eq(index).width() / 2;
+                var _subnav = $('.subnav .item').eq(index)
+                let subNavWidth = $('.subnav .item').eq(index).innerWidth();
+                if (_subnav.find('a').length < 1) {
+                    $('.subnav').addClass('hide');
+                } else {
+                    $('.subnav').removeClass('hide');
+                    $('.subnav .dot').css({left: left - 4 + 'px'});
+                    $('.subnav .item').css('top', '-9999em');
+                    if (left + subNavRadius >= winW) {
+                        $('.subnav .item').eq(index).css({
+                            right: (winW - menuRight < 0 ? 40 : winW - menuRight) + 'px',
+                            left: 'auto',
+                            top: 0
+                        });
+                    } else {
+                        $('.subnav .item').eq(index).css({
+                            left: (left - subNavRadius < 0 ? 40 : left - subNavRadius) + 'px',
+                            right: 'auto',
+                            top: 0
+                        });
+                    }
+                }
+
+                $(this).addClass('hover-active').siblings().removeClass('hover-active');
+
+
+            }, function () {
+                menuTimer = setTimeout(function () {
+                    // 一级菜单选中取消
+                    $('.subnav').addClass('hide');
+                    $('.base-navigation-view>a').removeClass('hover-active');
+                }, 100);
+            })
+            $('.subnav').hover(function () {
+                clearInterval(menuTimer);
+            }, function () {
+                menuTimer = setTimeout(function () {
+                    // 二级菜单选中取消
+                    $('.subnav').addClass('hide');
+                    $('.base-navigation-view>a').removeClass('hover-active');
+                }, 100);
+            })
+        }
+    }
+
+    // 跨窗口登录状态同步：广播登录/登出事件
+    function broadcastAuthEvent(type) {
+        try {
+            const event = {
+                type: type,
+                time: Date.now()
+            };
+            localStorage.setItem('AUTH_SYNC_EVENT', JSON.stringify(event));
+        } catch (e) {
+            console && console.warn && console.warn('broadcastAuthEvent error', e);
+        }
+    }
+
+    /** 顶部展示名：用户中心可能只回填 name/mobile，userName 为空 */
+    function headerDisplayUserName(data) {
+        if (!data) {
+            return '用户';
+        }
+        var s = data.userName || data.name || data.mobile || data.email;
+        if (s != null && String(s).trim() !== '') {
+            return String(s).trim();
+        }
+        return '用户';
+    }
+
+    function syncAuthWasLoggedIn(loggedIn) {
+        try {
+            localStorage.setItem('AUTH_WAS_LOGGED_IN', loggedIn ? '1' : '0')
+        } catch (e) {
+        }
+    }
+
+    function switchHeaderToNoLogin() {
+        $('.yes-login').hide()
+        $('.no-login').show()
+        $('.user-info-menu').hide()
+        sessionStorage.removeItem('AUTH_LOGIN_BROADCASTED');
+        // 切为未登录后关闭通知连接，避免继续接收登录态消息
+        if (window.noticeSocket && window.noticeSocket.readyState !== WebSocket.CLOSED) {
+            try {
+                window.noticeSocket.close();
+            } catch (e) {
+            }
+        }
+    }
+
+    // 供全站统一鉴权提示调用：当前窗口发现 2010 时，顶部立即切未登录
+    window.addEventListener('NDLS_AUTH_EXPIRED', function () {
+        switchHeaderToNoLogin();
+    });
+
+    // 监听其他窗口的登录/登出事件
+    window.addEventListener('storage', function (e) {
+        if (!e.key || e.key !== 'AUTH_SYNC_EVENT' || !e.newValue) {
+            return;
+        }
+        let data;
+        try {
+            data = JSON.parse(e.newValue);
+        } catch (err) {
+            return;
+        }
+        if (!data || !data.type) {
+            return;
+        }
+
+        if (data.type === 'logout' || data.type === 'expired') {
+            // 其他窗口登出/过期：当前窗口直接切未登录态，不整页刷新
+            switchHeaderToNoLogin();
+            // 明确登出时清理“曾登录”标识，避免后续误判为“登录过期”
+            if (data.type === 'logout') {
+                try {
+                    localStorage.removeItem('AUTH_WAS_LOGGED_IN')
+                } catch (e) {
+                }
+            }
+        } else if (data.type === 'login') {
+            // 其他窗口登录：异步同步当前窗口登录状态和用户信息（不整页刷新）
+            $.ajax({
+                url: '/api/user/get-user-info',
+                type: 'GET',
+                cache: false,
+                success: res => {
+                    if (res && res.code === 0 && res.data) {
+                        syncAuthWasLoggedIn(true)
+                        // 更新头部登录区域
+                        $('.yes-login').show();
+                        $('.no-login').hide();
+                        $('.user-name').html(headerDisplayUserName(res.data));
+
+                        // 为避免重复连接，先关闭已有socket再初始化
+                        if (window.noticeSocket && window.noticeSocket.readyState !== WebSocket.CLOSED) {
+                            try {
+                                window.noticeSocket.close();
+                            } catch (e) {
+                            }
+                        }
+                        if (window.initSocket) {
+                            window.initSocket();
+                        }
+                    } else if (res && (res.code === 2001 || res.code === 2010)) {
+                        switchHeaderToNoLogin()
+                    }
+                }
+            });
+        }
+    });
+
+    $(document).ready(() => {
+
+        baseFun.menu()
+
+        $('.login-btn').on('click', function () {
+            // 前端统一跳转到后端SSO登录入口，由后端记录当前页面并发起授权
+            const currentUrl = window.location.href
+            const loginUrl = '/sso/login?currentUrl=' + encodeURIComponent(currentUrl)
+            window.open(loginUrl)
+        })
+        $('.register-btn').on('click', function () {
+            window.open('https://www.ndls.org.cn/ndls-user/register')
+        })
+        $('.nav-btn').on('mouseover', function () {
+            $(this).children('.nav-btn-sub').show()
+            $(this).children('.nav-btn-sub-arrow').show()
+        })
+        $('.nav-btn').on('mouseout', function () {
+            var that = $(this);
+            var $subMenu = that.find('.nav-btn-sub');
+            var $subArrow = that.find('.nav-btn-sub-arrow');
+            if ($subMenu.length) {
+                setTimeout(function () {
+                    if (!that.is(':hover') && !$subMenu.is(':hover')) {
+                        $subMenu.stop(true, true).fadeOut();
+                        $subArrow.stop(true, true).fadeOut();
+                    }
+                }, 100)
+            }
+        })
+        $('.user-info').on('mouseover', function () {
+            $('.user-info-menu').show()
+            $('.user-info-menu-arrow').show()
+        })
+        $('.user-info').on('mouseout', function () {
+            var that = $(this);
+            var $subMenu = $('.user-info-menu');
+            if ($subMenu.length) {
+                setTimeout(function () {
+                    if (!that.is(':hover') && !$subMenu.is(':hover')) {
+                        $subMenu.stop(true, true).fadeOut();
+                    }
+                }, 100)
+            }
+        })
+        $('.user-info-menu').on('mouseout', function () {
+            var that = $(this);
+            var $subMenu = $('.user-info');
+            if ($subMenu.length) {
+                setTimeout(function () {
+                    if (!that.is(':hover') && !$subMenu.is(':hover')) {
+                        that.stop(true, true).fadeOut();
+                    }
+                }, 100)
+            }
+        })
+
+        $('#return-account').on('click', function () {
+            // 先调用后端登出接口，让后端获取token并调用SSO登出
+            $.ajax({
+                url: '/sys/logout',
+                type: 'POST',
+                success: () => {
+                    // 明确登出后清理“曾登录”标识：避免将后续 2001 推断为过期
+                    try {
+                        localStorage.removeItem('AUTH_WAS_LOGGED_IN')
+                    } catch (e) {
+                    }
+                    // 通知其他窗口登出
+                    broadcastAuthEvent('logout');
+                    // 当前窗口直接切未登录态，不刷新页面
+                    switchHeaderToNoLogin()
+                    // 当前页面跳转到首页
+                    try {
+                        window.location.href = '/index'
+                    } catch (e) {
+                        window.location.replace('/index')
+                    }
+                },
+                error: function () {
+                    // 即使登出接口失败，也将当前页面置为首页，避免留在不可用的鉴权页面
+                    try {
+                        window.location.href = '/index'
+                    } catch (e) {
+                        window.location.replace('/index')
+                    }
+                }
+            })
+        })
+
+        // 顶部登录信息不依赖前端读取 cookie（HttpOnly/host-only 可能导致 getCookie 失败）
+        // 每次页面加载都请求一次后端鉴权接口来决定是否显示用户名。
+        $.ajax({
+            url: '/api/user/get-user-info',
+            type: 'GET',
+            cache: false,
+            success: res => {
+                if (res && res.code === 0 && res.data) {
+                    syncAuthWasLoggedIn(true)
+                    $('.yes-login').show()
+                    $('.no-login').hide()
+                    $('.user-name').html(headerDisplayUserName(res.data))
+                    if (window.initSocket) {
+                        window.initSocket()
+                    }
+
+                    // 本窗口登录成功后，仅在首次登录时广播一次登录事件
+                    if (!sessionStorage.getItem('AUTH_LOGIN_BROADCASTED')) {
+                        broadcastAuthEvent('login');
+                        sessionStorage.setItem('AUTH_LOGIN_BROADCASTED', '1');
+                    }
+                } else if (res && (res.code === 2001 || res.code === 2010)) {
+                    switchHeaderToNoLogin()
+                } else {
+                    $('.yes-login').hide()
+                    $('.no-login').show()
+                }
+            },
+            error: function (xhr, status, error) {
+                if (window.layer && typeof layer.msg === 'function') {
+                    layer.msg('网络错误！');
+                } else if (window.console && typeof console.warn === 'function') {
+                    console.warn('get-user-info failed', status, error);
+                }
+                $('.yes-login').hide()
+                $('.no-login').show()
+            }
+        });
+
+        var heartbeatTimer = null;//心跳执行timer
+        var checkTime = 10000; //心跳检查时间间隔-毫秒 10秒
+        var reconnectTimer = null;//重连接timer
+        var reconnectTime = 10000;//重连接时间10秒后
+        var lastHealthTime = 0
+        var healthTimeOut = 20000;//心跳时间间隔-毫秒  20秒
+        // 全局WebSocket连接对象，用于避免重复连接和在跨窗口同步时安全重连
+        window.noticeSocket = window.noticeSocket || null;
+
+        // 挂到 window 上，供跨窗口同步时调用
+        window.initSocket = function () {
+            // 如已有连接，先关闭以避免重复连接
+            if (window.noticeSocket && window.noticeSocket.readyState !== WebSocket.CLOSED) {
+                try {
+                    window.noticeSocket.close();
+                } catch (e) {
+                }
+            }
+
+            // console.log('socket 连接>>>')
+            window.noticeSocket = new WebSocket("/webSocketByNotice"); // 连接到服务器的 WebSocket URL
+            let socket = window.noticeSocket;
+            // 连接成功时
+            socket.onopen = function (event) {
+                // console.log("WebSocket 连接成功", event);
+                lastHealthTime = new Date().getTime();//更新客户端的最后一次心跳时间
+                if (heartbeatTimer) {
+                    clearInterval(heartbeatTimer)
+                }
+                heartbeatTimer = setInterval(() => {
+                    keepalive(socket)
+                }, checkTime);
+            };
+
+            // 接收到消息时
+            socket.onmessage = function (event) {
+                // console.log("收到来自服务器的消息：", event.data);
+                lastHealthTime = new Date().getTime();//更新客户端的最后一次心跳时间
+                // 判断数据是否可能是一个 JSON
+                if (isLikelyJson(event.data)) {
+                    let parsedData;
+                    try {
+                        parsedData = JSON.parse(event.data); // 尝试解析
+                        if (parsedData && parsedData.type === 0) {
+                            // 消息数量
+                            setUnReadMessage(Number(parsedData.body));
+                        }
+                    } catch (e) {
+                        console.log("解析失败：收到的消息格式不合法", event.data);
+                    }
+                } else {
+                    console.log("收到的消息不是有效的 JSON 格式:", event.data);
+                }
+            };
+
+            // 连接关闭时
+            socket.onclose = function (event) {
+                console.log("WebSocket 连接关闭", event);
+                if (event.code === 1006) {
+                    reconnectTimer = setTimeout(function () {
+                        if (window.initSocket) {
+                            window.initSocket();
+                        }
+                    }, reconnectTime)
+                }
+            };
+
+            // 连接错误时
+            socket.onerror = function (error) {
+                console.log("WebSocket 连接关闭", event);
+                console.log("关闭代码：", event.code);  // 输出关闭代码
+                console.log("关闭原因：", event.reason);  // 输出关闭原因
+
+            };
+        }
+
+        function isLikelyJson(data) {
+            // 判断数据是否是 JSON 字符串的一部分，像是一个对象或数组的开始符号
+            return (data.trim().startsWith('{') && data.trim().endsWith('}')) ||
+                (data.trim().startsWith('[') && data.trim().endsWith(']'));
+        }
+
+
+        function keepalive(ws) {
+            var time = new Date();
+            if ((time.getTime() - lastHealthTime) > healthTimeOut) {
+                if (heartbeatTimer) {
+                    clearInterval(heartbeatTimer);
+                    // n秒后重连接
+                    ws.close();
+                    reconnectTimer = setTimeout(function () {
+                        if (window.initSocket) {
+                            window.initSocket();
+                        }
+                    }, reconnectTime);
+                }
+            } else {
+                // console.log('ping')
+                // 发送心跳消息
+                ws.send('ping');
+            }
+        }
+
+
+    });
+</script>
+
+
+<div class="info-content">
+    <div class="info-content-title">
+        <div class="info-item-1">
+            <div class="info-item-1-title">
+                <span class="label" style="background: rgb(92, 184, 92)">现行</span>
+                <span class="title" style="color: rgb(92, 184, 92)">GB/T 18386.1-2021</span>
+            </div>
+            <div class="options">
+                <div class="options-row">
+                        <div class="dg-read" data-yf001="9fb455d9b0f4f957604e59ea3abf3510" data-a100="GB/T 18386.1-2021"
+                             data-a298="电动汽车能量消耗量和续驶里程试验方法 第1部分：轻型汽车" data-a301="电动汽车能量消耗量和续驶里程试验方法 第1部分：轻型汽车">
+                            <img src="/img/go-read-icon.png?v=1790663949">
+                            <span class="options-text">到馆阅读</span>
+                        </div>
+
+                    <div class="fav-collect"
+                         data-yf001="9fb455d9b0f4f957604e59ea3abf3510"
+                         data-a000="现行"
+                         data-a100="GB/T 18386.1-2021"
+                         data-a298="电动汽车能量消耗量和续驶里程试验方法 第1部分：轻型汽车"
+                         data-a301="电动汽车能量消耗量和续驶里程试验方法 第1部分：轻型汽车"
+                    >
+                            <img class="fav-icon" src="/img/fav-icon.png?v=1790663949"/>
+                        <span class="collect options-text">收藏跟踪</span>
+                    </div>
+                    <div class="share" data-value="9fb455d9b0f4f957604e59ea3abf3510">
+                        <img src="/img/share-icon.png?v=1790663949">
+                        <span class="options-text">分享链接</span>
+                        <div class="social-share" data-sites="weibo,qq,wechat"></div>
+                    </div>
+
+                    <div class="buy-btn">
+                        <div class="buy-btn-open" style="display: flex; align-items: center">
+                            <img src="/img/bag-icon.png?v=1790663949">
+                            <span class="options-text">购买正版</span>
+                        </div>
+                        <div class="buy-info default-shadow" style="display: none">
+                            <div class="buy-info-content">
+
+                            </div>
+                            <div class="title-view">
+                                <span class="title-1">选择购买版本</span>
+                                <span class="title-2">本服务由中国标准服务网提供</span>
+                            </div>
+                            <div class="con-view">
+                                                <div class="con-item">
+                                                    <div class="con-item-row-1">
+                                                        <img src="/img/buy-icon-2.png?v=1790663949"
+                                                             style="width: 32px;height: 32px;border-radius: 50%;"/>
+                                                        <span class="name">
+                                                        电子版
+                                                    </span>
+                                                    </div>
+                                                    <div class="con-item-row-2">
+                                                        <span class="name">中文(简体)/电子版/约1分钟可下载/有水印</span>
+                                                    </div>
+                                                    <div class="con-item-row-3">
+                                                        <span class="price">¥ 56</span>
+                                                        <img data-yf001="9fb455d9b0f4f957604e59ea3abf3510"
+                                                             data-value="d18992ab55a06434553aa40e16ba8a62"
+                                                             class="buy-push"
+                                                             src="/img/buy-btn.png?v=1790663949"
+                                                             style="width: 101px;height: 30px;"/>
+                                                    </div>
+                                                </div>
+                                                <div class="con-item">
+                                                    <div class="con-item-row-1">
+                                                        <img src="/img/buy-icon-1.png?v=1790663949"
+                                                             style="width: 32px;height: 32px;border-radius: 50%;"/>
+                                                        <span class="name">纸质版</span>
+                                                    </div>
+                                                    <div class="con-item-row-2">
+                                                        <span class="name">中文(简体)/纸质版/约1个工作日发快递/无授权单位水印</span>
+                                                    </div>
+                                                    <div class="con-item-row-3">
+                                                        <span class="price">¥ 68</span>
+                                                        <img data-yf001="9fb455d9b0f4f957604e59ea3abf3510"
+                                                             data-value="622e1597bb1c4535c40663e39b8ba9f5"
+                                                             class="buy-push"
+                                                             src="/img/buy-btn.png?v=1790663949"
+                                                             style="width: 101px;height: 30px;"/>
+                                                    </div>
+                                                </div>
+                                    <div class="con-item">
+                                        <div class="con-item-row-1">
+                                            <img src="/img/buy-icon-3.png?v=1790663949"
+                                                 style="width: 32px;height: 32px;border-radius: 50%;"/>
+                                            <span class="name">更多</span>
+                                        </div>
+                                        <div class="con-item-row-2">
+                                            <span class="name">前往中国标准服务网获取更多购买信息</span>
+                                            <span class="name"><br/>支持批量购买纸质版标准</span>
+                                        </div>
+                                        <div class="con-item-row-3">
+                                            <span></span>
+                                            <img class="buy-push-gd" data-id="9fb455d9b0f4f957604e59ea3abf3510"
+                                                 src="/img/buy-btn-2.png?v=1790663949"
+                                                 style="width: 101px;height: 30px;"/>
+                                        </div>
+                                    </div>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+
+            </div>
+        </div>
+        <div class="info-item-1-content">
+            <span class="info-item-1-content-title">
+                  电动汽车能量消耗量和续驶里程试验方法 第1部分：轻型汽车
+            </span>
+            <span class="info-item-1-content-desc">
+                    Test methods for energy consumption and range of electric vehicles—Part 1: Light-duty vehicles
+            </span>
+        </div>
+
+        <div class="info-item-1-info">
+                    <div>发布日期：
+                        <span>2021-03-09</span>
+                    </div>
+                <div>实施日期：
+                    <span>2021-10-01</span>
+                </div>
+
+        </div>
+        <span class="info-item-1-info-desc"
+              style="max-height: 150px; overflow: hidden;"
+        >
+            <div style="white-space: pre-wrap; display: inline-block"><span
+                        style="width: 28px; display: inline-block">
+                </span>本文件规定了纯电动汽车的能量消耗量和续驶里程的试验方法。本文件适用于N;类和最大设计总质量不超过3500 kg的M1、M2类车辆。最大设计总质量超过3500kg的M1类车辆和L5类车辆可参照执行</div>
+            <div style="white-space: pre-wrap;"></div>
+        </span>
+
+
+    </div>
+
+    <div class="info-item-2">
+        <div class="info-item-title">
+            <img src="/img/label-icon.png?v=1790663949" alt=""/>
+            <span class="info-item-title-1">分类信息</span>
+        </div>
+        <div class="info-text">
+            <div>
+                <span class="title">发布单位或类别：</span>
+                <a class="text" href="/standard/index?a104=CN-GB">
+                    中国-国家标准
+                </a>
+            </div>
+                <div>
+                    <span class="title">CCS分类：</span>
+                    <span class="text">
+                                <a href="/standard/index?a825=T47">
+                                    T47车辆 - 汽车 - 新能源汽车及其他类型汽车
+                                </a>
+                    </span>
+                </div>
+
+                <div>
+
+                    <span class="title">ICS分类：</span>
+                    <span class="text">
+                                <a href="/standard/index?a826=43.020">
+                                    43.020道路车辆工程 - 道路车辆综合
+                                </a>
+                    </span>
+                </div>
+        </div>
+    </div>
+
+    <div class="info-item-3">
+        <div class="info-item-title">
+            <img src="/img/label-icon.png?v=1790663949" alt=""/>
+            <span class="info-item-title-1">关联关系</span>
+        </div>
+        <div id="chart-panel"></div>
+        <div class="controls">
+            <svg id="zoomIn" t="1727588600862" class="icon" viewBox="0 0 1024 1024" version="1.1"
+                 xmlns="http://www.w3.org/2000/svg" p-id="5453" width="200" height="200">
+                <path d="M801.895 481.895h-259.79v-259.79C542.105 205.479 528.627 192 512 192s-30.105 13.479-30.105 30.105v259.789h-259.79C205.479 481.895 192 495.373 192 512c0 16.627 13.479 30.105 30.105 30.105h259.789v259.789C481.895 818.521 495.373 832 512 832s30.105-13.479 30.105-30.105v-259.79h259.789C818.521 542.105 832 528.627 832 512c0-16.627-13.479-30.105-30.105-30.105z"
+                      p-id="5454" fill="#1296db"></path>
+            </svg>
+            <svg id="zoomOut" t="1727588720178" class="icon" viewBox="0 0 1024 1024" version="1.1"
+                 xmlns="http://www.w3.org/2000/svg" p-id="5634" width="200" height="200">
+                <path d="M801.895 542.105h-579.79C205.479 542.105 192 528.627 192 512c0-16.627 13.479-30.105 30.105-30.105h579.789C818.521 481.895 832 495.373 832 512c0 16.627-13.479 30.105-30.105 30.105z"
+                      p-id="5635" fill="#1296db"></path>
+            </svg>
+        </div>
+    </div>
+
+    <div class="info-item-4">
+        <div class="info-item-title">
+            <img src="/img/label-icon.png?v=1790663949" alt=""/>
+            <span class="info-item-title-1">研制信息</span>
+        </div>
+        <div class="info-text">
+                <div>
+                    <span class="title">归口单位：</span>
+                    <a href="/standard/index?owner=全国汽车标准化技术委员会" class="text"
+                       style="color: #32ADE6;">全国汽车标准化技术委员会</a>
+                </div>
+
+
+                <div>
+                    <span class="title">起草单位：</span>
+                    <span class="text">
+                            <a data-name="中国汽车技术研究中心有限公司" href="/standard/index?a209=中国汽车技术研究中心有限公司">
+                                中国汽车技术研究中心有限公司、
+                            </a>
+                            <a data-name="比亚迪汽车工业有限公司" href="/standard/index?a209=比亚迪汽车工业有限公司">
+                                比亚迪汽车工业有限公司、
+                            </a>
+                            <a data-name="北京新能源汽车股份有限公司" href="/standard/index?a209=北京新能源汽车股份有限公司">
+                                北京新能源汽车股份有限公司、
+                            </a>
+                            <a data-name="重庆长安新能源汽车科技有限公司" href="/standard/index?a209=重庆长安新能源汽车科技有限公司">
+                                重庆长安新能源汽车科技有限公司、
+                            </a>
+                            <a data-name="中国第一汽车集团有限公司" href="/standard/index?a209=中国第一汽车集团有限公司">
+                                中国第一汽车集团有限公司、
+                            </a>
+                            <a data-name="浙江合众新能源汽车有限公司" href="/standard/index?a209=浙江合众新能源汽车有限公司">
+                                浙江合众新能源汽车有限公司、
+                            </a>
+                            <a data-name="上海蔚来汽车有限公司" href="/standard/index?a209=上海蔚来汽车有限公司">
+                                上海蔚来汽车有限公司、
+                            </a>
+                            <a data-name="威马汽车科技集团有限公司" href="/standard/index?a209=威马汽车科技集团有限公司">
+                                威马汽车科技集团有限公司、
+                            </a>
+                            <a data-name="广州汽车集团股份有限公司汽车工程研究院" href="/standard/index?a209=广州汽车集团股份有限公司汽车工程研究院">
+                                广州汽车集团股份有限公司汽车工程研究院、
+                            </a>
+                            <a data-name="浙江吉利控股集团有限公司" href="/standard/index?a209=浙江吉利控股集团有限公司">
+                                浙江吉利控股集团有限公司、
+                            </a>
+                            <a data-name="长城汽车股份有限公司" href="/standard/index?a209=长城汽车股份有限公司">
+                                长城汽车股份有限公司、
+                            </a>
+                            <a data-name="东风汽车集团有限公司" href="/standard/index?a209=东风汽车集团有限公司">
+                                东风汽车集团有限公司、
+                            </a>
+                            <a data-name="海马新能源汽车有限公司" href="/standard/index?a209=海马新能源汽车有限公司">
+                                海马新能源汽车有限公司、
+                            </a>
+                            <a data-name="联合汽车电子有限公司" href="/standard/index?a209=联合汽车电子有限公司">
+                                联合汽车电子有限公司、
+                            </a>
+                            <a data-name="奇瑞捷豹路虎汽车有限公司" href="/standard/index?a209=奇瑞捷豹路虎汽车有限公司">
+                                奇瑞捷豹路虎汽车有限公司、
+                            </a>
+                            <a data-name="上汽大众汽车有限公司" href="/standard/index?a209=上汽大众汽车有限公司">
+                                上汽大众汽车有限公司、
+                            </a>
+                            <a data-name="泛亚汽车技术中心有限公司" href="/standard/index?a209=泛亚汽车技术中心有限公司">
+                                泛亚汽车技术中心有限公司、
+                            </a>
+                            <a data-name="宝马（中国）服务有限公司" href="/standard/index?a209=宝马（中国）服务有限公司">
+                                宝马（中国）服务有限公司、
+                            </a>
+                            <a data-name="戴姆勒大中华区投资有限公司" href="/standard/index?a209=戴姆勒大中华区投资有限公司">
+                                戴姆勒大中华区投资有限公司、
+                            </a>
+                            <a data-name="大众汽车（中国）投资有限公司" href="/standard/index?a209=大众汽车（中国）投资有限公司">
+                                大众汽车（中国）投资有限公司
+                            </a>
+                </span>
+                </div>
+                <div>
+                    <span class="title">起草人：</span>
+                    <span class="text">
+                            <a class="tocaoren" data-name="刘桂彬" href="/standard/index?draftman=刘桂彬">
+                                刘桂彬、
+                            </a>
+                            <a class="tocaoren" data-name="王芳" href="/standard/index?draftman=王芳">
+                                王芳、
+                            </a>
+                            <a class="tocaoren" data-name="刘志超" href="/standard/index?draftman=刘志超">
+                                刘志超、
+                            </a>
+                            <a class="tocaoren" data-name="郑天雷" href="/standard/index?draftman=郑天雷">
+                                郑天雷、
+                            </a>
+                            <a class="tocaoren" data-name="凌和平" href="/standard/index?draftman=凌和平">
+                                凌和平、
+                            </a>
+                            <a class="tocaoren" data-name="孙龙" href="/standard/index?draftman=孙龙">
+                                孙龙、
+                            </a>
+                            <a class="tocaoren" data-name="马其贞" href="/standard/index?draftman=马其贞">
+                                马其贞、
+                            </a>
+                            <a class="tocaoren" data-name="贾雨" href="/standard/index?draftman=贾雨">
+                                贾雨、
+                            </a>
+                            <a class="tocaoren" data-name="刘昱" href="/standard/index?draftman=刘昱">
+                                刘昱、
+                            </a>
+                            <a class="tocaoren" data-name="周博雅" href="/standard/index?draftman=周博雅">
+                                周博雅、
+                            </a>
+                            <a class="tocaoren" data-name="岳巍" href="/standard/index?draftman=岳巍">
+                                岳巍、
+                            </a>
+                            <a class="tocaoren" data-name="彭庆丰" href="/standard/index?draftman=彭庆丰">
+                                彭庆丰、
+                            </a>
+                            <a class="tocaoren" data-name="郭岩" href="/standard/index?draftman=郭岩">
+                                郭岩、
+                            </a>
+                            <a class="tocaoren" data-name="王凯" href="/standard/index?draftman=王凯">
+                                王凯、
+                            </a>
+                            <a class="tocaoren" data-name="崔文宾" href="/standard/index?draftman=崔文宾">
+                                崔文宾、
+                            </a>
+                            <a class="tocaoren" data-name="袁昌荣" href="/standard/index?draftman=袁昌荣">
+                                袁昌荣、
+                            </a>
+                            <a class="tocaoren" data-name="付磊" href="/standard/index?draftman=付磊">
+                                付磊、
+                            </a>
+                            <a class="tocaoren" data-name="宋轶男" href="/standard/index?draftman=宋轶男">
+                                宋轶男、
+                            </a>
+                            <a class="tocaoren" data-name="安晓盼" href="/standard/index?draftman=安晓盼">
+                                安晓盼、
+                            </a>
+                            <a class="tocaoren" data-name="孟庆楠" href="/standard/index?draftman=孟庆楠">
+                                孟庆楠、
+                            </a>
+                            <a class="tocaoren" data-name="陈晓露" href="/standard/index?draftman=陈晓露">
+                                陈晓露、
+                            </a>
+                            <a class="tocaoren" data-name="徐晓" href="/standard/index?draftman=徐晓">
+                                徐晓、
+                            </a>
+                            <a class="tocaoren" data-name="刘乐" href="/standard/index?draftman=刘乐">
+                                刘乐、
+                            </a>
+                            <a class="tocaoren" data-name="严杰" href="/standard/index?draftman=严杰">
+                                严杰、
+                            </a>
+                            <a class="tocaoren" data-name="方晗" href="/standard/index?draftman=方晗">
+                                方晗、
+                            </a>
+                            <a class="tocaoren" data-name="赵伟" href="/standard/index?draftman=赵伟">
+                                赵伟、
+                            </a>
+                            <a class="tocaoren" data-name="杨璨" href="/standard/index?draftman=杨璨">
+                                杨璨、
+                            </a>
+                            <a class="tocaoren" data-name="覃铭" href="/standard/index?draftman=覃铭">
+                                覃铭、
+                            </a>
+                            <a class="tocaoren" data-name="戴天禄" href="/standard/index?draftman=戴天禄">
+                                戴天禄、
+                            </a>
+                            <a class="tocaoren" data-name="蔡永豪" href="/standard/index?draftman=蔡永豪">
+                                蔡永豪
+                            </a>
+                </span>
+                </div>
+
+        </div>
+    </div>
+
+    <div class="info-item-5">
+        <div class="info-item-title">
+            <img src="/img/label-icon.png?v=1790663949" alt=""/>
+            <span class="info-item-title-1">相似标准/计划/法规</span>
+        </div>
+        <div class="xs-list">
+
+                    <a class="xs-list-item" href="/standard/detail/cc290106b411022630424f53dfcfad8d">
+                        <span class="pointer"></span>
+                        <div class="label-title"
+                             style="background-color: rgb(92, 184, 92)">现行</div>
+                        <div class="to-info">KS R 1135(2016 Confirm)</div>
+                        <div>
+                            전기 자동차 에너지 소비율 및 일 충전 주행 거리 시험 방법
+                            <br/>
+                                电动汽车能耗与里程测试规程
+                        </div>
+                        <div>2001-08-09</div>
+                    </a>
+
+                    <a class="xs-list-item" href="/standard/detail/1857e4cfdca5c144a942bd165ae5e426">
+                        <span class="pointer"></span>
+                        <div class="label-title"
+                             style="background-color: rgb(92, 184, 92)">现行</div>
+                        <div class="to-info">KS R 1135(2021 Confirm)</div>
+                        <div>
+                            전기 자동차 에너지 소비율 및 일 충전 주행 거리 시험 방법
+                            <br/>
+                                电动汽车的能耗和里程测试程序
+                        </div>
+                        <div>2001-08-09</div>
+                    </a>
+
+                    <a class="xs-list-item" href="/standard/detail/1857e4cfdca5c144a942bd165ae5e426">
+                        <span class="pointer"></span>
+                        <div class="label-title"
+                             style="background-color: rgb(92, 184, 92)">现行</div>
+                        <div class="to-info">KS R 1135(2021 Confirm)</div>
+                        <div>
+                            전기 자동차 에너지 소비율 및 일 충전 주행 거리 시험 방법
+                            <br/>
+                                电动汽车的能耗和里程测试程序
+                        </div>
+                        <div>2001-08-09</div>
+                    </a>
+
+                    <a class="xs-list-item" href="/standard/detail/e1d6e2621ea3810ae2678c3890e6b177">
+                        <span class="pointer"></span>
+                        <div class="label-title"
+                             style="background-color: rgb(92, 184, 92)">现行</div>
+                        <div class="to-info">GB/T 43252-2023</div>
+                        <div>
+                            燃料电池电动汽车能量消耗量及续驶里程试验方法
+                            <br/>
+                                Test methods of energy consumption and range for fuel cell electric vehicles
+                        </div>
+                        <div>2023-11-27</div>
+                    </a>
+
+                    <a class="xs-list-item" href="/standard/detail/35287121220e13de2e6ab24234c36beb">
+                        <span class="pointer"></span>
+                        <div class="label-title"
+                             style="background-color: rgb(92, 184, 92)">现行</div>
+                        <div class="to-info">SAE J1634_202508</div>
+                        <div>
+                            Battery Electric Vehicle Energy Consumption and Range Test Procedure
+                            <br/>
+                                
+                        </div>
+                        <div>2025-08-29</div>
+                    </a>
+
+                    <a class="xs-list-item" href="/standard/detail/25bae3cbb741397e80040744dbb1b54c">
+                        <span class="pointer"></span>
+                        <div class="label-title"
+                             style="background-color: rgb(92, 184, 92)">现行</div>
+                        <div class="to-info">CAN/CSA C358-03(R2022)</div>
+                        <div>
+                            Energy Consumption Test Methods for Household Electric Ranges
+                            <br/>
+                                家用电炉能耗试验方法
+                        </div>
+                        <div>2003-03-13</div>
+                    </a>
+
+                    <a class="xs-list-item" href="/standard/detail/30a7be608a58f2420f13f5bf6612ba29">
+                        <span class="pointer"></span>
+                        <div class="label-title"
+                             style="background-color: rgb(92, 184, 92)">现行</div>
+                        <div class="to-info">GB/T 44677-2024</div>
+                        <div>
+                            电动自行车能量消耗量和续行里程试验方法
+                            <br/>
+                                Test methods of energy consumption and range for electric bicycles
+                        </div>
+                        <div>2024-10-26</div>
+                    </a>
+
+                    <a class="xs-list-item" href="/standard/detail/894cce3dc688d0c0f1a0bdee0fd71637">
+                        <span class="pointer"></span>
+                        <div class="label-title"
+                             style="background-color: rgb(92, 184, 92)">现行</div>
+                        <div class="to-info">GB/T 18386.2-2022</div>
+                        <div>
+                            电动汽车能量消耗量和续驶里程试验方法 第2部分：重型商用车辆
+                            <br/>
+                                Test methods for energy consumption and range of electric vehicles—Part 2: Heavy-duty commercial vehicles
+                        </div>
+                        <div>2022-10-12</div>
+                    </a>
+
+                    <a class="xs-list-item" href="/standard/detail/9f6788f9b2cd22aa5f44b3350e7c9c39">
+                        <span class="pointer"></span>
+                        <div class="label-title"
+                             style="background-color: rgb(92, 184, 92)">现行</div>
+                        <div class="to-info">T/ZHFCA 1012-2024</div>
+                        <div>
+                            液氢燃料电池电动商用车 能量消耗量及续驶里程测试方法
+                            <br/>
+                                Liquefied hydrogen fuel cell electric commercial vehicle— Test methods of energy consumption and range
+                        </div>
+                        <div>2024-09-24</div>
+                    </a>
+
+                    <a class="xs-list-item" href="/standard/detail/eca4d1017d8cf13b5567190a01ce2230">
+                        <span class="pointer"></span>
+                        <div class="label-title"
+                             style="background-color: rgb(92, 184, 92)">现行</div>
+                        <div class="to-info">T/GDCKCJH 097-2024</div>
+                        <div>
+                            电动平衡车能量消耗率试验方法
+                            <br/>
+                                Test method of energy consumption rate of electric balance vehicle
+                        </div>
+                        <div>2024-11-06</div>
+                    </a>
+
+                    <a class="xs-list-item" href="/standard/detail/c63fe3563c312af5fc257ce3e054012a">
+                        <span class="pointer"></span>
+                        <div class="label-title"
+                             style="background-color: rgb(92, 184, 92)">现行</div>
+                        <div class="to-info">KS R ISO 8714(2019 Confirm)</div>
+                        <div>
+                            전기 도로 차량 - 기준 에너지 소모량 및 주행 거리 - 승용차 및 경 상용차의 시험 절차
+                            <br/>
+                                电动道路车辆基准能耗和行驶里程乘用车和轻型商用车试验规程
+
+                        </div>
+                        <div>2009-12-15</div>
+                    </a>
+
+                    <a class="xs-list-item" href="/standard/detail/09704cb3c76d370a2687d4177a1c20c8">
+                        <span class="pointer"></span>
+                        <div class="label-title"
+                             style="background-color: rgb(92, 184, 92)">现行</div>
+                        <div class="to-info">KS R ISO 8714(2024 Confirm)</div>
+                        <div>
+                            전기 도로 차량 — 기준 에너지 소모량 및 주행 거리 — 승용차 및 경 상용차의 시험 절차
+                            <br/>
+                                电动道路车辆——参考能耗和范围——乘用车和轻型商用车的试验程序
+
+                        </div>
+                        <div>2009-12-15</div>
+                    </a>
+
+                    <a class="xs-list-item" href="/standard/detail/09704cb3c76d370a2687d4177a1c20c8">
+                        <span class="pointer"></span>
+                        <div class="label-title"
+                             style="background-color: rgb(92, 184, 92)">现行</div>
+                        <div class="to-info">KS R ISO 8714(2024 Confirm)</div>
+                        <div>
+                            전기 도로 차량 — 기준 에너지 소모량 및 주행 거리 — 승용차 및 경 상용차의 시험 절차
+                            <br/>
+                                电动道路车辆——参考能耗和范围——乘用车和轻型商用车的试验程序
+
+                        </div>
+                        <div>2009-12-15</div>
+                    </a>
+
+                    <a class="xs-list-item" href="/standard/detail/0619c169e32af9f5f898bf467ca93649">
+                        <span class="pointer"></span>
+                        <div class="label-title"
+                             style="background-color: rgb(92, 184, 92)">现行</div>
+                        <div class="to-info">ISO 8714-2023</div>
+                        <div>
+                            Electric road vehicles — Reference energy consumption and range — Test procedures for passenger cars and light commercial vehicles
+                            <br/>
+                                电动道路车辆.参考能耗和续航里程.乘用车和轻型商用车的试验程序
+                        </div>
+                        <div>2023-07-26</div>
+                    </a>
+
+                    <a class="xs-list-item" href="/standard/detail/73223a3eccac113a5fc9f5354756b88d">
+                        <span class="pointer"></span>
+                        <div class="label-title"
+                             style="background-color: rgb(92, 184, 92)">现行</div>
+                        <div class="to-info">GB/T 19753-2021</div>
+                        <div>
+                            轻型混合动力电动汽车能量消耗量试验方法
+                            <br/>
+                                Test methods for energy consumption of light-duty hybrid electric vehicles
+                        </div>
+                        <div>2021-03-09</div>
+                    </a>
+
+                    <a class="xs-list-item" href="/standard/detail/a44cb8f3085e62c6da020faefa8484bd">
+                        <span class="pointer"></span>
+                        <div class="label-title"
+                             style="background-color: rgb(92, 184, 92)">现行</div>
+                        <div class="to-info">GB/T 19754-2021</div>
+                        <div>
+                            重型混合动力电动汽车能量消耗量试验方法
+                            <br/>
+                                Test methods for energy consumption of heavy-duty hybrid electric vehicles
+                        </div>
+                        <div>2021-10-11</div>
+                    </a>
+
+                    <a class="xs-list-item" href="/standard/detail/e421f759e28a014b85be52040992455b">
+                        <span class="pointer"></span>
+                        <div class="label-title"
+                             style="background-color: rgb(92, 184, 92)">现行</div>
+                        <div class="to-info">T/CAB 0209-2022</div>
+                        <div>
+                            电动摩托车用户工况能量消耗率和续驶里程试验方法
+                            <br/>
+                                Test method of energy consumption and range for electric motorcycle during a user’s driving cycle
+                        </div>
+                        <div>2022-12-30</div>
+                    </a>
+
+                    <a class="xs-list-item" href="/standard/detail/e11f62b74663a18bf304a892ea73a317">
+                        <span class="pointer"></span>
+                        <div class="label-title"
+                             style="background-color: rgb(92, 184, 92)">现行</div>
+                        <div class="to-info">BS ISO 11452-10-2009</div>
+                        <div>
+                            Road vehicles. Component test methods for electrical disturbances from narrowband radiated electromagnetic energy-Immunity to conducted disturbances in the extended audio frequency range
+                            <br/>
+                                公路车辆 窄带辐射电磁能产生的电气干扰的部件试验方法
+                        </div>
+                        <div>2009-05-31</div>
+                    </a>
+
+                    <a class="xs-list-item" href="/standard/detail/de7948504fe91a1c35de0f78f3cd0734">
+                        <span class="pointer"></span>
+                        <div class="label-title"
+                             style="background-color: rgb(92, 184, 92)">现行</div>
+                        <div class="to-info">ISO 11452-10-2009</div>
+                        <div>
+                            Road vehicles — Component test methods for electrical disturbances from narrowband radiated electromagnetic energy — Part 10: Immunity to conducted disturbances in the extended audio frequency range
+                            <br/>
+                                道路车辆——窄带辐射电磁能产生的电气干扰的部件试验方法第10部分:扩展音频范围内传导干扰的抗扰度
+
+                        </div>
+                        <div>2009-03-30</div>
+                    </a>
+
+                    <a class="xs-list-item" href="/standard/detail/b297849d6f9a35d7a2eb1c342aaa961b">
+                        <span class="pointer"></span>
+                        <div class="label-title"
+                             style="background-color: rgb(92, 184, 92)">现行</div>
+                        <div class="to-info">GB/T 33014.10-2020</div>
+                        <div>
+                            道路车辆 电气/电子部件对窄带辐射电磁能的抗扰性试验方法 第10部分：扩展音频范围的传导抗扰法
+                            <br/>
+                                Road vehicles—Component test methods for electrical/electronic disturbances from narrowband radiated electromagnetic energy—Part 10: Immunity to conducted disturbances in the extended audio frequency range
+                        </div>
+                        <div>2020-12-14</div>
+                    </a>
+        </div>
+    </div>
+    <div id="fav-dialog" class="fav-dialog" style="display: none">
+        <div class="fav-btn">
+            <i></i>
+            创建收藏夹
+        </div>
+        <div class="fav-list">
+        </div>
+    </div>
+    <div id="add-fav" class="el-dialog" style="display: none">
+        <div class="el-header">
+            <div class="layui-layer-setwin"><span
+                        class="layui-icon layui-icon-close layui-layer-close layui-layer-close1"></span></div>
+        </div>
+        <div class="el-dialog__body">
+            <div style="font-size: 16px; display: flex; flex-direction: column; align-items: center;">
+                <img src="/img/icon/add-favorite-icon.png" style="height: 68px; width: 68px;">
+                <div style="margin-top: 12px; color: rgb(0, 0, 0);">新建收藏夹</div>
+            </div>
+            <form class="el-form el-form--label-left"
+                  style="margin-top: 25px; display: flex; flex-direction: column; width: 100%;">
+                <div class="el-form-item__label">
+                    标题：
+                </div>
+                <div class="el-input" style="width: 100%;"><input oninput="favInputChange(this.value)" name="folderName"
+                                                                  type="text" autocomplete="off" maxlength="20"
+                                                                  placeholder="请输入标题" class="el-input__inner">
+                    <!----><span class="el-input__suffix"><span class="el-input__suffix-inner"><!----><!---->
+                            <!----><span class="el-input__count"><span class="el-input__count-inner">
+            0/20
+          </span></span></span></span></div>
+                <div class="el-form-item__label" style="margin-top: 10px;">
+                    描述（选填）：
+                </div>
+                <div class="el-textarea" style="width: 100%;"><textarea name="folderRemark" autocomplete="off" rows="4"
+                                                                        maxlength="200" placeholder="请输入描述内容"
+                                                                        class="el-textarea__inner"
+                                                                        style="min-height: 32.6px;"></textarea><span
+                            class="el-input__count">0/200</span></div>
+            </form>
+
+            <div style="margin-top: 50px; display: flex; justify-content: flex-end; width: 100%;">
+                <button type="button" class="el-button el-button--default el-button--small fav-back"><!---->
+                    <span>取消</span></button>
+                <button disabled="disabled" type="button"
+                        class="el-button el-button--primary el-button--small is-disabled fav-save"><!---->
+                    <span>确认</span></button>
+            </div>
+        </div>
+    </div>
+
+</div>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta http-equiv="X-UA-Compatible" content="IE=Edge,Chrome=1">
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <style>
+        #total-count {
+            font-size: 14px;
+            font-weight: bold;
+        }
+
+        .total-count-animation {
+            animation: heartbeat 1.5s forwards;
+        }
+
+        @keyframes heartbeat {
+            0% {
+                transform: scale(1);
+            }
+
+            50% {
+                transform: scale(1.2);
+            }
+
+            100% {
+                transform: scale(1);
+            }
+        }
+
+        .count-view:hover .count-tips {
+            display: flex;
+        }
+
+        .count-tips {
+            position: absolute;
+            right: -190px;
+            top: 18px;
+            background: #E4E7ED;
+            align-items: center;
+            font-size: 13px;
+            padding: 2px 5px 2px 10px;
+            display: none;
+        }
+
+        .count-tips::before {
+            content: '';
+            position: absolute;
+            left: -14px;
+            top: 50%;
+            transform: translateY(-50%) rotate(90deg);
+            width: 0;
+            height: 0;
+            border-left: 10px solid transparent;
+            border-right: 10px solid transparent;
+            border-top: 10px solid #E4E7ED;
+        }
+
+        .footer-bottom {
+            position: relative;
+        }
+    </style>
+</head>
+<body>
+<div class="footer">
+    <div class="footer-top">
+        <div>
+            <div>
+                <li class="footer-title">关于国家数字标准馆</li>
+                <li>
+                    《国家标准化发展纲要》提出建设国家数字标准馆，推动标准化工作向数字化、网络化、智能化转型。中国标准化研究院正在全力推进国家数字标准馆建设，力争建成“一个中心”和“一个平台”，即全球领先的标准数据资源中心，涵盖标准全生命周期的数字化、网络化、智能化研究与服务平台。
+                </li>
+                <span class="gz-img">
+                    <span class="gz-text">
+                        <img class="gz-icon" src="/img/icon/gz-icon.png"/>
+                        <span style="margin-left: 4px;">关于我们</span>
+                    </span>
+                    <img class="gz-img-2" src="/img/ndls-qrcode.png?v=1790663949" alt=""/>
+                </span>
+            </div>
+        </div>
+        <div>
+            <div class="footer-title">文献服务</div>
+            <li class="item"><a target="_blank" href="/standard-services/document?index=1&level2Index=1">查标准</a></li>
+            <li class="item"><a target="_blank" href="/standard-services/document?index=1&level2Index=2">看标准</a></li>
+            <li class="item"><a target="_blank" href="/standard-services/document?index=1&level2Index=3">买标准</a></li>
+            <li class="item"><a target="_blank" href="/standard-services/document?index=1&level2Index=4">译标准</a></li>
+            <li class="">
+                <a target="_blank" href="/standard/order-info">
+                    <div class="find-order">
+                        <img style="cursor: pointer; width: 17px; height: 17px;margin-right: 2px;"
+                             src="/img/icon/select-order-icon.png"/>
+                        <span>订单查询</span>
+                    </div>
+                </a>
+            </li>
+        </div>
+        <div>
+            <div class="footer-title">知识服务</div>
+            <li class="item"><a target="_blank" href="/standard-services/document?index=2&level2Index=1">查新颖性</a>
+            </li>
+            <li class="item"><a target="_blank" href="/standard-services/document?index=2&level2Index=2">查有效性</a>
+            </li>
+            <li class="item"><a target="_blank" href="/standard-services/document?index=2&level2Index=3">跟踪标准</a>
+            </li>
+            <li class="item"><a target="_blank" href="/standard-services/document?index=2&level2Index=4">比对标准</a>
+            </li>
+        </div>
+
+        <div>
+            <div class="footer-title">标准数字化</div>
+            <li class="item"><a target="_blank" href="/standard-digit/index?index=4&level2Index=1">专题数据库</a>
+            </li>
+            <li class="item"><a target="_blank" href="/standard-digit/index?index=4&level2Index=2">标准管理系统</a>
+            </li>
+            <li class="item"><a target="_blank" href="/standard-digit/index?index=4&level2Index=3">大数据分析系统</a>
+            </li>
+            <li class="item"><a target="_blank" href="/intelligent/index?index=3">标准智能编写系统</a></li>
+        </div>
+
+    </div>
+    <div class="footer-bottom">
+        <div style="width: 1000px;display: flex;justify-content: space-between;">
+            <div>地址：北京市海淀区知春路4号</div>
+            <a href="/standard/order-info" target="_blank">技术支持：010-58811974/1972/1360/1341/1328</a>
+            <div>邮箱：service@cnis.ac.cn</div>
+            <div class="count-view">
+                访问量：<span id="total-count"> </span>
+                <span class="count-tips">自2024年10月至今总访问量</span>
+            </div>
+        </div>
+        <div style="width: 1000px;display: flex;justify-content: space-between;">
+            <div>出版物经营许可证：新出发京批字第直170229号</div>
+            <div>
+                <div>备案号：</div>
+                <a style="" href="http://beian.miit.gov.cn/" target="_blank">京ICP备10046988号-46</a>
+                <img src="/img/icon/beian-icon.png" alt="" style="width: 16px; margin-left: 10px;"/>
+                <a style="margin-left: 2px;" href="https://beian.mps.gov.cn/#/query/webSearch?code=11010802045562"
+                   target="_blank">京公网安备11010802045562号</a>
+            </div>
+            <div>
+                <img style="width: 22.1px; position:relative; top: 0.6px; left: 3px;" src="/img/copyright-icon.png"/>
+                ️版权归中国标准化研究院所有
+            </div>
+        </div>
+
+    </div>
+</div>
+</body>
+
+<script type="application/javascript">
+
+    const TOTAL_COUNT_KEY = "TOTAL_COUNT_KEY"
+    let TOTAL_COUNT = ''
+
+    function updateTotalCount(count) {
+        if (!count || TOTAL_COUNT === count) {
+            return
+        }
+        TOTAL_COUNT = count
+        const el = $('#total-count')
+        const formattedCount = new Intl.NumberFormat('zh-CN').format(count);
+        if (el.hasClass('total-count-animation')) {
+            el.removeClass('total-count-animation');
+        }
+        el.addClass('total-count-animation');
+        el.text(formattedCount);
+    }
+
+    function visitRecordCount() {
+        $.ajax({
+            url: '/api/visit-record/visit-count',
+            type: 'POST',
+            success: function (res) {
+                if (res.code === 0) {
+                    updateTotalCount(res.data)
+                    localStorage.setItem(TOTAL_COUNT_KEY, res.data)
+                } else {
+                    console.error('获取访问总量失败:', res.message);
+                }
+            },
+            error: function (xhr) {
+                console.error('请求访问总量失败:', xhr.statusText);
+            }
+        });
+    }
+
+    $(document).ready(() => {
+        visitRecordCount()
+        window.addEventListener('storage', function (event) {
+            if (event.key === TOTAL_COUNT_KEY && event.newValue) {
+                updateTotalCount(event.newValue)
+            }
+        });
+    })
+
+</script>
+</html>
+
+<div id="dgRead" style="display: none">
+    <div class="dg-header">
+        <img syle="width: 100%;" src="/img/dg-read-bg.png"/>
+        <div class="img-text">
+            <p class="title">国家标准馆</p>
+            <p><img src="/img/icon/dg-time-icon.png"/>开放时间：每周一至周五8:30-17:00（节假日不开放）</p>
+            <p><img src="/img/icon/dg-address-icon.png"/>地&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;址：北京市海淀区知春路4号
+            </p>
+            <p><img src="/img/icon/dg-address-icon.png"/>乘车路线：乘坐地铁10号线、昌平线，在西土城站下车D口出后西行150米即可到达
+            </p>
+        </div>
+    </div>
+
+    <div class="dgRead">
+        <p>
+            国家标准馆位于北京市海淀区知春路4号，可接待到馆读者，为读者提供标准文献检索、文献阅览、信息咨询、信息跟踪、信息推送等服务。</p>
+        <div class="keyPoint">注意事项</div>
+        <p>1. 本馆向在国家数字标准馆网络平台上完成实名注册和预约的读者开放。</p>
+        <p>2. 请勿在非开放范围随意走动和从事与国家标准馆所提供服务无关的活动。</p>
+        <p>3. 请勿携带食品、有色和含糖饮料进入阅览区域。</p>
+        <p>4. 禁止在馆区内吸烟和使用明火，禁止携带易燃、易爆、有毒等危险品。</p>
+        <p>5. 请注意仪表着装，衣冠整洁得体，言谈举止文明。</p>
+        <p>6. 请遵守公共秩序和国家标准馆相关管理规定，服从工作人员管理，自觉维护参观秩序和良好的阅读环境。</p>
+        <div class="keyPoint">联系方式</div>
+        <div class="contact-box">
+            <div class="item">
+                <p>赵老师</p>
+                <p><img src="/img/icon/dg-lx-phone-icon.png"/>电话：010-58811369</p>
+                <p><img src="/img/icon/dg-lx-email-icon.png"/>邮箱：zhaoping@cnis.ac.cn</p>
+            </div>
+            <div class="item">
+                <p>田老师</p>
+                <p><img src="/img/icon/dg-lx-phone-icon.png"/>电话：010-58811378</p>
+                <p><img src="/img/icon/dg-lx-email-icon.png"/>邮箱：tianfang@cnis.ac.cn</p>
+            </div>
+        </div>
+        <div style="display: flex; justify-content: center; margin-top: 36px; ">
+            <button class="layui-btn el-button--primary confirm-dgReader"
+                    style="border-radius: 6px; height: 36px; line-height: 36px;">已阅
+            </button>
+        </div>
+    </div>
+</div>
+<script>
+    let dgParamsData = {}
+
+    function verificationCode() {
+        $.ajax({
+            url: '/api/common/verification-code',
+            type: 'get',
+            success: res => {
+                if (res.code == 0) {
+                    $('#veriCode').attr('src', res.data.img); // 加载初始验证码图像
+                    $('#veriCode').attr('data-key', res.data.key); // 初始化 data-key
+                }
+            }
+        })
+    }
+
+    function dgRead(dgData) {
+        checkLogin(true).then(isLogin => {
+            if (isLogin) {
+                // 设置值
+                dgParamsData = dgData
+                // 提示框
+                layer.open({
+                    type: 1,
+                    area: '660px',
+                    resize: false,
+                    scrollbar: false,
+                    shadeClose: true,
+                    title: '到馆阅览须知',
+                    content: $('#dgRead'),
+                    success: function () {
+                    }
+                });
+            }
+        })
+    }
+
+    let layerIndexDgReader
+    $(document).on('click', '.confirm-dgReader', function () {
+        layer.closeAll()
+        layerIndexDgReader = layer.open({
+            type: 1,
+            area: '450px',
+            resize: false,
+            scrollbar: false,
+            shadeClose: true,
+            title: '到馆阅读',
+            content: `
+                          <div class="layui-form layui-form-pane" lay-filter="filter-test-layer" style="margin: 16px;padding: 0 20px">
+                              <div class="layui-form-item">
+                                <label class="layui-form-label">真实姓名<span class="required">*</span></label>
+                                <div class="layui-input-block">
+                                  <input type="text" name="userName" autocomplete="off" placeholder="请输入真实姓名" lay-reqtext="请输入真实姓名" maxlength="20" lay-verify="required" class="layui-input">
+                                </div>
+                              </div>
+                              <div class="layui-form-item">
+                                <label class="layui-form-label">手机号码<span class="required">*</span></label>
+                                <div class="layui-input-block">
+                                  <input type="text" name="phone" autocomplete="off" lay-verify="required|phone" placeholder="请输入手机号码"  maxlength="11" lay-reqtext="手机号码不能为空" lay-verify="required" class="layui-input">
+                                </div>
+                              </div>
+                              <div class="layui-form-item">
+                                <label class="layui-form-label">邮箱</label>
+                                <div class="layui-input-block">
+                                  <input type="text" name="email" autocomplete="off"  placeholder="请输入邮箱"  maxlength="255" lay-reqtext="请输入正确的邮箱" lay-verify="email" class="layui-input">
+                                </div>
+                              </div>
+
+                              <div class="layui-form-item">
+                                <div class="layui-inline">
+                                  <label class="layui-form-label">到馆日期<span class="required">*</span></label>
+                                  <div class="layui-input-inline layui-input-wrap">
+                                    <input type="text" readonly name="arrivalTime"
+                                    style="width: 162px;"
+                                    id="date" lay-verify="required" placeholder="请选择到馆日期"
+                                    lay-reqtext="请选择到馆日期" autocomplete="off" class="layui-input">
+                                  </div>
+                                </div>
+                              </div>              <div class="layui-form-item">
+                                <label class="layui-form-label">到馆时间<span class="required">*</span></label>
+                                <div class="layui-input-block">
+                                  <input type="radio" autocomplete="off" name="timeType" value="0" title="上午" checked>
+                                  <input type="radio" autocomplete="off" name="timeType" value="1" title="下午">
+                                </div>
+                              </div>
+
+                            <div class="layui-form-item">
+                                <label class="layui-form-label">单位名称<span class="required">*</span></label>
+                                <div class="layui-input-block">
+                                  <input type="text" name="unitName" autocomplete="off" placeholder="请输入单位名称" maxlength="20"   class="layui-input">
+                                </div>
+                              </div>
+<!--                            <div class="layui-form-item">-->
+<!--                                <label class="layui-form-label">车牌号</label>-->
+<!--                                <div class="layui-input-block">-->
+<!--                                  <input type="text" name="carNumber" autocomplete="off" placeholder="请输入车牌号" maxlength="20" class="layui-input">-->
+<!--                                </div>-->
+<!--                              </div>-->
+                            <div class="layui-form-item">
+                                <label class="layui-form-label">工作地址</label>
+                                <div class="layui-input-block">
+                                  <input type="text" name="workAddress" autocomplete="off" placeholder="请输入工作地址" maxlength="50" class="layui-input">
+                                </div>
+                              </div>
+                            <div class="layui-form-item">
+                                <label class="layui-form-label">同行人数</label>
+                                <div class="layui-input-block">
+                                  <input type="text" name="peerCount" autocomplete="off" placeholder="无" class="layui-input" lay-verify="number" maxlength="4">
+                                </div>
+                              </div>
+                            <div class="layui-form-item">
+                              <div class="layui-row">
+                                <label class="layui-form-label" style="padding: 9px 12px;">图形验证码<span class="required">*</span></label>
+                                <div class="layui-col-xs4">
+                                  <div class="layui-input-wrap">
+                                    <input type="text" name="captcha" maxlength="4" value="" lay-verify="required" placeholder="验证码" lay-reqtext="请输入验证码" autocomplete="off" class="layui-input" lay-affix="clear">
+                                  </div>
+                                </div>
+                                <div class="layui-col-xs3">
+                                  <div style="margin-left: 10px;">
+                                    <img id="veriCode"  data-key='' src="">
+                                  </div>
+                                </div>
+                              </div>
+                            </div>
+                            <div style="width: 100%;margin:40px 0;display: flex;justify-content: center;">
+                                 <button id="dg-form-button" type="submit" class="layui-btn" lay-submit lay-filter="button"  style="width: 80px">提交</button>
+                            </div>
+                          </div>
+        `, success: function () {
+                layui.use(['form', 'laydate', 'util'], function () {
+                    const form = layui.form;
+                    const layer = layui.layer;
+                    const laydate = layui.laydate;
+                    form.render()
+                    var button = document.getElementById('dg-form-button');  // 获取按钮元素
+                    // 提交事件
+                    form.on('submit(button)', function (data) {
+                        button.disabled = true;  // 禁用按钮，防止重复点击
+                        if (dgParamsData) {
+                            data.field.standardNumber = dgParamsData.a100
+                            if (dgParamsData.a298 && dgParamsData.a298.length > 0) {
+                                data.field.title = dgParamsData.a298 || ''
+                            } else {
+                                data.field.title = dgParamsData.a301 || ''
+                            }
+                            data.field.tid = dgParamsData.yf001 || ''
+                        }
+                        data.field.dataKey = $("#veriCode").attr('data-key');
+                        $.ajax({
+                            type: "POST",
+                            url: '/api/standard/scheduledAdd',
+                            data: JSON.stringify(data.field),
+                            dataType: "json",
+                            contentType: "application/json;charset=UTF-8",//指定发送的数据格式
+                            success: function (data) {
+                                if (data.code === 0) {
+                                    layer.msg("预约成功！您可在【个人中心-到馆预约】查看预约记录。")
+                                    setTimeout(() => {
+                                        button.disabled = false;  // 请求完成后启用按钮
+                                        layer.close(layerIndexDgReader)
+                                    }, 500)
+                                } else {
+                                    button.disabled = false;  // 如果没有 dgData，恢复按钮状态
+                                    verificationCode();
+                                    layer.close(layerIndexDgReader)
+                                    layer.msg(data.message)
+
+                                }
+                            },
+                        });
+                        button.disabled = false;
+                        return false; // 阻止默认 form 跳转
+                    });
+                    // 日期
+                    laydate.render({
+                        elem: '#date'
+                    });
+                    $('#veriCode').on('click', function () {
+                        verificationCode();
+                    })
+                });
+            }
+        });
+        verificationCode();
+    })
+
+</script>
+</body>
+<script src="/js/echarts.min.js"></script>
+<script src="/share/js/social-share.min.js?v=1790663949"></script>
+<script src="/layui-v2.9.16/layui.js"></script>
+<script>
+
+    // 保存每个节点的初始展开状态
+    let initialState = {}
+
+    let favDialog = null;
+    let dgData = {}
+
+    function favInputChange(e) {
+        if (e && e.length > 0) {
+            $('.el-button--primary').removeClass('is-disabled')
+            $('.el-button--primary').prop('disabled', false)
+        } else {
+            $('.el-button--primary').addClass('is-disabled')
+            $('.el-button--primary').prop('disabled', true)
+        }
+    }
+
+    $(document).on('click', '.fav-collect', function () {
+        checkLogin(true).then(isLogin => {
+            console.log('isLogin', isLogin)
+            if (isLogin) {
+                // 打开预约到管弹框
+                dgData = {
+                    yf001: this.dataset.yf001,
+                    a000: this.dataset.a000,
+                    a298: this.dataset.a298,
+                    a301: this.dataset.a301,
+                    a100: this.dataset.a100
+                }
+                // 提示框
+                let layerIndex1 = layer.open({
+                    type: 1,
+                    area: '530px',
+                    resize: false,
+                    scrollbar: false,
+                    shadeClose: true,
+                    title: '添加收藏',
+                    content: $('#fav-dialog'),
+                    success: function () {
+                        showLoading('#fav-dialog')
+                        getFoldersList(true)
+                    }
+                });
+            }
+        })
+    })
+
+    function syncListFavStatus(yf001) {
+        $.get('/api/standard/detail/' + yf001, res => {
+            if (res.data) {
+                console.log($('.fav-collect'))
+                if (res.data.fav === 1) {
+                    $('.fav-collect').each((index, item) => {
+                        if ($(item).attr('data-yf001') === yf001) {
+                            $(item).find('.fav-icon').attr('src', '/img/icon/success-fav-icon.png?v=1790663949')
+                        }
+                    })
+                } else {
+                    $('.fav-collect').each((index, item) => {
+                        if ($(item).attr('data-yf001') === yf001) {
+                            $(item).find('.fav-icon').attr('src', '/img/fav-icon.png?v=1790663949')
+                        }
+                    })
+                }
+            }
+        })
+    }
+
+    function getFoldersList(falg) {
+        $('.fav-list').show()
+        $('.fav-btn').show()
+        $('.add-fav').hide()
+
+        if (falg) {
+            $('.fav-list').html('')
+        }
+        $.ajax({
+            url: '/api/user-folders/list?yf001=' + dgData.yf001,
+            type: 'get',
+            dataType: "json",
+            success: res => {
+                let html = '';
+                if (res.data) {
+                    $('#fav-list').html('')
+                    for (let i = 0; i < res.data.length; i++) {
+                        const favorites = res.data[i]
+                        html += '         <div class="fav-item">'
+                        html += '         <div class="fav-item_left">'
+                        html += '         <div class="fav-item_left_title">' + (favorites.folderName ? favorites.folderName : '') + '</div>'
+                        html += '     <div class="fav-item_left_ext">'
+                        html += '         <span>' + favorites.contentCount + '条</span>'
+                        html += '     </div>'
+                        html += ' </div>'
+
+
+                        if (favorites.favId) {
+                            html += '     <div class="collect-btn" data-id="' + favorites.favId + '" data-type="1" data-folderid="' + favorites.id + '">'
+                            html += '         取消收藏'
+                            html += '     </div>'
+                        } else {
+                            html += '     <div class="collect-btn" data-type="0" data-folderid="' + favorites.id + '">'
+                            html += '         收藏'
+                            html += '     </div>'
+                        }
+
+                        html += ' </div>'
+                    }
+                }
+                $('.fav-list').html(html)
+                hideLoading('#fav-dialog')
+            },
+            error: function () {
+                hideLoading('#fav-dialog')
+            }
+        })
+    }
+
+    $(document).on('click', '.fav-back', function () {
+        $('input[name="folderName"]').val('')
+        $('textarea[name="folderRemark"]').val('')
+        if (favDialog) {
+            layer.close(favDialog)
+            favDialog = null
+        }
+
+    })
+    $(document).on('click', '.fav-save', function () {
+        this.disabled = true
+        const data = {
+            'folderName': $('input[name="folderName"]').val(),
+            'remark': $('textarea[name="folderRemark"]').val(),
+        }
+        $.ajax({
+            url: '/api/user-folders/add',
+            type: 'post',
+            dataType: "json",
+            contentType: "application/json",
+            data: JSON.stringify(data),
+            success: res => {
+                if (res.code === 0) {
+                    $('input[name="folderName"]').val('')
+                    $('textarea[name="folderRemark"]').val('')
+                    this.disabled = false
+                    layer.msg('新增成功')
+                    showLoading('#fav-dialog')
+                    if (favDialog) {
+                        layer.close(favDialog)
+                        favDialog = null
+                    }
+                    getFoldersList(false)
+                } else {
+                    this.disabled = false
+                    layer.msg(res.message)
+                }
+            }, error: function () {
+                this.disabled = false
+            }
+        })
+    })
+    $(document).on('click', '.fav-btn', function () {
+        // 提示框
+        favDialog = layer.open({
+            type: 1,
+            area: '400px',
+            resize: false,
+            title: false,
+            scrollbar: true,
+            shadeClose: true,
+            closeBtn: 0,
+            content: $('#add-fav')
+        });
+    })
+    $(document).on('click', '.collect-btn', function () {
+        let $this = $(this)
+        this.disabled = true
+        if (Number(this.dataset.type) === 0) {
+            const data = {
+                yf001: dgData.yf001,
+                a000: dgData.a000,
+                type: 0, // 0 标准
+                folderId: this.dataset.folderid,
+                a298: dgData.a298,
+                a301: dgData.a301,
+                a100: dgData.a100
+            }
+            $.ajax({
+                url: '/api/user-folders/add-fav',
+                type: 'post',
+                dataType: "json",
+                contentType: "application/json",
+                data: JSON.stringify(data),
+                success: res => {
+                    this.disabled = false
+                    if (res.code === 0) {
+                        layer.msg('收藏成功')
+                        showLoading('#fav-dialog')
+                        syncListFavStatus(dgData.yf001)
+                        getFoldersList(false)
+                    } else {
+                        layer.msg(res.message)
+                    }
+                }, error: function () {
+                    this.disabled = false
+                }
+            })
+        } else if (Number(this.dataset.type) === 1) {
+            $.ajax({
+                url: '/api/user-folders/del-fav',
+                type: 'post',
+                dataType: "json",
+                contentType: "application/json",
+                data: JSON.stringify({
+                    id: this.dataset.id
+                }),
+                success: res => {
+                    this.disabled = false
+                    if (res.code === 0) {
+                        layer.msg('取消成功')
+                        showLoading('#fav-dialog')
+                        syncListFavStatus(dgData.yf001)
+                        getFoldersList(false)
+                    } else {
+                        layer.msg(res.message)
+                    }
+                }, error: function () {
+                    this.disabled = false
+                }
+            })
+        }
+    })
+
+    $(function () {
+        var $config = {
+            url: '',
+            source: '',
+            title: '',
+            description: '',
+            image: '',
+            wechatQrcodeTitle: '微信扫一扫：分享',
+            wechatQrcodeHelper: '<p>微信里点“发现”，扫一下</p><p>二维码便可将本文分享至朋友圈。</p>',
+            target: '_blank'
+        };
+        socialShare('.social-share', $config);
+    })
+    $(document).ready(function () {
+        postVisitRecord('详情', null, '/standard/detail/', 'ndls-platform:VISIT-TOKEN:L3N0YW5kYXJkL2RldGFpbC85ZmI0NTVkOWIwZjRmOTU3NjA0ZTU5ZWEzYWJmMzUxMA==3b79b62b-9910-4b9d-9e1b-acc52f5c2e5d')
+        var infoDesc = $('.info-item-1-info-desc');
+        if (infoDesc[0].scrollHeight > 150) {
+            let html = ''
+            html += '         <div class="launch-box">'
+            html += '         <div class="launch-box-title">'
+            html += '         <span class="launch-box-title-text">展开</span>'
+            html += '     <img class="launch-icon" src="/img/launch-icon.png?v=1790663949" />'
+            html += '     <img class="pack-up-icon" style="display: none" src="/img/pack-up-icon.png?v=1790663949" />'
+            html += ' </div>'
+            html += ' </div>'
+            $('.info-item-1-info-desc').after(html)
+
+        } else {
+        }
+    });
+    setTimeout(() => {
+        var infoDesc = $('.info-item-1-info-desc');
+        if (infoDesc[0].scrollHeight > 150) {
+            $('.launch-box').show()
+        } else {
+        }
+    }, 0)
+
+    $('.buy-btn-open').on('mouseover', function () {
+        $('.buy-info').show()
+    })
+    $('.buy-btn-open').on('mouseout', function () {
+        setTimeout(function () {
+            if (!$('.buy-btn-open').is(":hover") && !$('.buy-info').is(":hover")) {
+                $('.buy-info').hide()
+            }
+        }, 100)
+    })
+
+    $('.explain-body').on('mouseover', function () {
+        $('.explain-text').show()
+    })
+    $('.explain-body').on('mouseout', function () {
+        setTimeout(function () {
+            if (!$('.explain-body').is(":hover") && !$('.explain-text').is(":hover")) {
+                $('.explain-text').hide()
+            }
+        }, 100)
+    })
+
+
+    $(document).on('click', '.launch-box-title', function () {
+        if ($('.launch-box-title>.launch-icon').is(':visible')) {
+            $('.launch-box-title-text').text('收起')
+            $('.launch-box-title>.launch-icon').hide();
+            $('.launch-box-title>.pack-up-icon').show();
+            $('.launch-box').addClass('launch-box-open')
+            $('.info-item-1-info-desc').css('max-height', 'none')
+        } else {
+            $('.launch-box-title-text').text('展开')
+            $('.launch-box-title>.pack-up-icon').hide();
+            $('.launch-box-title>.launch-icon').show();
+            $('.launch-box-open').removeClass('launch-box-open')
+
+            $('.info-item-1-info-desc').css('max-height', '150px')
+        }
+    })
+
+    $('.buy-info').on('mouseout', function () {
+        setTimeout(function () {
+            if (!$('.buy-btn-open').is(":hover") && !$('.buy-info').is(":hover")) {
+                $('.buy-info').hide()
+            }
+        }, 100)
+    })
+    $('.buy-push-gd').on('click', function () {
+        window.open('https://www.cssn.net.cn/cssn/productDetail/' + this.dataset.id)
+    })
+
+    $('.buy-push').on('click', function () {
+        var data = {
+            uid: $(this).attr('data-value'),
+            yf001: this.dataset.yf001,
+        }
+        var form = objToQueryString(data)
+        window.location.href = '/standard/buy-info?' + form
+    })
+
+
+    let standard = {"yf001":"9fb455d9b0f4f957604e59ea3abf3510","a000":"现行","a104":"CN-GB","a104name":"国家标准","a100":"GB/T 18386.1-2021","yf100":"GB/T 18386.1-2021","a298":"电动汽车能量消耗量和续驶里程试验方法 第1部分：轻型汽车","a300":"zh-CN","a300cn":"中文(简体)","a301":"电动汽车能量消耗量和续驶里程试验方法 第1部分：轻型汽车","a302":"Test methods for energy consumption and range of electric vehicles—Part 1: Light-duty vehicles","a101":"2021-03-09","a205":"2021-10-01","a502list":["GB/T 15089","GB 18352.6-2016","GB/T 19233-2020","GB/T 19596","GB/T 38146.1-2019"],"a461list":["GB/T 18386-2017"],"a462list":["GB/T 18386-2017"],"a825list":["T47"],"a826list":["43.020"],"a825namelist":["车辆 - 汽车 - 新能源汽车及其他类型汽车"],"a826namelist":["道路车辆工程 - 道路车辆综合"],"a209list":["中国汽车技术研究中心有限公司","比亚迪汽车工业有限公司","北京新能源汽车股份有限公司","重庆长安新能源汽车科技有限公司","中国第一汽车集团有限公司","浙江合众新能源汽车有限公司","上海蔚来汽车有限公司","威马汽车科技集团有限公司","广州汽车集团股份有限公司汽车工程研究院","浙江吉利控股集团有限公司","长城汽车股份有限公司","东风汽车集团有限公司","海马新能源汽车有限公司","联合汽车电子有限公司","奇瑞捷豹路虎汽车有限公司","上汽大众汽车有限公司","泛亚汽车技术中心有限公司","宝马（中国）服务有限公司","戴姆勒大中华区投资有限公司","大众汽车（中国）投资有限公司"],"draftmanlist":["刘桂彬","王芳","刘志超","郑天雷","凌和平","孙龙","马其贞","贾雨","刘昱","周博雅","岳巍","彭庆丰","郭岩","王凯","崔文宾","袁昌荣","付磊","宋轶男","安晓盼","孟庆楠","陈晓露","徐晓","刘乐","严杰","方晗","赵伟","杨璨","覃铭","戴天禄","蔡永豪"],"country_name":"中国","continent":"亚洲","a305":36,"a330":"本文件规定了纯电动汽车的能量消耗量和续驶里程的试验方法。本文件适用于N;类和最大设计总质量不超过3500 kg的M1、M2类车辆。最大设计总质量超过3500kg的M1类车辆和L5类车辆可参照执行","a331":"本文件规定了纯电动汽车的能量消耗量和续驶里程的试验方法。本文件适用于N;类和最大设计总质量不超过3500 kg的M1、M2类车辆。最大设计总质量超过3500kg的M1类车辆和L5类车辆可参照执行","owner":"全国汽车标准化技术委员会","formats":[{"uid":"d18992ab55a06434553aa40e16ba8a62","lang_name":"中文(简体)","source_price":56.0,"payload":"E","a100pub":"GB/T 18386.1-2021","lang_id":"zh-CN","currency":"CNY","site_code":"SPCELEC","sale_price_rmb":56.0,"spec":"电子版/约1分钟可下载/有水印","a300":"zh-CN"},{"uid":"622e1597bb1c4535c40663e39b8ba9f5","lang_name":"中文(简体)","source_price":68.0,"payload":"P","a100pub":"GB/T 18386.1-2021","lang_id":"zh-CN","currency":"CNY","site_code":"SPCPRINT","sale_price_rmb":68.0,"spec":"纸质版/约1个工作日发快递/无授权单位水印","a300":"zh-CN"}],"nsl_collection_e":1};
+    let relevantRegulations = [{"yf001":"cc290106b411022630424f53dfcfad8d","a000":"现行","a104":"KR-KS","a104name":"韩国标准","a100":"KS R 1135-2001(2016)","yf100":"KS R 1135(2016 Confirm)","a298":"电动汽车能耗与里程测试规程","a301":"전기 자동차 에너지 소비율 및 일 충전 주행 거리 시험 방법","a302":"Energy consumption and range test procedure of electric vehicles","a825":"","a826":"43.120","a826name":"电车","country_name":"韩国","a101":"2001-08-09","publicyear":2016,"a205":"","code_type":"STANDARD","formats":[{"uid":"cc290106b411022630424f53dfcfad8d","lang_name":"朝鲜语/韩语","source_price":35.0,"payload":"E","a100pub":"KS R 1135-2001(2016)","lang_id":"ko","currency":"USD","site_code":"KS","sale_price_rmb":392.0,"spec":"电子版PDF格式/5-7个工作日发邮件/有水印/无需安装插件/可以在多台电脑上使用","a300":"ko"}],"nsl_collection_e":0},{"yf001":"1857e4cfdca5c144a942bd165ae5e426","a000":"现行","a104":"KR-KS","a104name":"韩国标准","a100":"KS R 1135(2021 Confirm)(2021)","yf100":"KS R 1135(2021 Confirm)","a298":"电动汽车的能耗和里程测试程序","a301":"전기 자동차 에너지 소비율 및 일 충전 주행 거리 시험 방법","a302":"Energy consumption and range test procedure of electric vehicles","a825":"","a826":"43.120","a826name":"电车","country_name":"韩国","a101":"2001-08-09","publicyear":2021,"a205":"","code_type":"STANDARD","formats":[{"uid":"1857e4cfdca5c144a942bd165ae5e426","lang_name":"朝鲜语/韩语","source_price":35.0,"payload":"E","a100pub":"KS R 1135(2021 Confirm)(2021)","lang_id":"ko","currency":"USD","site_code":"KS","sale_price_rmb":392.0,"spec":"电子版PDF格式/5-7个工作日发邮件/有水印/无需安装插件/可以在多台电脑上使用","a300":"ko"}],"nsl_collection_e":0},{"yf001":"1857e4cfdca5c144a942bd165ae5e426","a000":"现行","a104":"KR-KS","a104name":"韩国标准","a100":"KS R 1135-2001(2021)","yf100":"KS R 1135(2021 Confirm)","a298":"电动汽车的能耗和里程测试程序","a301":"전기 자동차 에너지 소비율 및 일 충전 주행 거리 시험 방법","a302":"Energy consumption and range test procedure of electric vehicles","a825":"","a826":"43.120","a826name":"电车","country_name":"韩国","a101":"2001-08-09","publicyear":2021,"a205":"","code_type":"STANDARD","formats":[{"uid":"1857e4cfdca5c144a942bd165ae5e426","lang_name":"朝鲜语/韩语","source_price":35.0,"payload":"E","a100pub":"KS R 1135-2001(2021)","lang_id":"ko","currency":"USD","site_code":"KS","sale_price_rmb":392.0,"spec":"电子版PDF格式/5-7个工作日发邮件/有水印/无需安装插件/可以在多台电脑上使用","a300":"ko"}],"nsl_collection_e":0},{"yf001":"e1d6e2621ea3810ae2678c3890e6b177","a000":"现行","a104":"CN-GB","a104name":"国家标准","a100":"GB/T 43252-2023","yf100":"GB/T 43252-2023","a298":"燃料电池电动汽车能量消耗量及续驶里程试验方法","a301":"燃料电池电动汽车能量消耗量及续驶里程试验方法","a302":"Test methods of energy consumption and range for fuel cell electric vehicles","a825":"T47","a825name":"新能源汽车及其他类型汽车","a826":"43.120","a826name":"电车","country_name":"中国","a101":"2023-11-27","publicyear":2023,"a205":"2023-11-27","code_type":"STANDARD","formats":[{"uid":"250a541c2faa6af4feb96e6d81912451","lang_name":"中文(简体)","source_price":44.0,"payload":"E","a100pub":"GB/T 43252-2023","lang_id":"zh-CN","currency":"CNY","site_code":"SPCELEC","sale_price_rmb":44.0,"spec":"电子版/约1分钟可下载/有水印","a300":"zh-CN"}],"nsl_collection_e":1},{"yf001":"35287121220e13de2e6ab24234c36beb","a000":"现行","a104":"US-SAE","a104name":"美国机动车工程师协会","a100":"SAE J1634_202508","yf100":"SAE J1634_202508","a298":"","a301":"Battery Electric Vehicle Energy Consumption and Range Test Procedure","a302":"Battery Electric Vehicle Energy Consumption and Range Test Procedure","a825":"","a826":"","country_name":"美国","a101":"2025-08-29","publicyear":2025,"a205":"","code_type":"STANDARD","formats":[{"uid":"d505c4e730fe00c400c6e52f462d38a9","lang_name":"英语","source_price":210.0,"payload":"E","a100pub":"SAE J1634_202508","lang_id":"en","currency":"USD","site_code":"SAE_WEB","sale_price_rmb":2362.0,"spec":"网络版/3-5个工作日将账号密码发邮箱/有水印/可下载打印/无插件","a300":"en"},{"uid":"35287121220e13de2e6ab24234c36beb","lang_name":"英语","source_price":210.0,"payload":"E","a100pub":"SAE J1634_202508","lang_id":"en","currency":"USD","site_code":"SAE_PRICE","sale_price_rmb":2362.0,"spec":"个人电子版/3-5个工作日发邮件/有水印","a300":"en"}],"nsl_collection_e":0},{"yf001":"25bae3cbb741397e80040744dbb1b54c","a000":"现行","a104":"US-CCANSC","a104name":"","a100":"CAN/CSA C358-03(R2022)","yf100":"CAN/CSA C358-03(R2022)","a298":"家用电炉能耗试验方法","a301":"Energy Consumption Test Methods for Household Electric Ranges","a302":"Energy Consumption Test Methods for Household Electric Ranges","a825":"","a826":"","a101":"2003-03-13","publicyear":2003,"a205":"","formats":[{"uid":"25bae3cbb741397e80040744dbb1b54c","lang_name":"英语","payload":"U","a100pub":"CAN/CSA C358-03(R2022)","lang_id":"en","currency":"USD","site_code":"TECHSTREET","spec":"询价购买","a300":"en"}],"nsl_collection_e":0},{"yf001":"30a7be608a58f2420f13f5bf6612ba29","a000":"现行","a104":"CN-GB","a104name":"国家标准","a100":"GB/T 44677-2024","yf100":"GB/T 44677-2024","a298":"电动自行车能量消耗量和续行里程试验方法","a301":"电动自行车能量消耗量和续行里程试验方法","a302":"Test methods of energy consumption and range for electric bicycles","a825":"Y14","a825name":"自行车","a826":"43.140","a826name":"摩托车和机动自行车","country_name":"中国","a101":"2024-10-26","publicyear":2024,"a205":"2025-05-01","code_type":"STANDARD","formats":[{"uid":"f32bdd362dc5e906930d682a1dbba5ee","lang_name":"中文(简体)","source_price":36.0,"payload":"E","a100pub":"GB/T 44677-2024","lang_id":"zh-CN","currency":"CNY","site_code":"SPCELEC","sale_price_rmb":36.0,"spec":"电子版/约1分钟可下载/有水印","a300":"zh-CN"},{"uid":"47e93a068ceeec6a3489bddca4687ab6","lang_name":"中文(简体)","source_price":36.0,"payload":"P","a100pub":"GB/T 44677-2024","lang_id":"zh-CN","currency":"CNY","site_code":"SPCPRINT","sale_price_rmb":36.0,"spec":"纸质版/约1个工作日发快递/无授权单位水印","a300":"zh-CN"}],"nsl_collection_e":0},{"yf001":"894cce3dc688d0c0f1a0bdee0fd71637","a000":"现行","a104":"CN-GB","a104name":"国家标准","a100":"GB/T 18386.2-2022","yf100":"GB/T 18386.2-2022","a298":"电动汽车能量消耗量和续驶里程试验方法 第2部分：重型商用车辆","a301":"电动汽车能量消耗量和续驶里程试验方法 第2部分：重型商用车辆","a302":"Test methods for energy consumption and range of electric vehicles—Part 2: Heavy-duty commercial vehicles","a825":"T47","a825name":"新能源汽车及其他类型汽车","a826":"43.020","a826name":"道路车辆综合","country_name":"中国","a101":"2022-10-12","publicyear":2022,"a205":"2023-05-01","code_type":"STANDARD","formats":[{"uid":"219e6403cc93160325927b02f903f4a0","lang_name":"中文(简体)","source_price":36.0,"payload":"E","a100pub":"GB/T 18386.2-2022","lang_id":"zh-CN","currency":"CNY","site_code":"SPCELEC","sale_price_rmb":36.0,"spec":"电子版/约1分钟可下载/有水印","a300":"zh-CN"},{"uid":"cd352462101d86ba7c93e72250e91fbc","lang_name":"中文(简体)","source_price":36.0,"payload":"P","a100pub":"GB/T 18386.2-2022","lang_id":"zh-CN","currency":"CNY","site_code":"SPCPRINT","sale_price_rmb":36.0,"spec":"纸质版/约1个工作日发快递/无授权单位水印","a300":"zh-CN"}],"nsl_collection_e":1},{"yf001":"9f6788f9b2cd22aa5f44b3350e7c9c39","a000":"现行","a104":"CN-TUANTI","a104name":"团体标准","a100":"T/ZHFCA 1012-2024","yf100":"T/ZHFCA 1012-2024","a298":"液氢燃料电池电动商用车 能量消耗量及续驶里程测试方法","a301":"液氢燃料电池电动商用车 能量消耗量及续驶里程测试方法","a302":"Liquefied hydrogen fuel cell electric commercial vehicle— Test methods of energy consumption and range","a825":"T","a825name":"车辆","a826":"","country_name":"中国","a101":"2024-09-24","publicyear":2024,"a205":"2024-09-25","code_type":"STANDARD","formats":[{"uid":"9f6788f9b2cd22aa5f44b3350e7c9c39","lang_name":"中文(简体)","payload":"N","a100pub":"T/ZHFCA 1012-2024","lang_id":"zh-CN","site_code":"STDGOV_TUANTI","spec":"无货","a300":"zh-CN"}],"nsl_collection_e":0},{"yf001":"eca4d1017d8cf13b5567190a01ce2230","a000":"现行","a104":"CN-TUANTI","a104name":"团体标准","a100":"T/GDCKCJH 097-2024","yf100":"T/GDCKCJH 097-2024","a298":"电动平衡车能量消耗率试验方法","a301":"电动平衡车能量消耗率试验方法","a302":"Test method of energy consumption rate of electric balance vehicle","a825":"J28","a825name":"自动化物流装置","a826":"25.040.30","a826name":"工业机器人、机械手","country_name":"中国","a101":"2024-11-06","publicyear":2024,"a205":"2024-11-10","code_type":"STANDARD","formats":[{"uid":"eca4d1017d8cf13b5567190a01ce2230","lang_name":"中文(简体)","payload":"N","a100pub":"T/GDCKCJH 097-2024","lang_id":"zh-CN","site_code":"STDGOV_TUANTI","spec":"无货","a300":"zh-CN"}],"nsl_collection_e":0},{"yf001":"c63fe3563c312af5fc257ce3e054012a","a000":"现行","a104":"KR-KS","a104name":"韩国标准","a100":"KS R ISO 8714-2009(2019)","yf100":"KS R ISO 8714(2019 Confirm)","a298":"电动道路车辆基准能耗和行驶里程乘用车和轻型商用车试验规程\n","a301":"전기 도로 차량 - 기준 에너지 소모량 및 주행 거리 - 승용차 및 경 상용차의 시험 절차","a302":"Electric road vehicles－Reference energy consumption and range－Test procedures for passenger cars and light commercial vehicles","a825":"","a826":"43.120","a826name":"电车","country_name":"韩国","a101":"2009-12-15","publicyear":2019,"a205":"","code_type":"STANDARD","formats":[{"uid":"c63fe3563c312af5fc257ce3e054012a","lang_name":"朝鲜语/韩语","source_price":35.0,"payload":"E","a100pub":"KS R ISO 8714-2009(2019)","lang_id":"ko","currency":"USD","site_code":"KS","sale_price_rmb":392.0,"spec":"电子版PDF格式/5-7个工作日发邮件/有水印/无需安装插件/可以在多台电脑上使用","a300":"ko"}],"nsl_collection_e":0},{"yf001":"09704cb3c76d370a2687d4177a1c20c8","a000":"现行","a104":"KR-KS","a104name":"韩国标准","a100":"KS R ISO 8714(2024 Confirm)(2024)","yf100":"KS R ISO 8714(2024 Confirm)","a298":"电动道路车辆——参考能耗和范围——乘用车和轻型商用车的试验程序\n","a301":"전기 도로 차량 — 기준 에너지 소모량 및 주행 거리 — 승용차 및 경 상용차의 시험 절차","a302":"Electric road vehicles — Reference energy consumption and range — Test procedures for passenger cars and light commercial vehicles","a825":"","a826":"43.120","a826name":"电车","country_name":"韩国","a101":"2009-12-15","publicyear":2024,"a205":"","code_type":"STANDARD","formats":[{"uid":"09704cb3c76d370a2687d4177a1c20c8","lang_name":"朝鲜语/韩语","source_price":35.0,"payload":"E","a100pub":"KS R ISO 8714(2024 Confirm)(2024)","lang_id":"ko","currency":"USD","site_code":"KS","sale_price_rmb":392.0,"spec":"电子版PDF格式/5-7个工作日发邮件/有水印/无需安装插件/可以在多台电脑上使用","a300":"ko"}],"nsl_collection_e":0},{"yf001":"09704cb3c76d370a2687d4177a1c20c8","a000":"现行","a104":"KR-KS","a104name":"韩国标准","a100":"KS R ISO 8714-2009(2024)","yf100":"KS R ISO 8714(2024 Confirm)","a298":"电动道路车辆——参考能耗和范围——乘用车和轻型商用车的试验程序\n","a301":"전기 도로 차량 — 기준 에너지 소모량 및 주행 거리 — 승용차 및 경 상용차의 시험 절차","a302":"Electric road vehicles — Reference energy consumption and range — Test procedures for passenger cars and light commercial vehicles","a825":"","a826":"43.120","a826name":"电车","country_name":"韩国","a101":"2009-12-15","publicyear":2024,"a205":"","code_type":"STANDARD","formats":[{"uid":"09704cb3c76d370a2687d4177a1c20c8","lang_name":"朝鲜语/韩语","source_price":35.0,"payload":"E","a100pub":"KS R ISO 8714-2009(2024)","lang_id":"ko","currency":"USD","site_code":"KS","sale_price_rmb":392.0,"spec":"电子版PDF格式/5-7个工作日发邮件/有水印/无需安装插件/可以在多台电脑上使用","a300":"ko"}],"nsl_collection_e":0},{"yf001":"0619c169e32af9f5f898bf467ca93649","a000":"现行","a104":"IX-ISO","a104name":"国际标准化组织","a100":"ISO 8714:2023","yf100":"ISO 8714-2023","a298":"电动道路车辆.参考能耗和续航里程.乘用车和轻型商用车的试验程序","a301":"Electric road vehicles — Reference energy consumption and range — Test procedures for passenger cars and light commercial vehicles","a302":"Electric road vehicles — Reference energy consumption and range — Test procedures for passenger cars and light commercial vehicles","a825":"","a826":"43.120","a826name":"电车","country_name":"国际组织","a101":"2023-07-26","publicyear":2023,"a205":"","code_type":"STANDARD","formats":[{"uid":"0619c169e32af9f5f898bf467ca93649","lang_name":"英语","source_price":100.0,"payload":"E","a100pub":"ISO 8714:2023","lang_id":"en","currency":"CHF","site_code":"SACISO","sale_price_rmb":808.0,"spec":"电子版加密PDF格式/约1分钟可下载/有水印/要装插件FileOpen/电脑需联网/限制累计3台电脑共打印5次","a300":"en"}],"nsl_collection_e":1},{"yf001":"73223a3eccac113a5fc9f5354756b88d","a000":"现行","a104":"CN-GB","a104name":"国家标准","a100":"GB/T 19753-2021","yf100":"GB/T 19753-2021","a298":"轻型混合动力电动汽车能量消耗量试验方法","a301":"轻型混合动力电动汽车能量消耗量试验方法","a302":"Test methods for energy consumption of light-duty hybrid electric vehicles","a825":"T47","a825name":"新能源汽车及其他类型汽车","a826":"43.020","a826name":"道路车辆综合","country_name":"中国","a101":"2021-03-09","publicyear":2021,"a205":"2021-10-01","code_type":"STANDARD","formats":[{"uid":"4048114e07cc47ec0d483062b9546864","lang_name":"中文(简体)","source_price":93.0,"payload":"E","a100pub":"GB/T 19753-2021","lang_id":"zh-CN","currency":"CNY","site_code":"SPCELEC","sale_price_rmb":93.0,"spec":"电子版/约1分钟可下载/有水印","a300":"zh-CN"},{"uid":"6162eee4ba103dcec59e447407da406b","lang_name":"中文(简体)","source_price":93.0,"payload":"P","a100pub":"GB/T 19753-2021","lang_id":"zh-CN","currency":"CNY","site_code":"SPCPRINT","sale_price_rmb":93.0,"spec":"纸质版/约1个工作日发快递/无授权单位水印","a300":"zh-CN"}],"nsl_collection_e":1},{"yf001":"a44cb8f3085e62c6da020faefa8484bd","a000":"现行","a104":"CN-GB","a104name":"国家标准","a100":"GB/T 19754-2021","yf100":"GB/T 19754-2021","a298":"重型混合动力电动汽车能量消耗量试验方法","a301":"重型混合动力电动汽车能量消耗量试验方法","a302":"Test methods for energy consumption of heavy-duty hybrid electric vehicles","a825":"T47","a825name":"新能源汽车及其他类型汽车","a826":"43.020","a826name":"道路车辆综合","country_name":"中国","a101":"2021-10-11","publicyear":2021,"a205":"2022-05-01","code_type":"STANDARD","formats":[{"uid":"d6b46ccb45996d092dcacfccd1f3c0a7","lang_name":"中文(简体)","source_price":56.0,"payload":"E","a100pub":"GB/T 19754-2021","lang_id":"zh-CN","currency":"CNY","site_code":"SPCELEC","sale_price_rmb":56.0,"spec":"电子版/约1分钟可下载/有水印","a300":"zh-CN"},{"uid":"cd9c347d140e031b02e820e618358488","lang_name":"中文(简体)","source_price":56.0,"payload":"P","a100pub":"GB/T 19754-2021","lang_id":"zh-CN","currency":"CNY","site_code":"SPCPRINT","sale_price_rmb":56.0,"spec":"纸质版/约1个工作日发快递/无授权单位水印","a300":"zh-CN"}],"nsl_collection_e":1},{"yf001":"e421f759e28a014b85be52040992455b","a000":"现行","a104":"CN-TUANTI","a104name":"团体标准","a100":"T/CAB 0209-2022","yf100":"T/CAB 0209-2022","a298":"电动摩托车用户工况能量消耗率和续驶里程试验方法","a301":"电动摩托车用户工况能量消耗率和续驶里程试验方法","a302":"Test method of energy consumption and range for electric motorcycle during a user’s driving cycle","a825":"T","a825name":"车辆","a826":"","country_name":"中国","a101":"2022-12-30","publicyear":2022,"a205":"2022-12-30","code_type":"STANDARD","formats":[{"uid":"e421f759e28a014b85be52040992455b","lang_name":"中文(简体)","payload":"N","a100pub":"T/CAB 0209-2022","lang_id":"zh-CN","site_code":"STDGOV_TUANTI","spec":"无货","a300":"zh-CN"}],"nsl_collection_e":0},{"yf001":"e11f62b74663a18bf304a892ea73a317","a000":"现行","a104":"GB-BSI","a104name":"英国标准学会","a100":"BS ISO 11452-10:2009","yf100":"BS ISO 11452-10-2009","a298":"公路车辆 窄带辐射电磁能产生的电气干扰的部件试验方法","a301":"Road vehicles. Component test methods for electrical disturbances from narrowband radiated electromagnetic energy-Immunity to conducted disturbances in the extended audio frequency range","a302":"Road vehicles. Component test methods for electrical disturbances from narrowband radiated electromagnetic energy-Immunity to conducted disturbances in the extended audio frequency range","a825":"","a826":"","country_name":"英国","a101":"2009-05-31","publicyear":2009,"a205":"","code_type":"STANDARD","formats":[{"uid":"e11f62b74663a18bf304a892ea73a317","lang_name":"英语","payload":"U","a100pub":"BS ISO 11452-10:2009","lang_id":"en","currency":"USD","site_code":"TECHSTREET","spec":"询价购买","a300":"en"}],"nsl_collection_e":0},{"yf001":"de7948504fe91a1c35de0f78f3cd0734","a000":"现行","a104":"IX-ISO","a104name":"国际标准化组织","a100":"ISO 11452-10:2009","yf100":"ISO 11452-10-2009","a298":"道路车辆——窄带辐射电磁能产生的电气干扰的部件试验方法第10部分:扩展音频范围内传导干扰的抗扰度\n","a301":"Road vehicles — Component test methods for electrical disturbances from narrowband radiated electromagnetic energy — Part 10: Immunity to conducted disturbances in the extended audio frequency range","a302":"Road vehicles — Component test methods for electrical disturbances from narrowband radiated electromagnetic energy — Part 10: Immunity to conducted disturbances in the extended audio frequency range","a825":"","a826":"33.100.20","a826name":"抗扰度","country_name":"国际组织","a101":"2009-03-30","publicyear":2009,"a205":"","code_type":"STANDARD","formats":[{"uid":"de7948504fe91a1c35de0f78f3cd0734","lang_name":"英语","source_price":67.0,"payload":"E","a100pub":"ISO 11452-10:2009","lang_id":"en","currency":"CHF","site_code":"SACISO","sale_price_rmb":541.0,"spec":"电子版加密PDF格式/约1分钟可下载/有水印/要装插件FileOpen/电脑需联网/限制累计3台电脑共打印5次","a300":"en"}],"nsl_collection_e":1},{"yf001":"b297849d6f9a35d7a2eb1c342aaa961b","a000":"现行","a104":"CN-GB","a104name":"国家标准","a100":"GB/T 33014.10-2020","yf100":"GB/T 33014.10-2020","a298":"道路车辆 电气/电子部件对窄带辐射电磁能的抗扰性试验方法 第10部分：扩展音频范围的传导抗扰法","a301":"道路车辆 电气/电子部件对窄带辐射电磁能的抗扰性试验方法 第10部分：扩展音频范围的传导抗扰法","a302":"Road vehicles—Component test methods for electrical/electronic disturbances from narrowband radiated electromagnetic energy—Part 10: Immunity to conducted disturbances in the extended audio frequency range","a825":"T36","a825name":"电子、电气设备","a826":"43.040.10","a826name":"电气和电子设备","country_name":"中国","a101":"2020-12-14","publicyear":2020,"a205":"2021-07-01","code_type":"STANDARD","formats":[{"uid":"64bd7ab6150de266d4c609b8e00883f5","lang_name":"中文(简体)","source_price":33.0,"payload":"E","a100pub":"GB/T 33014.10-2020","lang_id":"zh-CN","currency":"CNY","site_code":"SPCELEC","sale_price_rmb":33.0,"spec":"电子版/约1分钟可下载/有水印","a300":"zh-CN"},{"uid":"9da2f9cd5949ef0c8e412badd2f19d9d","lang_name":"中文(简体)","source_price":33.0,"payload":"P","a100pub":"GB/T 33014.10-2020","lang_id":"zh-CN","currency":"CNY","site_code":"SPCPRINT","sale_price_rmb":33.0,"spec":"纸质版/约1个工作日发快递/无授权单位水印","a300":"zh-CN"}],"nsl_collection_e":1}];
+    let itemStyles = [{color: '#9A60B4'}, {color: '#EA7CCC'}, {color: '#008B8B'}, {color: '#483D8B'}, {color: '#3385FF'}]
+    let nodes = [{
+        id: null, name: standard.a100 + isEmpty(standard.a000) + standard.a298
+        , a000: standard.a000, a298: standard.a298, itemStyle: itemStyles[0], children: []
+    }]
+    let dom = document.getElementById("chart-panel");
+    let myChart = echarts.init(dom);
+    detailEcharts(nodes[0])
+    let option = {
+        tooltip: {
+            formatter: function (params) {
+                return params.name;
+            }
+        },
+        legend: {},
+        toolbox: {
+            show: true,
+            feature: {
+                myTool: {
+                    show: true,
+                    title: '全屏',
+                    icon: "path://M919.920093 725.414549q3.014188 26.122962 7.033105 58.776664t7.53547 66.814498 7.53547 67.819227 7.033105 60.786122q6.028376 47.222277-41.193901 44.208089-25.118232-2.009459-56.767205-5.526011t-64.805039-7.53547-65.809769-8.037834-59.781393-7.033105q-29.137149-3.014188-37.174984-16.578033t9.042564-30.644243q11.052022-10.047293 27.127691-27.630056t27.127691-28.634785q11.052022-12.056752 7.033105-22.104044t-16.075669-23.108774q-28.13242-27.127691-51.241194-49.231735t-51.241194-51.241194q-6.028376-6.028376-12.056752-13.061481t-9.042564-15.573304-1.004729-18.085127 13.061481-20.59695q6.028376-6.028376 10.047293-10.549658t8.037834-8.037834 8.540199-8.037834 11.554387-12.559116q20.094586-20.094586 37.174984-17.080398t37.174984 23.108774 41.193901 40.691536 47.222277 46.719912q19.089857 18.085127 32.653702 25.118232t26.625326-6.028376q9.042564-9.042564 22.606409-21.60168t23.611138-22.606409q17.080398-17.080398 30.644243-13.061481t16.578033 30.141879zM43.79615 383.80659q-3.014188-26.122962-7.033105-58.776664t-7.53547-66.814498-7.53547-67.819227-7.033105-60.786122q-3.014188-26.122962 6.53074-36.170255t33.658431-8.037834q25.118232 2.009459 56.767205 5.526011t64.805039 7.53547 65.809769 8.037834 59.781393 7.033105q30.141879 3.014188 37.677348 16.578033t-9.544928 30.644243q-10.047293 10.047293-24.615868 26.122962t-25.620597 27.127691q-12.056752 12.056752-8.037834 22.104044t17.080398 23.108774q13.061481 14.06621 24.615868 24.615868t22.606409 21.099315 23.108774 22.606409l25.118232 25.118232q6.028376 6.028376 11.554387 14.06621t8.037834 17.080398-0.502365 19.089857-13.061481 20.094586l-11.052022 11.052022q-4.018917 4.018917-7.53547 8.037834t-8.540199 8.037834l-11.052022 12.056752q-20.094586 20.094586-34.663161 15.070939t-34.663161-25.118232-38.179713-37.677348-44.208089-43.705724q-18.085127-18.085127-32.151337-25.118232t-27.127691 6.028376q-9.042564 10.047293-25.118232 24.615868t-26.122962 24.615868q-17.080398 17.080398-30.141879 13.061481t-16.075669-30.141879zM905.853883 84.397261q26.122962-3.014188 36.170255 6.53074t8.037834 34.663161-5.526011 56.767205-7.53547 64.805039-8.037834 65.809769-7.033105 59.781393q-3.014188 29.137149-16.578033 37.174984t-30.644243-10.047293q-10.047293-10.047293-26.122962-24.615868t-27.127691-25.620597q-12.056752-11.052022-22.104044-7.53547t-23.108774 16.578033q-27.127691 27.127691-47.724641 49.231735t-48.729371 50.236465q-6.028376 6.028376-14.06621 11.554387t-17.080398 8.037834-19.089857-0.502365-20.094586-14.06621q-6.028376-6.028376-10.549658-10.047293t-8.540199-8.037834-8.540199-8.037834-11.554387-12.056752q-20.094586-20.094586-16.075669-35.165525t25.118232-35.165525l38.179713-40.189172q19.089857-20.094586 45.212818-46.217547 19.089857-18.085127 26.122962-32.151337t-7.033105-26.122962q-9.042564-9.042564-23.108774-24.615868t-24.113503-25.620597q-17.080398-17.080398-13.061481-30.141879t30.141879-16.075669 58.776664-7.033105 67.316863-7.53547 67.819227-7.53547 60.283758-7.033105zM350.238584 640.012559q6.028376 6.028376 10.549658 10.047293t8.540199 8.037834l8.037834 9.042564 12.056752 11.052022q20.094586 20.094586 17.582763 36.672619t-23.611138 37.677348q-19.089857 19.089857-40.189172 40.691536t-47.222277 47.724641q-18.085127 18.085127-22.606409 29.639514t8.540199 24.615868q10.047293 9.042564 22.606409 22.606409t22.606409 23.611138q17.080398 17.080398 12.559116 30.141879t-30.644243 16.075669-58.274299 7.033105-66.814498 8.037834-68.321592 8.037834-60.786122 7.033105q-25.118232 2.009459-35.66789-7.53547t-8.540199-33.658431q2.009459-25.118232 5.526011-56.767205t7.53547-64.805039 8.037834-65.809769 7.033105-59.781393q3.014188-30.141879 16.578033-37.677348t30.644243 9.544928q10.047293 10.047293 27.630056 26.122962t28.634785 27.127691q12.056752 12.056752 20.094586 10.549658t20.094586-14.568575q13.061481-13.061481 25.118232-25.620597t24.113503-24.615868 24.615868-25.118232 26.625326-27.127691q6.028376-6.028376 13.061481-12.056752t15.573304-9.042564 18.085127-0.502365 20.59695 13.563845z",
+                    onclick: function (e) {
+                        const element = document.getElementById('chart-panel');
+                        const c = document.getElementById('test-c');
+                        if (element.requestFullScreen) {
+                            element.requestFullScreen();
+                        } else if (element.msRequestFullscreen) {
+                            element.msRequestFullScreen();
+                        } else if (element.webkitRequestFullScreen) {
+                            element.webkitRequestFullScreen();
+                        } else if (element.mozRequestFullScreen) {
+                            element.mozRequestFullScreen();
+                        }
+                        if (element.requestFullScreen) {
+                            document.exitFullscreen();
+                            c.exitFullscreen();
+                        } else if (element.msRequestFullScreen) {
+                            document.msExitFullscreen();
+                        } else if (element.webkitRequestFullScreen) {
+                            document.webkitCancelFullScreen();
+                        } else if (element.mozRequestFullScreen) {
+                            document.mozCancelFullScreen();
+                        }
+                    }
+                },
+                myTTool: {
+                    show: true,
+
+                },
+                restore: {
+                    title: '还原'
+                },
+                saveAsImage: {
+                    title: '保存为图片'
+                },
+            },
+            textStyle: {
+                color: "#fff",
+            },
+        },
+        series: [{
+            emphasis: {
+                focus: 'relative'
+            },
+
+            zoom: 1,
+            symbolSize: 0,
+            avoidLabelOverlap: true,
+            animationDurationUpdate: 750,
+            type: 'tree',
+            data: nodes,
+            left: '20%',
+            right: '50%',
+            lineStyle: {
+                width: 1, // 设置连线的宽度
+                curveness: 0.7 // 连线的弯曲度，值为 0 到 1，0 为直线，1 为弯曲最大
+            },
+            hoverAnimation: true,
+            roam: true, // 启用拖拽功能
+            symbol: "circle",
+            initialTreeDepth: -1,
+            label: {
+                normal: {
+                    borderRadius: 5,
+                    position: "center",
+                    verticalAlign: "middle",
+                    align: "center",
+                    padding: 3,
+                    formatter: ["{box|{b}}"].join("\n"),
+                    rich: {
+                        box: {
+                            backgroundColor: "rgba(161,2,248,0.06)",
+                            borderRadius: 5,
+                            fontFamily: "sans-serif",
+                            height: 30,
+                            lineHeight: 30,
+                            padding: [0, 5],
+                            align: "center",
+                            fontSize: 14,
+                        },
+                    },
+                },
+            },
+            leaves: {
+                label: {
+                    normal: {
+                        borderRadius: 5,
+                        position: "center",
+                        verticalAlign: "middle",
+                        align: "left",
+                        formatter: ["{box|{b}}"].join("\n"),
+                        rich: {
+                            box: {
+                                borderColor: '#50dfdb',
+                                borderWidth: 0.4,
+                                backgroundColor: "rgba(0,123,255,0.06)",
+                                height: 20,
+                                lineHeight: 20,
+                                padding: [0, 5],
+
+                                fontFamily: "sans-serif",
+                                align: "center",
+                                fontSize: 14,
+                            },
+                        },
+                    },
+                },
+            },
+            animationDuration: 550,
+        }]
+    };
+    if (option && typeof option === 'object') {
+
+        myChart.setOption(option);
+    }
+
+    function isEmpty(obj) {
+        if (typeof obj !== "undefined" && obj !== null && obj !== '') {
+            return '【' + obj + '】';
+        }
+        return "";
+    }
+
+
+    // 异步加载数据并刷新图表
+    function refreshChartWithInitialState() {
+        // 获取当前图表的配置
+        let option = myChart.getOption()
+        const data = option.series[0].data
+        return data
+    }
+
+    myChart.on("click", (params) => {
+
+        const treeAncestors = params.treeAncestors || []
+        let level = 0
+        let right = 5
+        if (treeAncestors.length > 1) {
+            level = treeAncestors.length - 1
+            if (level < 4) {
+                right = 5
+            } else {
+                right = 5 - (level - 4)
+            }
+            right = right < 0 ? 10 : (right * 10)
+        }
+
+        if (params.data.type === 'bz') {
+            $.ajax({
+                url: '/api/standard/acckw',
+                type: 'POST',
+                contentType: "application/json",
+                data: JSON.stringify({keyWord: typeof params.data.name2 !== 'undefined' ? params.data.name2 : params.data.name}),
+                success: function (data) {
+                    if (typeof params.data.children === 'undefined' || params.data.children.length === 0) {
+                        params.data.children = data.stds.map(item => ({
+                            id: item.yf001,
+                            name: item.yf100 + isEmpty(item.a000) + item.a298,
+                            name2: item.yf100,
+                            itemStyle: itemStyles[4],
+                            level: '2-1'
+                        }));
+                        myChart.setOption({
+                            series: [{
+                                right: right + '%',
+                                data: refreshChartWithInitialState()
+                            }]
+                        });
+                    }
+                }
+            })
+        } else if (params.data.type === 'qcr') {
+            $.ajax({
+                url: '/api/standard/list',
+                type: 'POST',
+                contentType: "application/json",
+                data: JSON.stringify({page: 1, size: 20, draftman: params.data.name}),
+                success: function (res) {
+                    if (typeof params.data.children === 'undefined' || params.data.children.length === 0) {
+                        data = res.data
+                        params.data.children = data.results.map(item => ({
+                            id: item.yf001,
+                            name: item.yf100 + isEmpty(item.a000) + item.a298,
+                            name2: item.yf100,
+                            itemStyle: itemStyles[4],
+                            level: '2-1'
+                        }));
+
+                        myChart.setOption({
+                            series: [{
+                                right: right + '%',
+                                data: refreshChartWithInitialState()
+                            }]
+                        });
+                    }
+                }
+            })
+        } else if (params.data.type === 'dw') {
+            $.ajax({
+                url: '/api/standard/list',
+                type: 'POST',
+                contentType: "application/json",
+                data: JSON.stringify({page: 1, size: 20, a209: params.data.name}),
+                success: function (res) {
+                    data = res.data.results
+                    if (typeof params.data.children === 'undefined' || params.data.children.length === 0) {
+                        params.data.children = data.map(item => ({
+                            collapsed: false, id: item.yf001, a000: item.a000,
+                            name: item.yf100 + isEmpty(item.a000) + item.a298,
+                            name2: item.yf100
+                            , itemStyle: itemStyles[4], level: '2-1'
+                        }));
+                        myChart.setOption({
+                            series: [{
+                                right: right + '%',
+                                data: refreshChartWithInitialState()
+                            }]
+                        });
+                    }
+                }
+            })
+        }
+        if (params.data.level === '2-1') {
+            $.get('/standard/echarts/detail/' + params.data.id, res => {
+                if (typeof params.data.children === 'undefined' || params.data.children.length === 0) {
+                    standard = res.standards
+                    relevantRegulations = res.relevantRegulationsWor
+                    params.data.children = [];
+                    params.data.itemStyle = itemStyles[0];
+                    params.data.collapsed = false;
+                    detailEcharts(params.data)
+                    myChart.setOption({
+                        series: [{
+                            right: right + '%',
+                            data: refreshChartWithInitialState()
+                        }]
+                    });
+                }
+            })
+        }
+        setTimeout(() => {
+            params.data.collapsed = params.collapsed
+        }, 500)
+    });
+
+
+    $("#chart-panel").append($(".controls"));
+
+    $("#zoomIn").on("click", (e) => {
+        myChart.setOption({
+            series: [{
+                zoom: (myChart.getOption().series[0].zoom += 1)
+            }]
+        });
+    })
+
+    $("#zoomOut").on("click", (e) => {
+        if (myChart.getOption().series[0].zoom <= 1) {
+            return;
+        }
+        myChart.setOption({
+            series: [{
+                zoom: (myChart.getOption().series[0].zoom + -1)
+            }]
+        });
+    })
+
+    function handleFullscreenChange() {
+        if (!document.fullscreenElement) {
+            myChart.setOption(option, true);
+        }
+    }
+
+    document.addEventListener("fullscreenchange", handleFullscreenChange);
+    document.addEventListener("webkitfullscreenchange", handleFullscreenChange); // Safari
+    document.addEventListener("mozfullscreenchange", handleFullscreenChange); // Firefox
+    document.addEventListener("MSFullscreenChange", handleFullscreenChange); // IE/Edge
+
+    window.addEventListener("resize", function (e) {
+        myChart.resize();
+    })
+
+    function detailEcharts(node) {
+        let manufacture = false;
+        let yz = [];
+
+        if (typeof standard.draftmanlist !== 'undefined' && standard.draftmanlist !== null && standard.draftmanlist.length > 0) {
+            const formattedList = standard.draftmanlist.map((name, index) => ({
+                name: name,
+                type: 'qcr',
+                itemStyle: itemStyles[3]
+            }));
+            yz.push({id: null, name: '起草人', itemStyle: itemStyles[2], children: formattedList})
+            manufacture = true;
+        }
+
+        if (typeof standard.a209list !== 'undefined' && standard.a209list !== null && standard.a209list.length > 0) {
+            const a209list = standard.a209list.map((name, index) => ({
+                name: name,
+                itemStyle: itemStyles[3],
+                type: 'dw'
+            }));
+            yz.push({name: '起草单位', itemStyle: itemStyles[2], children: a209list})
+            manufacture = true;
+        }
+        if (manufacture) {
+            node.children.push({id: null, name: '研制信息', itemStyle: itemStyles[1], children: yz})
+        }
+        let relation = false;
+        let gx = [];
+
+        if (typeof standard.a502list !== 'undefined' && standard.a502list !== null && standard.a502list.length > 0) {
+            const a502list = standard.a502list.map((name, index) => ({
+                name: name,
+                itemStyle: itemStyles[3],
+                type: 'bz'
+            }));
+            gx.push({
+                name: '引用标准(' + standard.a502list.length + ')',
+                itemStyle: itemStyles[2], children: a502list
+            })
+            relation = true
+        }
+
+        if (typeof standard.a800list !== 'undefined' && standard.a800list !== null && standard.a800list.length > 0) {
+            const a800list = standard.a800list.map((name, index) => ({
+                id: null,
+                name: name,
+                itemStyle: itemStyles[3],
+                type: 'bz'
+            }));
+            gx.push({
+                id: null,
+                name: '采用标准(' + standard.a800list.length + ')',
+                itemStyle: itemStyles[2], children: a800list
+            })
+            relation = true
+        }
+
+        if (typeof standard.a461list !== "undefined" && standard.a461list !== null && standard.a461list.length > 0) {
+            const a461list = standard.a461list.map((name, index) => ({
+                id: null,
+                name: name,
+                itemStyle: itemStyles[3],
+                type: 'bz'
+            }));
+            gx.push({
+                id: null,
+                name: '代替标准(' + standard.a461list.length + ')',
+
+                itemStyle: itemStyles[2], children: a461list
+            })
+            relation = true
+        }
+
+        if (typeof standard.a462list !== "undefined" && standard.a462list !== null && standard.a462list.length > 0) {
+            const a462list = standard.a462list.map((name, index) => ({
+                name: name,
+                itemStyle: itemStyles[3],
+                type: 'bz'
+            }));
+            gx.push({
+                id: null,
+                name: '被代替标准(' + standard.a462list.length + ')',
+
+                itemStyle: itemStyles[2], children: a462list
+            })
+            relation = true
+        }
+        if (relation) {
+            node.children.push({id: null, name: '关联关系', itemStyle: itemStyles[1], children: gx})
+        }
+        if (typeof relevantRegulations !== "undefined" && relevantRegulations !== null && relevantRegulations.length > 0) {
+            const relevant = relevantRegulations.map(item => ({
+                id: item.yf001,
+                name: item.yf100 + isEmpty(item.a000) + item.a298,
+                itemStyle: itemStyles[2],
+                level: '2-1',
+                name2: item.yf100
+            }));
+            node.children.push({
+                id: null, name: '相似标准/计划/法规', itemStyle: itemStyles[1],
+                children: relevant
+            })
+        }
+    }
+
+    function objToQueryString(obj) {
+        return Object.keys(obj)
+            .map(key => {
+                var value = ''
+                if (obj[key] !== undefined && obj[key] !== null) {
+                    value = obj[key]
+                }
+                return encodeURIComponent(key) + '=' + value
+            })
+            .join('&');
+    }
+
+    // 到馆提醒
+    $(document).on('click', '.dg-warn', function () {
+        const $this = $(this);
+        checkLogin(true).then(isLogin => {
+            if (isLogin) {
+                // 构建要发送的数据对象
+                const data = {
+                    status: this.dataset.a000,
+                    standardNumber: this.dataset.a100,
+                    publishDate: this.dataset.a101,
+                    chineseTitle: this.dataset.a298,
+                    originalTitle: this.dataset.a301,
+                    standardId: this.dataset.yf001
+                };
+
+                // 发送数据到后端
+                fetch('/api/user-alert/add-ale', {
+                    method: 'POST',
+                    headers: {
+                        'Content-Type': 'application/json'
+                    },
+                    body: JSON.stringify(data)
+                })
+                    .then(response => response.json())
+                    .then(responseData => {
+                        if (responseData.data === true) {
+                            layer.msg('添加提醒成功')
+                            $this.find('.warn-icon').attr('src', '/img/success-notice-icon.png?v=1790663949')
+                        } else if (responseData.data === false) {
+                            layer.msg('已取消提醒')
+                            $this.find('.warn-icon').attr('src', '/img/notice-icon.png?v=1790663949')
+                        }
+                    })
+                    .catch(error => {
+                        console.error('Error:', error);
+                        layer.msg('添加提醒失败，请稍后重试');
+                    });
+            }
+        })
+    })
+    // 到馆阅读
+    $(document).on('click', '.dg-read', function () {
+        dgRead({yf001: this.dataset.yf001, a298: this.dataset.a298, a100: this.dataset.a100, a301: this.dataset.a301})
+    })
+</script>
+

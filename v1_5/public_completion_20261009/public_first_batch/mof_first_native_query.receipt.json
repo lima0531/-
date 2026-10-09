@@ -1,0 +1,27 @@
+{
+  "request_url": "https://search.mof.gov.cn/was5/web/search",
+  "purpose": "按照财政部门户真实搜索form/channelid作一次首批公告公开检索",
+  "retrieved_at_utc": "2026-10-09T07:47:08.078885+00:00",
+  "request_method": "POST",
+  "tls_verification": true,
+  "retry_policy": "one request; cache receipt thereafter",
+  "request_body_utf8": "channelid=295890&searchword=%E5%85%8D%E5%BE%81%E8%BD%A6%E8%BE%86%E8%B4%AD%E7%BD%AE%E7%A8%8E+%E7%AC%AC%E4%B8%80%E6%89%B9&searchscope=doctitle&orderby=-DOCRELTIME",
+  "http_status": 502,
+  "final_url": "https://search.mof.gov.cn/was5/web/search",
+  "response_headers": {
+    "date": "Fri, 09 Oct 2026 07:47:10 GMT",
+    "content-type": "text/html",
+    "content-length": "1959",
+    "server": "envoy",
+    "x-via": "1.1 PS-KHH-01OXy170:4 (Cdn Cache Server V2.0), 1.1 PS-SIN-049Ni63:1 (Cdn Cache Server V2.0)",
+    "x-ws-request-id": "6ac89bfe_PS-SIN-049Ni63_21695-44504",
+    "x-envoy-upstream-service-time": "1241",
+    "connection": "close"
+  },
+  "status": "http_error",
+  "error_type": "HTTPError",
+  "error": "HTTP Error 502: Bad Gateway",
+  "evidence_file": "/workspace/purchase_tax_audit/round9/public_first_batch/mof_first_native_query.html",
+  "bytes": 1959,
+  "sha256": "7aa0aa338af3d8114aa7ceb1b6771e5880d28c158fd4ca92b8109faffc45c3fd"
+}

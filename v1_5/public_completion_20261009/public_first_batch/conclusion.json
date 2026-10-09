@@ -1,0 +1,31 @@
+{
+  "generated_at_utc": "2026-10-09T07:55:45.952512+00:00",
+  "document_number": "工业和信息化部 国家税务总局公告2014年第54号",
+  "scope": "一次有界历史公开档案补查；具体官方公告/正式转载/新闻与公共CDX分别留证",
+  "actual_requests_this_round_including_cdx": 34,
+  "http_200_responses": 28,
+  "new_complete_official_reprint_pages": 1,
+  "new_complete_formal_third_party_reprint_pages": 1,
+  "new_official_historical_news_pages": 1,
+  "new_original_miit_indexed_urls_current_http404": 2,
+  "registered_layer_already_obtained_in_round8": "2014-08-27",
+  "regional_register_vs_own_body_conflict": {
+    "regional_pub_date": "2014-08-26",
+    "regional_signed_field": "2014-08-26",
+    "body_signed_day": "2014-08-27"
+  },
+  "historical_news_reported_issuance_day": "2014-08-28",
+  "historical_news_labeled_date": "2014-09-18",
+  "public_cdx_attempts": 5,
+  "official_known_url_cdx_http200_empty_arrays": 4,
+  "new_esnai_cdx_http_status": 503,
+  "actual_historical_first_online_date_verified": false,
+  "new_historical_public_observation_upper_bound": null,
+  "previously_unresolved_historical_first_online_items_closed": 0,
+  "historical_first_online_item_still_unverified": 1,
+  "first_online_unknown_is_current_analysis_blocker": false,
+  "no_historical_nonpublication_inferred_from_empty_search_or_cdx": true,
+  "original_pdf_or_zip_re_downloaded": false,
+  "science_dates_main_data_export_and_git_modified": false,
+  "registry_conflict_and_news_not_adopted_as_scientific_dates": true
+}

@@ -1,0 +1,144 @@
+{
+  "model_key": "LZ6510NPD0EV",
+  "requested_q": "\"LZ6510NPD0EV\"",
+  "query_echo": "\"LZ6510NPD0EV\"",
+  "receipt": {
+    "requested_url": "https://www.bing.com/search?q=%22LZ6510NPD0EV%22&mkt=zh-CN&setlang=zh-hans&count=10",
+    "retrieved_utc": "2026-10-09T07:46:54.558009+00:00",
+    "tls_verification": true,
+    "status": "ok",
+    "http_status": 200,
+    "final_url": "https://www.bing.com/search?q=%22LZ6510NPD0EV%22&mkt=zh-CN&setlang=zh-hans&count=10",
+    "bytes": 104311,
+    "sha256": "f81e676c5147126d1bb29ee94219cd7cd5d708cb53932a4d994046c0977215bc",
+    "response_headers": {
+      "content-type": "text/html; charset=utf-8",
+      "cache-control": "private, max-age=0",
+      "expires": "Fri, 09 Oct 2026 07:45:54 GMT",
+      "vary": "User-Agent,Accept-Encoding",
+      "x-eventid": "6ac89bee645e476385dd58159e518301",
+      "x-as-setsessionmarket": "zh-CN",
+      "x-as-setsessionuilang": "zh-hans",
+      "useragentreductionoptout": "A7kgTC5xdZ2WIVGZEfb1hUoNuvjzOZX3VIV/BA6C18kQOOF50Q0D3oWoAm49k3BQImkujKILc7JmPysWk3CSjwUAAACMeyJvcmlnaW4iOiJodHRwczovL3d3dy5iaW5nLmNvbTo0NDMiLCJmZWF0dXJlIjoiU2VuZEZ1bGxVc2VyQWdlbnRBZnRlclJlZHVjdGlvbiIsImV4cGlyeSI6MTY4NDg4NjM5OSwiaXNTdWJkb21haW4iOnRydWUsImlzVGhpcmRQYXJ0eSI6dHJ1ZX0=",
+      "strict-transport-security": "max-age=31536000; includeSubDomains; preload",
+      "permissions-policy": "unload=()",
+      "content-security-policy": "script-src https: 'strict-dynamic' 'report-sample' 'wasm-unsafe-eval' 'nonce-mzpwzRzIcga5yIrGbJuLDNIFGux3nWynXRZCpGNem/s='; base-uri 'self';",
+      "p3p": "CP=\"NON UNI COM NAV STA LOC CURa DEVa PSAa PSDa OUR IND\"",
+      "x-display-context": "full",
+      "date": "Fri, 09 Oct 2026 07:46:54 GMT",
+      "set-cookie": "_SS=SID=094E91CC85F868762FC4862184726939; domain=.bing.com; path=/",
+      "alt-svc": "h3=\":443\"; ma=93600",
+      "x-cdn-traceid": "0.cd1c2117.1791532014.9151d87b",
+      "x-envoy-upstream-service-time": "151",
+      "server": "envoy",
+      "connection": "close",
+      "transfer-encoding": "chunked"
+    },
+    "relative_path": "external/model_LZ6510NPD0EV.html"
+  },
+  "hits": [
+    {
+      "model_key": "LZ6510NPD0EV",
+      "result_url": "https://www.whatsapp.com/download",
+      "result_text": "whatsapp.com https://www. whatsapp .com ›  download Download WhatsApp Download WhatsApp on your mobile device, tablet or desktop and stay connected with reliable private messaging and calling. …    ",
+      "exact_model_in_result_text": 0,
+      "government_domain_candidate": 0,
+      "usable_as_scientific_evidence": 0,
+      "source_search_file": "external/model_LZ6510NPD0EV.html",
+      "source_search_sha256": "f81e676c5147126d1bb29ee94219cd7cd5d708cb53932a4d994046c0977215bc"
+    },
+    {
+      "model_key": "LZ6510NPD0EV",
+      "result_url": "https://www.whatsapp.com/download?lang=zh",
+      "result_text": "whatsapp.com https://www. whatsapp .com ›  download 下载  WhatsApp 在你的移动设备、平板电脑和桌面设备上下载 WhatsApp，通过私密可靠的消息对话和通话与他人保持联络。 支持 Android、iOS …",
+      "exact_model_in_result_text": 0,
+      "government_domain_candidate": 0,
+      "usable_as_scientific_evidence": 0,
+      "source_search_file": "external/model_LZ6510NPD0EV.html",
+      "source_search_sha256": "f81e676c5147126d1bb29ee94219cd7cd5d708cb53932a4d994046c0977215bc"
+    },
+    {
+      "model_key": "LZ6510NPD0EV",
+      "result_url": "https://web.whatsapp.com/",
+      "result_text": "whatsapp.com https://web. whatsapp .com WhatsApp  Web Log in to WhatsApp Web for simple, reliable and private messaging on your desktop. Send and receive messages and files with …",
+      "exact_model_in_result_text": 0,
+      "government_domain_candidate": 0,
+      "usable_as_scientific_evidence": 0,
+      "source_search_file": "external/model_LZ6510NPD0EV.html",
+      "source_search_sha256": "f81e676c5147126d1bb29ee94219cd7cd5d708cb53932a4d994046c0977215bc"
+    },
+    {
+      "model_key": "LZ6510NPD0EV",
+      "result_url": "https://apps.microsoft.com/detail/9nksqgp7f2nh?hl=zh-CN&gl=CN",
+      "result_text": "microsoft.com https://apps.microsoft.com › detail WhatsApp  - Windows官方下载 | 微软应用商店 | Microsoft Store WhatsApp from Meta 是一款完全免费的消息应用程序。 其用户超过 20 亿，遍布全球 180 多个国家和地区。 它使用简单、可靠且私 …",
+      "exact_model_in_result_text": 0,
+      "government_domain_candidate": 0,
+      "usable_as_scientific_evidence": 0,
+      "source_search_file": "external/model_LZ6510NPD0EV.html",
+      "source_search_sha256": "f81e676c5147126d1bb29ee94219cd7cd5d708cb53932a4d994046c0977215bc"
+    },
+    {
+      "model_key": "LZ6510NPD0EV",
+      "result_url": "https://gizmodo.com/download/whatsapp",
+      "result_text": "gizmodo.com https://gizmodo.com ›  download  ›  whatsapp Download WhatsApp  (free) for Windows, macOS, Android, APK 1 天前 · You can download WhatsApp and start using all of its features at no cost. There are no ads interrupting your conversations, …",
+      "exact_model_in_result_text": 0,
+      "government_domain_candidate": 0,
+      "usable_as_scientific_evidence": 0,
+      "source_search_file": "external/model_LZ6510NPD0EV.html",
+      "source_search_sha256": "f81e676c5147126d1bb29ee94219cd7cd5d708cb53932a4d994046c0977215bc"
+    },
+    {
+      "model_key": "LZ6510NPD0EV",
+      "result_url": "https://apkpure.com/whatsapp-android/com.whatsapp",
+      "result_text": "apkpure.com https://apkpure.com ›  whatsapp -android › com. whatsapp WhatsApp  APK for Android  Download  - APKPure.com 2 天之前 · Getting started takes only a few minutes, and you can download WhatsApp apk and begin chatting right away. The steps …",
+      "exact_model_in_result_text": 0,
+      "government_domain_candidate": 0,
+      "usable_as_scientific_evidence": 0,
+      "source_search_file": "external/model_LZ6510NPD0EV.html",
+      "source_search_sha256": "f81e676c5147126d1bb29ee94219cd7cd5d708cb53932a4d994046c0977215bc"
+    },
+    {
+      "model_key": "LZ6510NPD0EV",
+      "result_url": "https://whatsapp.en.softonic.com/",
+      "result_text": "softonic.com https:// whatsapp .en.softonic.com WhatsApp - Download 2026年7月21日 · WhatsApp is a communication platform for mobile and desktop. It provides simple, reliable, and private messaging …",
+      "exact_model_in_result_text": 0,
+      "government_domain_candidate": 0,
+      "usable_as_scientific_evidence": 0,
+      "source_search_file": "external/model_LZ6510NPD0EV.html",
+      "source_search_sha256": "f81e676c5147126d1bb29ee94219cd7cd5d708cb53932a4d994046c0977215bc"
+    },
+    {
+      "model_key": "LZ6510NPD0EV",
+      "result_url": "https://apkpure.com/cn/whatsapp-android/com.whatsapp",
+      "result_text": "apkpure.com https://apkpure.com › cn ›  whatsapp -android › com. whatsapp WhatsApp 安卓版应用APK下载 2026年10月2日 · 关于WhatsApp 简易・个人化・安全 WhatsApp from Meta 是一款免费的消息和视频通话应用，在 180 多个国家和地 …",
+      "exact_model_in_result_text": 0,
+      "government_domain_candidate": 0,
+      "usable_as_scientific_evidence": 0,
+      "source_search_file": "external/model_LZ6510NPD0EV.html",
+      "source_search_sha256": "f81e676c5147126d1bb29ee94219cd7cd5d708cb53932a4d994046c0977215bc"
+    },
+    {
+      "model_key": "LZ6510NPD0EV",
+      "result_url": "https://wa.me/",
+      "result_text": "wa.me https://wa.me HOUSAB -  WhatsApp Hosted by WhatsApp 2026 © WhatsApp LLC Privacy & Terms",
+      "exact_model_in_result_text": 0,
+      "government_domain_candidate": 0,
+      "usable_as_scientific_evidence": 0,
+      "source_search_file": "external/model_LZ6510NPD0EV.html",
+      "source_search_sha256": "f81e676c5147126d1bb29ee94219cd7cd5d708cb53932a4d994046c0977215bc"
+    },
+    {
+      "model_key": "LZ6510NPD0EV",
+      "result_url": "https://whatsapp-messenger.en.uptodown.com/android",
+      "result_text": "uptodown.com https:// whatsapp -messenger.en.uptodown.com WhatsApp  Messenger for Android -  Download  the APK from … Download the WhatsApp Messenger APK for Android and enjoy this excellent instant messaging app on your smartphone. Access …",
+      "exact_model_in_result_text": 0,
+      "government_domain_candidate": 0,
+      "usable_as_scientific_evidence": 0,
+      "source_search_file": "external/model_LZ6510NPD0EV.html",
+      "source_search_sha256": "f81e676c5147126d1bb29ee94219cd7cd5d708cb53932a4d994046c0977215bc"
+    }
+  ],
+  "exact_model_relevant_hits": 0,
+  "same_model_is_configuration_identity": false,
+  "negative_search_conclusion_permitted": false
+}

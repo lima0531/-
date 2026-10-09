@@ -1,0 +1,87 @@
+{
+  "standard_number": "GB/T 18386.1-2021",
+  "standard_name": "电动汽车能量消耗量和续驶里程试验方法 第1部分：轻型汽车",
+  "official_registry_id": "BD89DE8E07723D08E05397BE0A0A4FAD",
+  "official_registered_publication_date": "2021-03-09",
+  "official_registered_implementation_date": "2021-10-01",
+  "official_registered_current_status": "现行",
+  "registered_current_status_observation_date_shanghai": "2026-10-09T13:23:43.609539+08:00",
+  "registered_replaces_standard": "GB/T 18386-2017",
+  "registered_replaces_relation": "部分代替",
+  "registered_replaced_by_standards_displayed": [],
+  "registered_replaced_by_observation": "本次完整标准详情页标准状态关系图未列出后继标准；当前登记状态为现行。仅认证本次登记观察，不声称未来不被替代或所有外部记录绝对不存在。",
+  "registry_required_fields_obtained": [
+    "标准号",
+    "标准名称",
+    "发布日期",
+    "实施日期",
+    "查询时登记状态",
+    "直接部分替代关系"
+  ],
+  "query_raw_row": {
+    "id": "BD89DE8E07723D08E05397BE0A0A4FAD",
+    "C_C_NAME": "电动汽车能量消耗量和续驶里程试验方法 第1部分：轻型汽车",
+    "C_STD_CODE": "<sacinfo>GB</sacinfo>/<sacinfo>T</sacinfo> <sacinfo>18386.1-2021</sacinfo>",
+    "STD_NATURE": "推荐性",
+    "ACT_DATE": "2021-10-01",
+    "STATE": "现行",
+    "ISSUE_DATE": "2021-03-09",
+    "PROJECT_ID": 127149
+  },
+  "detail_raw_fields": {
+    "标准号": "GB/T 18386.1-2021",
+    "发布日期": "2021-03-09",
+    "实施日期": "2021-10-01",
+    "部分代替标准": "GB/T 18386-2017,"
+  },
+  "detail_standard_state_section_text": "标准状态 发布 于 2021-03-09 实施 于 2021-10-01 上次复审 废止 代替了以下标准 GB/T 18386-2017 （部分代替） 电动汽车 能量消耗率和续驶里程 试验方法 当前标准 GB/T 18386.1-2021 现行 电动汽车能量消耗量和续驶里程试验方法 第1部分：轻型汽车",
+  "detail_field_line_locations": {
+    "current_status": [
+      956,
+      1168
+    ],
+    "publication_date": [
+      1111,
+      1191
+    ],
+    "implementation_date": [
+      1112,
+      1198
+    ],
+    "partial_replaces": [
+      1127,
+      1136,
+      1141,
+      1206,
+      1208
+    ]
+  },
+  "query_evidence": {
+    "file": "/workspace/purchase_tax_audit/round8/public_archive_final_pass/standard_registry_query.html",
+    "sha256": "7fe2ae9627235566888d25019e6728f05d087d67f7593d15a45705c83e7761b4",
+    "source_url": "https://std.samr.gov.cn/gb/search/gbQueryPage?searchText=GB%2FT+18386.1-2021",
+    "retrieved_at_utc": "2026-10-09T05:22:49.247906+00:00",
+    "retrieved_at_shanghai": "2026-10-09T13:22:49.247906+08:00",
+    "http_status": 200
+  },
+  "detail_evidence": {
+    "file": "/workspace/purchase_tax_audit/round8/public_archive_final_pass/standard_registry_detail.html",
+    "sha256": "114533aeb005b7f7d6fbf3bcc53b2ccb94232898d4f12ff03690e8e390ebd426",
+    "source_url": "https://std.samr.gov.cn/gb/search/gbDetailed?id=BD89DE8E07723D08E05397BE0A0A4FAD",
+    "retrieved_at_utc": "2026-10-09T05:23:43.609539+00:00",
+    "retrieved_at_shanghai": "2026-10-09T13:23:43.609539+08:00",
+    "http_status": 200
+  },
+  "predecessor_reciprocal_relation_verified": true,
+  "predecessor_evidence": {
+    "file": "/workspace/purchase_tax_audit/round8/public_archive_final_pass/standard_replaced_2017_detail.html",
+    "sha256": "42fec6078618c62d9a96e58104ecbe7e1939cb9ab5eb785afd31f176be9ac34a",
+    "source_url": "https://std.samr.gov.cn/gb/search/gbDetailed?id=71F772D81FD5D3A7E05397BE0A0AB82A",
+    "retrieved_at_utc": "2026-10-09T05:25:36.095946+00:00",
+    "retrieved_at_shanghai": "2026-10-09T13:25:36.095946+08:00",
+    "http_status": 200
+  },
+  "matches_prior_policy_implementation_date": true,
+  "standard_fulltext_or_model_specific_low_temperature_reports_not_required_for_this_metadata_completion": true,
+  "science_data_modified": false
+}

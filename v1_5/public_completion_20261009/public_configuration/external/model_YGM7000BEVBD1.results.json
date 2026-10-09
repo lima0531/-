@@ -1,0 +1,144 @@
+{
+  "model_key": "YGM7000BEVBD1",
+  "requested_q": "\"YGM7000BEVBD1\"",
+  "query_echo": "\"YGM7000BEVBD1\"",
+  "receipt": {
+    "requested_url": "https://www.bing.com/search?q=%22YGM7000BEVBD1%22&mkt=zh-CN&setlang=zh-hans&count=10",
+    "retrieved_utc": "2026-10-09T07:46:54.966790+00:00",
+    "tls_verification": true,
+    "status": "ok",
+    "http_status": 200,
+    "final_url": "https://www.bing.com/search?q=%22YGM7000BEVBD1%22&mkt=zh-CN&setlang=zh-hans&count=10",
+    "bytes": 103098,
+    "sha256": "3413878aaa8ba636843e8330c9427ddaafb8a1301cc88b746007069454b36143",
+    "response_headers": {
+      "content-type": "text/html; charset=utf-8",
+      "cache-control": "private, max-age=0",
+      "expires": "Fri, 09 Oct 2026 07:45:55 GMT",
+      "vary": "User-Agent,Accept-Encoding",
+      "x-eventid": "6ac89bef93d04bf685e94c696bfaf855",
+      "x-as-setsessionmarket": "zh-CN",
+      "x-as-setsessionuilang": "zh-hans",
+      "useragentreductionoptout": "A7kgTC5xdZ2WIVGZEfb1hUoNuvjzOZX3VIV/BA6C18kQOOF50Q0D3oWoAm49k3BQImkujKILc7JmPysWk3CSjwUAAACMeyJvcmlnaW4iOiJodHRwczovL3d3dy5iaW5nLmNvbTo0NDMiLCJmZWF0dXJlIjoiU2VuZEZ1bGxVc2VyQWdlbnRBZnRlclJlZHVjdGlvbiIsImV4cGlyeSI6MTY4NDg4NjM5OSwiaXNTdWJkb21haW4iOnRydWUsImlzVGhpcmRQYXJ0eSI6dHJ1ZX0=",
+      "strict-transport-security": "max-age=31536000; includeSubDomains; preload",
+      "permissions-policy": "unload=()",
+      "content-security-policy": "script-src https: 'strict-dynamic' 'report-sample' 'wasm-unsafe-eval' 'nonce-1J+iA/KUPZG327uH4XmF8Z7Fy3KQOX97AUmL+By04Dg='; base-uri 'self';",
+      "p3p": "CP=\"NON UNI COM NAV STA LOC CURa DEVa PSAa PSDa OUR IND\"",
+      "x-display-context": "full",
+      "date": "Fri, 09 Oct 2026 07:46:55 GMT",
+      "set-cookie": "_SS=SID=31BFAF0F2D3262280504B8E22C3B63BD; domain=.bing.com; path=/",
+      "alt-svc": "h3=\":443\"; ma=93600",
+      "x-cdn-traceid": "0.c41c2117.1791532015.97fbca2",
+      "x-envoy-upstream-service-time": "82",
+      "server": "envoy",
+      "connection": "close",
+      "transfer-encoding": "chunked"
+    },
+    "relative_path": "external/model_YGM7000BEVBD1.html"
+  },
+  "hits": [
+    {
+      "model_key": "YGM7000BEVBD1",
+      "result_url": "https://www.xiaoyuanyouke.com/",
+      "result_text": "xiaoyuanyouke.com https://www.xiaoyuanyouke.com 小猿优课 不断革新行业标准 引领在线教育进化 小猿优课 办学许可证 非企业单位登记证书 收退费规则 教师资格公示 学校章程 公司地址：广东 …    ",
+      "exact_model_in_result_text": 0,
+      "government_domain_candidate": 0,
+      "usable_as_scientific_evidence": 0,
+      "source_search_file": "external/model_YGM7000BEVBD1.html",
+      "source_search_sha256": "3413878aaa8ba636843e8330c9427ddaafb8a1301cc88b746007069454b36143"
+    },
+    {
+      "model_key": "YGM7000BEVBD1",
+      "result_url": "https://apps.microsoft.com/detail/xpffpgj81xrj85?hl=zh-CN&gl=CN",
+      "result_text": "microsoft.com https://apps.microsoft.com › detail 小猿优课  - Windows官方下载 | 微软应用商店 | Microsoft Store 【产品介绍】 小猿优课，中学在线网课平台，提供多科在线互动教学，沉浸体验，以科技助力教育。 小猿优课系统班：全科重难点辅 …",
+      "exact_model_in_result_text": 0,
+      "government_domain_candidate": 0,
+      "usable_as_scientific_evidence": 0,
+      "source_search_file": "external/model_YGM7000BEVBD1.html",
+      "source_search_sha256": "3413878aaa8ba636843e8330c9427ddaafb8a1301cc88b746007069454b36143"
+    },
+    {
+      "model_key": "YGM7000BEVBD1",
+      "result_url": "https://mobile.yuanfudao.com/husky/",
+      "result_text": "yuanfudao.com https://mobile.yuanfudao.com › husky 小猿优课 2026年9月16日 · 若没有下载小猿优课 App，请 点击下载 。 若点击进入教室无法正常跳转，可以更新到最新版本后自主打开小猿优课 …",
+      "exact_model_in_result_text": 0,
+      "government_domain_candidate": 0,
+      "usable_as_scientific_evidence": 0,
+      "source_search_file": "external/model_YGM7000BEVBD1.html",
+      "source_search_sha256": "3413878aaa8ba636843e8330c9427ddaafb8a1301cc88b746007069454b36143"
+    },
+    {
+      "model_key": "YGM7000BEVBD1",
+      "result_url": "https://sj.qq.com/appdetail/com.yuantiku.husky",
+      "result_text": "qq.com https://sj.qq.com › appdetail › com.yuantiku.husky 小猿优课 app-官方正版软件2026最新版本免费下载-应用宝官网 2026年9月29日 · 【产品介绍】小猿优课，中学在线网课平台，提供多科在线互动教学，沉浸体验，以科技助力教育。 小猿优课系统 …",
+      "exact_model_in_result_text": 0,
+      "government_domain_candidate": 0,
+      "usable_as_scientific_evidence": 0,
+      "source_search_file": "external/model_YGM7000BEVBD1.html",
+      "source_search_sha256": "3413878aaa8ba636843e8330c9427ddaafb8a1301cc88b746007069454b36143"
+    },
+    {
+      "model_key": "YGM7000BEVBD1",
+      "result_url": "https://sj.qq.com/appdetail/com.guangdong.pcapp.xiaoyuanyouke",
+      "result_text": "qq.com https://sj.qq.com › appdetail › com.guangdong.pcapp... 小猿优课 app-官方正版软件2026最新版本免费下载-应用宝官网 2026年9月22日 · 小猿优课为中学生提供互动式和沉浸式的学习体验。 平台提供全科辅导，同步学校课程，支持多设备上课，并提供 …",
+      "exact_model_in_result_text": 0,
+      "government_domain_candidate": 0,
+      "usable_as_scientific_evidence": 0,
+      "source_search_file": "external/model_YGM7000BEVBD1.html",
+      "source_search_sha256": "3413878aaa8ba636843e8330c9427ddaafb8a1301cc88b746007069454b36143"
+    },
+    {
+      "model_key": "YGM7000BEVBD1",
+      "result_url": "https://a17.app.qq.com/cdn/451/apk/CE53560792FBD6A3F2F3AFF468630DF1.apk?proto=https",
+      "result_text": "qq.com https://a17.app.qq.com › cdn › apk 小猿优课 运营者: 深圳市腾讯计算机系统有限公司 开发者: 深圳市腾讯计算机系统有限公司 版本：9.2.8",
+      "exact_model_in_result_text": 0,
+      "government_domain_candidate": 0,
+      "usable_as_scientific_evidence": 0,
+      "source_search_file": "external/model_YGM7000BEVBD1.html",
+      "source_search_sha256": "3413878aaa8ba636843e8330c9427ddaafb8a1301cc88b746007069454b36143"
+    },
+    {
+      "model_key": "YGM7000BEVBD1",
+      "result_url": "https://baike.baidu.com/item/%E5%B0%8F%E7%8C%BF%E4%BC%98%E8%AF%BE/67364029",
+      "result_text": "baidu.com https://baike.baidu.com › item ›  小猿优课 小猿优课 _百度百科 小猿优课是由广东省远大在线教育培训中心运营和开发的在线网课平台，提供多学科在线互动教学，是一款专为初高中学生设计的在 …",
+      "exact_model_in_result_text": 0,
+      "government_domain_candidate": 0,
+      "usable_as_scientific_evidence": 0,
+      "source_search_file": "external/model_YGM7000BEVBD1.html",
+      "source_search_sha256": "3413878aaa8ba636843e8330c9427ddaafb8a1301cc88b746007069454b36143"
+    },
+    {
+      "model_key": "YGM7000BEVBD1",
+      "result_url": "https://www.pcsoft.com.cn/android/soft/30226848.html",
+      "result_text": "pcsoft.com.cn https://www.pcsoft.com.cn › android › soft 小猿优课 app下载- 小猿优课 安卓版 [学习教育]-PC下载网 2026年9月30日 · 小猿优课是一款在线网课平台，为中学生提供互动式和沉浸式的学习体验。 平台提供全科辅导，同步学校课程，支 …",
+      "exact_model_in_result_text": 0,
+      "government_domain_candidate": 0,
+      "usable_as_scientific_evidence": 0,
+      "source_search_file": "external/model_YGM7000BEVBD1.html",
+      "source_search_sha256": "3413878aaa8ba636843e8330c9427ddaafb8a1301cc88b746007069454b36143"
+    },
+    {
+      "model_key": "YGM7000BEVBD1",
+      "result_url": "https://www.yuanfudao.com/",
+      "result_text": "yuanfudao.com https://www.yuanfudao.com 猿 辅导 公司旗下拥有猿辅导、斑马AI学、小猿口算、猿题库等多款在线教育产品及数字内容产品，为用户提供网课、智能练习、难题解析等 …",
+      "exact_model_in_result_text": 0,
+      "government_domain_candidate": 0,
+      "usable_as_scientific_evidence": 0,
+      "source_search_file": "external/model_YGM7000BEVBD1.html",
+      "source_search_sha256": "3413878aaa8ba636843e8330c9427ddaafb8a1301cc88b746007069454b36143"
+    },
+    {
+      "model_key": "YGM7000BEVBD1",
+      "result_url": "https://soft.china.com/soft/2959113.html",
+      "result_text": "china.com https://soft.china.com › soft 小猿优课 电脑版下载 -  小猿优课 app官网PC版下载 - 中华网软件 2026年8月11日 · 小猿优课为中学生提供互动式和沉浸式的学习体验。 平台提供全科辅导，同步学校课程，支持多设备上课，并提供 …",
+      "exact_model_in_result_text": 0,
+      "government_domain_candidate": 0,
+      "usable_as_scientific_evidence": 0,
+      "source_search_file": "external/model_YGM7000BEVBD1.html",
+      "source_search_sha256": "3413878aaa8ba636843e8330c9427ddaafb8a1301cc88b746007069454b36143"
+    }
+  ],
+  "exact_model_relevant_hits": 0,
+  "same_model_is_configuration_identity": false,
+  "negative_search_conclusion_permitted": false
+}

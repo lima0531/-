@@ -1,0 +1,15 @@
+{
+  "requested_url": "https://hss.smvic.com.cn/indexquotation/?t=%E4%B8%9A%E5%8A%A1%E8%81%94%E7%B3%BB",
+  "retrieved_utc": "2026-10-09T07:46:39.609438+00:00",
+  "local_file": "test_portals/smvic_contacts.html",
+  "purpose": "认证平台公开业务联系；报告应向原机构确认",
+  "query": "",
+  "target_models": [],
+  "tls_verification": true,
+  "status": "http_error",
+  "http_status": 503,
+  "error": "HTTP Error 503: Service Unavailable",
+  "final_url": "https://hss.smvic.com.cn/indexquotation/?t=%E4%B8%9A%E5%8A%A1%E8%81%94%E7%B3%BB",
+  "bytes": 91,
+  "sha256": "2f85832e31ca57711e6107af6b142363351ae516adb71c69afc643fac26be7f6"
+}

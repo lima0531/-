@@ -1,0 +1,18 @@
+{
+  "key": "sgmw_after_sale",
+  "firm": "上汽通用五菱汽车股份有限公司",
+  "requested_url": "https://www.sgmw.com.cn/afterSale",
+  "url_basis": "round9/public_lowtemp/portals/sgmw.html 新能源服务承诺 anchor",
+  "retrieved_utc": "2026-10-09T07:47:27.736229+00:00",
+  "tls_verification": true,
+  "method": "GET_only_no_submission",
+  "external_message_sent": false,
+  "http_status": 200,
+  "final_url": "https://www.sgmw.com.cn/afterSale",
+  "content_type": "text/html;charset=utf-8",
+  "truncated": false,
+  "status": "retrieved",
+  "source_file": "contact_sources/sgmw_after_sale.txt",
+  "bytes": 87081,
+  "sha256": "0a700b0faefa966d0e145be36d773d0d4a9e0a9b15f48577dc0d4d3f21ce4a54"
+}

@@ -1,0 +1,25 @@
+{
+  "requested_url": "https://www.miit.gov.cn/search-front-server/api/search/info?websiteid=110000000000000&scope=basic&q=FZ7000BEVC01A&pg=40&p=1&cateid=47&pos=title_text%2Ctitlepy%2Cinfocontent%2Cfilenumbername%2Ckeyword%2Ccontentdescribe&selectFields=title%2Ccontent%2Cdeploytime%2C_index%2Curl%2Ccdate%2Cinfoextends%2Cinfocontentattribute%2Ckeyword%2Ccontentdescribe%2Csectitle%2Cpicpath%2Ccolumnname%2Cthemename%2Cpublishgroupname%2Cpublishtime%2Cmetaid%2Cbexxgk%2Ccolumnid%2Cinfocontenthashcode&group=distinct&level=6&sortFields=%5B%7B%22name%22%3A%22deploytime%22%2C%22type%22%3A%22desc%22%7D%5D",
+  "retrieved_utc": "2026-10-09T07:42:58.652517+00:00",
+  "tls_verification": true,
+  "status": "ok",
+  "http_status": 200,
+  "final_url": "https://www.miit.gov.cn/search-front-server/api/search/info?websiteid=110000000000000&scope=basic&q=FZ7000BEVC01A&pg=40&p=1&cateid=47&pos=title_text%2Ctitlepy%2Cinfocontent%2Cfilenumbername%2Ckeyword%2Ccontentdescribe&selectFields=title%2Ccontent%2Cdeploytime%2C_index%2Curl%2Ccdate%2Cinfoextends%2Cinfocontentattribute%2Ckeyword%2Ccontentdescribe%2Csectitle%2Cpicpath%2Ccolumnname%2Cthemename%2Cpublishgroupname%2Cpublishtime%2Cmetaid%2Cbexxgk%2Ccolumnid%2Cinfocontenthashcode&group=distinct&level=6&sortFields=%5B%7B%22name%22%3A%22deploytime%22%2C%22type%22%3A%22desc%22%7D%5D",
+  "bytes": 225,
+  "sha256": "8494dfda4e40f5c9837ab57eee946689beabe6be8c7d1123d46348d628d2ad3b",
+  "response_headers": {
+    "date": "Fri, 09 Oct 2026 07:42:59 GMT",
+    "content-type": "text/html;charset=UTF-8",
+    "content-length": "225",
+    "set-cookie": "__jsluid_s=c270449a50a1e291fd4b2c8e712df844; max-age=31536000; path=/; HttpOnly; SameSite=None; secure",
+    "x-kong-upstream-latency": "237",
+    "x-kong-proxy-latency": "0",
+    "via": "kong/1.4.3",
+    "x-via-jsl": "3554f18,-",
+    "x-cache": "bypass",
+    "x-envoy-upstream-service-time": "1051",
+    "server": "envoy",
+    "connection": "close"
+  },
+  "relative_path": "search/model_FZ7000BEVC01A.json"
+}

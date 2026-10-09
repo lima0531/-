@@ -1,0 +1,186 @@
+[
+  {
+    "source_id": "rec2022_04",
+    "source_sha256": "022b14b038c2f782fc35988b08756c262187f1dccaeccd65edef82af8566a4d2",
+    "page_count": 110,
+    "text_layer_search_terms": [
+      "低温",
+      "附录A",
+      "附录 A",
+      "检测报告",
+      "18386"
+    ],
+    "text_layer_term_hits": [],
+    "configuration_locations": [
+      {
+        "model_key": "DXK7001RD2BEV",
+        "config_id": "NC017138",
+        "pages_with_config_id": [
+          59
+        ],
+        "low_temperature_report_id_obtained": false
+      },
+      {
+        "model_key": "DXK7001RD5BEV",
+        "config_id": "NC017128",
+        "pages_with_config_id": [
+          60
+        ],
+        "low_temperature_report_id_obtained": false
+      },
+      {
+        "model_key": "GTM6470BFEBEV",
+        "config_id": "NC016943",
+        "pages_with_config_id": [
+          65
+        ],
+        "low_temperature_report_id_obtained": false
+      },
+      {
+        "model_key": "LZW7005EVA5KBJA",
+        "config_id": "NC017071",
+        "pages_with_config_id": [
+          65
+        ],
+        "low_temperature_report_id_obtained": false
+      },
+      {
+        "model_key": "LZW7005EVC1EBJ",
+        "config_id": "NC017291",
+        "pages_with_config_id": [
+          65
+        ],
+        "low_temperature_report_id_obtained": false
+      },
+      {
+        "model_key": "SQJ7002YAC1BEV",
+        "config_id": "NC017511",
+        "pages_with_config_id": [
+          67
+        ],
+        "low_temperature_report_id_obtained": false
+      },
+      {
+        "model_key": "SQJ7002YACBEV",
+        "config_id": "NC017148",
+        "pages_with_config_id": [
+          67
+        ],
+        "low_temperature_report_id_obtained": false
+      },
+      {
+        "model_key": "HXK7000BEVA13",
+        "config_id": "NC017425",
+        "pages_with_config_id": [
+          69
+        ],
+        "low_temperature_report_id_obtained": false
+      },
+      {
+        "model_key": "HXK7000BEVA13",
+        "config_id": "NC017433",
+        "pages_with_config_id": [
+          69
+        ],
+        "low_temperature_report_id_obtained": false
+      },
+      {
+        "model_key": "JX7004ESABEV",
+        "config_id": "NC017645",
+        "pages_with_config_id": [
+          69
+        ],
+        "low_temperature_report_id_obtained": false
+      }
+    ],
+    "scope": "可提取文字层及19配置ID所在页面；不是对扫描图像的OCR证明，不从推荐参数生成附录A测试观察"
+  },
+  {
+    "source_id": "rec2022_12",
+    "source_sha256": "dae8aac7e9ccbe9c046bc0be62323deddcb91e52ed3fb3202e0fbe0e5e7993e7",
+    "page_count": 83,
+    "text_layer_search_terms": [
+      "低温",
+      "附录A",
+      "附录 A",
+      "检测报告",
+      "18386"
+    ],
+    "text_layer_term_hits": [],
+    "configuration_locations": [
+      {
+        "model_key": "JNJ7000EVF4",
+        "config_id": "NC024135",
+        "pages_with_config_id": [
+          51
+        ],
+        "low_temperature_report_id_obtained": false
+      },
+      {
+        "model_key": "BAW7000UB44BEV",
+        "config_id": "NC025122",
+        "pages_with_config_id": [
+          78
+        ],
+        "low_temperature_report_id_obtained": false
+      },
+      {
+        "model_key": "BAW7000UB44BEV",
+        "config_id": "NC020342",
+        "pages_with_config_id": [
+          78
+        ],
+        "low_temperature_report_id_obtained": false
+      },
+      {
+        "model_key": "BAW7000UL47BEV",
+        "config_id": "NC019146",
+        "pages_with_config_id": [
+          78
+        ],
+        "low_temperature_report_id_obtained": false
+      },
+      {
+        "model_key": "BAW7000UL47BEV",
+        "config_id": "NC019150",
+        "pages_with_config_id": [
+          78
+        ],
+        "low_temperature_report_id_obtained": false
+      },
+      {
+        "model_key": "BAW7000UL47BEV",
+        "config_id": "NC022413",
+        "pages_with_config_id": [
+          78
+        ],
+        "low_temperature_report_id_obtained": false
+      },
+      {
+        "model_key": "BAW7000UL47BEV",
+        "config_id": "NC022414",
+        "pages_with_config_id": [
+          78
+        ],
+        "low_temperature_report_id_obtained": false
+      },
+      {
+        "model_key": "BAW7000UL47BEV",
+        "config_id": "NC027157",
+        "pages_with_config_id": [
+          78
+        ],
+        "low_temperature_report_id_obtained": false
+      },
+      {
+        "model_key": "BAW7000UL47BEV",
+        "config_id": "NC027158",
+        "pages_with_config_id": [
+          78
+        ],
+        "low_temperature_report_id_obtained": false
+      }
+    ],
+    "scope": "可提取文字层及19配置ID所在页面；不是对扫描图像的OCR证明，不从推荐参数生成附录A测试观察"
+  }
+]

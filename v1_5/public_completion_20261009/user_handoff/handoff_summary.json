@@ -1,0 +1,78 @@
+{
+  "generated_utc": "2026-10-09T08:09:41.215982+00:00",
+  "scientific_version": "v1.5",
+  "status": "交接材料完成；本轮公开探查有界收尾；未对外发送；不改科学数据",
+  "source_task_rows_different_grains_not_missing_total": 2641,
+  "enterprise_routing_groups_not_certified_current_legal_entities": 154,
+  "company_model_purpose_packet_rows": 2289,
+  "identity_versions": 285,
+  "identity_config_ids": 278,
+  "identity_models": 170,
+  "identity_written_firms": 43,
+  "lowtemp_versions_inside_identity": 19,
+  "lowtemp_models": 12,
+  "lowtemp_firms": 8,
+  "joint_crossing_models": 32,
+  "extra_single_crossing_models_joint_failure_known": 4,
+  "joint_single_intersection": 0,
+  "distinct_threshold_followup_models": 36,
+  "threshold_followup_route_groups": 19,
+  "vehicle_reapplication_model_targets": 92,
+  "actual_vehicle_count": null,
+  "unknown_cycle_numeric_ready_model_targets": 2208,
+  "cycle_originals_fully_scanned_same_sha": 71,
+  "core_original_blank_models": 1,
+  "core_original_blank_fields": 1,
+  "core_original_blank_model": "JX6550T-M5BEV",
+  "priority_company_contact_rows": 9,
+  "verified_brand_homepage_rows": 5,
+  "verified_general_phone_rows": 4,
+  "verified_direct_technical_department_rows": 0,
+  "unverified_company_entrance_rows": 4,
+  "generic_institution_entry_rows_not_original_report_attribution": 4,
+  "public_channels_to_try_first": [
+    "https://yhgscx.miit.gov.cn/ 全部历史旧/新标签；正常人工验证",
+    "https://service.miit-eidc.org.cn/miitxxgk/gonggao/xxgk/index?querylb=qy"
+  ],
+  "public_label_records_obtained_this_round": 0,
+  "manual_public_priority_models": [
+    "JX6550T-M5BEV",
+    "GTM6470BFEBEV",
+    "CC7000CG00FBEV"
+  ],
+  "new_closures": {
+    "JX_energy": 0,
+    "threshold_configuration_numeric": 0,
+    "identity_versions": 0,
+    "matching_lowtemp_reports": 0,
+    "original_lowtemp_report_ids": 0,
+    "explicit_cycle_labels": 0,
+    "test_standard_revisions": 0
+  },
+  "freeze_date": "2023-12-10",
+  "historical_technical_facts_and_then_public_information_are_separate": true,
+  "field_evidence_closed_does_not_guarantee_numeric_ready_increment": true,
+  "acquisition_finish_date_predictable": false,
+  "JX_first_review_after_effective_material_plan_workdays": 1,
+  "conditional_extended_scopes_required_for_basic_catalogue_analysis": false,
+  "probe_summary_sources": {
+    "JX": {
+      "file": "round9/public_jx_extended/jx_extended_summary.json",
+      "sha256": "3645910c2ed14711a3dfadbabe4c85df39318b9c1468c1c9d03f8c2aa0033fbf"
+    },
+    "configuration": {
+      "file": "round9/public_configuration/public_configuration_summary.json",
+      "sha256": "51aa1f4d5f7ee87732ca1af8c8738eddc5ca06e06709791d65bbd4d7ed1901a3"
+    },
+    "lowtemp": {
+      "file": "round9/public_lowtemp/public_lowtemp_summary.json",
+      "sha256": "9b4552670a2b8b76978a43b36652f14f852c87b04cd67d6730b7ada540f95b70"
+    },
+    "cycle": {
+      "file": "round9/public_cycle/public_cycle_summary.json",
+      "sha256": "cd8d3b8fea1f5351ed0c8a725ce125445df4c0ecec906470149ef1cf5eea94d1"
+    }
+  },
+  "all_scientific_input_hashes_unchanged": true,
+  "messages_emails_forms_or_calls_sent": 0
+}

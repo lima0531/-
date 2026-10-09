@@ -1,0 +1,27 @@
+{
+  "request_url": "https://sousuo.www.gov.cn/sousuo/search.shtml?searchWord=%E5%85%8D%E5%BE%81%E8%BD%A6%E8%BE%86%E8%B4%AD%E7%BD%AE%E7%A8%8E%E7%9A%84%E6%96%B0%E8%83%BD%E6%BA%90%E6%B1%BD%E8%BD%A6%E8%BD%A6%E5%9E%8B%E7%9B%AE%E5%BD%95+%E7%AC%AC%E4%B8%80%E6%89%B9",
+  "purpose": "中国政府网原生检索历史完整公告与附件链接",
+  "retrieved_at_utc": "2026-10-09T07:44:09.490433+00:00",
+  "request_method": "GET",
+  "tls_verification": true,
+  "retry_policy": "one request; cache receipt thereafter",
+  "http_status": 200,
+  "final_url": "https://sousuo.www.gov.cn/sousuo/search.shtml?searchWord=%E5%85%8D%E5%BE%81%E8%BD%A6%E8%BE%86%E8%B4%AD%E7%BD%AE%E7%A8%8E%E7%9A%84%E6%96%B0%E8%83%BD%E6%BA%90%E6%B1%BD%E8%BD%A6%E8%BD%A6%E5%9E%8B%E7%9B%AE%E5%BD%95+%E7%AC%AC%E4%B8%80%E6%89%B9",
+  "response_headers": {
+    "date": "Fri, 09 Oct 2026 07:44:11 GMT",
+    "content-type": "text/html",
+    "server": "envoy",
+    "access-control-allow-origin": "*",
+    "access-control-allow-headers": "DNT,X-CustomHeader,Keep-Alive,User-Agent,X-Requested-With,If-Modified-Since,Cache-Control,Content-Type",
+    "access-control-allow-methods": "GET,POST,OPTIONS",
+    "access-control-allow-credentials": "true",
+    "x-ser": "i91216_c28779, i33325_c22361, i2315451_c28195, i90332_c27779",
+    "x-envoy-upstream-service-time": "472",
+    "connection": "close",
+    "transfer-encoding": "chunked"
+  },
+  "status": "retrieved",
+  "evidence_file": "/workspace/purchase_tax_audit/round9/public_first_batch/gov_first_search.html",
+  "bytes": 67763,
+  "sha256": "b720a4e7d7059fcac9f215aabf08d582cbf2759ee586729b8ce4deebfbca7795"
+}

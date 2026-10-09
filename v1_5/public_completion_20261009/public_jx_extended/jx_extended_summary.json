@@ -1,0 +1,16 @@
+{
+  "generated_utc": "2026-10-09T07:50:47.103452+00:00",
+  "model_key": "JX6550T-M5BEV",
+  "target_tax_batch": 48,
+  "freeze_date": "2023-12-10",
+  "actual_distinct_requests": 15,
+  "new_energy_field_closed": 0,
+  "new_tax_configuration_bridge_closed": 0,
+  "association_reproduction_energy_blank": true,
+  "current_official_product_api_readable": true,
+  "current_official_product_api_does_not_identify_target_historical_configuration": true,
+  "search_responses_with_irrelevant_or_challenge_content_not_negative_evidence": true,
+  "frozen_scientific_data_changed": false,
+  "handoff_holder": "江铃汽车股份有限公司技术/认证/申报部门或该配置原检测机构",
+  "needed": "税48历史配置总能量、配对电池质量和版本；若用NC010086则两储能版本分别对应及正式身份桥；来源历史日期与当时信息可得性分别核实"
+}

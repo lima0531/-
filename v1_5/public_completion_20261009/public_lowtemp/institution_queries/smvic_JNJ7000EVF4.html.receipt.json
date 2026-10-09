@@ -1,0 +1,15 @@
+{
+  "requested_url": "https://hss.smvic.com.cn/indexsearch?search=JNJ7000EVF4",
+  "retrieved_utc": "2026-10-09T07:47:24.541089+00:00",
+  "local_file": "institution_queries/smvic_JNJ7000EVF4.html",
+  "purpose": "SMVIC认证平台可见GET搜索表单查询，不能用CCC证书替代附录A报告",
+  "query": "JNJ7000EVF4",
+  "target_models": [],
+  "tls_verification": true,
+  "status": "http_error",
+  "http_status": 503,
+  "error": "HTTP Error 503: Service Unavailable",
+  "final_url": "https://hss.smvic.com.cn/indexsearch/?search=JNJ7000EVF4",
+  "bytes": 91,
+  "sha256": "2f85832e31ca57711e6107af6b142363351ae516adb71c69afc643fac26be7f6"
+}

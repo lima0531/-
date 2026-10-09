@@ -1,0 +1,11 @@
+﻿target_standard,object,field,value,verification_status,evidence_file,source_locator,used_as_amendment_official_date
+GB/T 18386.1-2021,修改单,正式公告号,,未取得,,,0
+GB/T 18386.1-2021,修改单,官方登记id,,未取得严格匹配,official_query_exact_amendment.json;official_query_number.json;official_query_name.json;official_query_amendment_type.json,编号+修改单名称同时匹配才可纳入,0
+GB/T 18386.1-2021,修改单,正式发布日期,,未认证,smvic_amendment.html.receipt.json;requests.json,机构正文503且无匹配正式记录,0
+GB/T 18386.1-2021,修改单,正式实施日期,,未认证,smvic_amendment.html.receipt.json;requests.json,机构正文503且无匹配正式记录,0
+GB/T 18386.1-2021,机构列表,列表网页日期,2026-07-09,已观察；不能移作正式发布/实施日,smvic_search_cached.html,/indexnews/1384锚文本相邻spantime,0
+GB/T 18386.1-2021,基础标准,官方登记发布日期,2021-03-09,已取得基础标准字段；不是修改单,official_base_metadata_cached.json;official_base_detail_cached.html,GB/T18386.1-2021基础标准id BD89DE8E07723D08E05397BE0A0A4FAD,0
+GB/T 18386.1-2021,基础标准,官方登记实施日期,2021-10-01,已取得基础标准字段；不是修改单,official_base_metadata_cached.json;official_base_detail_cached.html,GB/T18386.1-2021基础标准id BD89DE8E07723D08E05397BE0A0A4FAD,0
+GB/T 18386.1-2021,公共搜索,第三方修改单年份措辞,2025XG1/2025年第1号修改单,二级线索；不是正式发布日期或实施日期,public_search_results.json;public_search_amendment.html,商业/转载搜索结果片段；未用于官方字段,0
+GB/T 18386.1-2021,官方全文平台,当前访问状态,HTTP403,真实SAMR标准入口未取得；停止不重试,official_openstd_base_amendment.html.receipt.json,公开搜索实际给出hcno=018D351EFF1AACD87C5919D0F21BEEBE,0
+GB/T 18386.1-2021,公共搜索,官方公告编号线索,2025年第19号（全文公开通知题名）,仅搜索索引线索；原文403，正式修改单公告号未认证,public_search_official_2025_results.json;official_2025_19_fulltext_notice.html.receipt.json,实际官方链接https://openstd.samr.gov.cn/bzgk/std/nd?no=2462，未取得正文,0

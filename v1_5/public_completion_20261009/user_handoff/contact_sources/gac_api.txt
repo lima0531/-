@@ -1,0 +1,211 @@
+; (function () {
+  window._api = {};
+
+  //获取语音文字
+  const getRecord = (blob,base64Data) => {
+    return _http.post(_process.baseUrl + "/Ajax/BaiduSign.ashx?method=GetSpeech", {
+      "format": "wav",//格式支持pcm（不压缩）、wav（不压缩，pcm编码）、amr（压缩格式）采样率
+      "rate": 16000,//前方有坑，请绕行：此处文档参数16000，达不到这种高保真音频，故 使用8000
+      "channel": 1,//固定写法（声道）
+      "cuid": "ceshi",//设备的唯一id
+      "dev_pid": 1537,//普通话
+      "speech": base64Data,//base64的音频文件
+      "len": blob.size,//文件的大小，字节数,
+      "lan": "ct"
+    })
+  }
+
+  //关键字
+  const searchKeyword = (keyWord, modelCode) => {
+    keyWord = keyWord || 'all'
+    return _http.get(_process.baseUrl + "/ajax/KeyWordBatchHandler.ashx?method=queryList&keyWord="+keyWord+"&modelCode="+modelCode+"")
+  }
+
+  //活动模块数据
+  const getActivityList = () => {
+    // return _http.get( _process.env == 1?`/2022/src/assets/json/active.json`:`${_process.baseUrl}/Ajax/CommonHandler.ashx?method=ActivityCommunity`)
+    return new Promise((resolve, reject) => { //隐藏活动咨询
+      resolve({ data:[] })
+    }).catch(({}) => {
+      reject({})
+    })
+  }
+
+  //提交心声
+  const handleRealSubmit = (data) => {
+    data.seriesName=document.title
+    data.reqUrl=window.location.href
+    data.OfficeId=Tool.guidGenerator()
+    let param = JSON.stringify(data);
+    return _http.post(_process.baseUrl + "/Ajax/CommonHandler.ashx?method=SaveWishes&Params=" + encodeURIComponent(param), data)
+  }
+
+  //心声和留资相互关联
+  const interCapAndReal = (id,code) => {
+    _http.get(_process.baseUrl + "/Ajax/CommonHandler.ashx?method=EditRetainWishes&WishesId="+id+"&OfficeId="+code).then(({ data: res }) => {
+    }).catch((err) => {
+    })
+  }
+
+  //提交留资
+  const handleFromSubmit = (data) => {
+    let obj = {
+      media_code: data.mediaCode || '',//留资渠道
+      dealer_code:data.dealerVal,
+      clue_type: data.clueType,
+      modle_code: data.carVal,
+      modle_name: data.carName,
+      province_code: data.proVal,
+      province_name: data.proName,
+      city_code: data.cityVal,
+      city_name: data.cityName,
+      customer_name: data.name,
+      mobile: data.phone,
+      remark: data.remark || '',
+      clue_code: data.clueCode,
+      is_publicorder: 2,
+      create_time: Tool.getNowFormatDate(),
+      status: "0"
+    };
+    let param = JSON.stringify(obj);
+    obj.mobileQrcode = data.mobileQrcode || '' //短信验证码
+    return new Promise((resolve, reject) => {
+      _http.post(`${_process.baseUrl}/Ajax/CommonHandler.ashx?method=SaveFormDataNew&Params=${encodeURIComponent(param)}&mobileQrcode=${obj.mobileQrcode}`, obj).then(({ data: res }) => {
+        resolve(res)
+      }).catch((err) => {
+        reject(err)
+      })
+    })
+  }
+
+
+  //提交留资
+  const handleFeedback = (data) => {
+    let obj = {
+      model: data.model ,
+      opinion:data.opinion,
+      remark: data.remark || '',
+    };
+    var param="model="+data.model+"&opinion="+data.opinion+"&remark="+data.remark || '';
+    return _http.post(_process.baseUrl + "/Ajax/KeyWordBatchHandler.ashx?method=feedback&" + param, obj)
+  }
+
+  //获取短信验证码
+  const getVerificationCode = (data) => {
+    if(_process.env == 1){
+      return new Promise((resolve, reject) => {
+        resolve({ data:{ Code:501 } })
+      })
+    }else{
+      return _http.post(_process.baseUrl + "/Ajax/CommonHandler.ashx?method=SendMobileQrCode", data,{
+        headers: {
+          'Content-Type': 'application/x-www-form-urlencoded'
+        }
+      })
+    }
+  }
+
+  //获取图形验证码
+  const getGenerate = (data) => {
+    if(_process.env == 1){
+      return new Promise((resolve, reject) => {
+        resolve({ data:{ 
+          Code: 200,
+          Data:{
+            background:'/2022/src/home/image/pc-kv7.jpg',
+            slider:'/2022/src/assets/img/component/shuaxin.png'
+          }
+        } })
+      })
+    }else{ 
+      return _http.post(_process.baseUrl + "/Ajax/CommonHandler.ashx?method=Generate",data,{
+        headers: {
+          'Content-Type': 'application/x-www-form-urlencoded'
+        }
+      })
+    }
+  }
+
+  //x 校验点
+  const SendMobileQrCode = (data) => {
+    return _http.post(_process.baseUrl + "/Ajax/CommonHandler.ashx?method=CheckCaptcha",data,{
+      headers: {
+        'Content-Type': 'application/x-www-form-urlencoded'
+      }
+    })
+  }
+
+  const GetProCityInfo = async (data = {}) => {
+    try {
+      const res = _process.env == 1 ? await _http.get("/2022/src/assets/json/mock.json") : await _http.post(_process.baseUrl + "/Ajax/DealerHandler.ashx?method=GetProCityInfo",data)
+      // 过滤空白值
+      if(res.data.IsSuccess){
+        let resulte = res.data.Data.filter((item)=>{
+          item.city = item.city.filter((child)=>{
+            child.value = child.name
+            return child.name 
+          })
+          item.isHasChild = !!item.city?.length
+          item.value = item.name
+          return item.name && item.isHasChild
+        })
+        return resulte
+      }else{
+        console.error("GetProCityInfo error:", res.data.Message)
+        throw res.data.Message
+      }
+    } catch (error) {
+      console.error("GetProCityInfo error:", error)
+      throw error
+    }
+  }
+  
+  const GetDealerInfo = async (data = {},isSpecial = false) => {
+    try {
+      const res = _process.env == 1 ? await _http.get("/2022/src/assets/json/dealer.json") : await _http.post(_process.baseUrl + "/Ajax/DealerHandler.ashx?method=GetDealerInfo",data)
+      // 过滤空白值
+      if(res.data.IsSuccess){
+        let resulte = res.data.Data.filter((item)=>{
+          // 百度切高德
+          let data = localMap.bd_decrypt(item.Longitude, item.Latitude);
+          item.ScoreTotal = Number(item.ScoreTotal)*100;
+          item.Preference = Math.ceil(item.ScoreTotal/20);
+          item.Longitude = data.lng;
+          item.Latitude = data.lat;
+          item.onceLevel = item.DLevel;
+          item.DLevel = item.DLevel==4?5:item.DLevel
+          item.name = item.DealerName;
+          item.value = item.DealerCode;
+          item.isShowDrive = true;
+          // f并行店处理
+          if(item.DealerName.includes('在建店') || item.DLevel == 6 || item.DealerCode == '42N10' || item.DealerCode == '22D10' || item.DealerCode == '23N10'){
+            item.isShowDrive = false
+          }
+          return isSpecial || item.isShowDrive
+        })
+        return resulte
+      }else{
+        console.error("GetDealerInfo error:", res.data.Message)
+        throw res.data.Message
+      }
+    } catch (error) {
+      console.error("GetDealerInfo error:", error)
+      throw error
+    }
+  }
+
+  _api = {
+    getRecord,
+    searchKeyword,
+    getActivityList,
+    interCapAndReal,
+    handleRealSubmit,
+    handleFromSubmit,
+    handleFeedback,
+    getGenerate,
+    getVerificationCode,
+    SendMobileQrCode,
+    GetProCityInfo,
+    GetDealerInfo
+  }
+})();

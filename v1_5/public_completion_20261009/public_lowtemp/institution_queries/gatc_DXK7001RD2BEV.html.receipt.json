@@ -1,0 +1,13 @@
+{
+  "requested_url": "https://www.gatc.ac.cn/search/?title=DXK7001RD2BEV&model=article%2Cpic&navlist=329",
+  "retrieved_utc": "2026-10-09T07:47:16.562965+00:00",
+  "local_file": "institution_queries/gatc_DXK7001RD2BEV.html",
+  "purpose": "广州检验中心官网可见GET搜索表单查询",
+  "query": "DXK7001RD2BEV",
+  "target_models": [
+    "DXK7001RD2BEV"
+  ],
+  "tls_verification": true,
+  "status": "fetch_error",
+  "error": "URLError(OSError('Tunnel connection failed: 403 Forbidden'))"
+}

@@ -1,0 +1,18 @@
+{
+  "key": "baw_contact",
+  "firm": "北京汽车制造厂有限公司",
+  "requested_url": "https://www.baw.com.cn/contact_us.html",
+  "url_basis": "round9/public_lowtemp/portals/baw.html literal contact_us.html anchor",
+  "retrieved_utc": "2026-10-09T07:49:06.074147+00:00",
+  "tls_verification": true,
+  "method": "GET_only_no_submission",
+  "external_message_sent": false,
+  "http_status": 200,
+  "final_url": "https://www.baw.com.cn/contact_us.html",
+  "content_type": "text/html; charset=utf-8",
+  "truncated": false,
+  "status": "retrieved",
+  "source_file": "contact_sources/baw_contact.txt",
+  "bytes": 4304,
+  "sha256": "305a513a4f15773f320704e0640034947ff1cfdcc7849135880672c96f3b349a"
+}

@@ -1,0 +1,35 @@
+{
+  "initial_scientific_version": "v1.5",
+  "source_task_rows": 2641,
+  "enterprise_routing_groups": 154,
+  "company_groups_by_scope": {
+    "JX原空能量": 1,
+    "32联合跨界": 15,
+    "4单项细分": 4,
+    "285配置身份": 43,
+    "19低温优先": 8,
+    "92逐车资格": 31,
+    "2208试验口径": 151
+  },
+  "original_scope_counts": {
+    "JX原空能量": 1,
+    "32联合跨界": 32,
+    "4单项细分": 4,
+    "285配置身份": 285,
+    "19低温优先": 19,
+    "92逐车资格": 92,
+    "2208试验口径": 2208
+  },
+  "identity_request_rows_after_lowtemp_dedup": 285,
+  "lowtemp_flags_inside_285": 19,
+  "company_model_packet_rows": 2289,
+  "unresolved_firm_route_rows": 0,
+  "entity_register_identity_certified": false,
+  "historical_company_names_not_entity_merged": true,
+  "routing_name_normalization": "NFKC and outer whitespace trim only; original literal and contextual text retained; display normalization is not corporate entity certification",
+  "scientific_inputs_mutated": false,
+  "messages_emails_or_forms_sent": 0,
+  "final_public_probe_closure_counts_status": "grouping_ready; closure receipt frozen separately in handoff_summary.json",
+  "validation": "all 2641 scope rows preserve a source-backed routing name; 92 actual reapplication source records used; SGM routes through explicitly referenced62 target; 19 lowtemp flags are inside285 versions; input hashes unchanged",
+  "zero_unresolved_firm_route_interpretation": "All rows have a nonempty source literal/context routing text; it does not certify the original declaring entity or any current legal entity."
+}

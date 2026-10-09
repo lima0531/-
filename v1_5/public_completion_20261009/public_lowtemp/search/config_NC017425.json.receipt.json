@@ -1,0 +1,31 @@
+{
+  "requested_url": "https://www.miit.gov.cn/search-front-server/api/search/info?websiteid=110000000000000&scope=basic&q=NC017425&pg=10&p=1&cateid=47&pos=title_text%2Ctitlepy%2Cinfocontent%2Cfilenumbername%2Ckeyword%2Ccontentdescribe&selectFields=title%2Curl%2Ccontent%2Cdeploytime%2Ccolumnname&group=distinct&level=6",
+  "retrieved_utc": "2026-10-09T07:43:04.637754+00:00",
+  "local_file": "search/config_NC017425.json",
+  "purpose": "工信部公共全文搜索：查同型号/配置公开低温检测证据",
+  "query": "NC017425",
+  "target_models": [
+    "HXK7000BEVA13"
+  ],
+  "tls_verification": true,
+  "status": "ok",
+  "http_status": 200,
+  "final_url": "https://www.miit.gov.cn/search-front-server/api/search/info?websiteid=110000000000000&scope=basic&q=NC017425&pg=10&p=1&cateid=47&pos=title_text%2Ctitlepy%2Cinfocontent%2Cfilenumbername%2Ckeyword%2Ccontentdescribe&selectFields=title%2Curl%2Ccontent%2Cdeploytime%2Ccolumnname&group=distinct&level=6",
+  "response_headers": {
+    "date": "Fri, 09 Oct 2026 07:43:05 GMT",
+    "content-type": "text/html;charset=UTF-8",
+    "content-length": "225",
+    "set-cookie": "__jsluid_s=69a56894bc2f98f2bfa64e48facca7cf; max-age=31536000; path=/; HttpOnly; SameSite=None; secure",
+    "x-kong-upstream-latency": "131",
+    "x-kong-proxy-latency": "1",
+    "via": "kong/1.4.3",
+    "x-via-jsl": "885a527,-",
+    "x-cache": "bypass",
+    "x-envoy-upstream-service-time": "990",
+    "server": "envoy",
+    "connection": "close"
+  },
+  "bytes": 225,
+  "sha256": "0da379e732c676db788849e090907bc96693add062411557475f187d3e0f6d02",
+  "truncated": false
+}

@@ -1,0 +1,2 @@
+﻿firm_routing_name,model_key,JX原空能量,32联合跨界,4单项细分,92逐车资格,2208试验口径,purpose_scopes,source_versions_json,same_model_is_same_configuration,reply_rule
+前途汽车(苏州)有限公司,QTE7000BEV02,0,0,0,0,1,2208试验口径,"[{""purpose_scope"":""2208试验口径"",""source_record_ids"":""old-19-DOCX--0-41"",""source_observation_date_upper"":""2018-07-31"",""source_file"":""原件/免征目录/mf_batch19.docx"",""source_sha256"":""fafd1558aa0f21067847c19bdd0a95c79b919737be7b07b87c4538107fb2b8e3"",""firm_route_basis"":""原记录firm_raw""}]",0,按来源/日期/配置版本分别答复；同型号合并附件不等于同配置或逐车资格认证

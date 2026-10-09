@@ -1,0 +1,144 @@
+{
+  "model_key": "FZ7000BEVC01D",
+  "requested_q": "\"FZ7000BEVC01D\"",
+  "query_echo": "\"FZ7000BEVC01D\"",
+  "receipt": {
+    "requested_url": "https://www.bing.com/search?q=%22FZ7000BEVC01D%22&mkt=zh-CN&setlang=zh-hans&count=10",
+    "retrieved_utc": "2026-10-09T07:46:54.181687+00:00",
+    "tls_verification": true,
+    "status": "ok",
+    "http_status": 200,
+    "final_url": "https://www.bing.com/search?q=%22FZ7000BEVC01D%22&mkt=zh-CN&setlang=zh-hans&count=10",
+    "bytes": 101505,
+    "sha256": "37f299f5508d32ada6927dedbb891c2c3152986f0c6ea32ed7a655a53f7651a8",
+    "response_headers": {
+      "content-type": "text/html; charset=utf-8",
+      "cache-control": "private, max-age=0",
+      "expires": "Fri, 09 Oct 2026 07:45:54 GMT",
+      "vary": "User-Agent,Accept-Encoding",
+      "x-eventid": "6ac89beec7a1417091272dee571f26c7",
+      "x-as-setsessionmarket": "zh-CN",
+      "x-as-setsessionuilang": "zh-hans",
+      "useragentreductionoptout": "A7kgTC5xdZ2WIVGZEfb1hUoNuvjzOZX3VIV/BA6C18kQOOF50Q0D3oWoAm49k3BQImkujKILc7JmPysWk3CSjwUAAACMeyJvcmlnaW4iOiJodHRwczovL3d3dy5iaW5nLmNvbTo0NDMiLCJmZWF0dXJlIjoiU2VuZEZ1bGxVc2VyQWdlbnRBZnRlclJlZHVjdGlvbiIsImV4cGlyeSI6MTY4NDg4NjM5OSwiaXNTdWJkb21haW4iOnRydWUsImlzVGhpcmRQYXJ0eSI6dHJ1ZX0=",
+      "strict-transport-security": "max-age=31536000; includeSubDomains; preload",
+      "permissions-policy": "unload=()",
+      "content-security-policy": "script-src https: 'strict-dynamic' 'report-sample' 'wasm-unsafe-eval' 'nonce-hZGknGZNkdSgX/V6PM7j46p9/7U4VsrqUN2plzihOCo='; base-uri 'self';",
+      "p3p": "CP=\"NON UNI COM NAV STA LOC CURa DEVa PSAa PSDa OUR IND\"",
+      "x-display-context": "full",
+      "date": "Fri, 09 Oct 2026 07:46:54 GMT",
+      "set-cookie": "_SS=SID=0D1C3DACC0C567AF18D32A41C1BB66BA; domain=.bing.com; path=/",
+      "alt-svc": "h3=\":443\"; ma=93600",
+      "x-cdn-traceid": "0.d21c2117.1791532014.fe426279",
+      "x-envoy-upstream-service-time": "128",
+      "server": "envoy",
+      "connection": "close",
+      "transfer-encoding": "chunked"
+    },
+    "relative_path": "external/model_FZ7000BEVC01D.html"
+  },
+  "hits": [
+    {
+      "model_key": "FZ7000BEVC01D",
+      "result_url": "https://apps.microsoft.com/detail/xpffs6bvq23tzc?hl=zh-CN&gl=CN",
+      "result_text": "microsoft.com https://apps.microsoft.com › detail 人人视频  - Windows官方下载 | 微软应用商店 | Microsoft Store 人人视频-热更美剧韩剧日剧泰剧 更新快内容新,追剧人都选择 人人视频，看剧人的追剧神器。 【精选首页】小编精心推荐当下顶流 【 …    ",
+      "exact_model_in_result_text": 0,
+      "government_domain_candidate": 0,
+      "usable_as_scientific_evidence": 0,
+      "source_search_file": "external/model_FZ7000BEVC01D.html",
+      "source_search_sha256": "37f299f5508d32ada6927dedbb891c2c3152986f0c6ea32ed7a655a53f7651a8"
+    },
+    {
+      "model_key": "FZ7000BEVC01D",
+      "result_url": "http://d.rrsp.com.cn/",
+      "result_text": "rrsp.com.cn http://d.rrsp.com.cn 人人视频 2026年9月24日 · 公司简介：人人视频，看剧人的追剧神器，更新快内容新，追剧人都选择。 提供丰富影视资源，满足观众多元化观 …",
+      "exact_model_in_result_text": 0,
+      "government_domain_candidate": 0,
+      "usable_as_scientific_evidence": 0,
+      "source_search_file": "external/model_FZ7000BEVC01D.html",
+      "source_search_sha256": "37f299f5508d32ada6927dedbb891c2c3152986f0c6ea32ed7a655a53f7651a8"
+    },
+    {
+      "model_key": "FZ7000BEVC01D",
+      "result_url": "https://apps.microsoft.com/detail/xp9k9jbfwgc723?hl=zh-CN&gl=CN",
+      "result_text": "microsoft.com https://apps.microsoft.com › detail 人人视频 HD - Windows官方下载 | 微软应用商店 | Microsoft Store 人人视频-热更美剧韩剧日剧泰剧 更新快内容新,追剧人都选择 人人视频，看剧人的追剧神器。 【精选首页】小编精心推荐当下顶流 【 …",
+      "exact_model_in_result_text": 0,
+      "government_domain_candidate": 0,
+      "usable_as_scientific_evidence": 0,
+      "source_search_file": "external/model_FZ7000BEVC01D.html",
+      "source_search_sha256": "37f299f5508d32ada6927dedbb891c2c3152986f0c6ea32ed7a655a53f7651a8"
+    },
+    {
+      "model_key": "FZ7000BEVC01D",
+      "result_url": "https://www.pcsoft.com.cn/soft/30240204.html",
+      "result_text": "pcsoft.com.cn https://www.pcsoft.com.cn › soft 人人视频电脑版 - 人人视频电脑版 官方下载-PC下载网 2026年1月12日 · 人人视频电脑版汇聚海量海外剧集，像热门美剧、韩剧、日剧等同步更新，还有多元电影、综艺、动漫。 界面简 …",
+      "exact_model_in_result_text": 0,
+      "government_domain_candidate": 0,
+      "usable_as_scientific_evidence": 0,
+      "source_search_file": "external/model_FZ7000BEVC01D.html",
+      "source_search_sha256": "37f299f5508d32ada6927dedbb891c2c3152986f0c6ea32ed7a655a53f7651a8"
+    },
+    {
+      "model_key": "FZ7000BEVC01D",
+      "result_url": "https://pc.qq.com/detail/12/detail_35832.html",
+      "result_text": "qq.com https://pc.qq.com › detail 【 人人视频 下载】2026年最新官方正式版 人人视频  免费下载 ... 2025年12月5日 · 腾讯软件中心提供2026年最新1.24.0.0官方正式版人人视频高速下载，本正式版人人视频软件安全认证，免费无插件 …",
+      "exact_model_in_result_text": 0,
+      "government_domain_candidate": 0,
+      "usable_as_scientific_evidence": 0,
+      "source_search_file": "external/model_FZ7000BEVC01D.html",
+      "source_search_sha256": "37f299f5508d32ada6927dedbb891c2c3152986f0c6ea32ed7a655a53f7651a8"
+    },
+    {
+      "model_key": "FZ7000BEVC01D",
+      "result_url": "https://sj.qq.com/appdetail/com.example.pptv",
+      "result_text": "qq.com https://sj.qq.com › appdetail › com.example.pptv 人人视频 下载- 人人视频 app官网tv版下载-应用宝官网 2026年9月19日 · 如果您是一个喜欢追剧的人，那么您一定不会错过《人人视频》这款应用。 《人人视频》是一款专业的视频播放软 …",
+      "exact_model_in_result_text": 0,
+      "government_domain_candidate": 0,
+      "usable_as_scientific_evidence": 0,
+      "source_search_file": "external/model_FZ7000BEVC01D.html",
+      "source_search_sha256": "37f299f5508d32ada6927dedbb891c2c3152986f0c6ea32ed7a655a53f7651a8"
+    },
+    {
+      "model_key": "FZ7000BEVC01D",
+      "result_url": "https://www.renrenvideo.cn/",
+      "result_text": "renrenvideo.cn https://www.renrenvideo.cn 人人视频  - 海量高清美剧英剧日剧韩剧在线观看，热门海外 ... 2026年9月24日 · 人人视频是国内领先的海外影视在线观看平台，汇聚最新热门美剧、英剧、日剧、韩剧等高清正版资源，支持免费在 …",
+      "exact_model_in_result_text": 0,
+      "government_domain_candidate": 0,
+      "usable_as_scientific_evidence": 0,
+      "source_search_file": "external/model_FZ7000BEVC01D.html",
+      "source_search_sha256": "37f299f5508d32ada6927dedbb891c2c3152986f0c6ea32ed7a655a53f7651a8"
+    },
+    {
+      "model_key": "FZ7000BEVC01D",
+      "result_url": "https://renrenshipin.hl.cn/",
+      "result_text": "renrenshipin.hl.cn https://renrenshipin.hl.cn 人人视频  | 海外剧迷社区_英美日韩剧集影评_海外 影视 幕后 ... 2026年7月24日 · 人人视频是海外影视爱好者交流社区，汇集美剧、韩剧、日剧、泰剧深度影评、人物与剧本解析，分享海外剧集幕后 …",
+      "exact_model_in_result_text": 0,
+      "government_domain_candidate": 0,
+      "usable_as_scientific_evidence": 0,
+      "source_search_file": "external/model_FZ7000BEVC01D.html",
+      "source_search_sha256": "37f299f5508d32ada6927dedbb891c2c3152986f0c6ea32ed7a655a53f7651a8"
+    },
+    {
+      "model_key": "FZ7000BEVC01D",
+      "result_url": "https://zhidao.baidu.com/question/597621641578932085.html",
+      "result_text": "baidu.com https://zhidao.baidu.com › question 人人视频 入口是什么  人人视频 官方入口分享_百度知道 2025年10月12日 · 内容资源与合作网络 人人视频与全球多家MCN机构合作，整合大量海外影视资源，剧集库包含超1500部热门美剧 …",
+      "exact_model_in_result_text": 0,
+      "government_domain_candidate": 0,
+      "usable_as_scientific_evidence": 0,
+      "source_search_file": "external/model_FZ7000BEVC01D.html",
+      "source_search_sha256": "37f299f5508d32ada6927dedbb891c2c3152986f0c6ea32ed7a655a53f7651a8"
+    },
+    {
+      "model_key": "FZ7000BEVC01D",
+      "result_url": "https://www.itmop.com/downinfo/622885.html",
+      "result_text": "itmop.com https://www.itmop.com › downinfo 人人视频电脑版 下载- 人人视频电脑版 下载 1.23.0-IT猫扑网 2025年10月22日 · 人人视频电脑版是一款专注于海外影视内容的高清视频播放软件，以其丰富的剧集资源、流畅的观影体验和强大的 …",
+      "exact_model_in_result_text": 0,
+      "government_domain_candidate": 0,
+      "usable_as_scientific_evidence": 0,
+      "source_search_file": "external/model_FZ7000BEVC01D.html",
+      "source_search_sha256": "37f299f5508d32ada6927dedbb891c2c3152986f0c6ea32ed7a655a53f7651a8"
+    }
+  ],
+  "exact_model_relevant_hits": 0,
+  "same_model_is_configuration_identity": false,
+  "negative_search_conclusion_permitted": false
+}

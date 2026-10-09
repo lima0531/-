@@ -1,0 +1,13 @@
+{
+  "requested_url": "https://www.gatc.ac.cn/search/?title=SQJ7002YACBEV&model=article%2Cpic&navlist=329",
+  "retrieved_utc": "2026-10-09T07:47:33.673593+00:00",
+  "local_file": "institution_queries/gatc_SQJ7002YACBEV.html",
+  "purpose": "广州检验中心官网可见GET搜索表单查询",
+  "query": "SQJ7002YACBEV",
+  "target_models": [
+    "SQJ7002YACBEV"
+  ],
+  "tls_verification": true,
+  "status": "fetch_error",
+  "error": "URLError(OSError('Tunnel connection failed: 403 Forbidden'))"
+}

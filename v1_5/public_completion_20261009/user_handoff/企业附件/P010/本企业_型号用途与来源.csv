@@ -1,0 +1,2 @@
+﻿firm_routing_name,model_key,JX原空能量,32联合跨界,4单项细分,92逐车资格,2208试验口径,purpose_scopes,source_versions_json,same_model_is_same_configuration,reply_rule
+上海通用汽车有限公司,SGM7001EV,0,0,0,0,1,2208试验口径,"[{""purpose_scope"":""2208试验口径"",""source_record_ids"":""old-01-PDF-grid-1-0-14"",""source_observation_date_upper"":""2014-08-27"",""source_file"":""原件/免征目录/mf_batch01.pdf"",""source_sha256"":""eac13628c37f01c4da157a2d1916d97acc81fdc295f18e1783549075ce7e5aa7"",""firm_route_basis"":""原记录firm_raw""}]",0,按来源/日期/配置版本分别答复；同型号合并附件不等于同配置或逐车资格认证

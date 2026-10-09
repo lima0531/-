@@ -1,0 +1,40 @@
+{
+  "requested_url": "https://www.jmev.com/",
+  "retrieved_utc": "2026-10-09T07:43:08.147726+00:00",
+  "local_file": "portals/jmev.html",
+  "purpose": "江铃集团新能源公共官网入口",
+  "query": "",
+  "target_models": [
+    "JX7004ESABEV"
+  ],
+  "tls_verification": true,
+  "status": "ok",
+  "http_status": 200,
+  "final_url": "https://www.jmev.com/",
+  "response_headers": {
+    "server": "envoy",
+    "content-type": "text/html",
+    "content-length": "22893",
+    "date": "Fri, 09 Oct 2026 07:43:10 GMT",
+    "vary": "Accept-Encoding,Accept-Encoding",
+    "last-modified": "Thu, 10 Sep 2026 06:43:32 GMT",
+    "etag": "\"6aa25194-596d\"",
+    "accept-ranges": "bytes",
+    "via": "cache13.l2cn1800[304,303,200-0,M], cache13.l2cn1800[304,0], kunlun2.cn3977[373,372,200-0,M], kunlun5.cn3977[375,0]",
+    "ali-swift-global-savetime": "1791531790",
+    "x-cache": "MISS TCP_MISS dirn:10:177146065",
+    "x-swift-savetime": "Fri, 09 Oct 2026 07:43:10 GMT",
+    "x-swift-cachetime": "3600",
+    "strict-transport-security": "max-age=31536000; includeSubdomains;",
+    "x-xss-protection": "1",
+    "x-content-type-options": "nosniff",
+    "x-frame-options": "SAMEORIGIN",
+    "timing-allow-origin": "*",
+    "eagleid": "7030ae0a17915317905726380e",
+    "x-envoy-upstream-service-time": "1122",
+    "connection": "close"
+  },
+  "bytes": 22893,
+  "sha256": "12664d266f5cbdba5fbd55862066d2171527a39b40073aa0611a1b7f8320e9f3",
+  "truncated": false
+}

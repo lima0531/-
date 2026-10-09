@@ -1,0 +1,27 @@
+{
+  "requested_url": "http://www.catarc-wh.cn/",
+  "retrieved_utc": "2026-10-09T07:44:28.488362+00:00",
+  "local_file": "test_portals/catarc_wh.html",
+  "purpose": "中汽中心官网链接的武汉检验中心",
+  "query": "",
+  "target_models": [],
+  "tls_verification": true,
+  "status": "ok",
+  "http_status": 200,
+  "final_url": "https://www.catarc-wh.cn/",
+  "response_headers": {
+    "date": "Fri, 09 Oct 2026 07:44:32 GMT",
+    "content-type": "text/html",
+    "content-length": "753",
+    "server": "envoy",
+    "last-modified": "Tue, 01 Sep 2026 05:12:22 GMT",
+    "etag": "\"6a965eb6-2f1\"",
+    "accept-ranges": "bytes",
+    "x-ct-request-id": "3cf86b4d546677e9553a19c32cb7008b",
+    "x-envoy-upstream-service-time": "735",
+    "connection": "close"
+  },
+  "bytes": 753,
+  "sha256": "65ab5dbef6d218dce6430fd9118ced4bd8a7608e8d4f70f215657cf55c67f1dc",
+  "truncated": false
+}

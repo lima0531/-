@@ -1,0 +1,14 @@
+{
+  "name": "bing_exact",
+  "requested_url": "https://www.bing.com/search?q=%22JX6550T-M5BEV%22",
+  "purpose": "Public index lead discovery; not a primary capacity source",
+  "retrieved_at_utc": "2026-10-09T07:43:50.961870+00:00",
+  "tls_verified": true,
+  "http_status": 200,
+  "final_url": "https://www.bing.com/search?q=%22JX6550T-M5BEV%22",
+  "bytes": 108990,
+  "sha256": "6a5c4861ed1050dd64e004c4946e4c1d2faa47a59be6abc9819e05827ca7ed9f",
+  "local_file": "raw/bing_exact.html",
+  "response_content_type": "text/html; charset=utf-8",
+  "status": "received"
+}

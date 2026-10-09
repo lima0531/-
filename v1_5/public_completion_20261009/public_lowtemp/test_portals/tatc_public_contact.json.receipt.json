@@ -1,0 +1,26 @@
+{
+  "requested_url": "https://www.tatc.com.cn/commonContactUs",
+  "retrieved_utc": "2026-10-09T07:50:21.376743+00:00",
+  "local_file": "test_portals/tatc_public_contact.json",
+  "purpose": "官网页脚JavaScript实际调用的公开联系信息接口",
+  "query": "",
+  "target_models": [],
+  "tls_verification": true,
+  "status": "ok",
+  "http_status": 200,
+  "final_url": "https://www.tatc.com.cn/commonContactUs",
+  "response_headers": {
+    "date": "Fri, 09 Oct 2026 07:50:25 GMT",
+    "content-type": "application/json;charset=UTF-8",
+    "content-length": "1112",
+    "server": "envoy",
+    "x-frame-options": "SAMEORIGIN",
+    "set-cookie": "Path=/; HttpOnly; Secure",
+    "x-ct-request-id": "c89b7b4dea7e892454628f74f6b6724c",
+    "x-envoy-upstream-service-time": "661",
+    "connection": "close"
+  },
+  "bytes": 1112,
+  "sha256": "bda7beee4f0dead434db0ac5dd6a015c0ed41d04760da18711b9614b2caac240",
+  "truncated": false
+}

@@ -1,0 +1,25 @@
+{
+  "requested_url": "http://www.catarc-nb.cn/",
+  "retrieved_utc": "2026-10-09T07:44:28.491101+00:00",
+  "local_file": "test_portals/catarc_nb.html",
+  "purpose": "中汽中心官网链接的宁波检验中心",
+  "query": "",
+  "target_models": [],
+  "tls_verification": true,
+  "status": "ok",
+  "http_status": 200,
+  "final_url": "http://www.catarc-nb.cn/",
+  "response_headers": {
+    "date": "Fri, 09 Oct 2026 07:44:29 GMT",
+    "content-type": "text/html; charset=utf-8",
+    "server": "envoy",
+    "x-powered-by": "PHP/7.2.34",
+    "x-ct-request-id": "d95b0405612183390e5f4e42f7a05794",
+    "x-envoy-upstream-service-time": "689",
+    "connection": "close",
+    "transfer-encoding": "chunked"
+  },
+  "bytes": 85063,
+  "sha256": "1ebc8f2aa5c7d64c910bc55c2a8d80c0b40a0a37e76d25af3b484c61351c7fcd",
+  "truncated": false
+}

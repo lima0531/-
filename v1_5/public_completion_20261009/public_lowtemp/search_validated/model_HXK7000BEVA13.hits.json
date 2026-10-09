@@ -1,0 +1,38 @@
+{
+  "query": "HXK7000BEVA13",
+  "receipt": {
+    "requested_url": "https://www.miit.gov.cn/search-front-server/api/search/info?websiteid=110000000000000&scope=basic&q=HXK7000BEVA13&pg=10&p=1&cateid=47&pos=title_text%2Ctitlepy%2Cinfocontent%2Cfilenumbername%2Ckeyword%2Ccontentdescribe&selectFields=title%2Ccontent%2Cdeploytime%2C_index%2Curl%2Ccdate%2Cinfoextends%2Cinfocontentattribute%2Ckeyword%2Ccontentdescribe%2Csectitle%2Cpicpath%2Ccolumnname%2Cthemename%2Cpublishgroupname%2Cpublishtime%2Cmetaid%2Cbexxgk%2Ccolumnid%2Cinfocontenthashcode&group=distinct&level=6&sortFields=%5B%7B%22name%22%3A%22deploytime%22%2C%22type%22%3A%22desc%22%7D%5D",
+    "retrieved_utc": "2026-10-09T07:45:54.053551+00:00",
+    "local_file": "search_validated/model_HXK7000BEVA13.json",
+    "purpose": "工信部公共全文搜索：查同型号/配置公开低温检测证据（完整有效接口参数）",
+    "query": "HXK7000BEVA13",
+    "target_models": [
+      "HXK7000BEVA13"
+    ],
+    "tls_verification": true,
+    "status": "ok",
+    "http_status": 200,
+    "final_url": "https://www.miit.gov.cn/search-front-server/api/search/info?websiteid=110000000000000&scope=basic&q=HXK7000BEVA13&pg=10&p=1&cateid=47&pos=title_text%2Ctitlepy%2Cinfocontent%2Cfilenumbername%2Ckeyword%2Ccontentdescribe&selectFields=title%2Ccontent%2Cdeploytime%2C_index%2Curl%2Ccdate%2Cinfoextends%2Cinfocontentattribute%2Ckeyword%2Ccontentdescribe%2Csectitle%2Cpicpath%2Ccolumnname%2Cthemename%2Cpublishgroupname%2Cpublishtime%2Cmetaid%2Cbexxgk%2Ccolumnid%2Cinfocontenthashcode&group=distinct&level=6&sortFields=%5B%7B%22name%22%3A%22deploytime%22%2C%22type%22%3A%22desc%22%7D%5D",
+    "response_headers": {
+      "date": "Fri, 09 Oct 2026 07:45:55 GMT",
+      "content-type": "text/html;charset=UTF-8",
+      "content-length": "225",
+      "set-cookie": "__jsluid_s=46bc1acbbbab553a417f839d97988968; max-age=31536000; path=/; HttpOnly; SameSite=None; secure",
+      "x-kong-upstream-latency": "225",
+      "x-kong-proxy-latency": "2",
+      "via": "kong/1.4.3",
+      "x-via-jsl": "3554f18,-",
+      "x-cache": "bypass",
+      "x-envoy-upstream-service-time": "1109",
+      "server": "envoy",
+      "connection": "close"
+    },
+    "bytes": 225,
+    "sha256": "55bba1900bd41202fa0dd592e94485ee9afa02638ca2b53f45f3225347646ea6",
+    "truncated": false
+  },
+  "json_parsed": true,
+  "returned_hits": 0,
+  "pagination_scope": "第1页pg=10；同文章可能返回多个栏目URL；不是全网穷尽搜索",
+  "hits": []
+}

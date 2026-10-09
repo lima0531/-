@@ -1,0 +1,30 @@
+{
+  "request_url": "https://www.baidu.com/s?wd=%E5%85%8D%E5%BE%81%E8%BD%A6%E8%BE%86%E8%B4%AD%E7%BD%AE%E7%A8%8E%E7%9A%84%E6%96%B0%E8%83%BD%E6%BA%90%E6%B1%BD%E8%BD%A6%E8%BD%A6%E5%9E%8B%E7%9B%AE%E5%BD%95+%E7%AC%AC%E4%B8%80%E6%89%B9+2014+%E7%AC%AC54%E5%8F%B7",
+  "purpose": "公开搜索发现历史官方完整公告入口",
+  "retrieved_at_utc": "2026-10-09T07:44:09.489896+00:00",
+  "request_method": "GET",
+  "tls_verification": true,
+  "retry_policy": "one request; cache receipt thereafter",
+  "http_status": 200,
+  "final_url": "https://wappass.baidu.com/static/captcha/tuxing_v2.html?&logid=10384877150916438674&ak=c27bbc89afca0463650ac9bde68ebe06&backurl=https%3A%2F%2Fwww.baidu.com%2Fs%3Fwd%3D%25E5%2585%258D%25E5%25BE%2581%25E8%25BD%25A6%25E8%25BE%2586%25E8%25B4%25AD%25E7%25BD%25AE%25E7%25A8%258E%25E7%259A%2584%25E6%2596%25B0%25E8%2583%25BD%25E6%25BA%2590%25E6%25B1%25BD%25E8%25BD%25A6%25E8%25BD%25A6%25E5%259E%258B%25E7%259B%25AE%25E5%25BD%2595%2B%25E7%25AC%25AC%25E4%25B8%2580%25E6%2589%25B9%2B2014%2B%25E7%25AC%25AC54%25E5%258F%25B7&ext=x9G9QDmMXq%2FNo87gjGO0P6irLCqGhNIaolpa2Ek%2BfYwaaeyhUvJM%2FH2FbXwC2V2uUgqUK9LXd1cIlztrhMwivzvFX9GEy%2FROEkPPLKW2gYmq88vjYNjKcIXs1AYHPxXwSCAe1EQ3IsG%2BFn2u6CQ8X2c1mdkdhxm3kBHSy3F7FDs%3D&signature=4bdf6afce8f54c0517a173ac95801a5f&timestamp=1791531851",
+  "response_headers": {
+    "accept-ranges": "bytes",
+    "content-length": "1488",
+    "content-type": "text/html",
+    "date": "Fri, 09 Oct 2026 07:44:13 GMT",
+    "etag": "\"6a8bb8dc-5d0\"",
+    "last-modified": "Mon, 24 Aug 2026 03:22:04 GMT",
+    "p3p": "CP=\" OTI DSP COR IVA OUR IND COM \"",
+    "server": "envoy",
+    "set-cookie": "BAIDUID=6492EB3BFECD621C0BEA47BC1C993251:FG=1; expires=Sat, 09-Oct-27 07:44:13 GMT; max-age=31536000; path=/; domain=.baidu.com; version=1",
+    "strict-transport-security": "max-age=31536000",
+    "tracecode": "37621922770437948938100915",
+    "vary": "Accept-Encoding",
+    "x-envoy-upstream-service-time": "1692",
+    "connection": "close"
+  },
+  "status": "retrieved",
+  "evidence_file": "/workspace/purchase_tax_audit/round9/public_first_batch/baidu_first.html",
+  "bytes": 1488,
+  "sha256": "15259fc79487b40f63821b33577fed32f0c490c885cc87d191ed407248e75d0a"
+}

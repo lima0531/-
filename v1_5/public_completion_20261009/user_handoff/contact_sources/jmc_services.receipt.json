@@ -1,0 +1,18 @@
+{
+  "key": "jmc_services",
+  "firm": "江铃汽车股份有限公司",
+  "requested_url": "https://www.jmc.com.cn/services.html",
+  "url_basis": "round8/jx_public_final_pass/raw/jmc_common.js literal services.html link; no query/state submitted",
+  "retrieved_utc": "2026-10-09T07:47:26.054822+00:00",
+  "tls_verification": true,
+  "method": "GET_only_no_submission",
+  "external_message_sent": false,
+  "http_status": 200,
+  "final_url": "https://www.jmc.com.cn/services.html",
+  "content_type": "text/html",
+  "truncated": false,
+  "status": "retrieved",
+  "source_file": "contact_sources/jmc_services.txt",
+  "bytes": 2354,
+  "sha256": "629bf0469a29d9c5bf58b7ae4290322471094f9c26c40a61b06397b7880bf7cb"
+}

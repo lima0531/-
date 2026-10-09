@@ -1,0 +1,127 @@
+window.localMap = (function () {
+    var location = {
+        // province: '广东',
+        // city: '广州',
+        // lat: 23.13,
+        // lnt: 113.26,
+        province: '',
+        city: '',
+        lat: '',
+        lnt: '',
+        nearData: null
+    };
+    return {
+        //浏览器定位
+        getLocation: function () {
+            return new Promise((resolve, reject) => {
+                AMap.plugin('AMap.Geolocation', function () {
+                    var geolocation = new AMap.Geolocation({
+                        enableHighAccuracy: true,
+                        timeout: 5000,
+                        buttonPosition: 'RB',
+                        buttonOffset: new AMap.Pixel(10, 20),
+                        zoomToAccuracy: true,
+                        panToLocation: true,
+                        needAddress: true,
+                    });
+                    geolocation.getCurrentPosition(function (status, result) {
+                        if (status == 'complete' && result.addressComponent) {
+                            console.log('浏览器定位成功：', result)
+                            resolve({
+                                lat: result.position.lat,
+                                lnt: result.position.lng,
+                                province: result.addressComponent.province.replace(/壮族|回族|维吾尔|自治区|市|省/g,''),
+                                city: result.addressComponent.city.replace(/壮族|回族|维吾尔|自治区|市|省/g,''),
+                            })
+                        } else {
+                            console.log('浏览器定位错误：', result)
+                            // resolve(location)
+                            //ip定位
+                            geolocation.getCityInfo(function (statusIp, resultIp) {
+                                if (statusIp == 'complete') {
+                                    console.log('ip定位成功：', resultIp)
+                                    resolve({
+                                        lnt: resultIp.position[0],
+                                        lat: resultIp.position[1],
+                                        province: resultIp.province.replace(/壮族|回族|维吾尔|自治区|市|省/g,''),
+                                        city: resultIp.city.replace(/壮族|回族|维吾尔|自治区|市|省/g,'')
+                                    })
+                                } else {
+                                    console.log('ip定位错误：', resultIp)
+                                    resolve(location)
+                                }
+                            })
+                        }
+                    });
+                });
+            })
+        },
+        //ip定位
+        getIpLocation: function () {
+            return new Promise((resolve, reject) => {
+                AMap.plugin('AMap.CitySearch', function () {
+                    var citySearch = new AMap.CitySearch()
+                    citySearch.getLocalCity(function (status, result) {
+                        if (status === 'complete' && result.info === 'OK') {
+                            resolve({
+                                province: result.province.replace(/壮族|回族|维吾尔|自治区|市|省/g,''),
+                                city: result.city.replace(/壮族|回族|维吾尔|自治区|市|省/g,''),
+                                lat: result.bounds.northeast.lat,
+                                lnt: result.bounds.northeast.lng
+                            })
+                        } else {
+                            resolve(location)
+                        }
+                    })
+                })
+            })
+        },
+        //百度坐标转高德（传入经度、纬度）
+        bd_decrypt: function (bd_lng, bd_lat) {
+            var X_PI = Math.PI * 3000.0 / 180.0;
+            var x = bd_lng - 0.0065;
+            var y = bd_lat - 0.006;
+            var z = Math.sqrt(x * x + y * y) - 0.00002 * Math.sin(y * X_PI);
+            var theta = Math.atan2(y, x) - 0.000003 * Math.cos(x * X_PI);
+            var gg_lng = z * Math.cos(theta);
+            var gg_lat = z * Math.sin(theta);
+            return { lng: gg_lng, lat: gg_lat }
+        },
+        //高德坐标转百度（传入经度、纬度）
+        bd_encrypt: function (gg_lng, gg_lat) {
+            var X_PI = Math.PI * 3000.0 / 180.0;
+            var x = gg_lng, y = gg_lat;
+            var z = Math.sqrt(x * x + y * y) + 0.00002 * Math.sin(y * X_PI);
+            var theta = Math.atan2(y, x) + 0.000003 * Math.cos(x * X_PI);
+            var bd_lng = z * Math.cos(theta) + 0.0065;
+            var bd_lat = z * Math.sin(theta) + 0.006;
+            return {
+                bd_lat: bd_lat,
+                bd_lng: bd_lng
+            };
+        },
+        //获取距离最近的经销商
+        selectedNearest:function(lat,lnt,data){
+            // console.log(lat,lnt)
+            if(!lat && !lnt){
+                return ''
+            }
+            var juliArr = [];
+            data.forEach(function (item, index) {
+                item["juli"] = Math.sqrt(Math.pow(item.Latitude - lat, 2) + Math.pow(item.Longitude - lnt, 2));
+                juliArr.push(item)
+            });
+
+            for (var vi = 0; vi < juliArr.length - 1; vi++) {//控制比较轮数
+                for (var vj = 0; vj < juliArr.length - vi - 1; vj++) {//控制每轮比较的次数
+                    if (juliArr[vj].juli > juliArr[vj + 1].juli) {
+                        var tmp = juliArr[vj];
+                        juliArr[vj] = juliArr[vj + 1];
+                        juliArr[vj + 1] = tmp;
+                    }
+                }
+            };
+            return juliArr[0]
+        },
+    }
+})()

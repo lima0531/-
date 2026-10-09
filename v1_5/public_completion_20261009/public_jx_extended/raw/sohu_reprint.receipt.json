@@ -1,0 +1,14 @@
+{
+  "name": "sohu_reprint",
+  "requested_url": "https://www.sohu.com/a/499829552_118021",
+  "purpose": "Independent reproduction of tax48; check capacity cell, not an official original",
+  "retrieved_at_utc": "2026-10-09T07:44:33.419900+00:00",
+  "tls_verified": true,
+  "http_status": 200,
+  "final_url": "https://www.sohu.com/a/499829552_118021",
+  "bytes": 75878,
+  "sha256": "7162c0dfbd2470b29e073d9b984c3d7ddc69322a8913656fd8fcc5846a907b65",
+  "local_file": "raw/sohu_reprint.html",
+  "response_content_type": "text/html;charset=UTF-8",
+  "status": "received"
+}

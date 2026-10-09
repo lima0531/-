@@ -1,0 +1,144 @@
+{
+  "model_key": "CC7000CG00FBEV",
+  "requested_q": "\"CC7000CG00FBEV\"",
+  "query_echo": "\"CC7000CG00FBEV\"",
+  "receipt": {
+    "requested_url": "https://www.bing.com/search?q=%22CC7000CG00FBEV%22&mkt=zh-CN&setlang=zh-hans&count=10",
+    "retrieved_utc": "2026-10-09T07:46:53.811555+00:00",
+    "tls_verification": true,
+    "status": "ok",
+    "http_status": 200,
+    "final_url": "https://www.bing.com/search?q=%22CC7000CG00FBEV%22&mkt=zh-CN&setlang=zh-hans&count=10",
+    "bytes": 99832,
+    "sha256": "7278193046d35cc71a04d7d98b941f7b74da2869bc2e4b1c4e15f0fd59bd3ef1",
+    "response_headers": {
+      "content-type": "text/html; charset=utf-8",
+      "cache-control": "private, max-age=0",
+      "expires": "Fri, 09 Oct 2026 07:45:53 GMT",
+      "vary": "User-Agent,Accept-Encoding",
+      "x-eventid": "6ac89bedb1764143ad56c74875046cd5",
+      "x-as-setsessionmarket": "zh-CN",
+      "x-as-setsessionuilang": "zh-hans",
+      "useragentreductionoptout": "A7kgTC5xdZ2WIVGZEfb1hUoNuvjzOZX3VIV/BA6C18kQOOF50Q0D3oWoAm49k3BQImkujKILc7JmPysWk3CSjwUAAACMeyJvcmlnaW4iOiJodHRwczovL3d3dy5iaW5nLmNvbTo0NDMiLCJmZWF0dXJlIjoiU2VuZEZ1bGxVc2VyQWdlbnRBZnRlclJlZHVjdGlvbiIsImV4cGlyeSI6MTY4NDg4NjM5OSwiaXNTdWJkb21haW4iOnRydWUsImlzVGhpcmRQYXJ0eSI6dHJ1ZX0=",
+      "strict-transport-security": "max-age=31536000; includeSubDomains; preload",
+      "permissions-policy": "unload=()",
+      "content-security-policy": "script-src https: 'strict-dynamic' 'report-sample' 'wasm-unsafe-eval' 'nonce-rlgJDpTZi+NJIdLZzBg9juMJiV17rpO2BEYLsenOh2s='; base-uri 'self';",
+      "p3p": "CP=\"NON UNI COM NAV STA LOC CURa DEVa PSAa PSDa OUR IND\"",
+      "x-display-context": "full",
+      "date": "Fri, 09 Oct 2026 07:46:53 GMT",
+      "set-cookie": "_SS=SID=1752B104CB966BC327A8A6E9CAFA6A8A; domain=.bing.com; path=/",
+      "alt-svc": "h3=\":443\"; ma=93600",
+      "x-cdn-traceid": "0.c81c2117.1791532013.1ca6f476",
+      "x-envoy-upstream-service-time": "82",
+      "server": "envoy",
+      "connection": "close",
+      "transfer-encoding": "chunked"
+    },
+    "relative_path": "external/model_CC7000CG00FBEV.html"
+  },
+  "hits": [
+    {
+      "model_key": "CC7000CG00FBEV",
+      "result_url": "https://pubmed.ncbi.nlm.nih.gov/",
+      "result_text": "nih.gov https://pubmed.ncbi.nlm.nih.gov PubMed PubMed® comprises more than 40 million citations for biomedical literature from MEDLINE, life science journals, and online books. …    ",
+      "exact_model_in_result_text": 0,
+      "government_domain_candidate": 0,
+      "usable_as_scientific_evidence": 0,
+      "source_search_file": "external/model_CC7000CG00FBEV.html",
+      "source_search_sha256": "7278193046d35cc71a04d7d98b941f7b74da2869bc2e4b1c4e15f0fd59bd3ef1"
+    },
+    {
+      "model_key": "CC7000CG00FBEV",
+      "result_url": "https://pubmed.ncbi.nlm.nih.gov/advanced/",
+      "result_text": "nih.gov https://pubmed.ncbi.nlm.nih.gov › advanced Advanced Search Results - PubMed Advanced Search Results - PubMed Your history is currently empty! As you use PubMed your recent searches will appear here.",
+      "exact_model_in_result_text": 0,
+      "government_domain_candidate": 0,
+      "usable_as_scientific_evidence": 0,
+      "source_search_file": "external/model_CC7000CG00FBEV.html",
+      "source_search_sha256": "7278193046d35cc71a04d7d98b941f7b74da2869bc2e4b1c4e15f0fd59bd3ef1"
+    },
+    {
+      "model_key": "CC7000CG00FBEV",
+      "result_url": "https://pubmed.ncbi.nlm.nih.gov/about/",
+      "result_text": "nih.gov https://pubmed.ncbi.nlm.nih.gov › about About - PubMed 2025年3月11日 · About PubMed PubMed is a free resource supporting the search and retrieval of biomedical and life sciences …",
+      "exact_model_in_result_text": 0,
+      "government_domain_candidate": 0,
+      "usable_as_scientific_evidence": 0,
+      "source_search_file": "external/model_CC7000CG00FBEV.html",
+      "source_search_sha256": "7278193046d35cc71a04d7d98b941f7b74da2869bc2e4b1c4e15f0fd59bd3ef1"
+    },
+    {
+      "model_key": "CC7000CG00FBEV",
+      "result_url": "https://pubmed.ncbi.nlm.nih.gov/28099824/",
+      "result_text": "nih.gov https://pubmed.ncbi.nlm.nih.gov Mechanisms, Pathophysiology, and Management of Obesity 2017年1月19日 · Mechanisms, Pathophysiology, and Management of Obesity N Engl J Med. 2017 Jan 19;376 (3):254-266. doi: …",
+      "exact_model_in_result_text": 0,
+      "government_domain_candidate": 0,
+      "usable_as_scientific_evidence": 0,
+      "source_search_file": "external/model_CC7000CG00FBEV.html",
+      "source_search_sha256": "7278193046d35cc71a04d7d98b941f7b74da2869bc2e4b1c4e15f0fd59bd3ef1"
+    },
+    {
+      "model_key": "CC7000CG00FBEV",
+      "result_url": "https://pubmed.ncbi.nlm.nih.gov/31634902/",
+      "result_text": "nih.gov https://pubmed.ncbi.nlm.nih.gov Search-and-replace genome editing without double-strand … Most genetic variants that contribute to disease<sup>1</sup> are challenging to correct efficiently and without excess …",
+      "exact_model_in_result_text": 0,
+      "government_domain_candidate": 0,
+      "usable_as_scientific_evidence": 0,
+      "source_search_file": "external/model_CC7000CG00FBEV.html",
+      "source_search_sha256": "7278193046d35cc71a04d7d98b941f7b74da2869bc2e4b1c4e15f0fd59bd3ef1"
+    },
+    {
+      "model_key": "CC7000CG00FBEV",
+      "result_url": "https://pubmed.ncbi.nlm.nih.gov/20576885/",
+      "result_text": "nih.gov https://pubmed.ncbi.nlm.nih.gov Reconstituting organ-level lung functions on a chip - PubMed 2010年6月25日 · Here, we describe a biomimetic microsystem that reconstitutes the critical functional alveolar-capillary interface of …",
+      "exact_model_in_result_text": 0,
+      "government_domain_candidate": 0,
+      "usable_as_scientific_evidence": 0,
+      "source_search_file": "external/model_CC7000CG00FBEV.html",
+      "source_search_sha256": "7278193046d35cc71a04d7d98b941f7b74da2869bc2e4b1c4e15f0fd59bd3ef1"
+    },
+    {
+      "model_key": "CC7000CG00FBEV",
+      "result_url": "https://pubmed.ncbi.nlm.nih.gov/30718830/",
+      "result_text": "nih.gov https://pubmed.ncbi.nlm.nih.gov Macrophages as regulators of tumour immunity and … Macrophages are critical mediators of tissue homeostasis, with tumours distorting this proclivity to stimulate proliferation, …",
+      "exact_model_in_result_text": 0,
+      "government_domain_candidate": 0,
+      "usable_as_scientific_evidence": 0,
+      "source_search_file": "external/model_CC7000CG00FBEV.html",
+      "source_search_sha256": "7278193046d35cc71a04d7d98b941f7b74da2869bc2e4b1c4e15f0fd59bd3ef1"
+    },
+    {
+      "model_key": "CC7000CG00FBEV",
+      "result_url": "https://pubmed.ncbi.nlm.nih.gov/help/",
+      "result_text": "nih.gov https://pubmed.ncbi.nlm.nih.gov › help Help - PubMed 2026年9月30日 · For many searches, it is not necessary to use special tags or syntax. PubMed uses multiple tools to help you find …",
+      "exact_model_in_result_text": 0,
+      "government_domain_candidate": 0,
+      "usable_as_scientific_evidence": 0,
+      "source_search_file": "external/model_CC7000CG00FBEV.html",
+      "source_search_sha256": "7278193046d35cc71a04d7d98b941f7b74da2869bc2e4b1c4e15f0fd59bd3ef1"
+    },
+    {
+      "model_key": "CC7000CG00FBEV",
+      "result_url": "https://pubmed.ncbi.nlm.nih.gov/38214615/",
+      "result_text": "nih.gov https://pubmed.ncbi.nlm.nih.gov The social determinants of mental health and disorder ... - PubMed People exposed to more unfavourable social circumstances are more vulnerable to poor mental health over their life course, in ways …",
+      "exact_model_in_result_text": 0,
+      "government_domain_candidate": 0,
+      "usable_as_scientific_evidence": 0,
+      "source_search_file": "external/model_CC7000CG00FBEV.html",
+      "source_search_sha256": "7278193046d35cc71a04d7d98b941f7b74da2869bc2e4b1c4e15f0fd59bd3ef1"
+    },
+    {
+      "model_key": "CC7000CG00FBEV",
+      "result_url": "https://pubmed.ncbi.nlm.nih.gov/24214165/",
+      "result_text": "nih.gov https://pubmed.ncbi.nlm.nih.gov An intervention for sensory difficulties in children with ... - PubMed This study evaluated a manualized intervention for sensory difficulties for children with autism, ages 4-8 years, using a randomized …",
+      "exact_model_in_result_text": 0,
+      "government_domain_candidate": 0,
+      "usable_as_scientific_evidence": 0,
+      "source_search_file": "external/model_CC7000CG00FBEV.html",
+      "source_search_sha256": "7278193046d35cc71a04d7d98b941f7b74da2869bc2e4b1c4e15f0fd59bd3ef1"
+    }
+  ],
+  "exact_model_relevant_hits": 0,
+  "same_model_is_configuration_identity": false,
+  "negative_search_conclusion_permitted": false
+}

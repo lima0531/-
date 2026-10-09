@@ -1,0 +1,82 @@
+{
+  "source_file": "portal/energy_script_31.js",
+  "source_sha256": "ef48b95f266c08103f35e84054546d982dbe7cba64fd3f2837138097138cab43",
+  "source_url": "https://yhgscx.miit.gov.cn/fuel-consumption-web/js/app.js",
+  "markers": [
+    {
+      "marker": "onNormalSearch: function",
+      "found": true,
+      "offset": 140166,
+      "excerpt": "/file/download?m=\\\".concat(abbreviatedLabel, \\\"&p=1\\\"), '_blank');\\n    },\\n    onNormalSearch: function onNormalSearch() {\\n      this.$refs.slideVerify.dialogVisible = true; // this.getDataWay.param={searchText:this.searchText,...this.pagination,reportType:this.energySel}\\n      // // this.getDataWay.param.searchText=this.searchText\\n      // this.$refs.table.loadData();\\n      // this.$refs.table.clearAllCheckedData()\\n    "
+    },
+    {
+      "marker": "this.$refs.slideVerify.dialogVisible = true",
+      "found": true,
+      "offset": 140217,
+      "excerpt": "\\\"), '_blank');\\n    },\\n    onNormalSearch: function onNormalSearch() {\\n      this.$refs.slideVerify.dialogVisible = true; // this.getDataWay.param={searchText:this.searchText,...this.pagination,reportType:this.energySel}\\n      // // this.getDataWay.param.searchText=this.searchText\\n      // this.$refs.table.loadData();\\n      // this.$refs.table.clearAllCheckedData()\\n    },\\n    toEnterpriseInfo: function toEnterpriseInfo"
+    },
+    {
+      "marker": "this.$refs.slideVerifySenior.dialogVisible = true",
+      "found": true,
+      "offset": 140917,
+      "excerpt": "nNormalSearch();\\n    },\\n    // 查询\\n    onSearch: function onSearch() {\\n      this.$refs.slideVerifySenior.dialogVisible = true;\\n      this.changeTable(this.searchParams.reportType); // this.getDataWay.param=this.searchParams\\n      // this.$refs.table.loadData();\\n    },\\n    // 重置\\n    onClear: function onClear() {\\n      this.searchParams = {\\n        //查询条件\\n        oversrasName: \\\"\\\",\\n        reportType: this.energySe"
+    },
+    {
+      "marker": "firstRequest: false",
+      "found": true,
+      "offset": 125901,
+      "excerpt": "       // 通过url方式\\n        dataType: \\\"url\\\",\\n        type: \\\"post\\\",\\n        firstRequest: false,\\n        data: this.$api.search.queryNewList,\\n        param: {}\\n      },\\n      publicTimeEnd: {\\n        // 结束时间大于开始时间\\n        disabledDate: function disabledDate(time) {\\n          if (_this.searchParams.publicTimeStart !== \\\"\\\") {\\n            return time.getTime() < new Date(_this.searchParams.publicTimeStart).getTime() "
+    },
+    {
+      "marker": "车辆型号",
+      "found": true,
+      "offset": 77601,
+      "excerpt": "methods: {\\n    //初始化表格数据\\n    initData: function initData() {\\n      //表头=通用名称+车辆型号 字符串拼接\\n      // this.tableHeadList = this.$route.params.tableHead;\\n      var that = this;\\n      this.$$request({\\n        url: this.$api.search.compare,\\n        data: {\\n          applyIds: this.$route.query.applyIds instanceof Array ? this.$route.query.applyIds : [this.$route.query.applyIds]\\n        }\\n      }).then(function (res) {\\n    "
+    },
+    {
+      "marker": "能耗配置ID",
+      "found": true,
+      "offset": 147689,
+      "excerpt": "    showOverflowTooltip: true // template: true\\n\\n      }, {\\n        label: \\\"能耗配置ID\\\",\\n        prop: \\\"uniqId\\\",\\n        sortable: 'custom',\\n        showOverflowTooltip: true // template: true\\n\\n      }, {\\n        label: \\\"排量(ml)\\\",\\n        prop: \\\"displacement\\\",\\n        sortable: 'custom',\\n        showOverflowTooltip: true\\n      }, {\\n        label: \\\"额定功率(kW)\\\",\\n        prop: \\\"ratedPower\\\",\\n        sortable: "
+    },
+    {
+      "marker": "通告日期",
+      "found": true,
+      "offset": 148706,
+      "excerpt": "ble: 'custom',\\n        showOverflowTooltip: true\\n      }, {\\n        label: \\\"通告日期\\\",\\n        prop: \\\"publicTime\\\",\\n        sortable: 'custom',\\n        showOverflowTooltip: true\\n      }, {\\n        label: \\\"作废日期\\\",\\n        prop: \\\"abandonTime\\\",\\n        sortable: 'custom',\\n        showOverflowTooltip: true\\n      }, {\\n        label: \\\"操作\\\",\\n        prop: \\\"opts\\\",\\n        template: true\\n      }],\\n      getDataWay"
+    },
+    {
+      "marker": "启用日期",
+      "found": true,
+      "offset": 122078,
+      "excerpt": "\\n        // vehicleProduce:'',//汽车产地\\n        activationDate: \\\"\\\",\\n        //启用日期\\n        vehicleModel: \\\"\\\",\\n        //车辆型号\\n        energyType: '',\\n        //能源种类\\n        publicTimeStart: \\\"\\\",\\n        //通告开始时间\\n        publicTimeEnd: \\\"\\\" // 通告结束时间\\n\\n      },\\n      getCheckedData: [],\\n      //选中的数据\\n      pagination: {\\n        currentPage: 1,\\n        pageSize: 10,\\n        position: \\\"right\\\",\\n        pageSize"
+    },
+    {
+      "marker": "废止日期",
+      "found": false,
+      "offset": -1,
+      "excerpt": ""
+    },
+    {
+      "marker": "vehicleModel",
+      "found": true,
+      "offset": 122092,
+      "excerpt": "ehicleProduce:'',//汽车产地\\n        activationDate: \\\"\\\",\\n        //启用日期\\n        vehicleModel: \\\"\\\",\\n        //车辆型号\\n        energyType: '',\\n        //能源种类\\n        publicTimeStart: \\\"\\\",\\n        //通告开始时间\\n        publicTimeEnd: \\\"\\\" // 通告结束时间\\n\\n      },\\n      getCheckedData: [],\\n      //选中的数据\\n      pagination: {\\n        currentPage: 1,\\n        pageSize: 10,\\n        position: \\\"right\\\",\\n        pageSizes: [10, 30, 50"
+    },
+    {
+      "marker": "publicTimeStart",
+      "found": true,
+      "offset": 122178,
+      "excerpt": "eModel: \\\"\\\",\\n        //车辆型号\\n        energyType: '',\\n        //能源种类\\n        publicTimeStart: \\\"\\\",\\n        //通告开始时间\\n        publicTimeEnd: \\\"\\\" // 通告结束时间\\n\\n      },\\n      getCheckedData: [],\\n      //选中的数据\\n      pagination: {\\n        currentPage: 1,\\n        pageSize: 10,\\n        position: \\\"right\\\",\\n        pageSizes: [10, 30, 50, 100, 200],\\n        layout: \\\"sizes, total,prev, pager, next, jumper\\\"\\n      },\\n  "
+    },
+    {
+      "marker": "publicTimeEnd",
+      "found": true,
+      "offset": 122228,
+      "excerpt": " '',\\n        //能源种类\\n        publicTimeStart: \\\"\\\",\\n        //通告开始时间\\n        publicTimeEnd: \\\"\\\" // 通告结束时间\\n\\n      },\\n      getCheckedData: [],\\n      //选中的数据\\n      pagination: {\\n        currentPage: 1,\\n        pageSize: 10,\\n        position: \\\"right\\\",\\n        pageSizes: [10, 30, 50, 100, 200],\\n        layout: \\\"sizes, total,prev, pager, next, jumper\\\"\\n      },\\n      columns: [{\\n        label: \\\"生产企业\\\",\\n       "
+    }
+  ],
+  "actual_vehicle_query_performed": false,
+  "verification_gate_bypassed": false,
+  "data_obtained": 0
+}

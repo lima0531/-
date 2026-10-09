@@ -1,0 +1,25 @@
+{
+  "request_url": "https://www.shui5.cn/article/6f/73812.html",
+  "purpose": "公开检索命中的完整54号正式转载；页面自身发布时间仅来源转载观察，不作主管或全球首发",
+  "retrieved_at_utc": "2026-10-09T07:50:37.708006+00:00",
+  "request_method": "GET",
+  "tls_verification": true,
+  "retry_policy": "one request; cache receipt thereafter",
+  "http_status": 200,
+  "final_url": "https://www.shui5.cn/article/6f/73812.html",
+  "response_headers": {
+    "server": "envoy",
+    "date": "Fri, 09 Oct 2026 07:50:39 GMT",
+    "content-type": "text/html; charset=utf-8",
+    "content-length": "23682",
+    "set-cookie": "acw_tc=781bad3817915322398065975e05ba3f644876870469a7deda0b9cfed6a0a1;path=/;HttpOnly;Max-Age=1800",
+    "cache-control": "no-cache, no-store",
+    "pragma": "no-cache",
+    "x-envoy-upstream-service-time": "984",
+    "connection": "close"
+  },
+  "status": "retrieved",
+  "evidence_file": "/workspace/purchase_tax_audit/round9/public_first_batch/shui5_first_full.html",
+  "bytes": 23682,
+  "sha256": "eecad6426f3a0b2c43956f5f212fc194938fae2602927dda881ddb363f4dc5fd"
+}

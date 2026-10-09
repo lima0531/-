@@ -1,0 +1,31 @@
+{
+  "request_url": "https://www.miit.gov.cn/xwdt/gxdt/ldhd/art/2020/art_77a7c6a0101145a980dfbb9af3f57de2.html",
+  "purpose": "公开检索实际新发现的主管部门另一完整首批公告页；核对原目录附件和发布时间",
+  "retrieved_at_utc": "2026-10-09T07:49:37.544499+00:00",
+  "request_method": "GET",
+  "tls_verification": true,
+  "retry_policy": "one request; cache receipt thereafter",
+  "http_status": 404,
+  "final_url": "https://www.miit.gov.cn/xwdt/gxdt/ldhd/art/2020/art_77a7c6a0101145a980dfbb9af3f57de2.html",
+  "response_headers": {
+    "date": "Fri, 09 Oct 2026 07:49:39 GMT",
+    "content-type": "text/html;charset=UTF-8",
+    "content-length": "0",
+    "set-cookie": "_ud_=1be7217b3a1e4a3e949cd49e96c13763;Max-Age=2592000;path=/jpaas-publish-server;",
+    "access-control-allow-origin": "*",
+    "x-kong-upstream-latency": "37",
+    "x-kong-proxy-latency": "0",
+    "via": "kong/1.4.3",
+    "x-via-jsl": "3554f18,-",
+    "x-cache": "bypass",
+    "x-envoy-upstream-service-time": "831",
+    "server": "envoy",
+    "connection": "close"
+  },
+  "status": "http_error",
+  "error_type": "HTTPError",
+  "error": "HTTP Error 404: Not Found",
+  "evidence_file": "/workspace/purchase_tax_audit/round9/public_first_batch/miit_first_news.html",
+  "bytes": 0,
+  "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+}

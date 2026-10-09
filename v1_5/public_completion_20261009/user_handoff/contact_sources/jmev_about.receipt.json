@@ -1,0 +1,18 @@
+{
+  "key": "jmev_about",
+  "firm": "江西江铃集团新能源汽车有限公司",
+  "requested_url": "https://www.jmev.com/about/",
+  "url_basis": "round9/public_lowtemp/portals/jmev.html 关于我们 anchor",
+  "retrieved_utc": "2026-10-09T07:47:27.771763+00:00",
+  "tls_verification": true,
+  "method": "GET_only_no_submission",
+  "external_message_sent": false,
+  "http_status": 200,
+  "final_url": "https://www.jmev.com/about/",
+  "content_type": "text/html",
+  "truncated": false,
+  "status": "retrieved",
+  "source_file": "contact_sources/jmev_about.txt",
+  "bytes": 16194,
+  "sha256": "766b9e92b3a0827a7d445643ef2a53ee2229c1b082b9e9a6431a2053600381f5"
+}

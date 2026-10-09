@@ -1,0 +1,21 @@
+var ajaxPage="https://www.baw.com.cn/prod/";
+var ajaxPageImage="https://www.baw.com.cn/file/";
+$(window)
+  .resize(function () {
+    var wWidth = $(window).width();
+    var wHeight = $(window).height();
+
+    $(".kv").height(wHeight);
+    if (wHeight > 600) {
+      $(".windowHeight").height(wHeight);
+    } else {
+      $(".windowHeight").height(600);
+    }
+  })
+  .resize();
+
+function isMobile(str) {
+  var patrn = /^(1[0-9])\d{9}$/;
+  if (!patrn.exec(str)) return false;
+  return true;
+}

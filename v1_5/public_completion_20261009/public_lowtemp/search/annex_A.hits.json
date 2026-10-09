@@ -1,0 +1,36 @@
+{
+  "query": "附录A 18386.1",
+  "receipt": {
+    "requested_url": "https://www.miit.gov.cn/search-front-server/api/search/info?websiteid=110000000000000&scope=basic&q=%E9%99%84%E5%BD%95A+18386.1&pg=10&p=1&cateid=47&pos=title_text%2Ctitlepy%2Cinfocontent%2Cfilenumbername%2Ckeyword%2Ccontentdescribe&selectFields=title%2Curl%2Ccontent%2Cdeploytime%2Ccolumnname&group=distinct&level=6",
+    "retrieved_utc": "2026-10-09T07:43:06.313699+00:00",
+    "local_file": "search/annex_A.json",
+    "purpose": "工信部公共全文搜索：查同型号/配置公开低温检测证据",
+    "query": "附录A 18386.1",
+    "target_models": [],
+    "tls_verification": true,
+    "status": "ok",
+    "http_status": 200,
+    "final_url": "https://www.miit.gov.cn/search-front-server/api/search/info?websiteid=110000000000000&scope=basic&q=%E9%99%84%E5%BD%95A+18386.1&pg=10&p=1&cateid=47&pos=title_text%2Ctitlepy%2Cinfocontent%2Cfilenumbername%2Ckeyword%2Ccontentdescribe&selectFields=title%2Curl%2Ccontent%2Cdeploytime%2Ccolumnname&group=distinct&level=6",
+    "response_headers": {
+      "date": "Fri, 09 Oct 2026 07:43:07 GMT",
+      "content-type": "text/html;charset=UTF-8",
+      "content-length": "225",
+      "set-cookie": "__jsluid_s=7a9a663069136cb84191988eda91758a; max-age=31536000; path=/; HttpOnly; SameSite=None; secure",
+      "x-kong-upstream-latency": "181",
+      "x-kong-proxy-latency": "0",
+      "via": "kong/1.4.3",
+      "x-via-jsl": "a6eb715,-",
+      "x-cache": "bypass",
+      "x-envoy-upstream-service-time": "1060",
+      "server": "envoy",
+      "connection": "close"
+    },
+    "bytes": 225,
+    "sha256": "eea84ce681cbd1d6c7d3b077e760c9fb83d8792ec212dc3c982c9759b0b01456",
+    "truncated": false
+  },
+  "json_parsed": true,
+  "returned_hits": 0,
+  "pagination_scope": "第1页，至多10条；不是全网穷尽搜索",
+  "hits": []
+}

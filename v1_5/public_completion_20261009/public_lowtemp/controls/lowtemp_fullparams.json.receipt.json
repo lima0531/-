@@ -1,0 +1,30 @@
+{
+  "requested_url": "https://www.miit.gov.cn/search-front-server/api/search/info?websiteid=110000000000000&scope=basic&q=%E4%BD%8E%E6%B8%A9&pg=40&p=1&cateid=47&pos=title_text%2Ctitlepy%2Cinfocontent%2Cfilenumbername%2Ckeyword%2Ccontentdescribe&selectFields=title%2Ccontent%2Cdeploytime%2C_index%2Curl%2Ccdate%2Cinfoextends%2Cinfocontentattribute%2Ckeyword%2Ccontentdescribe%2Csectitle%2Cpicpath%2Ccolumnname%2Cthemename%2Cpublishgroupname%2Cpublishtime%2Cmetaid%2Cbexxgk%2Ccolumnid%2Cinfocontenthashcode&group=distinct&level=6&sortFields=%5B%7B%22name%22%3A%22deploytime%22%2C%22type%22%3A%22desc%22%7D%5D",
+  "retrieved_utc": "2026-10-09T07:45:15.538299+00:00",
+  "local_file": "controls/lowtemp_fullparams.json",
+  "purpose": "此前有效的完整参数查询复核",
+  "query": "低温",
+  "target_models": [],
+  "tls_verification": true,
+  "status": "ok",
+  "http_status": 200,
+  "final_url": "https://www.miit.gov.cn/search-front-server/api/search/info?websiteid=110000000000000&scope=basic&q=%E4%BD%8E%E6%B8%A9&pg=40&p=1&cateid=47&pos=title_text%2Ctitlepy%2Cinfocontent%2Cfilenumbername%2Ckeyword%2Ccontentdescribe&selectFields=title%2Ccontent%2Cdeploytime%2C_index%2Curl%2Ccdate%2Cinfoextends%2Cinfocontentattribute%2Ckeyword%2Ccontentdescribe%2Csectitle%2Cpicpath%2Ccolumnname%2Cthemename%2Cpublishgroupname%2Cpublishtime%2Cmetaid%2Cbexxgk%2Ccolumnid%2Cinfocontenthashcode&group=distinct&level=6&sortFields=%5B%7B%22name%22%3A%22deploytime%22%2C%22type%22%3A%22desc%22%7D%5D",
+  "response_headers": {
+    "date": "Fri, 09 Oct 2026 07:45:19 GMT",
+    "content-type": "text/html;charset=UTF-8",
+    "content-length": "1219453",
+    "vary": "Accept-Encoding",
+    "set-cookie": "__jsluid_s=fad2f27783837cf6b88008015229a243; max-age=31536000; path=/; HttpOnly; SameSite=None; secure",
+    "x-kong-upstream-latency": "449",
+    "x-kong-proxy-latency": "0",
+    "via": "kong/1.4.3",
+    "x-via-jsl": "9c59a18,-",
+    "x-cache": "bypass",
+    "x-envoy-upstream-service-time": "1367",
+    "server": "envoy",
+    "connection": "close"
+  },
+  "bytes": 1219453,
+  "sha256": "dd5e10e075aadfc3d2b15ce33f0c028bd7c41f72ee7931044feb326a316908e4",
+  "truncated": false
+}

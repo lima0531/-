@@ -1,0 +1,31 @@
+{
+  "requested_url": "https://www.miit.gov.cn/search-front-server/api/search/info?websiteid=110000000000000&scope=basic&q=DXK7001RD5BEV&pg=10&p=1&cateid=47&pos=title_text%2Ctitlepy%2Cinfocontent%2Cfilenumbername%2Ckeyword%2Ccontentdescribe&selectFields=title%2Curl%2Ccontent%2Cdeploytime%2Ccolumnname&group=distinct&level=6",
+  "retrieved_utc": "2026-10-09T07:42:52.045780+00:00",
+  "local_file": "search/model_DXK7001RD5BEV.json",
+  "purpose": "工信部公共全文搜索：查同型号/配置公开低温检测证据",
+  "query": "DXK7001RD5BEV",
+  "target_models": [
+    "DXK7001RD5BEV"
+  ],
+  "tls_verification": true,
+  "status": "ok",
+  "http_status": 200,
+  "final_url": "https://www.miit.gov.cn/search-front-server/api/search/info?websiteid=110000000000000&scope=basic&q=DXK7001RD5BEV&pg=10&p=1&cateid=47&pos=title_text%2Ctitlepy%2Cinfocontent%2Cfilenumbername%2Ckeyword%2Ccontentdescribe&selectFields=title%2Curl%2Ccontent%2Cdeploytime%2Ccolumnname&group=distinct&level=6",
+  "response_headers": {
+    "date": "Fri, 09 Oct 2026 07:42:56 GMT",
+    "content-type": "text/html;charset=UTF-8",
+    "content-length": "225",
+    "set-cookie": "__jsluid_s=ad24172aba2df74678772c02c91bc109; max-age=31536000; path=/; HttpOnly; SameSite=None; secure",
+    "x-kong-upstream-latency": "149",
+    "x-kong-proxy-latency": "1",
+    "via": "kong/1.4.3",
+    "x-via-jsl": "b0c367f,-",
+    "x-cache": "bypass",
+    "x-envoy-upstream-service-time": "907",
+    "server": "envoy",
+    "connection": "close"
+  },
+  "bytes": 225,
+  "sha256": "162922dfe309b4e515a108cd24711b6f96bb182a9866c249120b813921bc7b6f",
+  "truncated": false
+}

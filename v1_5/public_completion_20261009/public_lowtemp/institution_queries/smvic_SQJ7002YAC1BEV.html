@@ -1,0 +1,1730 @@
+<!DOCTYPE html>
+<!--
+This is a starter template page. Use this page to start your new project from
+scratch. This page gets rid of all links and provides the needed markup only.
+-->
+<html>
+
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>汽车检测认证一体化信息平台 - 搜索</title>
+    <!-- Tell the browser to be responsive to screen width -->
+    <meta content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no" name="viewport">
+    <script>
+    
+    
+    
+    
+    
+    
+    
+    </script>
+    <!-- Bootstrap 3.3.7 -->
+
+
+    <link href="/static/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Font Awesome -->
+
+
+    <link href="/static/css/font-awesome.min.css" rel="stylesheet">
+
+    <!-- Ionicons -->
+
+
+    <link href="/static/css/ionicons.min.css" rel="stylesheet">
+
+    
+
+    <link rel="stylesheet" href="/static/css/select2.min.css">
+    <!-- Theme style -->
+    <link rel="stylesheet" href="/static/css/AdminLTE.min.css">
+    <!-- AdminLTE Skins. We have chosen the skin-blue for this starter
+          page. However, you can choose any other skin. Make sure you
+          apply the skin class to the body tag so the changes take effect. -->
+
+    <link rel="SHORTCUT ICON" type="image/png" href="/static/favicon.ico"/>
+    <!-- newsticker -->
+
+    <!--[if lt IE 9]>
+    <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
+    <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+    <!-- jQuery 3 -->
+    <script src="/static/js/jquery.min.js?220709"></script>
+    
+    <style>
+        .newlist{
+            display: flex;
+            flex-direction: column;
+            padding-left: 20px;
+            min-height: 170px;
+        }
+        .newlist li {
+            list-style: disc;
+            line-height: 28px;
+            width: 100%;
+            
+            padding-left: 10px;
+            margin-bottom: 5px;
+        }
+        .newlist li > a{
+            display: flex;
+            justify-content: space-between;
+            color: #6C6C6C;
+        }
+        .newlist li > a:hover {
+            color: #088AD6;
+        }
+        .newlist span.spantime {
+            white-space: nowrap;
+                /* margin: auto; */
+            margin-right: 0;
+        }
+    </style>
+
+    <style>
+        .body{
+            background-image: linear-gradient(to bottom , #d4e8f3, #f5f6f8 30%, #f8f8f8);
+        }
+        .copynumber, .icpnumber {
+            line-height: 40px;
+            color: #F8F8F8;
+            font-size: 14px;
+            text-align: center;
+            font-weight: 700;
+        }
+
+        .navbar-default {
+            border-color: #27506b;
+            border-bottom: 2px solid #014a8e;
+            border-image: linear-gradient(to right, #013378,#02a6e5 60%, #a03c58,#e40112) 20 20;
+        }
+
+        .navbar-default .active {
+            padding-top: 11px;
+            border-top: 4px solid #014a8e;
+            color: #014a8e;
+            background-color: transparent;
+        }
+
+        .menu-title{
+            font-size: 14px!important;
+            color: #000!important;
+            font-weight: bold !important;
+            line-height: 1.8!important;
+        }
+
+        .menu-subtitle:hover{
+            background-color:#e3f7fd!important;
+        }
+
+        .fl {
+            float: left;
+        }
+
+        .fr {
+            float: right;
+        }
+
+        .mc {
+            margin: 0 auto;
+        }
+
+        .cl {
+            zoom: 1;
+        }
+        .navbar-nav>li {
+            margin: auto;
+        }
+        #navbar .navbar-nav>li a{
+            padding: 10px;
+        }
+
+        .navbar-nav>li>a.indexlink{
+            background: #076C9C;
+            text-align: center;
+        }
+        .navbar-nav>li>a.indexlink.menu-gray{
+            background: #dcdcdc;
+        }
+        .navbar-nav>li>a.indexlink:hover{
+            color: #076C9C!important;
+            background-color: #ccc;
+        }
+        .navbar-fixed-bottom{
+
+            background: #003377;
+        }
+        .index-line {
+            margin-bottom: 20px;
+            background: #fff;
+            padding-top: 10px;
+        }
+
+        .linetitle {
+            font-size: 18px;
+            color: #066C9C;
+            position: relative;
+            line-height: 50px;
+            margin-right: 12px!important;
+        }
+
+        .border-img {
+            position: absolute;
+            width: 100px;
+            height: 3px;
+            bottom: -2px;
+            left: 0;
+        }
+
+        .newlist li > a > span:last-child {
+            min-width: fit-content;
+        }
+        .linkblock {
+            border: 1px solid #E5E5E5;
+            border-radius: 3px;
+            height: 240px;
+            padding: 10px 15px;
+            overflow: hidden;
+        }
+
+        .linktitle {
+            height: 1px;
+            border-top: 1px solid #DCDCDC;
+            text-align: center;
+            margin-top: 20px;
+            margin-bottom: 20px;
+        }
+
+        .linktitle span {
+            position: relative;
+            top: -13px;
+            background: #fff;
+            padding: 0 20px;
+            font-size: 16px;
+            color: #2C2C2C;
+        }
+
+        .linkcontent {
+            overflow-y: scroll;
+            height: 180px;
+            padding-left: 0;
+        }
+
+        .linkcontent li {
+            list-style: none;
+            line-height: 24px;
+        }
+
+        .linkcontent::-webkit-scrollbar-track {
+            -webkit-box-shadow: inset 0 0 6px rgba(222, 222, 222, 0.2);
+            background-color: #ffffff;
+        }
+
+        .linkcontent::-webkit-scrollbar {
+            width: 2px;
+            background-color: rgba(37, 127, 214, 0.37);
+        }
+
+        .linkcontent::-webkit-scrollbar-thumb {
+            background-color: #257FD6;
+        }
+        .pageTitle {
+            font-weight: 700;
+            height: 80px;
+            background-image: linear-gradient(to right, #2b558e, #088ad6);
+            color: #FFFFFF;
+        }
+
+        .breadcrumb {
+            line-height: 50px;
+            z-index: 8;
+            top: 0;
+            right: unset;
+            left: 0;
+        }
+        table.dataTable thead th, table.dataTable tfoot th {
+            min-width: 60px;
+        }
+        .totop {
+            display: none;
+            color: #fff;
+            background-color: #aaa;
+            display: inline-block;
+            height: 50px;
+            width: 50px;
+            line-height: 50px;
+            text-align: center;
+            border-radius: 2px;
+            z-index: 1999;
+        }
+        .totop:hover {
+            background: #111;
+        }
+        .form-search {
+            height: 31px;
+            overflow: hidden;
+            padding: 0 3px 0 5px;
+            transition: all 0.3s ease;
+            background: #fff;
+            width: 127px;
+            border: 1px solid #979797;
+            border-radius: 20px;
+            position: relative;
+        }
+
+        .form-search .input-text {
+            font-size: 12px;
+            float: left;
+            margin-top: 9px;
+            border: 0;
+            color: #666;
+            text-transform: uppercase;
+            width: 127px;
+            transition: all 0.3s ease;
+            background: none;
+            font-family: Arial, Helvetica, sans-serif;
+            position: absolute;
+            right: 60px;
+        }
+
+        .form-search .button {
+            background: #fff;
+            width: 23px;
+            height: 21px;
+            border: 0;
+            margin-top: 5px;
+            float: right;
+            margin-right: 10px;
+        }
+        .newsticker li a{
+            font-size: 16px;
+            font-weight: 600;
+        }
+        .newsticker li a p{
+            font-size: 12px;
+            line-height: 2;
+            font-weight: 400;
+        }
+        .layui-layer-content {padding: 15px;}
+        .main-header .logo .logo-lg{
+                height: 100%;
+            display: flex;
+        }
+        .main-header .logo {
+            width: unset;
+            height: 70px;
+            line-height: 70px;
+            padding-left: 0;
+            padding-right: 0;
+        }
+        .m-icon-nav,.m-mask{display: none;}
+
+        .logo-lg img {
+            height: 50px;
+            flex: 0;
+            margin: auto;
+        }
+        span.cnname{display: none}
+        span.enname{display: none}
+    </style>
+    <link rel="stylesheet" href="/static/css/mobile.css?v=220901">
+
+    <script>
+        function getCookie(name) {
+            var arr, reg = new RegExp("(^| )" + name + "=([^;]*)(;|$)");
+            if (arr = document.cookie.match(reg)) return unescape(arr[2]);
+            else return null;
+         }
+
+        function setCookie(name, value, Days) {
+            if (Days == null || Days == '') {
+                Days = 300;
+            }
+            var exp = new Date();
+            exp.setTime(exp.getTime() + Days * 24 * 60 * 60 * 1000);
+            document.cookie = name + "=" + escape(value) + "; path=/;expires=" + exp.toGMTString();
+         }
+         function addNewStyle(newStyle) {
+            var styleElement = document.getElementById('styles_js');
+
+            if (!styleElement) {
+                styleElement = document.createElement('style');
+                styleElement.type = 'text/css';
+                styleElement.id = 'styles_js';
+                document.getElementsByTagName('head')[0].appendChild(styleElement);
+            }
+
+            styleElement.appendChild(document.createTextNode(newStyle));
+        }
+        var currLan = getCookie('lan');
+        currLan = currLan == null ? 'zh' : currLan;
+        if (currLan == 'zh') {
+            addNewStyle('span.cnname {display:unset!important;}');
+            addNewStyle('span.enname {display:none!important;}');
+        } else {
+            addNewStyle('span.enname {display:unset!important;}');
+            addNewStyle('span.cnname {display:none!important;}');
+        }
+        if (currLan == null) setCookie('lan', currLan);
+
+
+    </script>
+</head>
+
+<body class="">
+<div style="background: #fff;">
+<div id="header" class="container" style="padding-left: 0;padding-right: 0;">
+    <header class="main-header">
+        <a id="A1" href="/" class="logo">
+            <span class="logo-lg"><img src="/static/image/logo-6.png" style="" class="img-responsive" alt="logo"><span class="cnname"><img src="/static/image/slogan-2.png" alt="" style="display:inline;height: 45px;margin: auto;margin-left: 5px;flex: 0" class="hidden-xs"></span></span>
+
+
+        </a>
+
+
+
+        <i class="fa fa-bars m-icon-nav"></i>
+        <i class="fa fa-search m-icon-nav"></i>
+
+
+        <div id="navbar" class="m-navbar collapse navbar-collapse navbar-ex1-collapse " style="padding-right: 0;margin-top: 1rem;float: right;">
+            <div>
+                <img src="/static/image/slogan-2.png" alt="" style="width: 90%;margin: auto;" class="visible-xs">
+            </div>
+            <ul class="nav navbar-nav" style="display: flex;">
+
+                    
+                        <li id="nav-download-1" class="dropdown menu27">
+                            <a href="#" data-toggle="dropdown" class="dropdown-toggle menu-title" data-hover="dropdown"
+                               data-delay="100" data-close-others="false">
+                                <span class="cnname">重要通知</span><span class="enname">重要通知</span><b class="caret"></b></a>
+                            <ul class="dropdown-menu">
+                                
+                                    
+                                        <li><a href="/index/?mid=87&lid=2" class="menu-title menu-subtitle"><span class="cnname">《公告》管理系统</span><span class="enname">《公告》管理系统</span></a></li>
+                                    
+
+
+
+
+
+
+
+
+                                
+                                    
+                                        <li><a href="/index/?mid=88&lid=2" class="menu-title menu-subtitle"><span class="cnname">产品标准更新</span><span class="enname">产品标准更新</span></a></li>
+                                    
+
+
+
+
+
+
+
+
+                                
+                                    
+                                        <li><a href="/index/?mid=89&lid=2" class="menu-title menu-subtitle"><span class="cnname">新能源财税及积分</span><span class="enname">新能源财税及积分</span></a></li>
+                                    
+
+
+
+
+
+
+
+
+                                
+                                    
+                                        <li><a href="/index/?mid=90&lid=2" class="menu-title menu-subtitle"><span class="cnname">监管及机构管理</span><span class="enname">监管及机构管理</span></a></li>
+                                    
+
+
+
+
+
+
+
+
+                                
+                                    
+                                        <li><a href="/index/?mid=91&lid=2" class="menu-title menu-subtitle"><span class="cnname">CCC认证</span><span class="enname">CCC认证</span></a></li>
+                                    
+
+
+
+
+
+
+
+
+                                
+                                    
+                                        <li><a href="/index/?mid=92&lid=2" class="menu-title menu-subtitle"><span class="cnname">环保信息公开</span><span class="enname">环保信息公开</span></a></li>
+                                    
+
+
+
+
+
+
+
+
+                                
+                                    
+                                        <li><a href="/index/?mid=93&lid=2" class="menu-title menu-subtitle"><span class="cnname">营运认证</span><span class="enname">营运认证</span></a></li>
+                                    
+
+
+
+
+
+
+
+
+                                
+                                    
+                                        <li><a href="/index/?mid=149&lid=2" class="menu-title menu-subtitle"><span class="cnname">出口许可</span><span class="enname">出口许可</span></a></li>
+                                    
+
+
+
+
+
+
+
+
+                                
+                            </ul>
+                        </li>
+                    
+                        <li id="nav-download-2" class="dropdown menu28">
+                            <a href="#" data-toggle="dropdown" class="dropdown-toggle menu-title" data-hover="dropdown"
+                               data-delay="100" data-close-others="false">
+                                <span class="cnname">重要政策</span><span class="enname">重要政策</span><b class="caret"></b></a>
+                            <ul class="dropdown-menu">
+                                
+                                    
+                                        <li><a href="/index/?mid=94&lid=2" class="menu-title menu-subtitle"><span class="cnname">准入政策</span><span class="enname">准入政策</span></a></li>
+                                    
+
+
+
+
+
+
+
+
+                                
+                                    
+                                        <li><a href="/index/?mid=95&lid=2" class="menu-title menu-subtitle"><span class="cnname">新能源及财税政策</span><span class="enname">新能源及财税政策</span></a></li>
+                                    
+
+
+
+
+
+
+
+
+                                
+                                    
+                                        <li><a href="/index/?mid=96&lid=2" class="menu-title menu-subtitle"><span class="cnname">商务政策</span><span class="enname">商务政策</span></a></li>
+                                    
+
+
+
+
+
+
+
+
+                                
+                                    
+                                        <li><a href="/index/?mid=97&lid=2" class="menu-title menu-subtitle"><span class="cnname">监管政策</span><span class="enname">监管政策</span></a></li>
+                                    
+
+
+
+
+
+
+
+
+                                
+                                    
+                                        <li><a href="/index/?mid=107&lid=2" class="menu-title menu-subtitle"><span class="cnname">地方政策</span><span class="enname">地方政策</span></a></li>
+                                    
+
+
+
+
+
+
+
+
+                                
+                                    
+                                        <li><a href="/index/?mid=118&lid=2" class="menu-title menu-subtitle"><span class="cnname">上海双碳</span><span class="enname">上海双碳</span></a></li>
+                                    
+
+
+
+
+
+
+
+
+                                
+                            </ul>
+                        </li>
+                    
+                        <li id="nav-download-3" class="dropdown menu29">
+                            <a href="#" data-toggle="dropdown" class="dropdown-toggle menu-title" data-hover="dropdown"
+                               data-delay="100" data-close-others="false">
+                                <span class="cnname">准入检测</span><span class="enname">准入检测</span><b class="caret"></b></a>
+                            <ul class="dropdown-menu">
+                                
+                                    
+                                        
+                                        <li><a href="/indexquotation/?t=公告检测方案表&mid=98&lid=2" class="menu-title menu-subtitle"><span><span class="cnname">公告方案表</span><span class="enname">公告方案表</span></span></a></li>
+                                        
+                                    
+
+
+
+
+
+
+
+
+                                
+                                    
+                                        
+                                        <li><a href="/indexquotation/?t=CCC认证方案表&mid=99&lid=2" class="menu-title menu-subtitle"><span><span class="cnname">CCC方案表</span><span class="enname">CCC方案表</span></span></a></li>
+                                        
+                                    
+
+
+
+
+
+
+
+
+                                
+                                    
+                                        
+                                        <li><a href="/indexquotation/?t=营运方案表&mid=100&lid=2" class="menu-title menu-subtitle"><span><span class="cnname">营运方案表</span><span class="enname">营运方案表</span></span></a></li>
+                                        
+                                    
+
+
+
+
+
+
+
+
+                                
+                                    
+                                        
+                                        <li><a href="/indexquotation/?t=环保方案表&mid=101&lid=2" class="menu-title menu-subtitle"><span><span class="cnname">环保方案表</span><span class="enname">环保方案表</span></span></a></li>
+                                        
+                                    
+
+
+
+
+
+
+
+
+                                
+                                    
+                                        
+                                        <li><a href="/indexquotation/?t=单车认证方案表&mid=133&lid=2" class="menu-title menu-subtitle"><span><span class="cnname">单车认证方案表</span><span class="enname">单车认证方案表</span></span></a></li>
+                                        
+                                    
+
+
+
+
+
+
+
+
+                                
+                                    
+                                        
+                                        <li><a href="/indexquotation/?t=出口认证方案表&mid=137&lid=2" class="menu-title menu-subtitle"><span><span class="cnname">出口认证方案表</span><span class="enname">出口认证方案表</span></span></a></li>
+                                        
+                                    
+
+
+
+
+
+
+
+
+                                
+                                    
+                                        <li><a href="/index/?mid=148&lid=2" class="menu-title menu-subtitle"><span class="cnname">业务介绍</span><span class="enname"></span></a></li>
+                                    
+
+
+
+
+
+
+
+
+                                
+                            </ul>
+                        </li>
+                    
+                        <li id="nav-download-4" class="dropdown menu30">
+                            <a href="#" data-toggle="dropdown" class="dropdown-toggle menu-title" data-hover="dropdown"
+                               data-delay="100" data-close-others="false">
+                                <span class="cnname">准入标准</span><span class="enname">准入标准</span><b class="caret"></b></a>
+                            <ul class="dropdown-menu">
+                                
+                                    
+                                        <li><a href="/index/?mid=102&lid=2" class="menu-title menu-subtitle"><span class="cnname">传统能源标准</span><span class="enname">传统能源标准</span></a></li>
+                                    
+
+
+
+
+
+
+
+
+                                
+                                    
+                                        <li><a href="/index/?mid=103&lid=2" class="menu-title menu-subtitle"><span class="cnname">新能源标准</span><span class="enname">新能源标准</span></a></li>
+                                    
+
+
+
+
+
+
+
+
+                                
+                                    
+                                        <li><a href="/index/?mid=104&lid=2" class="menu-title menu-subtitle"><span class="cnname">智能网联标准</span><span class="enname">智能网联标准</span></a></li>
+                                    
+
+
+
+
+
+
+
+
+                                
+                                    
+                                        <li><a href="/index/?mid=113&lid=2" class="menu-title menu-subtitle"><span class="cnname">营运标准</span><span class="enname">营运标准</span></a></li>
+                                    
+
+
+
+
+
+
+
+
+                                
+                                    
+                                        <li><a href="/index/?mid=114&lid=2" class="menu-title menu-subtitle"><span class="cnname">其他重要标准</span><span class="enname">其他重要标准</span></a></li>
+                                    
+
+
+
+
+
+
+
+
+                                
+                                    
+                                        <li><a href="/index/?mid=105&lid=2" class="menu-title menu-subtitle"><span class="cnname">欧盟标准</span><span class="enname">欧盟标准</span></a></li>
+                                    
+
+
+
+
+
+
+
+
+                                
+                                    
+                                        <li><a href="/index/?mid=146&lid=2" class="menu-title menu-subtitle"><span class="cnname">澳洲标准</span><span class="enname">澳洲标准</span></a></li>
+                                    
+
+
+
+
+
+
+
+
+                                
+                                    
+                                        <li><a href="/index/?mid=152&lid=2" class="menu-title menu-subtitle"><span class="cnname">摩托车标准</span><span class="enname">Motorcycle Standard</span></a></li>
+                                    
+
+
+
+
+
+
+
+
+                                
+                            </ul>
+                        </li>
+                    
+                    <li class="dropdown nav_list_li hidden-xs">
+                        <a href="#" data-toggle="dropdown" class="dropdown-toggle menu-title" data-hover="dropdown"
+                           data-delay="100" data-close-others="false">
+                            <span class="cnname">语言</span><span class="enname">Language</span><b class="caret"></b></a>
+                        <ul class="dropdown-menu">
+                            <li><a href="javascript:void(0);" onclick="switchLan('zh')" class="menu-title menu-subtitle">简体中文</a></li>
+                            <li><a href="javascript:void(0);" onclick="switchLan('en')" class="menu-title menu-subtitle">English</a></li>
+                        </ul>
+                    </li>
+                    
+                        <li class="dropdown nav_list_li hidden-xs">
+                        <a href="#" class="dropdown-toggle" data-toggle="dropdown" aria-expanded="true"><i class="fa fa-search"></i>
+            </a>
+                        <ul class="dropdown-menu" style="left: unset;right: 0">
+                            <li class="user-header" style="padding: 10px;
+    width: 400px;">
+                                <form action="/indexsearch" method="get" class="">
+                                    <div class="input-group">
+                                      <input type="text" name="search" class="form-control search" placeholder="keyword">
+                                      <span class="input-group-btn">
+                                            <button type="submit" id="search-btn" class="btn btn-primary btn-flat"><span class="cnname">搜索</span><span class="enname">Search</span>
+                                            </button>
+                                          </span>
+                                    </div>
+                                    <input type="hidden" name="csrfmiddlewaretoken" value="XPxmguGrRHfymv3Pb45HBnya2A50Yjki3UbAkKaxmTdzZRihmTo0G1wZmGyaOpnM">
+                                  </form>
+                            </li>
+                        </ul>
+                    </li>
+                    
+                    
+                        <li class="nav_list_li">
+                        
+                            <li class="dropdown nav_list_li">
+                            <a class="indexlink btn btn-primary" href="/login/" style="color:#fff"><span class="cnname">登录/注册</span><span class="enname">Login/out</span></a>
+
+
+                        
+                        </li>
+                    
+
+                </ul>
+        </div>
+
+
+    </header>
+</div>
+</div>
+<div class="body">
+
+            <div class="container" style="background: #fff;padding: 20px;">
+                <form action="/indexsearch" method="get" class="">
+                <div class="input-group">
+                  <input type="text" name="search" class="form-control search" placeholder="搜索关键字" value="SQJ7002YAC1BEV">
+                  <span class="input-group-btn">
+                        <button type="submit" id="search-btn" class="btn btn-flat">搜索
+                        </button>
+                      </span>
+                </div>
+                    <input type="hidden" name="csrfmiddlewaretoken" value="XPxmguGrRHfymv3Pb45HBnya2A50Yjki3UbAkKaxmTdzZRihmTo0G1wZmGyaOpnM">
+              </form>
+            </div>
+
+        <div class="container" style="margin-top:20px;margin-bottom: 20px
+         ;background: #fff;">
+            <div class="row">
+                <div class="col-md-12 ">
+                    <ul id="newstable" class="newlist" style="width: 100%;margin-top: 15px;">
+                        
+                    </ul>
+                    <div class="box-footer clearfix">
+                        
+                        
+                        <ul class="pagination pagination-sm no-margin pull-right">
+                            
+
+                            
+                                
+                                    <li class="active">
+                                        <a href="/indexsearch/?page=1&search=SQJ7002YAC1BEV">1</a>
+                                    </li>
+                                
+                            
+
+
+                            
+                        </ul>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+
+
+<div class="container">
+    <div class="row index-line">
+        <div class="col-md-12" style="">
+            <ul class="nav nav-justified" role="tablist" style="border-bottom: 2px solid #ccc;">
+                <li class="linetitle" style=""> <i class="fa fa-link" aria-hidden="true"></i> <span class="cnname">友情链接</span><span class="enname">Friendly Link</span>
+                    <img src="/static/image/border_bottom.png" class="border-img">
+                </li>
+
+            </ul>
+        </div>
+        <div class="col-md-12" style="margin: 20px 0;">
+            
+            <div class="col-sm-3 ">
+                <div class="linkblock">
+                    <div class="linktitle">
+                        <span class="cnname">政府网站</span>
+                        <span class="enname">
+                        Government websites
+                        </span>
+                    </div>
+                    <ul class="linkcontent">
+                        
+                        <li><a href="http://www.ndrc.gov.cn/" target="_blank"><span class="cnname">中华人民共和国国家发展和改革委员会</span><span class="enname">中华人民共和国国家发展和改革委员会</span></a></li>
+                        
+                        <li><a href="http://www.sasac.gov.cn/" target="_blank"><span class="cnname">国务院国有资产监督管理委员会</span><span class="enname">国务院国有资产监督管理委员会</span></a></li>
+                        
+                        <li><a href="http://www.most.gov.cn/" target="_blank"><span class="cnname">中华人民共和国科学技术部</span><span class="enname">中华人民共和国科学技术部</span></a></li>
+                        
+                        <li><a href="http://www.miit.gov.cn/" target="_blank"><span class="cnname">中华人民共和国工业和信息化部</span><span class="enname">中华人民共和国工业和信息化部</span></a></li>
+                        
+                        <li><a href="http://www.mps.gov.cn/" target="_blank"><span class="cnname">中华人民共和国公安部</span><span class="enname">中华人民共和国公安部</span></a></li>
+                        
+                        <li><a href="http://www.mof.gov.cn/" target="_blank"><span class="cnname">中华人民共和国财政部</span><span class="enname">中华人民共和国财政部</span></a></li>
+                        
+                        <li><a href="http://www.zhb.gov.cn/" target="_blank"><span class="cnname">中华人民共和国生态环境部</span><span class="enname">中华人民共和国生态环境部</span></a></li>
+                        
+                        <li><a href="http://www.mot.gov.cn/" target="_blank"><span class="cnname">中国人民共和国交通运输部</span><span class="enname">中国人民共和国交通运输部</span></a></li>
+                        
+                        <li><a href="http://www.mofcom.gov.cn/" target="_blank"><span class="cnname">中华人民共和国商务部</span><span class="enname">中华人民共和国商务部</span></a></li>
+                        
+                        <li><a href="https://www.samr.gov.cn/" target="_blank"><span class="cnname">国家市场监督管理总局</span><span class="enname">国家市场监督管理总局</span></a></li>
+                        
+                        <li><a href="http://www.customs.gov.cn/" target="_blank"><span class="cnname">中华人民共和国海关总署</span><span class="enname">中华人民共和国海关总署</span></a></li>
+                        
+                        <li><a href="http://www.nea.gov.cn/" target="_blank"><span class="cnname">国家能源局</span><span class="enname">国家能源局</span></a></li>
+                        
+                    </ul>
+                </div>
+            </div>
+            
+            <div class="col-sm-3 ">
+                <div class="linkblock">
+                    <div class="linktitle">
+                        <span class="cnname">管理机构</span>
+                        <span class="enname">
+                        Industry bodies
+                        </span>
+                    </div>
+                    <ul class="linkcontent">
+                        
+                        <li><a href="https://www.miit-eidc.org.cn/" target="_blank"><span class="cnname">工业和信息化部装备工业发展中心</span><span class="enname">null</span></a></li>
+                        
+                        <li><a href="http://atestsc.mot.gov.cn/cn/" target="_blank"><span class="cnname">交通运输部公路科学研究院汽车运输研究中心</span><span class="enname">交通运输部公路科学研究院汽车运输研究中心</span></a></li>
+                        
+                        <li><a href="http://www.cnca.gov.cn/" target="_blank"><span class="cnname">国家认证认可监督管理委员会</span><span class="enname">国家认证认可监督管理委员会</span></a></li>
+                        
+                        <li><a href="https://www.vecc.org.cn/" target="_blank"><span class="cnname">机动车环保网</span><span class="enname">--</span></a></li>
+                        
+                        <li><a href="http://www.tmri.cn/" target="_blank"><span class="cnname">公安部交通管理科学研究所</span><span class="enname">公安部交通管理科学研究所</span></a></li>
+                        
+                        <li><a href="https://www.dpac.org.cn/" target="_blank"><span class="cnname">国家市场监督管理总局缺陷产品管理中心</span><span class="enname">国家市场监督管理总局缺陷产品管理中心</span></a></li>
+                        
+                        <li><a href="https://unece.org/un-regulations-addenda-1958-agreement" target="_blank"><span class="cnname">联合国1958年协定</span><span class="enname">联合国1958年协定</span></a></li>
+                        
+                        <li><a href="https://eur-lex.europa.eu/homepage.html" target="_blank"><span class="cnname">欧盟法规</span><span class="enname">null</span></a></li>
+                        
+                        <li><a href="http://www.sae.org/" target="_blank"><span class="cnname">SAE International</span><span class="enname">null</span></a></li>
+                        
+                        <li><a href="https://www.fcc.gov/" target="_blank"><span class="cnname">美国FCC</span><span class="enname">美国FCC</span></a></li>
+                        
+                        <li><a href="https://www.transportation.gov/" target="_blank"><span class="cnname">美国DOT</span><span class="enname">null</span></a></li>
+                        
+                        <li><a href="https://www.epa.gov/" target="_blank"><span class="cnname">美国EPA</span><span class="enname">null</span></a></li>
+                        
+                        <li><a href="https://infrastructure.gov.au/transport/" target="_blank"><span class="cnname">澳大利亚交通部ADR</span><span class="enname">澳大利亚交通部ADR</span></a></li>
+                        
+                        <li><a href="https://www.gso.org.sa/en/" target="_blank"><span class="cnname">中东GSO</span><span class="enname">中东GSO</span></a></li>
+                        
+                        <li><a href="https://www.sabs.co.za/" target="_blank"><span class="cnname">南非标准局</span><span class="enname">南非标准局</span></a></li>
+                        
+                        <li><a href="http://www.russiangost.com/s-20-transport-and-logistics.aspx" target="_blank"><span class="cnname">俄罗斯交通部</span><span class="enname">俄罗斯交通部</span></a></li>
+                        
+                        <li><a href="http://www.vscc.org.tw/" target="_blank"><span class="cnname">台湾VSCC</span><span class="enname">台湾VSCC</span></a></li>
+                        
+                        <li><a href="https://www.tisi.go.th/home/en" target="_blank"><span class="cnname">泰国工业标准局</span><span class="enname">泰国工业标准局</span></a></li>
+                        
+                    </ul>
+                </div>
+            </div>
+            
+            <div class="col-sm-3 ">
+                <div class="linkblock">
+                    <div class="linktitle">
+                        <span class="cnname">认证测评机构</span>
+                        <span class="enname">
+                        Certificate Authority
+                        </span>
+                    </div>
+                    <ul class="linkcontent">
+                        
+                        <li><a href="http://www.cqc.com.cn/www/chinese/index.shtml" target="_blank"><span class="cnname">中国质量认证中心</span><span class="enname">中国质量认证中心</span></a></li>
+                        
+                        <li><a href="https://www.cccap.org.cn" target="_blank"><span class="cnname">中汽认证中心有限公司</span><span class="enname">null</span></a></li>
+                        
+                        <li><a href="https://www.catarc-cert.cn/" target="_blank"><span class="cnname">中汽研华诚认证（天津）有限公司</span><span class="enname">中汽研华诚认证（天津）有限公司</span></a></li>
+                        
+                        <li><a href="http://www.ccari.cn/#&amp;slider1=3" target="_blank"><span class="cnname">重庆凯瑞质量检测认证中心有限责任公司</span><span class="enname">重庆凯瑞质量检测认证中心有限责任公司</span></a></li>
+                        
+                        <li><a href="https://www.c-ncap.org.cn/" target="_blank"><span class="cnname">中汽测评网站</span><span class="enname">null</span></a></li>
+                        
+                        <li><a href="https://www.autoindex.org.cn/index.html" target="_blank"><span class="cnname">中国汽研汽车指数网</span><span class="enname">null</span></a></li>
+                        
+                        <li><a href="http://www.jama.or.jp/" target="_blank"><span class="cnname">日本JAMA</span><span class="enname">null</span></a></li>
+                        
+                        <li><a href="http://www.dft.gov.uk/vca/" target="_blank"><span class="cnname">英国VCA</span><span class="enname">null</span></a></li>
+                        
+                        <li><a href="http://www.gc.tuv.com/" target="_blank"><span class="cnname">莱茵TUV</span><span class="enname">null</span></a></li>
+                        
+                        <li><a href="https://www.tuv-sud.cn/cn-scn" target="_blank"><span class="cnname">南德TUV</span><span class="enname">null</span></a></li>
+                        
+                        <li><a href="https://www.dekra.com.cn/zhcn/home/" target="_blank"><span class="cnname">德国DEKRA</span><span class="enname">德国DEKRA</span></a></li>
+                        
+                        <li><a href="https://www.tuv-nord.com/cn" target="_blank"><span class="cnname">北德TUV</span><span class="enname">null</span></a></li>
+                        
+                        <li><a href="http://www.fakt.com/en/index.php?pg=start.php" target="_blank"><span class="cnname">FAKT</span><span class="enname">FAKT</span></a></li>
+                        
+                        <li><a href="http://www.luxcontrol.com/en/Accueil" target="_blank"><span class="cnname">卢森堡Luxcontrol</span><span class="enname">卢森堡Luxcontrol</span></a></li>
+                        
+                        <li><a href="https://www.horiba-mira.com/" target="_blank"><span class="cnname">英国MIRA</span><span class="enname">英国MIRA</span></a></li>
+                        
+                        <li><a href="https://www.artc.org.tw/index.aspx" target="_blank"><span class="cnname">台湾ARTC</span><span class="enname">台湾ARTC</span></a></li>
+                        
+                        <li><a href="http://www.jari.or.jp/" target="_blank"><span class="cnname">日本JARI</span><span class="enname">日本JARI</span></a></li>
+                        
+                        <li><a href="http://www.utacceram.com/" target="_blank"><span class="cnname">法国UTAC</span><span class="enname">法国UTAC</span></a></li>
+                        
+                        <li><a href="http://www.applusidiada.cn/cn/" target="_blank"><span class="cnname">西班牙IDIADA</span><span class="enname">西班牙IDIADA</span></a></li>
+                        
+                        <li><a href="https://www.adac.de/" target="_blank"><span class="cnname">德国ADAC</span><span class="enname">德国ADAC</span></a></li>
+                        
+                        <li><a href="http://www.jdpower.com/" target="_blank"><span class="cnname">美国JD-POWER</span><span class="enname">美国JD-POWER</span></a></li>
+                        
+                        <li><a href="http://www.bureauveritas.com/" target="_blank"><span class="cnname">法国船级社</span><span class="enname">法国船级社</span></a></li>
+                        
+                        <li><a href="http://www.sgsgroup.us.com/" target="_blank"><span class="cnname">瑞士SGS</span><span class="enname">瑞士SGS</span></a></li>
+                        
+                        <li><a href="https://www.ancap.com.au/" target="_blank"><span class="cnname">澳大利亚ANCAP</span><span class="enname"> </span></a></li>
+                        
+                    </ul>
+                </div>
+            </div>
+            
+            <div class="col-sm-3 ">
+                <div class="linkblock">
+                    <div class="linktitle">
+                        <span class="cnname">生态伙伴</span>
+                        <span class="enname">
+                        Partnerners</span>
+                    </div>
+                    <ul class="linkcontent">
+                        
+                        <li><a href="http://at-siac.jiading.cn/" target="_blank"><span class="cnname">上海国际汽车城</span><span class="enname">上海国际汽车城</span></a></li>
+                        
+                        <li><a href="http://www.caam.org.cn/" target="_blank"><span class="cnname">中国汽车工业协会</span><span class="enname">中国汽车工业协会</span></a></li>
+                        
+                        <li><a href="https://www.vdachina.com.cn/" target="_blank"><span class="cnname">德国汽车工业协会</span><span class="enname">德国汽车工业协会</span></a></li>
+                        
+                        <li><a href="https://www.cucloud.cn/" target="_blank"><span class="cnname">联通云</span><span class="enname">联通云</span></a></li>
+                        
+                        <li><a href="https://company.vdbp.com.cn/index" target="_blank"><span class="cnname">众链科技</span><span class="enname">众链科技</span></a></li>
+                        
+                        <li><a href="https://www.icce.cn/web/index" target="_blank"><span class="cnname">ICCE智慧车联生态联盟</span><span class="enname">ICCE智慧车联生态联盟</span></a></li>
+                        
+                    </ul>
+                </div>
+            </div>
+            
+        </div>
+    </div>
+</div>
+<div class="visible-xs" style="height: 120px;"></div>
+<div class="hidden-xs" style="height: 80px;"></div>
+</div>
+
+<div class="navbar navbar-fixed-bottom">
+    <footer>
+        <!--版权开始-->
+        <div class="container-fluid">
+            <div class="container">
+                <div class="row">
+                    <div class="mc cl" style="text-align: center;">
+                        <div class="copynumber" style="display: inline-flex"><span class="enname">All Rights Reseverd </span>© 2019-2022 SMVIC. <span class="cnname">版权所有 </span></div>
+                        <div style="display: inline;color: #fff;">
+                            <a class="icpnumber" href="javascript:;" onclick="showAgreement(1)"><span class="cnname">《免责声明》</span><span class="enname"> Disclaimer Notices</span></a> |
+                            <a class="icpnumber" href="javascript:;" onclick="showAgreement(2)"><span class="cnname">《版权声明》</span><span class="enname"> Copyright Statement</span></a> |
+                            <a class="icpnumber" href="javascript:;" onclick="showAgreement(3)"><span class="cnname">《隐私声明》</span><span class="enname"> Privacy Statement</span></a>
+                            <a href="http://beian.miit.gov.cn/" class="icpnumber" target="_blank">沪ICP备05004519号-5</a>&nbsp;&nbsp;&nbsp;
+                            <a href="http://www.beian.gov.cn/portal/registerSystemInfo?recordcode=31011402009873" class="icpnumber" target="_blank"><img src="/static/image/icon1.png"/> 沪公网安备 31011402009873号</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!--版权结束-->
+        </div>
+        <!--尾部结束-->
+    </footer>
+</div>
+
+<div id="agreement1" hidden>
+    
+        <p class="MsoNormal" align="center" style="margin-top:7.8pt;margin-right:0cm;
+margin-bottom:7.8pt;margin-left:0cm;mso-para-margin-top:.5gd;mso-para-margin-right:
+0cm;mso-para-margin-bottom:.5gd;mso-para-margin-left:0cm;text-align:center"><b><span style="font-size:16.0pt;font-family:宋体;mso-ascii-font-family:'Times New Roman';
+mso-hansi-font-family:'Times New Roman'">免责声明</span></b><b><span lang="EN-US" style="font-size:16.0pt"></span></b></p><p class="MsoNormal" style="margin-top:7.8pt;mso-para-margin-top:.5gd;text-indent:
+24.0pt;mso-char-indent-count:2.0"><span style="font-size:12.0pt;font-family:
+宋体;mso-ascii-font-family:'Times New Roman';mso-hansi-font-family:'Times New Roman'">访问任何域名中含有</span><span lang="EN-US" style="font-size:12.0pt">“</span><span style="font-size:12.0pt;
+font-family:宋体;mso-ascii-font-family:'Times New Roman';mso-hansi-font-family:
+'Times New Roman'">hss.smvic.com.cn</span><span lang="EN-US" style="font-size:12.0pt">”</span><span style="font-size:12.0pt;font-family:宋体;mso-ascii-font-family:'Times New Roman';
+mso-hansi-font-family:'Times New Roman'">的网站（以下称“本网站”），表示您已无条件同意本免责声明的所有条款。由于这些条款可由上海机动车检测认证技术研究中心有限公司（以下简称“上海汽检”）随时更新</span><span lang="EN-US" style="font-size:12.0pt">/</span><span style="font-size:12.0pt;
+font-family:宋体;mso-ascii-font-family:'Times New Roman';mso-hansi-font-family:
+'Times New Roman'">补充，且毋须另行通知，请定期查询此网页以了解相关的更新</span><span lang="EN-US" style="font-size:12.0pt">/</span><span style="font-size:12.0pt;font-family:
+宋体;mso-ascii-font-family:'Times New Roman';mso-hansi-font-family:'Times New Roman'">补充。</span><span lang="EN-US" style="font-size:12.0pt"></span></p><p class="MsoNormal" style="margin-top:7.8pt;mso-para-margin-top:.5gd"><span lang="EN-US" style="font-size:12.0pt"></span></p><p class="MsoNormal" style="margin-top:7.8pt;mso-para-margin-top:.5gd;text-indent:
+24.0pt;mso-char-indent-count:2.0"><span lang="EN-US" style="font-size:12.0pt">1</span><span style="font-size:12.0pt;font-family:宋体;mso-ascii-font-family:'Times New Roman';
+mso-hansi-font-family:'Times New Roman'">．本网站所包含的由上海汽检和</span><span lang="EN-US" style="font-size:12.0pt">/</span><span style="font-size:12.0pt;font-family:
+宋体;mso-ascii-font-family:'Times New Roman';mso-hansi-font-family:'Times New Roman'">或任何另行明示的第三方（“许可方”，上海汽检和“许可方”统称为“上海汽检”）所提供的信息资料（包括但不限于解读、数据测算等仅作为参考，无意且并不构成上海汽检向您出具的正式方案、建议和</span><span lang="EN-US" style="font-size:12.0pt">/</span><span style="font-size:12.0pt;
+font-family:宋体;mso-ascii-font-family:'Times New Roman';mso-hansi-font-family:
+'Times New Roman'">或咨询意见等，不存在视为与上海汽检建立相关委托服务关系，上海汽检不承担由此引发的任何责任。并且除非另行特别指明外，您向本网站提交的任何材料亦不会作为保密材料对待。</span><span lang="EN-US" style="font-size:12.0pt"></span></p><p class="MsoNormal" style="margin-top:7.8pt;mso-para-margin-top:.5gd;text-indent:
+24.0pt;mso-char-indent-count:2.0"><span lang="EN-US" style="font-size:12.0pt">2</span><span style="font-size:12.0pt;font-family:宋体;mso-ascii-font-family:'Times New Roman';
+mso-hansi-font-family:'Times New Roman'">．虽然本网站力图提供准确的材料和内容，但上海汽检并不对本网站所载的材料和信息，包括但不限于文本、图片、数据、观点、建议或网页等材料和内容的准确性、完整性、充分性和可靠性作出保证，也不对这些材料和内容作出任何明示或默示的、包括但不限于有关权利、质量和没有计算机病毒的保证，并且明确声明不对这些材料和内容的错误或遗漏、时效性等承担责任。上海汽检也不就本网站上提供的任何信息资料做出任何声明、保证或认可。</span><span lang="EN-US" style="font-size:12.0pt"></span></p><p class="MsoNormal" style="margin-top:7.8pt;mso-para-margin-top:.5gd;text-indent:
+24.0pt;mso-char-indent-count:2.0"><span lang="EN-US" style="font-size:12.0pt">3</span><span style="font-size:12.0pt;font-family:宋体;mso-ascii-font-family:'Times New Roman';
+mso-hansi-font-family:'Times New Roman'">．本网站可能保留有与第三方网站或网址的链接，访问这些链接将由用户自己作出决定，上海汽检并不保证这些链接上所提供的任何信息、数据、观点、图片、陈述或建议的准确性、完整性、充分性和可靠性。上海汽检提供这些链接仅仅在于提供方便，并不表示上海汽检对这些信息的认可和推荐，也不是用于宣传或广告目的。</span><span lang="EN-US" style="font-size:12.0pt"></span></p><p class="MsoNormal" style="margin-top:7.8pt;mso-para-margin-top:.5gd;text-indent:
+24.0pt;mso-char-indent-count:2.0"><span lang="EN-US" style="font-size:12.0pt">5</span><span style="font-size:12.0pt;font-family:宋体;mso-ascii-font-family:'Times New Roman';
+mso-hansi-font-family:'Times New Roman'">．上海汽检将不承担以下责任：</span><span lang="EN-US" style="font-size:12.0pt"></span></p><p class="MsoNormal" style="margin-top:7.8pt;mso-para-margin-top:.5gd;text-indent:
+24.0pt;mso-char-indent-count:2.0"><span style="font-size:12.0pt;font-family:
+宋体;mso-ascii-font-family:'Times New Roman';mso-hansi-font-family:'Times New Roman'">（</span><span lang="EN-US" style="font-size:12.0pt">A</span><span style="font-size:12.0pt;
+font-family:宋体;mso-ascii-font-family:'Times New Roman';mso-hansi-font-family:
+'Times New Roman'">）任何由于计算机病毒、或其他恶意软件、程序、代码等以任何方式对您的计算机系统造成的任何负面影响，或造成您的系统崩溃或出现其他技术问题；</span><span lang="EN-US" style="font-size:12.0pt"></span></p><p class="MsoNormal" style="margin-top:7.8pt;mso-para-margin-top:.5gd;text-indent:
+24.0pt;mso-char-indent-count:2.0"><span style="font-size:12.0pt;font-family:
+宋体;mso-ascii-font-family:'Times New Roman';mso-hansi-font-family:'Times New Roman'">（</span><span lang="EN-US" style="font-size:12.0pt">B</span><span style="font-size:12.0pt;
+font-family:宋体;mso-ascii-font-family:'Times New Roman';mso-hansi-font-family:
+'Times New Roman'">）在提供或访问本网站过程中使用任何第三方服务，该第三方的任何行为、疏忽或过失。</span><span lang="EN-US" style="font-size:12.0pt"></span></p><p class="MsoNormal" style="margin-top:7.8pt;mso-para-margin-top:.5gd;text-indent:
+24.0pt;mso-char-indent-count:2.0"><span lang="EN-US" style="font-size:12.0pt">6</span><span style="font-size:12.0pt;font-family:宋体;mso-ascii-font-family:'Times New Roman';
+mso-hansi-font-family:'Times New Roman'">．在任何情况下，对于使用或未能使用本网站或本网站所包含的材料、软件或其他信息而导致的间接性的、特殊的、附带的，惩罚性的、后果性的损失，或者由此造成的利润损失、数据丢失或业务中断等损失，无论以何种形式提起诉讼，即无论基于民法典合同编、民法典侵权编（包括但不限于过失）还是其他任何法律理论，亦无论是否已被告知该等损失的可能性，上海汽检及其关联方均不承担责任。</span><span lang="EN-US" style="font-size:12.0pt"></span></p><p class="MsoNormal" style="margin-top:7.8pt;mso-para-margin-top:.5gd;text-indent:
+24.0pt;mso-char-indent-count:2.0"><span lang="EN-US" style="font-size:12.0pt">7</span><span style="font-size:12.0pt;font-family:宋体;mso-ascii-font-family:'Times New Roman';
+mso-hansi-font-family:'Times New Roman'">．本网站如因系统维护或升级而需暂停服务时，将事先公告。若因硬件故障或其它不可抗力而导致暂停服务，于暂停服务期间造成的一切不便与损失，本网站及上海汽检不承担任何责任。</span><span lang="EN-US" style="font-size:12.0pt"></span></p><p class="MsoNormal" style="margin-top:7.8pt;mso-para-margin-top:.5gd;text-indent:
+24.0pt;mso-char-indent-count:2.0"><span lang="EN-US" style="font-size:12.0pt">8</span><span style="font-size:12.0pt;font-family:宋体;mso-ascii-font-family:'Times New Roman';
+mso-hansi-font-family:'Times New Roman'">．尽管您在自担风险的情况下使用本网站，若您对本网站的使用而产生的或与其相关的损失、伤害或损害承担责任，则上海汽检对任何及所有索赔的赔偿总额不应超过您实际缴纳的年度费用。您承认本限制条款为您访问本网站和本网站所含的信息或资料的前提条件。</span><span lang="EN-US" style="font-size:12.0pt"></span></p><p class="MsoNormal" style="margin-top:7.8pt;mso-para-margin-top:.5gd;text-indent:
+24.0pt;mso-char-indent-count:2.0"><span lang="EN-US" style="font-size:12.0pt">9</span><span style="font-size:12.0pt;font-family:宋体;mso-ascii-font-family:'Times New Roman';
+mso-hansi-font-family:'Times New Roman'">．本声明之修改权、更新权和最终解释权均属上海汽检所有。</span><span lang="EN-US" style="font-size:12.0pt"></span></p><p class="MsoNormal" align="center" style="margin-top:7.8pt;margin-right:0cm;
+margin-bottom:7.8pt;margin-left:0cm;mso-para-margin-top:.5gd;mso-para-margin-right:
+0cm;mso-para-margin-bottom:.5gd;mso-para-margin-left:0cm;text-align:center"></p><p class="MsoNormal" style="margin-top:7.8pt;mso-para-margin-top:.5gd;text-indent:
+24.0pt;mso-char-indent-count:2.0"><span lang="EN-US" style="font-size:12.0pt"></span></p>
+
+
+</div>
+<div id="agreement2" hidden>
+    
+        <p class="MsoNormal" align="center" style="margin-top:7.8pt;margin-right:0cm;
+margin-bottom:7.8pt;margin-left:0cm;mso-para-margin-top:.5gd;mso-para-margin-right:
+0cm;mso-para-margin-bottom:.5gd;mso-para-margin-left:0cm;text-align:center"><b><span style="font-size:16.0pt;font-family:宋体;mso-ascii-font-family:'Times New Roman';
+mso-hansi-font-family:'Times New Roman'">版权声明</span></b><b><span lang="EN-US" style="font-size:16.0pt"></span></b></p><p class="MsoNormal" style="margin-top:2.5pt;text-indent:24.0pt;mso-char-indent-count:
+2.0"><span style="font-size:12.0pt;font-family:宋体;mso-ascii-font-family:'Times New Roman';
+mso-hansi-font-family:'Times New Roman'">访问任何域名中含</span><span lang="EN-US" style="font-size:12.0pt">“</span><span style="font-size:12.0pt;font-family:
+宋体;mso-ascii-font-family:'Times New Roman';mso-hansi-font-family:'Times New Roman'">hss.smvic.com.cn</span><span lang="EN-US" style="font-size:12.0pt">”</span><span style="font-size:12.0pt;
+font-family:宋体;mso-ascii-font-family:'Times New Roman';mso-hansi-font-family:
+'Times New Roman'">的网站（以下称“本网站”），表示您已无条件同意本版权声明的所有条款。由于这些条款可由上海机动车检测认证技术研究中心有限公司（以下简称“上海汽检”）随时更新</span><span lang="EN-US" style="font-size:12.0pt">/</span><span style="font-size:12.0pt;
+font-family:宋体;mso-ascii-font-family:'Times New Roman';mso-hansi-font-family:
+'Times New Roman'">补充，且毋须另行通知，请定期查询此网页以了解相关的更新</span><span lang="EN-US" style="font-size:12.0pt">/</span><span style="font-size:12.0pt;font-family:
+宋体;mso-ascii-font-family:'Times New Roman';mso-hansi-font-family:'Times New Roman'">补充。</span><span lang="EN-US" style="font-size:12.0pt"></span></p><p class="MsoNormal" style="margin-top:2.5pt;text-indent:24.0pt;mso-char-indent-count:
+2.0"><span style="font-size:12.0pt;font-family:宋体;mso-ascii-font-family:'Times New Roman';
+mso-hansi-font-family:'Times New Roman'">本网站严格遵守《中华人民共和国著作权法》、《信息网络传播权保护条例》及相关法律、法规和政策，并积极采用先进技术进行保护。访问、浏览或使用本网站，表明您已阅读、理解并同意受以下条款的约束，并遵守所有适用的法律和法规。如果您不同意下列任何条款，请停止使用本网站。</span><span lang="EN-US" style="font-size:12.0pt"></span></p><p class="MsoNormal" style="margin-top:2.5pt"><b><span lang="EN-US" style="font-size:12.0pt"></span></b></p><p class="MsoNormal" style="margin-top:2.5pt"><b><span style="font-size:12.0pt;
+font-family:宋体;mso-ascii-font-family:'Times New Roman';mso-hansi-font-family:
+'Times New Roman'">一、版权所有</span></b><b><span lang="EN-US" style="font-size:12.0pt"></span></b></p><p class="MsoNormal" style="margin-top:2.5pt;text-indent:24.0pt"><span style="font-size:12.0pt;font-family:宋体;mso-ascii-font-family:'Times New Roman';
+mso-hansi-font-family:'Times New Roman'">本网站刊载的包括但不限于图文、音频、视频、网站版式、网页设计等各项内容，除特别注明外，著作权均为上海汽检和</span><span lang="EN-US" style="font-size:12.0pt">/</span><span style="font-size:12.0pt;
+font-family:宋体;mso-ascii-font-family:'Times New Roman';mso-hansi-font-family:
+'Times New Roman'">或其另外指定的第三方（以下称“许可方”）所有，受包括但不限于中华人民共和国版权法等相关法律法规以及国际条约的保护。</span><span lang="EN-US" style="font-size:12.0pt"></span></p><p class="MsoNormal" style="margin-top:2.5pt;text-indent:24.0pt"><span style="font-size:12.0pt;font-family:宋体;mso-ascii-font-family:'Times New Roman';
+mso-hansi-font-family:'Times New Roman'">任何单位或个人未经事先书面许可，均不得将以上内容用于任何商业用途，如有未经许可用于商业用途或非法目的而侵害上海汽检相关著作权甚至影响上海汽检声誉的，上海汽检保留追究其法律责任的权利。如需使用相关资料，请提前与上海汽检相关部门联系。</span><span lang="EN-US" style="font-size:12.0pt"></span></p><p class="MsoNormal" style="margin-top:2.5pt"><span lang="EN-US" style="font-size:
+12.0pt"></span></p><p class="MsoNormal" style="margin-top:2.5pt"><b><span style="font-size:12.0pt;
+font-family:宋体;mso-ascii-font-family:'Times New Roman';mso-hansi-font-family:
+'Times New Roman'">二、版权许可</span></b><b><span style="font-size:12.0pt"> <span lang="EN-US"></span></span></b></p><p class="MsoNormal" style="margin-top:2.5pt;text-indent:24.0pt"><span style="font-size:12.0pt;font-family:宋体;mso-ascii-font-family:'Times New Roman';
+mso-hansi-font-family:'Times New Roman'">本网站以及其中任何的内容，包括但不限于设计，标志，配色方案，图形样式，文本，图片和视频（以下统称“版权作品”），仅供您为个人目的使用。如果您是免费试用用户，则仅供测评使用。</span><span lang="EN-US" style="font-size:12.0pt"></span></p><p class="MsoNormal" style="margin-top:2.5pt;text-indent:24.0pt"><span style="font-size:12.0pt;font-family:宋体;mso-ascii-font-family:'Times New Roman';
+mso-hansi-font-family:'Times New Roman'">除了在保留全部版权和其他所有权声明的前提下，您可以为个人使用或测评之需在单台计算机上获取版权作品的任一部分或章节的一份副本以外，所有版权作品均不得以任何方式复制、翻印、再版、上传、转贴、传播或散发。但是，自本网站系统提取版权作品的全部或相当部分，将被视为超出个人使用或测评之需，而予以禁止。对版权作品进行修改或将其用于任何其他用途，均构成对版权所有人权利的侵犯，而予以禁止。就本条款而言，禁止在任何其他网站或计算机联网环境中使用任何版权作品。</span><span lang="EN-US" style="font-size:12.0pt"></span></p><p class="MsoNormal" style="margin-top:2.5pt"><span lang="EN-US" style="font-size:
+12.0pt"></span></p><p class="MsoNormal" style="margin-top:2.5pt"><b><span style="font-size:12.0pt;
+font-family:宋体;mso-ascii-font-family:'Times New Roman';mso-hansi-font-family:
+'Times New Roman'">三、版权保护</span></b><b><span lang="EN-US" style="font-size:12.0pt"></span></b></p><p class="MsoNormal" style="margin-top:2.5pt;text-indent:24.0pt;mso-char-indent-count:
+2.0"><span style="font-size:12.0pt;font-family:宋体;mso-ascii-font-family:'Times New Roman';
+mso-hansi-font-family:'Times New Roman'">上海汽检尊重并严格遵守版权法。同样地，上海汽检也希望使用本网站或我们服务的所有客户尊重并严格遵守版权法。如果您侵犯上海汽检或相关许可方涉及任何版权作品的权利，您将被要求停止此类违法活动并对上海汽检或相关许可方造成的或因侵权行为导致的任何和全部损失（包括律师费）承担全部责任。</span><span lang="EN-US" style="font-size:12.0pt"></span></p><p class="MsoNormal" style="margin-top:2.5pt;text-indent:24.0pt;mso-char-indent-count:
+2.0"><span style="font-size:12.0pt;font-family:宋体;mso-ascii-font-family:'Times New Roman';
+mso-hansi-font-family:'Times New Roman'">如果您是合法的版权所有人，并认为本网站所提供的内容或服务以任何方式对您的权利造成了侵害，如果请通过以下联系方式通知我们，并向我们提供您的身份证明及您对该作品拥有著作权的有关文件，我们会尽快根据相关法律规定妥善处理。</span><span lang="EN-US" style="font-size:12.0pt"></span></p><p class="MsoNormal" style="margin-top:7.8pt;mso-para-margin-top:.5gd;text-indent:
+24.0pt;mso-char-indent-count:2.0"><span style="font-size:12.0pt;font-family:
+宋体;mso-ascii-font-family:'Times New Roman';mso-hansi-font-family:'Times New Roman'">咨询热线：021-69080124</span><span lang="EN-US" style="font-size:12.0pt"></span></p><p class="MsoNormal" style="margin-top:7.8pt;mso-para-margin-top:.5gd;text-indent:
+24.0pt;mso-char-indent-count:2.0"><span style="font-size:12.0pt;font-family:
+宋体;mso-ascii-font-family:'Times New Roman';mso-hansi-font-family:'Times New Roman'">客服邮箱：yifeix@smvic.com.cn</span><span lang="EN-US" style="font-size:12.0pt"></span></p><p class="MsoNormal" style="margin-top:7.8pt;mso-para-margin-top:.5gd;text-indent:
+24.0pt;mso-char-indent-count:2.0"><span style="font-size:12.0pt;font-family:
+宋体;mso-ascii-font-family:'Times New Roman';mso-hansi-font-family:'Times New Roman'">地址：上海市嘉定区于田南路</span><span lang="EN-US" style="font-size:12.0pt">68</span><span style="font-size:12.0pt;
+font-family:宋体;mso-ascii-font-family:'Times New Roman';mso-hansi-font-family:
+'Times New Roman'">号</span><span lang="EN-US" style="font-size:12.0pt"></span></p><p class="MsoNormal" style="margin-top:2.5pt"><span lang="EN-US" style="font-size:
+12.0pt"></span></p><p>
+</p><p class="MsoNormal" style="margin-top:2.5pt"><span style="font-size:12.0pt;
+font-family:宋体;mso-ascii-font-family:'Times New Roman';mso-hansi-font-family:
+'Times New Roman'">本声明之修改权、更新权和最终解释权均属上海汽检所有。</span><span lang="EN-US" style="font-size:12.0pt"></span></p>
+
+    
+
+</div>
+<div id="agreement3" hidden>
+    
+    <p class="MsoNormal" align="center" style="margin-top:7.8pt;margin-right:0cm;
+margin-bottom:7.8pt;margin-left:0cm;mso-para-margin-top:.5gd;mso-para-margin-right:
+0cm;mso-para-margin-bottom:.5gd;mso-para-margin-left:0cm;text-align:center"><b><span style="font-size:16.0pt;font-family:宋体;mso-ascii-font-family:'Times New Roman';
+mso-hansi-font-family:'Times New Roman'">隐私声明</span></b></p>
+    <p><span style="font-family: Arial;">﻿</span><span lang="EN-US"
+                                                       style="font-family:'Times New Roman', serif; text-align: center; font-size: 12pt;">SMVIC</span><span
+            style="font-family: 宋体; text-align: center; font-size: 12pt;">个人信息处理规则</span><br></p>
+
+    <p class="MsoNormal"><span lang="EN-US" style="font-size:12.0pt;font-family:'Times New Roman',serif;
+"></span></p>
+
+    <p class="MsoNormal"><span lang="EN-US" style="font-size:12.0pt;font-family:'Times New Roman',serif;
+">SMVIC</span><span style="font-size:12.0pt;
+font-family:宋体;mso-ascii-font-family:'Times New Roman';mso-hansi-font-family:
+'Times New Roman';mso-bidi-font-family:'Times New Roman'">（上海机动车检测认证研究技术中心有限公司，以下简称</span><span lang="EN-US" style="font-size:12.0pt;font-family:'Times New Roman',serif;
+">“</span><span style="font-size:12.0pt;font-family:
+宋体;mso-ascii-font-family:'Times New Roman';mso-hansi-font-family:'Times New Roman';
+mso-bidi-font-family:'Times New Roman'">我们</span><span lang="EN-US" style="font-size:12.0pt;font-family:'Times New Roman',serif;mso-fareast-font-family:
+宋体">”</span><span style="font-size:12.0pt;font-family:宋体;mso-ascii-font-family:
+'Times New Roman';mso-hansi-font-family:'Times New Roman';mso-bidi-font-family:
+'Times New Roman'">）高度重视您的个人信息安全和保护，并遵循《中华人民共和国网络安全法》、《中华人民共和国个人信息保护法》等现行法律法规及相关政策要求，采取相应的措施严格保护您的个人信息安全。</span><span
+            lang="EN-US" style="font-size:12.0pt;font-family:'Times New Roman',serif;
+"></span></p>
+
+    <p class="MsoNormal"><span style="font-size:12.0pt;font-family:宋体;mso-ascii-font-family:
+'Times New Roman';mso-hansi-font-family:'Times New Roman';mso-bidi-font-family:
+'Times New Roman'">我们希望通过本规则向您清晰地说明我们对您个人信息的处理方式，因此我们建议您完整地阅读本规则，以帮助您了解维护自己隐私权的方式。如您对本规则有任何疑问，您可以通过我们公布的联系方式与我们联系。</span><span
+            lang="EN-US" style="font-size:12.0pt;font-family:'Times New Roman',serif;
+"></span></p>
+
+    <p class="MsoNormal"><span lang="EN-US" style="font-size:
+12.0pt;font-family:'Times New Roman',serif;"></span></p>
+
+    <p class="MsoNormal"><b><span style="font-size:12.0pt;font-family:宋体;mso-ascii-font-family:
+'Times New Roman';mso-hansi-font-family:'Times New Roman';mso-bidi-font-family:
+'Times New Roman'">一、</span></b><b><span lang="EN-US" style="font-size:12.0pt;
+font-family:'Times New Roman',serif;">SMVIC</span></b><b><span style="font-size:12.0pt;font-family:宋体;mso-ascii-font-family:'Times New Roman';
+mso-hansi-font-family:'Times New Roman';mso-bidi-font-family:'Times New Roman'">网站</span></b><b><span lang="EN-US"
+                                                                                                      style="font-size:12.0pt;font-family:'Times New Roman',serif;
+"></span></b></p>
+
+    <p class="MsoNormal"><span style="font-size:12.0pt;font-family:宋体;mso-ascii-font-family:
+'Times New Roman';mso-hansi-font-family:'Times New Roman';mso-bidi-font-family:
+'Times New Roman'">为了方便您与我们进行业务往来及安全保障，如业务洽谈来访等，我们要求您注册并登录方可访问我们的网站（</span><span lang="EN-US" style="font-size:12.0pt;font-family:'Times New Roman',serif;
+">hss.smvic.com.cn</span><span style="font-size:12.0pt;
+font-family:宋体;mso-ascii-font-family:'Times New Roman';mso-hansi-font-family:
+'Times New Roman';mso-bidi-font-family:'Times New Roman'">）。通过阅读并在注册页面勾选同意本规则或</span><span lang="EN-US" style="font-size:12.0pt;font-family:'Times New Roman',serif;
+">/</span><span style="font-size:12.0pt;font-family:
+宋体;mso-ascii-font-family:'Times New Roman';mso-hansi-font-family:'Times New Roman';
+mso-bidi-font-family:'Times New Roman'">及相关协议，您才可完成注册。</span><span lang="EN-US" style="font-size:12.0pt;font-family:'Times New Roman',serif;mso-fareast-font-family:
+宋体"></span></p>
+
+    <p class="MsoNormal"><b><span style="font-size:12.0pt;font-family:宋体;mso-ascii-font-family:
+'Times New Roman';mso-hansi-font-family:'Times New Roman';mso-bidi-font-family:
+'Times New Roman'">二、您的个人信息收集及使用</span></b><b><span lang="EN-US" style="font-size:12.0pt;font-family:'Times New Roman',serif;mso-fareast-font-family:
+宋体"></span></b></p>
+
+    <p class="MsoListParagraph" style="margin-left:21.0pt;text-indent:-21.0pt;
+mso-text-indent-alt:-13.9pt;mso-char-indent-count:0;mso-list:l4 level1 lfo4;
+tab-stops:68.65pt"><!--[if !supportLists]--><span lang="EN-US" style="font-size:12.0pt;
+font-family:'Times New Roman',serif;mso-fareast-font-family:'Times New Roman'">2.1<span
+            style="font-variant-numeric: normal; font-variant-east-asian: normal; font-weight: normal; font-stretch: normal; font-size: 7pt; line-height: normal; font-family:'Times New Roman';">&nbsp;&nbsp;&nbsp;
+</span></span><!--[endif]--><span style="font-size:12.0pt;font-family:宋体;
+mso-ascii-font-family:'Times New Roman';mso-hansi-font-family:'Times New Roman';
+mso-bidi-font-family:'Times New Roman'">为了向您更好提供我们的平台服务，我们将收集、使用您的姓名、手机号码、身份证号、电子邮箱地址。</span><span lang="EN-US" style="font-size:12.0pt;font-family:'Times New Roman',serif;
+"></span></p>
+
+    <p class="MsoListParagraph" style="margin-left:21.0pt;text-indent:-21.0pt;
+mso-text-indent-alt:-13.9pt;mso-char-indent-count:0;mso-list:l4 level1 lfo4;
+tab-stops:68.65pt"><!--[if !supportLists]--><span lang="EN-US" style="font-size:12.0pt;
+font-family:'Times New Roman',serif;mso-fareast-font-family:'Times New Roman'">2.2<span
+            style="font-variant-numeric: normal; font-variant-east-asian: normal; font-weight: normal; font-stretch: normal; font-size: 7pt; line-height: normal; font-family:'Times New Roman';">&nbsp;&nbsp;&nbsp;
+</span></span><!--[endif]--><span style="font-size:12.0pt;font-family:宋体;
+mso-ascii-font-family:'Times New Roman';mso-hansi-font-family:'Times New Roman';
+mso-bidi-font-family:'Times New Roman'">我们仅会出于以下所述目的，收集、使用您的个人信息：</span><span lang="EN-US" style="font-size:12.0pt;font-family:'Times New Roman',serif;
+"></span></p>
+
+    <p class="MsoListParagraph" style="margin-left:21.0pt;text-indent:0cm;mso-char-indent-count:
+0"><span style="font-size:12.0pt;font-family:宋体;mso-ascii-font-family:'Times New Roman';
+mso-hansi-font-family:'Times New Roman';mso-bidi-font-family:'Times New Roman'">（</span><span lang="EN-US" style="font-size:12.0pt;font-family:'Times New Roman',serif;
+">1</span><span style="font-size:12.0pt;font-family:
+宋体;mso-ascii-font-family:'Times New Roman';mso-hansi-font-family:'Times New Roman';
+mso-bidi-font-family:'Times New Roman'">）帮助您完成注册及登录；</span><span lang="EN-US" style="font-size:12.0pt;font-family:'Times New Roman',serif;mso-fareast-font-family:
+宋体"></span></p>
+
+    <p class="MsoListParagraph" style="margin-left:21.0pt;text-indent:0cm;mso-char-indent-count:
+0"><span style="font-size:12.0pt;font-family:宋体;mso-ascii-font-family:'Times New Roman';
+mso-hansi-font-family:'Times New Roman';mso-bidi-font-family:'Times New Roman'">（</span><span lang="EN-US" style="font-size:12.0pt;font-family:'Times New Roman',serif;
+">2</span><span style="font-size:12.0pt;font-family:
+宋体;mso-ascii-font-family:'Times New Roman';mso-hansi-font-family:'Times New Roman';
+mso-bidi-font-family:'Times New Roman'">）实现身份认证；</span><span lang="EN-US" style="font-size:12.0pt;font-family:'Times New Roman',serif;mso-fareast-font-family:
+宋体"></span></p>
+
+    <p class="MsoListParagraph" style="margin-left:21.0pt;text-indent:0cm;mso-char-indent-count:
+0"><span style="font-size:12.0pt;font-family:宋体;mso-ascii-font-family:'Times New Roman';
+mso-hansi-font-family:'Times New Roman';mso-bidi-font-family:'Times New Roman'">（</span><span lang="EN-US" style="font-size:12.0pt;font-family:'Times New Roman',serif;
+">3</span><span style="font-size:12.0pt;font-family:
+宋体;mso-ascii-font-family:'Times New Roman';mso-hansi-font-family:'Times New Roman';
+mso-bidi-font-family:'Times New Roman'">）维护基本功能的正常运行</span><span lang="EN-US" style="font-size:12.0pt;font-family:'Times New Roman',serif;mso-fareast-font-family:
+宋体"></span></p>
+
+    <p class="MsoListParagraph" style="margin-left:21.0pt;text-indent:0cm;mso-char-indent-count:
+0"><span style="font-size:12.0pt;font-family:宋体;mso-ascii-font-family:'Times New Roman';
+mso-hansi-font-family:'Times New Roman';mso-bidi-font-family:'Times New Roman'">（</span><span lang="EN-US" style="font-size:12.0pt;font-family:'Times New Roman',serif;
+">4</span><span style="font-size:12.0pt;font-family:
+宋体;mso-ascii-font-family:'Times New Roman';mso-hansi-font-family:'Times New Roman';
+mso-bidi-font-family:'Times New Roman'">）为您提供客服或其他用户响应功能；</span><span lang="EN-US" style="font-size:12.0pt;font-family:'Times New Roman',serif;
+"></span></p>
+
+    <p class="MsoListParagraph" style="margin-left:21.0pt;text-indent:0cm;mso-char-indent-count:
+0"><span style="font-size:12.0pt;font-family:宋体;mso-ascii-font-family:'Times New Roman';
+mso-hansi-font-family:'Times New Roman';mso-bidi-font-family:'Times New Roman'">（</span><span lang="EN-US" style="font-size:12.0pt;font-family:'Times New Roman',serif;
+">5</span><span style="font-size:12.0pt;font-family:
+宋体;mso-ascii-font-family:'Times New Roman';mso-hansi-font-family:'Times New Roman';
+mso-bidi-font-family:'Times New Roman'">）为您提供安全保障；</span><span lang="EN-US" style="font-size:12.0pt;font-family:'Times New Roman',serif;mso-fareast-font-family:
+宋体"></span></p>
+
+    <p class="MsoListParagraph" style="margin-left:21.0pt;text-indent:0cm;mso-char-indent-count:
+0"><span style="font-size:12.0pt;font-family:宋体;mso-ascii-font-family:'Times New Roman';
+mso-hansi-font-family:'Times New Roman';mso-bidi-font-family:'Times New Roman'">（</span><span lang="EN-US" style="font-size:12.0pt;font-family:'Times New Roman',serif;
+">6</span><span style="font-size:12.0pt;font-family:
+宋体;mso-ascii-font-family:'Times New Roman';mso-hansi-font-family:'Times New Roman';
+mso-bidi-font-family:'Times New Roman'">）我们安全园区安全及防疫需要；</span><span lang="EN-US" style="font-size:12.0pt;font-family:'Times New Roman',serif;mso-fareast-font-family:
+宋体"></span></p>
+
+    <p class="MsoListParagraph" style="margin-left:21.0pt;text-indent:0cm;mso-char-indent-count:
+0"><span style="font-size:12.0pt;font-family:宋体;mso-ascii-font-family:'Times New Roman';
+mso-hansi-font-family:'Times New Roman';mso-bidi-font-family:'Times New Roman'">（</span><span lang="EN-US" style="font-size:12.0pt;font-family:'Times New Roman',serif;
+">7</span><span style="font-size:12.0pt;font-family:
+宋体;mso-ascii-font-family:'Times New Roman';mso-hansi-font-family:'Times New Roman';
+mso-bidi-font-family:'Times New Roman'">）当我们打算将您的个人信息用于上述未载明的其他用途，或者将基于特定目的收集而来的信息用于其他目的时，我们会事先征求您的同意。</span><span
+            lang="EN-US" style="font-size:12.0pt;font-family:'Times New Roman',serif;
+;background:yellow;mso-highlight:yellow"></span></p>
+
+    <p class="MsoListParagraph" style="margin-left:21.0pt;text-indent:-21.0pt;
+mso-text-indent-alt:-13.9pt;mso-char-indent-count:0;mso-list:l4 level1 lfo4;
+tab-stops:68.65pt"><!--[if !supportLists]--><span lang="EN-US" style="font-size:12.0pt;
+font-family:'Times New Roman',serif;mso-fareast-font-family:'Times New Roman'">2.3<span
+            style="font-variant-numeric: normal; font-variant-east-asian: normal; font-weight: normal; font-stretch: normal; font-size: 7pt; line-height: normal; font-family:'Times New Roman';">&nbsp;&nbsp;&nbsp;
+</span></span><!--[endif]--><span style="font-size:12.0pt;font-family:宋体;
+mso-ascii-font-family:'Times New Roman';mso-hansi-font-family:'Times New Roman';
+mso-bidi-font-family:'Times New Roman'">为更好地向您提供服务及权益，在您同意的前提下，我们将向第三方分享您的个人信息：我们可能会聘用一个或多个服务供应商提供服务。在提供这些服务的过程中，这些服务供应商会访问和处理您的个人信息。我们会与这些服务供应商签订协议，要求他们遵守与您个人信息有关的适用的法律法规。如果法律要求，行政机关、司法机关或类似机构提出要求，或在我们认为有必要依法披露时，我们可能披露您的个人信息。</span><span
+            lang="EN-US" style="font-size:12.0pt;font-family:'Times New Roman',serif;
+"></span></p>
+
+    <p class="MsoListParagraph" style="margin-left:21.0pt;text-indent:-21.0pt;
+mso-text-indent-alt:-13.9pt;mso-char-indent-count:0;mso-list:l4 level1 lfo4;
+tab-stops:68.65pt"><!--[if !supportLists]--><span lang="EN-US" style="font-size:12.0pt;
+font-family:'Times New Roman',serif;mso-fareast-font-family:'Times New Roman'">2.4<span
+            style="font-variant-numeric: normal; font-variant-east-asian: normal; font-weight: normal; font-stretch: normal; font-size: 7pt; line-height: normal; font-family:'Times New Roman';">&nbsp;&nbsp;&nbsp;
+</span></span><!--[endif]--><span style="font-size:12.0pt;font-family:宋体;
+mso-ascii-font-family:'Times New Roman';mso-hansi-font-family:'Times New Roman';
+mso-bidi-font-family:'Times New Roman'">我们及我们的服务供应商会采用适当的安保、技术及组织措施防止任何更改您的信息或是让您的信息丢失的行为，亦或是未经授权的访问。</span><span
+            lang="EN-US" style="font-size:12.0pt;font-family:'Times New Roman',serif;
+"></span></p>
+
+    <p class="MsoNormal"><b><span style="font-size:12.0pt;font-family:宋体;mso-ascii-font-family:
+'Times New Roman';mso-hansi-font-family:'Times New Roman';mso-bidi-font-family:
+'Times New Roman'">三、您的个人信息存储</span></b><b><span lang="EN-US" style="font-size:
+12.0pt;font-family:'Times New Roman',serif;"></span></b></p>
+
+    <p class="MsoListParagraph" style="margin-left:21.0pt;text-indent:-21.0pt;
+mso-text-indent-alt:-13.9pt;mso-char-indent-count:0;mso-list:l1 level1 lfo1"><!--[if !supportLists]--><span lang="EN-US"
+                                                                                                            style="font-size:12.0pt;font-family:'Times New Roman',serif;
+mso-fareast-font-family:'Times New Roman'">3.1<span
+            style="font-variant-numeric: normal; font-variant-east-asian: normal; font-weight: normal; font-stretch: normal; font-size: 7pt; line-height: normal; font-family:'Times New Roman';">&nbsp;&nbsp;&nbsp; </span></span>
+        <!--[endif]--><span style="font-size:12.0pt;font-family:宋体;mso-ascii-font-family:'Times New Roman';
+mso-hansi-font-family:'Times New Roman';mso-bidi-font-family:'Times New Roman'">原则上，我们在中华人民共和国境内收集和产生的个人数据，将存储在中华人民共和国境内。如果我们向境外传输，我们将会遵循相关国家规定，向您说明个人信息出境的目的以及涉及的个人信息类型，征求您的同意。此类管辖区可能有不同的数据保护法，在此类情况下，我们会确保您的个人数据得到在中华人民共和国境内足够同等的保护。例如，我们会请求您对跨境转移个人信息的同意，或者在跨境数据转移之前实施数据去标识化等安全举措。</span><span
+                lang="EN-US" style="font-size:12.0pt;font-family:'Times New Roman',serif;
+"></span></p>
+
+    <p class="MsoListParagraph" style="margin-left:21.0pt;text-indent:-21.0pt;
+mso-text-indent-alt:-13.9pt;mso-char-indent-count:0;mso-list:l1 level1 lfo1"><!--[if !supportLists]--><span lang="EN-US"
+                                                                                                            style="font-size:12.0pt;font-family:'Times New Roman',serif;
+mso-fareast-font-family:'Times New Roman'">3.2<span
+            style="font-variant-numeric: normal; font-variant-east-asian: normal; font-weight: normal; font-stretch: normal; font-size: 7pt; line-height: normal; font-family:'Times New Roman';">&nbsp;&nbsp;&nbsp; </span></span>
+        <!--[endif]--><span style="font-size:12.0pt;font-family:宋体;mso-ascii-font-family:'Times New Roman';
+mso-hansi-font-family:'Times New Roman';mso-bidi-font-family:'Times New Roman'">我们仅会在为您提供服务所必需的期间内保留您的个人信息，如果您需要注销、删除个人信息，我们将对您的个人信息进行删除或销毁，但法律法规另有规定的除外。</span><span
+                lang="EN-US" style="font-size:12.0pt;font-family:'Times New Roman',serif;
+"></span></p>
+
+    <p class="MsoNormal"><b><span style="font-size:12.0pt;font-family:宋体;mso-ascii-font-family:
+'Times New Roman';mso-hansi-font-family:'Times New Roman';mso-bidi-font-family:
+'Times New Roman'">四、您的个人信息保护</span></b><b><span lang="EN-US" style="font-size:
+12.0pt;font-family:'Times New Roman',serif;"></span></b></p>
+
+    <p class="MsoListParagraph" style="margin-left:21.0pt;text-indent:-21.0pt;
+mso-text-indent-alt:-13.9pt;mso-char-indent-count:0;mso-list:l3 level1 lfo5"><!--[if !supportLists]--><span lang="EN-US"
+                                                                                                            style="font-size:12.0pt;font-family:'Times New Roman',serif;
+mso-fareast-font-family:'Times New Roman'">4.1<span
+            style="font-variant-numeric: normal; font-variant-east-asian: normal; font-weight: normal; font-stretch: normal; font-size: 7pt; line-height: normal; font-family:'Times New Roman';">&nbsp;&nbsp;&nbsp; </span></span>
+        <!--[endif]--><span style="font-size:12.0pt;font-family:宋体;mso-ascii-font-family:'Times New Roman';
+mso-hansi-font-family:'Times New Roman';mso-bidi-font-family:'Times New Roman'">我们非常重视您个人信息安全，努力采取合理安全措施（包括技术方面和管理方面）来保护您的个人信息。我们会部署访问控制机制，确保只有授权人员才可访问个人信息，并适时对数据和技术进行安全审计；我们会建立安全管理制度、数据安全流程保障您的个人信息安全；以及我们会举办安全和隐私保护培训课程，加强员工对于保护个人信息重要性的认识。</span><span
+                lang="EN-US" style="font-size:12.0pt;font-family:'Times New Roman',serif;
+"></span></p>
+
+    <p class="MsoListParagraph" style="margin-left:21.0pt;text-indent:-21.0pt;
+mso-text-indent-alt:-13.9pt;mso-char-indent-count:0;mso-list:l3 level1 lfo5"><!--[if !supportLists]--><span lang="EN-US"
+                                                                                                            style="font-size:12.0pt;font-family:'Times New Roman',serif;
+mso-fareast-font-family:'Times New Roman'">4.2<span
+            style="font-variant-numeric: normal; font-variant-east-asian: normal; font-weight: normal; font-stretch: normal; font-size: 7pt; line-height: normal; font-family:'Times New Roman';">&nbsp;&nbsp;&nbsp; </span></span>
+        <!--[endif]--><span style="font-size:12.0pt;font-family:宋体;mso-ascii-font-family:'Times New Roman';
+mso-hansi-font-family:'Times New Roman';mso-bidi-font-family:'Times New Roman'">您知悉并理解，您接入我们的服务所用的系统和通讯网络，有可能出现我们可控范围外的安全问题。因此，我们强烈建议您采取积极措施保护个人信息的安全，包括但不限于使用复杂密码、定期修改密码、不将自己的账号密码及相关个人信息透露给他人等。</span><span
+                lang="EN-US" style="font-size:12.0pt;font-family:'Times New Roman',serif;
+"></span></p>
+
+    <p class="MsoListParagraph" style="margin-left:21.0pt;text-indent:-21.0pt;
+mso-text-indent-alt:-13.9pt;mso-char-indent-count:0;mso-list:l3 level1 lfo5"><!--[if !supportLists]--><span lang="EN-US"
+                                                                                                            style="font-size:12.0pt;font-family:'Times New Roman',serif;
+mso-fareast-font-family:'Times New Roman'">4.3<span
+            style="font-variant-numeric: normal; font-variant-east-asian: normal; font-weight: normal; font-stretch: normal; font-size: 7pt; line-height: normal; font-family:'Times New Roman';">&nbsp;&nbsp;&nbsp; </span></span>
+        <!--[endif]--><span style="font-size:12.0pt;font-family:宋体;mso-ascii-font-family:'Times New Roman';
+mso-hansi-font-family:'Times New Roman';mso-bidi-font-family:'Times New Roman'">互联网环境并非百分之百安全，我们将尽力采取各种合理的物理、电子和管理方面的安全措施来保护您的个人信息，使您的个人信息不会被泄漏、毁损或者丢失。我们会按现有技术提供相应的安全措施来保护您的信息，提供合理的安全保障，我们将尽力确保您的信息不被泄漏、毁损或丢失。</span><span
+                lang="EN-US" style="font-size:12.0pt;font-family:'Times New Roman',serif;
+"></span></p>
+
+    <p class="MsoNormal"><b><span style="font-size:12.0pt;font-family:宋体;mso-ascii-font-family:
+'Times New Roman';mso-hansi-font-family:'Times New Roman';mso-bidi-font-family:
+'Times New Roman'">五、如何联系我们</span></b><b><span lang="EN-US" style="font-size:
+12.0pt;font-family:'Times New Roman',serif;"></span></b></p>
+
+    <p class="MsoListParagraph" style="margin-left:21.0pt;text-indent:-21.0pt;
+mso-text-indent-alt:-13.9pt;mso-char-indent-count:0;mso-list:l0 level1 lfo2"><!--[if !supportLists]--><span lang="EN-US"
+                                                                                                            style="font-size:12.0pt;font-family:'Times New Roman',serif;
+mso-fareast-font-family:'Times New Roman'">5.1<span
+            style="font-variant-numeric: normal; font-variant-east-asian: normal; font-weight: normal; font-stretch: normal; font-size: 7pt; line-height: normal; font-family:'Times New Roman';">&nbsp;&nbsp;&nbsp; </span></span>
+        <!--[endif]--><span style="font-size:12.0pt;font-family:宋体;mso-ascii-font-family:'Times New Roman';
+mso-hansi-font-family:'Times New Roman';mso-bidi-font-family:'Times New Roman'">如果您对本规则有任何疑问、意见或者建议，或者希望行使与您的个人信息相关的权力（权益），可通过以下方式与我们联系：</span><span
+                lang="EN-US"><a href="mailto:information_security@smvic.com.cn"><span style="font-size:12.0pt;font-family:'Times New Roman',serif;mso-fareast-font-family:
+宋体">information_security@smvic.com.cn</span></a></span><span style="font-size:
+12.0pt;font-family:宋体;mso-ascii-font-family:'Times New Roman';mso-hansi-font-family:
+'Times New Roman';mso-bidi-font-family:'Times New Roman'">。</span><span lang="EN-US" style="font-size:12.0pt;font-family:'Times New Roman',serif;
+"></span></p>
+
+    <p class="MsoListParagraph" style="margin-left:21.0pt;text-indent:-21.0pt;
+mso-text-indent-alt:-13.9pt;mso-char-indent-count:0;mso-list:l0 level1 lfo2"><!--[if !supportLists]--><span lang="EN-US"
+                                                                                                            style="font-size:12.0pt;font-family:'Times New Roman',serif;
+mso-fareast-font-family:'Times New Roman'">5.2<span
+            style="font-variant-numeric: normal; font-variant-east-asian: normal; font-weight: normal; font-stretch: normal; font-size: 7pt; line-height: normal; font-family:'Times New Roman';">&nbsp;&nbsp;&nbsp; </span></span>
+        <!--[endif]--><span style="font-size:12.0pt;font-family:宋体;mso-ascii-font-family:'Times New Roman';
+mso-hansi-font-family:'Times New Roman';mso-bidi-font-family:'Times New Roman'">一般情况下，我们将在会在收到您的疑问、意见或者建议后，并在验证您的用户身份后的</span><span
+                lang="EN-US" style="font-size:12.0pt;font-family:'Times New Roman',serif;
+">7</span><span style="font-size:12.0pt;font-family:
+宋体;mso-ascii-font-family:'Times New Roman';mso-hansi-font-family:'Times New Roman';
+mso-bidi-font-family:'Times New Roman'">个工作日内回复。此外，您理解并知悉，在与个人信息有关的如下情形下，我们将无法回复您的请求：</span><span lang="EN-US" style="font-size:12.0pt;font-family:'Times New Roman',serif;
+"></span></p>
+
+    <p class="MsoListParagraph" style="margin-left:21.0pt;text-indent:0cm;mso-char-indent-count:
+0"><span style="font-size:12.0pt;font-family:宋体;mso-ascii-font-family:'Times New Roman';
+mso-hansi-font-family:'Times New Roman';mso-bidi-font-family:'Times New Roman'">（</span><span lang="EN-US" style="font-size:12.0pt;font-family:'Times New Roman',serif;
+">1</span><span style="font-size:12.0pt;font-family:
+宋体;mso-ascii-font-family:'Times New Roman';mso-hansi-font-family:'Times New Roman';
+mso-bidi-font-family:'Times New Roman'">）与国家安全、国防安全有关的；</span><span lang="EN-US" style="font-size:12.0pt;font-family:'Times New Roman',serif;mso-fareast-font-family:
+宋体"></span></p>
+
+    <p class="MsoListParagraph" style="margin-left:21.0pt;text-indent:0cm;mso-char-indent-count:
+0"><span style="font-size:12.0pt;font-family:宋体;mso-ascii-font-family:'Times New Roman';
+mso-hansi-font-family:'Times New Roman';mso-bidi-font-family:'Times New Roman'">（</span><span lang="EN-US" style="font-size:12.0pt;font-family:'Times New Roman',serif;
+">2</span><span style="font-size:12.0pt;font-family:
+宋体;mso-ascii-font-family:'Times New Roman';mso-hansi-font-family:'Times New Roman';
+mso-bidi-font-family:'Times New Roman'">）与公共安全、公共卫生、重大公共利益有关的；</span><span lang="EN-US" style="font-size:12.0pt;font-family:'Times New Roman',serif;
+"></span></p>
+
+    <p class="MsoListParagraph" style="margin-left:21.0pt;text-indent:0cm;mso-char-indent-count:
+0"><span style="font-size:12.0pt;font-family:宋体;mso-ascii-font-family:'Times New Roman';
+mso-hansi-font-family:'Times New Roman';mso-bidi-font-family:'Times New Roman'">（</span><span lang="EN-US" style="font-size:12.0pt;font-family:'Times New Roman',serif;
+">3</span><span style="font-size:12.0pt;font-family:
+宋体;mso-ascii-font-family:'Times New Roman';mso-hansi-font-family:'Times New Roman';
+mso-bidi-font-family:'Times New Roman'">）与犯罪侦查、起诉和审判等有关的；</span><span lang="EN-US" style="font-size:12.0pt;font-family:'Times New Roman',serif;
+"></span></p>
+
+    <p class="MsoListParagraph" style="margin-left:21.0pt;text-indent:0cm;mso-char-indent-count:
+0"><span style="font-size:12.0pt;font-family:宋体;mso-ascii-font-family:'Times New Roman';
+mso-hansi-font-family:'Times New Roman';mso-bidi-font-family:'Times New Roman'">（</span><span lang="EN-US" style="font-size:12.0pt;font-family:'Times New Roman',serif;
+">4</span><span style="font-size:12.0pt;font-family:
+宋体;mso-ascii-font-family:'Times New Roman';mso-hansi-font-family:'Times New Roman';
+mso-bidi-font-family:'Times New Roman'">）有充分证据表明您存在主观恶意或滥用权利的；</span><span lang="EN-US" style="font-size:12.0pt;font-family:'Times New Roman',serif;
+"></span></p>
+
+    <p class="MsoListParagraph" style="margin-left:21.0pt;text-indent:0cm;mso-char-indent-count:
+0"><span style="font-size:12.0pt;font-family:宋体;mso-ascii-font-family:'Times New Roman';
+mso-hansi-font-family:'Times New Roman';mso-bidi-font-family:'Times New Roman'">（</span><span lang="EN-US" style="font-size:12.0pt;font-family:'Times New Roman',serif;
+">5</span><span style="font-size:12.0pt;font-family:
+宋体;mso-ascii-font-family:'Times New Roman';mso-hansi-font-family:'Times New Roman';
+mso-bidi-font-family:'Times New Roman'">）响应您的请求将导致您或其他个人、组织的合法权益受到严重损害的；</span><span lang="EN-US" style="font-size:12.0pt;font-family:'Times New Roman',serif;
+"></span></p>
+
+    <p class="MsoListParagraph" style="margin-left:21.0pt;text-indent:0cm;mso-char-indent-count:
+0"><span style="font-size:12.0pt;font-family:宋体;mso-ascii-font-family:'Times New Roman';
+mso-hansi-font-family:'Times New Roman';mso-bidi-font-family:'Times New Roman'">（</span><span lang="EN-US" style="font-size:12.0pt;font-family:'Times New Roman',serif;
+">6</span><span style="font-size:12.0pt;font-family:
+宋体;mso-ascii-font-family:'Times New Roman';mso-hansi-font-family:'Times New Roman';
+mso-bidi-font-family:'Times New Roman'">）涉及商业秘密的；</span><span lang="EN-US" style="font-size:12.0pt;font-family:'Times New Roman',serif;mso-fareast-font-family:
+宋体"></span></p>
+
+    <p class="MsoListParagraph" style="margin-left:21.0pt;text-indent:0cm;mso-char-indent-count:
+0"><span style="font-size:12.0pt;font-family:宋体;mso-ascii-font-family:'Times New Roman';
+mso-hansi-font-family:'Times New Roman';mso-bidi-font-family:'Times New Roman'">（</span><span lang="EN-US" style="font-size:12.0pt;font-family:'Times New Roman',serif;
+">7</span><span style="font-size:12.0pt;font-family:
+宋体;mso-ascii-font-family:'Times New Roman';mso-hansi-font-family:'Times New Roman';
+mso-bidi-font-family:'Times New Roman'">）法律法规等规定的其他情形。</span><span lang="EN-US" style="font-size:12.0pt;font-family:'Times New Roman',serif;mso-fareast-font-family:
+宋体"></span></p>
+
+    <p class="MsoNormal"><b><span style="font-size:12.0pt;font-family:宋体;mso-ascii-font-family:
+'Times New Roman';mso-hansi-font-family:'Times New Roman';mso-bidi-font-family:
+'Times New Roman'">六、附则</span></b><b><span lang="EN-US" style="font-size:12.0pt;
+font-family:'Times New Roman',serif;"></span></b></p>
+
+    <p class="MsoListParagraph" style="margin-left:21.0pt;text-indent:-21.0pt;
+mso-text-indent-alt:-13.9pt;mso-char-indent-count:0;mso-list:l2 level1 lfo3"><!--[if !supportLists]--><span lang="EN-US"
+                                                                                                            style="font-size:12.0pt;font-family:'Times New Roman',serif;
+mso-fareast-font-family:'Times New Roman'">6.1<span
+            style="font-variant-numeric: normal; font-variant-east-asian: normal; font-weight: normal; font-stretch: normal; font-size: 7pt; line-height: normal; font-family:'Times New Roman';">&nbsp;&nbsp;&nbsp; </span></span>
+        <!--[endif]--><span style="font-size:12.0pt;font-family:宋体;mso-ascii-font-family:'Times New Roman';
+mso-hansi-font-family:'Times New Roman';mso-bidi-font-family:'Times New Roman'">本规则的生效、履行、解释及争议的解决均适用中华人民共和国法律。</span><span
+                lang="EN-US" style="font-size:12.0pt;font-family:'Times New Roman',serif;
+"></span></p>
+
+    <p class="MsoListParagraph" style="margin-left:21.0pt;text-indent:-21.0pt;
+mso-text-indent-alt:-13.9pt;mso-char-indent-count:0;mso-list:l2 level1 lfo3"><!--[if !supportLists]--><span lang="EN-US"
+                                                                                                            style="font-size:12.0pt;font-family:'Times New Roman',serif;
+mso-fareast-font-family:'Times New Roman'">6.2<span
+            style="font-variant-numeric: normal; font-variant-east-asian: normal; font-weight: normal; font-stretch: normal; font-size: 7pt; line-height: normal; font-family:'Times New Roman';">&nbsp;&nbsp;&nbsp; </span></span>
+        <!--[endif]--><span style="font-size:12.0pt;font-family:宋体;mso-ascii-font-family:'Times New Roman';
+mso-hansi-font-family:'Times New Roman';mso-bidi-font-family:'Times New Roman'">不排除我们的规则在将来可能发生变更，届时我们会在我们的网站发布对本规则所做的任何变更，若您继续使用我们的产品或服务，即表示您同意受修订后的本规则的约束。另外，您可以通过拍照、截图留存本页面，以备不时之需。</span><span
+                lang="EN-US" style="font-size:12.0pt;font-family:'Times New Roman',serif;
+"></span></p>
+
+    <p class="MsoListParagraph" style="margin-left:21.0pt;text-indent:-21.0pt;
+mso-text-indent-alt:-13.9pt;mso-char-indent-count:0;mso-list:l2 level1 lfo3"><!--[if !supportLists]--><span lang="EN-US"
+                                                                                                            style="font-size:12.0pt;font-family:'Times New Roman',serif;
+mso-fareast-font-family:'Times New Roman'">6.3<span
+            style="font-variant-numeric: normal; font-variant-east-asian: normal; font-weight: normal; font-stretch: normal; font-size: 7pt; line-height: normal; font-family:'Times New Roman';">&nbsp;&nbsp;&nbsp; </span></span>
+        <!--[endif]--><span style="font-size:12.0pt;font-family:宋体;mso-ascii-font-family:'Times New Roman';
+mso-hansi-font-family:'Times New Roman';mso-bidi-font-family:'Times New Roman'">本规则的标题仅为方便阅读而设计，不影响本规则任何条款的含义或解释。</span><span
+                lang="EN-US" style="font-size:12.0pt;font-family:'Times New Roman',serif;
+"></span></p>
+
+    <p class="MsoListParagraph" style="margin-left:21.0pt;text-indent:-21.0pt;
+mso-text-indent-alt:-13.9pt;mso-char-indent-count:0;mso-list:l2 level1 lfo3"><!--[if !supportLists]--><span lang="EN-US"
+                                                                                                            style="font-size:12.0pt;font-family:'Times New Roman',serif;
+mso-fareast-font-family:'Times New Roman'">6.4<span
+            style="font-variant-numeric: normal; font-variant-east-asian: normal; font-weight: normal; font-stretch: normal; font-size: 7pt; line-height: normal; font-family:'Times New Roman';">&nbsp;&nbsp;&nbsp; </span></span>
+        <!--[endif]--><span style="font-size:12.0pt;font-family:宋体;mso-ascii-font-family:'Times New Roman';
+mso-hansi-font-family:'Times New Roman';mso-bidi-font-family:'Times New Roman'">上海机动车检测认证研究技术中心有限公司保留本规则的最终解释权。</span><span
+                lang="EN-US" style="font-size:12.0pt;font-family:'Times New Roman',serif;
+"></span></p>
+
+    <p class="MsoNormal"><span lang="EN-US" style="font-size:12.0pt;font-family:'Times New Roman',serif;
+"></span></p>
+
+    <p class="MsoNormal"><span lang="EN-US" style="font-size:12.0pt;font-family:'Times New Roman',serif;
+"></span></p>
+
+    <p class="MsoNormal"><span lang="EN-US" style="font-size:12.0pt;font-family:'Times New Roman',serif;
+"></span></p>
+
+    <p class="MsoNormal"><span lang="EN-US" style="font-size:12.0pt;font-family:'Times New Roman',serif;
+"></span></p>
+
+    <p class="MsoNormal" align="right" style="text-align:right"><span style="font-size:
+12.0pt;font-family:宋体;mso-ascii-font-family:'Times New Roman';mso-hansi-font-family:
+'Times New Roman';mso-bidi-font-family:'Times New Roman'">上海机动车检测认证研究技术中心有限公司</span><span lang="EN-US" style="font-size:12.0pt;font-family:'Times New Roman',serif;
+"></span></p>
+    
+</div>
+
+<div class="totop" style="cursor: pointer; position: fixed; right: 38px; bottom: 100px; display: none;" onclick="goback()"><i class="fa fa-arrow-up"></i></div>
+<div class="m-mask" style="display: block;"></div>
+</body>
+<!-- REQUIRED JS SCRIPTS -->
+
+<!-- Bootstrap 3.3.7 -->
+
+
+<script src="/static/bootstrap/js/bootstrap.min.js"></script>
+
+
+<script src="/static/js/jquery.slimscroll.min.js"></script>
+<!-- AdminLTE App -->
+<script src="/static/js/adminlte.min.js"></script>
+<!-- layer -->
+<script src="/static/layer/layer.js"></script>
+
+    
+    <script disable-devtool-auto src="/static/js/protect2.min.js?v=2202" disable-menu='false'></script>
+    
+
+
+
+
+    <script>
+        $(document).ready(function() {
+            
+            
+            
+            
+            //html2canvas(document.getElementById('newdetail'),{
+            //allowTaint: true,
+            //useCORS: true,
+            //    background :null,
+            //x: 0,//页面在横向方向上的滚动距离  横向上没有超过 所以设置为0
+            //y: window.pageYOffset,//页面在垂直方向上的滚动距离 设置了以后 超过一屏幕的内容也可以截取
+           //windowWidth: document.body.scrollWidth,//获取在x轴上滚动条中内容
+           //windowHeight: document.body.scrolHeight,//获取在y轴上滚动条中内容
+            //}).then(function(canvas) {
+                //document.getElementById("news").append(canvas)
+
+            //$('#news').css('height',$('#newdetail').height()+'px');
+            //$('#news').css('background-size','cover');
+            //document.getElementById("news").append(canvas)
+                //console.log(canvas)
+            //document.getElementById("news").style.backgroundImage="url('"+canvas.toDataURL("image/jpeg")+"')";
+            //document.getElementById('newdetail').remove();
+            //});
+            //$('.overlay').css({'height':$(document).height(),'width':$(document).width()});
+        });
+    </script>
+
+
+<script>
+    $(function () {
+        $(window).scroll(function () {
+            var num = 300;
+            if ($(window).scrollTop() >= num) {
+                $(".totop").show();
+            } else $(".totop").hide();
+        });
+
+        $(".fa-bars.m-icon-nav").on("click", function () {
+            $("body").addClass("m-nav-show"),
+            $(".m-mask").show(),
+            $("body").removeClass("search-on"),
+            $(".search-show .fa").removeClass("fa-remove")
+            setTimeout(function (){ $("#navbar li.dropdown").addClass('open');$("#navbar li.dropdown a").attr('data-toggle','')},100)
+        })
+        $(".fa-search.m-icon-nav").on("click", function () {
+            $("body").removeClass("m-nav-show")
+            if (window.location.pathname!=="/indexsearch/") window.location.href="/indexsearch";
+        })
+
+        $(".m-mask").on("click", function () {
+            $(this).hide(),
+            $("body").removeClass("m-nav-show")
+        })
+
+        var tb_search_timer;
+        $(".search-show").bind("click", function (t) {
+            return t.stopPropagation(),
+                $(this).find(".fa").toggleClass("fa-remove"),
+                $("body").toggleClass("search-on"),
+            $("body").hasClass("search-on") && ($("body").removeClass("m-nav-show"),
+            tb_search_timer && clearTimeout(tb_search_timer),
+                tb_search_timer = setTimeout(function () {
+                    $(".site-search").find("input").focus()
+                }, 200)),
+                !1
+        })
+    });
+    $(document).ready(function () {
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+
+    })
+
+    function switchLan(lan){
+        setCookie('lan',lan)
+        window.location.reload();
+        if (lan=='zh'){
+
+        }else if (lan=='en'){
+
+        }
+    }
+
+    function goback() {
+        $("html,body").animate({scrollTop: 0}, 200)
+    }
+
+    function showAgreement(type) {
+        var content = $('#agreement'+type).html();
+        var title = "";
+        switch (type) {
+            case 1:
+                title = "《免责声明》";
+                break;
+            case 2:
+                title = "《版权声明》";
+                break;
+            case 3:
+                title = "《隐私声明》";
+                break;
+            default :
+                title = ""
+        }
+        // var index =
+        layer.closeAll()
+        layer.open({
+            type: 1,
+            title: title,
+            shadeClose: false,
+            shade: [0.5, '#393D49'],
+            scrollbar: false,
+            //fixed: false,
+            maxmin: false, //开启最大化最小化按钮
+            area: ['80%', '80%'],
+            content: content
+        });
+    }
+
+</script>
+</body>
+
+</html>

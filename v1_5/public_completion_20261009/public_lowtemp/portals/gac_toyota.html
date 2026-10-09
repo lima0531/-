@@ -1,0 +1,338 @@
+
+<!DOCTYPE HTML>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<!--<![endif]-->
+<head id="Head1"><meta charset="UTF-8" /><meta http-equiv="X-UA-Compatible" content="IE=Edge,chrome=1" /><meta name="renderer" content="webkit" /><meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no" /><meta content="yes" name="apple-mobile-web-app-capable" /><meta name="apple-mobile-web-app-status-bar-style" content="black" /><meta content="telephone=no" name="format-detection" /><meta name="keywords" content="广丰 丰田 广汽丰田" /><meta name="description" content="敬请光临广汽丰田官方网站，获取广汽丰田旗下全新凯美瑞（含全新凯美瑞运动和全新凯美瑞双擎）、全新雷凌（含全新雷凌双擎和雷凌双擎E+）、全新汉兰达、威兰达（含威兰达双擎）、致炫、致享、致炫X、C-HR、C-HR EV、广汽丰田iA5等高品质车型以及埃尔法双擎进口车最详尽的产品资料，了解最新配置价格，参数信息，售后服务，新闻资讯和市场活动。同时，您还可以线上查询广汽丰田经销商，并预约试驾。" /><title>
+	广汽丰田
+</title>
+		<script type="text/javascript">
+					window._AMapSecurityConfig = {
+						serviceHost: "https://cwmap.gac-toyota.com.cn/_AMapService",
+					}
+			</script>
+    <link rel="stylesheet" href="/2022/src/assets/css/base.css" />
+    <link rel="stylesheet" href="/2022/src/assets/js/swiper/swiper-bundle.min.css" />
+    <link rel="stylesheet" href="/2022/src/assets/css/newStyle.css" />
+    <link rel="stylesheet" href="/2022/src/home/css/home.css" /> 
+<script src="/2022/src/utils/rem.js"></script>
+<script>
+        var pr = window.location.search;
+        var isMobile = /android|blackberry|webos|windows phone|iphone|ipod/.test(navigator.userAgent.toLowerCase());
+        var isPad = /ipad/.test(navigator.userAgent.toLowerCase());
+        //true是竖屏
+        if((isPad&&(window.orientation == 0 || window.orientation == 180))||isMobile){
+            location.href = '/m' + pr;
+        }
+    </script>
+
+	
+    <script type="text/javascript" src="/js/CTR-SiteMetric-Site-SDK-2.3.0.js"></script>
+				<script type="text/javascript">
+					CTR_SDK.init({
+					apikey: '676bce82044faae1332dd1fb',
+					dsn: 'https://676bce82044faae1332dd1fb.smc.ctrmi.com/w',
+					heart: true,
+					heart_timer: 3000
+					})
+                </script>
+				<script type="text/javascript"
+        src="https://webapi.amap.com/maps?v=2.0&key=67cd60924137fbdfc1ea452c6d6b5aef"></script>
+            </head>
+<body>
+    
+     <section id="home" v-cloak>
+        <common-header :istoph="indexPage?false:isTopH" :iswhite="false" :class="{blackHeader:indexPage==1||indexPage==3||indexPage==4||indexPage==5,whiteHeader:indexPage==2}"></common-header>
+        <div class="swiper bodySwiper" :style="{'z-index':isZIndex?99:1}">
+            <div class="swiper-wrapper">
+                <div class="swiper-slide">
+                    <cookie :changetop="changetop"></cookie>
+                    <banner-list @topageindex="toPageHomeIndex"></banner-list>
+                </div>
+                <car-list @topageindex="toPageHomeIndex"></car-list>
+                <page-image></page-image>
+                <!-- <active-list class="bg" :activejson="activeJson"></active-list> -->
+                <drive-form class="swiper-slide bg" :selectedindex="selectedIndex" id="drive-form" :localdata="localdata" :cartype="'home'" :codestatus="codeStatus" @smsresult="smsResult"></drive-form>
+                <div class="swiper-slide swiper-scroll" ref="swiperScroll"  @touchstart="handleTouchStart" @touchmove="handleTouchMove" @touchend="handleTouchEnd">
+                    <div class="page-height">
+                        <page-other class="bg"></page-other>
+                        <nav-footer ></nav-footer>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <tool-right
+			:istoolright="indexPage"
+			:localdata="localdata"
+			:isstarttime="false"
+			:cartype="'home'"
+			:codestatus="codeStatus" 
+			@smsresult="smsResult"
+            @topageindex="toPageHomeIndex"
+		></tool-right>
+        <!-- 图像滑动验证码 -->
+		<graphic-code :mobile="phoneCode" :show="isCodeShow" @onsuccess="onSuccess" @onclose="onClose"></graphic-code>
+        <common-module :isstart="true"></common-module>
+    </section>
+
+    <!-- 公共js -->
+    <script src="/2022/src/assets/js/vue.min.js"></script>
+    <script src="/2022/src/assets/js/httpVueLoader.js"></script>
+    <script src="/2022/src/assets/js/axios.min.js"></script>
+    <script src="/2022/src/assets/js/js.cookie.min.js"></script>
+    <script src="/2022/src/assets/js/md5.js"></script>
+    <script src="/2022/src/assets/json/baseData.js"></script>
+    <script src="/2022/src/assets/json/index-kv.js"></script>
+
+    <!-- 功能组件 -->
+    <script src="/2022/config/index.js"></script>
+    <script src="/2022/src/utils/request.js"></script>
+    <script src="/2022/src/utils/tool.js"></script>
+    <script src="/2022/src/utils/scroll.js"></script>
+    <script src="/2022/src/assets/js/swiper/swiper-bundle.min.js"></script>
+
+    <!-- 定位 -->
+    <script src="/2022/src/utils/maps.js"></script>
+    <script src="/2022/src/utils/api.js"></script>
+
+    <script>
+        Vue.use(httpVueLoader);
+        Vue.directive('up', {
+            bind: function (el, bs, vn) {
+                let [eventType, eventCodeName, eventData = {}] = bs.value;
+
+                el.addEventListener('click', () => {
+                    Tool.sendEventPoint(eventType, eventData, eventCodeName)
+                });
+            },
+        });
+        new Vue({
+            el: '#home',
+            components: {
+                'cookie': httpVueLoader(`/2022/src/components/nav/cookie.vue?v=${_process.version}`),
+                'nav-footer': httpVueLoader(`/2022/src/components/nav/footer.vue?v=${_process.version}`),
+                'common-header': httpVueLoader(`/2022/src/components/nav/header.vue?v=${_process.version}`),
+                'tool-right': httpVueLoader(`/2022/src/components/nav/tool-right.vue?v=${_process.version}`),
+                'common-module': httpVueLoader(`/2022/src/components/nav/common-module.vue?v=${_process.version}`),
+                'graphic-code': httpVueLoader(`/2022/src/components/modules/graphic-code.vue?v=${_process.version}`),
+                'drive-form': httpVueLoader(`/2022/src/components/modules/drive-form.vue?v=${_process.version}`),
+                'banner-list': httpVueLoader(`/2022/src/home/components/banner-list.vue?v=${_process.version}`),
+                'car-list': httpVueLoader(`/2022/src/home/components/car-list.vue?v=${_process.version}`),
+                'page-image': httpVueLoader(`/2022/src/home/components/page-image.vue?v=${_process.version}`),
+                'active-list': httpVueLoader(`/2022/src/home/components/active-list.vue?v=${_process.version}`),
+                'page-other': httpVueLoader(`/2022/src/home/components/page-other.vue?v=${_process.version}`),
+            },
+            data() {
+                return {
+                    localdata: null,
+                    activeJson: null,
+                    timer:null,
+                    bodySwiper:null,
+                    isRange:false,//关于直播范围
+                    isTopH:false,
+                    isZIndex:false,
+                    selectedIndex:-1,
+                    indexPage:0,
+                    isCodeShow: false,//手机验证码
+          			codeStatus:'',//图像验证码状态
+					phoneCode:'',//验证码手机号码
+                    startScroll: 0,
+                    touchStart: 0,
+                    touchCurrent: 0,
+                    touchTime:null,
+                };
+            },
+            watch: {
+            },
+            methods: {
+                smsResult(key,phone,status){
+					this.isCodeShow = key;
+					this.phoneCode = phone || null;
+					this.codeStatus = status || '';
+				},
+				// 通过验证后，需要自行隐藏模态框
+				onSuccess(msg){
+                    this.isCodeShow = false;
+                    this.codeStatus = 'open';
+				},
+				// 用户点击遮罩层，应该关闭模态框
+				onClose(){
+				    this.isCodeShow = false;
+				},
+                changetop(data){
+                    this.isTopH = data
+                },
+                // 滚动到指定屏幕
+				toPageHomeIndex(page,carName) {
+                    let index = 0;
+                    if(page){
+                        let windowHeight = window.innerHeight || document.documentElement.clientHeight
+					    let offsetTop = document.getElementById(page)?.offsetTop
+                        index = Math.round(offsetTop/windowHeight)
+                    }
+					_swiper.bodySwiper.enable()
+					_swiper.bodySwiper.slideTo(index,0)
+                    if(carName){
+                        this.selectedIndex = _baseData.modleJson.findIndex(item => item.enname == carName)
+                    }
+				},
+                initSwiper() {
+                    let _this = this
+                    //全屏效果
+                    _swiper.bodySwiper = new Swiper('.bodySwiper', {
+                        roundLengths : true,
+                        mousewheel: !device.isMobileOrTablet,
+                        allowTouchMove: device.isMobileOrTablet,
+                        direction: 'vertical',
+                        observer: true,
+                        observeParents: true,
+                        speed: 700,
+                        preloadImages: false,
+                        noSwiping: true, // 启用不可滑动功能
+                        noSwipingClass : 'scroll-box',
+                        on: {
+                            init() {
+                            },
+                            slideChange() {
+                                _this.indexPage = this.activeIndex
+                            },
+                            slideNextTransitionStart() {
+                                if(this.isEnd){
+                                    _swiper.bodySwiper.disable();
+                                }
+							},
+                        },
+                    })
+                },
+                handleWheel (event) {
+					event.stopPropagation();
+					let isUpWheel = event.deltaY < 0
+                    if(_swiper.bodySwiper.enabled) return
+					//是否开启切换
+					let index = this.indexPage
+                    let slide = _swiper.bodySwiper.slides[index]
+                    let slideTop = slide.scrollTop
+                    if(isUpWheel && slideTop == 0){
+                        _swiper.bodySwiper.enable();
+                    }
+				},
+                handleTouchStart(e){
+                    if(!device.isMobileOrTablet) return false
+                    this.startScroll = this.$refs.swiperScroll.scrollTop;
+                    this.touchStart = e.targetTouches[0].pageY;
+                },
+                handleTouchMove(e){
+                    if(!device.isMobileOrTablet) return false
+                    this.touchCurrent = e.targetTouches[0].pageY;
+                    const touchesDiff = this.touchCurrent - this.touchStart;
+                    const slide = this.$refs.swiperScroll;
+                    const onlyScrolling = 
+                        (slide.scrollHeight > slide.offsetHeight) && (
+                        (touchesDiff < 0 && this.startScroll === 0) ||
+                        (touchesDiff > 0 && this.startScroll === (slide.scrollHeight - slide.offsetHeight)) ||
+                        (this.startScroll > 0 && this.startScroll < (slide.scrollHeight - slide.offsetHeight))
+                        );
+                    
+                    if (onlyScrolling) {
+                        e.stopPropagation();
+                    }
+                },
+                handleTouchEnd(e){
+                    if(!device.isMobileOrTablet) return false
+                    this.listenSlidingCore();
+                },
+                listenSlidingCore(){
+                    const slide = this.$refs.swiperScroll;
+                    const top = slide.scrollTop;
+                    const h = slide.offsetHeight;
+                    const h1 = slide.querySelector('.page-height').offsetHeight;
+                    
+                    if (this.touchTime) clearTimeout(this.touchTime);
+                    
+                    this.touchTime = setTimeout(() => {
+                        if (top === slide.scrollTop) {
+                            if ((h1 - h - top < 5 && h + top - h1 <= 5)) {
+                                _swiper.bodySwiper.disable();
+                            } else {
+                                _swiper.bodySwiper.enable();
+                            }
+                        } else {
+                            this.listenSlidingCore();
+                        }
+                    }, 20);
+                },
+                // 初始化
+                async getData() {
+                    window._swiper = {};
+                    _baseData.modleJson = _baseData.carModleJson
+                    _baseData.proJson = await _api.GetProCityInfo();
+                    _baseData.dealerJson = await _api.GetDealerInfo();
+
+                    localMap.getLocation().then((res) => {
+                        let nearData = localMap.selectedNearest(res.lat, res.lnt, _baseData.dealerJson)
+                        this.localdata = {
+                            nearData: nearData,
+                            province: nearData ? nearData.Province : res.province,
+                            city: nearData ? nearData.City : res.city,
+                            lat: res.lat,
+                            lnt: res.lnt,
+                        }
+                    })
+                    //活动数据
+                    _api.getActivityList().then(({data:res}) => {
+                        //stauts图片 4 未开始  3 已结束 2进行中  1 直播中  5回放中
+                        //live  0/'’是活动  1是慢直播  2是直播 3是回放
+                        this.activeJson = res.slice(0, 4).map(item => {
+                            const isStart = item.startTime ? !Tool.compareTime(item.startTime) : true;
+                            const isEnd = item.endTime ? !Tool.compareTime(item.endTime) : false;
+                            let status = 'ended'
+                            if(item.live == 1 || (item.live == 2 && isStart && !isEnd)){
+                                status = 'live'
+                            }else if(item.live == 3){
+                                status = 'playback'
+                            }else if(!isStart){
+                                status = 'unStart'
+                            }else if(!isEnd){
+                                status = 'starting'
+                            }
+                            return {
+                                ...item,
+                                isStart,
+                                isEnd,
+                                status
+                            };
+                        });
+                    });
+                },
+                updateIsRange() {
+                    this.isRange = new Date().getHours() >= 9 && new Date().getHours() < 21;
+                },
+            },
+            async beforeMount(){
+                await this.getData(); //基本数据
+            },
+            mounted() {
+                Tool.getHeight();
+                this.initSwiper();
+                // this.updateIsRange();
+                // // 每分钟检查一次
+                // this.timer = setInterval(() => {
+                //     this.updateIsRange();
+                // }, 60000); 
+                // 鼠标事件
+				document.addEventListener('wheel', Tool.throttle((event) => { this.handleWheel(event) }, 400))
+            },
+            beforeDestroy() { 
+                if (this.timer) clearInterval(this.timer);
+            },
+        });
+    </script>
+    
+
+    
+
+
+				
+</body>
+</html>
+

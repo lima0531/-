@@ -1,0 +1,26 @@
+{
+  "requested_url": "https://www.cdqc.org.cn/2747/19531/878547",
+  "retrieved_utc": "2026-10-09T07:48:11.641278+00:00",
+  "tls_verification": true,
+  "status": "ok",
+  "http_status": 200,
+  "final_url": "https://www.cdqc.org.cn/2747/19531/878547",
+  "bytes": 100899,
+  "sha256": "58c48bf2cabd5024cd9497451970528a0cf164dbe418557c210e2bef4a5a6bac",
+  "response_headers": {
+    "server": "envoy",
+    "date": "Fri, 09 Oct 2026 07:48:15 GMT",
+    "content-type": "text/html; charset=utf-8",
+    "access-control-allow-headers": "Token,Content-Type",
+    "access-control-allow-methods": "OPTIONS,PUT,POST,GET,DELETE",
+    "access-control-allow-origin": "*",
+    "etag": "W/\"2d48ebe6515572ff530af8a63c587594\"",
+    "x-device": "pc",
+    "vary": "User-Agent",
+    "x-cache-status": "MISS",
+    "x-envoy-upstream-service-time": "662",
+    "connection": "close",
+    "transfer-encoding": "chunked"
+  },
+  "relative_path": "external/association_CC7000CG00FBEV.html"
+}

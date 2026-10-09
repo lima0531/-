@@ -1,0 +1,59 @@
+{
+  "model_key": "CC7000CG00FBEV",
+  "receipt": {
+    "requested_url": "https://html.duckduckgo.com/html/?q=%22CC7000CG00FBEV%22",
+    "retrieved_utc": "2026-10-09T07:47:33.069424+00:00",
+    "tls_verification": true,
+    "status": "ok",
+    "http_status": 200,
+    "final_url": "https://html.duckduckgo.com/html/?q=%22CC7000CG00FBEV%22",
+    "bytes": 13968,
+    "sha256": "8dae4824ac3a52a67d6495de3ff3fb2817ed832769ff04439d1c5908b05c6d1c",
+    "response_headers": {
+      "server": "envoy",
+      "date": "Fri, 09 Oct 2026 07:47:33 GMT",
+      "content-type": "text/html; charset=UTF-8",
+      "vary": "Accept-Encoding,Origin",
+      "server-timing": "total;dur=501;desc=\"Backend Total [n]\"",
+      "strict-transport-security": "max-age=31536000",
+      "x-robots-tag": "noindex",
+      "permissions-policy": "interest-cohort=()",
+      "content-security-policy": "default-src 'none' ; connect-src  https://duck.ai https://*.duck.ai https://duckduckgo.com https://*.duckduckgo.com https://duckduckgogg42xjoc72x3sjasowoarfbgcmvfimaftt6twagswzczad.onion/ https://spreadprivacy.com ; manifest-src  https://duck.ai https://*.duck.ai https://duckduckgo.com https://*.duckduckgo.com https://duckduckgogg42xjoc72x3sjasowoarfbgcmvfimaftt6twagswzczad.onion/ https://spreadprivacy.com ; media-src  https://duck.ai https://*.duck.ai https://duckduckgo.com https://*.duckduckgo.com https://duckduckgogg42xjoc72x3sjasowoarfbgcmvfimaftt6twagswzczad.onion/ https://spreadprivacy.com ; script-src blob:  https://duck.ai https://*.duck.ai https://duckduckgo.com https://*.duckduckgo.com https://duckduckgogg42xjoc72x3sjasowoarfbgcmvfimaftt6twagswzczad.onion/ https://spreadprivacy.com ; font-src data:  https://duck.ai https://*.duck.ai https://duckduckgo.com https://*.duckduckgo.com https://duckduckgogg42xjoc72x3sjasowoarfbgcmvfimaftt6twagswzczad.onion/ https://spreadprivacy.com ; img-src data:  https://duck.ai https://*.duck.ai https://duckduckgo.com https://*.duckduckgo.com https://duckduckgogg42xjoc72x3sjasowoarfbgcmvfimaftt6twagswzczad.onion/ https://spreadprivacy.com ; style-src  https://duck.ai https://*.duck.ai https://duckduckgo.com https://*.duckduckgo.com https://duckduckgogg42xjoc72x3sjasowoarfbgcmvfimaftt6twagswzczad.onion/ https://spreadprivacy.com ; object-src 'none' ; worker-src blob: ; child-src blob:  https://duck.ai https://*.duck.ai https://duckduckgo.com https://*.duckduckgo.com https://duckduckgogg42xjoc72x3sjasowoarfbgcmvfimaftt6twagswzczad.onion/ https://spreadprivacy.com ; frame-src blob:  https://duck.ai https://*.duck.ai https://duckduckgo.com https://*.duckduckgo.com https://duckduckgogg42xjoc72x3sjasowoarfbgcmvfimaftt6twagswzczad.onion/ https://spreadprivacy.com ; frame-ancestors 'self' ; base-uri 'self' ; block-all-mixed-content ;",
+      "x-frame-options": "SAMEORIGIN",
+      "x-xss-protection": "1;mode=block",
+      "x-content-type-options": "nosniff",
+      "referrer-policy": "origin",
+      "expect-ct": "max-age=0",
+      "expires": "Fri, 09 Oct 2026 07:47:34 GMT",
+      "cache-control": "max-age=1",
+      "x-duckduckgo-locale": "en_US",
+      "x-envoy-upstream-service-time": "561",
+      "connection": "close",
+      "transfer-encoding": "chunked"
+    },
+    "relative_path": "external/ddg_CC7000CG00FBEV.html"
+  },
+  "hits": [
+    {
+      "model_key": "CC7000CG00FBEV",
+      "result_url": "https://zc.cn-truck.com/keche/show_2031_195050.html",
+      "result_title": "Cc7000cg00fbev 欧拉牌纯电动轿车价格|公告|参数|图片-王力汽车网",
+      "exact_model_in_title": 1,
+      "government_candidate": 0,
+      "scientific_evidence_from_search": 0,
+      "search_file": "external/ddg_CC7000CG00FBEV.html",
+      "search_sha256": "8dae4824ac3a52a67d6495de3ff3fb2817ed832769ff04439d1c5908b05c6d1c"
+    },
+    {
+      "model_key": "CC7000CG00FBEV",
+      "result_url": "https://www.cdqc.org.cn/2747/19531/878547",
+      "result_title": "欧拉芭蕾猫 Cc7000cg00fbev 纯电动乘用车 - 成都市汽车行业协会",
+      "exact_model_in_title": 1,
+      "government_candidate": 0,
+      "scientific_evidence_from_search": 0,
+      "search_file": "external/ddg_CC7000CG00FBEV.html",
+      "search_sha256": "8dae4824ac3a52a67d6495de3ff3fb2817ed832769ff04439d1c5908b05c6d1c"
+    }
+  ],
+  "search_is_source_evidence": false
+}

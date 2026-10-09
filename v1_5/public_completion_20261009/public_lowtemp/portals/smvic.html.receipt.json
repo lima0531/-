@@ -1,0 +1,30 @@
+{
+  "requested_url": "https://www.smvic.com.cn/",
+  "retrieved_utc": "2026-10-09T07:43:10.994188+00:00",
+  "local_file": "portals/smvic.html",
+  "purpose": "上海机动车检测认证技术研究中心公开入口",
+  "query": "",
+  "target_models": [],
+  "tls_verification": true,
+  "status": "ok",
+  "http_status": 200,
+  "final_url": "https://www.smvic.com.cn:443/pages/index.html",
+  "response_headers": {
+    "date": "Fri, 09 Oct 2026 07:43:16 GMT",
+    "content-type": "text/html",
+    "content-length": "12985",
+    "set-cookie": "https_waf_cookie=39b65799-4fab-480a6e0ba9739584162c1135bc651f31b150; Expires=1791538996; Path=/; Secure; HttpOnly",
+    "server": "envoy",
+    "last-modified": "Tue, 01 Apr 2025 05:28:34 GMT",
+    "etag": "\"67eb7982-32b9\"",
+    "strict-transport-security": "max-age=0; preload",
+    "x-request-id": "d447b0165b34f2b04d484e1f2fd96924",
+    "x-cache": "BYPASS",
+    "accept-ranges": "bytes",
+    "x-envoy-upstream-service-time": "779",
+    "connection": "close"
+  },
+  "bytes": 12985,
+  "sha256": "bec383a3ddc955ae537590e0bbdd62f829c2bc1a617143a623b81b57adbec34e",
+  "truncated": false
+}

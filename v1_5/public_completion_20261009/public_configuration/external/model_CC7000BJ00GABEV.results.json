@@ -1,0 +1,144 @@
+{
+  "model_key": "CC7000BJ00GABEV",
+  "requested_q": "\"CC7000BJ00GABEV\"",
+  "query_echo": "\"CC7000BJ00GABEV\"",
+  "receipt": {
+    "requested_url": "https://www.bing.com/search?q=%22CC7000BJ00GABEV%22&mkt=zh-CN&setlang=zh-hans&count=10",
+    "retrieved_utc": "2026-10-09T07:46:53.585261+00:00",
+    "tls_verification": true,
+    "status": "ok",
+    "http_status": 200,
+    "final_url": "https://www.bing.com/search?q=%22CC7000BJ00GABEV%22&mkt=zh-CN&setlang=zh-hans&count=10",
+    "bytes": 100550,
+    "sha256": "f4bff6c84670643235b8bc4ecf88df67d2606a561218a75cb1af249f8b94159e",
+    "response_headers": {
+      "content-type": "text/html; charset=utf-8",
+      "cache-control": "private, max-age=0",
+      "expires": "Fri, 09 Oct 2026 07:45:53 GMT",
+      "vary": "User-Agent,Accept-Encoding",
+      "x-eventid": "6ac89bed9a49446ca31e766182534df3",
+      "x-as-setsessionmarket": "zh-CN",
+      "x-as-setsessionuilang": "zh-hans",
+      "useragentreductionoptout": "A7kgTC5xdZ2WIVGZEfb1hUoNuvjzOZX3VIV/BA6C18kQOOF50Q0D3oWoAm49k3BQImkujKILc7JmPysWk3CSjwUAAACMeyJvcmlnaW4iOiJodHRwczovL3d3dy5iaW5nLmNvbTo0NDMiLCJmZWF0dXJlIjoiU2VuZEZ1bGxVc2VyQWdlbnRBZnRlclJlZHVjdGlvbiIsImV4cGlyeSI6MTY4NDg4NjM5OSwiaXNTdWJkb21haW4iOnRydWUsImlzVGhpcmRQYXJ0eSI6dHJ1ZX0=",
+      "strict-transport-security": "max-age=31536000; includeSubDomains; preload",
+      "permissions-policy": "unload=()",
+      "content-security-policy": "script-src https: 'strict-dynamic' 'report-sample' 'wasm-unsafe-eval' 'nonce-KwB2NLCRDtpCe1sY4/REdE5m94Kb8CaQeTxvvhlekiM='; base-uri 'self';",
+      "p3p": "CP=\"NON UNI COM NAV STA LOC CURa DEVa PSAa PSDa OUR IND\"",
+      "x-display-context": "full",
+      "date": "Fri, 09 Oct 2026 07:46:53 GMT",
+      "set-cookie": "_SS=SID=2FEBBEEDEB81628B3C19A900EA286359; domain=.bing.com; path=/",
+      "alt-svc": "h3=\":443\"; ma=93600",
+      "x-cdn-traceid": "0.d21c2117.1791532013.fe4257a7",
+      "x-envoy-upstream-service-time": "108",
+      "server": "envoy",
+      "connection": "close",
+      "transfer-encoding": "chunked"
+    },
+    "relative_path": "external/model_CC7000BJ00GABEV.html"
+  },
+  "hits": [
+    {
+      "model_key": "CC7000BJ00GABEV",
+      "result_url": "https://blog.csdn.net/xiaoxiaoxiexies/article/details/120211303",
+      "result_text": "csdn.net https://blog.csdn.net › xiaoxiaoxiexies › article › details › ... ARP协议 详解 ------- 一看就懂-CSDN博客 2021年9月9日 · ARP协议是“Address Resolution Protocol”（地址解析协议）的缩写。 在以太网环境中，数据的传输所依懒的是MAC …    ",
+      "exact_model_in_result_text": 0,
+      "government_domain_candidate": 0,
+      "usable_as_scientific_evidence": 0,
+      "source_search_file": "external/model_CC7000BJ00GABEV.html",
+      "source_search_sha256": "f4bff6c84670643235b8bc4ecf88df67d2606a561218a75cb1af249f8b94159e"
+    },
+    {
+      "model_key": "CC7000BJ00GABEV",
+      "result_url": "https://www.cnblogs.com/yangykaifa/p/19292023",
+      "result_text": "cnblogs.com https://www.cnblogs.com › yangykaifa 【计算机网络】深入理解 ARP协议 ：工作原理、报文格式与 ... 2025年12月1日 · ARP 协议是在局域网中获取对应当前局域网中 IP 地址的 MAC 地址的协议。 举一个生活中的例子。 现在我们的信 …",
+      "exact_model_in_result_text": 0,
+      "government_domain_candidate": 0,
+      "usable_as_scientific_evidence": 0,
+      "source_search_file": "external/model_CC7000BJ00GABEV.html",
+      "source_search_sha256": "f4bff6c84670643235b8bc4ecf88df67d2606a561218a75cb1af249f8b94159e"
+    },
+    {
+      "model_key": "CC7000BJ00GABEV",
+      "result_url": "https://www.runoob.com/np/arp-protocol.html",
+      "result_text": "runoob.com https://www.runoob.com › np ›  arp -protocol.html ARP 协议  - 菜鸟教程 ARP 协议 ARP（Address Resolution Protocol，地址解析协议）是一种用于将网络层地址（如 IP 地址）解析为数据链路层地址（如 …",
+      "exact_model_in_result_text": 0,
+      "government_domain_candidate": 0,
+      "usable_as_scientific_evidence": 0,
+      "source_search_file": "external/model_CC7000BJ00GABEV.html",
+      "source_search_sha256": "f4bff6c84670643235b8bc4ecf88df67d2606a561218a75cb1af249f8b94159e"
+    },
+    {
+      "model_key": "CC7000BJ00GABEV",
+      "result_url": "https://baike.baidu.com/item/ARP/609343",
+      "result_text": "baidu.com https://baike.baidu.com › item ›  ARP ARP （地址解析 协议 ）_百度百科 地址解析协议（Address Resolution Protocol,缩写ARP）是一个通过解析网络层地址来找寻数据链路层地址的网络传输协议，它 …",
+      "exact_model_in_result_text": 0,
+      "government_domain_candidate": 0,
+      "usable_as_scientific_evidence": 0,
+      "source_search_file": "external/model_CC7000BJ00GABEV.html",
+      "source_search_sha256": "f4bff6c84670643235b8bc4ecf88df67d2606a561218a75cb1af249f8b94159e"
+    },
+    {
+      "model_key": "CC7000BJ00GABEV",
+      "result_url": "https://cloud.tencent.com/developer/article/1948193",
+      "result_text": "tencent.com https://cloud.tencent.com › developer › article 18张图详解 ARP协议 所有细节（附流程），果断收藏 2022年2月27日 · 文章介绍MAC地址与ARP协议，包括MAC地址定义、结构、转发原理等，阐述ARP协议工作机制、缓存、结构及抓 …",
+      "exact_model_in_result_text": 0,
+      "government_domain_candidate": 0,
+      "usable_as_scientific_evidence": 0,
+      "source_search_file": "external/model_CC7000BJ00GABEV.html",
+      "source_search_sha256": "f4bff6c84670643235b8bc4ecf88df67d2606a561218a75cb1af249f8b94159e"
+    },
+    {
+      "model_key": "CC7000BJ00GABEV",
+      "result_url": "https://zhuanlan.zhihu.com/p/370507243",
+      "result_text": "zhihu.com https://zhuanlan.zhihu.com 彻底搞懂系列之： ARP协议  - 知乎 2021年5月7日 · 什么是ARP地址解析协议，即ARP（Address Resolution Protocol），是根据IP地址获取物理地址的一个TCP/IP协议 …",
+      "exact_model_in_result_text": 0,
+      "government_domain_candidate": 0,
+      "usable_as_scientific_evidence": 0,
+      "source_search_file": "external/model_CC7000BJ00GABEV.html",
+      "source_search_sha256": "f4bff6c84670643235b8bc4ecf88df67d2606a561218a75cb1af249f8b94159e"
+    },
+    {
+      "model_key": "CC7000BJ00GABEV",
+      "result_url": "https://zhuanlan.zhihu.com/p/648270097",
+      "result_text": "zhihu.com https://zhuanlan.zhihu.com 以太网 协议  |  ARP协议 详解- ARP 报文结构解析 - 知乎 2023年8月6日 · 总结来说，ARP协议的工作过程包括主机A发送ARP请求广播，其他主机收到请求后回复自己的MAC地址，主机A收到 …",
+      "exact_model_in_result_text": 0,
+      "government_domain_candidate": 0,
+      "usable_as_scientific_evidence": 0,
+      "source_search_file": "external/model_CC7000BJ00GABEV.html",
+      "source_search_sha256": "f4bff6c84670643235b8bc4ecf88df67d2606a561218a75cb1af249f8b94159e"
+    },
+    {
+      "model_key": "CC7000BJ00GABEV",
+      "result_url": "https://javaguide.cn/cs-basics/network/arp.html",
+      "result_text": "javaguide.cn https://javaguide.cn › cs-basics › network ›  arp .html ARP 协议 详解（网络层） | JavaGuide 2026年7月21日 · 讲解 ARP 的地址解析机制与报文流程，结合 ARP 表与广播/单播详解常见攻击与防御策略。 重点围绕 MAC 地址 …",
+      "exact_model_in_result_text": 0,
+      "government_domain_candidate": 0,
+      "usable_as_scientific_evidence": 0,
+      "source_search_file": "external/model_CC7000BJ00GABEV.html",
+      "source_search_sha256": "f4bff6c84670643235b8bc4ecf88df67d2606a561218a75cb1af249f8b94159e"
+    },
+    {
+      "model_key": "CC7000BJ00GABEV",
+      "result_url": "https://zh.wikipedia.org/wiki/%E5%9C%B0%E5%9D%80%E8%A7%A3%E6%9E%90%E5%8D%8F%E8%AE%AE",
+      "result_text": "wikipedia.org https://zh.wikipedia.org › wiki › 地址解析 协议 地址解析 协议  - 维基百科，自由的百科全书 2 天之前 · 地址解析协议 （英語： Address Resolution Protocol，缩写： ARP）是一个通过解析 网络层 地址来找寻 数据链路层 地址 …",
+      "exact_model_in_result_text": 0,
+      "government_domain_candidate": 0,
+      "usable_as_scientific_evidence": 0,
+      "source_search_file": "external/model_CC7000BJ00GABEV.html",
+      "source_search_sha256": "f4bff6c84670643235b8bc4ecf88df67d2606a561218a75cb1af249f8b94159e"
+    },
+    {
+      "model_key": "CC7000BJ00GABEV",
+      "result_url": "https://info.support.huawei.com/info-finder/encyclopedia/zh/ARP.html",
+      "result_text": "huawei.com https://info.support.huawei.com › ... › encyclopedia › zh ›  ARP .html 什么是 ARP ？它是如何进行地址解析的？ - 华为 2025年5月27日 · 什么是ARP？ ARP（Address Resolution Protocol，地址解析协议）是用来将 IP地址 解析为MAC地址的协议。 主机 …",
+      "exact_model_in_result_text": 0,
+      "government_domain_candidate": 0,
+      "usable_as_scientific_evidence": 0,
+      "source_search_file": "external/model_CC7000BJ00GABEV.html",
+      "source_search_sha256": "f4bff6c84670643235b8bc4ecf88df67d2606a561218a75cb1af249f8b94159e"
+    }
+  ],
+  "exact_model_relevant_hits": 0,
+  "same_model_is_configuration_identity": false,
+  "negative_search_conclusion_permitted": false
+}

@@ -1,0 +1,15 @@
+{
+  "requested_url": "https://www.gatc.ac.cn/n-344/",
+  "retrieved_utc": "2026-10-09T07:46:37.542221+00:00",
+  "local_file": "test_portals/gatc_contact.html",
+  "purpose": "官网链接的联系方式",
+  "query": "",
+  "target_models": [],
+  "tls_verification": true,
+  "status": "http_error",
+  "http_status": 403,
+  "error": "HTTP Error 403: Forbidden",
+  "final_url": "https://www.gatc.ac.cn/n-344/",
+  "bytes": 33,
+  "sha256": "beb861eaa39f786b701fafe0c93827f91c26b4fd7bda29668712515b031e2569"
+}

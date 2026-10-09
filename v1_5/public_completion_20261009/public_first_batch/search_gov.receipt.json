@@ -1,0 +1,32 @@
+{
+  "request_url": "https://www.bing.com/search?q=site%3Agov.cn+%222014%E5%B9%B4%E7%AC%AC54%E5%8F%B7%22+%22%E5%85%8D%E5%BE%81%22&format=rss",
+  "purpose": "公开搜索发现历史官方完整公告和附件入口；搜索结果时间仅线索",
+  "retrieved_at_utc": "2026-10-09T07:43:55.425870+00:00",
+  "request_method": "GET",
+  "tls_verification": true,
+  "retry_policy": "one request; cache receipt thereafter",
+  "http_status": 200,
+  "final_url": "https://www.bing.com/search?q=site%3Agov.cn+%222014%E5%B9%B4%E7%AC%AC54%E5%8F%B7%22+%22%E5%85%8D%E5%BE%81%22&format=rss",
+  "response_headers": {
+    "content-length": "4970",
+    "content-type": "text/xml; charset=utf-8",
+    "cache-control": "private",
+    "x-eventid": "6ac89b3b68094a9cb8b6465df015eaf9",
+    "useragentreductionoptout": "A7kgTC5xdZ2WIVGZEfb1hUoNuvjzOZX3VIV/BA6C18kQOOF50Q0D3oWoAm49k3BQImkujKILc7JmPysWk3CSjwUAAACMeyJvcmlnaW4iOiJodHRwczovL3d3dy5iaW5nLmNvbTo0NDMiLCJmZWF0dXJlIjoiU2VuZEZ1bGxVc2VyQWdlbnRBZnRlclJlZHVjdGlvbiIsImV4cGlyeSI6MTY4NDg4NjM5OSwiaXNTdWJkb21haW4iOnRydWUsImlzVGhpcmRQYXJ0eSI6dHJ1ZX0=",
+    "strict-transport-security": "max-age=31536000; includeSubDomains; preload",
+    "permissions-policy": "unload=()",
+    "content-security-policy": "script-src https: 'strict-dynamic' 'report-sample' 'wasm-unsafe-eval' 'nonce-w2Vv3nxdqkdDJ/jb1H44cnpd+mxt+A1+Fc5FWrn+O/s='; base-uri 'self';",
+    "p3p": "CP=\"NON UNI COM NAV STA LOC CURa DEVa PSAa PSDa OUR IND\"",
+    "date": "Fri, 09 Oct 2026 07:43:55 GMT",
+    "set-cookie": "MUID=0E9AE0BACF8E65E90403F757CE9E644F; domain=.bing.com; expires=Wed, 03-Nov-2027 07:43:55 GMT; path=/; secure; SameSite=None",
+    "alt-svc": "h3=\":443\"; ma=93600",
+    "x-cdn-traceid": "0.cd1c2117.1791531835.914999d4",
+    "x-envoy-upstream-service-time": "146",
+    "server": "envoy",
+    "connection": "close"
+  },
+  "status": "retrieved",
+  "evidence_file": "/workspace/purchase_tax_audit/round9/public_first_batch/search_gov.html",
+  "bytes": 4970,
+  "sha256": "fae1a6ba0671736cecee48d36579b9e84858b55dbb72dd8fb62a4f8d1b468384"
+}

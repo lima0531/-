@@ -1,0 +1,32 @@
+{
+  "request_url": "https://www.bing.com/search?q=%22%E5%85%8D%E5%BE%81%E8%BD%A6%E8%BE%86%E8%B4%AD%E7%BD%AE%E7%A8%8E%E7%9A%84%E6%96%B0%E8%83%BD%E6%BA%90%E6%B1%BD%E8%BD%A6%E8%BD%A6%E5%9E%8B%E7%9B%AE%E5%BD%95%22+%22%E7%AC%AC%E4%B8%80%E6%89%B9%22+%222014-08-29%22&format=rss",
+  "purpose": "公开搜索发现历史官方完整公告和附件入口；搜索结果时间仅线索",
+  "retrieved_at_utc": "2026-10-09T07:43:55.428204+00:00",
+  "request_method": "GET",
+  "tls_verification": true,
+  "retry_policy": "one request; cache receipt thereafter",
+  "http_status": 200,
+  "final_url": "https://www.bing.com/search?q=%22%E5%85%8D%E5%BE%81%E8%BD%A6%E8%BE%86%E8%B4%AD%E7%BD%AE%E7%A8%8E%E7%9A%84%E6%96%B0%E8%83%BD%E6%BA%90%E6%B1%BD%E8%BD%A6%E8%BD%A6%E5%9E%8B%E7%9B%AE%E5%BD%95%22+%22%E7%AC%AC%E4%B8%80%E6%89%B9%22+%222014-08-29%22&format=rss",
+  "response_headers": {
+    "content-length": "1808",
+    "content-type": "text/xml; charset=utf-8",
+    "cache-control": "private",
+    "x-eventid": "6ac89b3b6e0e4069935a27ffd9b28a79",
+    "useragentreductionoptout": "A7kgTC5xdZ2WIVGZEfb1hUoNuvjzOZX3VIV/BA6C18kQOOF50Q0D3oWoAm49k3BQImkujKILc7JmPysWk3CSjwUAAACMeyJvcmlnaW4iOiJodHRwczovL3d3dy5iaW5nLmNvbTo0NDMiLCJmZWF0dXJlIjoiU2VuZEZ1bGxVc2VyQWdlbnRBZnRlclJlZHVjdGlvbiIsImV4cGlyeSI6MTY4NDg4NjM5OSwiaXNTdWJkb21haW4iOnRydWUsImlzVGhpcmRQYXJ0eSI6dHJ1ZX0=",
+    "strict-transport-security": "max-age=31536000; includeSubDomains; preload",
+    "permissions-policy": "unload=()",
+    "content-security-policy": "script-src https: 'strict-dynamic' 'report-sample' 'wasm-unsafe-eval' 'nonce-U7+BCKOce89RW+2ciQy9tg+OHd8md2BFnKg3uXQyhQU='; base-uri 'self';",
+    "p3p": "CP=\"NON UNI COM NAV STA LOC CURa DEVa PSAa PSDa OUR IND\"",
+    "date": "Fri, 09 Oct 2026 07:43:55 GMT",
+    "set-cookie": "MUID=07352112B63565760D7136FFB7936459; domain=.bing.com; expires=Wed, 03-Nov-2027 07:43:55 GMT; path=/; secure; SameSite=None",
+    "alt-svc": "h3=\":443\"; ma=93600",
+    "x-cdn-traceid": "0.d51c2117.1791531835.8e6b716e",
+    "x-envoy-upstream-service-time": "313",
+    "server": "envoy",
+    "connection": "close"
+  },
+  "status": "retrieved",
+  "evidence_file": "/workspace/purchase_tax_audit/round9/public_first_batch/search_full_notice.html",
+  "bytes": 1808,
+  "sha256": "d7acd7faa77f5668999063256ebf1164365c134e5ec692d2fcda74c78a91a792"
+}

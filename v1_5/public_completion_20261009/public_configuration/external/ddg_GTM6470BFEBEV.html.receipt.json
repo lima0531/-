@@ -1,0 +1,33 @@
+{
+  "requested_url": "https://html.duckduckgo.com/html/?q=%22GTM6470BFEBEV%22",
+  "retrieved_utc": "2026-10-09T07:47:32.409145+00:00",
+  "tls_verification": true,
+  "status": "ok",
+  "http_status": 200,
+  "final_url": "https://html.duckduckgo.com/html/?q=%22GTM6470BFEBEV%22",
+  "bytes": 20676,
+  "sha256": "cb6c8bdf89ae72336da4af3717719b4e7b103fc50513f71831c84956745d0ec0",
+  "response_headers": {
+    "server": "envoy",
+    "date": "Fri, 09 Oct 2026 07:47:33 GMT",
+    "content-type": "text/html; charset=UTF-8",
+    "vary": "Accept-Encoding,Origin",
+    "server-timing": "total;dur=507;desc=\"Backend Total [n]\"",
+    "strict-transport-security": "max-age=31536000",
+    "x-robots-tag": "noindex",
+    "permissions-policy": "interest-cohort=()",
+    "content-security-policy": "default-src 'none' ; connect-src  https://duck.ai https://*.duck.ai https://duckduckgo.com https://*.duckduckgo.com https://duckduckgogg42xjoc72x3sjasowoarfbgcmvfimaftt6twagswzczad.onion/ https://spreadprivacy.com ; manifest-src  https://duck.ai https://*.duck.ai https://duckduckgo.com https://*.duckduckgo.com https://duckduckgogg42xjoc72x3sjasowoarfbgcmvfimaftt6twagswzczad.onion/ https://spreadprivacy.com ; media-src  https://duck.ai https://*.duck.ai https://duckduckgo.com https://*.duckduckgo.com https://duckduckgogg42xjoc72x3sjasowoarfbgcmvfimaftt6twagswzczad.onion/ https://spreadprivacy.com ; script-src blob:  https://duck.ai https://*.duck.ai https://duckduckgo.com https://*.duckduckgo.com https://duckduckgogg42xjoc72x3sjasowoarfbgcmvfimaftt6twagswzczad.onion/ https://spreadprivacy.com ; font-src data:  https://duck.ai https://*.duck.ai https://duckduckgo.com https://*.duckduckgo.com https://duckduckgogg42xjoc72x3sjasowoarfbgcmvfimaftt6twagswzczad.onion/ https://spreadprivacy.com ; img-src data:  https://duck.ai https://*.duck.ai https://duckduckgo.com https://*.duckduckgo.com https://duckduckgogg42xjoc72x3sjasowoarfbgcmvfimaftt6twagswzczad.onion/ https://spreadprivacy.com ; style-src  https://duck.ai https://*.duck.ai https://duckduckgo.com https://*.duckduckgo.com https://duckduckgogg42xjoc72x3sjasowoarfbgcmvfimaftt6twagswzczad.onion/ https://spreadprivacy.com ; object-src 'none' ; worker-src blob: ; child-src blob:  https://duck.ai https://*.duck.ai https://duckduckgo.com https://*.duckduckgo.com https://duckduckgogg42xjoc72x3sjasowoarfbgcmvfimaftt6twagswzczad.onion/ https://spreadprivacy.com ; frame-src blob:  https://duck.ai https://*.duck.ai https://duckduckgo.com https://*.duckduckgo.com https://duckduckgogg42xjoc72x3sjasowoarfbgcmvfimaftt6twagswzczad.onion/ https://spreadprivacy.com ; frame-ancestors 'self' ; base-uri 'self' ; block-all-mixed-content ;",
+    "x-frame-options": "SAMEORIGIN",
+    "x-xss-protection": "1;mode=block",
+    "x-content-type-options": "nosniff",
+    "referrer-policy": "origin",
+    "expect-ct": "max-age=0",
+    "expires": "Fri, 09 Oct 2026 07:47:34 GMT",
+    "cache-control": "max-age=1",
+    "x-duckduckgo-locale": "en_US",
+    "x-envoy-upstream-service-time": "575",
+    "connection": "close",
+    "transfer-encoding": "chunked"
+  },
+  "relative_path": "external/ddg_GTM6470BFEBEV.html"
+}

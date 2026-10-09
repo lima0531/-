@@ -1,0 +1,32 @@
+{
+  "requested_url": "https://hss.smvic.com.cn/indexsearch?search=%E4%BD%8E%E6%B8%A9",
+  "retrieved_utc": "2026-10-09T07:47:35.258002+00:00",
+  "local_file": "institution_queries/smvic_低温.html",
+  "purpose": "SMVIC认证平台可见GET搜索表单查询，不能用CCC证书替代附录A报告",
+  "query": "低温",
+  "target_models": [],
+  "tls_verification": true,
+  "status": "ok",
+  "http_status": 200,
+  "final_url": "https://hss.smvic.com.cn/indexsearch/?search=%E4%BD%8E%E6%B8%A9",
+  "response_headers": {
+    "date": "Fri, 09 Oct 2026 07:47:35 GMT",
+    "content-type": "text/html; charset=utf-8",
+    "content-length": "105418",
+    "set-cookie": "csrftoken=q8EKtQoXTKiuTBMt1SXGvkD9v0zq1aYugrsDftZKJM3EQTZtbZYxLpGszkQxubGr; expires=Fri, 08 Oct 2027 07:47:35 GMT; HttpOnly; Max-Age=31449600; Path=/; SameSite=Lax",
+    "server": "envoy",
+    "x-frame-options": "SAMEORIGIN",
+    "vary": "Cookie",
+    "x-xss-protection": "1; mode=block",
+    "x-content-type-options": "nosniff",
+    "strict-transport-security": "max-age=0; preload",
+    "x-request-id": "13383924ecedb4de2bb2b91368e2958e",
+    "x-cache": "BYPASS",
+    "accept-ranges": "bytes",
+    "x-envoy-upstream-service-time": "387",
+    "connection": "close"
+  },
+  "bytes": 105418,
+  "sha256": "94eff7b4243f9cf4a7cc2ca6bbd5f9bef6966957ef750fe384016772146aaa1c",
+  "truncated": false
+}

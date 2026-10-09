@@ -1,0 +1,30 @@
+{
+  "request_url": "https://sousuo.www.gov.cn/sousuo/search.js?7ccf1b283456b56c1ff0",
+  "purpose": "跟进真实站内搜索页引用的JS，定位公共原生检索接口",
+  "retrieved_at_utc": "2026-10-09T07:44:57.700522+00:00",
+  "request_method": "GET",
+  "tls_verification": true,
+  "retry_policy": "one request; cache receipt thereafter",
+  "http_status": 200,
+  "final_url": "https://sousuo.www.gov.cn/sousuo/search.js?7ccf1b283456b56c1ff0",
+  "response_headers": {
+    "date": "Fri, 09 Oct 2026 07:44:58 GMT",
+    "content-type": "application/javascript",
+    "content-length": "147483",
+    "server": "envoy",
+    "last-modified": "Mon, 11 Dec 2023 08:48:08 GMT",
+    "etag": "\"6576ccc8-2401b\"",
+    "access-control-allow-origin": "*",
+    "access-control-allow-headers": "DNT,X-CustomHeader,Keep-Alive,User-Agent,X-Requested-With,If-Modified-Since,Cache-Control,Content-Type",
+    "access-control-allow-methods": "GET,POST,OPTIONS",
+    "access-control-allow-credentials": "true",
+    "accept-ranges": "bytes",
+    "x-ser": "i64574_c23633, i35846_c25891, i2475941_c28821, i2020957_c24821, i90332_c27779",
+    "x-envoy-upstream-service-time": "120",
+    "connection": "close"
+  },
+  "status": "retrieved",
+  "evidence_file": "/workspace/purchase_tax_audit/round9/public_first_batch/gov_native_search_js.html",
+  "bytes": 147483,
+  "sha256": "663db6c5a54e0bf71457efc19a1e30c45d02bdd585b624f0a77a2356a2e1d155"
+}

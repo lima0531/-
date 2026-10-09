@@ -1,0 +1,12 @@
+{
+  "name": "catarc_public_draft",
+  "requested_url": "https://zxd.catarc.org.cn/zxd/portal/zqyj/488",
+  "observed_utc": "2026-10-09T08:05:45.889378+00:00",
+  "tls_verified": true,
+  "http_status": 200,
+  "final_url": "https://zxd.catarc.org.cn/zxd/portal/zqyj/488",
+  "status": "received",
+  "file": "catarc_public_draft.html",
+  "bytes": 86116,
+  "sha256": "5d1038871ef27bf4ebae53a47b4e8268ca4653db9671ff0379c5c5f45190546a"
+}

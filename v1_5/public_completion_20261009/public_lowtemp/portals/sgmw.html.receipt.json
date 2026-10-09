@@ -1,0 +1,34 @@
+{
+  "requested_url": "https://www.sgmw.com.cn/",
+  "retrieved_utc": "2026-10-09T07:43:07.532282+00:00",
+  "local_file": "portals/sgmw.html",
+  "purpose": "上汽通用五菱公共官网入口",
+  "query": "",
+  "target_models": [
+    "LZW7005EVA5KBJA",
+    "LZW7005EVC1EBJ"
+  ],
+  "tls_verification": true,
+  "status": "ok",
+  "http_status": 200,
+  "final_url": "https://www.sgmw.com.cn/",
+  "response_headers": {
+    "date": "Fri, 09 Oct 2026 07:43:10 GMT",
+    "content-type": "text/html;charset=utf-8",
+    "server": "envoy",
+    "set-cookie": "HWWAFSESTIME=1791531788387; path=/",
+    "x-ccdn-origin-time": "157",
+    "age": "1",
+    "via": "CHN-HElangfang-AREACUCC2-CACHE36[194],CHN-HElangfang-AREACUCC2-CACHE7[190,TCP_MISS,193],CHN-TJ-GLOBAL6-CACHE123[174],CHN-TJ-GLOBAL6-CACHE27[157,TCP_MISS,171]",
+    "x-hcs-proxy-type": "0",
+    "x-ccdn-cachettl": "0",
+    "x-ccdn-req-id-46b1": "20c01f0256dfa1260997a12828d472dd",
+    "access-control-allow-origin": "*",
+    "x-envoy-upstream-service-time": "930",
+    "connection": "close",
+    "transfer-encoding": "chunked"
+  },
+  "bytes": 92973,
+  "sha256": "264c27e63f1d779aa63db21e7c413b2ac029e468cecf73a331566718b902d91d",
+  "truncated": false
+}

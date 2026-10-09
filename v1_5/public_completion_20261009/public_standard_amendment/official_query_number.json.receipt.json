@@ -1,0 +1,30 @@
+{
+  "request_url": "https://std.samr.gov.cn/gb/search/gbQueryPage?searchText=18386.1",
+  "retrieved_at_utc": "2026-10-09T07:53:00.858847+00:00",
+  "purpose": "修改单连写查询未匹配，按真实编号18386.1枚举当前官方查询记录，后续必须编号与修改单名称匹配",
+  "tls_verification": true,
+  "proxy_environment_preserved": true,
+  "request_method": "GET",
+  "automatic_redirects": false,
+  "same_url_retries": 0,
+  "http_status": 200,
+  "final_url": "https://std.samr.gov.cn/gb/search/gbQueryPage?searchText=18386.1",
+  "response_headers": {
+    "server": "envoy",
+    "date": "Fri, 09 Oct 2026 07:53:04 GMT",
+    "content-type": "application/json;charset=utf-8",
+    "content-length": "335",
+    "x-ratelimit-remaining": "198",
+    "x-ratelimit-requested-tokens": "1",
+    "x-ratelimit-burst-capacity": "200",
+    "x-ratelimit-replenish-rate": "80",
+    "x-envoy-upstream-service-time": "1061",
+    "connection": "close"
+  },
+  "bytes": 335,
+  "sha256": "582206dba8f9ba377fe0de0865248bb8714bd804ae633f297f1a91bd980db0c4",
+  "evidence_file": "official_query_number.json",
+  "status": "retrieved",
+  "stored_body_representation": "urllib.read after transfer decoding; Content-Encoding preserved",
+  "finished_at_utc": "2026-10-09T07:53:04.157792+00:00"
+}

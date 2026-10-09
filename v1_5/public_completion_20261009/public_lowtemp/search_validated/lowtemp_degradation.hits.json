@@ -1,0 +1,87 @@
+{
+  "query": "低温续驶里程衰减率",
+  "receipt": {
+    "requested_url": "https://www.miit.gov.cn/search-front-server/api/search/info?websiteid=110000000000000&scope=basic&q=%E4%BD%8E%E6%B8%A9%E7%BB%AD%E9%A9%B6%E9%87%8C%E7%A8%8B%E8%A1%B0%E5%87%8F%E7%8E%87&pg=10&p=1&cateid=47&pos=title_text%2Ctitlepy%2Cinfocontent%2Cfilenumbername%2Ckeyword%2Ccontentdescribe&selectFields=title%2Ccontent%2Cdeploytime%2C_index%2Curl%2Ccdate%2Cinfoextends%2Cinfocontentattribute%2Ckeyword%2Ccontentdescribe%2Csectitle%2Cpicpath%2Ccolumnname%2Cthemename%2Cpublishgroupname%2Cpublishtime%2Cmetaid%2Cbexxgk%2Ccolumnid%2Cinfocontenthashcode&group=distinct&level=6&sortFields=%5B%7B%22name%22%3A%22deploytime%22%2C%22type%22%3A%22desc%22%7D%5D",
+    "retrieved_utc": "2026-10-09T07:46:03.320860+00:00",
+    "local_file": "search_validated/lowtemp_degradation.json",
+    "purpose": "工信部公共全文搜索：查同型号/配置公开低温检测证据（完整有效接口参数）",
+    "query": "低温续驶里程衰减率",
+    "target_models": [],
+    "tls_verification": true,
+    "status": "ok",
+    "http_status": 200,
+    "final_url": "https://www.miit.gov.cn/search-front-server/api/search/info?websiteid=110000000000000&scope=basic&q=%E4%BD%8E%E6%B8%A9%E7%BB%AD%E9%A9%B6%E9%87%8C%E7%A8%8B%E8%A1%B0%E5%87%8F%E7%8E%87&pg=10&p=1&cateid=47&pos=title_text%2Ctitlepy%2Cinfocontent%2Cfilenumbername%2Ckeyword%2Ccontentdescribe&selectFields=title%2Ccontent%2Cdeploytime%2C_index%2Curl%2Ccdate%2Cinfoextends%2Cinfocontentattribute%2Ckeyword%2Ccontentdescribe%2Csectitle%2Cpicpath%2Ccolumnname%2Cthemename%2Cpublishgroupname%2Cpublishtime%2Cmetaid%2Cbexxgk%2Ccolumnid%2Cinfocontenthashcode&group=distinct&level=6&sortFields=%5B%7B%22name%22%3A%22deploytime%22%2C%22type%22%3A%22desc%22%7D%5D",
+    "response_headers": {
+      "date": "Fri, 09 Oct 2026 07:46:03 GMT",
+      "content-type": "text/html;charset=UTF-8",
+      "content-length": "1332657",
+      "vary": "Accept-Encoding",
+      "set-cookie": "__jsluid_s=f228edd8b89aa977c5e854d1a463fe1b; max-age=31536000; path=/; HttpOnly; SameSite=None; secure",
+      "x-kong-upstream-latency": "411",
+      "x-kong-proxy-latency": "0",
+      "via": "kong/1.4.3",
+      "x-via-jsl": "943724a,-",
+      "x-cache": "bypass",
+      "x-envoy-upstream-service-time": "808",
+      "server": "envoy",
+      "connection": "close"
+    },
+    "bytes": 1332657,
+    "sha256": "2244a40f6597e8d60d8914a4a91e42f318a789a6677fcbe0ef0b27d26a62198e",
+    "truncated": false
+  },
+  "json_parsed": true,
+  "returned_hits": 7,
+  "pagination_scope": "第1页pg=10；同文章可能返回多个栏目URL；不是全网穷尽搜索",
+  "hits": [
+    {
+      "title": "《关于调整减免车辆购置税新能源汽车产品技术要求的公告》解读",
+      "url": "/jgsj/zbys/gzdt/art/2023/art_7e857442bb414d20a8b1a350b19a26b2.html",
+      "deploytime": "1702276785004",
+      "cdate": "1702224000000",
+      "publishtime": "1702276961844"
+    },
+    {
+      "title": "《关于调整减免车辆购置税新能源汽车产品技术要求的公告》解读",
+      "url": "/zwgk/zcjd/art/2023/art_907c636158d249d886a2ce661bcc4278.html",
+      "deploytime": "1702276785004",
+      "cdate": "1702224000000",
+      "publishtime": "1702278081836"
+    },
+    {
+      "title": "《关于调整减免车辆购置税新能源汽车产品技术要求的公告》解读",
+      "url": "/jgsj/zbys/qcgy/art/2023/art_006ad43b25da4bab886f0238fd7d5527.html",
+      "deploytime": "1702276785004",
+      "cdate": "1702224000000",
+      "publishtime": "1702276786608"
+    },
+    {
+      "title": "《关于调整减免车辆购置税新能源汽车产品技术要求的公告》解读",
+      "url": "/ythzxfwpt/hlwmh/zcwj/xzxk/clsczr/art/2023/art_21ebe68971264c11b13c8e9d7502907f.html",
+      "deploytime": "1702275465463",
+      "cdate": "1702828800000",
+      "publishtime": "1702880288171"
+    },
+    {
+      "title": "关于印发《产业关键共性技术发展指南（2011年）》的通知",
+      "url": "/jgsj/kjs/jscx/art/2020/art_5354bafcb1a04357afd364a84ddffd4e.html",
+      "deploytime": "1310024331000",
+      "cdate": "1323878400000",
+      "publishtime": "1683904646458"
+    },
+    {
+      "title": "关于印发《产业关键共性技术发展指南（2011年）》的通知",
+      "url": "/zwgk/zcwj/wjfb/tz/art/2011/art_0b9f260b559047c39dd16fe78d2f2461.html",
+      "deploytime": "1310024331000",
+      "cdate": "1312819200000",
+      "publishtime": "1740473567916"
+    },
+    {
+      "title": "关于印发《产业关键共性技术发展指南（2011年）》的通知",
+      "url": "/zwgk/zcwj/wjfb/tz/art/2011/art_b16a275ca7ee4f969fce2553187ee086.html",
+      "deploytime": "1310024331000",
+      "cdate": "1312905600000",
+      "publishtime": "1740473567916"
+    }
+  ]
+}

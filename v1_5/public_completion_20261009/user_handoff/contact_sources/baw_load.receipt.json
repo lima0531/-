@@ -1,0 +1,18 @@
+{
+  "key": "baw_load",
+  "firm": "北京汽车制造厂有限公司",
+  "requested_url": "https://www.baw.com.cn/js/load_new.js",
+  "url_basis": "round9/public_lowtemp/portals/baw.html script src",
+  "retrieved_utc": "2026-10-09T07:47:26.056070+00:00",
+  "tls_verification": true,
+  "method": "GET_only_no_submission",
+  "external_message_sent": false,
+  "http_status": 200,
+  "final_url": "https://www.baw.com.cn/js/load_new.js",
+  "content_type": "application/javascript; charset=utf-8",
+  "truncated": false,
+  "status": "retrieved",
+  "source_file": "contact_sources/baw_load.txt",
+  "bytes": 18888,
+  "sha256": "65faaf4f1969e4bd52d223ba96a69c981acc7575229b7f587f12f19aabd23e4c"
+}

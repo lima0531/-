@@ -1,0 +1,144 @@
+{
+  "model_key": "CC7000BJ01GBEV",
+  "requested_q": "\"CC7000BJ01GBEV\"",
+  "query_echo": "\"CC7000BJ01GBEV\"",
+  "receipt": {
+    "requested_url": "https://www.bing.com/search?q=%22CC7000BJ01GBEV%22&mkt=zh-CN&setlang=zh-hans&count=10",
+    "retrieved_utc": "2026-10-09T07:46:53.605021+00:00",
+    "tls_verification": true,
+    "status": "ok",
+    "http_status": 200,
+    "final_url": "https://www.bing.com/search?q=%22CC7000BJ01GBEV%22&mkt=zh-CN&setlang=zh-hans&count=10",
+    "bytes": 99977,
+    "sha256": "a47abecd951fc8cb193d796497a96eadda1fdffa23fc0c241f4b26f5086a5af8",
+    "response_headers": {
+      "content-type": "text/html; charset=utf-8",
+      "cache-control": "private, max-age=0",
+      "expires": "Fri, 09 Oct 2026 07:45:53 GMT",
+      "vary": "User-Agent,Accept-Encoding",
+      "x-eventid": "6ac89bedcd9d4fdc838fc041e7509832",
+      "x-as-setsessionmarket": "zh-CN",
+      "x-as-setsessionuilang": "zh-hans",
+      "useragentreductionoptout": "A7kgTC5xdZ2WIVGZEfb1hUoNuvjzOZX3VIV/BA6C18kQOOF50Q0D3oWoAm49k3BQImkujKILc7JmPysWk3CSjwUAAACMeyJvcmlnaW4iOiJodHRwczovL3d3dy5iaW5nLmNvbTo0NDMiLCJmZWF0dXJlIjoiU2VuZEZ1bGxVc2VyQWdlbnRBZnRlclJlZHVjdGlvbiIsImV4cGlyeSI6MTY4NDg4NjM5OSwiaXNTdWJkb21haW4iOnRydWUsImlzVGhpcmRQYXJ0eSI6dHJ1ZX0=",
+      "strict-transport-security": "max-age=31536000; includeSubDomains; preload",
+      "permissions-policy": "unload=()",
+      "content-security-policy": "script-src https: 'strict-dynamic' 'report-sample' 'wasm-unsafe-eval' 'nonce-6zt3MJ1CtBc+wmLRMwu+UPGzkK7DjII9BkrE9YTJa4A='; base-uri 'self';",
+      "p3p": "CP=\"NON UNI COM NAV STA LOC CURa DEVa PSAa PSDa OUR IND\"",
+      "x-display-context": "full",
+      "date": "Fri, 09 Oct 2026 07:46:53 GMT",
+      "set-cookie": "_SS=SID=37B2B1535059651F093AA6BE517E6412; domain=.bing.com; path=/",
+      "alt-svc": "h3=\":443\"; ma=93600",
+      "x-cdn-traceid": "0.c81c2117.1791532013.1ca6f20e",
+      "x-envoy-upstream-service-time": "105",
+      "server": "envoy",
+      "connection": "close",
+      "transfer-encoding": "chunked"
+    },
+    "relative_path": "external/model_CC7000BJ01GBEV.html"
+  },
+  "hits": [
+    {
+      "model_key": "CC7000BJ01GBEV",
+      "result_url": "https://www.toyotanation.com/threads/interchangeable-parts.1541306/",
+      "result_text": "toyotanation.com https://www.toyotanation.com › threads Interchangeable parts | Toyota Forum 2017年10月5日 · interchangeable parts on celicas? my dad totaled our car, but after seeing a few cars we decided to keep our celica …    ",
+      "exact_model_in_result_text": 0,
+      "government_domain_candidate": 0,
+      "usable_as_scientific_evidence": 0,
+      "source_search_file": "external/model_CC7000BJ01GBEV.html",
+      "source_search_sha256": "a47abecd951fc8cb193d796497a96eadda1fdffa23fc0c241f4b26f5086a5af8"
+    },
+    {
+      "model_key": "CC7000BJ01GBEV",
+      "result_url": "https://www.toyotanation.com/threads/siphoning-gas-to-drain-fuel-tank-old-and-new-vehicles.1158681/",
+      "result_text": "toyotanation.com https://www.toyotanation.com › threads › siphoning-gas-to-drain-fuel-tank-old-and-new... siphoning gas to drain fuel tank old and new vehicles | Toyota … 2015年7月10日 · Moreover, can a Gen 2 fuel lines be converted to quick disconnect fuel lines and have a fuel pressure port added. …",
+      "exact_model_in_result_text": 0,
+      "government_domain_candidate": 0,
+      "usable_as_scientific_evidence": 0,
+      "source_search_file": "external/model_CC7000BJ01GBEV.html",
+      "source_search_sha256": "a47abecd951fc8cb193d796497a96eadda1fdffa23fc0c241f4b26f5086a5af8"
+    },
+    {
+      "model_key": "CC7000BJ01GBEV",
+      "result_url": "https://www.toyotanation.com/threads/golf-clubs.248673/",
+      "result_text": "toyotanation.com https://www.toyotanation.com › threads Golf clubs? | Toyota Forum 2008年5月7日 · Home Forums Toyota Passenger Cars - Hybrid, PHEV, & EV Forums Camry Hybrid Camry 6th Gen Hybrid (2007 …",
+      "exact_model_in_result_text": 0,
+      "government_domain_candidate": 0,
+      "usable_as_scientific_evidence": 0,
+      "source_search_file": "external/model_CC7000BJ01GBEV.html",
+      "source_search_sha256": "a47abecd951fc8cb193d796497a96eadda1fdffa23fc0c241f4b26f5086a5af8"
+    },
+    {
+      "model_key": "CC7000BJ01GBEV",
+      "result_url": "https://www.toyotanation.com/threads/drain-plugs.410454/",
+      "result_text": "toyotanation.com https://www.toyotanation.com › threads Drain Plugs? | Toyota Forum 2012年4月18日 · I took my SE in for its 5K service to today and asked the service manager about the package of rubber plugs that I …",
+      "exact_model_in_result_text": 0,
+      "government_domain_candidate": 0,
+      "usable_as_scientific_evidence": 0,
+      "source_search_file": "external/model_CC7000BJ01GBEV.html",
+      "source_search_sha256": "a47abecd951fc8cb193d796497a96eadda1fdffa23fc0c241f4b26f5086a5af8"
+    },
+    {
+      "model_key": "CC7000BJ01GBEV",
+      "result_url": "https://www.toyotanation.com/threads/diy-getting-rid-of-the-foam-chips-that-come-from-the-vents-on-the-dashboard.1339409/",
+      "result_text": "toyotanation.com https://www.toyotanation.com › threads › diy-getting-rid-of-the-foam-chips-that-come-from... DIY getting rid of the foam chips that come from the... 2016年5月3日 · They come from the Air Conditioning vents on the Dashboard. Not from some sort of filter but rather from a crummy …",
+      "exact_model_in_result_text": 0,
+      "government_domain_candidate": 0,
+      "usable_as_scientific_evidence": 0,
+      "source_search_file": "external/model_CC7000BJ01GBEV.html",
+      "source_search_sha256": "a47abecd951fc8cb193d796497a96eadda1fdffa23fc0c241f4b26f5086a5af8"
+    },
+    {
+      "model_key": "CC7000BJ01GBEV",
+      "result_url": "https://www.toyotanation.com/threads/se-and-natl.160686/",
+      "result_text": "toyotanation.com https://www.toyotanation.com › threads SE and Natl | Toyota Forum 2006年10月16日 · Hi all, I sent this to our local Toyota dealer: One more quick question. When I looked at the car listing on your site …",
+      "exact_model_in_result_text": 0,
+      "government_domain_candidate": 0,
+      "usable_as_scientific_evidence": 0,
+      "source_search_file": "external/model_CC7000BJ01GBEV.html",
+      "source_search_sha256": "a47abecd951fc8cb193d796497a96eadda1fdffa23fc0c241f4b26f5086a5af8"
+    },
+    {
+      "model_key": "CC7000BJ01GBEV",
+      "result_url": "https://www.toyotanation.com/threads/toyota-paint-recall.1704876/",
+      "result_text": "toyotanation.com https://www.toyotanation.com › threads › toyota-paint-recall... Toyota Nation Forum Toyota Nation Forum",
+      "exact_model_in_result_text": 0,
+      "government_domain_candidate": 0,
+      "usable_as_scientific_evidence": 0,
+      "source_search_file": "external/model_CC7000BJ01GBEV.html",
+      "source_search_sha256": "a47abecd951fc8cb193d796497a96eadda1fdffa23fc0c241f4b26f5086a5af8"
+    },
+    {
+      "model_key": "CC7000BJ01GBEV",
+      "result_url": "https://www.toyotanation.com/threads/replace-usb-port-with-usb-c.1652214/",
+      "result_text": "toyotanation.com https://www.toyotanation.com › threads Replace USB port with USB-C? | Toyota Forum 2019年4月28日 · Hi fellas, I have 2019 Toyota Corolla (model number: ZWE211L-DHXNBW) I have USB-A + aux port, which I used …",
+      "exact_model_in_result_text": 0,
+      "government_domain_candidate": 0,
+      "usable_as_scientific_evidence": 0,
+      "source_search_file": "external/model_CC7000BJ01GBEV.html",
+      "source_search_sha256": "a47abecd951fc8cb193d796497a96eadda1fdffa23fc0c241f4b26f5086a5af8"
+    },
+    {
+      "model_key": "CC7000BJ01GBEV",
+      "result_url": "https://www.toyotanation.com/threads/0w-30.1355281/",
+      "result_text": "toyotanation.com https://www.toyotanation.com › threads 0w-30 | Toyota Forum 2016年5月28日 · Couple points - I think you mean modern cars requiring 5w-20 or 0w-20 - not sure of many cars requiring 0w-30 - …",
+      "exact_model_in_result_text": 0,
+      "government_domain_candidate": 0,
+      "usable_as_scientific_evidence": 0,
+      "source_search_file": "external/model_CC7000BJ01GBEV.html",
+      "source_search_sha256": "a47abecd951fc8cb193d796497a96eadda1fdffa23fc0c241f4b26f5086a5af8"
+    },
+    {
+      "model_key": "CC7000BJ01GBEV",
+      "result_url": "https://www.toyotanation.com/threads/is-it-normal-for-dealers-swapping-cars-to-drive-them-between-cities.1273897/",
+      "result_text": "toyotanation.com https://www.toyotanation.com › threads › is-it-normal-for-dealers-swapping-cars-to-drive... Is it normal for dealers swapping cars to drive them... 2016年1月11日 · Yes. Cheaper for the dealer to deliver it to you, then pay the towing fees,unless they were getting product from the …",
+      "exact_model_in_result_text": 0,
+      "government_domain_candidate": 0,
+      "usable_as_scientific_evidence": 0,
+      "source_search_file": "external/model_CC7000BJ01GBEV.html",
+      "source_search_sha256": "a47abecd951fc8cb193d796497a96eadda1fdffa23fc0c241f4b26f5086a5af8"
+    }
+  ],
+  "exact_model_relevant_hits": 0,
+  "same_model_is_configuration_identity": false,
+  "negative_search_conclusion_permitted": false
+}

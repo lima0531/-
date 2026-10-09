@@ -1,0 +1,32 @@
+{
+  "requested_url": "https://www.bing.com/search?q=%22GTM6470BFEBEV%22%20%E5%8F%82%E6%95%B0",
+  "retrieved_utc": "2026-10-09T07:45:46.209768+00:00",
+  "tls_verification": true,
+  "status": "ok",
+  "http_status": 200,
+  "final_url": "https://www.bing.com/search?q=%22GTM6470BFEBEV%22%20%E5%8F%82%E6%95%B0",
+  "bytes": 123811,
+  "sha256": "94ae7d460c6a11acd2f83a875db340c00e1f7c36769a2675ccdb675c46dbbe71",
+  "response_headers": {
+    "content-type": "text/html; charset=utf-8",
+    "cache-control": "private, max-age=0",
+    "expires": "Fri, 09 Oct 2026 07:44:46 GMT",
+    "vary": "User-Agent,Accept-Encoding",
+    "x-eventid": "6ac89baa9c1f4d48b04f791e79371312",
+    "useragentreductionoptout": "A7kgTC5xdZ2WIVGZEfb1hUoNuvjzOZX3VIV/BA6C18kQOOF50Q0D3oWoAm49k3BQImkujKILc7JmPysWk3CSjwUAAACMeyJvcmlnaW4iOiJodHRwczovL3d3dy5iaW5nLmNvbTo0NDMiLCJmZWF0dXJlIjoiU2VuZEZ1bGxVc2VyQWdlbnRBZnRlclJlZHVjdGlvbiIsImV4cGlyeSI6MTY4NDg4NjM5OSwiaXNTdWJkb21haW4iOnRydWUsImlzVGhpcmRQYXJ0eSI6dHJ1ZX0=",
+    "strict-transport-security": "max-age=31536000; includeSubDomains; preload",
+    "permissions-policy": "unload=()",
+    "content-security-policy": "script-src https: 'strict-dynamic' 'report-sample' 'wasm-unsafe-eval' 'nonce-009sgKrWkgvOaLyJ86Vo0n+sXk4lvRQR0CFYlpCcChc='; base-uri 'self';",
+    "p3p": "CP=\"NON UNI COM NAV STA LOC CURa DEVa PSAa PSDa OUR IND\"",
+    "x-display-context": "full",
+    "date": "Fri, 09 Oct 2026 07:45:46 GMT",
+    "set-cookie": "_SS=SID=37C7DCA3D41D67EB259ACB4ED5E666DB; domain=.bing.com; path=/",
+    "alt-svc": "h3=\":443\"; ma=93600",
+    "x-cdn-traceid": "0.cb1c2117.1791531946.90f5edca",
+    "x-envoy-upstream-service-time": "126",
+    "server": "envoy",
+    "connection": "close",
+    "transfer-encoding": "chunked"
+  },
+  "relative_path": "search/external_bing_GTM6470BFEBEV.html"
+}

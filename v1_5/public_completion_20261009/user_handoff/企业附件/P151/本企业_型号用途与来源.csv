@@ -1,0 +1,2 @@
+﻿firm_routing_name,model_key,JX原空能量,32联合跨界,4单项细分,92逐车资格,2208试验口径,purpose_scopes,source_versions_json,same_model_is_same_configuration,reply_rule
+长安马自达汽车有限公司,CAM7000BABEV,0,0,0,0,1,2208试验口径,"[{""purpose_scope"":""2208试验口径"",""source_record_ids"":""old-44-Word97--0-28"",""source_observation_date_upper"":""2021-07-12"",""source_file"":""原件/免征目录/mf_batch44.doc"",""source_sha256"":""aea30846204f4e55c0d969450f1619e1649eb27f471d5b0a2636d0da77eb0611"",""firm_route_basis"":""原记录firm_raw""}]",0,按来源/日期/配置版本分别答复；同型号合并附件不等于同配置或逐车资格认证

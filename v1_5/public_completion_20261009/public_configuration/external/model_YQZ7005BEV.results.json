@@ -1,0 +1,144 @@
+{
+  "model_key": "YQZ7005BEV",
+  "requested_q": "\"YQZ7005BEV\"",
+  "query_echo": "\"YQZ7005BEV\"",
+  "receipt": {
+    "requested_url": "https://www.bing.com/search?q=%22YQZ7005BEV%22&mkt=zh-CN&setlang=zh-hans&count=10",
+    "retrieved_utc": "2026-10-09T07:46:55.098876+00:00",
+    "tls_verification": true,
+    "status": "ok",
+    "http_status": 200,
+    "final_url": "https://www.bing.com/search?q=%22YQZ7005BEV%22&mkt=zh-CN&setlang=zh-hans&count=10",
+    "bytes": 97564,
+    "sha256": "6f76f15dd5b2269e9ddf1ba5bfd330e58894021efb0283fd4c73fe5980edc2dc",
+    "response_headers": {
+      "content-type": "text/html; charset=utf-8",
+      "cache-control": "private, max-age=0",
+      "expires": "Fri, 09 Oct 2026 07:45:55 GMT",
+      "vary": "User-Agent,Accept-Encoding",
+      "x-eventid": "6ac89bef36694f459ac5e9074a3c0c3f",
+      "x-as-setsessionmarket": "zh-CN",
+      "x-as-setsessionuilang": "zh-hans",
+      "useragentreductionoptout": "A7kgTC5xdZ2WIVGZEfb1hUoNuvjzOZX3VIV/BA6C18kQOOF50Q0D3oWoAm49k3BQImkujKILc7JmPysWk3CSjwUAAACMeyJvcmlnaW4iOiJodHRwczovL3d3dy5iaW5nLmNvbTo0NDMiLCJmZWF0dXJlIjoiU2VuZEZ1bGxVc2VyQWdlbnRBZnRlclJlZHVjdGlvbiIsImV4cGlyeSI6MTY4NDg4NjM5OSwiaXNTdWJkb21haW4iOnRydWUsImlzVGhpcmRQYXJ0eSI6dHJ1ZX0=",
+      "strict-transport-security": "max-age=31536000; includeSubDomains; preload",
+      "permissions-policy": "unload=()",
+      "content-security-policy": "script-src https: 'strict-dynamic' 'report-sample' 'wasm-unsafe-eval' 'nonce-KO8srzF/72BP3L+xE8jaox55KeGn3nR/ZXiDLkKjPCQ='; base-uri 'self';",
+      "p3p": "CP=\"NON UNI COM NAV STA LOC CURa DEVa PSAa PSDa OUR IND\"",
+      "x-display-context": "full",
+      "date": "Fri, 09 Oct 2026 07:46:55 GMT",
+      "set-cookie": "_SS=SID=2CAEFA58BC4F61B2340EEDB5BD7F608A; domain=.bing.com; path=/",
+      "alt-svc": "h3=\":443\"; ma=93600",
+      "x-cdn-traceid": "0.c41c2117.1791532015.97fbede",
+      "x-envoy-upstream-service-time": "199",
+      "server": "envoy",
+      "connection": "close",
+      "transfer-encoding": "chunked"
+    },
+    "relative_path": "external/model_YQZ7005BEV.html"
+  },
+  "hits": [
+    {
+      "model_key": "YQZ7005BEV",
+      "result_url": "https://www.feishu.cn/download",
+      "result_text": "feishu.cn https://www.feishu.cn › download 下载飞书 App 及桌面客户端 - 飞书官网 下载飞书，用一个工具完成办公协作、人事管理、企业经营。现已支持 macOS，Windows，Linux，iOS 及 Android 设备。 开发者： …    ",
+      "exact_model_in_result_text": 0,
+      "government_domain_candidate": 0,
+      "usable_as_scientific_evidence": 0,
+      "source_search_file": "external/model_YQZ7005BEV.html",
+      "source_search_sha256": "6f76f15dd5b2269e9ddf1ba5bfd330e58894021efb0283fd4c73fe5980edc2dc"
+    },
+    {
+      "model_key": "YQZ7005BEV",
+      "result_url": "https://www.feishu.cn/hc/zh-CN/articles/360040080753-%E4%BD%BF%E7%94%A8%E9%A3%9E%E4%B9%A6%E7%BD%91%E9%A1%B5%E7%89%88?slug=true",
+      "result_text": "feishu.cn https://www.feishu.cn › hc › zh-CN › articles 使用飞书网页版 2026年8月31日 · 一、功能简介 *设备要求：仅支持在桌面端操作。 如果无法打开客户端或不想在设备本地安装飞书客户端，你可以在 …",
+      "exact_model_in_result_text": 0,
+      "government_domain_candidate": 0,
+      "usable_as_scientific_evidence": 0,
+      "source_search_file": "external/model_YQZ7005BEV.html",
+      "source_search_sha256": "6f76f15dd5b2269e9ddf1ba5bfd330e58894021efb0283fd4c73fe5980edc2dc"
+    },
+    {
+      "model_key": "YQZ7005BEV",
+      "result_url": "https://docs.feishu.cn/docs",
+      "result_text": "feishu.cn https://docs.feishu.cn › docs 文档 - 飞书文档 - Feishu 飞书文档是新一代高效协作工具，在线文档支持一键插入表格、图片、视频、文件，投票、代码块、任务列表，协同文档满足多场景 …",
+      "exact_model_in_result_text": 0,
+      "government_domain_candidate": 0,
+      "usable_as_scientific_evidence": 0,
+      "source_search_file": "external/model_YQZ7005BEV.html",
+      "source_search_sha256": "6f76f15dd5b2269e9ddf1ba5bfd330e58894021efb0283fd4c73fe5980edc2dc"
+    },
+    {
+      "model_key": "YQZ7005BEV",
+      "result_url": "https://open.feishu.cn/document/client-docs/h5/introduction?lang=zh-CN",
+      "result_text": "feishu.cn https://open.feishu.cn › document › client-docs › ... Web app overview - Developer Guides - 开发文档 - 飞书开放平台 2026年7月16日 · 飞书网页应用通过H5开发，运行在飞书客户端，支持调用丰富的JSAPI接口，提供接近原生的用户体验。开发流程包 …",
+      "exact_model_in_result_text": 0,
+      "government_domain_candidate": 0,
+      "usable_as_scientific_evidence": 0,
+      "source_search_file": "external/model_YQZ7005BEV.html",
+      "source_search_sha256": "6f76f15dd5b2269e9ddf1ba5bfd330e58894021efb0283fd4c73fe5980edc2dc"
+    },
+    {
+      "model_key": "YQZ7005BEV",
+      "result_url": "https://hire.feishu.cn/",
+      "result_text": "feishu.cn https://hire.feishu.cn 懂招聘，更懂人才- 飞书招聘 - 飞书官网 三合一工作台，查简历、面试、面评更简单 不限量视频面试，高清、流畅、稳定 网页端入会，候选人无需下载 APP 在线代码考核， …",
+      "exact_model_in_result_text": 0,
+      "government_domain_candidate": 0,
+      "usable_as_scientific_evidence": 0,
+      "source_search_file": "external/model_YQZ7005BEV.html",
+      "source_search_sha256": "6f76f15dd5b2269e9ddf1ba5bfd330e58894021efb0283fd4c73fe5980edc2dc"
+    },
+    {
+      "model_key": "YQZ7005BEV",
+      "result_url": "https://vc.feishu.cn/j?lang=zh-CN&track_event=%7B%22eventName%22%3A%22vc_meeting_lark_entry%22%2C%22params%22%3A%7B%22from_source%22%3A%22tab_join_room%22%7D%7D",
+      "result_text": "feishu.cn https://vc.feishu.cn 加入会议 - 飞书 - Feishu 2 天之前 · 通过飞书加入流畅协同的视频会议，体验高效沟通与合作。[END]> <|ipynb_marker|> END OF DOC",
+      "exact_model_in_result_text": 0,
+      "government_domain_candidate": 0,
+      "usable_as_scientific_evidence": 0,
+      "source_search_file": "external/model_YQZ7005BEV.html",
+      "source_search_sha256": "6f76f15dd5b2269e9ddf1ba5bfd330e58894021efb0283fd4c73fe5980edc2dc"
+    },
+    {
+      "model_key": "YQZ7005BEV",
+      "result_url": "https://bitable.feishu.cn/",
+      "result_text": "feishu.cn https://bitable.feishu.cn 飞书多维表格｜AI 驱动的表格与业务系统搭建平台 - 飞书官网 沐瞳科技：用飞书People 覆盖人才选用育留全阶段，护航全球化业务发展 百货事业部飞书最佳实践 飞书People 助力禾多实现自动驾 …",
+      "exact_model_in_result_text": 0,
+      "government_domain_candidate": 0,
+      "usable_as_scientific_evidence": 0,
+      "source_search_file": "external/model_YQZ7005BEV.html",
+      "source_search_sha256": "6f76f15dd5b2269e9ddf1ba5bfd330e58894021efb0283fd4c73fe5980edc2dc"
+    },
+    {
+      "model_key": "YQZ7005BEV",
+      "result_url": "https://open.feishu.cn/?lang=zh-CN",
+      "result_text": "feishu.cn https://open.feishu.cn 飞书开放平台 - Feishu 2 天之前 · 在网页中展示飞书成员名片，并支持通过名片上的按钮发起飞书聊天、查看 OKR 等 在网页中搜索和选择人员、群组、文档 …",
+      "exact_model_in_result_text": 0,
+      "government_domain_candidate": 0,
+      "usable_as_scientific_evidence": 0,
+      "source_search_file": "external/model_YQZ7005BEV.html",
+      "source_search_sha256": "6f76f15dd5b2269e9ddf1ba5bfd330e58894021efb0283fd4c73fe5980edc2dc"
+    },
+    {
+      "model_key": "YQZ7005BEV",
+      "result_url": "https://project.feishu.cn/home",
+      "result_text": "feishu.cn https://project.feishu.cn › home 明晰流程每一步，轻松产出好结果-飞书项目 - Feishu 飞书 CodeM: PR 风险扫描流程已接入 林奇奇 上午 9:23 我整理了一版技能配置说明 飞书 CodeM 智能体 消息 查看代码变更 设置 赵 …",
+      "exact_model_in_result_text": 0,
+      "government_domain_candidate": 0,
+      "usable_as_scientific_evidence": 0,
+      "source_search_file": "external/model_YQZ7005BEV.html",
+      "source_search_sha256": "6f76f15dd5b2269e9ddf1ba5bfd330e58894021efb0283fd4c73fe5980edc2dc"
+    },
+    {
+      "model_key": "YQZ7005BEV",
+      "result_url": "https://waytoagi.feishu.cn/wiki/QPe5w5g7UisbEkkow8XcDmOpn8e",
+      "result_text": "feishu.cn https://waytoagi.feishu.cn › wiki 通往AGI之路 - 飞书云文档 🎯 愿景和目标 要实现通用人工智能（AGI）也许有很长的路要走， 我们的目标是让每个人的学习过程少走弯路，让更多的人因 AI 而强 …",
+      "exact_model_in_result_text": 0,
+      "government_domain_candidate": 0,
+      "usable_as_scientific_evidence": 0,
+      "source_search_file": "external/model_YQZ7005BEV.html",
+      "source_search_sha256": "6f76f15dd5b2269e9ddf1ba5bfd330e58894021efb0283fd4c73fe5980edc2dc"
+    }
+  ],
+  "exact_model_relevant_hits": 0,
+  "same_model_is_configuration_identity": false,
+  "negative_search_conclusion_permitted": false
+}

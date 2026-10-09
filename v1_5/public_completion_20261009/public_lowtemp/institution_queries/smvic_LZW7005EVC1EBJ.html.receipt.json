@@ -1,0 +1,15 @@
+{
+  "requested_url": "https://hss.smvic.com.cn/indexsearch?search=LZW7005EVC1EBJ",
+  "retrieved_utc": "2026-10-09T07:47:30.310968+00:00",
+  "local_file": "institution_queries/smvic_LZW7005EVC1EBJ.html",
+  "purpose": "SMVIC认证平台可见GET搜索表单查询，不能用CCC证书替代附录A报告",
+  "query": "LZW7005EVC1EBJ",
+  "target_models": [],
+  "tls_verification": true,
+  "status": "http_error",
+  "http_status": 503,
+  "error": "HTTP Error 503: Service Unavailable",
+  "final_url": "https://hss.smvic.com.cn/indexsearch/?search=LZW7005EVC1EBJ",
+  "bytes": 91,
+  "sha256": "2f85832e31ca57711e6107af6b142363351ae516adb71c69afc643fac26be7f6"
+}

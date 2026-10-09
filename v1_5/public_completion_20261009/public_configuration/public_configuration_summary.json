@@ -1,0 +1,66 @@
+{
+  "status": "完成有界公开探查，新增配置/数值闭合0，私人材料待有效到达",
+  "date_shanghai": "2026-10-09T15:53:10.317384+08:00",
+  "targets": {
+    "joint_crossing_models": 32,
+    "single_crossing_models_joint_already_fail": 4,
+    "distinct_models": 36,
+    "firms36_raw_or_context": 19,
+    "joint32_firms_raw_or_context": 15
+  },
+  "public_index": {
+    "exact_model_queries": 36,
+    "all_http200": true,
+    "all_reported_total_zero": true,
+    "positive_control_query": "新能源汽车推广应用推荐车型目录 2022年第12批",
+    "positive_control_hits": 2,
+    "negative_conclusion_scope": "正文索引本次未命中；不证明参数附件、企业档案或互联网无证据"
+  },
+  "external_index": {
+    "bing_discarded_as_irrelevant": true,
+    "bing_query_count_in_saved_log": 36,
+    "bing_is_negative_evidence": false,
+    "duckduckgo_target_count": 8,
+    "duckduckgo_verification_page_targets": [
+      "TV6470BEVFFE",
+      "YGM7000BEVBD1",
+      "JNJ7000EVM1"
+    ],
+    "exact_title_match_is_primary_evidence": false
+  },
+  "new_public_source_findings": {
+    "equipment_center_verified_query_link": "https://service.miit-eidc.org.cn/miitxxgk/gonggao/xxgk/index?querylb=qy",
+    "current_service_fetch_http_status": 403,
+    "old_app_fetch_http_status": 502,
+    "energy_query_home_http_status": 200,
+    "energy_query_source": "官网真实所链入口+公开前端",
+    "energy_query_requires_manual_slide_verification": true,
+    "actual_energy_label_records_obtained": 0
+  },
+  "existing_overlap": {
+    "recommendation285_versions": 285,
+    "distinct_config_ids": 278,
+    "distinct_models": 170,
+    "firm_names_as_written": 43,
+    "overlap_with36_models": [
+      "CC7000CG00FBEV",
+      "GTM6470BFEBEV"
+    ],
+    "overlap_versions": 3
+  },
+  "new_closures": {
+    "numeric_intervals": 0,
+    "cross_tax_recommendation_identity_versions": 0,
+    "models": 0
+  },
+  "remaining": {
+    "joint_crossing_models": 32,
+    "single_crossing_models": 4,
+    "identity_versions": 285,
+    "identity_model_keys": 170,
+    "unknown_legal_firm_aliases_are_not_merged": true
+  },
+  "all_scientific_main_files_untouched": true,
+  "closing_condition": "具体原申报版本和配置ID，正式能量/质量配对，公差/多选项定义及原报告；跨目录另要正式身份桥，历史冻结另核当时信息可得性",
+  "no_universal_internet_exhaustiveness_claim": true
+}

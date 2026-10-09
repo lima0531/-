@@ -1,0 +1,50 @@
+
+; (function () {
+  window._process = {};
+
+  /**
+ * ip地址或域名
+ */
+  const ENV = 2 
+  let BAST_URL = '';  
+  let IMG_URL = '';  
+  let IMG_MOB_URL = '';  
+
+  /**
+   * 针对不同平台的baseUrl
+   */
+  const getBaseUrl = () => {
+    if (ENV === 1) {
+      BAST_URL = '/'
+      IMG_URL = '../..'
+      IMG_MOB_URL = '../../..'
+    } else if (ENV === 2) {
+      BAST_URL = ''
+      IMG_URL = '/2022/src'
+      IMG_MOB_URL = '/2022/src'
+    } else if (ENV === 3) {
+      BAST_URL = ''
+      IMG_URL = '/2022/src'
+      IMG_MOB_URL = '/2022/src'
+    } else if (ENV === 4) {
+      BAST_URL = ''
+      IMG_URL = '/2022/src'
+      IMG_MOB_URL = '/2022/src'
+    }
+  }
+
+  getBaseUrl()
+  _process = {
+    /**
+     * 针对不同平台的baseUrl
+     */
+    env: ENV,
+    baseUrl: BAST_URL,
+    imgUrl: IMG_URL,
+    imgMobUrl: IMG_MOB_URL,
+    // 隐藏购车政策为true
+    isEndMonth:true,
+    // 版本号
+    version:20261007
+  }
+})();

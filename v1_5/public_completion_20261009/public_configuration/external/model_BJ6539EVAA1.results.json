@@ -1,0 +1,144 @@
+{
+  "model_key": "BJ6539EVAA1",
+  "requested_q": "\"BJ6539EVAA1\"",
+  "query_echo": "\"BJ6539EVAA1\"",
+  "receipt": {
+    "requested_url": "https://www.bing.com/search?q=%22BJ6539EVAA1%22&mkt=zh-CN&setlang=zh-hans&count=10",
+    "retrieved_utc": "2026-10-09T07:46:53.337223+00:00",
+    "tls_verification": true,
+    "status": "ok",
+    "http_status": 200,
+    "final_url": "https://www.bing.com/search?q=%22BJ6539EVAA1%22&mkt=zh-CN&setlang=zh-hans&count=10",
+    "bytes": 100347,
+    "sha256": "f1b2631af136a5845bb2eaccc33ddf6082e920af30a8a1aadd4e019d11a87f8c",
+    "response_headers": {
+      "content-type": "text/html; charset=utf-8",
+      "cache-control": "private, max-age=0",
+      "expires": "Fri, 09 Oct 2026 07:45:53 GMT",
+      "vary": "User-Agent,Accept-Encoding",
+      "x-eventid": "6ac89bed69b74162bd4a703a200df1b4",
+      "x-as-setsessionmarket": "zh-CN",
+      "x-as-setsessionuilang": "zh-hans",
+      "useragentreductionoptout": "A7kgTC5xdZ2WIVGZEfb1hUoNuvjzOZX3VIV/BA6C18kQOOF50Q0D3oWoAm49k3BQImkujKILc7JmPysWk3CSjwUAAACMeyJvcmlnaW4iOiJodHRwczovL3d3dy5iaW5nLmNvbTo0NDMiLCJmZWF0dXJlIjoiU2VuZEZ1bGxVc2VyQWdlbnRBZnRlclJlZHVjdGlvbiIsImV4cGlyeSI6MTY4NDg4NjM5OSwiaXNTdWJkb21haW4iOnRydWUsImlzVGhpcmRQYXJ0eSI6dHJ1ZX0=",
+      "strict-transport-security": "max-age=31536000; includeSubDomains; preload",
+      "permissions-policy": "unload=()",
+      "content-security-policy": "script-src https: 'strict-dynamic' 'report-sample' 'wasm-unsafe-eval' 'nonce-8v0ElQ1AzWnsI7PXJf2w5bDliJQyAOXRRToQY4mh1CY='; base-uri 'self';",
+      "p3p": "CP=\"NON UNI COM NAV STA LOC CURa DEVa PSAa PSDa OUR IND\"",
+      "x-display-context": "full",
+      "date": "Fri, 09 Oct 2026 07:46:53 GMT",
+      "set-cookie": "_SS=SID=0FEFD9CD7399625C02C1CE2072BF6389; domain=.bing.com; path=/",
+      "alt-svc": "h3=\":443\"; ma=93600",
+      "x-cdn-traceid": "0.cd1c2117.1791532013.9151c941",
+      "x-envoy-upstream-service-time": "119",
+      "server": "envoy",
+      "connection": "close",
+      "transfer-encoding": "chunked"
+    },
+    "relative_path": "external/model_BJ6539EVAA1.html"
+  },
+  "hits": [
+    {
+      "model_key": "BJ6539EVAA1",
+      "result_url": "https://www.youtube.com/",
+      "result_text": "youtube.com https://www. youtube .com YouTube Enjoy the videos and music you love, upload original content, and share it all with friends, family, and the world on YouTube.    ",
+      "exact_model_in_result_text": 0,
+      "government_domain_candidate": 0,
+      "usable_as_scientific_evidence": 0,
+      "source_search_file": "external/model_BJ6539EVAA1.html",
+      "source_search_sha256": "f1b2631af136a5845bb2eaccc33ddf6082e920af30a8a1aadd4e019d11a87f8c"
+    },
+    {
+      "model_key": "BJ6539EVAA1",
+      "result_url": "https://www.youtube.com/youtube",
+      "result_text": "youtube.com https://www. youtube .com ›  youtube YouTube  -  YouTube One of YouTube’s most creative prop-making duos, @WickedMakers, is known for creating spectacular spooky creations.",
+      "exact_model_in_result_text": 0,
+      "government_domain_candidate": 0,
+      "usable_as_scientific_evidence": 0,
+      "source_search_file": "external/model_BJ6539EVAA1.html",
+      "source_search_sha256": "f1b2631af136a5845bb2eaccc33ddf6082e920af30a8a1aadd4e019d11a87f8c"
+    },
+    {
+      "model_key": "BJ6539EVAA1",
+      "result_url": "https://www.youtube.com/feed",
+      "result_text": "youtube.com https://www. youtube .com › feed YouTube AboutPressCopyrightContact usCreatorsAdvertiseDevelopersTermsPrivacyPolicy & SafetyHow YouTube worksTest new …",
+      "exact_model_in_result_text": 0,
+      "government_domain_candidate": 0,
+      "usable_as_scientific_evidence": 0,
+      "source_search_file": "external/model_BJ6539EVAA1.html",
+      "source_search_sha256": "f1b2631af136a5845bb2eaccc33ddf6082e920af30a8a1aadd4e019d11a87f8c"
+    },
+    {
+      "model_key": "BJ6539EVAA1",
+      "result_url": "https://www.youtube.com/@en.---",
+      "result_text": "youtube.com https://www. youtube .com › @en.--- YouTube Share your videos and discover content from friends, family, and creators worldwide on YouTube.",
+      "exact_model_in_result_text": 0,
+      "government_domain_candidate": 0,
+      "usable_as_scientific_evidence": 0,
+      "source_search_file": "external/model_BJ6539EVAA1.html",
+      "source_search_sha256": "f1b2631af136a5845bb2eaccc33ddf6082e920af30a8a1aadd4e019d11a87f8c"
+    },
+    {
+      "model_key": "BJ6539EVAA1",
+      "result_url": "https://movies.youtube.com/",
+      "result_text": "youtube.com https://movies. youtube .com Movies & TV -  YouTube Find the latest and greatest movies and shows all available on YouTube.com/movies. From award-winning hits to independent …",
+      "exact_model_in_result_text": 0,
+      "government_domain_candidate": 0,
+      "usable_as_scientific_evidence": 0,
+      "source_search_file": "external/model_BJ6539EVAA1.html",
+      "source_search_sha256": "f1b2631af136a5845bb2eaccc33ddf6082e920af30a8a1aadd4e019d11a87f8c"
+    },
+    {
+      "model_key": "BJ6539EVAA1",
+      "result_url": "https://www.youtube.com/global/zh-cn",
+      "result_text": "youtube.com https://www. youtube .com › global › zh-cn Global -  YouTube Explore YouTube's global platform in Chinese to share and discover videos with a worldwide audience.",
+      "exact_model_in_result_text": 0,
+      "government_domain_candidate": 0,
+      "usable_as_scientific_evidence": 0,
+      "source_search_file": "external/model_BJ6539EVAA1.html",
+      "source_search_sha256": "f1b2631af136a5845bb2eaccc33ddf6082e920af30a8a1aadd4e019d11a87f8c"
+    },
+    {
+      "model_key": "BJ6539EVAA1",
+      "result_url": "https://studio.youtube.com/",
+      "result_text": "youtube.com https://studio. youtube .com YouTube Share your videos with friends, family, and the world.",
+      "exact_model_in_result_text": 0,
+      "government_domain_candidate": 0,
+      "usable_as_scientific_evidence": 0,
+      "source_search_file": "external/model_BJ6539EVAA1.html",
+      "source_search_sha256": "f1b2631af136a5845bb2eaccc33ddf6082e920af30a8a1aadd4e019d11a87f8c"
+    },
+    {
+      "model_key": "BJ6539EVAA1",
+      "result_url": "https://www.youtube.com/@________________.",
+      "result_text": "youtube.com https://www. youtube .com › @________________. YouTube Explore and enjoy a wide range of videos, music, and more on YouTube.",
+      "exact_model_in_result_text": 0,
+      "government_domain_candidate": 0,
+      "usable_as_scientific_evidence": 0,
+      "source_search_file": "external/model_BJ6539EVAA1.html",
+      "source_search_sha256": "f1b2631af136a5845bb2eaccc33ddf6082e920af30a8a1aadd4e019d11a87f8c"
+    },
+    {
+      "model_key": "BJ6539EVAA1",
+      "result_url": "https://apkpure.net/cn/youtube-app/com.google.android.youtube",
+      "result_text": "apkpure.net https://apkpure.net › cn ›  youtube -app › com.google.android... YouTube  安卓APK下载 - 最新版本 2 天之前 · 在安卓设备上免费下载 YouTube (21.40.161) APK。 随时随地观看您最喜爱的视频、频道和播放列表。 YouTube是全球领 …",
+      "exact_model_in_result_text": 0,
+      "government_domain_candidate": 0,
+      "usable_as_scientific_evidence": 0,
+      "source_search_file": "external/model_BJ6539EVAA1.html",
+      "source_search_sha256": "f1b2631af136a5845bb2eaccc33ddf6082e920af30a8a1aadd4e019d11a87f8c"
+    },
+    {
+      "model_key": "BJ6539EVAA1",
+      "result_url": "https://zh.wikipedia.org/zh-cn/YouTube",
+      "result_text": "wikipedia.org https://zh.wikipedia.org › zh-cn ›  YouTube YouTube  - 维基百科，自由的百科全书 2026年8月25日 · YouTube 是源自 美国 的 视频分享网站，也是目前世界最大的在线 视频 平台，由前 贝宝 员工 查德·赫利 、 陈士骏  …",
+      "exact_model_in_result_text": 0,
+      "government_domain_candidate": 0,
+      "usable_as_scientific_evidence": 0,
+      "source_search_file": "external/model_BJ6539EVAA1.html",
+      "source_search_sha256": "f1b2631af136a5845bb2eaccc33ddf6082e920af30a8a1aadd4e019d11a87f8c"
+    }
+  ],
+  "exact_model_relevant_hits": 0,
+  "same_model_is_configuration_identity": false,
+  "negative_search_conclusion_permitted": false
+}

@@ -1,0 +1,27 @@
+{
+  "requested_url": "http://www.tatc.com.cn/",
+  "retrieved_utc": "2026-10-09T07:44:28.487550+00:00",
+  "local_file": "test_portals/tatc.html",
+  "purpose": "中汽中心官网链接的天津检验中心",
+  "query": "",
+  "target_models": [],
+  "tls_verification": true,
+  "status": "ok",
+  "http_status": 200,
+  "final_url": "https://www.tatc.com.cn/",
+  "response_headers": {
+    "date": "Fri, 09 Oct 2026 07:44:35 GMT",
+    "content-type": "text/html;charset=UTF-8",
+    "server": "envoy",
+    "content-language": "en-US",
+    "x-frame-options": "SAMEORIGIN",
+    "set-cookie": "Path=/; HttpOnly; Secure",
+    "x-ct-request-id": "17cc9d58e2cb88b2314c02a5d9d1fadf",
+    "x-envoy-upstream-service-time": "753",
+    "connection": "close",
+    "transfer-encoding": "chunked"
+  },
+  "bytes": 19340,
+  "sha256": "ec6b861b8c7e519473ecc1d1d58d8c40e4ee25c30d61aa3f1dde6f97d0a84d27",
+  "truncated": false
+}

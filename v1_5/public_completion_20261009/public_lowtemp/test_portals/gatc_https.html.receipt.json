@@ -1,0 +1,29 @@
+{
+  "requested_url": "https://www.gatc.ac.cn/",
+  "retrieved_utc": "2026-10-09T07:44:49.329436+00:00",
+  "local_file": "test_portals/gatc_https.html",
+  "purpose": "中汽中心官网链接的广州检验中心（同站HTTPS入口）",
+  "query": "",
+  "target_models": [],
+  "tls_verification": true,
+  "status": "ok",
+  "http_status": 200,
+  "final_url": "https://www.gatc.ac.cn/",
+  "response_headers": {
+    "date": "Fri, 09 Oct 2026 07:44:53 GMT",
+    "content-type": "text/html; charset=utf-8",
+    "server": "envoy",
+    "x-powered-by": "PHP/7.4.33",
+    "set-cookie": "PHPSESSID=vqc46je7af16b04vcmif8v80p0; expires=Sat, 10-Oct-2026 07:44:51 GMT; Max-Age=86400; path=/; HttpOnly",
+    "expires": "Thu, 19 Nov 1981 08:52:00 GMT",
+    "cache-control": "no-store, no-cache, must-revalidate",
+    "pragma": "no-cache",
+    "x-ct-request-id": "9c8443a52122f870a2e848d97029cdde",
+    "x-envoy-upstream-service-time": "2442",
+    "connection": "close",
+    "transfer-encoding": "chunked"
+  },
+  "bytes": 69963,
+  "sha256": "a183307910b2ea810ed6e25a312062c95f7215c33e9bd67d4cbaf4efb707fa1a",
+  "truncated": false
+}

@@ -1,0 +1,144 @@
+{
+  "model_key": "BAW6521MAJ1BEV",
+  "requested_q": "\"BAW6521MAJ1BEV\"",
+  "query_echo": "\"BAW6521MAJ1BEV\"",
+  "receipt": {
+    "requested_url": "https://www.bing.com/search?q=%22BAW6521MAJ1BEV%22&mkt=zh-CN&setlang=zh-hans&count=10",
+    "retrieved_utc": "2026-10-09T07:46:53.335490+00:00",
+    "tls_verification": true,
+    "status": "ok",
+    "http_status": 200,
+    "final_url": "https://www.bing.com/search?q=%22BAW6521MAJ1BEV%22&mkt=zh-CN&setlang=zh-hans&count=10",
+    "bytes": 103427,
+    "sha256": "fc512cf73a728d66bf679da1be7a0a87da6a7cb456feafe3601a17bd2a088aa8",
+    "response_headers": {
+      "content-type": "text/html; charset=utf-8",
+      "cache-control": "private, max-age=0",
+      "expires": "Fri, 09 Oct 2026 07:45:53 GMT",
+      "vary": "User-Agent,Accept-Encoding",
+      "x-eventid": "6ac89bed46a7493997c479ecc5217274",
+      "x-as-setsessionmarket": "zh-CN",
+      "x-as-setsessionuilang": "zh-hans",
+      "useragentreductionoptout": "A7kgTC5xdZ2WIVGZEfb1hUoNuvjzOZX3VIV/BA6C18kQOOF50Q0D3oWoAm49k3BQImkujKILc7JmPysWk3CSjwUAAACMeyJvcmlnaW4iOiJodHRwczovL3d3dy5iaW5nLmNvbTo0NDMiLCJmZWF0dXJlIjoiU2VuZEZ1bGxVc2VyQWdlbnRBZnRlclJlZHVjdGlvbiIsImV4cGlyeSI6MTY4NDg4NjM5OSwiaXNTdWJkb21haW4iOnRydWUsImlzVGhpcmRQYXJ0eSI6dHJ1ZX0=",
+      "strict-transport-security": "max-age=31536000; includeSubDomains; preload",
+      "permissions-policy": "unload=()",
+      "content-security-policy": "script-src https: 'strict-dynamic' 'report-sample' 'wasm-unsafe-eval' 'nonce-us/afSdpVths2HAdTEI2thTlL5gFOJ68Hk4fWXK9PN8='; base-uri 'self';",
+      "p3p": "CP=\"NON UNI COM NAV STA LOC CURa DEVa PSAa PSDa OUR IND\"",
+      "x-display-context": "full",
+      "date": "Fri, 09 Oct 2026 07:46:53 GMT",
+      "set-cookie": "_SS=SID=135DFAAEB6FF67C232E1ED43B75B66BF; domain=.bing.com; path=/",
+      "alt-svc": "h3=\":443\"; ma=93600",
+      "x-cdn-traceid": "0.d71c2117.1791532013.8470b82",
+      "x-envoy-upstream-service-time": "100",
+      "server": "envoy",
+      "connection": "close",
+      "transfer-encoding": "chunked"
+    },
+    "relative_path": "external/model_BAW6521MAJ1BEV.html"
+  },
+  "hits": [
+    {
+      "model_key": "BAW6521MAJ1BEV",
+      "result_url": "https://club.autohome.com.cn/bbs/thread/a7d53ae449c30dbb/66177676-1.html",
+      "result_text": "autohome.com.cn https://club.autohome.com.cn › bbs › thread › ... 【图】【双擎会】丰田双擎车辆动力电池通风系统养护经验 ... 2017年8月30日 · 这个也会有一定的因素。 后排座椅左侧的通风口，在第七代凯美瑞尊瑞（2012年-2014年）的时期，是没有安装滤网 …    ",
+      "exact_model_in_result_text": 0,
+      "government_domain_candidate": 0,
+      "usable_as_scientific_evidence": 0,
+      "source_search_file": "external/model_BAW6521MAJ1BEV.html",
+      "source_search_sha256": "fc512cf73a728d66bf679da1be7a0a87da6a7cb456feafe3601a17bd2a088aa8"
+    },
+    {
+      "model_key": "BAW6521MAJ1BEV",
+      "result_url": "https://club.autohome.com.cn/bbs/thread/d129f4fe0090deb8/39960810-1.html",
+      "result_text": "autohome.com.cn https://club.autohome.com.cn › bbs › thread › ... 【图】丰田备用遥控钥匙的省电模式_凯美瑞论坛_汽车之家论坛 2015年4月4日 · 丰田备用遥控钥匙的省电模式 老侠原帖：http://club.autohome.com.cn/bbs/thread-c-110-23273540-1.html 这种钥匙 …",
+      "exact_model_in_result_text": 0,
+      "government_domain_candidate": 0,
+      "usable_as_scientific_evidence": 0,
+      "source_search_file": "external/model_BAW6521MAJ1BEV.html",
+      "source_search_sha256": "fc512cf73a728d66bf679da1be7a0a87da6a7cb456feafe3601a17bd2a088aa8"
+    },
+    {
+      "model_key": "BAW6521MAJ1BEV",
+      "result_url": "https://club.autohome.com.cn/bbs/thread/c9972bb6dfdaf064/52994259-1.html",
+      "result_text": "autohome.com.cn https://club.autohome.com.cn › bbs › thread › ... 【图】自己安装丰田原厂前2后4雷达_凯美瑞论坛_汽车之家论坛 2016年5月31日 · 严格说这是丰田锐志原厂雷达，不是凯美瑞的，但凯美瑞可以装的，凯美瑞官网精品配件是前2后2，比这款少两个雷 …",
+      "exact_model_in_result_text": 0,
+      "government_domain_candidate": 0,
+      "usable_as_scientific_evidence": 0,
+      "source_search_file": "external/model_BAW6521MAJ1BEV.html",
+      "source_search_sha256": "fc512cf73a728d66bf679da1be7a0a87da6a7cb456feafe3601a17bd2a088aa8"
+    },
+    {
+      "model_key": "BAW6521MAJ1BEV",
+      "result_url": "https://club.autohome.com.cn/bbs/forum-c-110-1.html",
+      "result_text": "autohome.com.cn https://club.autohome.com.cn › bbs 【凯美瑞论坛】凯美瑞车友会_凯美瑞车友圈_汽车之家 1 天前  · 凯美瑞2024款双擎尊贵想把后座放倒改为后座控制 济南车友0517727 2026-10-08 不熄的光 2026-10-08 16:10 九凯燃油尊贵 …",
+      "exact_model_in_result_text": 0,
+      "government_domain_candidate": 0,
+      "usable_as_scientific_evidence": 0,
+      "source_search_file": "external/model_BAW6521MAJ1BEV.html",
+      "source_search_sha256": "fc512cf73a728d66bf679da1be7a0a87da6a7cb456feafe3601a17bd2a088aa8"
+    },
+    {
+      "model_key": "BAW6521MAJ1BEV",
+      "result_url": "https://club.autohome.com.cn/bbs/thread/a8965bacb8ae191b/111599109-1.html",
+      "result_text": "autohome.com.cn https://club.autohome.com.cn › bbs › thread › ... 【图】2.0纯油车也有颗粒捕捉器？是真的吗？_凯美瑞论坛 ... 2024款及2025款凯美瑞2.0纯油版没有颗粒捕捉器。 丰田通过优化发动机技术，使凯美瑞2.0纯油版发动机的热效率得到提升，颗粒物 …",
+      "exact_model_in_result_text": 0,
+      "government_domain_candidate": 0,
+      "usable_as_scientific_evidence": 0,
+      "source_search_file": "external/model_BAW6521MAJ1BEV.html",
+      "source_search_sha256": "fc512cf73a728d66bf679da1be7a0a87da6a7cb456feafe3601a17bd2a088aa8"
+    },
+    {
+      "model_key": "BAW6521MAJ1BEV",
+      "result_url": "https://club.autohome.com.cn/bbs/thread/e64a38141f0b3847/86539703-1.html",
+      "result_text": "autohome.com.cn https://club.autohome.com.cn › bbs › thread › ... 【图】丰田凯美瑞加玻璃水在哪加?怎么加?加多少?有哪些需要 ... 2020年3月9日 · 4.玻璃水建议购买丰田原厂的本人就是在京东丰田原厂配件店买的2L装可以零下25度使用的39块钱。 5.凯美瑞的玻璃 …",
+      "exact_model_in_result_text": 0,
+      "government_domain_candidate": 0,
+      "usable_as_scientific_evidence": 0,
+      "source_search_file": "external/model_BAW6521MAJ1BEV.html",
+      "source_search_sha256": "fc512cf73a728d66bf679da1be7a0a87da6a7cb456feafe3601a17bd2a088aa8"
+    },
+    {
+      "model_key": "BAW6521MAJ1BEV",
+      "result_url": "https://club.autohome.com.cn/bbs/thread/fd32be8d0f7e0527/105906004-1.html",
+      "result_text": "autohome.com.cn https://club.autohome.com.cn › bbs › thread › ... 【图】关于丰田车的颗粒捕捉器_凯美瑞论坛_汽车之家论坛 2023年7月19日 · 2023款凯美瑞2.5版本都加装了，想入手2.5豪华，大家怎么看，有点纠结，按理来说丰田把动力下调了一些，还会堵 …",
+      "exact_model_in_result_text": 0,
+      "government_domain_candidate": 0,
+      "usable_as_scientific_evidence": 0,
+      "source_search_file": "external/model_BAW6521MAJ1BEV.html",
+      "source_search_sha256": "fc512cf73a728d66bf679da1be7a0a87da6a7cb456feafe3601a17bd2a088aa8"
+    },
+    {
+      "model_key": "BAW6521MAJ1BEV",
+      "result_url": "https://club.autohome.com.cn/bbs/thread/fc9770136149e79f/103186277-1.html",
+      "result_text": "autohome.com.cn https://club.autohome.com.cn › bbs › thread › ... 【图】丰田EGR阀召回 解答_凯美瑞论坛_汽车之家论坛 2022年8月16日 · 丰田EGR阀召回 解答 原标题：发动机废气再循环阀存安全隐患：丰田在华召回近90万辆汽车 涉及威兰达、C-HR、 …",
+      "exact_model_in_result_text": 0,
+      "government_domain_candidate": 0,
+      "usable_as_scientific_evidence": 0,
+      "source_search_file": "external/model_BAW6521MAJ1BEV.html",
+      "source_search_sha256": "fc512cf73a728d66bf679da1be7a0a87da6a7cb456feafe3601a17bd2a088aa8"
+    },
+    {
+      "model_key": "BAW6521MAJ1BEV",
+      "result_url": "https://club.autohome.com.cn/bbs/thread/829503813cf8a7a7/107995851-1.html",
+      "result_text": "autohome.com.cn https://club.autohome.com.cn › bbs › thread › ... 蒙迪欧混动VS凯美瑞双擎，谁才是油混王者？ 2024年4月12日 · 在目前油电混动车型中，最具代表的就是福特蒙迪欧大马力E混动和丰田凯美瑞混动双擎，那么这两款车谁才是油混 …",
+      "exact_model_in_result_text": 0,
+      "government_domain_candidate": 0,
+      "usable_as_scientific_evidence": 0,
+      "source_search_file": "external/model_BAW6521MAJ1BEV.html",
+      "source_search_sha256": "fc512cf73a728d66bf679da1be7a0a87da6a7cb456feafe3601a17bd2a088aa8"
+    },
+    {
+      "model_key": "BAW6521MAJ1BEV",
+      "result_url": "https://club.autohome.com.cn/bbs/thread/cb109ece479025e2/101606645-1.html",
+      "result_text": "autohome.com.cn https://club.autohome.com.cn › bbs › thread › ... 【图】丰田Global TechStream（GTS）—— 详细安装以及 ... 2022年3月4日 · 最详细的Global TechStream（GTS）安装、使用教程，适用丰田的所有车型，包括国内广丰、一丰，进口丰田、雷克 …",
+      "exact_model_in_result_text": 0,
+      "government_domain_candidate": 0,
+      "usable_as_scientific_evidence": 0,
+      "source_search_file": "external/model_BAW6521MAJ1BEV.html",
+      "source_search_sha256": "fc512cf73a728d66bf679da1be7a0a87da6a7cb456feafe3601a17bd2a088aa8"
+    }
+  ],
+  "exact_model_relevant_hits": 0,
+  "same_model_is_configuration_identity": false,
+  "negative_search_conclusion_permitted": false
+}

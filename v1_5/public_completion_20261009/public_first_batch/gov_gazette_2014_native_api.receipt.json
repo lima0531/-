@@ -1,0 +1,28 @@
+{
+  "request_url": "https://sousuoht.www.gov.cn/athena/forward/2B22E8E39E850E17F95A016A74FCB6B673336FA8B6FEC0E2955907EF9AEE06BE",
+  "purpose": "政府网实际配置中国务院公报类15，2014全年新能源汽车查询；须完整54号/附件和公报刊发日匹配",
+  "retrieved_at_utc": "2026-10-09T07:48:59.446616+00:00",
+  "request_method": "POST",
+  "tls_verification": true,
+  "retry_policy": "one request; cache receipt thereafter",
+  "request_body_utf8": "{\"code\": \"17da70961a7\", \"historySearchWords\": [], \"dataTypeId\": \"15\", \"orderBy\": \"time\", \"searchBy\": \"all\", \"appendixType\": \"\", \"granularity\": \"ALL\", \"trackTotalHits\": true, \"beginDateTime\": 1388505600000, \"endDateTime\": 1420041599999, \"isSearchForced\": 0, \"filters\": [], \"pageNo\": 1, \"pageSize\": 10, \"customFilter\": {\"operator\": \"and\", \"properties\": []}, \"searchWord\": \"新能源汽车\"}",
+  "http_status": 200,
+  "final_url": "https://sousuoht.www.gov.cn/athena/forward/2B22E8E39E850E17F95A016A74FCB6B673336FA8B6FEC0E2955907EF9AEE06BE",
+  "response_headers": {
+    "date": "Fri, 09 Oct 2026 07:49:00 GMT",
+    "content-type": "application/json;charset=UTF-8",
+    "set-cookie": "acw_tc=276077ed17915321401013444e2eba86ecf74d70eea20db868c54593aa493e;path=/;HttpOnly;Max-Age=1800",
+    "vary": "Origin,Access-Control-Request-Method,Access-Control-Request-Headers",
+    "cache-control": "no-cache, no-store, must-revalidate, max-age=0",
+    "x-athena-request-id": "ded4368b-fd69-47d9-b4a5-d84c3718218f",
+    "x-ser": "i91150_c28779, i59686_c22359, i89826_c26665, i90326_c27779",
+    "x-envoy-upstream-service-time": "902",
+    "server": "envoy",
+    "connection": "close",
+    "transfer-encoding": "chunked"
+  },
+  "status": "retrieved",
+  "evidence_file": "/workspace/purchase_tax_audit/round9/public_first_batch/gov_gazette_2014_native_api.html",
+  "bytes": 39079,
+  "sha256": "72d8ffc469a42f2fd2dfd1df7465881c55b1d792544bc0eb1e3cbb5f1ceb545e"
+}

@@ -1,0 +1,8 @@
+{
+  "requested_url": "https://service.miit-eidc.org.cn/miitxxgk/gonggao/xxgk/index?querylb=qy",
+  "retrieved_utc": "2026-10-09T07:43:22.161435+00:00",
+  "tls_verification": true,
+  "status": "http_error",
+  "http_status": 403,
+  "error": "HTTP Error 403: Forbidden"
+}

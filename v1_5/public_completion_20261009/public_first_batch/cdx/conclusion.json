@@ -1,0 +1,132 @@
+{
+  "audit_generated_at_utc": "2026-10-09T07:48:49.121307+00:00",
+  "scope": "已知第一批公告2个URL，2014限定及各最早记录共最多4次公共CDX请求；复用保存回执不重复；拒绝即停止；未下载原件或重放快照",
+  "known_url_candidates": [
+    {
+      "label": "tax_primary",
+      "url": "https://fgk.chinatax.gov.cn/zcfgk/c100013/c5207263/content.html",
+      "query_period": "2014"
+    },
+    {
+      "label": "inner_mongolia_reprint",
+      "url": "https://neimenggu.chinatax.gov.cn/zcwj/zxwj/201809/t20180929_419165.html",
+      "query_period": "2014"
+    },
+    {
+      "label": "tax_primary_earliest",
+      "url": "https://fgk.chinatax.gov.cn/zcfgk/c100013/c5207263/content.html",
+      "query_period": "earliest"
+    },
+    {
+      "label": "inner_mongolia_reprint_earliest",
+      "url": "https://neimenggu.chinatax.gov.cn/zcwj/zxwj/201809/t20180929_419165.html",
+      "query_period": "earliest"
+    }
+  ],
+  "requests_made": 4,
+  "requests_this_run": 0,
+  "request_budget_maximum": 4,
+  "stopped_after_access_restriction": false,
+  "all_responses_http_200_and_empty_cdx_arrays": true,
+  "attempt_results": [
+    {
+      "original_url": "https://fgk.chinatax.gov.cn/zcfgk/c100013/c5207263/content.html",
+      "request_url": "https://web.archive.org/cdx/search/cdx?url=https%3A%2F%2Ffgk.chinatax.gov.cn%2Fzcfgk%2Fc100013%2Fc5207263%2Fcontent.html&matchType=exact&output=json&from=2014&to=2014&filter=statuscode%3A200&fl=timestamp%2Coriginal%2Cstatuscode%2Cmimetype%2Cdigest&collapse=digest",
+      "started_at_utc": "2026-10-09T07:45:36.380916+00:00",
+      "purpose": "仅查已知公告URL的2014年公共CDX快照元数据；不推定全球首发",
+      "tls_verification_enabled": true,
+      "proxy_environment_preserved": true,
+      "redirects_followed": false,
+      "same_url_retries": 0,
+      "http_status": 200,
+      "response_url": "https://web.archive.org/cdx/search/cdx?url=https%3A%2F%2Ffgk.chinatax.gov.cn%2Fzcfgk%2Fc100013%2Fc5207263%2Fcontent.html&matchType=exact&output=json&from=2014&to=2014&filter=statuscode%3A200&fl=timestamp%2Coriginal%2Cstatuscode%2Cmimetype%2Cdigest&collapse=digest",
+      "response_body_file": "tax_primary.response.bin",
+      "response_body_bytes": 3,
+      "response_body_sha256": "37517e5f3dc66819f61f5a7bb8ace1921282415f10551d2defa5c3eb0985b570",
+      "stored_body_representation": "urllib.read after transfer decoding; Content-Encoding preserved; not inferred wire length",
+      "outcome": "parsed_cdx",
+      "listed_2014_snapshot_count": 0,
+      "finished_at_utc": "2026-10-09T07:45:56.776029+00:00",
+      "query_period": "2014"
+    },
+    {
+      "original_url": "https://neimenggu.chinatax.gov.cn/zcwj/zxwj/201809/t20180929_419165.html",
+      "request_url": "https://web.archive.org/cdx/search/cdx?url=https%3A%2F%2Fneimenggu.chinatax.gov.cn%2Fzcwj%2Fzxwj%2F201809%2Ft20180929_419165.html&matchType=exact&output=json&from=2014&to=2014&filter=statuscode%3A200&fl=timestamp%2Coriginal%2Cstatuscode%2Cmimetype%2Cdigest&collapse=digest",
+      "started_at_utc": "2026-10-09T07:45:56.776496+00:00",
+      "purpose": "仅查已知公告URL的2014年公共CDX快照元数据；不推定全球首发",
+      "tls_verification_enabled": true,
+      "proxy_environment_preserved": true,
+      "redirects_followed": false,
+      "same_url_retries": 0,
+      "http_status": 200,
+      "response_url": "https://web.archive.org/cdx/search/cdx?url=https%3A%2F%2Fneimenggu.chinatax.gov.cn%2Fzcwj%2Fzxwj%2F201809%2Ft20180929_419165.html&matchType=exact&output=json&from=2014&to=2014&filter=statuscode%3A200&fl=timestamp%2Coriginal%2Cstatuscode%2Cmimetype%2Cdigest&collapse=digest",
+      "response_body_file": "inner_mongolia_reprint.response.bin",
+      "response_body_bytes": 3,
+      "response_body_sha256": "37517e5f3dc66819f61f5a7bb8ace1921282415f10551d2defa5c3eb0985b570",
+      "stored_body_representation": "urllib.read after transfer decoding; Content-Encoding preserved; not inferred wire length",
+      "outcome": "parsed_cdx",
+      "listed_2014_snapshot_count": 0,
+      "finished_at_utc": "2026-10-09T07:46:03.962418+00:00",
+      "query_period": "2014"
+    },
+    {
+      "original_url": "https://fgk.chinatax.gov.cn/zcfgk/c100013/c5207263/content.html",
+      "request_url": "https://web.archive.org/cdx/search/cdx?url=https%3A%2F%2Ffgk.chinatax.gov.cn%2Fzcfgk%2Fc100013%2Fc5207263%2Fcontent.html&matchType=exact&output=json&filter=statuscode%3A200&fl=timestamp%2Coriginal%2Cstatuscode%2Cmimetype%2Cdigest&collapse=digest&limit=1",
+      "query_period": "earliest",
+      "started_at_utc": "2026-10-09T07:47:36.536714+00:00",
+      "purpose": "仅查已知公告URL的2014年公共CDX快照元数据；不推定全球首发",
+      "tls_verification_enabled": true,
+      "proxy_environment_preserved": true,
+      "redirects_followed": false,
+      "same_url_retries": 0,
+      "http_status": 200,
+      "response_url": "https://web.archive.org/cdx/search/cdx?url=https%3A%2F%2Ffgk.chinatax.gov.cn%2Fzcfgk%2Fc100013%2Fc5207263%2Fcontent.html&matchType=exact&output=json&filter=statuscode%3A200&fl=timestamp%2Coriginal%2Cstatuscode%2Cmimetype%2Cdigest&collapse=digest&limit=1",
+      "response_body_file": "tax_primary_earliest.response.bin",
+      "response_body_bytes": 3,
+      "response_body_sha256": "37517e5f3dc66819f61f5a7bb8ace1921282415f10551d2defa5c3eb0985b570",
+      "stored_body_representation": "urllib.read after transfer decoding; Content-Encoding preserved; not inferred wire length",
+      "outcome": "parsed_cdx",
+      "listed_2014_snapshot_count": 0,
+      "finished_at_utc": "2026-10-09T07:47:37.651217+00:00"
+    },
+    {
+      "original_url": "https://neimenggu.chinatax.gov.cn/zcwj/zxwj/201809/t20180929_419165.html",
+      "request_url": "https://web.archive.org/cdx/search/cdx?url=https%3A%2F%2Fneimenggu.chinatax.gov.cn%2Fzcwj%2Fzxwj%2F201809%2Ft20180929_419165.html&matchType=exact&output=json&filter=statuscode%3A200&fl=timestamp%2Coriginal%2Cstatuscode%2Cmimetype%2Cdigest&collapse=digest&limit=1",
+      "query_period": "earliest",
+      "started_at_utc": "2026-10-09T07:47:37.651492+00:00",
+      "purpose": "仅查已知公告URL的2014年公共CDX快照元数据；不推定全球首发",
+      "tls_verification_enabled": true,
+      "proxy_environment_preserved": true,
+      "redirects_followed": false,
+      "same_url_retries": 0,
+      "http_status": 200,
+      "response_url": "https://web.archive.org/cdx/search/cdx?url=https%3A%2F%2Fneimenggu.chinatax.gov.cn%2Fzcwj%2Fzxwj%2F201809%2Ft20180929_419165.html&matchType=exact&output=json&filter=statuscode%3A200&fl=timestamp%2Coriginal%2Cstatuscode%2Cmimetype%2Cdigest&collapse=digest&limit=1",
+      "response_body_file": "inner_mongolia_reprint_earliest.response.bin",
+      "response_body_bytes": 3,
+      "response_body_sha256": "37517e5f3dc66819f61f5a7bb8ace1921282415f10551d2defa5c3eb0985b570",
+      "stored_body_representation": "urllib.read after transfer decoding; Content-Encoding preserved; not inferred wire length",
+      "outcome": "parsed_cdx",
+      "listed_2014_snapshot_count": 0,
+      "finished_at_utc": "2026-10-09T07:47:42.818320+00:00"
+    }
+  ],
+  "listed_2014_snapshots": [],
+  "earliest_exact_url_cdx_records": [
+    {
+      "original_url_queried": "https://fgk.chinatax.gov.cn/zcfgk/c100013/c5207263/content.html",
+      "records": []
+    },
+    {
+      "original_url_queried": "https://neimenggu.chinatax.gov.cn/zcwj/zxwj/201809/t20180929_419165.html",
+      "records": []
+    }
+  ],
+  "snapshot_content_verified": false,
+  "2014_historical_online_presence_established_by_this_probe": false,
+  "global_first_publication_time_certified": false,
+  "historical_public_observation_upper_bound_from_this_probe": null,
+  "conclusion": "4次实际公共CDX请求均HTTP200且返回空数组；两个已知URL在2014限定查询及不限年份首条查询均未观察到快照记录。不能据此断言未收录的旧URL没有快照或公告当时没有公开，本轮不给历史公开观察上界。",
+  "earlier_original_miit_url_found_in_reviewed_cache": false,
+  "miit_cache_search_limit": "已读round3/archive/page_manifest.json及免征首批记录；不采用减免第一批2023原页混作2014证据。",
+  "old_data_reports_export_science_and_git_modified": false
+}

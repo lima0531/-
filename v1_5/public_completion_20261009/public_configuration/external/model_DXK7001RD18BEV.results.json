@@ -1,0 +1,144 @@
+{
+  "model_key": "DXK7001RD18BEV",
+  "requested_q": "\"DXK7001RD18BEV\"",
+  "query_echo": "\"DXK7001RD18BEV\"",
+  "receipt": {
+    "requested_url": "https://www.bing.com/search?q=%22DXK7001RD18BEV%22&mkt=zh-CN&setlang=zh-hans&count=10",
+    "retrieved_utc": "2026-10-09T07:46:55.196668+00:00",
+    "tls_verification": true,
+    "status": "ok",
+    "http_status": 200,
+    "final_url": "https://www.bing.com/search?q=%22DXK7001RD18BEV%22&mkt=zh-CN&setlang=zh-hans&count=10",
+    "bytes": 105468,
+    "sha256": "4ab035aa0f28303d2fd17eb3ae98818e22df3fc4dda2a625e321fbc7f7be5958",
+    "response_headers": {
+      "content-type": "text/html; charset=utf-8",
+      "cache-control": "private, max-age=0",
+      "expires": "Fri, 09 Oct 2026 07:45:55 GMT",
+      "vary": "User-Agent,Accept-Encoding",
+      "x-eventid": "6ac89befc7cf40239d922bf2fc3a20b3",
+      "x-as-setsessionmarket": "zh-CN",
+      "x-as-setsessionuilang": "zh-hans",
+      "useragentreductionoptout": "A7kgTC5xdZ2WIVGZEfb1hUoNuvjzOZX3VIV/BA6C18kQOOF50Q0D3oWoAm49k3BQImkujKILc7JmPysWk3CSjwUAAACMeyJvcmlnaW4iOiJodHRwczovL3d3dy5iaW5nLmNvbTo0NDMiLCJmZWF0dXJlIjoiU2VuZEZ1bGxVc2VyQWdlbnRBZnRlclJlZHVjdGlvbiIsImV4cGlyeSI6MTY4NDg4NjM5OSwiaXNTdWJkb21haW4iOnRydWUsImlzVGhpcmRQYXJ0eSI6dHJ1ZX0=",
+      "strict-transport-security": "max-age=31536000; includeSubDomains; preload",
+      "permissions-policy": "unload=()",
+      "content-security-policy": "script-src https: 'strict-dynamic' 'report-sample' 'wasm-unsafe-eval' 'nonce-yMJyb6sFfnl5sGfJ9FwQegP3mN9Crflv+Y5tgAQLBjw='; base-uri 'self';",
+      "p3p": "CP=\"NON UNI COM NAV STA LOC CURa DEVa PSAa PSDa OUR IND\"",
+      "x-display-context": "full",
+      "date": "Fri, 09 Oct 2026 07:46:55 GMT",
+      "set-cookie": "_SS=SID=06E32710CE71678137E230FDCFFC668D; domain=.bing.com; path=/",
+      "alt-svc": "h3=\":443\"; ma=93600",
+      "x-cdn-traceid": "0.cd1c2117.1791532015.9151dfb7",
+      "x-envoy-upstream-service-time": "96",
+      "server": "envoy",
+      "connection": "close",
+      "transfer-encoding": "chunked"
+    },
+    "relative_path": "external/model_DXK7001RD18BEV.html"
+  },
+  "hits": [
+    {
+      "model_key": "DXK7001RD18BEV",
+      "result_url": "https://www.cybo.com/CN-biz/pizza-hut_1387c",
+      "result_text": "cybo.com https://www.cybo.com › CN-biz 68 Wanquanhe Rd, Haidian  Qu, Beijing Shi, China - Cybo 3 天之前 · Website pizzahut.com.cn Address 68 Wanquanhe Rd, Haidian Qu, Beijing Shi, China City: Beijing Neighborhood: Haidian …    ",
+      "exact_model_in_result_text": 0,
+      "government_domain_candidate": 0,
+      "usable_as_scientific_evidence": 0,
+      "source_search_file": "external/model_DXK7001RD18BEV.html",
+      "source_search_sha256": "4ab035aa0f28303d2fd17eb3ae98818e22df3fc4dda2a625e321fbc7f7be5958"
+    },
+    {
+      "model_key": "DXK7001RD18BEV",
+      "result_url": "https://yellowpages-zh.cybo.com/CN-biz/pizza-hut_1387c",
+      "result_text": "cybo.com https://yellowpages-zh.cybo.com › CN-biz Pizza Hut -  68 Wanquanhe Rd, Haidian  Qu, Beijing Shi ... 2026年9月28日 · 網站 pizzahut.com.cn 地址 68 Wanquanhe Rd, Haidian Qu, Beijing Shi, China 城市： 北京 街区： Haidian 州： 北京",
+      "exact_model_in_result_text": 0,
+      "government_domain_candidate": 0,
+      "usable_as_scientific_evidence": 0,
+      "source_search_file": "external/model_DXK7001RD18BEV.html",
+      "source_search_sha256": "4ab035aa0f28303d2fd17eb3ae98818e22df3fc4dda2a625e321fbc7f7be5958"
+    },
+    {
+      "model_key": "DXK7001RD18BEV",
+      "result_url": "https://www.trip.com/hotels/beijing-hotel-detail-133579468/zijin-hotel/",
+      "result_text": "trip.com https://www.trip.com › hotels › beijing-hotel-detail... Zijin Hotel (Beijing) - 2026 Prices, Reviews & Deals | Trip.com Zijin Hotel Opened in 2026 4th Floor, Zijin Building, Building 8, No. 68 Wanquanhe Road, Haidian District, Beijing, China Show on …",
+      "exact_model_in_result_text": 0,
+      "government_domain_candidate": 0,
+      "usable_as_scientific_evidence": 0,
+      "source_search_file": "external/model_DXK7001RD18BEV.html",
+      "source_search_sha256": "4ab035aa0f28303d2fd17eb3ae98818e22df3fc4dda2a625e321fbc7f7be5958"
+    },
+    {
+      "model_key": "DXK7001RD18BEV",
+      "result_url": "https://www.samco-plasma.cn/contact/",
+      "result_text": "samco-plasma.cn https://www.samco-plasma.cn › contact 联系我们｜日本莎姆克株式会社 上海代表处 Samco Inc. is a semiconductor equipment company that provides process systems for both R&D and production.",
+      "exact_model_in_result_text": 0,
+      "government_domain_candidate": 0,
+      "usable_as_scientific_evidence": 0,
+      "source_search_file": "external/model_DXK7001RD18BEV.html",
+      "source_search_sha256": "4ab035aa0f28303d2fd17eb3ae98818e22df3fc4dda2a625e321fbc7f7be5958"
+    },
+    {
+      "model_key": "DXK7001RD18BEV",
+      "result_url": "https://yellowpages-zh.cybo.com/CN-biz/be-for-time-tea-house-tea-house_29s",
+      "result_text": "cybo.com https://yellowpages-zh.cybo.com › CN-biz › be-for-time-tea... Be For Time Tea House Tea House -  68 Wanquanhe Rd  ... 5 天之前 · 電話 010 8265 0712 地址 68 Wanquanhe Rd, Haidian Qu, Beijing Shi, China 城市： 北京 街区： Haidian 州： 北京",
+      "exact_model_in_result_text": 0,
+      "government_domain_candidate": 0,
+      "usable_as_scientific_evidence": 0,
+      "source_search_file": "external/model_DXK7001RD18BEV.html",
+      "source_search_sha256": "4ab035aa0f28303d2fd17eb3ae98818e22df3fc4dda2a625e321fbc7f7be5958"
+    },
+    {
+      "model_key": "DXK7001RD18BEV",
+      "result_url": "https://www.yewuzhong.com/beijing-tuofei-xinrong-technology-co-ltd_1H-010-8265-0585",
+      "result_text": "yewuzhong.com https://www.yewuzhong.com › beijing-tuofei-xinrong... Beijing TUOFEI XINRONG Technology co., ltd. | 010 8265 ... 2026年9月7日 · Beijing TUOFEI XINRONG Technology co., ltd.位于哪里？ Beijing TUOFEI XINRONG Technology co., ltd.位于 ZIJIN …",
+      "exact_model_in_result_text": 0,
+      "government_domain_candidate": 0,
+      "usable_as_scientific_evidence": 0,
+      "source_search_file": "external/model_DXK7001RD18BEV.html",
+      "source_search_sha256": "4ab035aa0f28303d2fd17eb3ae98818e22df3fc4dda2a625e321fbc7f7be5958"
+    },
+    {
+      "model_key": "DXK7001RD18BEV",
+      "result_url": "https://www.traveloka.com/en-en/hotel/china/zijin-hotel-9000008152348",
+      "result_text": "traveloka.com https://www.traveloka.com › en-en › hotel › china › zijin-hotel... Zijin Hotel,  Haidian  | Book Now with Deals & Updated Prices 2026 Best hotel deals on Zijin Hotel, Haidian! Book Online anywhere with verified travel reviews, updated photos and 24/7 customer …",
+      "exact_model_in_result_text": 0,
+      "government_domain_candidate": 0,
+      "usable_as_scientific_evidence": 0,
+      "source_search_file": "external/model_DXK7001RD18BEV.html",
+      "source_search_sha256": "4ab035aa0f28303d2fd17eb3ae98818e22df3fc4dda2a625e321fbc7f7be5958"
+    },
+    {
+      "model_key": "DXK7001RD18BEV",
+      "result_url": "https://www.google.cn/maps?hl=en",
+      "result_text": "google.cn https://www.google.cn › maps Google 2024年9月17日 · 点击查看 在 www.google.com.hk/maps 的搜索结果 请收藏我们的网址",
+      "exact_model_in_result_text": 0,
+      "government_domain_candidate": 0,
+      "usable_as_scientific_evidence": 0,
+      "source_search_file": "external/model_DXK7001RD18BEV.html",
+      "source_search_sha256": "4ab035aa0f28303d2fd17eb3ae98818e22df3fc4dda2a625e321fbc7f7be5958"
+    },
+    {
+      "model_key": "DXK7001RD18BEV",
+      "result_url": "https://www.samco-plasma.cn/about/global-office-location/",
+      "result_text": "samco-plasma.cn https://www.samco-plasma.cn › about › global-office-location Global Location｜日本莎姆克株式会社 上海代表处 Samco Inc. is a semiconductor equipment company that provides process systems for both R&D and production.",
+      "exact_model_in_result_text": 0,
+      "government_domain_candidate": 0,
+      "usable_as_scientific_evidence": 0,
+      "source_search_file": "external/model_DXK7001RD18BEV.html",
+      "source_search_sha256": "4ab035aa0f28303d2fd17eb3ae98818e22df3fc4dda2a625e321fbc7f7be5958"
+    },
+    {
+      "model_key": "DXK7001RD18BEV",
+      "result_url": "https://zh.cybo.com/CN-biz/beijing-heluyuan-electronic-technology_23",
+      "result_text": "cybo.com https://zh.cybo.com › CN-biz › beijing-heluyuan-electronic... Beijing HELUYUAN Electronic technology Co., ltd. - 北京市 2026年9月6日 · No.68 WANQUANHE Road, HAIDIAN District, Beijing 北京市, 中华人民共和国 0讚 添加照片 書寫評論 編輯 電話 010 …",
+      "exact_model_in_result_text": 0,
+      "government_domain_candidate": 0,
+      "usable_as_scientific_evidence": 0,
+      "source_search_file": "external/model_DXK7001RD18BEV.html",
+      "source_search_sha256": "4ab035aa0f28303d2fd17eb3ae98818e22df3fc4dda2a625e321fbc7f7be5958"
+    }
+  ],
+  "exact_model_relevant_hits": 0,
+  "same_model_is_configuration_identity": false,
+  "negative_search_conclusion_permitted": false
+}

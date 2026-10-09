@@ -1,0 +1,26 @@
+{
+  "request_url": "https://www.so.com/s?q=%E5%85%8D%E5%BE%81%E8%BD%A6%E8%BE%86%E8%B4%AD%E7%BD%AE%E7%A8%8E+%E7%AC%AC%E4%B8%80%E6%89%B9+2014+54%E5%8F%B7",
+  "purpose": "一次公开360定向检索发现历史完整公告链接，非正文时间证据",
+  "retrieved_at_utc": "2026-10-09T07:48:07.915544+00:00",
+  "request_method": "GET",
+  "tls_verification": true,
+  "retry_policy": "one request; cache receipt thereafter",
+  "http_status": 302,
+  "final_url": "https://www.so.com/s?q=%E5%85%8D%E5%BE%81%E8%BD%A6%E8%BE%86%E8%B4%AD%E7%BD%AE%E7%A8%8E+%E7%AC%AC%E4%B8%80%E6%89%B9+2014+54%E5%8F%B7",
+  "response_headers": {
+    "server": "envoy",
+    "date": "Fri, 09 Oct 2026 07:48:14 GMT",
+    "content-type": "text/html",
+    "content-length": "151",
+    "set-cookie": "WZWS4=4a4cdc2d3cedf016505c1566e994aebd;expires=Sat, 10-Oct-26 07:48:14 GMT;; path=/",
+    "location": "/s?q=%E5%85%8D%E5%BE%81%E8%BD%A6%E8%BE%86%E8%B4%AD%E7%BD%AE%E7%A8%8E+%E7%AC%AC%E4%B8%80%E6%89%B9+2014+54%E5%8F%B7",
+    "x-envoy-upstream-service-time": "58",
+    "connection": "close"
+  },
+  "status": "http_error",
+  "error_type": "HTTPError",
+  "error": "HTTP Error 302: The HTTP server returned a redirect error that would lead to an infinite loop.\nThe last 30x error message was:\nFound",
+  "evidence_file": "/workspace/purchase_tax_audit/round9/public_first_batch/so_first.html",
+  "bytes": 151,
+  "sha256": "d22def68129b595d656b5c0e52786864ef37f5663a91577154767b30ef149e33"
+}

@@ -1,0 +1,29 @@
+{
+  "requested_url": "https://www.gatc.ac.cn/search/?title=LZW7005EVA5KBJA&model=article%2Cpic&navlist=329",
+  "retrieved_utc": "2026-10-09T07:47:28.572205+00:00",
+  "local_file": "institution_queries/gatc_LZW7005EVA5KBJA.html",
+  "purpose": "广州检验中心官网可见GET搜索表单查询",
+  "query": "LZW7005EVA5KBJA",
+  "target_models": [],
+  "tls_verification": true,
+  "status": "ok",
+  "http_status": 200,
+  "final_url": "https://www.gatc.ac.cn/search/?title=LZW7005EVA5KBJA&model=article%2Cpic&navlist=329",
+  "response_headers": {
+    "date": "Fri, 09 Oct 2026 07:47:30 GMT",
+    "content-type": "text/html; charset=utf-8",
+    "server": "envoy",
+    "x-powered-by": "PHP/7.4.33",
+    "set-cookie": "PHPSESSID=3q4khkte06msvlvir5g1gbme8j; expires=Sat, 10-Oct-2026 07:47:28 GMT; Max-Age=86400; path=/; HttpOnly",
+    "expires": "Thu, 19 Nov 1981 08:52:00 GMT",
+    "cache-control": "no-store, no-cache, must-revalidate",
+    "pragma": "no-cache",
+    "x-ct-request-id": "ba3659f079c9ba311b2250aad1f988fe",
+    "x-envoy-upstream-service-time": "2203",
+    "connection": "close",
+    "transfer-encoding": "chunked"
+  },
+  "bytes": 19952,
+  "sha256": "b2529e8fae910c1f92fdc5a4e91c681a8dc412eb4d75aecd84abc57740329a19",
+  "truncated": false
+}

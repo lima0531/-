@@ -1,0 +1,504 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no"
+    />
+
+    <title>BAW北京汽车制造厂</title>
+    <meta name="title" content="BAW北京汽车制造厂" />
+    <meta name="keywords" content="BAW北京汽车制造厂" />
+    <meta name="description" content="BAW北京汽车制造厂" />
+    <link href="css/bootstrap/bootstrap.min.css" rel="stylesheet" />
+    <script src="js/bootstrap/bootstrap.bundle.min.js" async></script>
+    <link rel="icon" href="./images/favicon.svg" type="image/gif" />
+
+    <link rel="stylesheet" type="text/css" href="css/common.css" />
+    <link rel="stylesheet" type="text/css" href="css/responsibility.css" />
+
+    <script src="js/jquery-1.11.0.js"></script>
+    <script src="js/common.js" type="text/javascript"></script>
+    <script>
+      var _hmt = _hmt || [];
+      (function () {
+        var hm = document.createElement("script");
+        hm.src = "https://hm.baidu.com/hm.js?fd7239d76bbcce7dd2fa510e75eb8612";
+        var s = document.getElementsByTagName("script")[0];
+        s.parentNode.insertBefore(hm, s);
+      })();
+    </script>
+  </head>
+
+  <body>
+    <div class="site"><span>售后服务</span></div>
+    <div id="header_box"></div>
+    <div class="bannerSecond">
+      <img src="images/after-service/after_service01.jpg" class="w100" />
+      <div class="bannerSecondTitle font85">
+        <strong class="font85 size48">售后服务</strong>
+        <span class="font45 size30">AFTER SERVICE</span>
+      </div>
+    </div>
+    <div class="main w100 bgMain">
+      <div class="wrapperMain service">
+        <div class="guanai">
+          <div class="gaTitle">
+            <p class="gradient-text" data-translate="service_philosophy_1">
+              服务理念：顾客至亲 五心关爱
+            </p>
+            <div class="gaText">
+              <strong
+                class="font65 size20"
+                data-translate="service_philosophy_2"
+                >省心、称心、安心、放心、舒心</strong
+              >
+            </div>
+          </div>
+          <div class="gaList">
+            <div class="gaItem">
+              <div class="gaT gaT1 gaTmobile d-sm-none">
+                <div class="container p-0">
+                  <div class="gaC">
+                    <h1
+                      class="font85 size24"
+                      data-translate="service_philosophy_3"
+                    >
+                      亲切
+                    </h1>
+                    <p class="d-flex flex-column justify-content-center w-100">
+                      <strong
+                        class="font85 size24"
+                        data-translate="service_philosophy_4"
+                        >便捷服务</strong
+                      >
+                      <span>
+                        <span data-translate="service_philosophy_5"
+                          >上门服务</span
+                        >
+                        <span data-translate="service_philosophy_6"
+                          >预约服务</span
+                        >
+                      </span>
+                    </p>
+                  </div>
+                </div>
+              </div>
+              <img src="images/after-service/after_07.jpg" class="w100" />
+              <div class="gaT gaT1 d-none d-sm-block">
+                <div class="gaC">
+                  <h1
+                    class="font85 size24"
+                    data-translate="service_philosophy_3"
+                  >
+                    亲切
+                  </h1>
+                  <p>
+                    <strong
+                      class="font85 size24"
+                      data-translate="service_philosophy_4"
+                      >便捷服务</strong
+                    >
+                    <span data-translate="service_philosophy_5">上门服务</span>
+                    <span data-translate="service_philosophy_6">预约服务</span>
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div class="gaItem gaItem2">
+              <div class="gaT gaT2 gaTmobile d-sm-none">
+                <div class="container p-0">
+                  <div class="gaC">
+                    <h1
+                      class="font85 size24"
+                      data-translate="service_philosophy_7"
+                    >
+                      体贴
+                    </h1>
+                    <p class="d-flex flex-column justify-content-center w-100">
+                      <strong
+                        class="font85 size24"
+                        data-translate="service_philosophy_8"
+                        >限时服务</strong
+                      >
+                      <span>
+                        <span data-translate="service_philosophy_9"
+                          >维修零等待</span
+                        >
+                        <span data-translate="service_philosophy_10"
+                          >全天候救援</span
+                        >
+                      </span>
+                    </p>
+                  </div>
+                </div>
+              </div>
+              <img src="images/after-service/after_11.jpg" class="w100" />
+              <div class="gaT gaT2 d-none d-sm-block">
+                <div class="gaC">
+                  <h1
+                    class="font85 size24"
+                    data-translate="service_philosophy_7"
+                  >
+                    体贴
+                  </h1>
+                  <p>
+                    <strong
+                      class="font85 size24"
+                      data-translate="service_philosophy_8"
+                      >限时服务</strong
+                    >
+                    <span data-translate="service_philosophy_9"
+                      >维修零等待</span
+                    >
+                    <span data-translate="service_philosophy_10"
+                      >全天候救援</span
+                    >
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div class="gaItem">
+              <div class="gaT gaT3 gaTmobile d-sm-none">
+                <div class="container p-0">
+                  <div class="gaC">
+                    <h1
+                      class="font85 size24"
+                      data-translate="service_philosophy_11"
+                    >
+                      真诚
+                    </h1>
+                    <p class="d-flex flex-column justify-content-center w-100">
+                      <strong
+                        class="font85 size24"
+                        data-translate="service_philosophy_12"
+                        >诚信服务</strong
+                      >
+                      <span>
+                        <span data-translate="service_philosophy_13"
+                          >价格公开透明</span
+                        >
+                        <span data-translate="service_philosophy_14"
+                          >客户满意评价</span
+                        >
+                      </span>
+                    </p>
+                  </div>
+                </div>
+              </div>
+              <img src="images/after-service/after_14.jpg" class="w100" />
+              <div class="gaT gaT3 d-none d-sm-block">
+                <div class="gaC">
+                  <h1
+                    class="font85 size24"
+                    data-translate="service_philosophy_11"
+                  >
+                    真诚
+                  </h1>
+                  <p>
+                    <strong
+                      class="font85 size24"
+                      data-translate="service_philosophy_12"
+                      >诚信服务</strong
+                    >
+                    <span data-translate="service_philosophy_13"
+                      >价格公开透明</span
+                    >
+                    <span data-translate="service_philosophy_14"
+                      >客户满意评价</span
+                    >
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div class="gaItem gaItem4">
+              <div class="gaT gaT4 gaTmobile d-sm-none">
+                <div class="container p-0">
+                  <div class="gaC">
+                    <h1
+                      class="font85 size24"
+                      data-translate="service_philosophy_15"
+                    >
+                      信任
+                    </h1>
+                    <p class="d-flex flex-column justify-content-center w-100">
+                      <strong
+                        class="font85 size24"
+                        data-translate="service_philosophy_16"
+                        >专业服务</strong
+                      >
+                      <span>
+                        <span data-translate="service_philosophy_17"
+                          >维修技师认证</span
+                        >
+                        <span data-translate="service_philosophy_18"
+                          >超长质保期限</span
+                        >
+                      </span>
+                    </p>
+                  </div>
+                </div>
+              </div>
+              <img src="images/after-service/after_18.jpg" class="w100" />
+              <div class="gaT gaT4 d-none d-sm-block">
+                <div class="gaC">
+                  <h1
+                    class="font85 size24"
+                    data-translate="service_philosophy_15"
+                  >
+                    信任
+                  </h1>
+                  <p>
+                    <strong
+                      class="font85 size24"
+                      data-translate="service_philosophy_16"
+                      >专业服务</strong
+                    >
+                    <span data-translate="service_philosophy_17"
+                      >维修技师认证</span
+                    >
+                    <span data-translate="service_philosophy_18"
+                      >超长质保期限</span
+                    >
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div class="gaItem">
+              <div class="gaT gaT5 gaTmobile d-sm-none">
+                <div class="container p-0">
+                  <div class="gaC">
+                    <h1
+                      class="font85 size24"
+                      data-translate="service_philosophy_19"
+                    >
+                      温暖
+                    </h1>
+                    <p class="d-flex flex-column justify-content-center w-100">
+                      <strong
+                        class="font85 size24"
+                        data-translate="service_philosophy_20"
+                        >关爱服务</strong
+                      >
+                      <span>
+                        <span data-translate="service_philosophy_21"
+                          >电池有偿回收</span
+                        >
+                        <span data-translate="service_philosophy_22"
+                          >全生命周期关爱</span
+                        >
+                      </span>
+                    </p>
+                  </div>
+                </div>
+              </div>
+              <img src="images/after-service/after_21.jpg" class="w100" />
+              <div class="gaT gaT5 d-none d-sm-block">
+                <div class="gaC">
+                  <h1
+                    class="font85 size24"
+                    data-translate="service_philosophy_19"
+                  >
+                    温暖
+                  </h1>
+                  <p>
+                    <strong
+                      class="font85 size24"
+                      data-translate="service_philosophy_20"
+                      >关爱服务</strong
+                    >
+                    <span data-translate="service_philosophy_21"
+                      >电池有偿回收</span
+                    >
+                    <span data-translate="service_philosophy_22"
+                      >全生命周期关爱</span
+                    >
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="jiuyuan">
+        <h1 class="font85 size36" data-translate="customer_service_1">
+          24小时服务热线
+        </h1>
+        <div class="centerLine"></div>
+        <p class="font45 size16" data-translate="customer_service_2">
+          北京汽车制造厂有限公司为用户提供24小时售后服务，随时解决用户购车、用车过程中的相关疑问。
+        </p>
+        <div class="picDiv">
+          <img
+            src="images/after-service/after_service05.png"
+            class="w100 not-zh-hide"
+          />
+          <img
+            src="images/after-service/after_service05_en.png"
+            class="w100 not-zh-show"
+          />
+        </div>
+      </div>
+      <div class="wrapperMain service">
+        <div class="shouhou">
+          <div class="shWrapper">
+            <h2
+              class="font85 size36"
+              data-translate="after_service_commitment_1"
+            >
+              售后服务承诺
+            </h2>
+            <div class="centerLine font85 size36"></div>
+            <p class="font65 size16">
+              <span class="" data-translate="after_service_commitment_2"
+                >为了更好的提供优质的售后服务，对用户车辆实施质量保证，我公司现郑重向您作出如下承诺：</span
+              >
+            </p>
+
+            <h4
+              class="font85 size18"
+              data-translate="after_service_commitment_3"
+            >
+              一、产品质量保证承诺
+            </h4>
+            <p class="font65 size16">
+              <span class="" data-translate="after_service_commitment_4"
+                >1.提供首次保养免费政策，对包修期内的产品提供质量保证，对包修期内的故障件提供免费维修、更换服务，具体如下:</span
+              ><br />
+              <span class="" data-translate="after_service_commitment_5"
+                >&nbsp;&nbsp;1）首次免费保养：车辆首次免费保养期限内（以随车保修保养手册为准），到就近北京汽车制造厂有限公司（以下简称"北汽制造"）经销商服务网点享受首次免费保养服务。</span
+              ><br />
+              <span class="" data-translate="after_service_commitment_6"
+                >&nbsp;&nbsp;2）例行保养：车辆完成首保后，请按照随车《保修保养手册》中规定的保养间隔，进行例行保养。</span
+              ><br />
+              <span class="" data-translate="after_service_commitment_7"
+                >&nbsp;&nbsp;3）在用户按照车辆使用要求规范使用的前提下，因质量问题而引起零件损坏，经北汽制造服务网点鉴定，确属制造方的责任，将给予免费保修服务，具体承诺如下：</span
+              ><br />
+              <span class="" data-translate="after_service_commitment_8"
+                >&nbsp;&nbsp;①包修期：3年或6万公里，以先到者为准；</span
+              ><br />
+              <span class="" data-translate="after_service_commitment_9"
+                >&nbsp;&nbsp;②三包有效期（家用汽车产品）：2年或5万公里，以先到者为准；</span
+              ><br />
+              <span class="" data-translate="after_service_commitment_10"
+                >&nbsp;&nbsp;③新能源车型对消费者提供动力电池等储能装置、驱动电机、电机控制器的质量保证：新能源（乘用车）不低于8年或15万公里的包修期限（以先到者为准）；新能源（商用车）不低于5年或20万公里的包修期限（以先到者为准）；</span
+              ><br />
+              <span class="" data-translate="after_service_commitment_10_add"
+                >&nbsp;&nbsp;④增程车型与混动车型对消费者提供发动机、增程器、变速器（含混动箱）不低于5年或10万公里质保；</span
+              ><br />
+              <span class="" data-translate="after_service_commitment_11"
+                >&nbsp;&nbsp;⑤其他三包责任承诺：主要零部件种类范围、具体零部件质量保证期见随车《保修保养手册》。</span
+              ><br />
+              <span class="" data-translate="after_service_commitment_12"
+                >&nbsp;&nbsp;4）北汽制造生产的车辆，从特约经销商售出后，都能享受有条件的保修。车辆（有特殊说明的车辆除外）在保修范围内，在正常使用、保养的情况下，发生的质量故障是属于保修的，客户不必承担车辆的维修费用。</span
+              ><br />
+              <span class="" data-translate="after_service_commitment_13"
+                >&nbsp;&nbsp;①消费者为生活消费需要而购买和使用的乘用车和皮卡车享受包修、包换、包退服务；</span
+              ><br />
+              <span class="" data-translate="after_service_commitment_14"
+                >&nbsp;&nbsp;②公（商）务、营运、商用等非因生活消费需要而购买和使用的车辆在质量担保期内只享受包修服务，不享受包换、包退服务。</span
+              >
+            </p>
+
+            <p class="font65 size16">
+              <span class="" data-translate="after_service_commitment_15"
+                >2.如产品使用超出包修期，北汽制造提供维修/保养、救援、配件等有偿服务。</span
+              >
+            </p>
+
+            <h4
+              class="font85 size18"
+              data-translate="after_service_commitment_16"
+            >
+              二、售后服务网络建设
+            </h4>
+            <p class="font65 size16">
+              <span class="" data-translate="after_service_commitment_17"
+                >1.
+                北汽制造秉承顾客至亲、五心关爱（省心、称心、安心、放心、舒心）的服务理念，构建具有整车销售、售后服务、配件供应、信息反馈于一体的经销商服务网络体系，能够及时快捷的为用户提供保养、维修、配件、技术咨询等各方面优质服务，并将用户对车辆的质量问题、使用问题、合理化建议等及时反馈给公司总部，以期不断升级产品质量。另外公司设有官方服务热线：商用车、乘用车400-990-1951；越野车400-610-6566。保证为用户提供专业、优质、及时的服务。并且经销商服务网点设有24小时服务电话，帮助您解决行驶中遇到的问题及紧急救援服务。</span
+              ><br />
+              <span class="" data-translate="after_service_commitment_18"
+                >2.
+                北汽制造对各营销服务网点每年都有定期的技术培训，还有一些不定期或分区域的技术培训，这些培训包括汽车的维修、技术培训等。培训的同时公司也提供《售后备件图册》、《维修手册》等技术资料。公司定期派出工程师到各地经销商处进行指导和培训，及时地提供令顾客满意的售后服务。接到顾客对市场问题的反馈后，公司将在2小时内给予答复；如需现场服务的，将派人在24小时内赶到现场解决问题，某些无代理商地区或交通不便的地区或者需要从总部派人前往的，服务人员将在48小时内到达现场，并做到不解决问题不撤离。</span
+              >
+            </p>
+
+            <h4
+              class="font85 size18"
+              data-translate="after_service_commitment_19"
+            >
+              三、售后服务系统
+            </h4>
+            <p class="font65 size16">
+              <span class="" data-translate="after_service_commitment_20"
+                >为了能更好的保障消费者的利益和合法权利，北汽制造制定符合国家及行业相关法律法规和传统汽车销售规则的售后服务流程及管理规定。</span
+              ><br />
+              <span class="" data-translate="after_service_commitment_21"
+                >1.
+                索赔处理：根据国家法规、市场需要、产品定义（产品的使用寿命），制定车辆的三包有效期和包修期，全国授权的经销商服务网络均可提供包修服务，包括包修期内故障件免费维修、更换、旧件回收、质量信息收集及反馈等，并开展经销商服务网络包修业务的管理和指导，保证用户享受合规的质量担保权益。</span
+              ><br />
+              <span class="" data-translate="after_service_commitment_22"
+                >2.
+                配件供应：设置售后配件专用仓库，保障售后配件及时、充足供应。</span
+              ><br />
+              <span class="" data-translate="after_service_commitment_23"
+                >3.
+                实时监控：销售的纯电动车全部安装车辆运行技术状态实时监控装置，对车辆的电池、电机及其他安全系统的日常运行状态进行实时监测，对可能出现的问题做到早发现、早处置，确保车辆安全运行。</span
+              ><br />
+              <span class="" data-translate="after_service_commitment_24"
+                >4.
+                技术支援：对销售和售后服务人员进行培训，除与常规汽车相同的售后服务项目外，还具备对纯电动车的驱动、控制系统及车载能源驱动系统等的诊断及维修能力。</span
+              ><br />
+              <span class="" data-translate="after_service_commitment_25"
+                >5.
+                客户服务：通过提供完善、良好的服务，不断提高客户对企业的满意度，提升品牌知名度与美誉度。</span
+              ><br />
+              <span class="" data-translate="after_service_commitment_26"
+                >6. 人性化服务：7×24h全天侯服务。</span
+              >
+            </p>
+
+            <h4
+              class="font85 size18"
+              data-translate="after_service_commitment_27"
+            >
+              四、零部件（如电池）回收
+            </h4>
+            <p class="font65 size16">
+              <span class="" data-translate="after_service_commitment_28"
+                >1.对于包修中更换下来的旧件归北汽制造所有，并有权对旧件进行回收、检测、退返和报废等处理。</span
+              ><br />
+              <span class="" data-translate="after_service_commitment_29"
+                >2.根据《新能源汽车动力蓄电池回收利用管理暂行办法》、《电动汽车动力蓄电池回收利用技术政策》等要求，北汽制造生产销售的新能源汽车搭载的动力电池按照包修业务处理流程进行回收管理，客户在进行车辆问题处理时需按照要求到北汽制造经销商服务网点实施电池处理。</span
+              >
+            </p>
+
+            <h4
+              class="font85 size18"
+              data-translate="after_service_commitment_30"
+            >
+              五、出现产品质量、安全、环保等严重问题时的应对措施
+            </h4>
+            <p class="font65 size16">
+              <span class="" data-translate="after_service_commitment_31"
+                >1.北汽制造销售的产品严格按照内部质量控制标准进行制造及出厂检验，并取得中国国家强制性产品认证证书（CCC认证证书）。此外，北汽制造按照国家三包规定的要求给予客户提供《保修手册及使用说明》，并依法履行对客户的质量保证承诺。</span
+              ><br />
+              <span class="" data-translate="after_service_commitment_32"
+                >2.北汽制造高度重视售后服务安全保障体系的建设，建立了事故类型分级、现场响应处置、事故处理程序等保障机制，保证客户车辆安全放心的使用。</span
+              ><br />
+              <span class="" data-translate="after_service_commitment_33"
+                >3.北汽制造对于存在缺陷的产品，如需召回的，北汽制造将严格按照《缺陷产品召回控制程序》对缺陷产品选择修理、更换、收回等方式实施召回，消除可能引起的产品、人身及财产损失。</span
+              >
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div id="footer_box"></div>
+    <script src="js/load_new.js" type="text/javascript"></script>
+  </body>
+</html>

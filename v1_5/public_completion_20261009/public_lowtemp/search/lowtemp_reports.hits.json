@@ -1,0 +1,36 @@
+{
+  "query": "新能源汽车 低温 检测报告",
+  "receipt": {
+    "requested_url": "https://www.miit.gov.cn/search-front-server/api/search/info?websiteid=110000000000000&scope=basic&q=%E6%96%B0%E8%83%BD%E6%BA%90%E6%B1%BD%E8%BD%A6+%E4%BD%8E%E6%B8%A9+%E6%A3%80%E6%B5%8B%E6%8A%A5%E5%91%8A&pg=10&p=1&cateid=47&pos=title_text%2Ctitlepy%2Cinfocontent%2Cfilenumbername%2Ckeyword%2Ccontentdescribe&selectFields=title%2Curl%2Ccontent%2Cdeploytime%2Ccolumnname&group=distinct&level=6",
+    "retrieved_utc": "2026-10-09T07:43:06.273842+00:00",
+    "local_file": "search/lowtemp_reports.json",
+    "purpose": "工信部公共全文搜索：查同型号/配置公开低温检测证据",
+    "query": "新能源汽车 低温 检测报告",
+    "target_models": [],
+    "tls_verification": true,
+    "status": "ok",
+    "http_status": 200,
+    "final_url": "https://www.miit.gov.cn/search-front-server/api/search/info?websiteid=110000000000000&scope=basic&q=%E6%96%B0%E8%83%BD%E6%BA%90%E6%B1%BD%E8%BD%A6+%E4%BD%8E%E6%B8%A9+%E6%A3%80%E6%B5%8B%E6%8A%A5%E5%91%8A&pg=10&p=1&cateid=47&pos=title_text%2Ctitlepy%2Cinfocontent%2Cfilenumbername%2Ckeyword%2Ccontentdescribe&selectFields=title%2Curl%2Ccontent%2Cdeploytime%2Ccolumnname&group=distinct&level=6",
+    "response_headers": {
+      "date": "Fri, 09 Oct 2026 07:43:06 GMT",
+      "content-type": "text/html;charset=UTF-8",
+      "content-length": "225",
+      "set-cookie": "__jsluid_s=f22adc02c9e03973421496920b422547; max-age=31536000; path=/; HttpOnly; SameSite=None; secure",
+      "x-kong-upstream-latency": "125",
+      "x-kong-proxy-latency": "6",
+      "via": "kong/1.4.3",
+      "x-via-jsl": "c80bc51,-",
+      "x-cache": "bypass",
+      "x-envoy-upstream-service-time": "383",
+      "server": "envoy",
+      "connection": "close"
+    },
+    "bytes": 225,
+    "sha256": "3ae47a8c3e224c426eb23ee31ab44b840267ad5bc17108d47a3b429c4d421a67",
+    "truncated": false
+  },
+  "json_parsed": true,
+  "returned_hits": 0,
+  "pagination_scope": "第1页，至多10条；不是全网穷尽搜索",
+  "hits": []
+}

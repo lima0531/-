@@ -1,0 +1,30 @@
+{
+  "request_url": "https://www.sogou.com/web?query=%E5%85%8D%E5%BE%81%E8%BD%A6%E8%BE%86%E8%B4%AD%E7%BD%AE%E7%A8%8E+%E7%AC%AC%E4%B8%80%E6%89%B9+2014+%E7%AC%AC54%E5%8F%B7",
+  "purpose": "一次公开检索发现完整2014首批公告及附件正式转载",
+  "retrieved_at_utc": "2026-10-09T07:45:58.305807+00:00",
+  "request_method": "GET",
+  "tls_verification": true,
+  "retry_policy": "one request; cache receipt thereafter",
+  "http_status": 200,
+  "final_url": "https://www.sogou.com/antispider/?m=1&antip=web_hd&from=%2Fweb%3Fquery%3D%25E5%2585%258D%25E5%25BE%2581%25E8%25BD%25A6%25E8%25BE%2586%25E8%25B4%25AD%25E7%25BD%25AE%25E7%25A8%258E%2B%25E7%25AC%25AC%25E4%25B8%2580%25E6%2589%25B9%2B2014%2B%25E7%25AC%25AC54%25E5%258F%25B7&suuid=e6f5b812-8447-48ef-8149-e7d2628fcc20",
+  "response_headers": {
+    "date": "Fri, 09 Oct 2026 07:46:04 GMT",
+    "content-type": "text/html; charset=utf-8",
+    "server": "envoy",
+    "vary": "Accept-Encoding",
+    "set-cookie": "ABTEST=0|1791531964|v17; expires=Sun, 08-Nov-26 07:46:04 GMT; path=/",
+    "p3p": "CP=\"CURa ADMa DEVa PSAo PSDo OUR BUS UNI PUR INT DEM STA PRE COM NAV OTC NOI DSP COR\"",
+    "x-powered-by": "PHP/5.4.16",
+    "expires": "Thu, 19 Nov 1981 08:52:00 GMT",
+    "cache-control": "no-store, no-cache, must-revalidate, post-check=0, pre-check=0",
+    "pragma": "no-cache",
+    "uuid": "86efe92a-cb9f-4b1a-b1c5-1e1a8d8b94a5",
+    "x-envoy-upstream-service-time": "758",
+    "connection": "close",
+    "transfer-encoding": "chunked"
+  },
+  "status": "retrieved",
+  "evidence_file": "/workspace/purchase_tax_audit/round9/public_first_batch/sogou_first.html",
+  "bytes": 5686,
+  "sha256": "bdf44b8084a06065df2b825b5580e56ace3350985f2090ad2f9dac3c5da76405"
+}

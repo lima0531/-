@@ -1,0 +1,2 @@
+﻿firm_routing_name,model_key,JX原空能量,32联合跨界,4单项细分,92逐车资格,2208试验口径,purpose_scopes,source_versions_json,same_model_is_same_configuration,reply_rule
+广州汽车集团乘用车有限公司,GAC7000BEVH0A,0,0,0,0,1,2208试验口径,"[{""purpose_scope"":""2208试验口径"",""source_record_ids"":""old-10-PDF-grid-2-0-2"",""source_observation_date_upper"":""2017-04-27"",""source_file"":""原件/免征目录/mf_batch10.pdf"",""source_sha256"":""ac1b1ad2605b4f24762fb1f01cea64b685393577d01648618fa1882bb5700ac3"",""firm_route_basis"":""原记录firm_raw""}]",0,按来源/日期/配置版本分别答复；同型号合并附件不等于同配置或逐车资格认证

@@ -1,0 +1,25 @@
+{
+  "requested_url": "http://www.catarc-nb.cn/p/contact",
+  "retrieved_utc": "2026-10-09T07:46:39.024156+00:00",
+  "local_file": "test_portals/nb_contact.html",
+  "purpose": "官网链接的联系方式",
+  "query": "",
+  "target_models": [],
+  "tls_verification": true,
+  "status": "ok",
+  "http_status": 200,
+  "final_url": "http://www.catarc-nb.cn/p/contact",
+  "response_headers": {
+    "date": "Fri, 09 Oct 2026 07:46:39 GMT",
+    "content-type": "text/html; charset=utf-8",
+    "server": "envoy",
+    "x-powered-by": "PHP/7.2.34",
+    "x-ct-request-id": "045e77b620bf8e73237d8f9a669e9b9b",
+    "x-envoy-upstream-service-time": "656",
+    "connection": "close",
+    "transfer-encoding": "chunked"
+  },
+  "bytes": 22407,
+  "sha256": "2582608d21c8a4c6b92ca6d6175cea654dcf99beb4b4814c5c3ce0ed8098aa87",
+  "truncated": false
+}

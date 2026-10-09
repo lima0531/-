@@ -1,0 +1,14 @@
+{
+  "name": "bing_config",
+  "requested_url": "https://www.bing.com/search?q=%22NC010086%22",
+  "purpose": "Public recommendation configuration ID leads",
+  "retrieved_at_utc": "2026-10-09T07:43:50.962592+00:00",
+  "tls_verified": true,
+  "http_status": 200,
+  "final_url": "https://www.bing.com/search?q=%22NC010086%22",
+  "bytes": 121837,
+  "sha256": "8efa253276ae46080fd6fef4a4b97e54d770e79d31f8f054cb2d4d7b0a47ab09",
+  "local_file": "raw/bing_config.html",
+  "response_content_type": "text/html; charset=utf-8",
+  "status": "received"
+}

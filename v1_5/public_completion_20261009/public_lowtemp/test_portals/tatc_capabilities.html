@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta name="renderer" content="webkit">
+    <meta charset="UTF-8">
+    <meta name="renderer" content="webkit">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>中汽研汽车检验中心（天津）有限公司 </title>
+    <meta name="keywords" content="中汽研汽车检验中心（天津）有限公司 " />
+    <meta name="description" content="中汽研汽车检验中心（天津）有限公司 " />
+    <link rel="icon" type="image/x-icon" href="/img/favicon.ico" />
+    <!-- 引用每个页面自定义CSS -->
+    
+        <link rel="stylesheet" type="text/css" href="/css/index.css"/>
+    
+    <!-- 加载每个页面自定义CSS -->
+    
+    <style>
+
+    </style>
+</head>
+<body>
+<div class="main">
+    <!--	导航栏		-->
+    <div class="menu">
+    <div class="menu-main">
+        <ul class="menu-main-ul">
+            <li class="menu-main-ul-item"><a href="/">首页</a></li>
+            <li class="menu-main-ul-item"><a href="/gywm">关于我们</a></li>
+			<li class="menu-main-ul-item"><a href="/xwdtzxkx">新闻动态</a></li>
+            <li class="menu-main-ul-item"><a href="/jcnl">检测能力</a></li>
+            <li class="menu-main-ul-item"><a href="/quality">质量体系</a></li>
+            <li class="menu-main-ul-item"><a href="/kjcx">科技创新</a></li>
+            <li class="menu-main-ul-item"><a href="/rlzy">人力资源</a></li>
+            <li class="menu-main-ul-item red"><a href="/dqgz">党群工作</a></li>
+            <li class="menu-main-ul-item"><a href="/ywzx">业务咨询</a></li>
+            <!--<li class="menu-main-ul-item"><a href="callus.html" th:href="@{/contactUs}">联系我们</a></li>-->
+            <!--<li class="menu-main-ul-item"><a href="infoOpen.html" th:href="@{/infoOpen}">信息公开</a></li>-->
+			<li class="menu-main-ul-item"><a href="/xxgkgsjj">信息公开</a></li>			
+        </ul>
+    </div>
+</div>
+    <!--	导航栏结束		-->
+
+
+    <!--  顶部图  -->
+    <div class="page-screen detectability">
+
+    </div>
+    <!--  顶部图结束  -->
+
+
+    <div class="detectability-list">
+        <div class="detectability-list-item">
+            <a href="/jcnl/oneItem/5b1ac28a558b4e6eaf1be6b19041faa7" target="_blank">
+            <div class="detectability-list-title"> </div>
+            <img src="/cms/files/1100640260049600512.jpg">
+            </a>
+        </div>
+        <div class="detectability-list-item">
+            <a href="/jcnl/oneItem/a4e205eb3069448380890020fd2910fb" target="_blank">
+            <div class="detectability-list-title"> </div>
+            <img src="/cms/files/1100640356854136832.jpg">
+            </a>
+        </div>
+        <div class="detectability-list-item">
+            <a href="/jcnl/oneItem/a085836394d84e2eb02273b2a63311e4" target="_blank">
+            <div class="detectability-list-title"> </div>
+            <img src="/cms/files/1100640452022894592.jpg">
+            </a>
+        </div>
+        <div class="detectability-list-item">
+            <a href="/jcnl/oneItem/4d9654f9115845488e82818b9428b437" target="_blank">
+            <div class="detectability-list-title"> </div>
+            <img src="/cms/files/1100640522520756224.jpg">
+            </a>
+        </div>
+        <div class="detectability-list-item">
+            <a href="/jcnl/oneItem/2570ed77fe7f4c7e97006a2e1e48744c" target="_blank">
+            <div class="detectability-list-title"> </div>
+            <img src="/cms/files/1100640561011884032.jpg">
+            </a>
+        </div>
+        <div class="detectability-list-item">
+            <a href="/jcnl/oneItem/db04b4a0e50b4202b6164929d18448ca" target="_blank">
+            <div class="detectability-list-title"> </div>
+            <img src="/cms/files/1100640601310756864.jpg">
+            </a>
+        </div>
+    </div>
+
+    <!--     页脚       -->
+    <div class="footer">
+    <div class="footer-main">
+        <div class="footer-logo">
+            <img src="/img/common/logo_footer.png">
+        </div>
+        <div class="footer-text">
+            <div class="footer-text-left" id="yqlj"></div>
+            <div class="footer-text-right">
+                <div class="footer-text-right-item">
+                    <img src="/img/common/call.png">
+                    <span id="bottom_contactWay"></span>
+                </div>
+                <div class="footer-text-right-item">
+                    <img src="/img/common/address.png">
+                    <span id="bottom_address"></span>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="footer-bottom"><span id="bottom_copyright"></span></div>
+</div>
+    <!--     页脚  结束     -->
+</div>
+
+
+    <script type="text/javascript"  src="/js/jquery.min.js"></script>
+    <script type="text/javascript"  src="/js/slider.js"></script>
+    <script type="text/javascript"  src="/js/paging.js"></script>
+
+
+
+    <!-- 用于加载每个页面自定义的JS -->
+    
+
+    <script type="text/javascript">
+        $(function () {
+            $.get("/commonContactUs", null, function (resp) {
+                if (resp.code == 0){
+                    let data = resp.data[0];
+                    $("#bottom_contactWay").text("联系方式："+data.contactWay);
+                    $("#bottom_address").text("地址："+data.address);
+                    $("#bottom_copyright").html(data.copyright);
+
+                    $("#red_contactWay").text("联系方式："+data.contactWay);
+                    $("#red_address").text("地址："+data.address);
+                    $("#red_copyright").html(data.copyright);
+                }
+            });
+
+
+
+            /*友情链接*/
+            $.get("/friendlyLink",null,function (resp){
+                if (resp.code == 0){
+                    var html="<span class=\"friend-title\">友情链接</span>";
+                    for(var i=0;i<resp.data.length;i++) {
+
+                        let data1 = resp.data[i];
+
+                        html = html + "<div class=\"friend-list-item\"><a href=\""+data1.linkUrl+"\" target=\"_blank\"><span>"+data1.linkName+"</span></a></div>"
+
+                    }
+                    $("#yqlj").html(html);
+               }
+
+            });
+        })
+    </script>
+
+
+
+<script>
+    $(function () {
+
+
+    })
+</script>
+</body>
+</html>

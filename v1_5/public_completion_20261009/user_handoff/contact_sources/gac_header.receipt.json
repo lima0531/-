@@ -1,0 +1,13 @@
+{
+  "key": "gac_header",
+  "firm": "广汽丰田汽车有限公司",
+  "requested_url": "https://www.gac-toyota.com.cn/2022/src/components/nav/header.vue?v=20261007",
+  "url_basis": "homepage httpVueLoader header template and config version=20261007",
+  "retrieved_utc": "2026-10-09T07:51:17.035543+00:00",
+  "tls_verification": true,
+  "method": "GET_only_no_submission",
+  "external_message_sent": false,
+  "status": "http_error",
+  "http_status": 403,
+  "error": "HTTP Error 403: Forbidden"
+}

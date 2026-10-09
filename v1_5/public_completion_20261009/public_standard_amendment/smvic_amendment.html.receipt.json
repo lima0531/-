@@ -1,0 +1,25 @@
+{
+  "request_url": "https://hss.smvic.com.cn/indexnews/1384",
+  "retrieved_at_utc": "2026-10-09T07:52:29.981800+00:00",
+  "purpose": "从已保存机构搜索列表明示链接跟进18386.1第1号修改单正文，机构日期不升级为正式发布日期",
+  "tls_verification": true,
+  "proxy_environment_preserved": true,
+  "request_method": "GET",
+  "automatic_redirects": false,
+  "same_url_retries": 0,
+  "http_status": 503,
+  "final_url": "https://hss.smvic.com.cn/indexnews/1384",
+  "response_headers": {
+    "content-length": "91",
+    "content-type": "text/plain",
+    "date": "Fri, 09 Oct 2026 07:52:36 GMT",
+    "server": "envoy",
+    "connection": "close"
+  },
+  "bytes": 91,
+  "sha256": "2f85832e31ca57711e6107af6b142363351ae516adb71c69afc643fac26be7f6",
+  "evidence_file": "smvic_amendment.html",
+  "status": "http_error",
+  "stored_body_representation": "urllib.read after transfer decoding; Content-Encoding preserved",
+  "finished_at_utc": "2026-10-09T07:52:37.160303+00:00"
+}

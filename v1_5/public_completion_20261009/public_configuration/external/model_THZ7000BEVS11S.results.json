@@ -1,0 +1,144 @@
+{
+  "model_key": "THZ7000BEVS11S",
+  "requested_q": "\"THZ7000BEVS11S\"",
+  "query_echo": "\"THZ7000BEVS11S\"",
+  "receipt": {
+    "requested_url": "https://www.bing.com/search?q=%22THZ7000BEVS11S%22&mkt=zh-CN&setlang=zh-hans&count=10",
+    "retrieved_utc": "2026-10-09T07:46:54.792904+00:00",
+    "tls_verification": true,
+    "status": "ok",
+    "http_status": 200,
+    "final_url": "https://www.bing.com/search?q=%22THZ7000BEVS11S%22&mkt=zh-CN&setlang=zh-hans&count=10",
+    "bytes": 99849,
+    "sha256": "4f04165ac75cb48513d80ae46289709c123747e0cecc4c9a6b271144fbc0a378",
+    "response_headers": {
+      "content-type": "text/html; charset=utf-8",
+      "cache-control": "private, max-age=0",
+      "expires": "Fri, 09 Oct 2026 07:45:54 GMT",
+      "vary": "User-Agent,Accept-Encoding",
+      "x-eventid": "6ac89bee27134f6caf59df5027b85e96",
+      "x-as-setsessionmarket": "zh-CN",
+      "x-as-setsessionuilang": "zh-hans",
+      "useragentreductionoptout": "A7kgTC5xdZ2WIVGZEfb1hUoNuvjzOZX3VIV/BA6C18kQOOF50Q0D3oWoAm49k3BQImkujKILc7JmPysWk3CSjwUAAACMeyJvcmlnaW4iOiJodHRwczovL3d3dy5iaW5nLmNvbTo0NDMiLCJmZWF0dXJlIjoiU2VuZEZ1bGxVc2VyQWdlbnRBZnRlclJlZHVjdGlvbiIsImV4cGlyeSI6MTY4NDg4NjM5OSwiaXNTdWJkb21haW4iOnRydWUsImlzVGhpcmRQYXJ0eSI6dHJ1ZX0=",
+      "strict-transport-security": "max-age=31536000; includeSubDomains; preload",
+      "permissions-policy": "unload=()",
+      "content-security-policy": "script-src https: 'strict-dynamic' 'report-sample' 'wasm-unsafe-eval' 'nonce-DYTDY0vPKD1F2g5d7a/e7fUyiGHxNsr285DUIU8AT2A='; base-uri 'self';",
+      "p3p": "CP=\"NON UNI COM NAV STA LOC CURa DEVa PSAa PSDa OUR IND\"",
+      "x-display-context": "full",
+      "date": "Fri, 09 Oct 2026 07:46:54 GMT",
+      "set-cookie": "_SS=SID=0055CF88A6A7676E0CC7D865A718665F; domain=.bing.com; path=/",
+      "alt-svc": "h3=\":443\"; ma=93600",
+      "x-cdn-traceid": "0.d61c2117.1791532014.9a713568",
+      "x-envoy-upstream-service-time": "106",
+      "server": "envoy",
+      "connection": "close",
+      "transfer-encoding": "chunked"
+    },
+    "relative_path": "external/model_THZ7000BEVS11S.html"
+  },
+  "hits": [
+    {
+      "model_key": "THZ7000BEVS11S",
+      "result_url": "https://www.weather.com.cn/weather/101010100.shtml",
+      "result_text": "weather.com.cn https://www.weather.com.cn › weather 北京天气预报,北京7天天气预报,北京15天天气预报,北京天气查询 2 天之前 · 北京天气预报，及时准确发布中央气象台天气信息，便捷查询北京今日天气，北京周末天气，北京一周天气预报，北京蓝天 …    ",
+      "exact_model_in_result_text": 0,
+      "government_domain_candidate": 0,
+      "usable_as_scientific_evidence": 0,
+      "source_search_file": "external/model_THZ7000BEVS11S.html",
+      "source_search_sha256": "4f04165ac75cb48513d80ae46289709c123747e0cecc4c9a6b271144fbc0a378"
+    },
+    {
+      "model_key": "THZ7000BEVS11S",
+      "result_url": "https://www.weather.com.cn/weather/101011000.shtml",
+      "result_text": "weather.com.cn https://www.weather.com.cn › weather 石景山天气预报,石景山7天天气预报,石景山15天天气预报 ... 2 天之前 · 石景山天气预报，及时准确发布中央气象台天气信息，便捷查询石景山今日天气，石景山周末天气，石景山一周天气预报， …",
+      "exact_model_in_result_text": 0,
+      "government_domain_candidate": 0,
+      "usable_as_scientific_evidence": 0,
+      "source_search_file": "external/model_THZ7000BEVS11S.html",
+      "source_search_sha256": "4f04165ac75cb48513d80ae46289709c123747e0cecc4c9a6b271144fbc0a378"
+    },
+    {
+      "model_key": "THZ7000BEVS11S",
+      "result_url": "https://bj.weather.com.cn/weather1.shtml?cityId=101010100",
+      "result_text": "weather.com.cn https://bj.weather.com.cn 北京天气 - weather.com.cn 2019年6月19日 · 紫外线 更长时效预报（10天） 新闻资讯 天气视频 高清图组 节后天气晴到多云 气温稳定 假期后半程 蓝天持续在线  …",
+      "exact_model_in_result_text": 0,
+      "government_domain_candidate": 0,
+      "usable_as_scientific_evidence": 0,
+      "source_search_file": "external/model_THZ7000BEVS11S.html",
+      "source_search_sha256": "4f04165ac75cb48513d80ae46289709c123747e0cecc4c9a6b271144fbc0a378"
+    },
+    {
+      "model_key": "THZ7000BEVS11S",
+      "result_url": "http://bj.weather.com.cn/index.shtml",
+      "result_text": "weather.com.cn http://bj.weather.com.cn › index.shtml 北京天气预报 – 北京 2018年5月9日 · 北京 25℃ / 12℃ 海淀 28℃ / 13℃ 朝阳 27℃ / 12℃ 顺义 26℃ / 12℃ 怀柔 25℃ / 10℃ 通州 26℃ / 10℃ 昌平 26℃ / …",
+      "exact_model_in_result_text": 0,
+      "government_domain_candidate": 0,
+      "usable_as_scientific_evidence": 0,
+      "source_search_file": "external/model_THZ7000BEVS11S.html",
+      "source_search_sha256": "4f04165ac75cb48513d80ae46289709c123747e0cecc4c9a6b271144fbc0a378"
+    },
+    {
+      "model_key": "THZ7000BEVS11S",
+      "result_url": "https://wx.weather.com.cn/mzs/101010100.shtml?flag=ct",
+      "result_text": "weather.com.cn https://wx.weather.com.cn › mzs 北京 指数详情--中国天气网 - weather.com.cn 2 天之前 · 北京天气预报，及时准确发布中央气象台天气信息，便捷查询北京今日天气，北京明日天气，北京一周天气预报，北京15日 …",
+      "exact_model_in_result_text": 0,
+      "government_domain_candidate": 0,
+      "usable_as_scientific_evidence": 0,
+      "source_search_file": "external/model_THZ7000BEVS11S.html",
+      "source_search_sha256": "4f04165ac75cb48513d80ae46289709c123747e0cecc4c9a6b271144fbc0a378"
+    },
+    {
+      "model_key": "THZ7000BEVS11S",
+      "result_url": "https://forecast.weather.com.cn/town/weathern/101010100.shtml",
+      "result_text": "weather.com.cn https://forecast.weather.com.cn › town › weathern 【北京北京天气】北京北京今天天气预报,今天,今天天气,7天 ... 北京北京天气预报，及时准确发布中央气象台天气信息，便捷查询北京今日天气，北京北京周末天气，北京北京一周天气预报，北京 …",
+      "exact_model_in_result_text": 0,
+      "government_domain_candidate": 0,
+      "usable_as_scientific_evidence": 0,
+      "source_search_file": "external/model_THZ7000BEVS11S.html",
+      "source_search_sha256": "4f04165ac75cb48513d80ae46289709c123747e0cecc4c9a6b271144fbc0a378"
+    },
+    {
+      "model_key": "THZ7000BEVS11S",
+      "result_url": "https://wap.weather.com.cn/mweather1d/101010100.shtml",
+      "result_text": "weather.com.cn https://wap.weather.com.cn 【北京天气预报】北京今天天气预报_北京天气预报7天、15天 ... 北京天气预报，及时准确发布中央气象台天气信息，便捷查询北京今日天气，北京周末天气，北京一周天气预报，北京15日天气预 …",
+      "exact_model_in_result_text": 0,
+      "government_domain_candidate": 0,
+      "usable_as_scientific_evidence": 0,
+      "source_search_file": "external/model_THZ7000BEVS11S.html",
+      "source_search_sha256": "4f04165ac75cb48513d80ae46289709c123747e0cecc4c9a6b271144fbc0a378"
+    },
+    {
+      "model_key": "THZ7000BEVS11S",
+      "result_url": "https://forecast.weather.com.cn/town/weather15dn/101010100.shtml",
+      "result_text": "weather.com.cn https://forecast.weather.com.cn › town › ... 【北京北京天气】北京北京今天天气预报,今天,今天天气,7天 ... 北京天气预报，提供今日、周末、一周及15日天气预报，生活指数、健康指数、交通指数、旅游指数等信息，并发布气象预警 ...",
+      "exact_model_in_result_text": 0,
+      "government_domain_candidate": 0,
+      "usable_as_scientific_evidence": 0,
+      "source_search_file": "external/model_THZ7000BEVS11S.html",
+      "source_search_sha256": "4f04165ac75cb48513d80ae46289709c123747e0cecc4c9a6b271144fbc0a378"
+    },
+    {
+      "model_key": "THZ7000BEVS11S",
+      "result_url": "https://m.weather.com.cn/mweather15d/101010100.shtml",
+      "result_text": "weather.com.cn https://m.weather.com.cn 【北京天气预报15天_北京天气预报15天查询】-中国天气网 2020年5月16日 · 北京天气预报，提供中央气象台最新天气信息，包括今日、周末及未来15天预报，以及生活、健康、交通等指数和气 …",
+      "exact_model_in_result_text": 0,
+      "government_domain_candidate": 0,
+      "usable_as_scientific_evidence": 0,
+      "source_search_file": "external/model_THZ7000BEVS11S.html",
+      "source_search_sha256": "4f04165ac75cb48513d80ae46289709c123747e0cecc4c9a6b271144fbc0a378"
+    },
+    {
+      "model_key": "THZ7000BEVS11S",
+      "result_url": "http://products.weather.com.cn/product/radar1/index/procode/JC_RADAR_AZ9010_JB_V3.shtml",
+      "result_text": "weather.com.cn http://products.weather.com.cn › product › index › procode › JC... 雷达-中国天气网 - weather.com.cn 中国天气网官方权威发布天气预报,逐三小时天气预报,提供天气预报查询一周,天气预报15天查询,空气质量,生活指数,旅游出行,交通天 …",
+      "exact_model_in_result_text": 0,
+      "government_domain_candidate": 0,
+      "usable_as_scientific_evidence": 0,
+      "source_search_file": "external/model_THZ7000BEVS11S.html",
+      "source_search_sha256": "4f04165ac75cb48513d80ae46289709c123747e0cecc4c9a6b271144fbc0a378"
+    }
+  ],
+  "exact_model_relevant_hits": 0,
+  "same_model_is_configuration_identity": false,
+  "negative_search_conclusion_permitted": false
+}

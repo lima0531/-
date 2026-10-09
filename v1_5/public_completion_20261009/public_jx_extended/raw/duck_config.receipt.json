@@ -1,0 +1,14 @@
+{
+  "name": "duck_config",
+  "requested_url": "https://html.duckduckgo.com/html/?q=%22NC010086%22",
+  "purpose": "Public index candidate discovery: \"NC010086\"",
+  "retrieved_at_utc": "2026-10-09T07:45:31.747477+00:00",
+  "tls_verified": true,
+  "http_status": 200,
+  "final_url": "https://html.duckduckgo.com/html/?q=%22NC010086%22",
+  "bytes": 9287,
+  "sha256": "14d592c3de3ee9f0a819a7c3af9243f80959741696d027649b76fbe89ef806fe",
+  "local_file": "raw/duck_config.html",
+  "response_content_type": "text/html; charset=UTF-8",
+  "status": "received"
+}

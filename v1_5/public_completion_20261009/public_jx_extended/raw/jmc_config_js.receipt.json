@@ -1,0 +1,14 @@
+{
+  "name": "jmc_config_js",
+  "requested_url": "https://www.jmc.com.cn/js/config.eaf13e68.js",
+  "purpose": "Official public configuration frontend: source of supported query endpoints",
+  "retrieved_at_utc": "2026-10-09T07:47:27.600678+00:00",
+  "tls_verified": true,
+  "http_status": 200,
+  "final_url": "https://www.jmc.com.cn/js/config.eaf13e68.js",
+  "bytes": 4949,
+  "sha256": "5fe8f19de97a3b3c3e5475855652f3a7a111479a93c8d6777baa2c256eb33423",
+  "local_file": "raw/jmc_config_js.html",
+  "response_content_type": "application/javascript",
+  "status": "received"
+}

@@ -1,0 +1,29 @@
+{
+  "request_url": "https://sousuoht.www.gov.cn/athena/forward/8B57E410475C63EFEA26733EE36F4A9776BDA278DBC537916F026AA0A147E284?code=17da70961a7",
+  "purpose": "读取同一政府网公开前端真实检索类别配置，避免将默认空框解释为历史不存在",
+  "retrieved_at_utc": "2026-10-09T07:47:58.036249+00:00",
+  "request_method": "GET",
+  "tls_verification": true,
+  "retry_policy": "one request; cache receipt thereafter",
+  "http_status": 200,
+  "final_url": "https://sousuoht.www.gov.cn/athena/forward/8B57E410475C63EFEA26733EE36F4A9776BDA278DBC537916F026AA0A147E284?code=17da70961a7",
+  "response_headers": {
+    "date": "Fri, 09 Oct 2026 07:48:00 GMT",
+    "content-type": "application/json;charset=UTF-8",
+    "set-cookie": "acw_tc=276077c317915320798272787e78a9027122451a1f7b6be2904cd475ca0696;path=/;HttpOnly;Max-Age=1800",
+    "vary": "Origin,Access-Control-Request-Method,Access-Control-Request-Headers",
+    "access-control-allow-origin": "https://sousuo.www.gov.cn",
+    "access-control-allow-credentials": "true,true",
+    "cache-control": "no-cache, no-store, must-revalidate, max-age=0",
+    "x-athena-request-id": "0d7d8d02-6aef-45c3-ac5d-a4438b91ffd6",
+    "x-ser": "i37144_c25893, i35056_c30057, i2020999_c24821, i90340_c27779",
+    "x-envoy-upstream-service-time": "446",
+    "server": "envoy",
+    "connection": "close",
+    "transfer-encoding": "chunked"
+  },
+  "status": "retrieved",
+  "evidence_file": "/workspace/purchase_tax_audit/round9/public_first_batch/gov_real_search_config.html",
+  "bytes": 533,
+  "sha256": "69ab0ddad824afef6bf450ad4490a1175061f9468f7a48fa9d0e3bf901e5bdce"
+}

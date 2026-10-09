@@ -1,0 +1,38 @@
+{
+  "generated_at_utc": "2026-10-09T08:18:10.464307+00:00",
+  "actual_network_responses_verified": 8,
+  "public_draft_notice_date": "2024-05-13",
+  "public_draft_consultation_deadline": "2024-07-12",
+  "draft_explanation_cover_month": "2024-04",
+  "issuing_committee": "全国汽车标准化技术委员会汽车节能分技术委员会（TC114SC32）",
+  "new_original_public_pdf_documents": [
+    {
+      "file": "amendment_draft.pdf",
+      "physical_pages": 5,
+      "bytes": 497409,
+      "sha256": "b01a5710a4e0df71e306e91f4bf205ab9023598d1cb7ff5247b293e4931decfb",
+      "formal_final_amendment": false
+    },
+    {
+      "file": "draft_explanation.pdf",
+      "physical_pages": 16,
+      "bytes": 1759806,
+      "sha256": "c71eacb09848b8c0785dde4c47ae789263c1ac7eceb18ac595a36c8da748c9e9",
+      "formal_final_amendment": false
+    }
+  ],
+  "general_2025_19_notice_on_committee_site": {
+    "date": "2025-08-01",
+    "target_standard_number_present": false,
+    "target_amendment_membership_verified": false
+  },
+  "target_final_publication_date": null,
+  "target_final_implementation_date": null,
+  "target_final_approval_notice_number": null,
+  "target_final_document_obtained": false,
+  "model_specific_low_temperature_report_obtained": false,
+  "vehicle_missing_data_gaps_closed": 0,
+  "scientific_data_changed": false,
+  "historical_public_before_2023_12_10_verified": false,
+  "scope": "2024公开征求意见原件和基础标准旁证；2025公告本页只有汽车新标准子表，未出现目标编号，不能认证该修改单正式日期。"
+}

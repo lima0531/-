@@ -1,0 +1,24 @@
+{
+  "scope_rows": {
+    "JX原空能量": 1,
+    "32联合跨界": 32,
+    "4单项细分": 4,
+    "285配置身份": 285,
+    "19低温优先": 19,
+    "92逐车资格": 92,
+    "2208试验口径": 2208
+  },
+  "nonempty_original_route_text_rows": 2641,
+  "source_date_sha_and_original_route_text_complete": true,
+  "packets_created": 154,
+  "packet_version_rows_sum": 285,
+  "packet_lowtemp_flags_sum": 19,
+  "packet_model_rows_sum": 2289,
+  "source_sha_all_match": true,
+  "science_sha_all_match": true,
+  "siblings_new_material_closures_all_zero": true,
+  "markdown_local_links_checked": 170,
+  "broken_local_links": [],
+  "direct_technical_contact_claims": 0,
+  "external_sends": 0
+}

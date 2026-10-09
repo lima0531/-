@@ -1,0 +1,144 @@
+{
+  "model_key": "DC7006XAAXBEVN",
+  "requested_q": "\"DC7006XAAXBEVN\"",
+  "query_echo": "\"DC7006XAAXBEVN\"",
+  "receipt": {
+    "requested_url": "https://www.bing.com/search?q=%22DC7006XAAXBEVN%22&mkt=zh-CN&setlang=zh-hans&count=10",
+    "retrieved_utc": "2026-10-09T07:46:53.812185+00:00",
+    "tls_verification": true,
+    "status": "ok",
+    "http_status": 200,
+    "final_url": "https://www.bing.com/search?q=%22DC7006XAAXBEVN%22&mkt=zh-CN&setlang=zh-hans&count=10",
+    "bytes": 100666,
+    "sha256": "0ea4604dea2afe00bfdf6e30a02415a1952bee1b40a11d8ecd2aac061252e6d4",
+    "response_headers": {
+      "content-type": "text/html; charset=utf-8",
+      "cache-control": "private, max-age=0",
+      "expires": "Fri, 09 Oct 2026 07:45:53 GMT",
+      "vary": "User-Agent,Accept-Encoding",
+      "x-eventid": "6ac89bed8a6a4cb48c071f2000b3b222",
+      "x-as-setsessionmarket": "zh-CN",
+      "x-as-setsessionuilang": "zh-hans",
+      "useragentreductionoptout": "A7kgTC5xdZ2WIVGZEfb1hUoNuvjzOZX3VIV/BA6C18kQOOF50Q0D3oWoAm49k3BQImkujKILc7JmPysWk3CSjwUAAACMeyJvcmlnaW4iOiJodHRwczovL3d3dy5iaW5nLmNvbTo0NDMiLCJmZWF0dXJlIjoiU2VuZEZ1bGxVc2VyQWdlbnRBZnRlclJlZHVjdGlvbiIsImV4cGlyeSI6MTY4NDg4NjM5OSwiaXNTdWJkb21haW4iOnRydWUsImlzVGhpcmRQYXJ0eSI6dHJ1ZX0=",
+      "strict-transport-security": "max-age=31536000; includeSubDomains; preload",
+      "permissions-policy": "unload=()",
+      "content-security-policy": "script-src https: 'strict-dynamic' 'report-sample' 'wasm-unsafe-eval' 'nonce-oD+3WfIud4m9By4R0H+f6zishKKtuUqMJzoFgaFBxBc='; base-uri 'self';",
+      "p3p": "CP=\"NON UNI COM NAV STA LOC CURa DEVa PSAa PSDa OUR IND\"",
+      "x-display-context": "full",
+      "date": "Fri, 09 Oct 2026 07:46:53 GMT",
+      "set-cookie": "_SS=SID=2FA121AF36016CC73FD93642373F6D11; domain=.bing.com; path=/",
+      "alt-svc": "h3=\":443\"; ma=93600",
+      "x-cdn-traceid": "0.d71c2117.1791532013.84710be",
+      "x-envoy-upstream-service-time": "145",
+      "server": "envoy",
+      "connection": "close",
+      "transfer-encoding": "chunked"
+    },
+    "relative_path": "external/model_DC7006XAAXBEVN.html"
+  },
+  "hits": [
+    {
+      "model_key": "DC7006XAAXBEVN",
+      "result_url": "https://www.zhihu.com/question/300150937",
+      "result_text": "zhihu.com https://www.zhihu.com › question WhatsApp号码被封号，禁止使用怎么办？ - 知乎 以下方法是我亲测，有效。 今天教一下大家如何通过申诉解封whatsapp账号。 whatsapp账号被封号了，怎么办？今天教一下大家如 …    ",
+      "exact_model_in_result_text": 0,
+      "government_domain_candidate": 0,
+      "usable_as_scientific_evidence": 0,
+      "source_search_file": "external/model_DC7006XAAXBEVN.html",
+      "source_search_sha256": "0ea4604dea2afe00bfdf6e30a02415a1952bee1b40a11d8ecd2aac061252e6d4"
+    },
+    {
+      "model_key": "DC7006XAAXBEVN",
+      "result_url": "https://www.zhihu.com/question/421039929",
+      "result_text": "zhihu.com https://www.zhihu.com › question 华为手机不能用WhatsApp了吗？ - 知乎 2021年3月8日 · 第三步、选择WhatsApp Messenger并打开新的页面，然后向下滑动，直到看到“Download Apk”的按钮（如下图）， …",
+      "exact_model_in_result_text": 0,
+      "government_domain_candidate": 0,
+      "usable_as_scientific_evidence": 0,
+      "source_search_file": "external/model_DC7006XAAXBEVN.html",
+      "source_search_sha256": "0ea4604dea2afe00bfdf6e30a02415a1952bee1b40a11d8ecd2aac061252e6d4"
+    },
+    {
+      "model_key": "DC7006XAAXBEVN",
+      "result_url": "https://detail.chiebukuro.yahoo.co.jp/qa/question_detail/q12292156442",
+      "result_text": "yahoo.co.jp https://detail.chiebukuro.yahoo.co.jp › qa › question_detail › ... Facebookにログインしようとしたら、WhatsAppメッセ... - Yahoo ... 2024年1月21日 · Facebookにログインしようとしたら、WhatsAppメッセージへパスワードを送りましたとでますが、そんなアプリ …",
+      "exact_model_in_result_text": 0,
+      "government_domain_candidate": 0,
+      "usable_as_scientific_evidence": 0,
+      "source_search_file": "external/model_DC7006XAAXBEVN.html",
+      "source_search_sha256": "0ea4604dea2afe00bfdf6e30a02415a1952bee1b40a11d8ecd2aac061252e6d4"
+    },
+    {
+      "model_key": "DC7006XAAXBEVN",
+      "result_url": "https://detail.chiebukuro.yahoo.co.jp/qa/question_detail/q14156843719",
+      "result_text": "yahoo.co.jp https://detail.chiebukuro.yahoo.co.jp › qa › question_detail › ... 恐怖の森のダウンロード方法がわかりません。第一無料なん ... 2016年3月10日 · 恐怖の森のダウンロード方法がわかりません。第一無料なんですか Windowsパソコンで以下にアクセスしま …",
+      "exact_model_in_result_text": 0,
+      "government_domain_candidate": 0,
+      "usable_as_scientific_evidence": 0,
+      "source_search_file": "external/model_DC7006XAAXBEVN.html",
+      "source_search_sha256": "0ea4604dea2afe00bfdf6e30a02415a1952bee1b40a11d8ecd2aac061252e6d4"
+    },
+    {
+      "model_key": "DC7006XAAXBEVN",
+      "result_url": "https://www.zhihu.com/question/387607317/answers/updated",
+      "result_text": "zhihu.com https://www.zhihu.com › question › answers › updated Whatsapp安卓版怎么下载？ - 知乎 2026年1月13日 · 提供有关如何下载WhatsApp安卓版的详细指南，帮助用户轻松获取并安装该应用。",
+      "exact_model_in_result_text": 0,
+      "government_domain_candidate": 0,
+      "usable_as_scientific_evidence": 0,
+      "source_search_file": "external/model_DC7006XAAXBEVN.html",
+      "source_search_sha256": "0ea4604dea2afe00bfdf6e30a02415a1952bee1b40a11d8ecd2aac061252e6d4"
+    },
+    {
+      "model_key": "DC7006XAAXBEVN",
+      "result_url": "https://www.zhihu.com/question/68113079",
+      "result_text": "zhihu.com https://www.zhihu.com › question 现在怎么才能登录WhatsApp呢？ - 知乎 2025年6月23日 · I understand that WhatsApp places a strong emphasis on user privacy and security, and I share these concerns as …",
+      "exact_model_in_result_text": 0,
+      "government_domain_candidate": 0,
+      "usable_as_scientific_evidence": 0,
+      "source_search_file": "external/model_DC7006XAAXBEVN.html",
+      "source_search_sha256": "0ea4604dea2afe00bfdf6e30a02415a1952bee1b40a11d8ecd2aac061252e6d4"
+    },
+    {
+      "model_key": "DC7006XAAXBEVN",
+      "result_url": "https://www.zhihu.com/question/554885546",
+      "result_text": "zhihu.com https://www.zhihu.com › question WhatsApp如何养号，防止封号？ - 知乎 ” WhatsApp现在大家用的都很多，但是遇到的问题也很多，比如账户注册问题，WhatsApp接不到验证码的问题，WhatsApp被封号的 …",
+      "exact_model_in_result_text": 0,
+      "government_domain_candidate": 0,
+      "usable_as_scientific_evidence": 0,
+      "source_search_file": "external/model_DC7006XAAXBEVN.html",
+      "source_search_sha256": "0ea4604dea2afe00bfdf6e30a02415a1952bee1b40a11d8ecd2aac061252e6d4"
+    },
+    {
+      "model_key": "DC7006XAAXBEVN",
+      "result_url": "https://www.zhihu.com/question/555079885",
+      "result_text": "zhihu.com https://www.zhihu.com › question WhatsApp被封号？如何申请解封？ - 知乎 WhatsApp的相关规则和风控不断在变化，为了更好地缓解（注意是缓解而不是解决）大家频繁遇到的封号问题，我们针对上千个客 …",
+      "exact_model_in_result_text": 0,
+      "government_domain_candidate": 0,
+      "usable_as_scientific_evidence": 0,
+      "source_search_file": "external/model_DC7006XAAXBEVN.html",
+      "source_search_sha256": "0ea4604dea2afe00bfdf6e30a02415a1952bee1b40a11d8ecd2aac061252e6d4"
+    },
+    {
+      "model_key": "DC7006XAAXBEVN",
+      "result_url": "https://www.zhihu.com/question/1920537934953689692",
+      "result_text": "zhihu.com https://www.zhihu.com › question 如何在国内手机安装whatsapp? - 知乎 2025年11月18日 · 知乎，中文互联网高质量的问答社区和创作者聚集的原创内容平台，于 2011 年 1 月正式上线，以「让人们更好的 …",
+      "exact_model_in_result_text": 0,
+      "government_domain_candidate": 0,
+      "usable_as_scientific_evidence": 0,
+      "source_search_file": "external/model_DC7006XAAXBEVN.html",
+      "source_search_sha256": "0ea4604dea2afe00bfdf6e30a02415a1952bee1b40a11d8ecd2aac061252e6d4"
+    },
+    {
+      "model_key": "DC7006XAAXBEVN",
+      "result_url": "https://www.zhihu.com/topic/19560025/intro",
+      "result_text": "zhihu.com https://www.zhihu.com › topic › intro whatsapp messenger - 知乎 2014年2月19日 · WhatsApp messenger是一款可供iPhone手机、Android手机、Windows Phone手机、Symbian手机和黑莓手机用户 …",
+      "exact_model_in_result_text": 0,
+      "government_domain_candidate": 0,
+      "usable_as_scientific_evidence": 0,
+      "source_search_file": "external/model_DC7006XAAXBEVN.html",
+      "source_search_sha256": "0ea4604dea2afe00bfdf6e30a02415a1952bee1b40a11d8ecd2aac061252e6d4"
+    }
+  ],
+  "exact_model_relevant_hits": 0,
+  "same_model_is_configuration_identity": false,
+  "negative_search_conclusion_permitted": false
+}

@@ -1,0 +1,144 @@
+{
+  "model_key": "YGM7009BEVBA3",
+  "requested_q": "\"YGM7009BEVBA3\"",
+  "query_echo": "\"YGM7009BEVBA3\"",
+  "receipt": {
+    "requested_url": "https://www.bing.com/search?q=%22YGM7009BEVBA3%22&mkt=zh-CN&setlang=zh-hans&count=10",
+    "retrieved_utc": "2026-10-09T07:46:54.978856+00:00",
+    "tls_verification": true,
+    "status": "ok",
+    "http_status": 200,
+    "final_url": "https://www.bing.com/search?q=%22YGM7009BEVBA3%22&mkt=zh-CN&setlang=zh-hans&count=10",
+    "bytes": 101516,
+    "sha256": "cf1493ab7d833bcfb2f96dd6e813d0a29b13b26df71785266d5730a1ff159472",
+    "response_headers": {
+      "content-type": "text/html; charset=utf-8",
+      "cache-control": "private, max-age=0",
+      "expires": "Fri, 09 Oct 2026 07:45:55 GMT",
+      "vary": "User-Agent,Accept-Encoding",
+      "x-eventid": "6ac89bef119b400ebcfff44c9e5fb851",
+      "x-as-setsessionmarket": "zh-CN",
+      "x-as-setsessionuilang": "zh-hans",
+      "useragentreductionoptout": "A7kgTC5xdZ2WIVGZEfb1hUoNuvjzOZX3VIV/BA6C18kQOOF50Q0D3oWoAm49k3BQImkujKILc7JmPysWk3CSjwUAAACMeyJvcmlnaW4iOiJodHRwczovL3d3dy5iaW5nLmNvbTo0NDMiLCJmZWF0dXJlIjoiU2VuZEZ1bGxVc2VyQWdlbnRBZnRlclJlZHVjdGlvbiIsImV4cGlyeSI6MTY4NDg4NjM5OSwiaXNTdWJkb21haW4iOnRydWUsImlzVGhpcmRQYXJ0eSI6dHJ1ZX0=",
+      "strict-transport-security": "max-age=31536000; includeSubDomains; preload",
+      "permissions-policy": "unload=()",
+      "content-security-policy": "script-src https: 'strict-dynamic' 'report-sample' 'wasm-unsafe-eval' 'nonce-bE+IvSN5MaVulSggKc0pkJ1cASHYwF/zwyaOP2IMJxE='; base-uri 'self';",
+      "p3p": "CP=\"NON UNI COM NAV STA LOC CURa DEVa PSAa PSDa OUR IND\"",
+      "x-display-context": "full",
+      "date": "Fri, 09 Oct 2026 07:46:55 GMT",
+      "set-cookie": "_SS=SID=0F928F2F99BF6692239798C2982B67E8; domain=.bing.com; path=/",
+      "alt-svc": "h3=\":443\"; ma=93600",
+      "x-cdn-traceid": "0.cf1c2117.1791532015.649baa4",
+      "x-envoy-upstream-service-time": "143",
+      "server": "envoy",
+      "connection": "close",
+      "transfer-encoding": "chunked"
+    },
+    "relative_path": "external/model_YGM7009BEVBA3.html"
+  },
+  "hits": [
+    {
+      "model_key": "YGM7009BEVBA3",
+      "result_url": "https://apps.apple.com/us/app/linkedin-community-network/id288429040",
+      "result_text": "apple.com https://apps.apple.com › us › app ›  linkedin -community-network › ... LinkedIn : Community & Network - App Store Download LinkedIn: Community & Network by LinkedIn Corporation on the App Store. See screenshots, ratings and reviews, user …    ",
+      "exact_model_in_result_text": 0,
+      "government_domain_candidate": 0,
+      "usable_as_scientific_evidence": 0,
+      "source_search_file": "external/model_YGM7009BEVBA3.html",
+      "source_search_sha256": "cf1493ab7d833bcfb2f96dd6e813d0a29b13b26df71785266d5730a1ff159472"
+    },
+    {
+      "model_key": "YGM7009BEVBA3",
+      "result_url": "https://members.linkedin.com/en-gb/download-the-linkedin-app",
+      "result_text": "linkedin.com https://members. linkedin .com › en-gb ›  download -the- linkedin -app Download  the  LinkedIn  app 2026年9月25日 · No matter what ‘on the go’ means for you, with the LinkedIn app, opportunity is never out of reach. You can search …",
+      "exact_model_in_result_text": 0,
+      "government_domain_candidate": 0,
+      "usable_as_scientific_evidence": 0,
+      "source_search_file": "external/model_YGM7009BEVBA3.html",
+      "source_search_sha256": "cf1493ab7d833bcfb2f96dd6e813d0a29b13b26df71785266d5730a1ff159472"
+    },
+    {
+      "model_key": "YGM7009BEVBA3",
+      "result_url": "https://apps.apple.com/sg/app/linkedin-%E9%A2%86%E8%8B%B1/id288429040?l=zh-Hans-CN",
+      "result_text": "apple.com https://apps.apple.com › sg › app ›  linkedin -领英 ‎ LinkedIn  领英 App - App Store 2017年12月14日 · 在 App Store 下载“LinkedIn Corporation”的“LinkedIn 领英”。 查看截屏、评分及评论、用户提示以及更多类 … 缺失:   download 必须包含:   download",
+      "exact_model_in_result_text": 0,
+      "government_domain_candidate": 0,
+      "usable_as_scientific_evidence": 0,
+      "source_search_file": "external/model_YGM7009BEVBA3.html",
+      "source_search_sha256": "cf1493ab7d833bcfb2f96dd6e813d0a29b13b26df71785266d5730a1ff159472"
+    },
+    {
+      "model_key": "YGM7009BEVBA3",
+      "result_url": "https://members.linkedin.com/apps",
+      "result_text": "linkedin.com https://members. linkedin .com › apps Get the  LinkedIn  app 2026年9月25日 · Make the most of LinkedIn with our suite of mobile apps. We'll help you search for jobs, get your daily professional … 缺失:   download 必须包含:   download",
+      "exact_model_in_result_text": 0,
+      "government_domain_candidate": 0,
+      "usable_as_scientific_evidence": 0,
+      "source_search_file": "external/model_YGM7009BEVBA3.html",
+      "source_search_sha256": "cf1493ab7d833bcfb2f96dd6e813d0a29b13b26df71785266d5730a1ff159472"
+    },
+    {
+      "model_key": "YGM7009BEVBA3",
+      "result_url": "https://mobile.linkedin.com/zh-cn",
+      "result_text": "linkedin.com https://mobile. linkedin .com › zh-cn 移动客户端 | 领英 -  LinkedIn 2026年9月25日 · 领英客户端，助力职场方方面面。 搜索职位，获取职场资讯，学习新技能，领英都能满足您的职场需求。",
+      "exact_model_in_result_text": 0,
+      "government_domain_candidate": 0,
+      "usable_as_scientific_evidence": 0,
+      "source_search_file": "external/model_YGM7009BEVBA3.html",
+      "source_search_sha256": "cf1493ab7d833bcfb2f96dd6e813d0a29b13b26df71785266d5730a1ff159472"
+    },
+    {
+      "model_key": "YGM7009BEVBA3",
+      "result_url": "https://www.linkedin.com/help/linkedin/answer/a515752/-app?lang=zh-CN",
+      "result_text": "linkedin.com https://www. linkedin .com › help ›  linkedin  › answer › ... 下载领英移动 APP | 领英帮助中心 -  LinkedIn 在您的 iOS 设备上打开 App Store。 在搜索栏中键入“领英”，然后点击 “搜索”。 点击领英移动 APP 旁边的 “获取”，然后按照屏幕上的 …",
+      "exact_model_in_result_text": 0,
+      "government_domain_candidate": 0,
+      "usable_as_scientific_evidence": 0,
+      "source_search_file": "external/model_YGM7009BEVBA3.html",
+      "source_search_sha256": "cf1493ab7d833bcfb2f96dd6e813d0a29b13b26df71785266d5730a1ff159472"
+    },
+    {
+      "model_key": "YGM7009BEVBA3",
+      "result_url": "https://download.cnet.com/linkedin-for-ipad/3000-12941_4-75708469.html",
+      "result_text": "cnet.com https:// download .cnet.com ›  linkedin-for-ipad LinkedIn for iPad  for  iOS  - Free  download  and software reviews 2026年7月4日 · LinkedIn for iPad doesn't have all the features you'd find on the business-oriented networking Web site, but a nice …",
+      "exact_model_in_result_text": 0,
+      "government_domain_candidate": 0,
+      "usable_as_scientific_evidence": 0,
+      "source_search_file": "external/model_YGM7009BEVBA3.html",
+      "source_search_sha256": "cf1493ab7d833bcfb2f96dd6e813d0a29b13b26df71785266d5730a1ff159472"
+    },
+    {
+      "model_key": "YGM7009BEVBA3",
+      "result_url": "https://gizmodo.com/download/linkedin",
+      "result_text": "gizmodo.com https://gizmodo.com ›  download  ›  linkedin Download LinkedIn  (free) for Android, APK,  iOS  and Web App 2 天之前 · LinkedIn is a professional social network that allows you to connect with the industry and grow your career. It allows users …",
+      "exact_model_in_result_text": 0,
+      "government_domain_candidate": 0,
+      "usable_as_scientific_evidence": 0,
+      "source_search_file": "external/model_YGM7009BEVBA3.html",
+      "source_search_sha256": "cf1493ab7d833bcfb2f96dd6e813d0a29b13b26df71785266d5730a1ff159472"
+    },
+    {
+      "model_key": "YGM7009BEVBA3",
+      "result_url": "https://www.10100.com/article/372929",
+      "result_text": "10100.com https://www.10100.com › article linkedin 苹果手机怎么下载？（领英国际版 IOS 安装教程） 2023年3月10日 · linkedin，中文名为领英，是一款社群网路服务APP。 完成注册后会自动生成一张电子名片，专门为商业人士设立， … 缺失:   download 必须包含:   download",
+      "exact_model_in_result_text": 0,
+      "government_domain_candidate": 0,
+      "usable_as_scientific_evidence": 0,
+      "source_search_file": "external/model_YGM7009BEVBA3.html",
+      "source_search_sha256": "cf1493ab7d833bcfb2f96dd6e813d0a29b13b26df71785266d5730a1ff159472"
+    },
+    {
+      "model_key": "YGM7009BEVBA3",
+      "result_url": "https://members.linkedin.com/get-the-app",
+      "result_text": "linkedin.com https://members. linkedin .com › get-the-app Get the app -  LinkedIn 2026年9月24日 · Your app for career growth. With LinkedIn, you can find jobs, make connections, or learn something new anytime, … 缺失:   download 必须包含:   download",
+      "exact_model_in_result_text": 0,
+      "government_domain_candidate": 0,
+      "usable_as_scientific_evidence": 0,
+      "source_search_file": "external/model_YGM7009BEVBA3.html",
+      "source_search_sha256": "cf1493ab7d833bcfb2f96dd6e813d0a29b13b26df71785266d5730a1ff159472"
+    }
+  ],
+  "exact_model_relevant_hits": 0,
+  "same_model_is_configuration_identity": false,
+  "negative_search_conclusion_permitted": false
+}

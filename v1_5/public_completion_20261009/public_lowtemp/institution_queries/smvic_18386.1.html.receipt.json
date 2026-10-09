@@ -1,0 +1,32 @@
+{
+  "requested_url": "https://hss.smvic.com.cn/indexsearch?search=18386.1",
+  "retrieved_utc": "2026-10-09T07:47:36.598276+00:00",
+  "local_file": "institution_queries/smvic_18386.1.html",
+  "purpose": "SMVIC认证平台可见GET搜索表单查询，不能用CCC证书替代附录A报告",
+  "query": "18386.1",
+  "target_models": [],
+  "tls_verification": true,
+  "status": "ok",
+  "http_status": 200,
+  "final_url": "https://hss.smvic.com.cn/indexsearch/?search=18386.1",
+  "response_headers": {
+    "date": "Fri, 09 Oct 2026 07:47:37 GMT",
+    "content-type": "text/html; charset=utf-8",
+    "content-length": "106248",
+    "set-cookie": "csrftoken=Br7oS4G1uG2eicpFS1jray59JElFsfqJYXiWUU54U3sBQzgoZsVrHXnRIW9PvpxF; expires=Fri, 08 Oct 2027 07:47:36 GMT; HttpOnly; Max-Age=31449600; Path=/; SameSite=Lax",
+    "server": "envoy",
+    "x-frame-options": "SAMEORIGIN",
+    "vary": "Cookie",
+    "x-xss-protection": "1; mode=block",
+    "x-content-type-options": "nosniff",
+    "strict-transport-security": "max-age=0; preload",
+    "x-request-id": "78c252fd800558c5fbe7607bd5648d7c",
+    "x-cache": "BYPASS",
+    "accept-ranges": "bytes",
+    "x-envoy-upstream-service-time": "1049",
+    "connection": "close"
+  },
+  "bytes": 106248,
+  "sha256": "c0be958c62537c89e9039d8b9c82a39718b72a6ffcc529680aa068866806637d",
+  "truncated": false
+}

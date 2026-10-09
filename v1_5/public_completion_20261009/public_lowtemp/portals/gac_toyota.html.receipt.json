@@ -1,0 +1,32 @@
+{
+  "requested_url": "https://www.gac-toyota.com.cn/",
+  "retrieved_utc": "2026-10-09T07:43:07.538464+00:00",
+  "local_file": "portals/gac_toyota.html",
+  "purpose": "广汽丰田公共官网入口",
+  "query": "",
+  "target_models": [
+    "GTM6470BFEBEV"
+  ],
+  "tls_verification": true,
+  "status": "ok",
+  "http_status": 200,
+  "final_url": "https://www.gac-toyota.com.cn/",
+  "response_headers": {
+    "date": "Fri, 09 Oct 2026 07:43:08 GMT",
+    "content-type": "text/html; charset=utf-8",
+    "content-length": "16376",
+    "expires": "Wed, 30 Sep 2026 04:08:37 GMT",
+    "server": "envoy",
+    "cache-control": "no-cache, no-store",
+    "pragma": "no-cache",
+    "x-frame-options": "SAMEORIGIN",
+    "x-via": "1.1 PS-NTG-01IYz58:18 (Cdn Cache Server V2.0), 1.1 PS-FOC-01tmR97:11 (Cdn Cache Server V2.0), 1.1 PSmgzjgORD1rk42:8 (Cdn Cache Server V2.0)",
+    "age": "786774",
+    "x-ws-request-id": "6ac89b0c_PSmgzjgORD1rk42_52434-38990",
+    "x-envoy-upstream-service-time": "48",
+    "connection": "close"
+  },
+  "bytes": 16376,
+  "sha256": "8aef40403e2082252cee07184b1e3054a8996017e40f77709c518bb0358bd03f",
+  "truncated": false
+}

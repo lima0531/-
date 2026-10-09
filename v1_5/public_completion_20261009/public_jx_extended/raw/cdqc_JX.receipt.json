@@ -1,0 +1,14 @@
+{
+  "name": "cdqc_JX",
+  "requested_url": "https://www.cdqc.org.cn/2747/15877/643981",
+  "purpose": "Public third-party candidate pointer only; determine whether official linked original exists",
+  "retrieved_at_utc": "2026-10-09T07:44:30.189503+00:00",
+  "tls_verified": true,
+  "http_status": 200,
+  "final_url": "https://www.cdqc.org.cn/2747/15877/643981",
+  "bytes": 100816,
+  "sha256": "47ad3da3d7bffdbde07589bf0581b146960f67b75f5a8b8e209f82a689be0adf",
+  "local_file": "raw/cdqc_JX.html",
+  "response_content_type": "text/html; charset=utf-8",
+  "status": "received"
+}

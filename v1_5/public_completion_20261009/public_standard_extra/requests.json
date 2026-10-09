@@ -1,0 +1,26 @@
+[
+  {
+    "name": "catarc_public_draft",
+    "requested_url": "https://zxd.catarc.org.cn/zxd/portal/zqyj/488",
+    "observed_utc": "2026-10-09T08:05:45.889378+00:00",
+    "tls_verified": true,
+    "http_status": 200,
+    "final_url": "https://zxd.catarc.org.cn/zxd/portal/zqyj/488",
+    "status": "received",
+    "file": "catarc_public_draft.html",
+    "bytes": 86116,
+    "sha256": "5d1038871ef27bf4ebae53a47b4e8268ca4653db9671ff0379c5c5f45190546a"
+  },
+  {
+    "name": "national_library_detail",
+    "requested_url": "https://www.ndls.org.cn/standard/detail/9fb455d9b0f4f957604e59ea3abf3510",
+    "observed_utc": "2026-10-09T08:05:45.889758+00:00",
+    "tls_verified": true,
+    "http_status": 200,
+    "final_url": "https://www.ndls.org.cn/standard/detail/9fb455d9b0f4f957604e59ea3abf3510",
+    "status": "received",
+    "file": "national_library_detail.html",
+    "bytes": 147118,
+    "sha256": "f67110fdf56516927e9756972e63b4bcbc3192a1560844bcb9e3981ac3efaa88"
+  }
+]

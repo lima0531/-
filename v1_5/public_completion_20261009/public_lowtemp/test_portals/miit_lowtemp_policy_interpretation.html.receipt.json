@@ -1,0 +1,33 @@
+{
+  "requested_url": "https://www.miit.gov.cn/zwgk/zcjd/art/2023/art_907c636158d249d886a2ce661bcc4278.html",
+  "retrieved_utc": "2026-10-09T07:48:40.243527+00:00",
+  "local_file": "test_portals/miit_lowtemp_policy_interpretation.html",
+  "purpose": "工信部低温减免例外解释；政策条件不是目标配置试验观察",
+  "query": "",
+  "target_models": [],
+  "tls_verification": true,
+  "status": "ok",
+  "http_status": 200,
+  "final_url": "https://www.miit.gov.cn/zwgk/zcjd/art/2023/art_907c636158d249d886a2ce661bcc4278.html",
+  "response_headers": {
+    "date": "Fri, 09 Oct 2026 07:48:44 GMT",
+    "content-type": "text/html; charset=utf-8",
+    "content-length": "16110",
+    "vary": "Accept-Encoding",
+    "last-modified": "Wed, 31 Dec 2025 14:30:01 GMT",
+    "etag": "\"69553369-3eee\"",
+    "accept-ranges": "bytes",
+    "x-kong-upstream-latency": "18",
+    "x-kong-proxy-latency": "0",
+    "via": "kong/1.4.3",
+    "x-via-jsl": "c80bc51,-",
+    "set-cookie": "__jsluid_s=161a850f93002b1d1b67746636fb2242; max-age=31536000; path=/; HttpOnly; SameSite=None; secure",
+    "x-cache": "bypass",
+    "x-envoy-upstream-service-time": "908",
+    "server": "envoy",
+    "connection": "close"
+  },
+  "bytes": 16110,
+  "sha256": "2c92c89c8720e728f6b89eb53ba6d93de7b003c515804052936ce25e20e51d40",
+  "truncated": false
+}

@@ -1,0 +1,26 @@
+{
+  "requested_url": "https://www.cqc.com.cn/",
+  "retrieved_utc": "2026-10-09T07:43:11.341696+00:00",
+  "local_file": "portals/cqc.html",
+  "purpose": "中国质量认证中心公开认证入口；CCC不能替代附录A报告",
+  "query": "",
+  "target_models": [],
+  "tls_verification": true,
+  "status": "ok",
+  "http_status": 200,
+  "final_url": "https://www.cqc.com.cn/",
+  "response_headers": {
+    "date": "Fri, 09 Oct 2026 07:43:13 GMT",
+    "server": "envoy",
+    "last-modified": "Fri, 26 Dec 2025 00:41:03 GMT",
+    "etag": "\"9e-646d025ef73c7\"",
+    "accept-ranges": "bytes",
+    "content-length": "158",
+    "content-type": "text/html",
+    "x-envoy-upstream-service-time": "1032",
+    "connection": "close"
+  },
+  "bytes": 158,
+  "sha256": "10b519c75dc1ea6986ee974f5504671887ef1e1a49ff97e891886bd3bb5b07a2",
+  "truncated": false
+}

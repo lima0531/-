@@ -1,0 +1,11 @@
+{
+  "requested_url": "https://www.gatc.ac.cn/search/?title=JNJ7000EVF4&model=article%2Cpic&navlist=329",
+  "retrieved_utc": "2026-10-09T07:47:24.397229+00:00",
+  "local_file": "institution_queries/gatc_JNJ7000EVF4.html",
+  "purpose": "广州检验中心官网可见GET搜索表单查询",
+  "query": "JNJ7000EVF4",
+  "target_models": [],
+  "tls_verification": true,
+  "status": "fetch_error",
+  "error": "URLError(OSError('Tunnel connection failed: 403 Forbidden'))"
+}

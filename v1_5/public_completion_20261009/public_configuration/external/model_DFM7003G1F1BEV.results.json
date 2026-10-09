@@ -1,0 +1,144 @@
+{
+  "model_key": "DFM7003G1F1BEV",
+  "requested_q": "\"DFM7003G1F1BEV\"",
+  "query_echo": "\"DFM7003G1F1BEV\"",
+  "receipt": {
+    "requested_url": "https://www.bing.com/search?q=%22DFM7003G1F1BEV%22&mkt=zh-CN&setlang=zh-hans&count=10",
+    "retrieved_utc": "2026-10-09T07:46:55.158377+00:00",
+    "tls_verification": true,
+    "status": "ok",
+    "http_status": 200,
+    "final_url": "https://www.bing.com/search?q=%22DFM7003G1F1BEV%22&mkt=zh-CN&setlang=zh-hans&count=10",
+    "bytes": 104545,
+    "sha256": "79f6b82e45a88835f96bbedb4729ae8794f7d2cd37ec4d406f4118c69e5f443d",
+    "response_headers": {
+      "content-type": "text/html; charset=utf-8",
+      "cache-control": "private, max-age=0",
+      "expires": "Fri, 09 Oct 2026 07:45:55 GMT",
+      "vary": "User-Agent,Accept-Encoding",
+      "x-eventid": "6ac89bef3549438ea1b7b250436d48d3",
+      "x-as-setsessionmarket": "zh-CN",
+      "x-as-setsessionuilang": "zh-hans",
+      "useragentreductionoptout": "A7kgTC5xdZ2WIVGZEfb1hUoNuvjzOZX3VIV/BA6C18kQOOF50Q0D3oWoAm49k3BQImkujKILc7JmPysWk3CSjwUAAACMeyJvcmlnaW4iOiJodHRwczovL3d3dy5iaW5nLmNvbTo0NDMiLCJmZWF0dXJlIjoiU2VuZEZ1bGxVc2VyQWdlbnRBZnRlclJlZHVjdGlvbiIsImV4cGlyeSI6MTY4NDg4NjM5OSwiaXNTdWJkb21haW4iOnRydWUsImlzVGhpcmRQYXJ0eSI6dHJ1ZX0=",
+      "strict-transport-security": "max-age=31536000; includeSubDomains; preload",
+      "permissions-policy": "unload=()",
+      "content-security-policy": "script-src https: 'strict-dynamic' 'report-sample' 'wasm-unsafe-eval' 'nonce-S9rnx+vAMcy6uT8/DJHfkNh7mq3UIpgQ2X3cZO2QcFQ='; base-uri 'self';",
+      "p3p": "CP=\"NON UNI COM NAV STA LOC CURa DEVa PSAa PSDa OUR IND\"",
+      "x-display-context": "full",
+      "date": "Fri, 09 Oct 2026 07:46:55 GMT",
+      "set-cookie": "_SS=SID=224D690E67A86FF41E807EE366656EC0; domain=.bing.com; path=/",
+      "alt-svc": "h3=\":443\"; ma=93600",
+      "x-cdn-traceid": "0.c41c2117.1791532015.97fbf53",
+      "x-envoy-upstream-service-time": "88",
+      "server": "envoy",
+      "connection": "close",
+      "transfer-encoding": "chunked"
+    },
+    "relative_path": "external/model_DFM7003G1F1BEV.html"
+  },
+  "hits": [
+    {
+      "model_key": "DFM7003G1F1BEV",
+      "result_url": "https://www.reddit.com/r/webdev/comments/8tjavu/now_that_the_free_wunderground_api_has_been/",
+      "result_text": "reddit.com https://www.reddit.com › webdev › comments › now_that_the_free_wunderground_api_h… Now that the free Wunderground API has been killed, let's talk 2018年6月24日 · This is because OWM has only 40,000 weather stations (vs Wunderground's 250,000). In addition, OWM updates …    ",
+      "exact_model_in_result_text": 0,
+      "government_domain_candidate": 0,
+      "usable_as_scientific_evidence": 0,
+      "source_search_file": "external/model_DFM7003G1F1BEV.html",
+      "source_search_sha256": "79f6b82e45a88835f96bbedb4729ae8794f7d2cd37ec4d406f4118c69e5f443d"
+    },
+    {
+      "model_key": "DFM7003G1F1BEV",
+      "result_url": "https://www.reddit.com/r/meteorology/",
+      "result_text": "reddit.com https://www.reddit.com › meteorology meteorology: we all love the weather - Reddit For anyone from professionals to hobbyists. For weather related articles, exciting weather events and sharing our favorite weather …",
+      "exact_model_in_result_text": 0,
+      "government_domain_candidate": 0,
+      "usable_as_scientific_evidence": 0,
+      "source_search_file": "external/model_DFM7003G1F1BEV.html",
+      "source_search_sha256": "79f6b82e45a88835f96bbedb4729ae8794f7d2cd37ec4d406f4118c69e5f443d"
+    },
+    {
+      "model_key": "DFM7003G1F1BEV",
+      "result_url": "https://www.zhihu.com/question/37935548",
+      "result_text": "zhihu.com https://www.zhihu.com › question weather channel 在国内有自己的数据来源吗？还是引用中国 ... 2016年2月1日 · weather channel 在国内有自己的数据来源吗？ 还是引用中国天气网的数据？ 现在很多天气预报都是引用了中国天气 …",
+      "exact_model_in_result_text": 0,
+      "government_domain_candidate": 0,
+      "usable_as_scientific_evidence": 0,
+      "source_search_file": "external/model_DFM7003G1F1BEV.html",
+      "source_search_sha256": "79f6b82e45a88835f96bbedb4729ae8794f7d2cd37ec4d406f4118c69e5f443d"
+    },
+    {
+      "model_key": "DFM7003G1F1BEV",
+      "result_url": "https://www.zhihu.com/question/525202713",
+      "result_text": "zhihu.com https://www.zhihu.com › question what's the weather like为什么可以有两个动词? - 知乎 2022年3月31日 · 「What's the weather like?」は、天気を尋ねる表現で、2つの動詞が使われている理由について解説しています。",
+      "exact_model_in_result_text": 0,
+      "government_domain_candidate": 0,
+      "usable_as_scientific_evidence": 0,
+      "source_search_file": "external/model_DFM7003G1F1BEV.html",
+      "source_search_sha256": "79f6b82e45a88835f96bbedb4729ae8794f7d2cd37ec4d406f4118c69e5f443d"
+    },
+    {
+      "model_key": "DFM7003G1F1BEV",
+      "result_url": "https://www.reddit.com/r/weather/comments/10siqz6/what_is_the_best_weather_website_desktop/",
+      "result_text": "reddit.com https://www.reddit.com › weather › comments › what_is_the_best_weather_website_desk… What is the “best” weather website (desktop) : r/weather - Reddit 2023年2月3日 · Weather underground used to be great until it was bought by IBM who turned into weather.com. I’m looking for a …",
+      "exact_model_in_result_text": 0,
+      "government_domain_candidate": 0,
+      "usable_as_scientific_evidence": 0,
+      "source_search_file": "external/model_DFM7003G1F1BEV.html",
+      "source_search_sha256": "79f6b82e45a88835f96bbedb4729ae8794f7d2cd37ec4d406f4118c69e5f443d"
+    },
+    {
+      "model_key": "DFM7003G1F1BEV",
+      "result_url": "https://www.reddit.com/r/AtlantaWeather/",
+      "result_text": "reddit.com https://www.reddit.com › AtlantaWeather Atlanta Weather - Reddit Upcoming weather alerts, weather analysis and discussion for the Atlanta area.",
+      "exact_model_in_result_text": 0,
+      "government_domain_candidate": 0,
+      "usable_as_scientific_evidence": 0,
+      "source_search_file": "external/model_DFM7003G1F1BEV.html",
+      "source_search_sha256": "79f6b82e45a88835f96bbedb4729ae8794f7d2cd37ec4d406f4118c69e5f443d"
+    },
+    {
+      "model_key": "DFM7003G1F1BEV",
+      "result_url": "https://www.reddit.com/r/providence/comments/14dlfty/weather_in_rhode_island/",
+      "result_text": "reddit.com https://www.reddit.com › providence › comments › weather_in_rhode_island Weather in Rhode Island : r/providence - Reddit 2023年6月19日 · You will need gloves December - March. If you're new to cold weather, ensure your heat is on and/or your tap is …",
+      "exact_model_in_result_text": 0,
+      "government_domain_candidate": 0,
+      "usable_as_scientific_evidence": 0,
+      "source_search_file": "external/model_DFM7003G1F1BEV.html",
+      "source_search_sha256": "79f6b82e45a88835f96bbedb4729ae8794f7d2cd37ec4d406f4118c69e5f443d"
+    },
+    {
+      "model_key": "DFM7003G1F1BEV",
+      "result_url": "https://www.reddit.com/r/fo4/comments/3sh8yg/weather_codes/",
+      "result_text": "reddit.com https://www.reddit.com › comments › weather_codes Weather codes? : r/fo4 - Reddit 2015年11月12日 · so, i've been devoting my life to fallout 4 like i assume many of you have done, and i have really come to enjoy the …",
+      "exact_model_in_result_text": 0,
+      "government_domain_candidate": 0,
+      "usable_as_scientific_evidence": 0,
+      "source_search_file": "external/model_DFM7003G1F1BEV.html",
+      "source_search_sha256": "79f6b82e45a88835f96bbedb4729ae8794f7d2cd37ec4d406f4118c69e5f443d"
+    },
+    {
+      "model_key": "DFM7003G1F1BEV",
+      "result_url": "https://www.reddit.com/r/CARROTweather/",
+      "result_text": "reddit.com https://www.reddit.com › CARROTweather CARROT Weather - Reddit CARROT Weather is a crazy-powerful weather app for iOS and Android.",
+      "exact_model_in_result_text": 0,
+      "government_domain_candidate": 0,
+      "usable_as_scientific_evidence": 0,
+      "source_search_file": "external/model_DFM7003G1F1BEV.html",
+      "source_search_sha256": "79f6b82e45a88835f96bbedb4729ae8794f7d2cd37ec4d406f4118c69e5f443d"
+    },
+    {
+      "model_key": "DFM7003G1F1BEV",
+      "result_url": "https://www.reddit.com/r/weather/comments/ziws8m/what_is_the_best_and_most_accurate_weather_app/",
+      "result_text": "reddit.com https://www.reddit.com › weather › comments › what_is_the_best_and_most_accurate... what is the best and most accurate weather app - Reddit 2022年12月11日 · The vast amount of weather data they collect only becomes meaningful when combined with the scientific …",
+      "exact_model_in_result_text": 0,
+      "government_domain_candidate": 0,
+      "usable_as_scientific_evidence": 0,
+      "source_search_file": "external/model_DFM7003G1F1BEV.html",
+      "source_search_sha256": "79f6b82e45a88835f96bbedb4729ae8794f7d2cd37ec4d406f4118c69e5f443d"
+    }
+  ],
+  "exact_model_relevant_hits": 0,
+  "same_model_is_configuration_identity": false,
+  "negative_search_conclusion_permitted": false
+}

@@ -1,0 +1,18 @@
+{
+  "key": "gac_api",
+  "firm": "广汽丰田汽车有限公司",
+  "requested_url": "https://www.gac-toyota.com.cn/2022/src/utils/api.js",
+  "url_basis": "round9/public_lowtemp/portals/gac_toyota.html script src",
+  "retrieved_utc": "2026-10-09T07:47:26.056974+00:00",
+  "tls_verification": true,
+  "method": "GET_only_no_submission",
+  "external_message_sent": false,
+  "http_status": 200,
+  "final_url": "https://www.gac-toyota.com.cn/2022/src/utils/api.js",
+  "content_type": "application/javascript",
+  "truncated": false,
+  "status": "retrieved",
+  "source_file": "contact_sources/gac_api.txt",
+  "bytes": 7231,
+  "sha256": "8612b9010edb8beec556ea5f2e5e585bb5d9940f8266298d6faafffe8a33ee27"
+}

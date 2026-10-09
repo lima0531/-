@@ -1,0 +1,13 @@
+{
+  "name": "catarc_2025_19_approval",
+  "requested_url": "https://zxd.catarc.org.cn/zxd/portal/bzgg/365/bzgg",
+  "observed_utc": "2026-10-09T08:11:50.507152+00:00",
+  "tls_verified": true,
+  "context": "实际公告菜单第2页严格416标准3修改单条目",
+  "http_status": 200,
+  "status": "received",
+  "final_url": "https://zxd.catarc.org.cn/zxd/portal/bzgg/365/bzgg",
+  "file": "catarc_2025_19_approval.html",
+  "bytes": 116151,
+  "sha256": "3dc42dea87b24479f2c75264d80077312ef2cc6bb52be5d9f018edd3de799dad"
+}

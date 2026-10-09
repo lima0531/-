@@ -1,0 +1,2 @@
+﻿firm_routing_name,model_key,JX原空能量,32联合跨界,4单项细分,92逐车资格,2208试验口径,purpose_scopes,source_versions_json,same_model_is_same_configuration,reply_rule
+海南海马汽车有限公司,HMC6482PM0BEV,0,0,0,0,1,2208试验口径,"[{""purpose_scope"":""2208试验口径"",""source_record_ids"":""old-58-Word97--0-15"",""source_observation_date_upper"":""2022-09-16"",""source_file"":""原件/免征目录/mf_batch58.doc"",""source_sha256"":""b642358bb3078d2dde909a798935c0c1fc75d90f22b33f7c48aa87209acc100d"",""firm_route_basis"":""原记录firm_raw""}]",0,按来源/日期/配置版本分别答复；同型号合并附件不等于同配置或逐车资格认证

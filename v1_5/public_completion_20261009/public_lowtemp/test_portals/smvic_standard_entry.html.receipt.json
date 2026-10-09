@@ -1,0 +1,15 @@
+{
+  "requested_url": "https://hss.smvic.com.cn/indexnews/330",
+  "retrieved_utc": "2026-10-09T07:48:40.242574+00:00",
+  "local_file": "test_portals/smvic_standard_entry.html",
+  "purpose": "机构平台标准条目；标准文本不能替代配置试验报告",
+  "query": "",
+  "target_models": [],
+  "tls_verification": true,
+  "status": "http_error",
+  "http_status": 503,
+  "error": "HTTP Error 503: Service Unavailable",
+  "final_url": "https://hss.smvic.com.cn/indexnews/330",
+  "bytes": 91,
+  "sha256": "2f85832e31ca57711e6107af6b142363351ae516adb71c69afc643fac26be7f6"
+}

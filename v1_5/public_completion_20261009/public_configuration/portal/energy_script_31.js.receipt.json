@@ -1,0 +1,32 @@
+{
+  "requested_url": "https://yhgscx.miit.gov.cn/fuel-consumption-web/js/app.js",
+  "retrieved_utc": "2026-10-09T07:44:32.236988+00:00",
+  "tls_verification": true,
+  "status": "ok",
+  "http_status": 200,
+  "final_url": "https://yhgscx.miit.gov.cn/fuel-consumption-web/js/app.js",
+  "bytes": 1282817,
+  "sha256": "ef48b95f266c08103f35e84054546d982dbe7cba64fd3f2837138097138cab43",
+  "response_headers": {
+    "date": "Fri, 09 Oct 2026 07:44:35 GMT",
+    "content-type": "application/javascript; charset=UTF-8",
+    "content-length": "1282817",
+    "accept-ranges": "bytes",
+    "etag": "\"6822f34a-139301\"",
+    "last-modified": "Tue, 13 May 2025 07:22:50 GMT",
+    "set-cookie": "route=1791531875.223.6215.326659; Expires=Sun, 11-Oct-26 07:44:35 GMT; Max-Age=172800; Path=/; Secure; HttpOnly",
+    "strict-transport-security": "max-age=15724800; includeSubDomains",
+    "vary": "Accept-Encoding",
+    "via": "kong/1.4.3",
+    "x-kong-proxy-latency": "0",
+    "x-kong-upstream-latency": "10",
+    "wzws-ray": "012-1791531875.280-src-cache02fst-waf03fst",
+    "cache-control": "max-age=14400",
+    "age": "0",
+    "var-cache": "miss:Cookie",
+    "x-envoy-upstream-service-time": "2440",
+    "server": "envoy",
+    "connection": "close"
+  },
+  "relative_path": "portal/energy_script_31.js"
+}

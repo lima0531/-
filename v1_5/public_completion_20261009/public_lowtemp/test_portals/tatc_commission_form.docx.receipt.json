@@ -1,0 +1,29 @@
+{
+  "requested_url": "https://www.tatc.com.cn/member/files/645504855661707264.docx",
+  "retrieved_utc": "2026-10-09T07:46:37.541969+00:00",
+  "local_file": "test_portals/tatc_commission_form.docx",
+  "purpose": "官网链接的公开委托单，只提供询证渠道",
+  "query": "",
+  "target_models": [],
+  "tls_verification": true,
+  "status": "ok",
+  "http_status": 200,
+  "final_url": "https://www.tatc.com.cn/member/files/645504855661707264.docx",
+  "response_headers": {
+    "date": "Fri, 09 Oct 2026 07:46:40 GMT",
+    "content-type": "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
+    "content-length": "19876",
+    "server": "envoy",
+    "vary": "Origin,Access-Control-Request-Method,Access-Control-Request-Headers",
+    "last-modified": "Fri, 29 Nov 2024 02:16:42 GMT",
+    "accept-ranges": "bytes",
+    "x-frame-options": "SAMEORIGIN",
+    "set-cookie": "Path=/; HttpOnly; Secure",
+    "x-ct-request-id": "d1bcc310bb6ce33afed0d538652fd92b",
+    "x-envoy-upstream-service-time": "672",
+    "connection": "close"
+  },
+  "bytes": 19876,
+  "sha256": "8975b0ce8c3a9e0e1c31f6dec2a3cfd4c113cad67b32bf66ceaddc0dcc1165ff",
+  "truncated": false
+}

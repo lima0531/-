@@ -1,0 +1,185 @@
+{
+  "query": "新能源汽车 低温 检测报告",
+  "receipt": {
+    "requested_url": "https://www.miit.gov.cn/search-front-server/api/search/info?websiteid=110000000000000&scope=basic&q=%E6%96%B0%E8%83%BD%E6%BA%90%E6%B1%BD%E8%BD%A6+%E4%BD%8E%E6%B8%A9+%E6%A3%80%E6%B5%8B%E6%8A%A5%E5%91%8A&pg=10&p=1&cateid=47&pos=title_text%2Ctitlepy%2Cinfocontent%2Cfilenumbername%2Ckeyword%2Ccontentdescribe&selectFields=title%2Ccontent%2Cdeploytime%2C_index%2Curl%2Ccdate%2Cinfoextends%2Cinfocontentattribute%2Ckeyword%2Ccontentdescribe%2Csectitle%2Cpicpath%2Ccolumnname%2Cthemename%2Cpublishgroupname%2Cpublishtime%2Cmetaid%2Cbexxgk%2Ccolumnid%2Cinfocontenthashcode&group=distinct&level=6&sortFields=%5B%7B%22name%22%3A%22deploytime%22%2C%22type%22%3A%22desc%22%7D%5D",
+    "retrieved_utc": "2026-10-09T07:46:02.485017+00:00",
+    "local_file": "search_validated/lowtemp_reports.json",
+    "purpose": "工信部公共全文搜索：查同型号/配置公开低温检测证据（完整有效接口参数）",
+    "query": "新能源汽车 低温 检测报告",
+    "target_models": [],
+    "tls_verification": true,
+    "status": "ok",
+    "http_status": 200,
+    "final_url": "https://www.miit.gov.cn/search-front-server/api/search/info?websiteid=110000000000000&scope=basic&q=%E6%96%B0%E8%83%BD%E6%BA%90%E6%B1%BD%E8%BD%A6+%E4%BD%8E%E6%B8%A9+%E6%A3%80%E6%B5%8B%E6%8A%A5%E5%91%8A&pg=10&p=1&cateid=47&pos=title_text%2Ctitlepy%2Cinfocontent%2Cfilenumbername%2Ckeyword%2Ccontentdescribe&selectFields=title%2Ccontent%2Cdeploytime%2C_index%2Curl%2Ccdate%2Cinfoextends%2Cinfocontentattribute%2Ckeyword%2Ccontentdescribe%2Csectitle%2Cpicpath%2Ccolumnname%2Cthemename%2Cpublishgroupname%2Cpublishtime%2Cmetaid%2Cbexxgk%2Ccolumnid%2Cinfocontenthashcode&group=distinct&level=6&sortFields=%5B%7B%22name%22%3A%22deploytime%22%2C%22type%22%3A%22desc%22%7D%5D",
+    "response_headers": {
+      "date": "Fri, 09 Oct 2026 07:46:04 GMT",
+      "content-type": "text/html;charset=UTF-8",
+      "content-length": "8545544",
+      "vary": "Accept-Encoding",
+      "set-cookie": "__jsluid_s=53bb11cb5905870d1c5bbec0a6903eed; max-age=31536000; path=/; HttpOnly; SameSite=None; secure",
+      "x-kong-upstream-latency": "2045",
+      "x-kong-proxy-latency": "0",
+      "via": "kong/1.4.3",
+      "x-via-jsl": "d048423,-",
+      "x-cache": "bypass",
+      "x-envoy-upstream-service-time": "2449",
+      "server": "envoy",
+      "connection": "close"
+    },
+    "bytes": 8545544,
+    "sha256": "c62917081a47631de8dac70a7cc85bae19304c366e0e0c2778b51a27d5658692",
+    "truncated": false
+  },
+  "json_parsed": true,
+  "returned_hits": 21,
+  "pagination_scope": "第1页pg=10；同文章可能返回多个栏目URL；不是全网穷尽搜索",
+  "hits": [
+    {
+      "title": "持续向新向优发展！国新办就2026年上半年工业和信息化发展情况举行新闻发布会",
+      "url": "http://www.miit.gov.cn/xwfb/bldhd/art/2026/art_bc4cf76777cb4fd2896082ca2ff7039d.html",
+      "deploytime": "1784529262119",
+      "cdate": "1784476800000",
+      "publishtime": "1784538823061"
+    },
+    {
+      "title": "持续向新向优发展！国新办就2026年上半年工业和信息化发展情况举行新闻发布会",
+      "url": "/xwfb/bldhd/art/2026/art_bc4cf76777cb4fd2896082ca2ff7039d.html",
+      "deploytime": "1784529262119",
+      "cdate": "1784476800000",
+      "publishtime": "1784538788471"
+    },
+    {
+      "title": "《关于调整减免车辆购置税新能源汽车产品技术要求的公告》解读",
+      "url": "/jgsj/zbys/gzdt/art/2023/art_7e857442bb414d20a8b1a350b19a26b2.html",
+      "deploytime": "1702276785004",
+      "cdate": "1702224000000",
+      "publishtime": "1702276961844"
+    },
+    {
+      "title": "《关于调整减免车辆购置税新能源汽车产品技术要求的公告》解读",
+      "url": "/zwgk/zcjd/art/2023/art_907c636158d249d886a2ce661bcc4278.html",
+      "deploytime": "1702276785004",
+      "cdate": "1702224000000",
+      "publishtime": "1702278081836"
+    },
+    {
+      "title": "《关于调整减免车辆购置税新能源汽车产品技术要求的公告》解读",
+      "url": "/jgsj/zbys/qcgy/art/2023/art_006ad43b25da4bab886f0238fd7d5527.html",
+      "deploytime": "1702276785004",
+      "cdate": "1702224000000",
+      "publishtime": "1702276786608"
+    },
+    {
+      "title": "《关于调整减免车辆购置税新能源汽车产品技术要求的公告》解读",
+      "url": "/ythzxfwpt/hlwmh/zcwj/xzxk/clsczr/art/2023/art_21ebe68971264c11b13c8e9d7502907f.html",
+      "deploytime": "1702275465463",
+      "cdate": "1702828800000",
+      "publishtime": "1702880288171"
+    },
+    {
+      "title": "2018年度二等奖：以绿色发展为目标的新能源电池全生命周期管理",
+      "url": "/jgsj/zxqyj/glcx/art/2020/art_bf448658b1584266b76034b54550c913.html",
+      "deploytime": "1569222525000",
+      "cdate": "1583769600000",
+      "publishtime": "1683904668966"
+    },
+    {
+      "title": "2018年度二等奖：以绿色发展为目标的新能源电池全生命周期管理",
+      "url": "/jgsj/qyj/myqyglxdhcxcghb/art/2020/art_3b2b3e35419a499693122ba35f4ee29b.html",
+      "deploytime": "1569222525000",
+      "cdate": "1569168000000",
+      "publishtime": "1683904708898"
+    },
+    {
+      "title": "《绿色制造工程实施指南（2016-2020年）》正式发布",
+      "url": "/jgsj/jns/lszz/art/2020/art_54723acbfcbd4b32a8086de4c329a297.html",
+      "deploytime": "1473833837000",
+      "cdate": "1473782400000",
+      "publishtime": "1683904651330"
+    },
+    {
+      "title": "《绿色制造工程实施指南（2016-2020年）》正式发布",
+      "url": "/jgsj/jns/gzdt/art/2020/art_8165977d5f184b2c911ab7d5ee21490a.html",
+      "deploytime": "1473833837000",
+      "cdate": "1473782400000",
+      "publishtime": "1683904674732"
+    },
+    {
+      "title": "工业和信息化部关于印发《工业绿色发展规划（2016-2020年）》的通知",
+      "url": "/zwgk/zcwj/wjfb/tz/art/2016/art_3be20fef641e4ef18c399dd907ddeae8.html",
+      "deploytime": "1468771200000",
+      "cdate": "1468771200000",
+      "publishtime": "1740473567916"
+    },
+    {
+      "title": "工业和信息化部关于印发工业绿色发展规划（2016-2020年）的通知",
+      "url": "/jgsj/jns/gzdt/art/2020/art_4290757b7785460795cc49f4fc3ecba4.html",
+      "deploytime": "1468771200000",
+      "cdate": "1468771200000",
+      "publishtime": "1683904674732"
+    },
+    {
+      "title": "工业和信息化部关于印发工业绿色发展规划（2016-2020年）的通知",
+      "url": "/jgsj/jns/wjfb/art/2020/art_d66bb56744d9433d827bdb571de9a250.html",
+      "deploytime": "1468771200000",
+      "cdate": "1468771200000",
+      "publishtime": "1683904731155"
+    },
+    {
+      "title": "《汽车动力蓄电池行业规范条件》公告",
+      "url": "/zwgk/zcwj/wjfb/tg/art/2020/art_3aa31303ce75453ba93963f57032538d.html",
+      "deploytime": "1427356054000",
+      "cdate": "1449158400000",
+      "publishtime": "1683905238345"
+    },
+    {
+      "title": "工业和信息化部发布《汽车动力蓄电池行业规范条件》",
+      "url": "/jgsj/zbys/wjfb/art/2020/art_21c38e6692b349409ae83fb4e95d393f.html",
+      "deploytime": "1427356054000",
+      "cdate": "1427385600000",
+      "publishtime": "1683904752730"
+    },
+    {
+      "title": "工业和信息化部发布《汽车动力蓄电池行业规范条件》",
+      "url": "/jgsj/zbys/gzdt/art/2020/art_c514131571b0446182c9f8ca32347801.html",
+      "deploytime": "1427356054000",
+      "cdate": "1427385600000",
+      "publishtime": "1683905369044"
+    },
+    {
+      "title": "工业和信息化部发布《汽车动力蓄电池行业规范条件》",
+      "url": "/jgsj/zbes/gzdt/art/2020/art_c005290dbc8f4ac2b62e4d25b2ef3bc6.html",
+      "deploytime": "1427356054000",
+      "cdate": "1582819200000",
+      "publishtime": "1683905381359"
+    },
+    {
+      "title": "工业和信息化部发布《汽车动力蓄电池行业规范条件》",
+      "url": "/jgsj/zbys/qcgy/art/2020/art_a52368c4713744f6aff4c2040a10bb8d.html",
+      "deploytime": "1427356054000",
+      "cdate": "1427385600000",
+      "publishtime": "1683904731155"
+    },
+    {
+      "title": "关于印发《工业节能“十二五”规划》的通知",
+      "url": "/jgsj/jns/nyjy/art/2020/art_3547e078496143eebf8fddfb64020384.html",
+      "deploytime": "1330320806000",
+      "cdate": "1330358400000",
+      "publishtime": "1683904696296"
+    },
+    {
+      "title": "关于印发《工业节能“十二五”规划》的通知",
+      "url": "/jgsj/jns/gzdt/art/2020/art_3a27e123fc3f4784a548d638fafa90c7.html",
+      "deploytime": "1330320806000",
+      "cdate": "1330358400000",
+      "publishtime": "1683904679537"
+    },
+    {
+      "title": "关于印发《工业节能“十二五”规划》的通知",
+      "url": "/jgsj/jns/wjfb/art/2020/art_92874a5e28954473ad00d89d0e28becc.html",
+      "deploytime": "1330320806000",
+      "cdate": "1330358400000",
+      "publishtime": "1683904725854"
+    }
+  ]
+}

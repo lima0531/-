@@ -1,0 +1,30 @@
+{
+  "requested_url": "https://www.miit.gov.cn/search-front-server/api/search/info?websiteid=110000000000000&scope=basic&q=%E6%96%B0%E8%83%BD%E6%BA%90%E6%B1%BD%E8%BD%A6+%E4%BD%8E%E6%B8%A9+%E6%A3%80%E6%B5%8B%E6%8A%A5%E5%91%8A&pg=10&p=1&cateid=47&pos=title_text%2Ctitlepy%2Cinfocontent%2Cfilenumbername%2Ckeyword%2Ccontentdescribe&selectFields=title%2Ccontent%2Cdeploytime%2C_index%2Curl%2Ccdate%2Cinfoextends%2Cinfocontentattribute%2Ckeyword%2Ccontentdescribe%2Csectitle%2Cpicpath%2Ccolumnname%2Cthemename%2Cpublishgroupname%2Cpublishtime%2Cmetaid%2Cbexxgk%2Ccolumnid%2Cinfocontenthashcode&group=distinct&level=6&sortFields=%5B%7B%22name%22%3A%22deploytime%22%2C%22type%22%3A%22desc%22%7D%5D",
+  "retrieved_utc": "2026-10-09T07:46:02.485017+00:00",
+  "local_file": "search_validated/lowtemp_reports.json",
+  "purpose": "工信部公共全文搜索：查同型号/配置公开低温检测证据（完整有效接口参数）",
+  "query": "新能源汽车 低温 检测报告",
+  "target_models": [],
+  "tls_verification": true,
+  "status": "ok",
+  "http_status": 200,
+  "final_url": "https://www.miit.gov.cn/search-front-server/api/search/info?websiteid=110000000000000&scope=basic&q=%E6%96%B0%E8%83%BD%E6%BA%90%E6%B1%BD%E8%BD%A6+%E4%BD%8E%E6%B8%A9+%E6%A3%80%E6%B5%8B%E6%8A%A5%E5%91%8A&pg=10&p=1&cateid=47&pos=title_text%2Ctitlepy%2Cinfocontent%2Cfilenumbername%2Ckeyword%2Ccontentdescribe&selectFields=title%2Ccontent%2Cdeploytime%2C_index%2Curl%2Ccdate%2Cinfoextends%2Cinfocontentattribute%2Ckeyword%2Ccontentdescribe%2Csectitle%2Cpicpath%2Ccolumnname%2Cthemename%2Cpublishgroupname%2Cpublishtime%2Cmetaid%2Cbexxgk%2Ccolumnid%2Cinfocontenthashcode&group=distinct&level=6&sortFields=%5B%7B%22name%22%3A%22deploytime%22%2C%22type%22%3A%22desc%22%7D%5D",
+  "response_headers": {
+    "date": "Fri, 09 Oct 2026 07:46:04 GMT",
+    "content-type": "text/html;charset=UTF-8",
+    "content-length": "8545544",
+    "vary": "Accept-Encoding",
+    "set-cookie": "__jsluid_s=53bb11cb5905870d1c5bbec0a6903eed; max-age=31536000; path=/; HttpOnly; SameSite=None; secure",
+    "x-kong-upstream-latency": "2045",
+    "x-kong-proxy-latency": "0",
+    "via": "kong/1.4.3",
+    "x-via-jsl": "d048423,-",
+    "x-cache": "bypass",
+    "x-envoy-upstream-service-time": "2449",
+    "server": "envoy",
+    "connection": "close"
+  },
+  "bytes": 8545544,
+  "sha256": "c62917081a47631de8dac70a7cc85bae19304c366e0e0c2778b51a27d5658692",
+  "truncated": false
+}

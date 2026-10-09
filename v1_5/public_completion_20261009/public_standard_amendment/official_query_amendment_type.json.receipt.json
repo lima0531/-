@@ -1,0 +1,30 @@
+{
+  "request_url": "https://std.samr.gov.cn/gb/search/gbQueryPage?searchText=%E7%AC%AC1%E5%8F%B7%E4%BF%AE%E6%94%B9%E5%8D%95",
+  "retrieved_at_utc": "2026-10-09T07:55:06.930609+00:00",
+  "purpose": "检查公共标准查询是否列出修改单类型记录；非18386.1条目不得借日期或公告号",
+  "tls_verification": true,
+  "proxy_environment_preserved": true,
+  "request_method": "GET",
+  "automatic_redirects": false,
+  "same_url_retries": 0,
+  "http_status": 200,
+  "final_url": "https://std.samr.gov.cn/gb/search/gbQueryPage?searchText=%E7%AC%AC1%E5%8F%B7%E4%BF%AE%E6%94%B9%E5%8D%95",
+  "response_headers": {
+    "server": "envoy",
+    "date": "Fri, 09 Oct 2026 07:55:09 GMT",
+    "content-type": "application/json;charset=utf-8",
+    "content-length": "36",
+    "x-ratelimit-remaining": "199",
+    "x-ratelimit-requested-tokens": "1",
+    "x-ratelimit-burst-capacity": "200",
+    "x-ratelimit-replenish-rate": "80",
+    "x-envoy-upstream-service-time": "1024",
+    "connection": "close"
+  },
+  "bytes": 36,
+  "sha256": "39c824e6dc6faf61b718b1907496678df9e83ca8558be857ca45718f97060124",
+  "evidence_file": "official_query_amendment_type.json",
+  "status": "retrieved",
+  "stored_body_representation": "urllib.read after transfer decoding; Content-Encoding preserved",
+  "finished_at_utc": "2026-10-09T07:55:09.630532+00:00"
+}

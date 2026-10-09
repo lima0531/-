@@ -1,0 +1,24 @@
+{
+  "request_url": "https://www.mof.gov.cn/zhengwuxinxi/caijingshidian/zgcjb/201409/t20140918_1140952.htm",
+  "purpose": "真实财政部2014历史政策报道；仅核报道与完整公告/车型附件区分，不用新闻公布措辞认证首发",
+  "retrieved_at_utc": "2026-10-09T07:52:43.845772+00:00",
+  "request_method": "GET",
+  "tls_verification": true,
+  "retry_policy": "one request; cache receipt thereafter",
+  "http_status": 200,
+  "final_url": "https://www.mof.gov.cn/zhengwuxinxi/caijingshidian/zgcjb/201409/t20140918_1140952.htm",
+  "response_headers": {
+    "date": "Fri, 09 Oct 2026 07:52:48 GMT",
+    "content-type": "text/html",
+    "server": "envoy",
+    "x-via": "1.1 PS-000-011hX118:8 (Cdn Cache Server V2.0), 1.1 PS-CZX-01fE2137:15 (Cdn Cache Server V2.0), 1.1 PS-SIN-046Vq64:7 (Cdn Cache Server V2.0)",
+    "x-ws-request-id": "6ac89d4f_PS-SIN-046Vq64_5211-65200",
+    "x-envoy-upstream-service-time": "1056",
+    "connection": "close",
+    "transfer-encoding": "chunked"
+  },
+  "status": "retrieved",
+  "evidence_file": "/workspace/purchase_tax_audit/round9/public_first_batch/mof_historical_news.html",
+  "bytes": 25906,
+  "sha256": "6aff921e7548b6446179adeadf0acb0ae8f63e373b56798b186489761cd9a1ad"
+}

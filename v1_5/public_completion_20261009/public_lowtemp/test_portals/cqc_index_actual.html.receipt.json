@@ -1,0 +1,29 @@
+{
+  "requested_url": "https://www.cqc.com.cn/www/index.html",
+  "retrieved_utc": "2026-10-09T07:46:40.279462+00:00",
+  "local_file": "test_portals/cqc_index_actual.html",
+  "purpose": "官网JavaScript明确指向的公开入口",
+  "query": "",
+  "target_models": [],
+  "tls_verification": true,
+  "status": "ok",
+  "http_status": 200,
+  "final_url": "https://www.cqc.com.cn/www/index.html",
+  "response_headers": {
+    "date": "Fri, 09 Oct 2026 07:43:46 GMT",
+    "server": "envoy",
+    "strict-transport-security": "max-age=7200; includeSubDomains; preload",
+    "x-content-type-options": "nosniff",
+    "x-xss-protection": "1; mode=block",
+    "content-type": "text/html",
+    "content-length": "0",
+    "last-modified": "Fri, 09 Oct 2026 07:46:41 GMT",
+    "etag": "\"6ac89be1-0\"",
+    "accept-ranges": "bytes",
+    "x-envoy-upstream-service-time": "1020",
+    "connection": "close"
+  },
+  "bytes": 0,
+  "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+  "truncated": false
+}

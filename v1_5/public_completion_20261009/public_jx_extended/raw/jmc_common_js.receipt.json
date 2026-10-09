@@ -1,0 +1,14 @@
+{
+  "name": "jmc_common_js",
+  "requested_url": "https://www.jmc.com.cn/js/chunk-common.319c61b5.js",
+  "purpose": "Official public configuration frontend: source of supported query endpoints",
+  "retrieved_at_utc": "2026-10-09T07:47:28.722584+00:00",
+  "tls_verified": true,
+  "http_status": 200,
+  "final_url": "https://www.jmc.com.cn/js/chunk-common.319c61b5.js",
+  "bytes": 146364,
+  "sha256": "e5267fb171b40aacf3fdd9d88786de67da9dbcede0c59a93fe83b81deb620689",
+  "local_file": "raw/jmc_common_js.html",
+  "response_content_type": "application/javascript",
+  "status": "received"
+}

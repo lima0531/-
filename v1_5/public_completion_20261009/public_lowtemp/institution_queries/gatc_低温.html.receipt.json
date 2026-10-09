@@ -1,0 +1,29 @@
+{
+  "requested_url": "https://www.gatc.ac.cn/search/?title=%E4%BD%8E%E6%B8%A9&model=article%2Cpic&navlist=329",
+  "retrieved_utc": "2026-10-09T07:47:34.597336+00:00",
+  "local_file": "institution_queries/gatc_低温.html",
+  "purpose": "广州检验中心官网可见GET搜索表单查询",
+  "query": "低温",
+  "target_models": [],
+  "tls_verification": true,
+  "status": "ok",
+  "http_status": 200,
+  "final_url": "https://www.gatc.ac.cn/search/?title=%E4%BD%8E%E6%B8%A9&model=article%2Cpic&navlist=329",
+  "response_headers": {
+    "date": "Fri, 09 Oct 2026 07:47:36 GMT",
+    "content-type": "text/html; charset=utf-8",
+    "server": "envoy",
+    "x-powered-by": "PHP/7.4.33",
+    "set-cookie": "PHPSESSID=d417uulk401tpp452ooph24mna; expires=Sat, 10-Oct-2026 07:47:35 GMT; Max-Age=86400; path=/; HttpOnly",
+    "expires": "Thu, 19 Nov 1981 08:52:00 GMT",
+    "cache-control": "no-store, no-cache, must-revalidate",
+    "pragma": "no-cache",
+    "x-ct-request-id": "cae8abc3158e7d219a3955afe0d83546",
+    "x-envoy-upstream-service-time": "2235",
+    "connection": "close",
+    "transfer-encoding": "chunked"
+  },
+  "bytes": 23588,
+  "sha256": "6864122730a6e8162bba7f134370bd96ab68623ca7c9153a81371cd9fab11055",
+  "truncated": false
+}

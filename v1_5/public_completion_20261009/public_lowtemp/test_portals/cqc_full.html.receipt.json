@@ -1,0 +1,30 @@
+{
+  "requested_url": "https://www.cqc.com.cn/www/chinese/",
+  "retrieved_utc": "2026-10-09T07:44:32.924516+00:00",
+  "local_file": "test_portals/cqc_full.html",
+  "purpose": "中国质量认证中心完整中文站；CCC证书不能替代低温报告",
+  "query": "",
+  "target_models": [],
+  "tls_verification": true,
+  "status": "ok",
+  "http_status": 200,
+  "final_url": "https://www.cqc.com.cn/www/chinese/",
+  "response_headers": {
+    "date": "Fri, 09 Oct 2026 07:41:39 GMT",
+    "server": "envoy",
+    "strict-transport-security": "max-age=7200; includeSubDomains; preload",
+    "x-content-type-options": "nosniff",
+    "x-xss-protection": "1; mode=block",
+    "content-type": "text/html",
+    "content-length": "186",
+    "last-modified": "Fri, 26 Dec 2025 01:03:31 GMT",
+    "vary": "Accept-Encoding",
+    "etag": "\"694ddee3-ba\"",
+    "accept-ranges": "bytes",
+    "x-envoy-upstream-service-time": "1031",
+    "connection": "close"
+  },
+  "bytes": 186,
+  "sha256": "4e2f17e80ed62a4b7eb9b16699d7824469ef8840eb1188802c9fda7d29ca7af8",
+  "truncated": false
+}

@@ -1,0 +1,134 @@
+{
+  "model_key": "THZ7000BEVS11T",
+  "requested_q": "\"THZ7000BEVS11T\"",
+  "query_echo": "\"THZ7000BEVS11T\"",
+  "receipt": {
+    "requested_url": "https://www.bing.com/search?q=%22THZ7000BEVS11T%22&mkt=zh-CN&setlang=zh-hans&count=10",
+    "retrieved_utc": "2026-10-09T07:46:54.889573+00:00",
+    "tls_verification": true,
+    "status": "ok",
+    "http_status": 200,
+    "final_url": "https://www.bing.com/search?q=%22THZ7000BEVS11T%22&mkt=zh-CN&setlang=zh-hans&count=10",
+    "bytes": 98466,
+    "sha256": "fd0a46d30429d11b1ee9d9693bb5c079a72ba82a185489c4df830499aa4f54f5",
+    "response_headers": {
+      "content-type": "text/html; charset=utf-8",
+      "cache-control": "private, max-age=0",
+      "expires": "Fri, 09 Oct 2026 07:45:54 GMT",
+      "vary": "User-Agent,Accept-Encoding",
+      "x-eventid": "6ac89bee6551415aa68f1f59ec118f17",
+      "x-as-setsessionmarket": "zh-CN",
+      "x-as-setsessionuilang": "zh-hans",
+      "useragentreductionoptout": "A7kgTC5xdZ2WIVGZEfb1hUoNuvjzOZX3VIV/BA6C18kQOOF50Q0D3oWoAm49k3BQImkujKILc7JmPysWk3CSjwUAAACMeyJvcmlnaW4iOiJodHRwczovL3d3dy5iaW5nLmNvbTo0NDMiLCJmZWF0dXJlIjoiU2VuZEZ1bGxVc2VyQWdlbnRBZnRlclJlZHVjdGlvbiIsImV4cGlyeSI6MTY4NDg4NjM5OSwiaXNTdWJkb21haW4iOnRydWUsImlzVGhpcmRQYXJ0eSI6dHJ1ZX0=",
+      "strict-transport-security": "max-age=31536000; includeSubDomains; preload",
+      "permissions-policy": "unload=()",
+      "content-security-policy": "script-src https: 'strict-dynamic' 'report-sample' 'wasm-unsafe-eval' 'nonce-1VBcr8vWKBk+60aO8JoBXyRV45TA3HlAEFAdogsdhwg='; base-uri 'self';",
+      "p3p": "CP=\"NON UNI COM NAV STA LOC CURa DEVa PSAa PSDa OUR IND\"",
+      "x-display-context": "full",
+      "date": "Fri, 09 Oct 2026 07:46:55 GMT",
+      "set-cookie": "_SS=SID=16E98A50DA2E69B6022C9DBDDB87683E; domain=.bing.com; path=/",
+      "alt-svc": "h3=\":443\"; ma=93600",
+      "x-cdn-traceid": "0.d21c2117.1791532014.fe426f93",
+      "x-envoy-upstream-service-time": "85",
+      "server": "envoy",
+      "connection": "close",
+      "transfer-encoding": "chunked"
+    },
+    "relative_path": "external/model_THZ7000BEVS11T.html"
+  },
+  "hits": [
+    {
+      "model_key": "THZ7000BEVS11T",
+      "result_url": "https://apkpure.com/bing-your-ai-copilot/com.microsoft.bing/download",
+      "result_text": "apkpure.com https://apkpure.com ›  bing -your-ai-copilot › com.microsoft. bing  › download Download Microsoft  Bing Search  Latest  Version  32.6.21. 2025年12月17日 · Microsoft Bing Search is a mobile search app that delivers AI-powered answers and helpful web results. …    ",
+      "exact_model_in_result_text": 0,
+      "government_domain_candidate": 0,
+      "usable_as_scientific_evidence": 0,
+      "source_search_file": "external/model_THZ7000BEVS11T.html",
+      "source_search_sha256": "fd0a46d30429d11b1ee9d9693bb5c079a72ba82a185489c4df830499aa4f54f5"
+    },
+    {
+      "model_key": "THZ7000BEVS11T",
+      "result_url": "https://www2.bing.com/",
+      "result_text": "bing.com https://www2. bing .com Search  - Microsoft  Bing Search with Microsoft Bing and use the power of AI to find information, explore webpages, images, videos, maps, and more. A smart …",
+      "exact_model_in_result_text": 0,
+      "government_domain_candidate": 0,
+      "usable_as_scientific_evidence": 0,
+      "source_search_file": "external/model_THZ7000BEVS11T.html",
+      "source_search_sha256": "fd0a46d30429d11b1ee9d9693bb5c079a72ba82a185489c4df830499aa4f54f5"
+    },
+    {
+      "model_key": "THZ7000BEVS11T",
+      "result_url": "https://zhuanlan.zhihu.com/p/1907466637772292938",
+      "result_text": "zhihu.com https://zhuanlan.zhihu.com Bing Search  API关停，微软三大考虑 - 知乎 2025年5月20日 · 微软Bing Search API 服务就是将 Bing 的搜索能力以 API 的方式提供，2023年的时候我也调用过相关API，给我的 …",
+      "exact_model_in_result_text": 0,
+      "government_domain_candidate": 0,
+      "usable_as_scientific_evidence": 0,
+      "source_search_file": "external/model_THZ7000BEVS11T.html",
+      "source_search_sha256": "fd0a46d30429d11b1ee9d9693bb5c079a72ba82a185489c4df830499aa4f54f5"
+    },
+    {
+      "model_key": "THZ7000BEVS11T",
+      "result_url": "https://zhuanlan.zhihu.com/p/1906013350036472294",
+      "result_text": "zhihu.com https://zhuanlan.zhihu.com 微软即将终止公共 Bing Search  API服务 - 知乎 2025年5月15日 · 此次停服涉及的范围颇广，包括Search v7和Custom Search在内的所有版本都将在终止日期后停止服务。 这意味 …",
+      "exact_model_in_result_text": 0,
+      "government_domain_candidate": 0,
+      "usable_as_scientific_evidence": 0,
+      "source_search_file": "external/model_THZ7000BEVS11T.html",
+      "source_search_sha256": "fd0a46d30429d11b1ee9d9693bb5c079a72ba82a185489c4df830499aa4f54f5"
+    },
+    {
+      "model_key": "THZ7000BEVS11T",
+      "result_url": "https://news.qq.com/rain/a/20260831A06WQ200",
+      "result_text": "qq.com https://news.qq.com › rain 微软正式推送无“ Bing ”纯净搜索 完成这4步立即启用_腾讯新闻 【CNMO科技消息】8月31日，微软通过官方渠道宣布，Windows 11全新的、更快的、完全剥离“Bing”和“Copilot”结果的“纯净搜索”功 …",
+      "exact_model_in_result_text": 0,
+      "government_domain_candidate": 0,
+      "usable_as_scientific_evidence": 0,
+      "source_search_file": "external/model_THZ7000BEVS11T.html",
+      "source_search_sha256": "fd0a46d30429d11b1ee9d9693bb5c079a72ba82a185489c4df830499aa4f54f5"
+    },
+    {
+      "model_key": "THZ7000BEVS11T",
+      "result_url": "https://learn.microsoft.com/zh-cn/previous-versions/bing/",
+      "result_text": "microsoft.com https://learn.microsoft.com › zh-cn › previous- versions  ›  bing Bing  previous versions documentation | Microsoft Learn 2026年8月7日 · Find links to Help for older versions of the Bing products and services.",
+      "exact_model_in_result_text": 0,
+      "government_domain_candidate": 0,
+      "usable_as_scientific_evidence": 0,
+      "source_search_file": "external/model_THZ7000BEVS11T.html",
+      "source_search_sha256": "fd0a46d30429d11b1ee9d9693bb5c079a72ba82a185489c4df830499aa4f54f5"
+    },
+    {
+      "model_key": "THZ7000BEVS11T",
+      "result_url": "https://zhuanlan.zhihu.com/p/626939363",
+      "result_text": "zhihu.com https://zhuanlan.zhihu.com 重磅！微软 Bing 突然爆炸级更新！无需等待人人可用、答案 ... 2023年5月5日 · 微软官宣全面开放BingChat支持第三方插件：微软官宣全面开放BingChat。这次Bing更新的功能包括：全面开放，还 …",
+      "exact_model_in_result_text": 0,
+      "government_domain_candidate": 0,
+      "usable_as_scientific_evidence": 0,
+      "source_search_file": "external/model_THZ7000BEVS11T.html",
+      "source_search_sha256": "fd0a46d30429d11b1ee9d9693bb5c079a72ba82a185489c4df830499aa4f54f5"
+    },
+    {
+      "model_key": "THZ7000BEVS11T",
+      "result_url": "https://www.sohu.com/a/1069933404_115831",
+      "result_text": "sohu.com https://www.sohu.com 微软正式推送无“ Bing ”纯净搜索 完成这4步立即启用 【CNMO科技消息】8月31日，微软通过官方渠道宣布，Windows11全新的、更快的、完全剥离“Bing”和“Copilot”结果的“纯净搜索”功 …",
+      "exact_model_in_result_text": 0,
+      "government_domain_candidate": 0,
+      "usable_as_scientific_evidence": 0,
+      "source_search_file": "external/model_THZ7000BEVS11T.html",
+      "source_search_sha256": "fd0a46d30429d11b1ee9d9693bb5c079a72ba82a185489c4df830499aa4f54f5"
+    },
+    {
+      "model_key": "THZ7000BEVS11T",
+      "result_url": "https://cn.bing.com/",
+      "result_text": "bing.com https://cn. bing .com 搜索 - Microsoft  必应 使用 Microsoft 必应进行搜索，并利用 AI 的强大功能查找信息、浏览网页、图像、视频、地图等。 为永远充满好奇心的人提供的智能 …",
+      "exact_model_in_result_text": 0,
+      "government_domain_candidate": 0,
+      "usable_as_scientific_evidence": 0,
+      "source_search_file": "external/model_THZ7000BEVS11T.html",
+      "source_search_sha256": "fd0a46d30429d11b1ee9d9693bb5c079a72ba82a185489c4df830499aa4f54f5"
+    }
+  ],
+  "exact_model_relevant_hits": 0,
+  "same_model_is_configuration_identity": false,
+  "negative_search_conclusion_permitted": false
+}

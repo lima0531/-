@@ -65,5 +65,11 @@
     "energy_mass_pairing_obtained": false,
     "tax_exempt_configuration_bridge_verified": false,
     "inquiry_template": "../progress_20261009/jx_public_final_pass/向企业索取材料_文本模板.md"
+  },
+  "public_completion_20261009": {
+    "latest_handoff": "../public_completion_20261009/user_handoff/README.md",
+    "public_checks": "../public_completion_20261009/README.md",
+    "frozen_scientific_parameters_changed": false,
+    "public_sources_not_exhausted_claim": "只认证已列公开路径的实际观察；不声称互联网绝无资料"
   }
 }

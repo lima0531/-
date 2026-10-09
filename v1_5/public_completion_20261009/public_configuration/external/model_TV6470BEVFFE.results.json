@@ -1,0 +1,144 @@
+{
+  "model_key": "TV6470BEVFFE",
+  "requested_q": "\"TV6470BEVFFE\"",
+  "query_echo": "\"TV6470BEVFFE\"",
+  "receipt": {
+    "requested_url": "https://www.bing.com/search?q=%22TV6470BEVFFE%22&mkt=zh-CN&setlang=zh-hans&count=10",
+    "retrieved_utc": "2026-10-09T07:46:54.890000+00:00",
+    "tls_verification": true,
+    "status": "ok",
+    "http_status": 200,
+    "final_url": "https://www.bing.com/search?q=%22TV6470BEVFFE%22&mkt=zh-CN&setlang=zh-hans&count=10",
+    "bytes": 105863,
+    "sha256": "bfa14a52972ca6ae984187cdd06b68bb3e518be246349514bc5b4317d9d92636",
+    "response_headers": {
+      "content-type": "text/html; charset=utf-8",
+      "cache-control": "private, max-age=0",
+      "expires": "Fri, 09 Oct 2026 07:45:54 GMT",
+      "vary": "User-Agent,Accept-Encoding",
+      "x-eventid": "6ac89bee0e144188a9467d25197b1dec",
+      "x-as-setsessionmarket": "zh-CN",
+      "x-as-setsessionuilang": "zh-hans",
+      "useragentreductionoptout": "A7kgTC5xdZ2WIVGZEfb1hUoNuvjzOZX3VIV/BA6C18kQOOF50Q0D3oWoAm49k3BQImkujKILc7JmPysWk3CSjwUAAACMeyJvcmlnaW4iOiJodHRwczovL3d3dy5iaW5nLmNvbTo0NDMiLCJmZWF0dXJlIjoiU2VuZEZ1bGxVc2VyQWdlbnRBZnRlclJlZHVjdGlvbiIsImV4cGlyeSI6MTY4NDg4NjM5OSwiaXNTdWJkb21haW4iOnRydWUsImlzVGhpcmRQYXJ0eSI6dHJ1ZX0=",
+      "strict-transport-security": "max-age=31536000; includeSubDomains; preload",
+      "permissions-policy": "unload=()",
+      "content-security-policy": "script-src https: 'strict-dynamic' 'report-sample' 'wasm-unsafe-eval' 'nonce-5fyAmZP+D4zft0L4WNDmpsLin/fo9SzbeHq/2bCIqKc='; base-uri 'self';",
+      "p3p": "CP=\"NON UNI COM NAV STA LOC CURa DEVa PSAa PSDa OUR IND\"",
+      "x-display-context": "full",
+      "date": "Fri, 09 Oct 2026 07:46:54 GMT",
+      "set-cookie": "_SS=SID=1A972679BB7D601E25143194BAEE617F; domain=.bing.com; path=/",
+      "alt-svc": "h3=\":443\"; ma=93600",
+      "x-cdn-traceid": "0.cf1c2117.1791532014.649b964",
+      "x-envoy-upstream-service-time": "79",
+      "server": "envoy",
+      "connection": "close",
+      "transfer-encoding": "chunked"
+    },
+    "relative_path": "external/model_TV6470BEVFFE.html"
+  },
+  "hits": [
+    {
+      "model_key": "TV6470BEVFFE",
+      "result_url": "https://www.worldbank.org/en/country/afghanistan/publication/afghanistan-promoting-education-during-times-of-increased-fragility",
+      "result_text": "worldbank.org https://www.worldbank.org › en › country › afghanistan › publication › afghanistan-promoti… Afghanistan: Promoting Education During Times of Increased … 2018年8月15日 · The report Afghanistan: Promoting Education During Times of Increased Fragility offers new insights on the …    ",
+      "exact_model_in_result_text": 0,
+      "government_domain_candidate": 0,
+      "usable_as_scientific_evidence": 0,
+      "source_search_file": "external/model_TV6470BEVFFE.html",
+      "source_search_sha256": "bfa14a52972ca6ae984187cdd06b68bb3e518be246349514bc5b4317d9d92636"
+    },
+    {
+      "model_key": "TV6470BEVFFE",
+      "result_url": "https://www.worldbank.org/en/topic/edutech/brief/education-and-technology-publications",
+      "result_text": "worldbank.org https://www.worldbank.org › en › topic › edutech › brief › ... Education and Technology: EdTech Publications - World ... 2026年7月14日 · BRIEF Education and Technology: EdTech Publications Listed below are a variety of publications either by World …",
+      "exact_model_in_result_text": 0,
+      "government_domain_candidate": 0,
+      "usable_as_scientific_evidence": 0,
+      "source_search_file": "external/model_TV6470BEVFFE.html",
+      "source_search_sha256": "bfa14a52972ca6ae984187cdd06b68bb3e518be246349514bc5b4317d9d92636"
+    },
+    {
+      "model_key": "TV6470BEVFFE",
+      "result_url": "https://www.worldbank.org/en/news/feature/2024/09/05/building-a-strong-foundation-to-improve-learning-outcomes-in-afe-ethiopia",
+      "result_text": "worldbank.org https://www.worldbank.org › en › news › feature › building-a-strong-foundation-to... Building a Strong Foundation to Improve Learning Outcomes in … 2024年9月5日 · The O-Class program in Ethiopia, part of the General Education Quality Improvement Program for Equity (GEQIP …",
+      "exact_model_in_result_text": 0,
+      "government_domain_candidate": 0,
+      "usable_as_scientific_evidence": 0,
+      "source_search_file": "external/model_TV6470BEVFFE.html",
+      "source_search_sha256": "bfa14a52972ca6ae984187cdd06b68bb3e518be246349514bc5b4317d9d92636"
+    },
+    {
+      "model_key": "TV6470BEVFFE",
+      "result_url": "https://www.worldbank.org/en/region/lac/publication/innovaciones-digitales-para-la-educacion-en-america-latina",
+      "result_text": "worldbank.org https://www.worldbank.org › en › region › lac › publication › innovaciones-digitales-para-la... Artificial Intelligence Revolution in Education: What You Need to … 2024年6月17日 · The Artificial Intelligence revolution is transforming education at an unprecedented pace, offering innovative …",
+      "exact_model_in_result_text": 0,
+      "government_domain_candidate": 0,
+      "usable_as_scientific_evidence": 0,
+      "source_search_file": "external/model_TV6470BEVFFE.html",
+      "source_search_sha256": "bfa14a52972ca6ae984187cdd06b68bb3e518be246349514bc5b4317d9d92636"
+    },
+    {
+      "model_key": "TV6470BEVFFE",
+      "result_url": "https://www.worldbank.org/en/news/press-release/2025/08/25/pakistan-world-bank-announces-new-education-project-to-benefit-over-four-million-children-in-punjab",
+      "result_text": "worldbank.org https://www.worldbank.org › en › news › press-release › pakistan-world-bank... Pakistan: World Bank Announces New Education Project to … 2025年8月23日 · The project aims to benefit over 4 million children, including 80,000 out-of-school children, more than 3 million …",
+      "exact_model_in_result_text": 0,
+      "government_domain_candidate": 0,
+      "usable_as_scientific_evidence": 0,
+      "source_search_file": "external/model_TV6470BEVFFE.html",
+      "source_search_sha256": "bfa14a52972ca6ae984187cdd06b68bb3e518be246349514bc5b4317d9d92636"
+    },
+    {
+      "model_key": "TV6470BEVFFE",
+      "result_url": "https://www.worldbank.org/en/topic/education/publication/the-covid19-pandemic-shocks-to-education-and-policy-responses",
+      "result_text": "worldbank.org https://www.worldbank.org › en › topic › education › publication The COVID-19 Pandemic: Shocks to Education and Policy … 2020年5月7日 · The COVID-19 pandemic threatens education progress worldwide through two major shocks: 1. The near-universal …",
+      "exact_model_in_result_text": 0,
+      "government_domain_candidate": 0,
+      "usable_as_scientific_evidence": 0,
+      "source_search_file": "external/model_TV6470BEVFFE.html",
+      "source_search_sha256": "bfa14a52972ca6ae984187cdd06b68bb3e518be246349514bc5b4317d9d92636"
+    },
+    {
+      "model_key": "TV6470BEVFFE",
+      "result_url": "https://www.worldbank.org/en/about/people/j/jaime-saavedra-chanduvi",
+      "result_text": "worldbank.org https://www.worldbank.org › en › about › people › jaime-saavedra-chanduvi Jaime Saavedra - World Bank Group 2018年10月23日 · Jaime Saavedra is the Director of Human Development for Latin America and the Caribbean of the World Bank. …",
+      "exact_model_in_result_text": 0,
+      "government_domain_candidate": 0,
+      "usable_as_scientific_evidence": 0,
+      "source_search_file": "external/model_TV6470BEVFFE.html",
+      "source_search_sha256": "bfa14a52972ca6ae984187cdd06b68bb3e518be246349514bc5b4317d9d92636"
+    },
+    {
+      "model_key": "TV6470BEVFFE",
+      "result_url": "https://www.worldbank.org/en/country/philippines/publication/unlocking-the-potential-of-the-bangsamoro-people-through-the-alternative-learning-system",
+      "result_text": "worldbank.org https://www.worldbank.org › en › country › philippines › publication › unlocking-the-potenti… Unlocking the Potential of the Bangsamoro People through the ... 2019年11月6日 · The report focuses on the context for the Alternative Learning System (ALS) program in the newly established …",
+      "exact_model_in_result_text": 0,
+      "government_domain_candidate": 0,
+      "usable_as_scientific_evidence": 0,
+      "source_search_file": "external/model_TV6470BEVFFE.html",
+      "source_search_sha256": "bfa14a52972ca6ae984187cdd06b68bb3e518be246349514bc5b4317d9d92636"
+    },
+    {
+      "model_key": "TV6470BEVFFE",
+      "result_url": "https://www.worldbank.org/en/about/people/l/luis-benveniste",
+      "result_text": "worldbank.org https://www.worldbank.org › en › about › people › luis-benveniste Luis Benveniste - World Bank Group 4 天之前 · Dr. Luis Benveniste is currently People Regional Practice Director in East Asia and Pacific. He is responsible for …",
+      "exact_model_in_result_text": 0,
+      "government_domain_candidate": 0,
+      "usable_as_scientific_evidence": 0,
+      "source_search_file": "external/model_TV6470BEVFFE.html",
+      "source_search_sha256": "bfa14a52972ca6ae984187cdd06b68bb3e518be246349514bc5b4317d9d92636"
+    },
+    {
+      "model_key": "TV6470BEVFFE",
+      "result_url": "https://www.worldbank.org/en/results/2024/10/29/iraq-improving-quality-of-education-and-access-to-enable-all-students-to-learn",
+      "result_text": "worldbank.org https://www.worldbank.org › en › results › iraq-improving-quality-of-education... Iraq: Improving Quality of Education and Access to Enable All … 2024年10月29日 · Looking Ahead The EODP education component provided urgently needed crisis support. However, Iraq requires …",
+      "exact_model_in_result_text": 0,
+      "government_domain_candidate": 0,
+      "usable_as_scientific_evidence": 0,
+      "source_search_file": "external/model_TV6470BEVFFE.html",
+      "source_search_sha256": "bfa14a52972ca6ae984187cdd06b68bb3e518be246349514bc5b4317d9d92636"
+    }
+  ],
+  "exact_model_relevant_hits": 0,
+  "same_model_is_configuration_identity": false,
+  "negative_search_conclusion_permitted": false
+}

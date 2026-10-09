@@ -1,0 +1,26 @@
+{
+  "requested_url": "https://www.cdqc.org.cn/2747/19531/878573",
+  "retrieved_utc": "2026-10-09T07:48:08.479724+00:00",
+  "tls_verification": true,
+  "status": "ok",
+  "http_status": 200,
+  "final_url": "https://www.cdqc.org.cn/2747/19531/878573",
+  "bytes": 100845,
+  "sha256": "0b4ea51a7e55908727a1f551b9fe537418bfaa305fa31bf279639a2966bc45e8",
+  "response_headers": {
+    "server": "envoy",
+    "date": "Fri, 09 Oct 2026 07:48:10 GMT",
+    "content-type": "text/html; charset=utf-8",
+    "access-control-allow-headers": "Token,Content-Type",
+    "access-control-allow-methods": "OPTIONS,PUT,POST,GET,DELETE",
+    "access-control-allow-origin": "*",
+    "etag": "W/\"86185cd281398eb1b839909032196451\"",
+    "x-device": "pc",
+    "vary": "User-Agent",
+    "x-cache-status": "MISS",
+    "x-envoy-upstream-service-time": "1028",
+    "connection": "close",
+    "transfer-encoding": "chunked"
+  },
+  "relative_path": "external/association_GTM6470BFEBEV.html"
+}

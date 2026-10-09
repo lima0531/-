@@ -1,0 +1,31 @@
+{
+  "requested_url": "https://www.gatc.ac.cn/search/?title=JX7004ESABEV&model=article%2Cpic&navlist=329",
+  "retrieved_utc": "2026-10-09T07:47:24.875505+00:00",
+  "local_file": "institution_queries/gatc_JX7004ESABEV.html",
+  "purpose": "广州检验中心官网可见GET搜索表单查询",
+  "query": "JX7004ESABEV",
+  "target_models": [
+    "JX7004ESABEV"
+  ],
+  "tls_verification": true,
+  "status": "ok",
+  "http_status": 200,
+  "final_url": "https://www.gatc.ac.cn/search/?title=JX7004ESABEV&model=article%2Cpic&navlist=329",
+  "response_headers": {
+    "date": "Fri, 09 Oct 2026 07:47:28 GMT",
+    "content-type": "text/html; charset=utf-8",
+    "server": "envoy",
+    "x-powered-by": "PHP/7.4.33",
+    "set-cookie": "PHPSESSID=ppbi6mtuacgkl3a8lucks1ogvh; expires=Sat, 10-Oct-2026 07:47:26 GMT; Max-Age=86400; path=/; HttpOnly",
+    "expires": "Thu, 19 Nov 1981 08:52:00 GMT",
+    "cache-control": "no-store, no-cache, must-revalidate",
+    "pragma": "no-cache",
+    "x-ct-request-id": "f0c91063a41263b34b9cea2e7d4ddc5a",
+    "x-envoy-upstream-service-time": "2656",
+    "connection": "close",
+    "transfer-encoding": "chunked"
+  },
+  "bytes": 19943,
+  "sha256": "8ed0e06ca966dcaf194e45740cce66aba9ac186005230deb048694f297968cfe",
+  "truncated": false
+}

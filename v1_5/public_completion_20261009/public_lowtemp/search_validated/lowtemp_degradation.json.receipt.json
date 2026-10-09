@@ -1,0 +1,30 @@
+{
+  "requested_url": "https://www.miit.gov.cn/search-front-server/api/search/info?websiteid=110000000000000&scope=basic&q=%E4%BD%8E%E6%B8%A9%E7%BB%AD%E9%A9%B6%E9%87%8C%E7%A8%8B%E8%A1%B0%E5%87%8F%E7%8E%87&pg=10&p=1&cateid=47&pos=title_text%2Ctitlepy%2Cinfocontent%2Cfilenumbername%2Ckeyword%2Ccontentdescribe&selectFields=title%2Ccontent%2Cdeploytime%2C_index%2Curl%2Ccdate%2Cinfoextends%2Cinfocontentattribute%2Ckeyword%2Ccontentdescribe%2Csectitle%2Cpicpath%2Ccolumnname%2Cthemename%2Cpublishgroupname%2Cpublishtime%2Cmetaid%2Cbexxgk%2Ccolumnid%2Cinfocontenthashcode&group=distinct&level=6&sortFields=%5B%7B%22name%22%3A%22deploytime%22%2C%22type%22%3A%22desc%22%7D%5D",
+  "retrieved_utc": "2026-10-09T07:46:03.320860+00:00",
+  "local_file": "search_validated/lowtemp_degradation.json",
+  "purpose": "工信部公共全文搜索：查同型号/配置公开低温检测证据（完整有效接口参数）",
+  "query": "低温续驶里程衰减率",
+  "target_models": [],
+  "tls_verification": true,
+  "status": "ok",
+  "http_status": 200,
+  "final_url": "https://www.miit.gov.cn/search-front-server/api/search/info?websiteid=110000000000000&scope=basic&q=%E4%BD%8E%E6%B8%A9%E7%BB%AD%E9%A9%B6%E9%87%8C%E7%A8%8B%E8%A1%B0%E5%87%8F%E7%8E%87&pg=10&p=1&cateid=47&pos=title_text%2Ctitlepy%2Cinfocontent%2Cfilenumbername%2Ckeyword%2Ccontentdescribe&selectFields=title%2Ccontent%2Cdeploytime%2C_index%2Curl%2Ccdate%2Cinfoextends%2Cinfocontentattribute%2Ckeyword%2Ccontentdescribe%2Csectitle%2Cpicpath%2Ccolumnname%2Cthemename%2Cpublishgroupname%2Cpublishtime%2Cmetaid%2Cbexxgk%2Ccolumnid%2Cinfocontenthashcode&group=distinct&level=6&sortFields=%5B%7B%22name%22%3A%22deploytime%22%2C%22type%22%3A%22desc%22%7D%5D",
+  "response_headers": {
+    "date": "Fri, 09 Oct 2026 07:46:03 GMT",
+    "content-type": "text/html;charset=UTF-8",
+    "content-length": "1332657",
+    "vary": "Accept-Encoding",
+    "set-cookie": "__jsluid_s=f228edd8b89aa977c5e854d1a463fe1b; max-age=31536000; path=/; HttpOnly; SameSite=None; secure",
+    "x-kong-upstream-latency": "411",
+    "x-kong-proxy-latency": "0",
+    "via": "kong/1.4.3",
+    "x-via-jsl": "943724a,-",
+    "x-cache": "bypass",
+    "x-envoy-upstream-service-time": "808",
+    "server": "envoy",
+    "connection": "close"
+  },
+  "bytes": 1332657,
+  "sha256": "2244a40f6597e8d60d8914a4a91e42f318a789a6677fcbe0ef0b27d26a62198e",
+  "truncated": false
+}

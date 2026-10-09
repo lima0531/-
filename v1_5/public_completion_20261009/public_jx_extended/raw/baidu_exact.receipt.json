@@ -1,0 +1,14 @@
+{
+  "name": "baidu_exact",
+  "requested_url": "https://www.baidu.com/s?wd=JX6550T-M5BEV",
+  "purpose": "Independent public index lead discovery",
+  "retrieved_at_utc": "2026-10-09T07:43:50.962539+00:00",
+  "tls_verified": true,
+  "http_status": 200,
+  "final_url": "https://wappass.baidu.com/static/captcha/tuxing_v2.html?&logid=9089359192793257767&ak=c27bbc89afca0463650ac9bde68ebe06&backurl=https%3A%2F%2Fwww.baidu.com%2Fs%3Fwd%3DJX6550T-M5BEV&ext=x9G9QDmMXq%2FNo87gjGO0P1CAtwP%2B%2FCL4HTYc0Z2yewWxS4CEhQa12Q7nS%2FbwHL39UgqUK9LXd1cIlztrhMwiv8uKTAe829cE1O31xRphHKqffrQ75%2FiuCREDQw5HK7ojSCAe1EQ3IsG%2BFn2u6CQ8X2c1mdkdhxm3kBHSy3F7FDs%3D&signature=4930c791d102c4d6b8929916f0da21c4&timestamp=1791531832",
+  "bytes": 1488,
+  "sha256": "15259fc79487b40f63821b33577fed32f0c490c885cc87d191ed407248e75d0a",
+  "local_file": "raw/baidu_exact.html",
+  "response_content_type": "text/html",
+  "status": "received"
+}

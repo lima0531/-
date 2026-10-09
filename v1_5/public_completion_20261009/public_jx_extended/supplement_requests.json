@@ -1,0 +1,44 @@
+[
+  {
+    "name": "duck_energy",
+    "requested_url": "https://html.duckduckgo.com/html/?q=JX6550T-M5BEV+%E6%80%BB%E8%83%BD%E9%87%8F",
+    "purpose": "Public index candidate discovery: JX6550T-M5BEV 总能量",
+    "retrieved_at_utc": "2026-10-09T07:45:31.745620+00:00",
+    "tls_verified": true,
+    "http_status": 200,
+    "final_url": "https://html.duckduckgo.com/html/?q=JX6550T-M5BEV+%E6%80%BB%E8%83%BD%E9%87%8F",
+    "bytes": 32510,
+    "sha256": "951c7a00c356e648c9308f72c69003a7885676c492301f927c806230258c4d7b",
+    "local_file": "raw/duck_energy.html",
+    "response_content_type": "text/html; charset=UTF-8",
+    "status": "received"
+  },
+  {
+    "name": "duck_config",
+    "requested_url": "https://html.duckduckgo.com/html/?q=%22NC010086%22",
+    "purpose": "Public index candidate discovery: \"NC010086\"",
+    "retrieved_at_utc": "2026-10-09T07:45:31.747477+00:00",
+    "tls_verified": true,
+    "http_status": 200,
+    "final_url": "https://html.duckduckgo.com/html/?q=%22NC010086%22",
+    "bytes": 9287,
+    "sha256": "14d592c3de3ee9f0a819a7c3af9243f80959741696d027649b76fbe89ef806fe",
+    "local_file": "raw/duck_config.html",
+    "response_content_type": "text/html; charset=UTF-8",
+    "status": "received"
+  },
+  {
+    "name": "duck_storage",
+    "requested_url": "https://html.duckduckgo.com/html/?q=%22L173C01%22+%E6%B1%9F%E9%93%83",
+    "purpose": "Public index candidate discovery: \"L173C01\" 江铃",
+    "retrieved_at_utc": "2026-10-09T07:45:31.747396+00:00",
+    "tls_verified": true,
+    "http_status": 200,
+    "final_url": "https://html.duckduckgo.com/html/?q=%22L173C01%22+%E6%B1%9F%E9%93%83",
+    "bytes": 13501,
+    "sha256": "7866a74a14668dd85e2ec17168407fbcd1343466c1f279d3bcf7c63e7d03fe5c",
+    "local_file": "raw/duck_storage.html",
+    "response_content_type": "text/html; charset=UTF-8",
+    "status": "received"
+  }
+]

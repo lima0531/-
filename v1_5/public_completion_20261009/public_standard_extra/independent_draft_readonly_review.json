@@ -1,0 +1,76 @@
+{
+  "review_generated_at_utc": "2026-10-09T08:10:05.952971+00:00",
+  "review_type": "read-only independent title, draft status, and date check",
+  "source_page": {
+    "file": "/workspace/purchase_tax_audit/round9/public_standard_extra/catarc_public_draft.html",
+    "bytes": 86116,
+    "sha256_before": "5d1038871ef27bf4ebae53a47b4e8268ca4653db9671ff0379c5c5f45190546a",
+    "sha256_after": "5d1038871ef27bf4ebae53a47b4e8268ca4653db9671ff0379c5c5f45190546a",
+    "original_url": "https://zxd.catarc.org.cn/zxd/portal/zqyj/488",
+    "article_title": "推荐性国家标准《电动汽车能量消耗量和续驶里程试验方法 第1部分：轻型汽车》第1号修改单征求意见的函",
+    "visible_consultation_publication_date": "2024-05-13",
+    "visible_consultation_deadline_date": "2024-07-12",
+    "target_body_excerpt": "由全国汽车标准化技术委员会汽车节能分技术委员会组织起草的GB/T 18386.1—2021《电动汽车能量消耗量和续驶里程试验方法 第1部分：轻型汽车》第1号修改单已形成征求意见稿。现提交公示，广泛征求意见。请各相关单位及专家提出宝贵意见，并将意见和建议回复至分标委秘书处。\n标准征求意见稿、编制说明及标准征求意见反馈表见附件。",
+    "date_scope": "征求意见公示发布/截止，不是最终修改单批准发布日期或实施日期"
+  },
+  "pdfs": [
+    {
+      "file": "/workspace/purchase_tax_audit/round9/public_standard_extra/amendment_draft.pdf",
+      "bytes": 497409,
+      "sha256_before": "b01a5710a4e0df71e306e91f4bf205ab9023598d1cb7ff5247b293e4931decfb",
+      "sha256_after": "b01a5710a4e0df71e306e91f4bf205ab9023598d1cb7ff5247b293e4931decfb",
+      "physical_pages": 5,
+      "cover_title_and_version_raw": "GB/T 18386.1—2021\n\n\n\n  GB/T 18386.1—2021《电动汽车能量消耗量和续驶里程试验方法\n\n            第 1 部分：轻型汽车》国家标准第 1 号修改单\n\n                       （征求意见稿）",
+      "target_number_observed_on_physical_pages": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "draft_mark_on_cover": "征求意见稿",
+      "formal_final_amendment": false
+    },
+    {
+      "file": "/workspace/purchase_tax_audit/round9/public_standard_extra/draft_explanation.pdf",
+      "bytes": 1759806,
+      "sha256_before": "c71eacb09848b8c0785dde4c47ae789263c1ac7eceb18ac595a36c8da748c9e9",
+      "sha256_after": "c71eacb09848b8c0785dde4c47ae789263c1ac7eceb18ac595a36c8da748c9e9",
+      "physical_pages": 16,
+      "cover_title_and_version_raw": "推荐性国家标准\n《电动汽车能量消耗量和续驶里程试验\n方法 第1部分：轻型汽车》国家标准\n     第1号修改单\n      （征求意见稿）\n\n      编制说明\n\n\n\n\n      标准起草项目组\n\n       2024年4月",
+      "target_number_observed_on_physical_pages": [
+        4,
+        5
+      ],
+      "draft_mark_on_cover": "征求意见稿",
+      "formal_final_amendment": false,
+      "cover_document_month": "2024-04",
+      "historical_2023_work_in_body_observed": true,
+      "historical_2023_work_does_not_date_this_edition_or_establish_2023_public_availability": true
+    }
+  ],
+  "frozen_cutoff": "2023-12-10",
+  "checks": {
+    "both_pdf_cover_titles_match_target_light_vehicle_amendment": true,
+    "both_pdf_covers_explicitly_drafts": true,
+    "target_standard_number_in_page_and_both_pdf_texts": true,
+    "physical_page_counts_5_and_16": true,
+    "consultation_dates_exactly_2024_05_13_and_2024_07_12": true,
+    "2024_edition_and_consultation_after_2023_freeze": true,
+    "source_file_hashes_unchanged": true,
+    "no_new_network_requests": true
+  },
+  "all_checks_pass": true,
+  "formal_final_amendment_publication_date_verified": false,
+  "formal_final_amendment_implementation_date_verified": false,
+  "model_specific_test_report_obtained": false,
+  "main_missing_data_gap_closed": false,
+  "frozen_scientific_values_changed": false,
+  "network_requests_made": 0,
+  "source_data_export_or_git_modified": false,
+  "limits": [
+    "本轮资料为2024年公开征求意见稿及编制说明，不能认证最终正式修改单日期。",
+    "编制说明含2023年内部草案与会议历程；这不把2024年版本或公示倒推为2023冻结日前已公开的最终文本。",
+    "PDF创建日期属于文档元数据，未作为官方公示或最终实施日期证据。"
+  ]
+}
