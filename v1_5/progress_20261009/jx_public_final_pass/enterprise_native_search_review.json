@@ -1,0 +1,109 @@
+{
+  "homepage_sha256": "134bee50ec5281b65f850b58fd2ab576d29464194b589ce9cfc16f1be5219c7c",
+  "search_page_sha256": "1a760f5828e426a6bb739cb86009e4ae42957fcf8dff9ea7e4b26b4e3c2227b6",
+  "frontend_base_url_source": "raw/jmc_common.js literal https://sale-api.jmc.com.cn/api",
+  "frontend_endpoint_source": "raw/jmc_common.js literal /keywords/search",
+  "frontend_query_parameter_source": "raw/jmc_search.js getList -> keywords:this.searchvalue",
+  "queries": [
+    {
+      "query_record": "exact_model",
+      "request_receipt": "enterprise/exact_model.json.receipt.json",
+      "api_result_code": 1,
+      "result_totals": {
+        "otherlist": 0,
+        "newslist": 0,
+        "carmodellist": 0
+      },
+      "total": 0,
+      "result": {
+        "code": 1,
+        "data": {
+          "otherlist": {
+            "total": 0,
+            "data": []
+          },
+          "newslist": {
+            "total": 0,
+            "data": []
+          },
+          "carmodellist": {
+            "total": 0,
+            "data": []
+          },
+          "total": 0
+        }
+      },
+      "accepted_configuration_energy_evidence": false
+    },
+    {
+      "query_record": "trade_name",
+      "request_receipt": "enterprise/trade_name.json.receipt.json",
+      "api_result_code": 1,
+      "result_totals": {
+        "otherlist": 1,
+        "newslist": 0,
+        "carmodellist": 0
+      },
+      "total": 1,
+      "result": {
+        "code": 1,
+        "data": {
+          "otherlist": {
+            "total": 1,
+            "data": [
+              {
+                "years": 2017,
+                "title": "江铃特顺上市",
+                "introduction": "",
+                "img_url": "https://img.jmc.com.cn/uploads/new/car_mode/20210429/a79650031cbe273bdb545d2c958b5b1d.jpg",
+                "jump_url": "https://www.jmc.com.cn/family.html?tab=history&car_category=2",
+                "data_type": 2
+              }
+            ]
+          },
+          "newslist": {
+            "total": 0,
+            "data": []
+          },
+          "carmodellist": {
+            "total": 0,
+            "data": []
+          },
+          "total": 1
+        }
+      },
+      "accepted_configuration_energy_evidence": false
+    },
+    {
+      "query_record": "energy_candidate_text",
+      "request_receipt": "enterprise/energy_candidate_text.json.receipt.json",
+      "api_result_code": 1,
+      "result_totals": {
+        "otherlist": 0,
+        "newslist": 0,
+        "carmodellist": 0
+      },
+      "total": 0,
+      "result": {
+        "code": 1,
+        "data": {
+          "otherlist": {
+            "total": 0,
+            "data": []
+          },
+          "newslist": {
+            "total": 0,
+            "data": []
+          },
+          "carmodellist": {
+            "total": 0,
+            "data": []
+          },
+          "total": 0
+        }
+      },
+      "accepted_configuration_energy_evidence": false
+    }
+  ],
+  "boundary": "公开官网原生检索可运行；0结果和2017特顺上市历史条目不证明企业档案不存在，也不提供精确配置能量。"
+}

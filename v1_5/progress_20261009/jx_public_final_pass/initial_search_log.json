@@ -1,0 +1,356 @@
+[
+  {
+    "query": "JX6550T-M5BEV",
+    "rec": {
+      "requested_url": "https://www.miit.gov.cn/search-front-server/api/search/info?websiteid=110000000000000&scope=basic&q=JX6550T-M5BEV&pg=40&p=1&cateid=47&pos=title_text%2Ctitlepy%2Cinfocontent%2Cfilenumbername%2Ckeyword%2Ccontentdescribe&selectFields=title%2Ccontent%2Cdeploytime%2C_index%2Curl%2Ccdate%2Cinfoextends%2Cinfocontentattribute%2Ckeyword%2Ccontentdescribe%2Csectitle%2Cpicpath%2Ccolumnname%2Cthemename%2Cpublishgroupname%2Cpublishtime%2Cmetaid%2Cbexxgk%2Ccolumnid%2Cinfocontenthashcode&group=distinct&level=6&sortFields=%5B%7B%22name%22%3A%22deploytime%22%2C%22type%22%3A%22desc%22%7D%5D",
+      "retrieved_utc": "2026-10-09T05:21:55.828881+00:00",
+      "tls_verification": true,
+      "status": "ok",
+      "http_status": 200,
+      "final_url": "https://www.miit.gov.cn/search-front-server/api/search/info?websiteid=110000000000000&scope=basic&q=JX6550T-M5BEV&pg=40&p=1&cateid=47&pos=title_text%2Ctitlepy%2Cinfocontent%2Cfilenumbername%2Ckeyword%2Ccontentdescribe&selectFields=title%2Ccontent%2Cdeploytime%2C_index%2Curl%2Ccdate%2Cinfoextends%2Cinfocontentattribute%2Ckeyword%2Ccontentdescribe%2Csectitle%2Cpicpath%2Ccolumnname%2Cthemename%2Cpublishgroupname%2Cpublishtime%2Cmetaid%2Cbexxgk%2Ccolumnid%2Cinfocontenthashcode&group=distinct&level=6&sortFields=%5B%7B%22name%22%3A%22deploytime%22%2C%22type%22%3A%22desc%22%7D%5D",
+      "bytes": 225,
+      "sha256": "3eaad3ed213e223b15d2dfb27f7f20236b7bb8566b6644bebd29577586c11943",
+      "response_headers": {
+        "date": "Fri, 09 Oct 2026 05:22:00 GMT",
+        "content-type": "text/html;charset=UTF-8",
+        "content-length": "225",
+        "set-cookie": "__jsluid_s=79b5c16737202715df6cdd1f2d5350d5; max-age=31536000; path=/; HttpOnly; SameSite=None; secure",
+        "x-kong-upstream-latency": "184",
+        "x-kong-proxy-latency": "0",
+        "via": "kong/1.4.3",
+        "x-via-jsl": "de960f1,-",
+        "x-cache": "bypass",
+        "x-envoy-upstream-service-time": "927",
+        "server": "envoy",
+        "connection": "close"
+      },
+      "local_path": "/workspace/purchase_tax_audit/round8/jx_public_final_pass/search/exact_model.json"
+    },
+    "hits": []
+  },
+  {
+    "query": "JX6550T",
+    "rec": {
+      "requested_url": "https://www.miit.gov.cn/search-front-server/api/search/info?websiteid=110000000000000&scope=basic&q=JX6550T&pg=40&p=1&cateid=47&pos=title_text%2Ctitlepy%2Cinfocontent%2Cfilenumbername%2Ckeyword%2Ccontentdescribe&selectFields=title%2Ccontent%2Cdeploytime%2C_index%2Curl%2Ccdate%2Cinfoextends%2Cinfocontentattribute%2Ckeyword%2Ccontentdescribe%2Csectitle%2Cpicpath%2Ccolumnname%2Cthemename%2Cpublishgroupname%2Cpublishtime%2Cmetaid%2Cbexxgk%2Ccolumnid%2Cinfocontenthashcode&group=distinct&level=6&sortFields=%5B%7B%22name%22%3A%22deploytime%22%2C%22type%22%3A%22desc%22%7D%5D",
+      "retrieved_utc": "2026-10-09T05:21:55.828374+00:00",
+      "tls_verification": true,
+      "status": "ok",
+      "http_status": 200,
+      "final_url": "https://www.miit.gov.cn/search-front-server/api/search/info?websiteid=110000000000000&scope=basic&q=JX6550T&pg=40&p=1&cateid=47&pos=title_text%2Ctitlepy%2Cinfocontent%2Cfilenumbername%2Ckeyword%2Ccontentdescribe&selectFields=title%2Ccontent%2Cdeploytime%2C_index%2Curl%2Ccdate%2Cinfoextends%2Cinfocontentattribute%2Ckeyword%2Ccontentdescribe%2Csectitle%2Cpicpath%2Ccolumnname%2Cthemename%2Cpublishgroupname%2Cpublishtime%2Cmetaid%2Cbexxgk%2Ccolumnid%2Cinfocontenthashcode&group=distinct&level=6&sortFields=%5B%7B%22name%22%3A%22deploytime%22%2C%22type%22%3A%22desc%22%7D%5D",
+      "bytes": 225,
+      "sha256": "d9d881c1a6ba62ae711118da4e48fcf148af3e075b178396844b4859c1e83957",
+      "response_headers": {
+        "date": "Fri, 09 Oct 2026 05:21:58 GMT",
+        "content-type": "text/html;charset=UTF-8",
+        "content-length": "225",
+        "set-cookie": "__jsluid_s=03140c43bd9d60c1eacb79af913382b2; max-age=31536000; path=/; HttpOnly; SameSite=None; secure",
+        "x-kong-upstream-latency": "144",
+        "x-kong-proxy-latency": "0",
+        "via": "kong/1.4.3",
+        "x-via-jsl": "887b0cd,-",
+        "x-cache": "bypass",
+        "x-envoy-upstream-service-time": "840",
+        "server": "envoy",
+        "connection": "close"
+      },
+      "local_path": "/workspace/purchase_tax_audit/round8/jx_public_final_pass/search/model_prefix.json"
+    },
+    "hits": []
+  },
+  {
+    "query": "特顺EV",
+    "rec": {
+      "requested_url": "https://www.miit.gov.cn/search-front-server/api/search/info?websiteid=110000000000000&scope=basic&q=%E7%89%B9%E9%A1%BAEV&pg=40&p=1&cateid=47&pos=title_text%2Ctitlepy%2Cinfocontent%2Cfilenumbername%2Ckeyword%2Ccontentdescribe&selectFields=title%2Ccontent%2Cdeploytime%2C_index%2Curl%2Ccdate%2Cinfoextends%2Cinfocontentattribute%2Ckeyword%2Ccontentdescribe%2Csectitle%2Cpicpath%2Ccolumnname%2Cthemename%2Cpublishgroupname%2Cpublishtime%2Cmetaid%2Cbexxgk%2Ccolumnid%2Cinfocontenthashcode&group=distinct&level=6&sortFields=%5B%7B%22name%22%3A%22deploytime%22%2C%22type%22%3A%22desc%22%7D%5D",
+      "retrieved_utc": "2026-10-09T05:21:55.828818+00:00",
+      "tls_verification": true,
+      "status": "ok",
+      "http_status": 200,
+      "final_url": "https://www.miit.gov.cn/search-front-server/api/search/info?websiteid=110000000000000&scope=basic&q=%E7%89%B9%E9%A1%BAEV&pg=40&p=1&cateid=47&pos=title_text%2Ctitlepy%2Cinfocontent%2Cfilenumbername%2Ckeyword%2Ccontentdescribe&selectFields=title%2Ccontent%2Cdeploytime%2C_index%2Curl%2Ccdate%2Cinfoextends%2Cinfocontentattribute%2Ckeyword%2Ccontentdescribe%2Csectitle%2Cpicpath%2Ccolumnname%2Cthemename%2Cpublishgroupname%2Cpublishtime%2Cmetaid%2Cbexxgk%2Ccolumnid%2Cinfocontenthashcode&group=distinct&level=6&sortFields=%5B%7B%22name%22%3A%22deploytime%22%2C%22type%22%3A%22desc%22%7D%5D",
+      "bytes": 12723847,
+      "sha256": "049e7e1fa1c4a27a8e1990bc80b754808c2bed0269959c328457da3c230445fd",
+      "response_headers": {
+        "date": "Fri, 09 Oct 2026 05:22:00 GMT",
+        "content-type": "text/html;charset=UTF-8",
+        "content-length": "12723847",
+        "vary": "Accept-Encoding",
+        "set-cookie": "__jsluid_s=b5272e541118c27e78f9ba79476392a2; max-age=31536000; path=/; HttpOnly; SameSite=None; secure",
+        "x-kong-upstream-latency": "1451",
+        "x-kong-proxy-latency": "0",
+        "via": "kong/1.4.3",
+        "x-via-jsl": "887b0cd,-",
+        "x-cache": "bypass",
+        "x-envoy-upstream-service-time": "2666",
+        "server": "envoy",
+        "connection": "close"
+      },
+      "local_path": "/workspace/purchase_tax_audit/round8/jx_public_final_pass/search/trade_name.json"
+    },
+    "hits": [
+      {
+        "title": "四部门关于开展2021年新能源汽车下乡活动的通知",
+        "url": "/zwgk/zcwj/wjfb/tz/art/2021/art_677ab06a86ae46a2a654882bdee877d1.html",
+        "deploytime": "1617180278127",
+        "cdate": "1617120000000",
+        "publishtime": "1740473535597"
+      },
+      {
+        "title": "四部门关于开展2021年新能源汽车下乡活动的通知",
+        "url": "/ythzxfwpt/hlwmh/tzgg/sbfw/qczb/art/2021/art_adeeb1da049347d79ac615f9d8f92ebc.html",
+        "deploytime": "1617120000000",
+        "cdate": "1617811200000",
+        "publishtime": "1683910275989"
+      },
+      {
+        "title": "工业和信息化部办公厅 农业农村部办公厅 商务部办公厅 国家能源局综合司关于开展2021年新能源汽车下乡活动的通知",
+        "url": "/jgsj/zbys/wjfb/art/2021/art_f4a581a6a0da41b6b30d6c2624c88cc9.html",
+        "deploytime": "1617174991403",
+        "cdate": "1617120000000",
+        "publishtime": "1683905488497"
+      },
+      {
+        "title": "工业和信息化部办公厅 农业农村部办公厅 商务部办公厅 国家能源局综合司关于开展2021年新能源汽车下乡活动的通知",
+        "url": "/jgsj/zbys/gzdt/art/2021/art_0cb278064955426f8b590feadb4438a3.html",
+        "deploytime": "1617173676876",
+        "cdate": "1617120000000",
+        "publishtime": "1683905488497"
+      },
+      {
+        "title": "国际电联明确提出电动汽车无线充电的三个使用频段",
+        "url": "/jgsj/wgj/gzdt/art/2020/art_022c36a5d2d14d0e9acfb75bee6fcc3f.html",
+        "deploytime": "1574675071000",
+        "cdate": "1574697600000",
+        "publishtime": "1683905146899"
+      },
+      {
+        "title": "国际电联明确提出电动汽车无线充电的三个使用频段",
+        "url": "/ztzl/rdzt/2019sjwxdtxdh/ywkb/art/2020/art_baa6f99881d74dcd87135bcf6e4f365a.html",
+        "deploytime": "1574675071000",
+        "cdate": "1574611200000",
+        "publishtime": "1683905023492"
+      },
+      {
+        "title": "2018年度二等奖：构建顾客满意度多维度监听体系",
+        "url": "/jgsj/qyj/myqyglxdhcxcghb/art/2020/art_92d8618c42a3426a9af89df55de2c6c8.html",
+        "deploytime": "1569224603000",
+        "cdate": "1569168000000",
+        "publishtime": "1683904708898"
+      },
+      {
+        "title": "设置、使用空间无线电台审批",
+        "url": "/jgsj/wgj/bszn/xksx/art/2020/art_7bc936895ffc474aa8fb231533aa2819.html",
+        "deploytime": "1497318498000",
+        "cdate": "1526918400000",
+        "publishtime": "1683905146899"
+      },
+      {
+        "title": "欧洲企业社会责任考察报告",
+        "url": "/jgsj/zfs/xxyd/art/2020/art_844882348b8d4e16b7abc513550c9dd1.html",
+        "deploytime": "1324886954000",
+        "cdate": "1434384000000",
+        "publishtime": "1683904616206"
+      },
+      {
+        "title": "关于印发《产业关键共性技术发展指南（2011年）》的通知",
+        "url": "/jgsj/kjs/jscx/art/2020/art_5354bafcb1a04357afd364a84ddffd4e.html",
+        "deploytime": "1310024331000",
+        "cdate": "1323878400000",
+        "publishtime": "1683904646458"
+      },
+      {
+        "title": "关于印发《产业关键共性技术发展指南（2011年）》的通知",
+        "url": "/zwgk/zcwj/wjfb/tz/art/2011/art_0b9f260b559047c39dd16fe78d2f2461.html",
+        "deploytime": "1310024331000",
+        "cdate": "1312819200000",
+        "publishtime": "1740473567916"
+      },
+      {
+        "title": "关于印发《产业关键共性技术发展指南（2011年）》的通知",
+        "url": "/zwgk/zcwj/wjfb/tz/art/2011/art_b16a275ca7ee4f969fce2553187ee086.html",
+        "deploytime": "1310024331000",
+        "cdate": "1312905600000",
+        "publishtime": "1740473567916"
+      },
+      {
+        "title": "2011年4月上半月工业和信息化部核发进网许可证（含试用批文）的电信设备名录",
+        "url": "/zwgk/zcwj/wjfb/pf/art/2015/art_a238b41ac8b84cc6bbd06970c4d979e7.html",
+        "deploytime": "1304392744000",
+        "cdate": "1449158400000",
+        "publishtime": "1740473543470"
+      },
+      {
+        "title": "2010年7月上半月工业和信息化部核发进网许可证的电信设备目录",
+        "url": "/zwgk/zcwj/wjfb/pf/art/2015/art_1c70595d2fa244f89a82cc77f09862e0.html",
+        "deploytime": "1279864733000",
+        "cdate": "1449158400000",
+        "publishtime": "1740473543470"
+      },
+      {
+        "title": "2010年5月下半月工业和信息化部核发进网许可证的电信设备目录",
+        "url": "/zwgk/zcwj/wjfb/pf/art/2015/art_ad2aee51256b431ea0d65b705a8462f3.html",
+        "deploytime": "1275988213000",
+        "cdate": "1449158400000",
+        "publishtime": "1740473543470"
+      }
+    ]
+  },
+  {
+    "query": "免征车辆购置税 第四十八批",
+    "rec": {
+      "requested_url": "https://www.miit.gov.cn/search-front-server/api/search/info?websiteid=110000000000000&scope=basic&q=%E5%85%8D%E5%BE%81%E8%BD%A6%E8%BE%86%E8%B4%AD%E7%BD%AE%E7%A8%8E+%E7%AC%AC%E5%9B%9B%E5%8D%81%E5%85%AB%E6%89%B9&pg=40&p=1&cateid=47&pos=title_text%2Ctitlepy%2Cinfocontent%2Cfilenumbername%2Ckeyword%2Ccontentdescribe&selectFields=title%2Ccontent%2Cdeploytime%2C_index%2Curl%2Ccdate%2Cinfoextends%2Cinfocontentattribute%2Ckeyword%2Ccontentdescribe%2Csectitle%2Cpicpath%2Ccolumnname%2Cthemename%2Cpublishgroupname%2Cpublishtime%2Cmetaid%2Cbexxgk%2Ccolumnid%2Cinfocontenthashcode&group=distinct&level=6&sortFields=%5B%7B%22name%22%3A%22deploytime%22%2C%22type%22%3A%22desc%22%7D%5D",
+      "retrieved_utc": "2026-10-09T05:21:58.463085+00:00",
+      "tls_verification": true,
+      "status": "ok",
+      "http_status": 200,
+      "final_url": "https://www.miit.gov.cn/search-front-server/api/search/info?websiteid=110000000000000&scope=basic&q=%E5%85%8D%E5%BE%81%E8%BD%A6%E8%BE%86%E8%B4%AD%E7%BD%AE%E7%A8%8E+%E7%AC%AC%E5%9B%9B%E5%8D%81%E5%85%AB%E6%89%B9&pg=40&p=1&cateid=47&pos=title_text%2Ctitlepy%2Cinfocontent%2Cfilenumbername%2Ckeyword%2Ccontentdescribe&selectFields=title%2Ccontent%2Cdeploytime%2C_index%2Curl%2Ccdate%2Cinfoextends%2Cinfocontentattribute%2Ckeyword%2Ccontentdescribe%2Csectitle%2Cpicpath%2Ccolumnname%2Cthemename%2Cpublishgroupname%2Cpublishtime%2Cmetaid%2Cbexxgk%2Ccolumnid%2Cinfocontenthashcode&group=distinct&level=6&sortFields=%5B%7B%22name%22%3A%22deploytime%22%2C%22type%22%3A%22desc%22%7D%5D",
+      "bytes": 90097,
+      "sha256": "04c3c9882c13da5d5c5f5a1f3977742be7541679c1721a8ce4cc9398037d2d0b",
+      "response_headers": {
+        "date": "Fri, 09 Oct 2026 05:22:00 GMT",
+        "content-type": "text/html;charset=UTF-8",
+        "content-length": "90097",
+        "vary": "Accept-Encoding",
+        "set-cookie": "__jsluid_s=16c013f7ef7bf4a25d37e6a7e0e07e80; max-age=31536000; path=/; HttpOnly; SameSite=None; secure",
+        "x-kong-upstream-latency": "303",
+        "x-kong-proxy-latency": "1",
+        "via": "kong/1.4.3",
+        "x-via-jsl": "234f44c,-",
+        "x-cache": "bypass",
+        "x-envoy-upstream-service-time": "1316",
+        "server": "envoy",
+        "connection": "close"
+      },
+      "local_path": "/workspace/purchase_tax_audit/round8/jx_public_final_pass/search/tax48.json"
+    },
+    "hits": [
+      {
+        "title": "《道路机动车辆生产企业及产品》（第369批）、《享受车船税减免优惠的节约能源 使用新能源汽车车型目录》（第四十八批）、《免征车辆购置税的新能源汽车车型目录》（第六十四批）",
+        "url": "/zwgk/zcwj/wjfb/gg/art/2023/art_7ebffdaa452a4520a4c722f417f0a759.html",
+        "deploytime": "1681728027062",
+        "cdate": "1681660800000",
+        "publishtime": "1683905639348"
+      },
+      {
+        "title": "《道路机动车辆生产企业及产品》（第369批）、《享受车船税减免优惠的节约能源 使用新能源汽车车型目录》（第四十八批）、《免征车辆购置税的新能源汽车车型目录》（第六十四批）",
+        "url": "/zwgk/zcwj/wjfb/gg/art/2023/art_7ebffdaa452a4520a4c722f417f0a759.html",
+        "deploytime": "1681728027062",
+        "cdate": "1681660800000",
+        "publishtime": "1683905639348"
+      },
+      {
+        "title": "《道路机动车辆生产企业及产品》（第369批）、《享受车船税减免优惠的节约能源 使用新能源汽车车型目录》（第四十八批）、《免征车辆购置税的新能源汽车车型目录》（第六十四批）",
+        "url": "/jgsj/zbys/wjfb/art/2023/art_f851602893454ab5a365aeb091f9b6de.html",
+        "deploytime": "1681728027062",
+        "cdate": "1681660800000",
+        "publishtime": "1683905639348"
+      },
+      {
+        "title": "《道路机动车辆生产企业及产品》（第369批）、《享受车船税减免优惠的节约能源 使用新能源汽车车型目录》（第四十八批）、《免征车辆购置税的新能源汽车车型目录》（第六十四批）",
+        "url": "/ythzxfwpt/hlwmh/tzgg/xzxk/clsczr/art/2023/art_1b062184f1974958a207567a5a401415.html",
+        "deploytime": "1681710145627",
+        "cdate": "1682438400000",
+        "publishtime": "1683910297923"
+      },
+      {
+        "title": "《道路机动车辆生产企业及产品》（第349批）、《新能源汽车推广应用推荐车型目录》（2021年第10批）、《享受车船税减免优惠的节约能源 使用新能源汽车车型目录》（第三十二批）、《免征车辆购置税的新能源汽车车型目录》（第四十八批）",
+        "url": "/jgsj/zbys/wjfb/art/2021/art_19547aac82ba4c2eb48b230354f6fd1b.html",
+        "deploytime": "1636109257044",
+        "cdate": "1636041600000",
+        "publishtime": "1683905538627"
+      },
+      {
+        "title": "《道路机动车辆生产企业及产品》（第349批）、《新能源汽车推广应用推荐车型目录》（2021年第10批）、《享受车船税减免优惠的节约能源 使用新能源汽车车型目录》（第三十二批）、《免征车辆购置税的新能源汽车车型目录》（第四十八批）",
+        "url": "/jgsj/zbys/wjfb/art/2021/art_19547aac82ba4c2eb48b230354f6fd1b.html",
+        "deploytime": "1636109257044",
+        "cdate": "1636041600000",
+        "publishtime": "1683905538627"
+      },
+      {
+        "title": "《道路机动车辆生产企业及产品》（第349批）、《新能源汽车推广应用推荐车型目录》（2021年第10批）、《享受车船税减免优惠的节约能源 使用新能源汽车车型目录》（第三十二批）、《免征车辆购置税的新能源汽车车型目录》（第四十八批）",
+        "url": "/jgsj/zbys/wjfb/art/2021/art_19547aac82ba4c2eb48b230354f6fd1b.html",
+        "deploytime": "1636109257044",
+        "cdate": "1636041600000",
+        "publishtime": "1683905538627"
+      },
+      {
+        "title": "《道路机动车辆生产企业及产品》（第349批）、《新能源汽车推广应用推荐车型目录》（2021年第10批）、《享受车船税减免优惠的节约能源 使用新能源汽车车型目录》（第三十二批）、《免征车辆购置税的新能源汽车车型目录》（第四十八批）",
+        "url": "/zwgk/zcwj/wjfb/gg/art/2021/art_1b29d7093e9c45a6ab41fee28f16df0e.html",
+        "deploytime": "1636109257044",
+        "cdate": "1636041600000",
+        "publishtime": "1683905538627"
+      },
+      {
+        "title": "《道路机动车辆生产企业及产品》（第349批）、《新能源汽车推广应用推荐车型目录》（2021年第10批）、《享受车船税减免优惠的节约能源 使用新能源汽车车型目录》（第三十二批）、《免征车辆购置税的新能源汽车车型目录》（第四十八批）",
+        "url": "/zwgk/zcwj/wjfb/gg/art/2021/art_1b29d7093e9c45a6ab41fee28f16df0e.html",
+        "deploytime": "1636109257044",
+        "cdate": "1636041600000",
+        "publishtime": "1683905546671"
+      }
+    ]
+  },
+  {
+    "query": "新能源汽车推广应用推荐车型目录 2021年第10批",
+    "rec": {
+      "requested_url": "https://www.miit.gov.cn/search-front-server/api/search/info?websiteid=110000000000000&scope=basic&q=%E6%96%B0%E8%83%BD%E6%BA%90%E6%B1%BD%E8%BD%A6%E6%8E%A8%E5%B9%BF%E5%BA%94%E7%94%A8%E6%8E%A8%E8%8D%90%E8%BD%A6%E5%9E%8B%E7%9B%AE%E5%BD%95+2021%E5%B9%B4%E7%AC%AC10%E6%89%B9&pg=40&p=1&cateid=47&pos=title_text%2Ctitlepy%2Cinfocontent%2Cfilenumbername%2Ckeyword%2Ccontentdescribe&selectFields=title%2Ccontent%2Cdeploytime%2C_index%2Curl%2Ccdate%2Cinfoextends%2Cinfocontentattribute%2Ckeyword%2Ccontentdescribe%2Csectitle%2Cpicpath%2Ccolumnname%2Cthemename%2Cpublishgroupname%2Cpublishtime%2Cmetaid%2Cbexxgk%2Ccolumnid%2Cinfocontenthashcode&group=distinct&level=6&sortFields=%5B%7B%22name%22%3A%22deploytime%22%2C%22type%22%3A%22desc%22%7D%5D",
+      "retrieved_utc": "2026-10-09T05:22:00.669613+00:00",
+      "tls_verification": true,
+      "status": "ok",
+      "http_status": 200,
+      "final_url": "https://www.miit.gov.cn/search-front-server/api/search/info?websiteid=110000000000000&scope=basic&q=%E6%96%B0%E8%83%BD%E6%BA%90%E6%B1%BD%E8%BD%A6%E6%8E%A8%E5%B9%BF%E5%BA%94%E7%94%A8%E6%8E%A8%E8%8D%90%E8%BD%A6%E5%9E%8B%E7%9B%AE%E5%BD%95+2021%E5%B9%B4%E7%AC%AC10%E6%89%B9&pg=40&p=1&cateid=47&pos=title_text%2Ctitlepy%2Cinfocontent%2Cfilenumbername%2Ckeyword%2Ccontentdescribe&selectFields=title%2Ccontent%2Cdeploytime%2C_index%2Curl%2Ccdate%2Cinfoextends%2Cinfocontentattribute%2Ckeyword%2Ccontentdescribe%2Csectitle%2Cpicpath%2Ccolumnname%2Cthemename%2Cpublishgroupname%2Cpublishtime%2Cmetaid%2Cbexxgk%2Ccolumnid%2Cinfocontenthashcode&group=distinct&level=6&sortFields=%5B%7B%22name%22%3A%22deploytime%22%2C%22type%22%3A%22desc%22%7D%5D",
+      "bytes": 49503,
+      "sha256": "8dca10a34a2edfb2c2b34be621245cc9912463e33f4bbcac2d6e04a7379b797c",
+      "response_headers": {
+        "date": "Fri, 09 Oct 2026 05:22:02 GMT",
+        "content-type": "text/html;charset=UTF-8",
+        "content-length": "49503",
+        "vary": "Accept-Encoding",
+        "set-cookie": "__jsluid_s=8430c0349dce14ededec87b8fbb9d8da; max-age=31536000; path=/; HttpOnly; SameSite=None; secure",
+        "x-kong-upstream-latency": "194",
+        "x-kong-proxy-latency": "1",
+        "via": "kong/1.4.3",
+        "x-via-jsl": "887b0cd,-",
+        "x-cache": "bypass",
+        "x-envoy-upstream-service-time": "1127",
+        "server": "envoy",
+        "connection": "close"
+      },
+      "local_path": "/workspace/purchase_tax_audit/round8/jx_public_final_pass/search/recommend_2021_10.json"
+    },
+    "hits": [
+      {
+        "title": "《道路机动车辆生产企业及产品》（第349批）、《新能源汽车推广应用推荐车型目录》（2021年第10批）、《享受车船税减免优惠的节约能源 使用新能源汽车车型目录》（第三十二批）、《免征车辆购置税的新能源汽车车型目录》（第四十八批）",
+        "url": "/jgsj/zbys/wjfb/art/2021/art_19547aac82ba4c2eb48b230354f6fd1b.html",
+        "deploytime": "1636109257044",
+        "cdate": "1636041600000",
+        "publishtime": "1683905538627"
+      },
+      {
+        "title": "《道路机动车辆生产企业及产品》（第349批）、《新能源汽车推广应用推荐车型目录》（2021年第10批）、《享受车船税减免优惠的节约能源 使用新能源汽车车型目录》（第三十二批）、《免征车辆购置税的新能源汽车车型目录》（第四十八批）",
+        "url": "/jgsj/zbys/wjfb/art/2021/art_19547aac82ba4c2eb48b230354f6fd1b.html",
+        "deploytime": "1636109257044",
+        "cdate": "1636041600000",
+        "publishtime": "1683905538627"
+      },
+      {
+        "title": "《道路机动车辆生产企业及产品》（第349批）、《新能源汽车推广应用推荐车型目录》（2021年第10批）、《享受车船税减免优惠的节约能源 使用新能源汽车车型目录》（第三十二批）、《免征车辆购置税的新能源汽车车型目录》（第四十八批）",
+        "url": "/jgsj/zbys/wjfb/art/2021/art_19547aac82ba4c2eb48b230354f6fd1b.html",
+        "deploytime": "1636109257044",
+        "cdate": "1636041600000",
+        "publishtime": "1683905538627"
+      },
+      {
+        "title": "《道路机动车辆生产企业及产品》（第349批）、《新能源汽车推广应用推荐车型目录》（2021年第10批）、《享受车船税减免优惠的节约能源 使用新能源汽车车型目录》（第三十二批）、《免征车辆购置税的新能源汽车车型目录》（第四十八批）",
+        "url": "/zwgk/zcwj/wjfb/gg/art/2021/art_1b29d7093e9c45a6ab41fee28f16df0e.html",
+        "deploytime": "1636109257044",
+        "cdate": "1636041600000",
+        "publishtime": "1683905538627"
+      },
+      {
+        "title": "《道路机动车辆生产企业及产品》（第349批）、《新能源汽车推广应用推荐车型目录》（2021年第10批）、《享受车船税减免优惠的节约能源 使用新能源汽车车型目录》（第三十二批）、《免征车辆购置税的新能源汽车车型目录》（第四十八批）",
+        "url": "/zwgk/zcwj/wjfb/gg/art/2021/art_1b29d7093e9c45a6ab41fee28f16df0e.html",
+        "deploytime": "1636109257044",
+        "cdate": "1636041600000",
+        "publishtime": "1683905546671"
+      }
+    ]
+  }
+]

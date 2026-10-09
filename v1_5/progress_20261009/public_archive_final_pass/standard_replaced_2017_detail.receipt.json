@@ -1,0 +1,27 @@
+{
+  "request_url": "https://std.samr.gov.cn/gb/search/gbDetailed?id=71F772D81FD5D3A7E05397BE0A0AB82A",
+  "purpose": "仅跟进已取得2021标准详情页实际列出的前代标准链接，交叉核对直接部分替代关系；不扩展全标准史",
+  "retrieved_at_utc": "2026-10-09T05:25:36.095946+00:00",
+  "tls_verification": true,
+  "request_method": "GET",
+  "http_status": 200,
+  "final_url": "https://std.samr.gov.cn/gb/search/gbDetailed?id=71F772D81FD5D3A7E05397BE0A0AB82A",
+  "response_headers": {
+    "server": "envoy",
+    "date": "Fri, 09 Oct 2026 05:25:38 GMT",
+    "content-type": "text/html;charset=UTF-8",
+    "x-ratelimit-remaining": "199",
+    "x-ratelimit-requested-tokens": "1",
+    "x-ratelimit-burst-capacity": "200",
+    "x-ratelimit-replenish-rate": "80",
+    "set-cookie": "JSESSIONID=80F6816BA5E43BE829967BA6333D83A5; Path=/; HttpOnly",
+    "content-language": "zh-CN",
+    "x-envoy-upstream-service-time": "953",
+    "connection": "close",
+    "transfer-encoding": "chunked"
+  },
+  "bytes": 82229,
+  "sha256": "42fec6078618c62d9a96e58104ecbe7e1939cb9ab5eb785afd31f176be9ac34a",
+  "evidence_file": "/workspace/purchase_tax_audit/round8/public_archive_final_pass/standard_replaced_2017_detail.html",
+  "status": "retrieved"
+}

@@ -1,0 +1,8 @@
+﻿topic,field,value,status,evidence,remaining_required,nonblocking_for_2023_2024_analysis,user_private_material_needed,scope
+第一批2014年第54号,主管法规库pubDate登记日期,2014-08-27,本轮已取得,first_batch_registered_metadata.json,0,1,0,官方索引登记层；原页meta另为2026-06-02，不认证历史首次公开
+第一批2014年第54号,历史实际首次公开日/时刻,,未认证；归档边界,first_batch_registered_metadata.json,0,1,0,落款、实施日、PDF创建日及现存索引登记日均不能单独认证全球历史首次上线；本轮到此收敛
+GB/T18386.1-2021,官方登记发布日期,2021-03-09,本轮已取得,standard_registered_metadata.json,0,1,0,官方查询记录与完整标准详情页一致
+GB/T18386.1-2021,官方登记实施日期,2021-10-01,与已核政策交叉闭合,standard_registered_metadata.json,0,1,0,与2021年第13号公告正文一致
+GB/T18386.1-2021,查询时官方登记状态,现行,本轮已取得,standard_registered_metadata.json,0,1,0,2026-10-09上海时间本次查询观察，不外推未来状态
+GB/T18386.1-2021,直接替代关系,部分代替GB/T18386-2017,双方登记页交叉验证,standard_registered_metadata.json,0,1,0,不能改称完全代替，也不将18386.2-2022当成18386.1-2021后继
+GB/T18386.1-2021,被代替/后继标准登记观察,本次详情页未列出后继标准,当前关系图观察已记录,standard_registered_metadata.json,0,1,0,登记关系图无后继节点；不是对未来或一切外部记录的绝对不存在断言

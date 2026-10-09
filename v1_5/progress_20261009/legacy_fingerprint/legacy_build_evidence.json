@@ -1,0 +1,203 @@
+{
+  "audit_generated_at_utc": "2026-10-09T05:17:45.025426+00:00",
+  "scope": "核对已打开具体文件的指纹、版本声明和保留两次构建记录；不认证未打开归档的名称/交付版本，不复算风险或输入准备集合",
+  "relative_file": "官方技术清单/重建3328_官方清单标记与资格轨迹.csv",
+  "resolved_legacy_sha256": "73b31afdaf90fd5efa32063308a9ac4123b0bf2d86f941abbe3e9c4db09e7a3d",
+  "legacy_sha_prefix_from_task": "73b31afdaf90fd5e",
+  "resolved_final_local_v1_3_sha256": "1963fd09c4502d60c90a4a4a28660d9236ae19a3d126520c54c4ba5c98a5863d",
+  "source_files": {
+    "compact_manifest": {
+      "path": "/workspace/purchase_tax_audit/compact_input_20261008/购置税项目_必要数据精简包_20261008/文件清单_SHA256.txt",
+      "bytes": 7304,
+      "sha256": "624d12da020dc1cb25e45bd812bb2cdab5ee848c0b3b8ad7721cf8b7af882bcd"
+    },
+    "compact_provenance": {
+      "path": "/workspace/purchase_tax_audit/compact_input_20261008/购置税项目_必要数据精简包_20261008/内容来源与指纹.csv",
+      "bytes": 21426,
+      "sha256": "0298cc5e09c92d6ad5286b0ba7662021a7d8072a6b7cdde5fe26e4a9330fd30d"
+    },
+    "compact_readme": {
+      "path": "/workspace/purchase_tax_audit/compact_input_20261008/购置税项目_必要数据精简包_20261008/README.md",
+      "bytes": 4701,
+      "sha256": "1e2c0fd395c9777a227d76db1ad4843470531f9762a7b748d427665bd91263ac"
+    },
+    "historical_build_comparison": {
+      "path": "/workspace/purchase_tax_audit/compact_input_20261008/购置税项目_必要数据精简包_20261008/历史验收/完整包v1_1_34产物两次构建字节对账.json",
+      "bytes": 11482,
+      "sha256": "f47796ba538c809293db017b3828ce96795d45d67f66a0e9e0b50167f5848bff"
+    },
+    "historical_report": {
+      "path": "/workspace/purchase_tax_audit/compact_input_20261008/购置税项目_必要数据精简包_20261008/报告/完整包v1_1补采报告_历史记录.md",
+      "bytes": 9997,
+      "sha256": "25947166eafab0f98b05e9d174e21f386b0a66f6fa5e5e2accf68205799f6eaf"
+    },
+    "date_version_manifest": {
+      "path": "/workspace/purchase_tax_audit/round3/versioning/data_version_manifest.csv",
+      "bytes": 6777,
+      "sha256": "ecf1634d0e4dd425c5b91fa647d19cb01f2e4e3616ec878bc3fcbe9e03e970f9"
+    },
+    "date_version_summary": {
+      "path": "/workspace/purchase_tax_audit/round3/versioning/date_version_summary.json",
+      "bytes": 10980,
+      "sha256": "1a48098c9240bfe56963d33a5bde2ed694efbbccb78e1fa554f986a4227bbef0"
+    },
+    "legacy_compact_file": {
+      "path": "/workspace/purchase_tax_audit/compact_input_20261008/购置税项目_必要数据精简包_20261008/官方技术清单/重建3328_官方清单标记与资格轨迹.csv",
+      "bytes": 852354,
+      "sha256": "73b31afdaf90fd5efa32063308a9ac4123b0bf2d86f941abbe3e9c4db09e7a3d"
+    },
+    "legacy_date_v1_2_file": {
+      "path": "/workspace/purchase_tax_audit/round3/versioning/data_v1_2/官方技术清单/重建3328_官方清单标记与资格轨迹.csv",
+      "bytes": 852354,
+      "sha256": "73b31afdaf90fd5efa32063308a9ac4123b0bf2d86f941abbe3e9c4db09e7a3d"
+    },
+    "final_v1_3_manifest": {
+      "path": "/workspace/purchase_tax_audit/round3/reconstruction/data_v1_3_manifest.csv",
+      "bytes": 5543,
+      "sha256": "d106dfa57d857758d0a0fbba7eedba4b93c85361eb9928d459dfec49d64e0bf3"
+    },
+    "final_v1_3_summary": {
+      "path": "/workspace/purchase_tax_audit/round3/reconstruction/reconstruction_summary.json",
+      "bytes": 11055,
+      "sha256": "9ff46728648a3b67bc50f22e0136cfd4a1ba3c39a1b2058876294f96e2a768ef"
+    },
+    "final_v1_3_file": {
+      "path": "/workspace/purchase_tax_audit/round3/reconstruction/data_v1_3/官方技术清单/重建3328_官方清单标记与资格轨迹.csv",
+      "bytes": 855683,
+      "sha256": "1963fd09c4502d60c90a4a4a28660d9236ae19a3d126520c54c4ba5c98a5863d"
+    }
+  },
+  "legacy_fingerprint_chain": {
+    "compact_manifest_evidence": {
+      "source_id": "compact_manifest",
+      "path": "/workspace/purchase_tax_audit/compact_input_20261008/购置税项目_必要数据精简包_20261008/文件清单_SHA256.txt",
+      "lines": [
+        {
+          "line_1based": 27,
+          "text": "73b31afdaf90fd5efa32063308a9ac4123b0bf2d86f941abbe3e9c4db09e7a3d  官方技术清单/重建3328_官方清单标记与资格轨迹.csv"
+        }
+      ]
+    },
+    "compact_provenance_record_filtered_to_file_fields": {
+      "精简包文件": "官方技术清单/重建3328_官方清单标记与资格轨迹.csv",
+      "源文件字节数": "852354",
+      "源文件SHA256": "73b31afdaf90fd5efa32063308a9ac4123b0bf2d86f941abbe3e9c4db09e7a3d",
+      "复制方式": "逐字节原样复制"
+    },
+    "actual_compact_file_hash_and_bytes_verified": true,
+    "actual_compact_bytes": 852354,
+    "historical_two_build_target_record": {
+      "stage": "official_nonconformance",
+      "file": "官方技术清单/重建3328_官方清单标记与资格轨迹.csv",
+      "first_run_sha256": "73b31afdaf90fd5efa32063308a9ac4123b0bf2d86f941abbe3e9c4db09e7a3d",
+      "fresh_run_sha256": "73b31afdaf90fd5efa32063308a9ac4123b0bf2d86f941abbe3e9c4db09e7a3d",
+      "equal": true
+    },
+    "date_v1_2_manifest_record": {
+      "relative_path": "官方技术清单/重建3328_官方清单标记与资格轨迹.csv",
+      "input_sha256": "73b31afdaf90fd5efa32063308a9ac4123b0bf2d86f941abbe3e9c4db09e7a3d",
+      "v1_2_sha256": "73b31afdaf90fd5efa32063308a9ac4123b0bf2d86f941abbe3e9c4db09e7a3d",
+      "rows": "3328",
+      "field_updates": "0"
+    },
+    "actual_date_v1_2_file_identical_to_compact": true,
+    "date_v1_2_target_field_updates": 0
+  },
+  "historical_two_build_record_validation": {
+    "recorded_version_scope": "v1.1两次独立干净目录构建；与上一版v1的31产物分开记载",
+    "recorded_output_files": 34,
+    "listed_entries": 34,
+    "unique_file_names": 34,
+    "recorded_mismatches": [],
+    "all_34_pairs_are_valid_equal_64_digit_sha256": true,
+    "all_34_equal_flags_true": true,
+    "specific_legacy_file_both_run_sha_equal_to_actual_compact": true,
+    "verification_level": "本次核对保留记录的内部34项一致性和目标文件当前字节，不是重新执行两个历史完整构建或重新打开两套完整产物"
+  },
+  "version_declarations": {
+    "compact_self_description": {
+      "source_id": "compact_readme",
+      "path": "/workspace/purchase_tax_audit/compact_input_20261008/购置税项目_必要数据精简包_20261008/README.md",
+      "lines": [
+        {
+          "line_1based": 3,
+          "text": "这份包用于继续分析、阅读结论和轻量核查。它从2026-10-08完整包v1.1提取必要内容，保留文件均逐字节复制，不改原值、成员、事件或参数。完整归档另行保留。"
+        }
+      ]
+    },
+    "historical_report_dated_declaration": {
+      "source_id": "historical_report",
+      "path": "/workspace/purchase_tax_audit/compact_input_20261008/购置税项目_必要数据精简包_20261008/报告/完整包v1_1补采报告_历史记录.md",
+      "lines": [
+        {
+          "line_1based": 3,
+          "text": "日期：2026-10-08；v1.1口径补注。接续已保存的3328型号研究队列，本轮补证，不改写原归档、冻结1991或已交付面板。"
+        }
+      ]
+    },
+    "historical_report_build_scope": {
+      "source_id": "historical_report",
+      "path": "/workspace/purchase_tax_audit/compact_input_20261008/购置税项目_必要数据精简包_20261008/报告/完整包v1_1补采报告_历史记录.md",
+      "lines": [
+        {
+          "line_1based": 77,
+          "text": "v1.1另完成两次干净目录构建，新增3份逐条/集合对账产物后，本版为34个阶段产物；34/34 SHA256逐字节相同，再次运行五步均复用。上一阶段38产物/29项验收和原补采包48文件/33项验收也保持各自历史范围。"
+        }
+      ]
+    },
+    "date_manifest_labels": {
+      "input_column": "input_sha256",
+      "output_column": "v1_2_sha256",
+      "target_record": {
+        "relative_path": "官方技术清单/重建3328_官方清单标记与资格轨迹.csv",
+        "input_sha256": "73b31afdaf90fd5efa32063308a9ac4123b0bf2d86f941abbe3e9c4db09e7a3d",
+        "v1_2_sha256": "73b31afdaf90fd5efa32063308a9ac4123b0bf2d86f941abbe3e9c4db09e7a3d",
+        "rows": "3328",
+        "field_updates": "0"
+      }
+    },
+    "conclusion": "旧73b31af…具体字节已见于自称v1.1的保留两次构建记录，且日期v1.2输出未改该文件。它可以被后续包原样继承；这一身份不能据单文件推出用户所称整包的交付版本。"
+  },
+  "generation_time_evidence": {
+    "legacy_exact_generation_time": null,
+    "legacy_exact_generation_time_verified": false,
+    "historical_build_record_root_keys": [
+      "output_files",
+      "mismatches",
+      "files",
+      "scope"
+    ],
+    "historical_build_record_has_generation_timestamp": false,
+    "date_manifest_has_generation_timestamp_column": false,
+    "date_summary_has_generation_timestamp_field": false,
+    "historical_report_declared_date": "2026-10-08",
+    "historical_report_declared_date_scope": "报告日期及v1.1口径补注，不能升级为目标CSV精确生成时刻",
+    "file_system_extraction_or_mtime_used_as_generation_time": false,
+    "final_local_v1_3_summary_generation_time_utc": "2026-10-08T14:45:42.521551+00:00",
+    "final_local_v1_3_time_scope": "对应本地最终重建摘要的记录时刻，不回推为旧73b31af…的生成时刻"
+  },
+  "final_local_v1_3_comparator": {
+    "manifest_record": {
+      "path": "官方技术清单/重建3328_官方清单标记与资格轨迹.csv",
+      "bytes": "855683",
+      "sha256": "1963fd09c4502d60c90a4a4a28660d9236ae19a3d126520c54c4ba5c98a5863d"
+    },
+    "actual_file_hash_and_bytes_verified": true,
+    "summary_output_root": "/workspace/purchase_tax_audit/round3/reconstruction/data_v1_3",
+    "summary_reported_preannouncement_risk_models": 2805,
+    "summary_reported_numeric_input_ready": 2424,
+    "counts_read_from_summary_not_recomputed": true
+  },
+  "non_inferences": [
+    "不根据单文件指纹命名或认证未打开40MB完整归档。",
+    "不将用户所称旧v1.3整个包强制改称v1.1或v1.2；只说明其给定旧文件指纹与已打开历史文件相同。",
+    "不称34项历史SHA记录相等为本次重跑34个原件级构建产物成功。",
+    "不填造旧文件精确生成时间；保留记录无该时间字段。",
+    "风险2877/输入准备2488以及73移除、1恢复、SGM生效值等集合与解释由主代理独立核查，本任务不重复复算。"
+  ],
+  "risk_or_numeric_ready_sets_recomputed": false,
+  "old_data_or_reports_modified": false,
+  "git_upload_performed": false,
+  "reviewed_source_file_hashes_unchanged": true,
+  "reviewed_source_file_count": 12
+}

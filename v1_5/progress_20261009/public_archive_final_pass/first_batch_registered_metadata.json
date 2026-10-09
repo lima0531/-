@@ -1,0 +1,60 @@
+{
+  "document_number": "中华人民共和国工业和信息化部 国家税务总局公告2014年第54号",
+  "title": "免征车辆购置税的新能源汽车车型目录（第一批）",
+  "raw_index_title": "<span>免征</span><span>车辆</span><span>购置税</span><span>的</span><span>新能源汽车</span><span>车型</span><span>目录</span>（<span>第一</span><span>批</span>）",
+  "registered_public_date_in_official_index": "2014-08-27",
+  "registered_public_date_definition": "国家税务总局政策法规库官方查询记录中名为pubDate的登记字段；不认证历史实际首次公开时间",
+  "raw_official_index_fields": {
+    "pubDate": "2014-08-27 00:00:00",
+    "cwrq": "2014-08-27 00:00:00",
+    "fwrq": "",
+    "pubName": "工业和信息化部,国家税务总局",
+    "siteName": "国家税务总局政策法规库",
+    "url": "http://fgk.chinatax.gov.cn/zcfgk/c100013/c5207263/content.html",
+    "snapshotUrl": "http://fgk.chinatax.gov.cn/zcfgk/c100013/c5207263/content.html"
+  },
+  "raw_official_index_document_number": {
+    "docNo": "54",
+    "docNum": "中华人民共和国工业和信息化部 国家税务总局公告2014年第54号",
+    "docType": "中华人民共和国工业和信息化部国家税务总局公告",
+    "docYear": "2014"
+  },
+  "raw_official_index_field_locator": "$.searchResultAll.searchTotal[0].pubDate（登记字段），cwrq为另一个成文日期字段",
+  "page_visible_signed_date": "2014-08-27",
+  "page_visible_signed_date_locator": "HTML line 294，标签成文日期；不是可见发布日期",
+  "page_visible_implementation_date": "2014-09-01",
+  "page_visible_implementation_date_locator": "HTML line 330，正文自2014年9月1日起开始实施",
+  "page_html_metadata_PubDate": "2026-06-02 15:18:48",
+  "page_html_metadata_locator": "HTML line 19，meta name=PubDate",
+  "page_index_pubdate_difference_retained": true,
+  "page_visible_historical_publication_label_found": false,
+  "registered_layer_evidence_obtained": true,
+  "historical_actual_first_publication_date": null,
+  "full_historical_first_online_time_verified": false,
+  "do_not_infer_first_release_from_signed_or_effective_or_pdf_creation_dates": true,
+  "official_query_evidence": {
+    "file": "/workspace/purchase_tax_audit/round8/public_archive_final_pass/tax_first_final_query.html",
+    "sha256": "fcc6217eac650a741f6dc71f829be232b070ced90c06d77b2af4f7a4963f944a",
+    "source_url": "https://www.chinatax.gov.cn/search5/search/s?siteCode=bm29000002&searchWord=%E5%85%8D%E5%BE%81%E8%BD%A6%E8%BE%86%E8%B4%AD%E7%BD%AE%E7%A8%8E%E7%9A%84%E6%96%B0%E8%83%BD%E6%BA%90%E6%B1%BD%E8%BD%A6%E8%BD%A6%E5%9E%8B%E7%9B%AE%E5%BD%95+%E7%AC%AC%E4%B8%80%E6%89%B9&pageSize=20&pageNum=0&orderBy=5&column=%E6%94%BF%E7%AD%96%E6%B3%95%E8%A7%84%2C%E6%94%BF%E7%AD%96%E8%A7%A3%E8%AF%BB%2C%E6%94%BF%E7%AD%96%E6%8C%87%E5%BC%95&label=%E6%96%87%E5%AD%97%E6%94%BF%E7%AD%96%E8%A7%A3%E8%AF%BB%2C%E6%B3%95%E5%BE%8B%2C%E8%A1%8C%E6%94%BF%E6%B3%95%E8%A7%84%2C%E5%9B%BD%E5%8A%A1%E9%99%A2%E6%96%87%E4%BB%B6%2C%E7%A8%8E%E5%8A%A1%E9%83%A8%E9%97%A8%E8%A7%84%E7%AB%A0%2C%E7%A8%8E%E5%8A%A1%E8%A7%84%E8%8C%83%E6%80%A7%E6%96%87%E4%BB%B6%2C%E8%B4%A2%E7%A8%8E%E6%96%87%E4%BB%B6%2C%E5%85%B6%E4%BB%96%E6%96%87%E4%BB%B6%2C%E5%B7%A5%E4%BD%9C%E9%80%9A%E7%9F%A5%2C%E6%94%BF%E7%AD%96%E6%8C%87%E5%BC%95&likeDoc=0&wordPlace=0&indexCode=1&participleRule=5&searchSiteName=GSFFK",
+    "retrieved_at_utc": "2026-10-09T05:24:11.885061+00:00",
+    "retrieved_at_shanghai": "2026-10-09T13:24:11.885061+08:00",
+    "http_status": 200
+  },
+  "official_primary_page_evidence": {
+    "file": "/workspace/purchase_tax_audit/round8/public_archive_final_pass/first_batch_primary_registered_page.html",
+    "sha256": "3dc8158746c05541db72eea7abf64690b5edd57188f02e2f96294c16495b6c16",
+    "source_url": "https://fgk.chinatax.gov.cn/zcfgk/c100013/c5207263/content.html",
+    "retrieved_at_utc": "2026-10-09T05:25:08.921869+00:00",
+    "retrieved_at_shanghai": "2026-10-09T13:25:08.921869+08:00",
+    "http_status": 200
+  },
+  "actual_official_attachment_hrefs": [
+    {
+      "appendixContent": "",
+      "appendixName": "免征车辆购置税的新能源汽车车型目录（第一批）.pdf",
+      "appendixType": "pdf",
+      "appendixUrl": "http://fgk.chinatax.gov.cn/zcfgk/c100013/c5207263/5207263/files/免征车辆购置税的新能源汽车车型目录（第一批）.pdf"
+    }
+  ],
+  "scientific_dates_modified": false
+}

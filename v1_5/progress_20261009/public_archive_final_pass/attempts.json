@@ -1,0 +1,82 @@
+[
+  {
+    "request_url": "https://www.miit.gov.cn/search-front-server/api/search/info?websiteid=110000000000000&scope=basic&q=%E6%96%B0%E8%83%BD%E6%BA%90%E6%B1%BD%E8%BD%A6&pg=40&p=1&cateid=47&pos=title_text%2Ctitlepy%2Cinfocontent%2Cfilenumbername%2Ckeyword%2Ccontentdescribe&pq=&oq=&eq=&begin=2014-08-25&end=2014-09-05&dateField=deploytime&selectFields=title%2Ccontent%2Cdeploytime%2C_index%2Curl%2Ccdate%2Cinfoextends%2Cinfocontentattribute%2Ckeyword%2Ccontentdescribe%2Csectitle%2Cpicpath%2Ccolumnname%2Cthemename%2Cpublishgroupname%2Cpublishtime%2Cmetaid%2Cbexxgk%2Ccolumnid%2Cinfocontenthashcode&group=distinct&highlightFields=title_text%2Cinfocontent%2Cwebid&level=6&sortFields=%5B%7B%22name%22%3A%22deploytime%22%2C%22type%22%3A%22desc%22%7D%5D",
+    "purpose": "第一批主管部门原页最后定向发现；2014-08-25至2014-09-05部署时间窗口内新能源汽车关键词；命中不直接等于首批登记日",
+    "retrieved_at_utc": "2026-10-09T05:22:49.247106+00:00",
+    "tls_verification": true,
+    "request_method": "GET",
+    "http_status": 200,
+    "final_url": "https://www.miit.gov.cn/search-front-server/api/search/info?websiteid=110000000000000&scope=basic&q=%E6%96%B0%E8%83%BD%E6%BA%90%E6%B1%BD%E8%BD%A6&pg=40&p=1&cateid=47&pos=title_text%2Ctitlepy%2Cinfocontent%2Cfilenumbername%2Ckeyword%2Ccontentdescribe&pq=&oq=&eq=&begin=2014-08-25&end=2014-09-05&dateField=deploytime&selectFields=title%2Ccontent%2Cdeploytime%2C_index%2Curl%2Ccdate%2Cinfoextends%2Cinfocontentattribute%2Ckeyword%2Ccontentdescribe%2Csectitle%2Cpicpath%2Ccolumnname%2Cthemename%2Cpublishgroupname%2Cpublishtime%2Cmetaid%2Cbexxgk%2Ccolumnid%2Cinfocontenthashcode&group=distinct&highlightFields=title_text%2Cinfocontent%2Cwebid&level=6&sortFields=%5B%7B%22name%22%3A%22deploytime%22%2C%22type%22%3A%22desc%22%7D%5D",
+    "response_headers": {
+      "date": "Fri, 09 Oct 2026 05:22:50 GMT",
+      "content-type": "text/html;charset=UTF-8",
+      "content-length": "43858",
+      "vary": "Accept-Encoding",
+      "set-cookie": "_ud_=8a17d7c1b51548c7878a567a1c42c56e;Max-Age=2592000;path=/search-front-server;",
+      "x-kong-upstream-latency": "221",
+      "x-kong-proxy-latency": "0",
+      "via": "kong/1.4.3",
+      "x-via-jsl": "887b0cd,-",
+      "x-cache": "bypass",
+      "x-envoy-upstream-service-time": "1121",
+      "server": "envoy",
+      "connection": "close"
+    },
+    "bytes": 43858,
+    "sha256": "0a2ced536caef868d7014e4a9995a08ebc9245d3ffe4afe8463fc10c606758da",
+    "evidence_file": "/workspace/purchase_tax_audit/round8/public_archive_final_pass/miit_first_nev_window.html",
+    "status": "retrieved"
+  },
+  {
+    "request_url": "https://www.miit.gov.cn/search-front-server/api/search/info?websiteid=110000000000000&scope=basic&q=%E7%AC%AC54%E5%8F%B7&pg=40&p=1&cateid=47&pos=title_text%2Ctitlepy%2Cinfocontent%2Cfilenumbername%2Ckeyword%2Ccontentdescribe&pq=&oq=&eq=&begin=2014-01-01&end=2014-12-31&dateField=deploytime&selectFields=title%2Ccontent%2Cdeploytime%2C_index%2Curl%2Ccdate%2Cinfoextends%2Cinfocontentattribute%2Ckeyword%2Ccontentdescribe%2Csectitle%2Cpicpath%2Ccolumnname%2Cthemename%2Cpublishgroupname%2Cpublishtime%2Cmetaid%2Cbexxgk%2Ccolumnid%2Cinfocontenthashcode&group=distinct&highlightFields=title_text%2Cinfocontent%2Cwebid&level=6&sortFields=%5B%7B%22name%22%3A%22deploytime%22%2C%22type%22%3A%22desc%22%7D%5D",
+    "purpose": "第一批主管部门原页最后定向发现；2014年部署时间内第54号关键词，须正文及文件号匹配才可作证",
+    "retrieved_at_utc": "2026-10-09T05:22:49.247684+00:00",
+    "tls_verification": true,
+    "request_method": "GET",
+    "http_status": 200,
+    "final_url": "https://www.miit.gov.cn/search-front-server/api/search/info?websiteid=110000000000000&scope=basic&q=%E7%AC%AC54%E5%8F%B7&pg=40&p=1&cateid=47&pos=title_text%2Ctitlepy%2Cinfocontent%2Cfilenumbername%2Ckeyword%2Ccontentdescribe&pq=&oq=&eq=&begin=2014-01-01&end=2014-12-31&dateField=deploytime&selectFields=title%2Ccontent%2Cdeploytime%2C_index%2Curl%2Ccdate%2Cinfoextends%2Cinfocontentattribute%2Ckeyword%2Ccontentdescribe%2Csectitle%2Cpicpath%2Ccolumnname%2Cthemename%2Cpublishgroupname%2Cpublishtime%2Cmetaid%2Cbexxgk%2Ccolumnid%2Cinfocontenthashcode&group=distinct&highlightFields=title_text%2Cinfocontent%2Cwebid&level=6&sortFields=%5B%7B%22name%22%3A%22deploytime%22%2C%22type%22%3A%22desc%22%7D%5D",
+    "response_headers": {
+      "date": "Fri, 09 Oct 2026 05:22:50 GMT",
+      "content-type": "text/html;charset=UTF-8",
+      "content-length": "225",
+      "set-cookie": "_ud_=95424b14cc154c4f8262dae34a1b4a1d;Max-Age=2592000;path=/search-front-server;",
+      "x-kong-upstream-latency": "180",
+      "x-kong-proxy-latency": "0",
+      "via": "kong/1.4.3",
+      "x-via-jsl": "887b0cd,-",
+      "x-cache": "bypass",
+      "x-envoy-upstream-service-time": "1669",
+      "server": "envoy",
+      "connection": "close"
+    },
+    "bytes": 225,
+    "sha256": "1cc8a2d591642c2d528ab667b5a296e4d0ec1d1817b834e2879b06685b35029c",
+    "evidence_file": "/workspace/purchase_tax_audit/round8/public_archive_final_pass/miit_first_number_year.html",
+    "status": "retrieved"
+  },
+  {
+    "request_url": "https://std.samr.gov.cn/gb/search/gbQueryPage?searchText=GB%2FT+18386.1-2021",
+    "purpose": "全国标准信息公共服务平台公共检索页面的一次最终定向可达性检查；不关闭TLS、不循环重试；所查标准元数据须完整编号详情页匹配",
+    "retrieved_at_utc": "2026-10-09T05:22:49.247906+00:00",
+    "tls_verification": true,
+    "request_method": "GET",
+    "http_status": 200,
+    "final_url": "https://std.samr.gov.cn/gb/search/gbQueryPage?searchText=GB%2FT+18386.1-2021",
+    "response_headers": {
+      "server": "envoy",
+      "date": "Fri, 09 Oct 2026 05:22:53 GMT",
+      "content-type": "application/json;charset=utf-8",
+      "content-length": "373",
+      "x-ratelimit-remaining": "197",
+      "x-ratelimit-requested-tokens": "1",
+      "x-ratelimit-burst-capacity": "200",
+      "x-ratelimit-replenish-rate": "80",
+      "x-envoy-upstream-service-time": "1352",
+      "connection": "close"
+    },
+    "bytes": 373,
+    "sha256": "7fe2ae9627235566888d25019e6728f05d087d67f7593d15a45705c83e7761b4",
+    "evidence_file": "/workspace/purchase_tax_audit/round8/public_archive_final_pass/standard_registry_query.html",
+    "status": "retrieved"
+  }
+]

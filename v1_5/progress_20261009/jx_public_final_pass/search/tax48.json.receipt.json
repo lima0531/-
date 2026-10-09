@@ -1,0 +1,26 @@
+{
+  "requested_url": "https://www.miit.gov.cn/search-front-server/api/search/info?websiteid=110000000000000&scope=basic&q=%E5%85%8D%E5%BE%81%E8%BD%A6%E8%BE%86%E8%B4%AD%E7%BD%AE%E7%A8%8E+%E7%AC%AC%E5%9B%9B%E5%8D%81%E5%85%AB%E6%89%B9&pg=40&p=1&cateid=47&pos=title_text%2Ctitlepy%2Cinfocontent%2Cfilenumbername%2Ckeyword%2Ccontentdescribe&selectFields=title%2Ccontent%2Cdeploytime%2C_index%2Curl%2Ccdate%2Cinfoextends%2Cinfocontentattribute%2Ckeyword%2Ccontentdescribe%2Csectitle%2Cpicpath%2Ccolumnname%2Cthemename%2Cpublishgroupname%2Cpublishtime%2Cmetaid%2Cbexxgk%2Ccolumnid%2Cinfocontenthashcode&group=distinct&level=6&sortFields=%5B%7B%22name%22%3A%22deploytime%22%2C%22type%22%3A%22desc%22%7D%5D",
+  "retrieved_utc": "2026-10-09T05:21:58.463085+00:00",
+  "tls_verification": true,
+  "status": "ok",
+  "http_status": 200,
+  "final_url": "https://www.miit.gov.cn/search-front-server/api/search/info?websiteid=110000000000000&scope=basic&q=%E5%85%8D%E5%BE%81%E8%BD%A6%E8%BE%86%E8%B4%AD%E7%BD%AE%E7%A8%8E+%E7%AC%AC%E5%9B%9B%E5%8D%81%E5%85%AB%E6%89%B9&pg=40&p=1&cateid=47&pos=title_text%2Ctitlepy%2Cinfocontent%2Cfilenumbername%2Ckeyword%2Ccontentdescribe&selectFields=title%2Ccontent%2Cdeploytime%2C_index%2Curl%2Ccdate%2Cinfoextends%2Cinfocontentattribute%2Ckeyword%2Ccontentdescribe%2Csectitle%2Cpicpath%2Ccolumnname%2Cthemename%2Cpublishgroupname%2Cpublishtime%2Cmetaid%2Cbexxgk%2Ccolumnid%2Cinfocontenthashcode&group=distinct&level=6&sortFields=%5B%7B%22name%22%3A%22deploytime%22%2C%22type%22%3A%22desc%22%7D%5D",
+  "bytes": 90097,
+  "sha256": "04c3c9882c13da5d5c5f5a1f3977742be7541679c1721a8ce4cc9398037d2d0b",
+  "response_headers": {
+    "date": "Fri, 09 Oct 2026 05:22:00 GMT",
+    "content-type": "text/html;charset=UTF-8",
+    "content-length": "90097",
+    "vary": "Accept-Encoding",
+    "set-cookie": "__jsluid_s=16c013f7ef7bf4a25d37e6a7e0e07e80; max-age=31536000; path=/; HttpOnly; SameSite=None; secure",
+    "x-kong-upstream-latency": "303",
+    "x-kong-proxy-latency": "1",
+    "via": "kong/1.4.3",
+    "x-via-jsl": "234f44c,-",
+    "x-cache": "bypass",
+    "x-envoy-upstream-service-time": "1316",
+    "server": "envoy",
+    "connection": "close"
+  },
+  "local_path": "/workspace/purchase_tax_audit/round8/jx_public_final_pass/search/tax48.json"
+}

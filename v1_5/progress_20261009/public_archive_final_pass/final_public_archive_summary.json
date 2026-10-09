@@ -1,0 +1,16 @@
+{
+  "generated_at_utc": "2026-10-09T05:27:55.421013+00:00",
+  "first_batch_registered_layer_evidence_obtained": true,
+  "first_batch_registered_date_candidate": "2014-08-27",
+  "first_batch_original_historical_first_publication_verified": false,
+  "standard_registry_core_fields_completed": true,
+  "standard_partial_replaces": "GB/T18386-2017",
+  "standard_successor_relation_as_of_query": "not_listed_on_current_detail",
+  "new_attempts": 7,
+  "new_http_200_responses": 7,
+  "full_first_online_unknown_is_not_a_current_analysis_blocker": true,
+  "remaining_required_public_metadata_fields_for_current_analysis": 0,
+  "user_private_materials_requested_for_this_archive_task": false,
+  "science_inputs_or_dates_modified": false,
+  "preferred_definition": "Registered fields are current authoritative record observations, not a reconstruction of first historical online timestamps."
+}

@@ -1,0 +1,53 @@
+{
+  "primary_url": "https://www.miit.gov.cn/zwgk/zcwj/wjfb/gg/art/2021/art_1b29d7093e9c45a6ab41fee28f16df0e.html",
+  "primary_sha256": "529e210d117b5747ef1a41d95600846a025c3d20fbe75ec58eb6d6d2b930b5a9",
+  "registered_public_date": "2021-11-05",
+  "signed_date": "2021-11-05",
+  "html_date_lines": [
+    {
+      "line_1based": 32,
+      "html_original": "<meta name=\"PubDate\" content=\"2023-05-12 23:32\">"
+    },
+    {
+      "line_1based": 77,
+      "html_original": "<span class=\"xxgk-span1\">成文日期：</span><span class=\"xxgk-span2\">2021-11-05</span>"
+    },
+    {
+      "line_1based": 81,
+      "html_original": "<span class=\"xxgk-span1\">发布日期：</span><span class=\"xxgk-span4\">2021-11-05</span>"
+    },
+    {
+      "line_1based": 103,
+      "html_original": "<span id=\"con_time\">发布时间：2021-11-05 18:47</span>  <span>来源：装备工业一司</span>"
+    }
+  ],
+  "meta_pubdate_conflict_kept": true,
+  "global_first_online_timestamp_verified": false,
+  "real_attachment_anchors": [
+    {
+      "href_original": "/cms_files/filemanager/1226211233/attach/202110/89a8e7e2d695498d93ca9174d1d108f2.doc",
+      "label_original": "1.道路机动车辆生产企业及产品（第349批）.doc",
+      "url": "https://www.miit.gov.cn/cms_files/filemanager/1226211233/attach/202110/89a8e7e2d695498d93ca9174d1d108f2.doc"
+    },
+    {
+      "href_original": "/cms_files/filemanager/1226211233/attach/202110/daf14618961949d28a0fa4ccdd2712d5.doc",
+      "label_original": "2.新能源汽车推广应用推荐车型目录（2021年第10批）.doc",
+      "url": "https://www.miit.gov.cn/cms_files/filemanager/1226211233/attach/202110/daf14618961949d28a0fa4ccdd2712d5.doc"
+    },
+    {
+      "href_original": "/cms_files/filemanager/1226211233/attach/202110/cb8999d34a3e4382a4b83047267703ae.doc",
+      "label_original": "3.享受车船税减免优惠的节约能源 使用新能源汽车车型目录（第三十二批）.doc",
+      "url": "https://www.miit.gov.cn/cms_files/filemanager/1226211233/attach/202110/cb8999d34a3e4382a4b83047267703ae.doc"
+    },
+    {
+      "href_original": "/cms_files/filemanager/1226211233/attach/202110/84ef98f41b724f34a0791002be11e3b5.doc",
+      "label_original": "4.免征车辆购置税的新能源汽车车型目录（第四十八批）.doc",
+      "url": "https://www.miit.gov.cn/cms_files/filemanager/1226211233/attach/202110/84ef98f41b724f34a0791002be11e3b5.doc"
+    },
+    {
+      "href_original": "/cms_files/filemanager/1226211233/attach/202110/97f09d1fbcda4489973469bed773897f.pdf",
+      "label_original": "《新能源汽车推广应用推荐车型目录》（2021年第10批）车型主要参数.pdf",
+      "url": "https://www.miit.gov.cn/cms_files/filemanager/1226211233/attach/202110/97f09d1fbcda4489973469bed773897f.pdf"
+    }
+  ]
+}

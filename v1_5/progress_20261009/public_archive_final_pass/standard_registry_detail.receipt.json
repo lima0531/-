@@ -1,0 +1,27 @@
+{
+  "request_url": "https://std.samr.gov.cn/gb/search/gbDetailed?id=BD89DE8E07723D08E05397BE0A0A4FAD",
+  "purpose": "从官方唯一查询记录id跟进该标准详情页；核对标准号/日期/状态及代替/被代替登记链",
+  "retrieved_at_utc": "2026-10-09T05:23:43.609539+00:00",
+  "tls_verification": true,
+  "request_method": "GET",
+  "http_status": 200,
+  "final_url": "https://std.samr.gov.cn/gb/search/gbDetailed?id=BD89DE8E07723D08E05397BE0A0A4FAD",
+  "response_headers": {
+    "server": "envoy",
+    "date": "Fri, 09 Oct 2026 05:23:45 GMT",
+    "content-type": "text/html;charset=UTF-8",
+    "x-ratelimit-remaining": "187",
+    "x-ratelimit-requested-tokens": "1",
+    "x-ratelimit-burst-capacity": "200",
+    "x-ratelimit-replenish-rate": "80",
+    "set-cookie": "JSESSIONID=1B004F870451887879526CB654929ACB; Path=/; HttpOnly",
+    "content-language": "zh-CN",
+    "x-envoy-upstream-service-time": "641",
+    "connection": "close",
+    "transfer-encoding": "chunked"
+  },
+  "bytes": 84326,
+  "sha256": "114533aeb005b7f7d6fbf3bcc53b2ccb94232898d4f12ff03690e8e390ebd426",
+  "evidence_file": "/workspace/purchase_tax_audit/round8/public_archive_final_pass/standard_registry_detail.html",
+  "status": "retrieved"
+}

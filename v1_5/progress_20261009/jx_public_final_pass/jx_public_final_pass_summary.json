@@ -1,0 +1,41 @@
+{
+  "model_key": "JX6550T-M5BEV",
+  "field_requested": "battery_energy_raw",
+  "unit": "kWh",
+  "cutoff": "2023-12-10",
+  "field_closed": false,
+  "validated_before_cutoff_battery_energy_candidate_count": 0,
+  "official_new_candidate": {
+    "source_pdf": "/workspace/purchase_tax_audit/round8/jx_public_final_pass/raw/recommend2021_10_parameters.pdf",
+    "source_sha256": "1bb5883093d638c255f798fb3e2a462f6f027ce241d64721aa575d9dd6cb28b7",
+    "page_1based": 73,
+    "entry_number_on_page": 14,
+    "configuration_id": "NC010086",
+    "range_km_raw": "293",
+    "curb_mass_raw": "2295/2360",
+    "declared_battery_system_energy_density_Wh_per_kg": {
+      "L173C01": "158.98",
+      "L173G01": "157.18"
+    },
+    "battery_total_energy_kWh": null,
+    "battery_mass_kg": null,
+    "tax_48_vs_rec_configuration_bridge_certified": false
+  },
+  "new_candidate_primary_public_date": "2021-11-05",
+  "scientific_data_modified": false,
+  "native_miit_queries": 5,
+  "native_enterprise_queries": 3,
+  "new_recommendation_originals_downloaded": 2,
+  "next_step_holder": "江铃汽车股份有限公司技术/认证或申报部门、原检测机构",
+  "needed_material": "第48批申报配置对应的原始申报或检测报告，总能量(kWh)、电池型号/供应商与版本、车辆/申报配置标识、报告/申报日期；如联系推荐配置NC010086，须说明L173C01与L173G01并提供与购置税第48批对应关系",
+  "time_requirement": "能证明2023-12-10以前已有效/公开的对应历史配置材料；新报告不得无证据倒推历史",
+  "excluded_substitutes": [
+    "2023-12-26减免首批65.17kWh",
+    "JX6570T-M5BEV第40批更正65.17kWh",
+    "相邻车型17.520kWh",
+    "416kg乘推荐目录两种密度倒算容量",
+    "仅型号、续航及整备相同的跨目录近似连接"
+  ],
+  "scope_boundary": "有界复查官方原生检索、同次推荐目录及参数原件、企业官网原生检索、既有97份目录和勘误缓存；不声称穷尽互联网所有公开页面。",
+  "completed_utc": "2026-10-09T05:26:39.542463+00:00"
+}

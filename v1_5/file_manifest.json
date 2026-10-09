@@ -20,15 +20,15 @@
     },
     {
       "file": "audit_report.md",
-      "bytes": 9950,
-      "sha256": "8d788f4dba62a0775ad296eb09db995d9db7a2da69417847f18c7a86b35f6135",
+      "bytes": 10389,
+      "sha256": "982827bbf19d26330fc5bbecc557286ee2dc88e947df01ae47e7290e6832ab40",
       "github_file_page": "https://github.com/lima0531/-/blob/purchase-tax-v1-4-files/v1_5/audit_report.md"
     },
     {
       "file": "requirements/需要用户亲自提供的数据.md",
-      "bytes": 9263,
-      "sha256": "c5e2c402e2f623eab407eb63ca345b43d6b1caac113374773d6e250b9aa6e9cd",
-      "github_file_page": "https://github.com/lima0531/-/blob/purchase-tax-v1-4-files/v1_5/requirements/%E9%9C%80%E8%A6%81%E7%94%A8%E6%88%B7%E4%BA%B2%E8%87%AA%E6%8F%90%E4%BE%9B%E7%9A%84%E6%95%B0%E6%8D%AE.md"
+      "bytes": 10686,
+      "sha256": "0219a997794a87b8366215c365e7cbc83dfe49aa982b6f00920a2e563881f397",
+      "github_file_page": "https://github.com/lima0531/-/blob/purchase-tax-v1-4-files/v1_5/requirements/需要用户亲自提供的数据.md"
     },
     {
       "file": "review_20261009/review_supplement_20261009.zip",
@@ -39,13 +39,29 @@
       "all_members_crc_and_sha_verified": true,
       "includes_scientific_data_replacement": false,
       "github_file_page": "https://github.com/lima0531/-/blob/purchase-tax-v1-4-files/v1_5/review_20261009/review_supplement_20261009.zip"
+    },
+    {
+      "file": "progress_20261009/progress_and_evidence_20261009.zip",
+      "bytes": 3101279,
+      "sha256": "01fe60c3d5418dd1d5c0534c13d0b813a7e15c988e68624f8baf8502eea6c6c1",
+      "github_file_page": "https://github.com/lima0531/-/blob/purchase-tax-v1-4-files/v1_5/progress_20261009/progress_and_evidence_20261009.zip",
+      "original_file_name": "购置税v1_5_剩余数据总账与公开补证_20261009.zip",
+      "member_files": 115,
+      "all_members_crc_and_sha_verified": true,
+      "includes_scientific_data_replacement": false
+    },
+    {
+      "file": "progress_20261009/README.md",
+      "bytes": 4233,
+      "sha256": "1402f5849512e0d3edfd2c035ba2c0a7dae5e2e2a6d1d2c9788152ed7cebd034",
+      "github_file_page": "https://github.com/lima0531/-/blob/purchase-tax-v1-4-files/v1_5/progress_20261009/README.md"
     }
   ],
   "files_excluding_this_manifest": [
     {
       "file": "README.md",
-      "bytes": 2596,
-      "sha256": "64da3df4dd94cd34870e6a9c777d08405da0cbad78c0106f870bb235096c5da4"
+      "bytes": 3035,
+      "sha256": "08840c8eff2ee4fe46b0bfb5c08660bfa98fbb3403c2cda6e5e94c2985190dc3"
     },
     {
       "file": "aggregate_source_audit.py",
@@ -54,8 +70,8 @@
     },
     {
       "file": "audit_report.md",
-      "bytes": 9950,
-      "sha256": "8d788f4dba62a0775ad296eb09db995d9db7a2da69417847f18c7a86b35f6135"
+      "bytes": 10389,
+      "sha256": "982827bbf19d26330fc5bbecc557286ee2dc88e947df01ae47e7290e6832ab40"
     },
     {
       "file": "batch01/68项科学原值_逐字段对账.csv",
@@ -273,6 +289,586 @@
       "sha256": "ddbe1063c1dbd9bd074992178f641c4b4832f9c4867631405a798882f86e9b2e"
     },
     {
+      "file": "progress_20261009/README.md",
+      "bytes": 4233,
+      "sha256": "1402f5849512e0d3edfd2c035ba2c0a7dae5e2e2a6d1d2c9788152ed7cebd034"
+    },
+    {
+      "file": "progress_20261009/final_gap_status/JX_最后所需材料_具体系统询证线索.csv",
+      "bytes": 1478,
+      "sha256": "cd22609f55371670649981ae3cd0c5499a46706bea633306a5bee9e766b56fdd"
+    },
+    {
+      "file": "progress_20261009/final_gap_status/README.md",
+      "bytes": 4548,
+      "sha256": "8a6c51372c741b43c74d0c2cf1137fc741e81decb55bdccc3327a9a00b1f2709"
+    },
+    {
+      "file": "progress_20261009/final_gap_status/build_final_gap_status.py",
+      "bytes": 27150,
+      "sha256": "fbea6f92a8019438472ad55f4acbc7dc593ac81ffb201e2c04be8b43749fe0a8"
+    },
+    {
+      "file": "progress_20261009/final_gap_status/文件_SHA256.csv",
+      "bytes": 955,
+      "sha256": "9becf5cc429b6405ed233351098181409c7317b6c0665491efa3e008b9e29376"
+    },
+    {
+      "file": "progress_20261009/final_gap_status/最终剩余数据台账.csv",
+      "bytes": 9202,
+      "sha256": "00029225b2dc23cfe2a5842f469d798eb2d995acaa85dd9cbba9c0f4473543f3"
+    },
+    {
+      "file": "progress_20261009/final_gap_status/本轮公开登记_已取得字段与边界.csv",
+      "bytes": 1844,
+      "sha256": "4f6e56a341691075969c4c400df914b245aef2cd1b9139d6602e97890d9f0ab2"
+    },
+    {
+      "file": "progress_20261009/final_gap_status/条件需求_两两交叉数量.csv",
+      "bytes": 2026,
+      "sha256": "f82144edc5e2a1a63d2178e8ccd83232565819f0431c87600947da310b7f8e08"
+    },
+    {
+      "file": "progress_20261009/final_gap_status/条件需求_型号级交叉台账.csv",
+      "bytes": 345021,
+      "sha256": "b3c46bea245d9edbf7637aa51dc6c729813566065281b08693e3788cca46fab0"
+    },
+    {
+      "file": "progress_20261009/final_gap_status/核查输入_SHA256.csv",
+      "bytes": 3733,
+      "sha256": "0a43a1c46c91336558726d5d9d66d9272ee877a06cd54f5ca3038b8cd859fe89"
+    },
+    {
+      "file": "progress_20261009/final_gap_status/计数与交叉核查.json",
+      "bytes": 16428,
+      "sha256": "5b613c567e7c73960636e0332b6ecaba8a06a3d48ccdacbea43e90b69e9e64cb"
+    },
+    {
+      "file": "progress_20261009/jx_public_final_pass/README.md",
+      "bytes": 4904,
+      "sha256": "0a5607e5dd548d087bb33c2d6e4f3f5c6d41a268764ab126b420a3f85b1692bb"
+    },
+    {
+      "file": "progress_20261009/jx_public_final_pass/collect.py",
+      "bytes": 3005,
+      "sha256": "5cb78e3f699dff01cc369d3fdc425a8487062757a0ce98c1cde2213ad4a569d4"
+    },
+    {
+      "file": "progress_20261009/jx_public_final_pass/enterprise/energy_candidate_text.json",
+      "bytes": 133,
+      "sha256": "cee498e7b50a522b1ce94f4c5d48c67bf3916553144b2980365da5522dcf7181"
+    },
+    {
+      "file": "progress_20261009/jx_public_final_pass/enterprise/energy_candidate_text.json.receipt.json",
+      "bytes": 1796,
+      "sha256": "1a548aa9f76e0d1b87d0f9ade5c4cca25e4540e069d2f6b4992d80702a9e9163"
+    },
+    {
+      "file": "progress_20261009/jx_public_final_pass/enterprise/exact_model.json",
+      "bytes": 133,
+      "sha256": "cee498e7b50a522b1ce94f4c5d48c67bf3916553144b2980365da5522dcf7181"
+    },
+    {
+      "file": "progress_20261009/jx_public_final_pass/enterprise/exact_model.json.receipt.json",
+      "bytes": 1802,
+      "sha256": "5c78c8bf69e8199235e020e536ef8398a474edfc2a6e415289f1ebc572b6a00d"
+    },
+    {
+      "file": "progress_20261009/jx_public_final_pass/enterprise/trade_name.json",
+      "bytes": 413,
+      "sha256": "33260f74376f716e88cc290fd1cff69a1b570b4c7e62c9bf83874414078b2513"
+    },
+    {
+      "file": "progress_20261009/jx_public_final_pass/enterprise/trade_name.json.receipt.json",
+      "bytes": 1812,
+      "sha256": "03e86abbabca51d6fc8a3ba130f9ab4a2bde3c77b586eb61b264d2a7f30648f5"
+    },
+    {
+      "file": "progress_20261009/jx_public_final_pass/enterprise_home.html",
+      "bytes": 2480,
+      "sha256": "134bee50ec5281b65f850b58fd2ab576d29464194b589ce9cfc16f1be5219c7c"
+    },
+    {
+      "file": "progress_20261009/jx_public_final_pass/enterprise_home.html.receipt.json",
+      "bytes": 1509,
+      "sha256": "f2aa9dee838a67e52f52f69aaa359232e7cc4a9c844f0e15ffc6ab2b3651d8e1"
+    },
+    {
+      "file": "progress_20261009/jx_public_final_pass/enterprise_native_search_review.json",
+      "bytes": 3078,
+      "sha256": "f02e37818f6311ffa1bca0d8778291b1b45fce6adbff9a511d521fb982de9e72"
+    },
+    {
+      "file": "progress_20261009/jx_public_final_pass/enterprise_search.html",
+      "bytes": 2082,
+      "sha256": "1a760f5828e426a6bb739cb86009e4ae42957fcf8dff9ea7e4b26b4e3c2227b6"
+    },
+    {
+      "file": "progress_20261009/jx_public_final_pass/enterprise_search.html.receipt.json",
+      "bytes": 1547,
+      "sha256": "b4b33d8df20babfda73401a45d5840a7fa1a8c016c1c98cd558040baf1465cc7"
+    },
+    {
+      "file": "progress_20261009/jx_public_final_pass/final_artifact_verification.json",
+      "bytes": 325,
+      "sha256": "12b8212e0b1bee20388c7df97cfa6c0b491f25922590e779a94f6b42124e1f41"
+    },
+    {
+      "file": "progress_20261009/jx_public_final_pass/finalize.py",
+      "bytes": 6355,
+      "sha256": "5bfca0d245948c46d1a935d3747b0718116c75d839eacebc1a05a13711b9c063"
+    },
+    {
+      "file": "progress_20261009/jx_public_final_pass/initial_search_log.json",
+      "bytes": 24053,
+      "sha256": "d9b5b8752c1eaee87d03822881b409ad2c63dc0f71e6c0a4228162cc4e01eb23"
+    },
+    {
+      "file": "progress_20261009/jx_public_final_pass/jx_public_final_pass_summary.json",
+      "bytes": 2076,
+      "sha256": "b5783dc1278ea6d08077b9d63472fc19165c256953969b863a285cd8407c84a6"
+    },
+    {
+      "file": "progress_20261009/jx_public_final_pass/local_review/README.md",
+      "bytes": 3782,
+      "sha256": "7a9e7d7c6eb8efe5df979e768ed404d5bc5328a27d8666c100c0aee802511ebc"
+    },
+    {
+      "file": "progress_20261009/jx_public_final_pass/local_review/check_jx_cached_sources.py",
+      "bytes": 6104,
+      "sha256": "7b2ca9bfa44d075e3a4e2e02b227fe03c6fd7dacab3f0dc800cac95ca33e4bf0"
+    },
+    {
+      "file": "progress_20261009/jx_public_final_pass/local_review/check_recommendation2021_pypdf.py",
+      "bytes": 4021,
+      "sha256": "5cf14b33e19c518d1767daa6a0d744738807084391bf467de1da2d0aa091070f"
+    },
+    {
+      "file": "progress_20261009/jx_public_final_pass/local_review/jx6550_local_review_result.json",
+      "bytes": 13169,
+      "sha256": "2b2874a6d5dc0ae28ea2df5ad357a1ba7fdaeccbe329218248f4c3d112171081"
+    },
+    {
+      "file": "progress_20261009/jx_public_final_pass/local_review/mf_batch48.docx",
+      "bytes": 52089,
+      "sha256": "b6392938d478e770397ac924ad27fb4cb43ade00ec17245827d727930d490f05"
+    },
+    {
+      "file": "progress_20261009/jx_public_final_pass/local_review/recommend2021_10_JX_entry14_pypdf.txt",
+      "bytes": 1010,
+      "sha256": "b6e51fc865f7334c3ebee1c28de2fc120c0147dac9e7a369de82cde2fabced10"
+    },
+    {
+      "file": "progress_20261009/jx_public_final_pass/local_review/recommend2021_10_JX_independent_result.json",
+      "bytes": 3569,
+      "sha256": "7a25b46dcc74004d038b41bab251fcb9b1f0b33e39fb5824c36dab769308d9f5"
+    },
+    {
+      "file": "progress_20261009/jx_public_final_pass/local_review/recommend2021_10_page73_pypdf.txt",
+      "bytes": 2646,
+      "sha256": "32aaa137c53b686692af722baa9557a845541a3a6cb0c6386d559dddc9e54ffd"
+    },
+    {
+      "file": "progress_20261009/jx_public_final_pass/local_review/精确型号_两份原件字段.csv",
+      "bytes": 556,
+      "sha256": "18cfe08f2b7bfcd1f7eec5260c3e497076bb6e6cb2563177da775238a0d72d80"
+    },
+    {
+      "file": "progress_20261009/jx_public_final_pass/network_receipts_manifest.json",
+      "bytes": 30067,
+      "sha256": "99748a01c6d8056738ce2860d82a82dc1201ab52e56cd7e98c86daeb903ec502"
+    },
+    {
+      "file": "progress_20261009/jx_public_final_pass/primary2021_10_announcement.html",
+      "bytes": 12558,
+      "sha256": "529e210d117b5747ef1a41d95600846a025c3d20fbe75ec58eb6d6d2b930b5a9"
+    },
+    {
+      "file": "progress_20261009/jx_public_final_pass/primary2021_10_announcement.html.receipt.json",
+      "bytes": 1228,
+      "sha256": "8b3269da71633f2a6b1fce358b1a9edebb1270c1c502c385c44fbcd9ca76e82e"
+    },
+    {
+      "file": "progress_20261009/jx_public_final_pass/raw/jmc_common.js",
+      "bytes": 146364,
+      "sha256": "e5267fb171b40aacf3fdd9d88786de67da9dbcede0c59a93fe83b81deb620689"
+    },
+    {
+      "file": "progress_20261009/jx_public_final_pass/raw/jmc_common.js.receipt.json",
+      "bytes": 1594,
+      "sha256": "f2fc35602e1df172d6479de108cccc5ccfc5367aaa1cffea43c9eb909d78e7b8"
+    },
+    {
+      "file": "progress_20261009/jx_public_final_pass/raw/jmc_index.js",
+      "bytes": 11359,
+      "sha256": "022d105c684795766e0444e37b342a69c158982d2791fbb2a825667a3222036d"
+    },
+    {
+      "file": "progress_20261009/jx_public_final_pass/raw/jmc_index.js.receipt.json",
+      "bytes": 1585,
+      "sha256": "3316d9553adb1ea38bd94d68692aea3780cc6988aa3779a35ed4b16a73b6bb33"
+    },
+    {
+      "file": "progress_20261009/jx_public_final_pass/raw/jmc_search.js",
+      "bytes": 5117,
+      "sha256": "3f805ebc8e3eab14cf02369fb1ed6869b256c5300e40ccabbca27fc2f7c35f03"
+    },
+    {
+      "file": "progress_20261009/jx_public_final_pass/raw/jmc_search.js.receipt.json",
+      "bytes": 1573,
+      "sha256": "8f4aaced1fc27f7ac610fc9e5998ba0a523e79ca5a207540ad28343159bb7af9"
+    },
+    {
+      "file": "progress_20261009/jx_public_final_pass/raw/recommend2021_10_catalogue.doc",
+      "bytes": 614400,
+      "sha256": "51bab9256422ade9391a645299f91470f29c07a27b582da3b51dc94a56bd6495"
+    },
+    {
+      "file": "progress_20261009/jx_public_final_pass/raw/recommend2021_10_catalogue.doc.receipt.json",
+      "bytes": 1349,
+      "sha256": "8c38047af97418582c993af22c5e42a60e42c6abee534cb82b38d0ff06cef501"
+    },
+    {
+      "file": "progress_20261009/jx_public_final_pass/raw/recommend2021_10_catalogue.txt",
+      "bytes": 37888,
+      "sha256": "3f0bfa8ec86752bbf38c4fd2f28e76b2175403b3957ef9ee7209dcf59e1a1af0"
+    },
+    {
+      "file": "progress_20261009/jx_public_final_pass/raw/recommend2021_10_page73.txt",
+      "bytes": 1822,
+      "sha256": "045742a92ec386dcc8c37927265437adf4d01086c97d80f1e348e5287befedeb"
+    },
+    {
+      "file": "progress_20261009/jx_public_final_pass/raw/recommend2021_10_parameters.pdf",
+      "bytes": 8278224,
+      "sha256": "1bb5883093d638c255f798fb3e2a462f6f027ce241d64721aa575d9dd6cb28b7"
+    },
+    {
+      "file": "progress_20261009/jx_public_final_pass/raw/recommend2021_10_parameters.pdf.receipt.json",
+      "bytes": 1267,
+      "sha256": "b4add617cbcb2a529dc1cb5bea4d5e52153c521745066459f970b1deb21f5968"
+    },
+    {
+      "file": "progress_20261009/jx_public_final_pass/raw/recommend2021_10_parameters.txt",
+      "bytes": 274368,
+      "sha256": "9bb728c9b229132d2e3cccca9227b62f4cb6542dfd604544da4f1bece07a0699"
+    },
+    {
+      "file": "progress_20261009/jx_public_final_pass/recommend2021_10_pdf_hits.json",
+      "bytes": 2192,
+      "sha256": "5cb6363d50ccf4dfdb41fb2a1774aea0462cafce49dfda8efe2b96b3d667c8af"
+    },
+    {
+      "file": "progress_20261009/jx_public_final_pass/recommendation_primary_date_and_link_evidence.json",
+      "bytes": 2807,
+      "sha256": "80889febe4b151d1d17cba779ae7f5ca0e47094445d36812665bbaf9f7b949f2"
+    },
+    {
+      "file": "progress_20261009/jx_public_final_pass/search/exact_model.hits.json",
+      "bytes": 3,
+      "sha256": "37517e5f3dc66819f61f5a7bb8ace1921282415f10551d2defa5c3eb0985b570"
+    },
+    {
+      "file": "progress_20261009/jx_public_final_pass/search/exact_model.json",
+      "bytes": 225,
+      "sha256": "3eaad3ed213e223b15d2dfb27f7f20236b7bb8566b6644bebd29577586c11943"
+    },
+    {
+      "file": "progress_20261009/jx_public_final_pass/search/exact_model.json.receipt.json",
+      "bytes": 2041,
+      "sha256": "40fa4ef3baa2183d517981e4ec57c5fde49b45c76c1428647b36e501efd09ca7"
+    },
+    {
+      "file": "progress_20261009/jx_public_final_pass/search/exact_model.summary.json",
+      "bytes": 2144,
+      "sha256": "9d95040021262881e157c08b8effe034f38d78a2571eda23833ec157aa367286"
+    },
+    {
+      "file": "progress_20261009/jx_public_final_pass/search/model_prefix.hits.json",
+      "bytes": 3,
+      "sha256": "37517e5f3dc66819f61f5a7bb8ace1921282415f10551d2defa5c3eb0985b570"
+    },
+    {
+      "file": "progress_20261009/jx_public_final_pass/search/model_prefix.json",
+      "bytes": 225,
+      "sha256": "d9d881c1a6ba62ae711118da4e48fcf148af3e075b178396844b4859c1e83957"
+    },
+    {
+      "file": "progress_20261009/jx_public_final_pass/search/model_prefix.json.receipt.json",
+      "bytes": 2030,
+      "sha256": "c0fc6cad13106af3a46979e662b423b72f3d7f5e97aad7d03f1b8ed597f92569"
+    },
+    {
+      "file": "progress_20261009/jx_public_final_pass/search/model_prefix.summary.json",
+      "bytes": 2127,
+      "sha256": "20bb2705157548e65fdc0229b4a4f5c3f1e0424536b56d6fd0d73bf1c9b2d4cf"
+    },
+    {
+      "file": "progress_20261009/jx_public_final_pass/search/recommend_2021_10.hits.json",
+      "bytes": 48662,
+      "sha256": "d26c5720627cd9f4d0b8ad6f1996009acf2edb38699be5e7f9126794c83b1754"
+    },
+    {
+      "file": "progress_20261009/jx_public_final_pass/search/recommend_2021_10.json",
+      "bytes": 49503,
+      "sha256": "8dca10a34a2edfb2c2b34be621245cc9912463e33f4bbcac2d6e04a7379b797c"
+    },
+    {
+      "file": "progress_20261009/jx_public_final_pass/search/recommend_2021_10.json.receipt.json",
+      "bytes": 2395,
+      "sha256": "0e25bdb01237da7a0450f856c12ac05b74b3faf7d5369e48fa8af5bd8a518ed7"
+    },
+    {
+      "file": "progress_20261009/jx_public_final_pass/search/recommend_2021_10.summary.json",
+      "bytes": 5271,
+      "sha256": "38e4b100068a07d8e3c31c1fd0da62f20146bc9a560a98a33152d5049ea5b151"
+    },
+    {
+      "file": "progress_20261009/jx_public_final_pass/search/tax48.hits.json",
+      "bytes": 88452,
+      "sha256": "6213ec262322181d2512b4154f7bb03eedc69a638e41844931d50f2f8aee4304"
+    },
+    {
+      "file": "progress_20261009/jx_public_final_pass/search/tax48.json",
+      "bytes": 90097,
+      "sha256": "04c3c9882c13da5d5c5f5a1f3977742be7541679c1721a8ce4cc9398037d2d0b"
+    },
+    {
+      "file": "progress_20261009/jx_public_final_pass/search/tax48.json.receipt.json",
+      "bytes": 2263,
+      "sha256": "6d6f4c468718303281b040715148897db2ec8d0556835177ed4093a2c0396ef7"
+    },
+    {
+      "file": "progress_20261009/jx_public_final_pass/search/tax48.summary.json",
+      "bytes": 7011,
+      "sha256": "c8d9f761c8f1d70f2e992625d17d74cf3eea1f4777a6c66a8ced9765a18fe576"
+    },
+    {
+      "file": "progress_20261009/jx_public_final_pass/search/trade_name.hits.json",
+      "bytes": 12720365,
+      "sha256": "1a909f11d63b00bc41855e025398a170ab6acdfba91ddc4665f0fae9aba8cbab"
+    },
+    {
+      "file": "progress_20261009/jx_public_final_pass/search/trade_name.json",
+      "bytes": 12723847,
+      "sha256": "049e7e1fa1c4a27a8e1990bc80b754808c2bed0269959c328457da3c230445fd"
+    },
+    {
+      "file": "progress_20261009/jx_public_final_pass/search/trade_name.json.receipt.json",
+      "bytes": 2097,
+      "sha256": "93b7608561e4e5616d6d9b0f2515fb3d10111ed01daabd8c4ffb3bcdcbfebded"
+    },
+    {
+      "file": "progress_20261009/jx_public_final_pass/search/trade_name.summary.json",
+      "bytes": 6784,
+      "sha256": "e9763bd03299c0ed8fda1941f1fa7a79d687f1caea0a189ec23eaee0fdf8eecc"
+    },
+    {
+      "file": "progress_20261009/jx_public_final_pass/候选证据与不能关闭字段的原因.csv",
+      "bytes": 809,
+      "sha256": "66948356a139ffd52e03ef25156fed01d62ee568b9fa74820eda7b9b0407f117"
+    },
+    {
+      "file": "progress_20261009/jx_public_final_pass/向企业索取材料_文本模板.md",
+      "bytes": 1218,
+      "sha256": "96994be5c88d03f61767c83961d86fd12488436cde70268a3e7d5ad2251db4d2"
+    },
+    {
+      "file": "progress_20261009/jx_public_final_pass/文件_SHA256.csv",
+      "bytes": 6819,
+      "sha256": "b3c5acc6cc5c5c9b9be452c8a331527cf7a43b4b3773bff34de9f3a4e0b12d4b"
+    },
+    {
+      "file": "progress_20261009/legacy_fingerprint/README.md",
+      "bytes": 3983,
+      "sha256": "6fa76ef5a5964197ba3f65318b254773762aa7b4384ad9bdc2fd4ca17b0f8cb9"
+    },
+    {
+      "file": "progress_20261009/legacy_fingerprint/legacy_build_evidence.json",
+      "bytes": 10898,
+      "sha256": "f7cf7788436502d4604ee5ff1d9027de85cc368b5ecb0cfbfb6117ef1b59ad08"
+    },
+    {
+      "file": "progress_20261009/legacy_fingerprint/legacy_fingerprint_summary.json",
+      "bytes": 6822,
+      "sha256": "519ce660bda5c4875f08a2ef62904b3fbab7edb4409725631a92f996d34c305a"
+    },
+    {
+      "file": "progress_20261009/legacy_fingerprint/trace_legacy_fingerprint.py",
+      "bytes": 20250,
+      "sha256": "4ba497d6a63e9e7a7506ef38262d1e0bb626faaa956f73cd75b4b1507c6a5933"
+    },
+    {
+      "file": "progress_20261009/legacy_fingerprint/只读核查输入_SHA256.csv",
+      "bytes": 4328,
+      "sha256": "e05328036695a316dd0e8e0991bd7ab16a37a82b2dc25f8c9008ceb2e0d01017"
+    },
+    {
+      "file": "progress_20261009/legacy_fingerprint/文件清单_SHA256.csv",
+      "bytes": 873,
+      "sha256": "2ab34d5bea58121b4a162554fd6074a720fb25fbb8950e370bdaca91d33dd25f"
+    },
+    {
+      "file": "progress_20261009/legacy_fingerprint/新增撤销_风险与ready退出分配.csv",
+      "bytes": 782,
+      "sha256": "5baaf6d1bd22327fbe8766e84f224500db41975a5a77539f7d7c5dd1be247caf"
+    },
+    {
+      "file": "progress_20261009/legacy_fingerprint/输入准备与风险变动_75型号逐源对照.csv",
+      "bytes": 68086,
+      "sha256": "675d8cd0587adaf4b56ff76f470436e9c8126a0de97e7e12cd91d464f68037ed"
+    },
+    {
+      "file": "progress_20261009/legacy_fingerprint/逐指纹_实际文件与保留构建记录.csv",
+      "bytes": 5075,
+      "sha256": "8e3bfd5721b9049d96f4906135efe123bf90d03693fcf572bf441d9cdf7e031f"
+    },
+    {
+      "file": "progress_20261009/progress_and_evidence_20261009.zip",
+      "bytes": 3101279,
+      "sha256": "01fe60c3d5418dd1d5c0534c13d0b813a7e15c988e68624f8baf8502eea6c6c1"
+    },
+    {
+      "file": "progress_20261009/public_archive_final_pass/README.md",
+      "bytes": 3648,
+      "sha256": "6e030102726a205d9c0d142b5b4b5c1c5ec30dd3b7cfaaa102ae49f1a0d71566"
+    },
+    {
+      "file": "progress_20261009/public_archive_final_pass/attempts.json",
+      "bytes": 6353,
+      "sha256": "13f3c0f474da243929a43852e01df4d1c45e9c4625c554cea7bcd8201956da2c"
+    },
+    {
+      "file": "progress_20261009/public_archive_final_pass/build_final_archive_status.py",
+      "bytes": 10432,
+      "sha256": "5833650cf1dfd7aa5916d119c34d2f11c9ba0081976fc5cfaa8c18fcc2280c69"
+    },
+    {
+      "file": "progress_20261009/public_archive_final_pass/final_public_archive_summary.json",
+      "bytes": 883,
+      "sha256": "40376c29d755c7b228ea4dba0de90925cb7822d70ad82a0a1cf6f4bac62cff95"
+    },
+    {
+      "file": "progress_20261009/public_archive_final_pass/final_public_fetch.py",
+      "bytes": 3934,
+      "sha256": "6e36aba925e2e63b218dcfd64ec850ad7b8280f967fa55cdd7e7ea999c3b13c4"
+    },
+    {
+      "file": "progress_20261009/public_archive_final_pass/first_batch_primary_registered_page.html",
+      "bytes": 36456,
+      "sha256": "3dc8158746c05541db72eea7abf64690b5edd57188f02e2f96294c16495b6c16"
+    },
+    {
+      "file": "progress_20261009/public_archive_final_pass/first_batch_primary_registered_page.receipt.json",
+      "bytes": 1304,
+      "sha256": "eabf1ac742509857bcf0299c2d4e00b8afe0e9227af77a2e277769b9fae5420e"
+    },
+    {
+      "file": "progress_20261009/public_archive_final_pass/first_batch_registered_metadata.json",
+      "bytes": 4418,
+      "sha256": "aa6028118b44816567193e976a69a8f12b361bc940734006d17e553574da3cde"
+    },
+    {
+      "file": "progress_20261009/public_archive_final_pass/miit_first_nev_window.hits.json",
+      "bytes": 8836,
+      "sha256": "1d387131ee60b4669e9b0a8134b24492d10d536816f1a4b9790214184a244e6d"
+    },
+    {
+      "file": "progress_20261009/public_archive_final_pass/miit_first_nev_window.html",
+      "bytes": 43858,
+      "sha256": "0a2ced536caef868d7014e4a9995a08ebc9245d3ffe4afe8463fc10c606758da"
+    },
+    {
+      "file": "progress_20261009/public_archive_final_pass/miit_first_nev_window.receipt.json",
+      "bytes": 2564,
+      "sha256": "d32bba0472825e76b40bb42f26c9db67141dd75b256a2454499ac97162de09b3"
+    },
+    {
+      "file": "progress_20261009/public_archive_final_pass/miit_first_number_year.hits.json",
+      "bytes": 2,
+      "sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+    },
+    {
+      "file": "progress_20261009/public_archive_final_pass/miit_first_number_year.html",
+      "bytes": 225,
+      "sha256": "1cc8a2d591642c2d528ab667b5a296e4d0ec1d1817b834e2879b06685b35029c"
+    },
+    {
+      "file": "progress_20261009/public_archive_final_pass/miit_first_number_year.receipt.json",
+      "bytes": 2454,
+      "sha256": "605804ce0c5e79ac7bafadc9f1ba1608cd79c7eb8c5f0adc8c2147511f0dc52c"
+    },
+    {
+      "file": "progress_20261009/public_archive_final_pass/standard_registered_metadata.json",
+      "bytes": 3948,
+      "sha256": "2655a243bd71ae7d1140a55f5f859c6b4da3fa9ca737bd303fd3fed1447d0446"
+    },
+    {
+      "file": "progress_20261009/public_archive_final_pass/standard_registry_detail.html",
+      "bytes": 84326,
+      "sha256": "114533aeb005b7f7d6fbf3bcc53b2ccb94232898d4f12ff03690e8e390ebd426"
+    },
+    {
+      "file": "progress_20261009/public_archive_final_pass/standard_registry_detail.receipt.json",
+      "bytes": 1229,
+      "sha256": "ed96bae0ccb0849fbe26575ac52e3a8674d4e6cb343f887e543461bba464091a"
+    },
+    {
+      "file": "progress_20261009/public_archive_final_pass/standard_registry_query.html",
+      "bytes": 373,
+      "sha256": "7fe2ae9627235566888d25019e6728f05d087d67f7593d15a45705c83e7761b4"
+    },
+    {
+      "file": "progress_20261009/public_archive_final_pass/standard_registry_query.receipt.json",
+      "bytes": 1167,
+      "sha256": "8cc79872938db961301ef6966433a55fe5cd6eb00238dd99b38db246b1cc1845"
+    },
+    {
+      "file": "progress_20261009/public_archive_final_pass/standard_replaced_2017_detail.html",
+      "bytes": 82229,
+      "sha256": "42fec6078618c62d9a96e58104ecbe7e1939cb9ab5eb785afd31f176be9ac34a"
+    },
+    {
+      "file": "progress_20261009/public_archive_final_pass/standard_replaced_2017_detail.receipt.json",
+      "bytes": 1254,
+      "sha256": "02cf9c138bb9088c8a4e332cca1bda5399c072ea17e021a163d454f46cd82a6e"
+    },
+    {
+      "file": "progress_20261009/public_archive_final_pass/tax_first_final_query.html",
+      "bytes": 15868,
+      "sha256": "fcc6217eac650a741f6dc71f829be232b070ced90c06d77b2af4f7a4963f944a"
+    },
+    {
+      "file": "progress_20261009/public_archive_final_pass/tax_first_final_query.receipt.json",
+      "bytes": 3578,
+      "sha256": "2cc0c3be77fb712fb3a1cec212c9fb94b3688f2117cf3508cd75bc5fcdc6c3f1"
+    },
+    {
+      "file": "progress_20261009/public_archive_final_pass/剩余字段与本轮闭合.csv",
+      "bytes": 1545,
+      "sha256": "e676a30e2046082e91ce7ccf42b97a27f91e8e1b94aa8fddb9b31bc338c3da51"
+    },
+    {
+      "file": "progress_20261009/public_archive_final_pass/尝试结果.csv",
+      "bytes": 5377,
+      "sha256": "a1c170cc6d10d9bd4ee11dd5c287778badccbc769f45350109c493ae2d51af5d"
+    },
+    {
+      "file": "progress_20261009/public_archive_final_pass/文件SHA256清单.csv",
+      "bytes": 2582,
+      "sha256": "088d5a9a3daa144a13aa82f2599c8697aa8c2c64c94803eae17fd03ef2b6f490"
+    },
+    {
+      "file": "progress_20261009/stage_progress_update.py",
+      "bytes": 17708,
+      "sha256": "77fddaa8ae2d8bd7fb2b1131b381402f7a4ba9841e8e6a69edd4cc9ea7011e00"
+    },
+    {
+      "file": "progress_20261009/文件_SHA256.csv",
+      "bytes": 14215,
+      "sha256": "0839c98f1f8c88417c1baa5c408ab8e65271805c1399efa57ffcb8f308a14ee4"
+    },
+    {
       "file": "purchase_tax_data_v1_5.zip",
       "bytes": 25935981,
       "sha256": "3fd50d6aa95eca0d8483b5bcc409b4c246b024b1dd707ef8e67d95df84e70f20"
@@ -309,13 +905,13 @@
     },
     {
       "file": "reconstruction/data_v1_5/README.md",
-      "bytes": 2819,
-      "sha256": "1d53f42cbff4963ce2c0dae1aa9a47120ddffc3e55fd0cadd798b1c5ce8c7152"
+      "bytes": 3029,
+      "sha256": "afa62f51117efb497059fabaa0f05e38fccfa3d9b41facf46f28c1c167d0772e"
     },
     {
       "file": "reconstruction/data_v1_5/README_版本v1_3.md",
-      "bytes": 2655,
-      "sha256": "ceccf39ef55854d96c474781e0803be3a35332f4aa06d68fff61e0888c5b28c5"
+      "bytes": 3164,
+      "sha256": "d6b5cfe28b177ac6a3f176fcd71f087109e440de253c5b32e8f37ee722fe2f86"
     },
     {
       "file": "reconstruction/data_v1_5/README_版本v1_4.md",
@@ -450,7 +1046,7 @@
     {
       "file": "reconstruction/data_v1_5/文件清单_SHA256.txt",
       "bytes": 6913,
-      "sha256": "4cfa70b0356080a02ebcd0b481a3884766194084dee452bddbfae83df1910287"
+      "sha256": "a8cf4d4e83044d58db8e5b790bdd9dd8b77bcb2ed332fd45a4ccc55432a6d222"
     },
     {
       "file": "reconstruction/data_v1_5/日期续查/97批次日期_续查登记.csv",
@@ -629,13 +1225,18 @@
     },
     {
       "file": "requirements/build_user_materials_v1_5.py",
-      "bytes": 15680,
-      "sha256": "fcf8736a9257181e6e2031f0bb1a4fe1ee478e4272ff7785073d34b18230e80a"
+      "bytes": 15841,
+      "sha256": "ea1fb3a35c464739728a5a9e111f7bf52011ac45d04d241d0827f604aa38b6bb"
     },
     {
       "file": "requirements/requirements_summary.json",
-      "bytes": 1267,
-      "sha256": "a12b0a6beafff2ffad5ea9a0997179809ad839964e790eaa27c74189cd515363"
+      "bytes": 3012,
+      "sha256": "57f888a83610b60f99786c1e120c5f8921eb92e935036cba94ecaa5f009fbe5b"
+    },
+    {
+      "file": "requirements/update_public_registry_requirements.py",
+      "bytes": 14841,
+      "sha256": "3a4609c3ff64db3eef179322f6fab62859ef2fa8e37a3fd3f1fc761655890864"
     },
     {
       "file": "requirements/仅1型号_公告前真实原空字段待补.csv",
@@ -644,8 +1245,13 @@
     },
     {
       "file": "requirements/公开标准登记_可选待补字段.csv",
-      "bytes": 684,
-      "sha256": "3031c4b7fbd5212be0e92518f819c55c5df8f6f6ef06c6deab30c36b2f9ea831"
+      "bytes": 3222,
+      "sha256": "cd47e4cf936e15998d131f37b220a20d560080d88d64e74b6a22b2bf95741d0f"
+    },
+    {
+      "file": "requirements/公开标准登记_本轮已核字段.csv",
+      "bytes": 3222,
+      "sha256": "cd47e4cf936e15998d131f37b220a20d560080d88d64e74b6a22b2bf95741d0f"
     },
     {
       "file": "requirements/已补证关闭_原件与SGM字段请求.csv",
@@ -654,13 +1260,13 @@
     },
     {
       "file": "requirements/文件_SHA256.csv",
-      "bytes": 1876,
-      "sha256": "42768fd13a5172b6f22acb2e7160f1d04de444d796e85c6fc211b70d36b0fc62"
+      "bytes": 2103,
+      "sha256": "72fcd1629d775ba002889916be28ced7e976d9e5765925ef8cf96092567476fe"
     },
     {
       "file": "requirements/输入来源与SHA256.csv",
-      "bytes": 3454,
-      "sha256": "c880ca5be758f83322aeb3b2d52648b808217fd278cc74990cf2a8c6eed5eb6c"
+      "bytes": 12101,
+      "sha256": "ecc60796c642b4ba7997568ef668620c95d526cb2788b4f6f8a7420536fe8ead"
     },
     {
       "file": "requirements/配置技术资格与M1_所需证明字段规范.csv",
@@ -669,18 +1275,18 @@
     },
     {
       "file": "requirements/需要用户亲自提供_按用途与优先级.csv",
-      "bytes": 2893,
-      "sha256": "59334ef9fdad9062d0ce4e93fb16db0af1ea31e10b4bda0f289334eda49e739f"
+      "bytes": 3255,
+      "sha256": "95889ca927e8961594258329da7ca72cf23fe2c5a90a9f85962d23050838a7e4"
     },
     {
       "file": "requirements/需要用户亲自提供的数据.md",
-      "bytes": 9263,
-      "sha256": "c5e2c402e2f623eab407eb63ca345b43d6b1caac113374773d6e250b9aa6e9cd"
+      "bytes": 10686,
+      "sha256": "0219a997794a87b8366215c365e7cbc83dfe49aa982b6f00920a2e563881f397"
     },
     {
       "file": "review_20261009/README.md",
-      "bytes": 4931,
-      "sha256": "e3e2ff89e06a45698a91d9eacd32bbed19a84bc7fba02180de9cc175390ecb0a"
+      "bytes": 5302,
+      "sha256": "4bcdd98ef7298830072e5d7b199e105c05f5b8e3aa155ec504ab36c545170b88"
     },
     {
       "file": "review_20261009/batch64_boundary/41参数观察记录_原值表双向对账.json",
@@ -884,8 +1490,8 @@
     },
     {
       "file": "review_20261009/risk_change/README.md",
-      "bytes": 4635,
-      "sha256": "2a4a7df63c3252797188d22159d7ec261872d8b8bb6d99dcabf0bd7a906b6d32"
+      "bytes": 4913,
+      "sha256": "c5d57228a3ec711db0c5b3383b6c5ccb25ae99477e80dcda9468ab650862353a"
     },
     {
       "file": "review_20261009/risk_change/audit_version_labels.py",
@@ -904,8 +1510,8 @@
     },
     {
       "file": "review_20261009/risk_change/version_label_audit.json",
-      "bytes": 15888,
-      "sha256": "45350d034e9de2b5ca2e3d43f52ab4748526d26cb35ab4fa3a9d7c4f157ab232"
+      "bytes": 16957,
+      "sha256": "a8b2658030a1a4b54604e8aadfa88a63fb8170f68edd792f2fd46e0481532e55"
     },
     {
       "file": "review_20261009/risk_change/只读追溯输入_SHA256.csv",
@@ -915,7 +1521,7 @@
     {
       "file": "review_20261009/risk_change/文件清单_SHA256.csv",
       "bytes": 1150,
-      "sha256": "1cf5869e2f9d09368a1f33fb6cfb63323b0317e38a769e7f188ae7e08997394a"
+      "sha256": "2509f0d1f6d3b7f9b6eda5f479b57898261d8c8046b5c847c2efa6787f7d3e65"
     },
     {
       "file": "review_20261009/risk_change/新增撤销_逐来源数量及证据.csv",
@@ -924,8 +1530,8 @@
     },
     {
       "file": "review_20261009/risk_change/版本命名核查.md",
-      "bytes": 1788,
-      "sha256": "4eb8a18d401d20431b89c5d8b500dd470d16da277c78f802a351919e53dfce94"
+      "bytes": 2413,
+      "sha256": "6b053787ba1457ac26a0ea4af3b1c19ca050b4a9358cae2e8a76792d496f26cb"
     },
     {
       "file": "review_20261009/risk_change/版本阶段_实际人数与风险标记指纹.csv",
@@ -1004,8 +1610,9 @@
     },
     {
       "file": "原件补齐与字段勘误修订报告_v1_5_20261009.md",
-      "bytes": 9950,
-      "sha256": "8d788f4dba62a0775ad296eb09db995d9db7a2da69417847f18c7a86b35f6135"
+      "bytes": 10389,
+      "sha256": "982827bbf19d26330fc5bbecc557286ee2dc88e947df01ae47e7290e6832ab40"
     }
-  ]
+  ],
+  "latest_progress_directory": "progress_20261009"
 }

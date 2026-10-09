@@ -1,0 +1,66 @@
+{
+  "query": "新能源汽车推广应用推荐车型目录 2021年第10批",
+  "rec": {
+    "requested_url": "https://www.miit.gov.cn/search-front-server/api/search/info?websiteid=110000000000000&scope=basic&q=%E6%96%B0%E8%83%BD%E6%BA%90%E6%B1%BD%E8%BD%A6%E6%8E%A8%E5%B9%BF%E5%BA%94%E7%94%A8%E6%8E%A8%E8%8D%90%E8%BD%A6%E5%9E%8B%E7%9B%AE%E5%BD%95+2021%E5%B9%B4%E7%AC%AC10%E6%89%B9&pg=40&p=1&cateid=47&pos=title_text%2Ctitlepy%2Cinfocontent%2Cfilenumbername%2Ckeyword%2Ccontentdescribe&selectFields=title%2Ccontent%2Cdeploytime%2C_index%2Curl%2Ccdate%2Cinfoextends%2Cinfocontentattribute%2Ckeyword%2Ccontentdescribe%2Csectitle%2Cpicpath%2Ccolumnname%2Cthemename%2Cpublishgroupname%2Cpublishtime%2Cmetaid%2Cbexxgk%2Ccolumnid%2Cinfocontenthashcode&group=distinct&level=6&sortFields=%5B%7B%22name%22%3A%22deploytime%22%2C%22type%22%3A%22desc%22%7D%5D",
+    "retrieved_utc": "2026-10-09T05:22:00.669613+00:00",
+    "tls_verification": true,
+    "status": "ok",
+    "http_status": 200,
+    "final_url": "https://www.miit.gov.cn/search-front-server/api/search/info?websiteid=110000000000000&scope=basic&q=%E6%96%B0%E8%83%BD%E6%BA%90%E6%B1%BD%E8%BD%A6%E6%8E%A8%E5%B9%BF%E5%BA%94%E7%94%A8%E6%8E%A8%E8%8D%90%E8%BD%A6%E5%9E%8B%E7%9B%AE%E5%BD%95+2021%E5%B9%B4%E7%AC%AC10%E6%89%B9&pg=40&p=1&cateid=47&pos=title_text%2Ctitlepy%2Cinfocontent%2Cfilenumbername%2Ckeyword%2Ccontentdescribe&selectFields=title%2Ccontent%2Cdeploytime%2C_index%2Curl%2Ccdate%2Cinfoextends%2Cinfocontentattribute%2Ckeyword%2Ccontentdescribe%2Csectitle%2Cpicpath%2Ccolumnname%2Cthemename%2Cpublishgroupname%2Cpublishtime%2Cmetaid%2Cbexxgk%2Ccolumnid%2Cinfocontenthashcode&group=distinct&level=6&sortFields=%5B%7B%22name%22%3A%22deploytime%22%2C%22type%22%3A%22desc%22%7D%5D",
+    "bytes": 49503,
+    "sha256": "8dca10a34a2edfb2c2b34be621245cc9912463e33f4bbcac2d6e04a7379b797c",
+    "response_headers": {
+      "date": "Fri, 09 Oct 2026 05:22:02 GMT",
+      "content-type": "text/html;charset=UTF-8",
+      "content-length": "49503",
+      "vary": "Accept-Encoding",
+      "set-cookie": "__jsluid_s=8430c0349dce14ededec87b8fbb9d8da; max-age=31536000; path=/; HttpOnly; SameSite=None; secure",
+      "x-kong-upstream-latency": "194",
+      "x-kong-proxy-latency": "1",
+      "via": "kong/1.4.3",
+      "x-via-jsl": "887b0cd,-",
+      "x-cache": "bypass",
+      "x-envoy-upstream-service-time": "1127",
+      "server": "envoy",
+      "connection": "close"
+    },
+    "local_path": "/workspace/purchase_tax_audit/round8/jx_public_final_pass/search/recommend_2021_10.json"
+  },
+  "hits": [
+    {
+      "title": "《道路机动车辆生产企业及产品》（第349批）、《新能源汽车推广应用推荐车型目录》（2021年第10批）、《享受车船税减免优惠的节约能源 使用新能源汽车车型目录》（第三十二批）、《免征车辆购置税的新能源汽车车型目录》（第四十八批）",
+      "url": "/jgsj/zbys/wjfb/art/2021/art_19547aac82ba4c2eb48b230354f6fd1b.html",
+      "deploytime": "1636109257044",
+      "cdate": "1636041600000",
+      "publishtime": "1683905538627"
+    },
+    {
+      "title": "《道路机动车辆生产企业及产品》（第349批）、《新能源汽车推广应用推荐车型目录》（2021年第10批）、《享受车船税减免优惠的节约能源 使用新能源汽车车型目录》（第三十二批）、《免征车辆购置税的新能源汽车车型目录》（第四十八批）",
+      "url": "/jgsj/zbys/wjfb/art/2021/art_19547aac82ba4c2eb48b230354f6fd1b.html",
+      "deploytime": "1636109257044",
+      "cdate": "1636041600000",
+      "publishtime": "1683905538627"
+    },
+    {
+      "title": "《道路机动车辆生产企业及产品》（第349批）、《新能源汽车推广应用推荐车型目录》（2021年第10批）、《享受车船税减免优惠的节约能源 使用新能源汽车车型目录》（第三十二批）、《免征车辆购置税的新能源汽车车型目录》（第四十八批）",
+      "url": "/jgsj/zbys/wjfb/art/2021/art_19547aac82ba4c2eb48b230354f6fd1b.html",
+      "deploytime": "1636109257044",
+      "cdate": "1636041600000",
+      "publishtime": "1683905538627"
+    },
+    {
+      "title": "《道路机动车辆生产企业及产品》（第349批）、《新能源汽车推广应用推荐车型目录》（2021年第10批）、《享受车船税减免优惠的节约能源 使用新能源汽车车型目录》（第三十二批）、《免征车辆购置税的新能源汽车车型目录》（第四十八批）",
+      "url": "/zwgk/zcwj/wjfb/gg/art/2021/art_1b29d7093e9c45a6ab41fee28f16df0e.html",
+      "deploytime": "1636109257044",
+      "cdate": "1636041600000",
+      "publishtime": "1683905538627"
+    },
+    {
+      "title": "《道路机动车辆生产企业及产品》（第349批）、《新能源汽车推广应用推荐车型目录》（2021年第10批）、《享受车船税减免优惠的节约能源 使用新能源汽车车型目录》（第三十二批）、《免征车辆购置税的新能源汽车车型目录》（第四十八批）",
+      "url": "/zwgk/zcwj/wjfb/gg/art/2021/art_1b29d7093e9c45a6ab41fee28f16df0e.html",
+      "deploytime": "1636109257044",
+      "cdate": "1636041600000",
+      "publishtime": "1683905546671"
+    }
+  ]
+}

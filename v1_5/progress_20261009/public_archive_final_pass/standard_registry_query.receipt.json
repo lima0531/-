@@ -1,0 +1,25 @@
+{
+  "request_url": "https://std.samr.gov.cn/gb/search/gbQueryPage?searchText=GB%2FT+18386.1-2021",
+  "purpose": "全国标准信息公共服务平台公共检索页面的一次最终定向可达性检查；不关闭TLS、不循环重试；所查标准元数据须完整编号详情页匹配",
+  "retrieved_at_utc": "2026-10-09T05:22:49.247906+00:00",
+  "tls_verification": true,
+  "request_method": "GET",
+  "http_status": 200,
+  "final_url": "https://std.samr.gov.cn/gb/search/gbQueryPage?searchText=GB%2FT+18386.1-2021",
+  "response_headers": {
+    "server": "envoy",
+    "date": "Fri, 09 Oct 2026 05:22:53 GMT",
+    "content-type": "application/json;charset=utf-8",
+    "content-length": "373",
+    "x-ratelimit-remaining": "197",
+    "x-ratelimit-requested-tokens": "1",
+    "x-ratelimit-burst-capacity": "200",
+    "x-ratelimit-replenish-rate": "80",
+    "x-envoy-upstream-service-time": "1352",
+    "connection": "close"
+  },
+  "bytes": 373,
+  "sha256": "7fe2ae9627235566888d25019e6728f05d087d67f7593d15a45705c83e7761b4",
+  "evidence_file": "/workspace/purchase_tax_audit/round8/public_archive_final_pass/standard_registry_query.html",
+  "status": "retrieved"
+}

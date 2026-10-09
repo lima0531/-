@@ -1,0 +1,31 @@
+{
+  "requested_url": "https://www.miit.gov.cn/cms_files/filemanager/1226211233/attach/202110/daf14618961949d28a0fa4ccdd2712d5.doc",
+  "retrieved_utc": "2026-10-09T05:22:23.175573+00:00",
+  "tls_verification": true,
+  "status": "ok",
+  "http_status": 200,
+  "final_url": "https://www.miit.gov.cn/cms_files/filemanager/1226211233/attach/202110/daf14618961949d28a0fa4ccdd2712d5.doc",
+  "bytes": 614400,
+  "sha256": "51bab9256422ade9391a645299f91470f29c07a27b582da3b51dc94a56bd6495",
+  "response_headers": {
+    "date": "Fri, 09 Oct 2026 05:22:23 GMT",
+    "content-type": "application/msword",
+    "content-length": "614400",
+    "last-modified": "Fri, 05 Nov 2021 10:45:48 GMT",
+    "etag": "\"61850b5c-96000\"",
+    "access-control-allow-origin": "*",
+    "accept-ranges": "bytes",
+    "x-kong-upstream-latency": "45",
+    "x-kong-proxy-latency": "0",
+    "via": "kong/1.4.3",
+    "x-via-jsl": "d4c357c,-",
+    "set-cookie": "__jsluid_s=4f60c8a392f346fa47ae4c5b3335d97b; max-age=31536000; path=/; HttpOnly; SameSite=None; secure",
+    "cache-control": "max-age=1800",
+    "expires": "Fri, 09 Oct 2026 05:52:23 GMT",
+    "x-cache": "miss",
+    "x-envoy-upstream-service-time": "949",
+    "server": "envoy",
+    "connection": "close"
+  },
+  "local_path": "/workspace/purchase_tax_audit/round8/jx_public_final_pass/raw/recommend2021_10_catalogue.doc"
+}

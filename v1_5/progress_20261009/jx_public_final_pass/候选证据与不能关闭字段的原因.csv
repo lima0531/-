@@ -1,0 +1,5 @@
+﻿source,public_date,model_key,configuration_id,observed_battery_total_energy_kWh,source_sha256,acceptance,configuration_bridge_to_tax48_certified
+mf_batch48.doc,2021-11-05,JX6550T-M5BEV,,,ee5aa19736215cfcb3b76ffff90bcd0d9108c61758ccb756f7d4ad17e75a835c,原单元格真实空；未闭合,0
+recommend2021_10_parameters.pdf page73 entry14,2021-11-05,JX6550T-M5BEV,NC010086,,1bb5883093d638c255f798fb3e2a462f6f027ce241d64721aa575d9dd6cb28b7,公告前精确型号候选，但仅声明两电池密度，无总能量/质量/正式配置桥，不能代填,0
+cat_batch1.doc,2023-12-26,JX6550T-M5BEV,,65.17,2497c1bf3f3ffb02166f358621f18fa2288e6c5b8a2d36177483ffd5bb1cf655,晚于冻结日2023-12-10；不能回填,0
+第40批更正（独立本地复核排除）,,JX6570T-M5BEV,,65.17,,型号不同；不能移用,0

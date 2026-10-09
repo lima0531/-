@@ -30,5 +30,40 @@
     "lowtemp_versions": 19,
     "reapplication_models": 92
   },
-  "validation": "counts, set delta, exact record joins, field-origin SHA/date joins, SGM62/64 source separation, 106 recovery and raw-table identity assertions passed"
+  "validation": "counts, set delta, exact record joins, field-origin SHA/date joins, SGM62/64 source separation, 106 recovery and raw-table identity assertions passed",
+  "public_registry_updated_utc": "2026-10-09T05:39:26.124442+00:00",
+  "public_registry_completion": {
+    "observation_date_shanghai": "2026-10-09",
+    "standard_compatible_rows": 4,
+    "standard_public_registry_pending_fields": 0,
+    "standard_publication_date": "2021-03-09",
+    "standard_implementation_date": "2021-10-01",
+    "standard_status_as_of_observation": "现行",
+    "standard_status_observed_at_shanghai": "2026-10-09T13:23:43.609539+08:00",
+    "standard_replaces": "GB/T 18386-2017",
+    "standard_replaces_relation": "部分代替",
+    "standard_successor_display_observation": "本次完整登记详情未列后继标准，不作未来绝对判断",
+    "first_batch_official_index_pubDate": "2014-08-27",
+    "first_batch_page_meta_PubDate": "2026-06-02 15:18:48",
+    "first_batch_actual_first_online_verified": false,
+    "first_batch_registered_date_pending": false,
+    "historical_first_online_unknown_is_optional_boundary": true,
+    "current_analysis_required_public_registry_pending_fields": 0,
+    "user_nonpublic_materials_requested_for_registry_completion": false,
+    "scientific_dates_or_main_data_modified_in_this_update": false,
+    "source": "/workspace/file_export_proposal/v1_5/progress_20261009/public_archive_final_pass",
+    "latest_ledger": "../progress_20261009/README.md"
+  },
+  "jx_public_inquiry_leads": {
+    "model": "JX6550T-M5BEV",
+    "recommendation_configuration_id": "NC010086",
+    "battery_versions": [
+      "L173C01",
+      "L173G01"
+    ],
+    "energy_obtained": false,
+    "energy_mass_pairing_obtained": false,
+    "tax_exempt_configuration_bridge_verified": false,
+    "inquiry_template": "../progress_20261009/jx_public_final_pass/向企业索取材料_文本模板.md"
+  }
 }

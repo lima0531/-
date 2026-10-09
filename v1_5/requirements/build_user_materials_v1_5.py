@@ -126,6 +126,9 @@ def main():
     summary={'base_version':'v1.5','generated_utc':datetime.now(timezone.utc).isoformat(),'cohort_models':3328,'risk_models':2805,'numeric_ready_models':2425,'single_point_insufficient_models':380,'explicit_cltc_ready_models':217,'ready_cycle_blank_models':2208,'added_ready_cycle_blank_models':['SGM6500BEBEV'],'removed_cycle_blank_models':[],'field_origin_links':11040,'historic_originals_verified':106,'historical_originals_pending':0,'true_original_blank_field_models':['JX6550T-M5BEV'],'closed_requests':3,'frozen_scientific_delta':'SGM density and joint exposure blank→0; all other models preserved by reconstruction','raw_parameter_rows':7203,'raw_parameter_table_same_bytes_as_v1_4':True,'scientific_parameters_read_from':'研究数据/参数版本_字段勘误生效视图.csv','canonical_data_mutated':False,'copied_scope_models_unchanged':{'priority_crossing':32,'additional_crossing':4,'recommendation_versions':285,'lowtemp_versions':19,'reapplication_models':92},'validation':'counts, set delta, exact record joins, field-origin SHA/date joins, SGM62/64 source separation, 106 recovery and raw-table identity assertions passed'}
     (OUT/'requirements_summary.json').write_text(json.dumps(summary,ensure_ascii=False,indent=2)+'\n',encoding='utf-8')
     write('文件_SHA256.csv',[{'file':p.name,'bytes':str(p.stat().st_size),'sha256':sha(p)} for p in sorted(OUT.iterdir()) if p.is_file() and p.name!='文件_SHA256.csv'])
+    # Apply current preserved registration evidence after the historical base builder.
+    from update_public_registry_requirements import refresh
+    refresh()
     print(json.dumps(summary,ensure_ascii=False))
 
 

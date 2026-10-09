@@ -295,7 +295,9 @@
       "claim_id": "U01",
       "status": "not_established_by_reviewed_materials",
       "claim": "用户所称另一份“v1.3”与本地2804中间阶段、2805最终阶段或指定compact_input之间的唯一对应关系，本次指定材料尚不能证明。",
-      "reason": "未将该另一份具体产物的包SHA、确定归档成员或关键文件指纹与上述阶段记录建立可核查映射；相同版本字符串或同名README不足以唯一定位。"
+      "reason": "未将该另一份具体产物的包SHA、确定归档成员或关键文件指纹与上述阶段记录建立可核查映射；相同版本字符串或同名README不足以唯一定位。",
+      "followup_status": "resolved_for_specific_csv_only",
+      "followup_reason": "旧完整SHA已匹配精简包、v1.2实际文件及v1.1构建记录；不认证未打开整包。"
     },
     {
       "claim_id": "U02",
@@ -310,9 +312,25 @@
       "reason": "本任务只核命名与阶段记录；逐型号源追溯由风险变化主核查执行。"
     }
   ],
-  "naming_for_followup": "引用本地v1.3时同时注明阶段、摘要SHA和生成时间；用户另一份v1.3保持“未对应”，待其具体产物指纹可比后再对应。",
+  "naming_for_followup": "引用具体构建应注明全SHA及阶段；旧CSV已对应2877/2488构建，不再称未对应；整包交付标签与旧精确生成时刻仍未由此证明。",
   "risk_model_sets_recomputed": false,
   "old_scientific_data_written": false,
   "reviewed_source_file_hashes_unchanged": true,
-  "reviewed_source_file_count": 13
+  "reviewed_source_file_count": 13,
+  "followup_20261009": {
+    "scope": "具体轨迹CSV指纹与逐型号risk/ready变化；第一次审计快照保留",
+    "legacy_csv_sha256": "73b31afdaf90fd5efa32063308a9ac4123b0bf2d86f941abbe3e9c4db09e7a3d",
+    "legacy_risk": 2877,
+    "legacy_numeric_ready": 2488,
+    "final_v1_3_and_v1_4_csv_sha256": "1963fd09c4502d60c90a4a4a28660d9236ae19a3d126520c54c4ba5c98a5863d",
+    "final_risk": 2805,
+    "final_numeric_ready": 2424,
+    "v1_5_csv_sha256": "11e493ec70376fde3b463dcbc701bbda91f2bb7fc94c1a567e41e031a4fb8ce7",
+    "v1_5_numeric_ready": 2425,
+    "risk_change_equation": "2877-73+1=2805",
+    "ready_change_equation": "2488-65+1=2424;2424+1=2425",
+    "evidence": "../../progress_20261009/legacy_fingerprint/legacy_fingerprint_summary.json",
+    "whole_unopened_archive_identity_established": false,
+    "legacy_exact_generation_time_established": false
+  }
 }

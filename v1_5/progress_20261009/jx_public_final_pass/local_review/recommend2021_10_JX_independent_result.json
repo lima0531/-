@@ -1,0 +1,60 @@
+{
+  "model_key": "JX6550T-M5BEV",
+  "engine": "pypdf layout extraction; independent of parent PyMuPDF",
+  "source_pdf": "/workspace/purchase_tax_audit/round8/jx_public_final_pass/raw/recommend2021_10_parameters.pdf",
+  "source_sha256": "1bb5883093d638c255f798fb3e2a462f6f027ce241d64721aa575d9dd6cb28b7",
+  "pages": 146,
+  "exact_model_pages_1based": [
+    73
+  ],
+  "entry_number_on_page": 14,
+  "page_1based": 73,
+  "entry_start_marker": "14、江铃汽车股份有限公司",
+  "entry_end_exclusive_marker": "15、山东汽车制造有限公司",
+  "configuration_id": "NC010086",
+  "curb_mass_raw": "2295/2360",
+  "range_km_raw": "293",
+  "range_cycle_raw": "工况法",
+  "range_cycle_certified_CLTC": false,
+  "max_speed_kmh": "120",
+  "30_min_max_speed_kmh": "120",
+  "energy_consumption_kWh_per_100km": "22.80",
+  "declared_battery_system_energy_density_Wh_per_kg": {
+    "L173C01": "158.98",
+    "L173G01": "157.18"
+  },
+  "storage_type": "磷酸铁锂电池",
+  "battery_total_energy_kWh": null,
+  "battery_mass_kg": null,
+  "density_is_recommendation_declaration_not_tax_ratio_proxy": true,
+  "battery_energy_17_520_on_same_page_belongs_to_next_entry": "YTQ5043XLCKHPHEV332;配置ID NC009514;第15项",
+  "quote": "14、江铃汽车股份有限公司 江铃牌 JX6550T  -M5BEV纯电动多用途乘用车\n            车辆基本信息                               配置ID： NC010086\n\n   外廓尺寸长（mm）：                    5496\n   外廓尺寸宽（mm）：                    1972\n   外廓尺寸高（mm）：                    2240/2625\n   总质量（kg）：                      3490\n   整备质量（kg）：                     2295/2360\n   最高车速（km/h）：                   120\n   30分钟最高车速（km/h）：               120\n   续驶里程（km，工况法）：                 293\n   电池系统能量密度（Wh/kg）：              L173C01:158.98；L173G01：157.18\n   工况条件下百公里耗电量（Y）                22.80\n  （kWh/100km）：\n   储能装置种类：                       磷酸铁锂电池\n   驱动电机类型：                       永磁同步电机\n   驱动电机峰值功率/转速/转矩（kW             120/12000/320\n  /r/min/N.m）：",
+  "tax_48_vs_rec_configuration_bridge_certified": false,
+  "capacity_backcalculation_allowed": false,
+  "capacity_backcalculation_rejection_reasons": [
+    "购置税目录416kg没有对应L173C01/L173G01的分配置质量或正式跨目录配置桥。",
+    "推荐目录声明能量密度的检测口径不应无证据当成税目录总能量除以总质量的同义字段。",
+    "推荐页对本条没有明确总能量；相邻条的17.520属于另一型号。",
+    "型号、整备、续航相同只形成匹配候选，不能认证两电池版本跨目录对应关系。"
+  ],
+  "invalid_arithmetic_for_diagnostic_only": {
+    "assumed_mass_kg": "416",
+    "not_valid_capacity_estimates": {
+      "L173C01": "66.13568",
+      "L173G01": "65.38688"
+    },
+    "late_observed_capacity_kWh": "65.17",
+    "note": "只展示未经证明的相乘会产生66.13568或65.38688；这些不是可采用的容量值或容量边界，也不支持把后来的65.17回填。"
+  },
+  "science_values_modified": false,
+  "network_requests": 0,
+  "checks_passed": [
+    "source_sha_matches_parent",
+    "all146_pages_exact_model_only73",
+    "entry14_exact_model_and_config",
+    "range_and_curb_match",
+    "two_density_types_confirmed",
+    "no_target_battery_energy_or_mass_field",
+    "adjacent_17_520_excluded"
+  ]
+}

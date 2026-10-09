@@ -1,0 +1,25 @@
+{
+  "request_url": "https://fgk.chinatax.gov.cn/zcfgk/c100013/c5207263/content.html",
+  "purpose": "依据主管部门查询API唯一匹配的2014年第54号第一批具体原公告页；核可见日期/发布登记元数据，不把落款或实施日推作首次发布",
+  "retrieved_at_utc": "2026-10-09T05:25:08.921869+00:00",
+  "tls_verification": true,
+  "request_method": "GET",
+  "http_status": 200,
+  "final_url": "https://fgk.chinatax.gov.cn/zcfgk/c100013/c5207263/content.html",
+  "response_headers": {
+    "date": "Fri, 09 Oct 2026 05:25:11 GMT",
+    "content-type": "text/html",
+    "x-frame-options": "ALLOW-FROM https://www.chinatax.gov.cn/",
+    "access-control-allow-origin": "https://www.chinatax.gov.cn",
+    "x-via": "1.1 PS-000-01MaJ41:17 (Cdn Cache Server V2.0), 1.1 PS-CSX-01bGX179:10 (Cdn Cache Server V2.0), 1.1 dx94:8 (Cdn Cache Server V2.0)",
+    "x-ws-request-id": "6ac87ab7_dx94_2522-23167",
+    "x-envoy-upstream-service-time": "2376",
+    "server": "envoy",
+    "connection": "close",
+    "transfer-encoding": "chunked"
+  },
+  "bytes": 36456,
+  "sha256": "3dc8158746c05541db72eea7abf64690b5edd57188f02e2f96294c16495b6c16",
+  "evidence_file": "/workspace/purchase_tax_audit/round8/public_archive_final_pass/first_batch_primary_registered_page.html",
+  "status": "retrieved"
+}
