@@ -1,0 +1,90 @@
+[
+  {
+    "record_key": "old:1c57eaff2aaa48e4b1242e255ae65ee6:678e3cf94c49f74d04e91ac42bdd69c988e72fe38bc39079126afe5497fa80ec",
+    "model_key": "CGC6481BEV2P1",
+    "testBasisStandard_raw": "BJ_18386_2017",
+    "otherInfo_raw": "本车型能耗、里程基于NEDC工况",
+    "literal_standard_quotes": [],
+    "BJ_token_itself_is_not_a_formal_standard_literal": true
+  },
+  {
+    "record_key": "old:9054309b35f2449e9d9146b5307d735a:3edd6636968b670a617ebd87a53df91459e267ca932afd3155d53a6694c3334f",
+    "model_key": "SC6453BAABEV",
+    "testBasisStandard_raw": "BJ_18386_2017",
+    "otherInfo_raw": "无",
+    "literal_standard_quotes": [],
+    "BJ_token_itself_is_not_a_formal_standard_literal": true
+  },
+  {
+    "record_key": "old:f829e59a6040465ca5cae4ff8277003c:15151ff942a24a3140400fe87fc4fe763c38bd5770689e65eaed39ac2b97235f",
+    "model_key": "SC6483AAABEV",
+    "testBasisStandard_raw": "BJ_18386_2017",
+    "otherInfo_raw": "无",
+    "literal_standard_quotes": [],
+    "BJ_token_itself_is_not_a_formal_standard_literal": true
+  },
+  {
+    "record_key": "old:096fa1aff87c4464867aede3932da778:6b81f85aa2b80081ebb0b42c0d40d26b9154d9e39393162917ef6716803be1ce",
+    "model_key": "SC6453BAABEV",
+    "testBasisStandard_raw": "BJ_18386_2017",
+    "otherInfo_raw": "无",
+    "literal_standard_quotes": [],
+    "BJ_token_itself_is_not_a_formal_standard_literal": true
+  },
+  {
+    "record_key": "old:d2de0d9283df45b39373c6c935ec0538:78f59582130c3fc7938a0208ce69e856058b00212c4c2dd23798f147df5c0cca",
+    "model_key": "SC6453BAABEV",
+    "testBasisStandard_raw": "BJ_18386_2017",
+    "otherInfo_raw": "无",
+    "literal_standard_quotes": [],
+    "BJ_token_itself_is_not_a_formal_standard_literal": true
+  },
+  {
+    "record_key": "old:ca401e9f131441b1a8bd630c38ff6797:cb74edc15a657f82e12e83a55264d17421b9778a0645a59a5097372d05bdcf97",
+    "model_key": "SC6453BAABEV",
+    "testBasisStandard_raw": "BJ_18386_2017",
+    "otherInfo_raw": "无",
+    "literal_standard_quotes": [],
+    "BJ_token_itself_is_not_a_formal_standard_literal": true
+  },
+  {
+    "record_key": "old:86d1797f70ea43e8b9676e9b5b711c49:248271fc53a5927d64cc8028b722d993bea50674413f0c0b0de63e53fd67e81c",
+    "model_key": "SC6483AAABEV",
+    "testBasisStandard_raw": "BJ_18386_2017",
+    "otherInfo_raw": "无",
+    "literal_standard_quotes": [],
+    "BJ_token_itself_is_not_a_formal_standard_literal": true
+  },
+  {
+    "record_key": "old:0b024b59ef72473e8c65da0f5ff79e2d:b0a05a8133f3167d578e41047108a36c4586cfee426b2dcb31e20f082162ad86",
+    "model_key": "SC6453BAABEV",
+    "testBasisStandard_raw": "BJ_18386_2017",
+    "otherInfo_raw": "无",
+    "literal_standard_quotes": [],
+    "BJ_token_itself_is_not_a_formal_standard_literal": true
+  },
+  {
+    "record_key": "old:c8268624164b4608852056804bce0bec:8f9fed7cba0a751fe80a479f311b3ef3e95a5d2d487590ce45d6c9e76644bfcf",
+    "model_key": "SC6453BAABEV",
+    "testBasisStandard_raw": "BJ_18386_2017",
+    "otherInfo_raw": "无",
+    "literal_standard_quotes": [],
+    "BJ_token_itself_is_not_a_formal_standard_literal": true
+  },
+  {
+    "record_key": "old:a3f72592fb59457cae768c42e088120e:af3e239f7e003c8e17e1554c2b054525a3720a6440f1750bdc0efc45a8aac7b1",
+    "model_key": "GAM7000BEVA0K",
+    "testBasisStandard_raw": "BJ_18386_2017",
+    "otherInfo_raw": "本车型能耗、里程基于NEDC工况",
+    "literal_standard_quotes": [],
+    "BJ_token_itself_is_not_a_formal_standard_literal": true
+  },
+  {
+    "record_key": "old:ab8c9b9887714dbd97bc42769e4241ae:9c7f2b3b123a4c23519455fdef2642195018d345a224340e4a1fdcfb1d419f40",
+    "model_key": "GAM7000BEVA0M",
+    "testBasisStandard_raw": "BJ_18386_2017",
+    "otherInfo_raw": "本车型能耗、里程基于NEDC工况",
+    "literal_standard_quotes": [],
+    "BJ_token_itself_is_not_a_formal_standard_literal": true
+  }
+]

@@ -1,0 +1,40 @@
+{
+  "label_job_id": "7bd9cfd9a1db37ee11ead28b04d84633b56c563cd0fa62c6183ea531d4778a10",
+  "fullLabel": "4b744786444b4eb71c8396361dd3200e@248594",
+  "pdf_file": "responses/7bd9cfd9a1db37ee11ead28b04d84633b56c563cd0fa62c6183ea531d4778a10_attempt01.pdf",
+  "pdf_sha256": "1fb4a2dc380dabf2bde237e185dbc0e1e365b5638609b9b3ebefe74343ede1a8",
+  "pdf_bytes": 248594,
+  "pdf_pages": 1,
+  "receipt_file": "receipts/7bd9cfd9a1db37ee11ead28b04d84633b56c563cd0fa62c6183ea531d4778a10_attempt01_receipt.json",
+  "observed_utc": "2026-10-09T11:06:25.979985+00:00",
+  "full_text_file": "extracted/7bd9cfd9a1db37ee11ead28b04d84633b56c563cd0fa62c6183ea531d4778a10.txt",
+  "full_text_sha256": "e5fd9df603d7bb1174bea329c18f38095d870ee719a3c7703ec6d46f41885a7f",
+  "standard_contexts": [
+    "本标识所采用的电能消耗量和续驶里程数据是按\n照GB/T 18386.1—2021《电动汽车能量消耗量和续驶\n里程试验方法 第1部分：轻型汽车》测定。预估能源\n成本的计算基于电费0.66元/度。",
+    "照GB/T 18386.1—2021《电动汽车能量消耗量和续驶\n里程试验方法 第1部分：轻型汽车》测定。预估能源\n成本的计算基于电费0.66元/度。\n由于驾驶习惯、道路状况、气候条件、电价等 因"
+  ],
+  "battery_energy_words_present": false,
+  "record_refs": [
+    {
+      "model_key": "MXP2P",
+      "vehicleModel_raw": "MXP2P",
+      "matching_mode": "raw",
+      "uuid": "058cab6e1fb042019801407a1097fb86",
+      "recordNumber": "JD20260814161910001",
+      "source_file": "../public_new_snapshot/new_currentPage/page0002_response.json",
+      "source_page_sha256": "17fbe796d6995b3bc890f9b257ff2efeb57b1d6b2d032923403d75e4508ec900",
+      "page": 2,
+      "json_pointer": "/info/list/172",
+      "full_row_sha256": "82b6da6fc3bd0ceec59d35591c5d64058bde83452cb88a2ab2205c9e2c486f93",
+      "label_job_id": "7bd9cfd9a1db37ee11ead28b04d84633b56c563cd0fa62c6183ea531d4778a10",
+      "fullLabel": "4b744786444b4eb71c8396361dd3200e@248594",
+      "testBasisStandard_raw": "5",
+      "issueDate_raw": "2026-08-13",
+      "enableDate_raw": "2026-08-14",
+      "createTime_raw": "2026-08-14 16:19:37",
+      "updateTime_raw": "2026-08-14 16:19:58",
+      "abandonTime_raw": null,
+      "is_new_library_only_model": true
+    }
+  ]
+}

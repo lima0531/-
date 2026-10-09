@@ -1,0 +1,40 @@
+{
+  "label_job_id": "cc4e4d5ac0eb84264ac6699f85cb540069b99f2c6e5f98920b10e0de2be0682a",
+  "fullLabel": "92ce17a8d0ccc1985eab191d8184565c@64900",
+  "pdf_file": "responses/cc4e4d5ac0eb84264ac6699f85cb540069b99f2c6e5f98920b10e0de2be0682a_attempt01.pdf",
+  "pdf_sha256": "33f4663f34b2dc057623a1eba4b5dbe1973345606233944c39cc29545732abcc",
+  "pdf_bytes": 64900,
+  "pdf_pages": 1,
+  "receipt_file": "receipts/cc4e4d5ac0eb84264ac6699f85cb540069b99f2c6e5f98920b10e0de2be0682a_attempt01_receipt.json",
+  "observed_utc": "2026-10-09T11:09:23.088642+00:00",
+  "full_text_file": "extracted/cc4e4d5ac0eb84264ac6699f85cb540069b99f2c6e5f98920b10e0de2be0682a.txt",
+  "full_text_sha256": "72dafef8240e62c4987781fabafeaa79113c9d65a856cad7b363d470c6aa1f44",
+  "standard_contexts": [
+    "本标识所采用的电能消耗量和续驶里程数据是按\n照GB/T 18386.1—2021《电动汽车能量消耗量和续驶\n里程试验方法 第1部分：轻型汽车》测定。预估能源\n成本的计算基于电费0.66元/度。",
+    "照GB/T 18386.1—2021《电动汽车能量消耗量和续驶\n里程试验方法 第1部分：轻型汽车》测定。预估能源\n成本的计算基于电费0.66元/度。\n由于驾驶习惯、道路状况、气候条件、电价等 因"
+  ],
+  "battery_energy_words_present": false,
+  "record_refs": [
+    {
+      "model_key": "GAM6460BEVC1D",
+      "vehicleModel_raw": "GAM6460BEVC1D",
+      "matching_mode": "raw",
+      "uuid": "2d96ac75c53342babf15f14481b30b15",
+      "recordNumber": "GD20240910112310006",
+      "source_file": "../public_new_snapshot/new_currentPage/page0030_response.json",
+      "source_page_sha256": "bc9484d5621990c3dbc35a36e34c21bb0e7ad82c6444685a301587fc59158f21",
+      "page": 30,
+      "json_pointer": "/info/list/115",
+      "full_row_sha256": "3a61654123d8e47f38fd1fee48d1d610c8f1391a0a19d594d39f070942ddb576",
+      "label_job_id": "cc4e4d5ac0eb84264ac6699f85cb540069b99f2c6e5f98920b10e0de2be0682a",
+      "fullLabel": "92ce17a8d0ccc1985eab191d8184565c@64900",
+      "testBasisStandard_raw": "5",
+      "issueDate_raw": "2023-05-09",
+      "enableDate_raw": "2024-09-10",
+      "createTime_raw": "2024-09-10 11:23:12",
+      "updateTime_raw": "2024-09-10 11:23:46",
+      "abandonTime_raw": null,
+      "is_new_library_only_model": false
+    }
+  ]
+}

@@ -1,0 +1,990 @@
+{
+  "review_status": "PARTIAL_VERIFIED_WITH_DOCUMENT_CORRECTIONS_AND_UNAVAILABLE_NEW_PAYLOAD",
+  "no_network_requests": true,
+  "no_scientific_or_export_mutation": true,
+  "attached_inputs": [
+    {
+      "path": "/workspace/attachments/fcc63a8f-8580-4b34-9550-ebdda069e5a7/summary.md",
+      "bytes": 4666,
+      "sha256": "5e73040716a54d1e77f0c3e26c64386ec34ce2db77a5bceb9ee3bd1eb53a3104"
+    },
+    {
+      "path": "/workspace/attachments/267bf06b-eb0c-4833-9ff3-e0283c80d7ce/delivery_manifest.json",
+      "bytes": 10094,
+      "sha256": "33ba28fb8aaf21bd94932550ccab9cc9359caa936a1f81aabc40c8039dd20151"
+    },
+    {
+      "path": "/workspace/attachments/3d25d40c-f714-41dd-a317-67797d52c3de/old_library_verification.json",
+      "bytes": 15720,
+      "sha256": "4831e97a3cf4e6ffbbbae25916210dec9300636755740740bb02a0dc12315876"
+    }
+  ],
+  "manifest_declared_counts_and_bytes": {
+    "listed_files": 58,
+    "raw_response_files_listed": 53,
+    "non_raw_files_listed": 5,
+    "manifest_is_self_listed": false,
+    "listed_bytes": 57291686,
+    "listed_decimal_MB": 57.291686,
+    "listed_binary_MiB": 54.63760948181152,
+    "manifest_bytes": 10094,
+    "listed_plus_manifest_file_count": 59,
+    "listed_plus_manifest_bytes": 57301780,
+    "raw_response_bytes_listed": 27335510,
+    "attached_files_available": 3,
+    "listed_files_attached_and_byte_verified": 2,
+    "listed_files_not_attached": 56
+  },
+  "checks": [
+    {
+      "name": "submitted_byte_identity_summary.md",
+      "status": "PASS",
+      "evidence": {
+        "expected": {
+          "path": "summary.md",
+          "bytes": 4666,
+          "sha256": "5e73040716a54d1e77f0c3e26c64386ec34ce2db77a5bceb9ee3bd1eb53a3104"
+        },
+        "actual": {
+          "path": "/workspace/attachments/fcc63a8f-8580-4b34-9550-ebdda069e5a7/summary.md",
+          "bytes": 4666,
+          "sha256": "5e73040716a54d1e77f0c3e26c64386ec34ce2db77a5bceb9ee3bd1eb53a3104"
+        }
+      }
+    },
+    {
+      "name": "submitted_byte_identity_old_library_verification.json",
+      "status": "PASS",
+      "evidence": {
+        "expected": {
+          "path": "old_library_verification.json",
+          "bytes": 15720,
+          "sha256": "4831e97a3cf4e6ffbbbae25916210dec9300636755740740bb02a0dc12315876"
+        },
+        "actual": {
+          "path": "/workspace/attachments/3d25d40c-f714-41dd-a317-67797d52c3de/old_library_verification.json",
+          "bytes": 15720,
+          "sha256": "4831e97a3cf4e6ffbbbae25916210dec9300636755740740bb02a0dc12315876"
+        }
+      }
+    },
+    {
+      "name": "manifest_structure_only",
+      "status": "PASS",
+      "evidence": {
+        "file_entries": 58,
+        "raw_page_entries": 53,
+        "invalid_sha256": [],
+        "unsafe_paths": [],
+        "invalid_bytes": [],
+        "duplicate_paths": 0
+      }
+    },
+    {
+      "name": "old_47_pages_recomputed_from_actual_repository_raw",
+      "status": "PASS",
+      "evidence": {
+        "pages": 47,
+        "rows": 9336,
+        "unique_applyId": 9336,
+        "null_applyId_occurrences": 0,
+        "all_pages_match_submitted_verification": true,
+        "page_numbers": [
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12,
+          13,
+          14,
+          15,
+          16,
+          17,
+          18,
+          19,
+          20,
+          21,
+          22,
+          23,
+          24,
+          25,
+          26,
+          27,
+          28,
+          29,
+          30,
+          31,
+          32,
+          33,
+          34,
+          35,
+          36,
+          37,
+          38,
+          39,
+          40,
+          41,
+          42,
+          43,
+          44,
+          45,
+          46,
+          47
+        ],
+        "attempt02_used_pages": [
+          10,
+          17
+        ],
+        "failed_first_attempts": [
+          {
+            "page": 10,
+            "http_status": 503,
+            "error": null,
+            "error_detail": null,
+            "response_file_saved": true,
+            "bytes": 95,
+            "parseable_json": false,
+            "sha256": "9deff96f9b5925fa5081257849ace321304b382d64cfb67d90a21a3c7cbf2925"
+          },
+          {
+            "page": 17,
+            "http_status": null,
+            "error": "TimeoutError",
+            "error_detail": "The read operation timed out",
+            "response_file_saved": false
+          }
+        ]
+      }
+    },
+    {
+      "name": "new_4_page_manifest_hashes_equal_existing_repository_bytes",
+      "status": "PASS",
+      "evidence": [
+        {
+          "page": 1,
+          "repository_file": "new_currentPage/page0001_response.json",
+          "manifest_path": "raw/responses/new_page0001.json",
+          "actual_bytes": 520951,
+          "actual_sha256": "1171722e6dfdb4e0943e3995d0e44d64c0324c58ecba9d64ed544b8a53aeab2d",
+          "manifest_bytes": 520951,
+          "manifest_sha256": "1171722e6dfdb4e0943e3995d0e44d64c0324c58ecba9d64ed544b8a53aeab2d",
+          "rows_in_repository_raw": 200,
+          "currentPage_echo_in_repository_raw": 1,
+          "repository_observed_utc": "2026-10-09T09:49:40.199330+00:00",
+          "repository_observed_Asia_Shanghai": "2026-10-09T17:49:40.199330+08:00",
+          "bytes_equal_manifest_declaration": true
+        },
+        {
+          "page": 2,
+          "repository_file": "new_currentPage/page0002_response.json",
+          "manifest_path": "raw/responses/new_page0002.json",
+          "actual_bytes": 518925,
+          "actual_sha256": "17fbe796d6995b3bc890f9b257ff2efeb57b1d6b2d032923403d75e4508ec900",
+          "manifest_bytes": 518925,
+          "manifest_sha256": "17fbe796d6995b3bc890f9b257ff2efeb57b1d6b2d032923403d75e4508ec900",
+          "rows_in_repository_raw": 200,
+          "currentPage_echo_in_repository_raw": 2,
+          "repository_observed_utc": "2026-10-09T09:49:55.071073+00:00",
+          "repository_observed_Asia_Shanghai": "2026-10-09T17:49:55.071073+08:00",
+          "bytes_equal_manifest_declaration": true
+        },
+        {
+          "page": 3,
+          "repository_file": "new_currentPage/page0003_response.json",
+          "manifest_path": "raw/responses/new_page0003.json",
+          "actual_bytes": 518784,
+          "actual_sha256": "3f8a08b51fb7fd83215da948c47130c0807ba926a8e96279b9b053c321188008",
+          "manifest_bytes": 518784,
+          "manifest_sha256": "3f8a08b51fb7fd83215da948c47130c0807ba926a8e96279b9b053c321188008",
+          "rows_in_repository_raw": 200,
+          "currentPage_echo_in_repository_raw": 3,
+          "repository_observed_utc": "2026-10-09T09:54:56.376031+00:00",
+          "repository_observed_Asia_Shanghai": "2026-10-09T17:54:56.376031+08:00",
+          "bytes_equal_manifest_declaration": true
+        },
+        {
+          "page": 4,
+          "repository_file": "new_currentPage/page0004_attempt02_response.json",
+          "manifest_path": "raw/responses/new_page0004.json",
+          "actual_bytes": 520485,
+          "actual_sha256": "70da726f8f8ee0a854bffe95ab1b01c3b451c849add365f8c2f3e12e4d91fa40",
+          "manifest_bytes": 520485,
+          "manifest_sha256": "70da726f8f8ee0a854bffe95ab1b01c3b451c849add365f8c2f3e12e4d91fa40",
+          "rows_in_repository_raw": 200,
+          "currentPage_echo_in_repository_raw": 4,
+          "repository_observed_utc": "2026-10-09T09:58:47.632474+00:00",
+          "repository_observed_Asia_Shanghai": "2026-10-09T17:58:47.632474+08:00",
+          "bytes_equal_manifest_declaration": true
+        }
+      ]
+    }
+  ],
+  "all_completed_local_checks_pass": true,
+  "old_actual_page_review": [
+    {
+      "page": 1,
+      "file": "old_currentPage/page0001_response.json",
+      "result": 1,
+      "echo_currentPage": 1,
+      "rows": 200,
+      "unique_applyId": 200,
+      "echo_totalSize": 9336,
+      "echo_pages": 47,
+      "response_sha256": "fefd9e91800ea3dc5f6ee7acc1741ea29c2a680a9d934bdde0117f4a417ad088",
+      "bytes": 116351,
+      "declared_field_mismatches": {}
+    },
+    {
+      "page": 2,
+      "file": "old_currentPage/page0002_response.json",
+      "result": 1,
+      "echo_currentPage": 2,
+      "rows": 200,
+      "unique_applyId": 200,
+      "echo_totalSize": 9336,
+      "echo_pages": 47,
+      "response_sha256": "3d42ce220d4484ce7b4692ccabb7878da3e0686e764ba7d01ba17f771e0e3028",
+      "bytes": 116699,
+      "declared_field_mismatches": {}
+    },
+    {
+      "page": 3,
+      "file": "old_currentPage/page0003_response.json",
+      "result": 1,
+      "echo_currentPage": 3,
+      "rows": 200,
+      "unique_applyId": 200,
+      "echo_totalSize": 9336,
+      "echo_pages": 47,
+      "response_sha256": "25444f57cb6cc46bd3d341be9b19159e171c8d3522f5dd5323e7daffbafad7fc",
+      "bytes": 116588,
+      "declared_field_mismatches": {}
+    },
+    {
+      "page": 4,
+      "file": "old_currentPage/page0004_response.json",
+      "result": 1,
+      "echo_currentPage": 4,
+      "rows": 200,
+      "unique_applyId": 200,
+      "echo_totalSize": 9336,
+      "echo_pages": 47,
+      "response_sha256": "f851684be820cd9302ff472bf775ca955a68b8568f79126ca2d5e48e8b80bfe7",
+      "bytes": 116094,
+      "declared_field_mismatches": {}
+    },
+    {
+      "page": 5,
+      "file": "old_currentPage/page0005_response.json",
+      "result": 1,
+      "echo_currentPage": 5,
+      "rows": 200,
+      "unique_applyId": 200,
+      "echo_totalSize": 9336,
+      "echo_pages": 47,
+      "response_sha256": "91a1b5250284a729fe47cebc316cc22c9911e0e1a342829437f8016fcee8eb54",
+      "bytes": 115347,
+      "declared_field_mismatches": {}
+    },
+    {
+      "page": 6,
+      "file": "old_currentPage/page0006_response.json",
+      "result": 1,
+      "echo_currentPage": 6,
+      "rows": 200,
+      "unique_applyId": 200,
+      "echo_totalSize": 9336,
+      "echo_pages": 47,
+      "response_sha256": "68b730fea1ac8b827ae7633fbf4c8aff9f26e056b34ed8e5086dfe00d9f2b148",
+      "bytes": 116142,
+      "declared_field_mismatches": {}
+    },
+    {
+      "page": 7,
+      "file": "old_currentPage/page0007_response.json",
+      "result": 1,
+      "echo_currentPage": 7,
+      "rows": 200,
+      "unique_applyId": 200,
+      "echo_totalSize": 9336,
+      "echo_pages": 47,
+      "response_sha256": "40b3abdb81882a95b6f661dc5511bb5655e4a69fd27f215e49ca4533704748ab",
+      "bytes": 116680,
+      "declared_field_mismatches": {}
+    },
+    {
+      "page": 8,
+      "file": "old_currentPage/page0008_response.json",
+      "result": 1,
+      "echo_currentPage": 8,
+      "rows": 200,
+      "unique_applyId": 200,
+      "echo_totalSize": 9336,
+      "echo_pages": 47,
+      "response_sha256": "bc32658655634380bb53c40e2a53068f34db40e6b5126d40bd62678340f61786",
+      "bytes": 117094,
+      "declared_field_mismatches": {}
+    },
+    {
+      "page": 9,
+      "file": "old_currentPage/page0009_response.json",
+      "result": 1,
+      "echo_currentPage": 9,
+      "rows": 200,
+      "unique_applyId": 200,
+      "echo_totalSize": 9336,
+      "echo_pages": 47,
+      "response_sha256": "9c1ad18dc467b245029b46af95a653d97f27cf383f23ce6850f799159ecaf0df",
+      "bytes": 116077,
+      "declared_field_mismatches": {}
+    },
+    {
+      "page": 10,
+      "file": "old_currentPage/page0010_attempt02_response.json",
+      "result": 1,
+      "echo_currentPage": 10,
+      "rows": 200,
+      "unique_applyId": 200,
+      "echo_totalSize": 9336,
+      "echo_pages": 47,
+      "response_sha256": "320ef44b657ab160c259844feaebb9f93219a1b6f07803c34883b6518c3a95eb",
+      "bytes": 115806,
+      "declared_field_mismatches": {}
+    },
+    {
+      "page": 11,
+      "file": "old_currentPage/page0011_response.json",
+      "result": 1,
+      "echo_currentPage": 11,
+      "rows": 200,
+      "unique_applyId": 200,
+      "echo_totalSize": 9336,
+      "echo_pages": 47,
+      "response_sha256": "7612cd0dacba2e021cd3a6988a28f4db037ce51eb924c3df914391021fc46688",
+      "bytes": 116486,
+      "declared_field_mismatches": {}
+    },
+    {
+      "page": 12,
+      "file": "old_currentPage/page0012_response.json",
+      "result": 1,
+      "echo_currentPage": 12,
+      "rows": 200,
+      "unique_applyId": 200,
+      "echo_totalSize": 9336,
+      "echo_pages": 47,
+      "response_sha256": "576b7882b0d12360dc89d86d20f602249c340bf802df83f3a5edb4332d70e8eb",
+      "bytes": 116536,
+      "declared_field_mismatches": {}
+    },
+    {
+      "page": 13,
+      "file": "old_currentPage/page0013_response.json",
+      "result": 1,
+      "echo_currentPage": 13,
+      "rows": 200,
+      "unique_applyId": 200,
+      "echo_totalSize": 9336,
+      "echo_pages": 47,
+      "response_sha256": "af0943590d79e0e70d525d6ccf3dcc8587f41905485c282166172b859f8b2038",
+      "bytes": 116432,
+      "declared_field_mismatches": {}
+    },
+    {
+      "page": 14,
+      "file": "old_currentPage/page0014_response.json",
+      "result": 1,
+      "echo_currentPage": 14,
+      "rows": 200,
+      "unique_applyId": 200,
+      "echo_totalSize": 9336,
+      "echo_pages": 47,
+      "response_sha256": "5e7bcded7c76784f102ce02a39e2212b336dc231adbada1a72a8a159a7f77ccb",
+      "bytes": 115594,
+      "declared_field_mismatches": {}
+    },
+    {
+      "page": 15,
+      "file": "old_currentPage/page0015_response.json",
+      "result": 1,
+      "echo_currentPage": 15,
+      "rows": 200,
+      "unique_applyId": 200,
+      "echo_totalSize": 9336,
+      "echo_pages": 47,
+      "response_sha256": "b93d5efbc89303285c846e6856e127b975982e98fc67a0f7c84f9e0e3d11bd14",
+      "bytes": 115715,
+      "declared_field_mismatches": {}
+    },
+    {
+      "page": 16,
+      "file": "old_currentPage/page0016_response.json",
+      "result": 1,
+      "echo_currentPage": 16,
+      "rows": 200,
+      "unique_applyId": 200,
+      "echo_totalSize": 9336,
+      "echo_pages": 47,
+      "response_sha256": "9b1f179f1bc4e96296fd37da582cdbd71ad9e4adb96f10b0c4f3c4de97706ec5",
+      "bytes": 115093,
+      "declared_field_mismatches": {}
+    },
+    {
+      "page": 17,
+      "file": "old_currentPage/page0017_attempt02_response.json",
+      "result": 1,
+      "echo_currentPage": 17,
+      "rows": 200,
+      "unique_applyId": 200,
+      "echo_totalSize": 9336,
+      "echo_pages": 47,
+      "response_sha256": "bb3c15e2adaf9344a861e8a592f32ff3aee982caefc6d33cc8b72df04b17f28d",
+      "bytes": 115397,
+      "declared_field_mismatches": {}
+    },
+    {
+      "page": 18,
+      "file": "old_currentPage/page0018_response.json",
+      "result": 1,
+      "echo_currentPage": 18,
+      "rows": 200,
+      "unique_applyId": 200,
+      "echo_totalSize": 9336,
+      "echo_pages": 47,
+      "response_sha256": "0f44d6c406107027cf28dad604a8b892147e30080f052baf4f4a4a24887e40ff",
+      "bytes": 115322,
+      "declared_field_mismatches": {}
+    },
+    {
+      "page": 19,
+      "file": "old_currentPage/page0019_response.json",
+      "result": 1,
+      "echo_currentPage": 19,
+      "rows": 200,
+      "unique_applyId": 200,
+      "echo_totalSize": 9336,
+      "echo_pages": 47,
+      "response_sha256": "266461dff543e587a96796d27195ea0a17b6634c5b503eaa0aa96e01b1798371",
+      "bytes": 115457,
+      "declared_field_mismatches": {}
+    },
+    {
+      "page": 20,
+      "file": "old_currentPage/page0020_response.json",
+      "result": 1,
+      "echo_currentPage": 20,
+      "rows": 200,
+      "unique_applyId": 200,
+      "echo_totalSize": 9336,
+      "echo_pages": 47,
+      "response_sha256": "61ec1a16d92fcb8b5fba852c0315c9a74f8e3558a011687161700d56861b5db0",
+      "bytes": 115785,
+      "declared_field_mismatches": {}
+    },
+    {
+      "page": 21,
+      "file": "old_currentPage/page0021_response.json",
+      "result": 1,
+      "echo_currentPage": 21,
+      "rows": 200,
+      "unique_applyId": 200,
+      "echo_totalSize": 9336,
+      "echo_pages": 47,
+      "response_sha256": "2d2c4ca547340a90e78396655e3900142faf085f1db8c8dcd4db1bfbbc416337",
+      "bytes": 115267,
+      "declared_field_mismatches": {}
+    },
+    {
+      "page": 22,
+      "file": "old_currentPage/page0022_response.json",
+      "result": 1,
+      "echo_currentPage": 22,
+      "rows": 200,
+      "unique_applyId": 200,
+      "echo_totalSize": 9336,
+      "echo_pages": 47,
+      "response_sha256": "0310934e6d7ab3d2a5de5dcc2dde43026051d25e2f15b0ae5a847c0d7a28478f",
+      "bytes": 115683,
+      "declared_field_mismatches": {}
+    },
+    {
+      "page": 23,
+      "file": "old_currentPage/page0023_response.json",
+      "result": 1,
+      "echo_currentPage": 23,
+      "rows": 200,
+      "unique_applyId": 200,
+      "echo_totalSize": 9336,
+      "echo_pages": 47,
+      "response_sha256": "1054fbbdf2be0c98ac7a0cce4cea01dea868faa1f312ab9b0b028a0e59e2d0fe",
+      "bytes": 115596,
+      "declared_field_mismatches": {}
+    },
+    {
+      "page": 24,
+      "file": "old_currentPage/page0024_response.json",
+      "result": 1,
+      "echo_currentPage": 24,
+      "rows": 200,
+      "unique_applyId": 200,
+      "echo_totalSize": 9336,
+      "echo_pages": 47,
+      "response_sha256": "3f0f53fa4075eb0f50baef9a1f17ac0759dbbce4199f14c556a4f65c50ee6272",
+      "bytes": 115628,
+      "declared_field_mismatches": {}
+    },
+    {
+      "page": 25,
+      "file": "old_currentPage/page0025_response.json",
+      "result": 1,
+      "echo_currentPage": 25,
+      "rows": 200,
+      "unique_applyId": 200,
+      "echo_totalSize": 9336,
+      "echo_pages": 47,
+      "response_sha256": "4b326d833a657cbaf03bc3b5ecd91a74ac9dd013aaf37b6eb6bffb1e9fe087b3",
+      "bytes": 114962,
+      "declared_field_mismatches": {}
+    },
+    {
+      "page": 26,
+      "file": "old_currentPage/page0026_response.json",
+      "result": 1,
+      "echo_currentPage": 26,
+      "rows": 200,
+      "unique_applyId": 200,
+      "echo_totalSize": 9336,
+      "echo_pages": 47,
+      "response_sha256": "749d05c412fd2db90efe924140bfd809481ce90a01ea84e010c33eb23b8df7dc",
+      "bytes": 114829,
+      "declared_field_mismatches": {}
+    },
+    {
+      "page": 27,
+      "file": "old_currentPage/page0027_response.json",
+      "result": 1,
+      "echo_currentPage": 27,
+      "rows": 200,
+      "unique_applyId": 200,
+      "echo_totalSize": 9336,
+      "echo_pages": 47,
+      "response_sha256": "c5a69308aa7f9a452c243be2a21d640492222a3be532f26f7d5a342b263ee865",
+      "bytes": 113967,
+      "declared_field_mismatches": {}
+    },
+    {
+      "page": 28,
+      "file": "old_currentPage/page0028_response.json",
+      "result": 1,
+      "echo_currentPage": 28,
+      "rows": 200,
+      "unique_applyId": 200,
+      "echo_totalSize": 9336,
+      "echo_pages": 47,
+      "response_sha256": "f91ba2d44ee2b3d56fdcfd609a592968d37560389f72ceef699da55bc6d5f173",
+      "bytes": 114191,
+      "declared_field_mismatches": {}
+    },
+    {
+      "page": 29,
+      "file": "old_currentPage/page0029_response.json",
+      "result": 1,
+      "echo_currentPage": 29,
+      "rows": 200,
+      "unique_applyId": 200,
+      "echo_totalSize": 9336,
+      "echo_pages": 47,
+      "response_sha256": "2db8874da1c94df92763e45d803c302470b9b6f9a155cb6edcb8399b034eeac9",
+      "bytes": 115068,
+      "declared_field_mismatches": {}
+    },
+    {
+      "page": 30,
+      "file": "old_currentPage/page0030_response.json",
+      "result": 1,
+      "echo_currentPage": 30,
+      "rows": 200,
+      "unique_applyId": 200,
+      "echo_totalSize": 9336,
+      "echo_pages": 47,
+      "response_sha256": "70b17cdf0aeab94b219f46013bb7499098fffbc7235b8c90455052c9ca963f4e",
+      "bytes": 114145,
+      "declared_field_mismatches": {}
+    },
+    {
+      "page": 31,
+      "file": "old_currentPage/page0031_response.json",
+      "result": 1,
+      "echo_currentPage": 31,
+      "rows": 200,
+      "unique_applyId": 200,
+      "echo_totalSize": 9336,
+      "echo_pages": 47,
+      "response_sha256": "1d4a7c29624a7908ce4dce2430b9a31b68b8a6be67685a30abb5438b6d6ddf1e",
+      "bytes": 114091,
+      "declared_field_mismatches": {}
+    },
+    {
+      "page": 32,
+      "file": "old_currentPage/page0032_response.json",
+      "result": 1,
+      "echo_currentPage": 32,
+      "rows": 200,
+      "unique_applyId": 200,
+      "echo_totalSize": 9336,
+      "echo_pages": 47,
+      "response_sha256": "ca2e5f7711046b159d51530bb3a5a6fb097c4c8783aca9d9f77c8adee61e1967",
+      "bytes": 114161,
+      "declared_field_mismatches": {}
+    },
+    {
+      "page": 33,
+      "file": "old_currentPage/page0033_response.json",
+      "result": 1,
+      "echo_currentPage": 33,
+      "rows": 200,
+      "unique_applyId": 200,
+      "echo_totalSize": 9336,
+      "echo_pages": 47,
+      "response_sha256": "3622479042b0fe890780ce3bac0019e061e557fcb498805621fd672ea793b399",
+      "bytes": 114691,
+      "declared_field_mismatches": {}
+    },
+    {
+      "page": 34,
+      "file": "old_currentPage/page0034_response.json",
+      "result": 1,
+      "echo_currentPage": 34,
+      "rows": 200,
+      "unique_applyId": 200,
+      "echo_totalSize": 9336,
+      "echo_pages": 47,
+      "response_sha256": "10f9bd4fff48b2b46f12e7d5f7759ee31403280b011c4c674611741f3119b1c9",
+      "bytes": 114567,
+      "declared_field_mismatches": {}
+    },
+    {
+      "page": 35,
+      "file": "old_currentPage/page0035_response.json",
+      "result": 1,
+      "echo_currentPage": 35,
+      "rows": 200,
+      "unique_applyId": 200,
+      "echo_totalSize": 9336,
+      "echo_pages": 47,
+      "response_sha256": "f03d0fef19dae31b9c29b48af31c988eba29f37e5c27dcd646f0bb0addadf1c2",
+      "bytes": 114672,
+      "declared_field_mismatches": {}
+    },
+    {
+      "page": 36,
+      "file": "old_currentPage/page0036_response.json",
+      "result": 1,
+      "echo_currentPage": 36,
+      "rows": 200,
+      "unique_applyId": 200,
+      "echo_totalSize": 9336,
+      "echo_pages": 47,
+      "response_sha256": "00052ec86ae3e3ec5d1627bc2522308e723ea7407bd14cd8a76b70a6e0ceca08",
+      "bytes": 114096,
+      "declared_field_mismatches": {}
+    },
+    {
+      "page": 37,
+      "file": "old_currentPage/page0037_response.json",
+      "result": 1,
+      "echo_currentPage": 37,
+      "rows": 200,
+      "unique_applyId": 200,
+      "echo_totalSize": 9336,
+      "echo_pages": 47,
+      "response_sha256": "4632efdb68d35d89920e24e3b96eb753cca34e483eca3f8c0b610c9b4184d53d",
+      "bytes": 114427,
+      "declared_field_mismatches": {}
+    },
+    {
+      "page": 38,
+      "file": "old_currentPage/page0038_response.json",
+      "result": 1,
+      "echo_currentPage": 38,
+      "rows": 200,
+      "unique_applyId": 200,
+      "echo_totalSize": 9336,
+      "echo_pages": 47,
+      "response_sha256": "615b52044475dc7f432d4475619f02903e8780776bf7b1063e7a4926f2c80b43",
+      "bytes": 113753,
+      "declared_field_mismatches": {}
+    },
+    {
+      "page": 39,
+      "file": "old_currentPage/page0039_response.json",
+      "result": 1,
+      "echo_currentPage": 39,
+      "rows": 200,
+      "unique_applyId": 200,
+      "echo_totalSize": 9336,
+      "echo_pages": 47,
+      "response_sha256": "eadd447786dd7e43ec19d65c89deaa4cb0c4358506e82d23e58ac937ed79dabc",
+      "bytes": 114234,
+      "declared_field_mismatches": {}
+    },
+    {
+      "page": 40,
+      "file": "old_currentPage/page0040_response.json",
+      "result": 1,
+      "echo_currentPage": 40,
+      "rows": 200,
+      "unique_applyId": 200,
+      "echo_totalSize": 9336,
+      "echo_pages": 47,
+      "response_sha256": "9b2ff2784aa7cd61510245b4f02bce5bae1e1970385318c7b60b63f09edcab51",
+      "bytes": 109201,
+      "declared_field_mismatches": {}
+    },
+    {
+      "page": 41,
+      "file": "old_currentPage/page0041_response.json",
+      "result": 1,
+      "echo_currentPage": 41,
+      "rows": 200,
+      "unique_applyId": 200,
+      "echo_totalSize": 9336,
+      "echo_pages": 47,
+      "response_sha256": "1b81f2a4d62ab0142e44481203b14cc84f4bd96f29a6974eb6a27bf848c6571e",
+      "bytes": 109687,
+      "declared_field_mismatches": {}
+    },
+    {
+      "page": 42,
+      "file": "old_currentPage/page0042_response.json",
+      "result": 1,
+      "echo_currentPage": 42,
+      "rows": 200,
+      "unique_applyId": 200,
+      "echo_totalSize": 9336,
+      "echo_pages": 47,
+      "response_sha256": "2c5eb3b05f1fdc95280853219bf242696c7ad7a2ce5a7040aa6a63a46331f12b",
+      "bytes": 108865,
+      "declared_field_mismatches": {}
+    },
+    {
+      "page": 43,
+      "file": "old_currentPage/page0043_response.json",
+      "result": 1,
+      "echo_currentPage": 43,
+      "rows": 200,
+      "unique_applyId": 200,
+      "echo_totalSize": 9336,
+      "echo_pages": 47,
+      "response_sha256": "b28f2080a633a1eb7af4ec3cd3ccbb331e8ae724a11542b9726753fdd3b48762",
+      "bytes": 111714,
+      "declared_field_mismatches": {}
+    },
+    {
+      "page": 44,
+      "file": "old_currentPage/page0044_response.json",
+      "result": 1,
+      "echo_currentPage": 44,
+      "rows": 200,
+      "unique_applyId": 200,
+      "echo_totalSize": 9336,
+      "echo_pages": 47,
+      "response_sha256": "74273b209c7b7e9529c17e2f0ab645952a33f700afaaa6a5ca509892ccd5e36a",
+      "bytes": 118033,
+      "declared_field_mismatches": {}
+    },
+    {
+      "page": 45,
+      "file": "old_currentPage/page0045_response.json",
+      "result": 1,
+      "echo_currentPage": 45,
+      "rows": 200,
+      "unique_applyId": 200,
+      "echo_totalSize": 9336,
+      "echo_pages": 47,
+      "response_sha256": "b639a84f448be7b1472cb0650444a195486c3c32da83711ef3252562b11e9894",
+      "bytes": 117546,
+      "declared_field_mismatches": {}
+    },
+    {
+      "page": 46,
+      "file": "old_currentPage/page0046_response.json",
+      "result": 1,
+      "echo_currentPage": 46,
+      "rows": 200,
+      "unique_applyId": 200,
+      "echo_totalSize": 9336,
+      "echo_pages": 47,
+      "response_sha256": "10b7be3db2a1b2f2ad370ddd47ea2ae8b47dcba13ea79280343667b5b15cf120",
+      "bytes": 109627,
+      "declared_field_mismatches": {}
+    },
+    {
+      "page": 47,
+      "file": "old_currentPage/page0047_response.json",
+      "result": 1,
+      "echo_currentPage": 47,
+      "rows": 136,
+      "unique_applyId": 136,
+      "echo_totalSize": 9336,
+      "echo_pages": 47,
+      "response_sha256": "173156018eb97d0193eb60dc77338e0e6bc4528dbd7a2a28514fd03fb403990f",
+      "bytes": 73767,
+      "declared_field_mismatches": {}
+    }
+  ],
+  "new_shared_page_review": [
+    {
+      "page": 1,
+      "repository_file": "new_currentPage/page0001_response.json",
+      "manifest_path": "raw/responses/new_page0001.json",
+      "actual_bytes": 520951,
+      "actual_sha256": "1171722e6dfdb4e0943e3995d0e44d64c0324c58ecba9d64ed544b8a53aeab2d",
+      "manifest_bytes": 520951,
+      "manifest_sha256": "1171722e6dfdb4e0943e3995d0e44d64c0324c58ecba9d64ed544b8a53aeab2d",
+      "rows_in_repository_raw": 200,
+      "currentPage_echo_in_repository_raw": 1,
+      "repository_observed_utc": "2026-10-09T09:49:40.199330+00:00",
+      "repository_observed_Asia_Shanghai": "2026-10-09T17:49:40.199330+08:00",
+      "bytes_equal_manifest_declaration": true
+    },
+    {
+      "page": 2,
+      "repository_file": "new_currentPage/page0002_response.json",
+      "manifest_path": "raw/responses/new_page0002.json",
+      "actual_bytes": 518925,
+      "actual_sha256": "17fbe796d6995b3bc890f9b257ff2efeb57b1d6b2d032923403d75e4508ec900",
+      "manifest_bytes": 518925,
+      "manifest_sha256": "17fbe796d6995b3bc890f9b257ff2efeb57b1d6b2d032923403d75e4508ec900",
+      "rows_in_repository_raw": 200,
+      "currentPage_echo_in_repository_raw": 2,
+      "repository_observed_utc": "2026-10-09T09:49:55.071073+00:00",
+      "repository_observed_Asia_Shanghai": "2026-10-09T17:49:55.071073+08:00",
+      "bytes_equal_manifest_declaration": true
+    },
+    {
+      "page": 3,
+      "repository_file": "new_currentPage/page0003_response.json",
+      "manifest_path": "raw/responses/new_page0003.json",
+      "actual_bytes": 518784,
+      "actual_sha256": "3f8a08b51fb7fd83215da948c47130c0807ba926a8e96279b9b053c321188008",
+      "manifest_bytes": 518784,
+      "manifest_sha256": "3f8a08b51fb7fd83215da948c47130c0807ba926a8e96279b9b053c321188008",
+      "rows_in_repository_raw": 200,
+      "currentPage_echo_in_repository_raw": 3,
+      "repository_observed_utc": "2026-10-09T09:54:56.376031+00:00",
+      "repository_observed_Asia_Shanghai": "2026-10-09T17:54:56.376031+08:00",
+      "bytes_equal_manifest_declaration": true
+    },
+    {
+      "page": 4,
+      "repository_file": "new_currentPage/page0004_attempt02_response.json",
+      "manifest_path": "raw/responses/new_page0004.json",
+      "actual_bytes": 520485,
+      "actual_sha256": "70da726f8f8ee0a854bffe95ab1b01c3b451c849add365f8c2f3e12e4d91fa40",
+      "manifest_bytes": 520485,
+      "manifest_sha256": "70da726f8f8ee0a854bffe95ab1b01c3b451c849add365f8c2f3e12e4d91fa40",
+      "rows_in_repository_raw": 200,
+      "currentPage_echo_in_repository_raw": 4,
+      "repository_observed_utc": "2026-10-09T09:58:47.632474+00:00",
+      "repository_observed_Asia_Shanghai": "2026-10-09T17:58:47.632474+08:00",
+      "bytes_equal_manifest_declaration": true
+    }
+  ],
+  "new_claimed_pagination_arithmetic_only": {
+    "claimed_pages": 53,
+    "claimed_page_size": 200,
+    "claimed_last_rows": 79,
+    "computed_expected_rows": 10479,
+    "matches_manifest_row_declaration": true,
+    "raw_recount_completed": false
+  },
+  "documentation_issues": [
+    {
+      "id": "file_count",
+      "status": "CONFIRMED_DOCUMENT_INCONSISTENCY",
+      "detail": "summary将manifest描述为57个交付文件；实际files数组58条=53响应+5非响应。manifest未自列，整套含manifest应为59件。用户消息58件可指数组列出的payload，需明确计数口径。"
+    },
+    {
+      "id": "request_count",
+      "status": "UNRESOLVED_DOCUMENT_CONFLICT",
+      "summary_claim": 52,
+      "manifest_claim": 53,
+      "detail": "summary称52次本轮直采+1页复用；manifest称53次本轮网络请求。请求/运行日志未交来，不能替其选择真实值。"
+    },
+    {
+      "id": "observation_chronology",
+      "status": "UNRESOLVED_DOCUMENT_CONFLICT",
+      "manifest_time_claim": "2026-10-09 (Asia/Shanghai, approx 13:0x)",
+      "repository_reused_page4_observed_Asia_Shanghai": "2026-10-09T17:58:47.632474+08:00",
+      "detail": "manifest约13:0x上海本地时间早于声称复用的仓库第4页17:58:47收据；同日同区时序不闭合。不能推测时钟/时区原因，需原始日志和生成时间说明。字节相等不证明同一请求。"
+    },
+    {
+      "id": "new_snapshot_wording",
+      "status": "CLARIFICATION_REQUIRED",
+      "detail": "summary既称53页重新采集又声明1页复用仓库attempt02；应准确写52页新采+1页复用的混合观测集合，不称单一新采或原子事务快照。3个其他共享页与仓库也逐字节相同，但仅此不证明也被复用。"
+    },
+    {
+      "id": "old_retry_cause",
+      "status": "CONFIRMED_DOCUMENT_CORRECTION",
+      "actual_first_attempts": [
+        {
+          "page": 10,
+          "http_status": 503,
+          "error": null,
+          "error_detail": null,
+          "response_file_saved": true,
+          "bytes": 95,
+          "parseable_json": false,
+          "sha256": "9deff96f9b5925fa5081257849ace321304b382d64cfb67d90a21a3c7cbf2925"
+        },
+        {
+          "page": 17,
+          "http_status": null,
+          "error": "TimeoutError",
+          "error_detail": "The read operation timed out",
+          "response_file_saved": false
+        }
+      ],
+      "detail": "第10页首次503/95字节成立；第17页首轮为TimeoutError，无HTTP状态或保存的响应文件，并非同样503网关文本。二者有效数据均取attempt02，但失败类型不可混称。"
+    },
+    {
+      "id": "increment_vs_union",
+      "status": "SET_OPERATION_CORRECTION",
+      "previous_repository_sets": {
+        "old_exact_models": 1233,
+        "new_4page_exact_models": 3,
+        "old_new_overlap": 2,
+        "union": 1234
+      },
+      "detail": "既有1234=旧1233+新3−重合2。539−3=536仅为新库命中型号数差，不能当两库并集新增；新版精确命中集合未交来，旧新交集与真实并集尚不能重算。"
+    },
+    {
+      "id": "system_energy_field_scope",
+      "status": "SCOPE_CORRECTION",
+      "detail": "未交来53页全字段和详情/标签不能证明整个系统根本不提供电池能量。即便完整列表未见该字段，也只能描述已核列表/标签字段；不得替未检视端点做系统级不存在断言。JX第48批总能量缺口保持。"
+    }
+  ],
+  "pending_not_passed": [
+    "新库第5–53页49件原字节及各自SHA/回显/页长/请求状态；仅有清单声明。",
+    "records.jsonl全10479行、10476 uuid、全行哈希唯一及3重复标识状态行保留；未交来不能复算。",
+    "query_runs.jsonl与requests.jsonl、网络52/53次数和零错误、13:0x观测时序；未交来不能复算。",
+    "539/938精确命中、566/1087规范化命中、519早于冻结点、fullLabel覆盖和标准代码分布；缺原行及完整匹配台账不能复算。",
+    "新库新增命中型号与旧库1233集合的交集、并集、版本冲突。",
+    "标签PDF、旧库queryDetail及配置/历史公开日期资格。"
+  ],
+  "conclusions": {
+    "old_repository_snapshot_reverified": true,
+    "new_53page_delivery_independently_verified": false,
+    "new_exact_match_count_independently_verified": false,
+    "frozen_cycle_gap_closed_by_this_review": 0,
+    "battery_energy_gap_closed_by_this_review": 0
+  }
+}

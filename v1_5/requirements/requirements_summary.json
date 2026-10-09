@@ -79,5 +79,33 @@
     "jx_core_energy_missing": true,
     "jx_in_2208": false,
     "issueDate_not_first_public_availability": true
+  },
+  "official_energy_new_complete_20261009": {
+    "report": "../energy_new_complete_20261009/README.md",
+    "scientific_inputs_changed": false,
+    "new_view_pages_complete": 53,
+    "new_view_rows": 10479,
+    "exact_new_models": 539,
+    "exact_new_records": 936,
+    "exact_union_models": 1246,
+    "new_pdf_batch": {
+      "fixed_exact_tasks": 936,
+      "accepted_pdfs": 100,
+      "remaining_exact_tasks": 836,
+      "completed": false,
+      "stop_reason": "planned_review_stage_boundary: accepted 100 of 936; resume available",
+      "whitespace_candidate_tasks": 2,
+      "candidate_finished_separately_not_added_to_exact": true
+    },
+    "old_detail_batch": {
+      "fixed_applyId_tasks": 4497,
+      "accepted_records": 100,
+      "remaining_tasks": 4397,
+      "completed": false,
+      "stop_reason": "",
+      "pause_reason": "planned_batch_budget_reached"
+    },
+    "frozen_cycle_gaps_closed": 0,
+    "jx_core_energy_missing": true
   }
 }

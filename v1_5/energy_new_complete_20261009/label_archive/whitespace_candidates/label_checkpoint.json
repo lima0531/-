@@ -1,0 +1,14 @@
+{
+  "started_utc": "2026-10-09T11:11:14.117799+00:00",
+  "updated_utc": "2026-10-09T11:11:21.623732+00:00",
+  "completed": true,
+  "unique_label_jobs": 2,
+  "jobs_validated": 2,
+  "accepted_pdfs": 2,
+  "cache_reused": 0,
+  "newly_accepted_jobs_this_run": 2,
+  "stop_reason": "",
+  "pause_kind": null,
+  "source_queue_sha256": "ba4db20328ab5297cd05db7e06790699d77bf048f8ea972134c8e8113cfa6dfd",
+  "finished_utc": "2026-10-09T11:11:21.623732+00:00"
+}

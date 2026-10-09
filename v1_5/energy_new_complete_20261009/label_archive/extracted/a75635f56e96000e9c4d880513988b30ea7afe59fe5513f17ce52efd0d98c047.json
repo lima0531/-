@@ -1,0 +1,40 @@
+{
+  "label_job_id": "a75635f56e96000e9c4d880513988b30ea7afe59fe5513f17ce52efd0d98c047",
+  "fullLabel": "5a637e190419f03ec6faa8d79e813613@94214",
+  "pdf_file": "responses/a75635f56e96000e9c4d880513988b30ea7afe59fe5513f17ce52efd0d98c047_attempt01.pdf",
+  "pdf_sha256": "22695842e5c3f7bcac5cb45312c4c1a09c70e7e2c768955edfbc7503be00be43",
+  "pdf_bytes": 94214,
+  "pdf_pages": 1,
+  "receipt_file": "receipts/a75635f56e96000e9c4d880513988b30ea7afe59fe5513f17ce52efd0d98c047_attempt01_receipt.json",
+  "observed_utc": "2026-10-09T11:08:40.518362+00:00",
+  "full_text_file": "extracted/a75635f56e96000e9c4d880513988b30ea7afe59fe5513f17ce52efd0d98c047.txt",
+  "full_text_sha256": "829818a67f19af3bfad5cdb33b764e0d6737d44b34aaade86e4ac760bbf4e6d2",
+  "standard_contexts": [
+    "本标识所采用的电能消耗量和续驶里程数据是按\n照GB/T 18386.1—2021《电动汽车能量消耗量和续驶\n里程试验方法 第1部分：轻型汽车》测定。预估能源\n成本的计算基于电费0.66元/度。",
+    "照GB/T 18386.1—2021《电动汽车能量消耗量和续驶\n里程试验方法 第1部分：轻型汽车》测定。预估能源\n成本的计算基于电费0.66元/度。\n由于驾驶习惯、道路状况、气候条件、电价等 因"
+  ],
+  "battery_energy_words_present": false,
+  "record_refs": [
+    {
+      "model_key": "BYD7006BEVA2",
+      "vehicleModel_raw": "BYD7006BEVA2",
+      "matching_mode": "raw",
+      "uuid": "225cb412ebfb47b7865346d16609ac58",
+      "recordNumber": "GD20240730122810001",
+      "source_file": "../public_new_snapshot/new_currentPage/page0027_response.json",
+      "source_page_sha256": "de575b92b189522540627f091e29a82c57c960d2f7ae32261d5a8ff786f75df4",
+      "page": 27,
+      "json_pointer": "/info/list/89",
+      "full_row_sha256": "851b4ce831d753041e40843793c6e3085c9d975700aee59a0f6c85e894991b8f",
+      "label_job_id": "a75635f56e96000e9c4d880513988b30ea7afe59fe5513f17ce52efd0d98c047",
+      "fullLabel": "5a637e190419f03ec6faa8d79e813613@94214",
+      "testBasisStandard_raw": "5",
+      "issueDate_raw": "2023-07-17",
+      "enableDate_raw": "2024-12-04",
+      "createTime_raw": "2024-07-30 12:28:13",
+      "updateTime_raw": "2024-12-05 00:59:54",
+      "abandonTime_raw": null,
+      "is_new_library_only_model": false
+    }
+  ]
+}

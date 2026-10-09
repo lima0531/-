@@ -1,0 +1,40 @@
+{
+  "label_job_id": "1c3adb7ce9dc2f75d7b85e3b1bea5a6291c652d12d07d6512b254b58bb638642",
+  "fullLabel": "8d5246cbfae6878b7996ca1b94d0b54b@47778",
+  "pdf_file": "responses/1c3adb7ce9dc2f75d7b85e3b1bea5a6291c652d12d07d6512b254b58bb638642_attempt01.pdf",
+  "pdf_sha256": "a7c502f739354ae5aacb915becfc87e2d842be3da17821244e631b3829eac8df",
+  "pdf_bytes": 47778,
+  "pdf_pages": 1,
+  "receipt_file": "receipts/1c3adb7ce9dc2f75d7b85e3b1bea5a6291c652d12d07d6512b254b58bb638642_attempt01_receipt.json",
+  "observed_utc": "2026-10-09T11:06:00.766288+00:00",
+  "full_text_file": "extracted/1c3adb7ce9dc2f75d7b85e3b1bea5a6291c652d12d07d6512b254b58bb638642.txt",
+  "full_text_sha256": "96fef21fc0146a982b33b337ae6bfbe49cb57827fa6143efb1823403830aaa4d",
+  "standard_contexts": [
+    "本标识所采用的电能消耗量和续驶里程数据是按\n照GB/T 18386.1—2021《电动汽车能量消耗量和续驶\n里程试验方法 第1部分：轻型汽车》测定。预估能源\n成本的计算基于电费0.66元/度。",
+    "照GB/T 18386.1—2021《电动汽车能量消耗量和续驶\n里程试验方法 第1部分：轻型汽车》测定。预估能源\n成本的计算基于电费0.66元/度。\n由于驾驶习惯、道路状况、气候条件、电价等 因"
+  ],
+  "battery_energy_words_present": false,
+  "record_refs": [
+    {
+      "model_key": "YDE7000BEV1V",
+      "vehicleModel_raw": "YDE7000BEV1V",
+      "matching_mode": "raw",
+      "uuid": "6c737451b41349f090bd2860da2a352d",
+      "recordNumber": "GD20240801102410001",
+      "source_file": "../public_new_snapshot/new_currentPage/page0038_response.json",
+      "source_page_sha256": "3767308a64c061ffc748d738717bbb91fcff4e9b000800be54edbf16192fed74",
+      "page": 38,
+      "json_pointer": "/info/list/168",
+      "full_row_sha256": "43f3c7b44a9129fd106e84a56626948be3e2ae3317b3ed203299abae871c28b2",
+      "label_job_id": "1c3adb7ce9dc2f75d7b85e3b1bea5a6291c652d12d07d6512b254b58bb638642",
+      "fullLabel": "8d5246cbfae6878b7996ca1b94d0b54b@47778",
+      "testBasisStandard_raw": "5",
+      "issueDate_raw": "2023-10-18",
+      "enableDate_raw": "2024-08-01",
+      "createTime_raw": "2024-08-01 10:24:44",
+      "updateTime_raw": "2024-08-01 10:43:04",
+      "abandonTime_raw": null,
+      "is_new_library_only_model": true
+    }
+  ]
+}

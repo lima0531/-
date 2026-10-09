@@ -1,0 +1,35 @@
+{
+  "audit_result": "PASS",
+  "checked_utc": "2026-10-09T11:12:31.615169+00:00",
+  "matching_scope": "raw-string exact queue",
+  "queued_records": 936,
+  "queued_unique_label_refs": 936,
+  "accepted_pdfs": 100,
+  "accepted_unique_pdf_sha256": 100,
+  "accepted_record_links": 100,
+  "accepted_models": 54,
+  "accepted_new_library_only_models": 13,
+  "accepted_pdf_bytes": 9823339,
+  "remaining_unique_label_refs": 836,
+  "actual_pdf_standard_by_raw_code": [
+    {
+      "raw_code": "5",
+      "standard_observed_in_pdf": "GB/T18386.1—2021",
+      "record_links": 51
+    },
+    {
+      "raw_code": "6",
+      "standard_observed_in_pdf": "GB/T18386—2017",
+      "record_links": 49
+    }
+  ],
+  "issueDate_valid_pre_freeze_record_links": 76,
+  "source_pointer_full_row_hash_pdf_and_full_text_verified": true,
+  "does_not_establish_date_field_semantics_or_historical_public_accessibility": true,
+  "does_not_certify_tax_catalogue_configuration_identity": true,
+  "same_cycle_comparability_certified": false,
+  "frozen_core_science_modified": false,
+  "all_queued_pdfs_downloaded": false,
+  "pause_kind": "planned_review_stage_boundary",
+  "stop_reason": "planned_review_stage_boundary: accepted 100 of 936; resume available"
+}

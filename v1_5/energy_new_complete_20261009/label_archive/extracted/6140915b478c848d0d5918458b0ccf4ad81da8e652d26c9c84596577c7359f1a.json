@@ -1,0 +1,40 @@
+{
+  "label_job_id": "6140915b478c848d0d5918458b0ccf4ad81da8e652d26c9c84596577c7359f1a",
+  "fullLabel": "00c4afc33ca057d3b8f42591d4b1c894@62004",
+  "pdf_file": "responses/6140915b478c848d0d5918458b0ccf4ad81da8e652d26c9c84596577c7359f1a_attempt01.pdf",
+  "pdf_sha256": "d948190f8067edc6d5b587bd05a76384c39b856d51dc9b5aa636127e3c906513",
+  "pdf_bytes": 62004,
+  "pdf_pages": 1,
+  "receipt_file": "receipts/6140915b478c848d0d5918458b0ccf4ad81da8e652d26c9c84596577c7359f1a_attempt01_receipt.json",
+  "observed_utc": "2026-10-09T11:05:56.787603+00:00",
+  "full_text_file": "extracted/6140915b478c848d0d5918458b0ccf4ad81da8e652d26c9c84596577c7359f1a.txt",
+  "full_text_sha256": "af5896be28ed025ed0e4ccc785d0b1c0b42932a7902103d949b7ac6272bd8c83",
+  "standard_contexts": [
+    "本标识所采用的电能消耗量和续驶里程数据是按\n照GB/T 18386—2017《电动汽车能量消耗率和续驶里\n程试验方法》测定。预估能源成本的计算基于电费0.\n66元/度。",
+    "照GB/T 18386—2017《电动汽车能量消耗率和续驶里\n程试验方法》测定。预估能源成本的计算基于电费0.\n66元/度。\n由于驾驶习惯、道路状况、气候条件、电价等 因"
+  ],
+  "battery_energy_words_present": false,
+  "record_refs": [
+    {
+      "model_key": "GAM6480BEVB0M",
+      "vehicleModel_raw": "GAM6480BEVB0M",
+      "matching_mode": "raw",
+      "uuid": "3af4dec0b68b4326af13710bccd8a7c5",
+      "recordNumber": "GD20240702153694175",
+      "source_file": "../public_new_snapshot/new_currentPage/page0050_response.json",
+      "source_page_sha256": "6d0feb45c4e6800ea12832c3271fa8c8c2b96736b4ad4dafbe8a85cabe060045",
+      "page": 50,
+      "json_pointer": "/info/list/36",
+      "full_row_sha256": "e8c1eca30c4796e293c734e05abdef59a5aba906a71b8d503ecde32fee0986b4",
+      "label_job_id": "6140915b478c848d0d5918458b0ccf4ad81da8e652d26c9c84596577c7359f1a",
+      "fullLabel": "00c4afc33ca057d3b8f42591d4b1c894@62004",
+      "testBasisStandard_raw": "6",
+      "issueDate_raw": "2024-05-31",
+      "enableDate_raw": "2024-07-02",
+      "createTime_raw": "2024-07-02 15:36:58",
+      "updateTime_raw": "2024-07-02 16:07:01",
+      "abandonTime_raw": null,
+      "is_new_library_only_model": false
+    }
+  ]
+}

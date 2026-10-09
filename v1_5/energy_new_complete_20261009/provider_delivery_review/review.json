@@ -1,0 +1,59 @@
+{
+  "status": "PASS",
+  "generated_utc": "2026-10-09T15:15:09.155351+00:00",
+  "network_requests_by_review": 0,
+  "delivered_repository_commit": "3cb9150",
+  "compressed_source_files": [
+    {
+      "file": "delivery_manifest.json",
+      "bytes": 10094,
+      "sha256": "33ba28fb8aaf21bd94932550ccab9cc9359caa936a1f81aabc40c8039dd20151"
+    },
+    {
+      "file": "new_registry_raw_pages.tar.gz",
+      "bytes": 1540447,
+      "sha256": "1c09901ebc7111ec4c124858aab4aca9bf7708e988921e3a58c3398dd35e7e59"
+    },
+    {
+      "file": "old_library_verification.json",
+      "bytes": 15720,
+      "sha256": "4831e97a3cf4e6ffbbbae25916210dec9300636755740740bb02a0dc12315876"
+    },
+    {
+      "file": "query_runs.jsonl",
+      "bytes": 16781,
+      "sha256": "2749df4a8232a6797f09bbdfef78e42efee8a215fb19d439a9afb7a9074ce960"
+    },
+    {
+      "file": "records.jsonl.gz",
+      "bytes": 2177874,
+      "sha256": "9b5d78819849df4c8989d7fdf3e66253770928b7b7eaabcf37d964ec055f4083"
+    },
+    {
+      "file": "requests.jsonl",
+      "bytes": 15149,
+      "sha256": "d2129d64a2289607d4527030b506fdf515ea705d3417585e244eb2434abbbc1d"
+    },
+    {
+      "file": "summary.md",
+      "bytes": 4666,
+      "sha256": "5e73040716a54d1e77f0c3e26c64386ec34ce2db77a5bceb9ee3bd1eb53a3104"
+    }
+  ],
+  "payload_manifest_items_verified": 58,
+  "payload_bytes_verified": 57291686,
+  "new_raw_pages_same_as_our_observed_raw": 53,
+  "records_full_field_source_positions_verified": 10479,
+  "unique_uuid": 10476,
+  "unique_full_rows": 10479,
+  "request_log_entries": 53,
+  "query_run_log_entries": 53,
+  "query_log_page_echo_and_hash_checks_pass": true,
+  "record_full_row_sha_recipe": "UTF-8 compact JSON sort_keys=True, ensure_ascii=False, separators=(comma, colon)",
+  "request_log_timestamp_fields": [],
+  "request_log_reuse_or_attempt_fields": [],
+  "producer_53_fresh_network_requests_certified": false,
+  "producer_observation_time_or_zero_failed_attempts_certified": false,
+  "source_boundary": "Delivered logs cover 53 accepted page entries but contain no per-request observation time, reuse marker or attempt history. Summary still says 52 fresh plus 1 reused; manifest says 53. No assertion of fresh-request count or original clock authentication.",
+  "source_scientific_input_modified": false
+}

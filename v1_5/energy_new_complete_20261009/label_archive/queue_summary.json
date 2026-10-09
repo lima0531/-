@@ -1,0 +1,15 @@
+{
+  "source_checkpoint_sha256": "bbddc0dbc9f22e6a1971479913947a1c52c9edcca697cf544016a76c1be795ea",
+  "target_model_file_sha256": "a438f95dd4e0f3cf1ada1d27bf53716896d13fceaad2b0e6f424750a84c20d21",
+  "exact_matched_models": 539,
+  "exact_matched_records": 936,
+  "unique_public_label_refs": 936,
+  "raw_standard_codes": {
+    "5": 887,
+    "6": 49
+  },
+  "queue_order": "code6 first, then models absent from old exact hit set, then raw issueDate <= cutoff; never certification",
+  "fullLabel_deduplication_preserves_all_record_variants": true,
+  "matching_mode": "raw",
+  "candidate_only": false
+}

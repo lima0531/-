@@ -1,0 +1,458 @@
+[
+  {
+    "record_key": "old:f66a9d7208df47f6975e7cdb95542301:918e688f5355d42dbbd97b5815f44984d2807be5fa100fa7d39370c37c6dad43",
+    "model_key": "CSA7002XBEV4",
+    "json_pointer": "/info/otherInfo",
+    "value_raw": "本车型能耗、里程基于新的中国工况,与NEDC工况略有差异。",
+    "nedc_word_occurrence_is_not_cycle_certification": true,
+    "contains_comparison_phrase": true
+  },
+  {
+    "record_key": "old:1c57eaff2aaa48e4b1242e255ae65ee6:678e3cf94c49f74d04e91ac42bdd69c988e72fe38bc39079126afe5497fa80ec",
+    "model_key": "CGC6481BEV2P1",
+    "json_pointer": "/info/otherInfo",
+    "value_raw": "本车型能耗、里程基于NEDC工况",
+    "nedc_word_occurrence_is_not_cycle_certification": true,
+    "contains_comparison_phrase": false
+  },
+  {
+    "record_key": "old:b3715862620f437dbbba9001eac56741:44973c2f91f448e8bcfb76801f7033d2728273fbc3d8d59ea0238e95a7620c6c",
+    "model_key": "CSA7002XBEV4",
+    "json_pointer": "/info/otherInfo",
+    "value_raw": "本车型能耗、里程基于新的中国工况,与NEDC工况略有差异。",
+    "nedc_word_occurrence_is_not_cycle_certification": true,
+    "contains_comparison_phrase": true
+  },
+  {
+    "record_key": "old:194d181df12642689d258931582ae618:3f9a0b4f1f6602350508564ae1e36ac3020ee67a7289bb1b35fd881090c9c74e",
+    "model_key": "HFC7002BSEV2",
+    "json_pointer": "/info/otherInfo",
+    "value_raw": "本车型能耗、里程基于新的中国工况,与NEDC工况略有差异",
+    "nedc_word_occurrence_is_not_cycle_certification": true,
+    "contains_comparison_phrase": true
+  },
+  {
+    "record_key": "old:e9377f8cd2824028bf4a125761483856:d8eeb5f2d93dd031209633fb967d4d1c2830b66efae091294693894d838b22e7",
+    "model_key": "JX6556T-M6BEV",
+    "json_pointer": "/info/otherInfo",
+    "value_raw": "本车型能耗、里程基于新的中国工况，与NEDC工况略有差异。",
+    "nedc_word_occurrence_is_not_cycle_certification": true,
+    "contains_comparison_phrase": true
+  },
+  {
+    "record_key": "old:599ec08c3b294caa887b9258b6ee3e4f:dc5f87ba8b70e830290b6e3b4e09787dc11ebcb715433808bbac31818afec641",
+    "model_key": "JX6556TC-M6BEV",
+    "json_pointer": "/info/otherInfo",
+    "value_raw": "本车型能耗、里程基于新的中国工况，与NEDC工况略有差异。",
+    "nedc_word_occurrence_is_not_cycle_certification": true,
+    "contains_comparison_phrase": true
+  },
+  {
+    "record_key": "old:732a5095cd174336b6351f22412e1406:eb8df6b63567f4251917a7d974a734336b61f18e8fefcba6f51fc7cae8394b75",
+    "model_key": "JX6556TB-M6BEV",
+    "json_pointer": "/info/otherInfo",
+    "value_raw": "本车型能耗、里程基于新的中国工况，与NEDC工况略有差异。",
+    "nedc_word_occurrence_is_not_cycle_certification": true,
+    "contains_comparison_phrase": true
+  },
+  {
+    "record_key": "old:26276789e01d47d18a806e3395ddfe43:c597efce00158b7c8dbd5e670db0afc5dd665cc92872d834c99622b8728b7d4e",
+    "model_key": "GAM7000BEVD0P",
+    "json_pointer": "/info/otherInfo",
+    "value_raw": "本车型能耗、里程基于NEDC工况",
+    "nedc_word_occurrence_is_not_cycle_certification": true,
+    "contains_comparison_phrase": false
+  },
+  {
+    "record_key": "old:81f289e4a06046128b22513261f106a0:54f89b0eb81497dc0d845c020fbb7f9967fbadf4d0b163e5ec21426c507a3bc3",
+    "model_key": "JX6556TC-M6BEV",
+    "json_pointer": "/info/otherInfo",
+    "value_raw": "本车型能耗、里程基于新的中国工况，与NEDC工况略有差异。",
+    "nedc_word_occurrence_is_not_cycle_certification": true,
+    "contains_comparison_phrase": true
+  },
+  {
+    "record_key": "old:b957e9d30d8049c5983a835d51574939:3a851bdf2a654901b4a93bcd738ae2cd5d5e96e171327138ddfea17036a44687",
+    "model_key": "JX6556TB-M6BEV",
+    "json_pointer": "/info/otherInfo",
+    "value_raw": "本车型能耗、里程基于新的中国工况，与NEDC工况略有差异。",
+    "nedc_word_occurrence_is_not_cycle_certification": true,
+    "contains_comparison_phrase": true
+  },
+  {
+    "record_key": "old:bca2310369884389821fb7efcb95ba7c:b3927884fe4e80faf7cfdddc6b4779c5ae4ad0f9d28a869c70b519318d53d1b0",
+    "model_key": "JX6556T-M6BEV",
+    "json_pointer": "/info/otherInfo",
+    "value_raw": "本车型能耗、里程基于新的中国工况，与NEDC工况略有差异。",
+    "nedc_word_occurrence_is_not_cycle_certification": true,
+    "contains_comparison_phrase": true
+  },
+  {
+    "record_key": "old:d647994e630f4f69975e4f260b2acb6d:be5a0ac766370cfb28d085b9e707464562e812b6af9acc9a44ff58629eebabbf",
+    "model_key": "CA7000H0EVB",
+    "json_pointer": "/info/otherInfo",
+    "value_raw": "本车型能耗、里程基于新的中国工况,与NEDC工况略有差异。",
+    "nedc_word_occurrence_is_not_cycle_certification": true,
+    "contains_comparison_phrase": true
+  },
+  {
+    "record_key": "old:f1d21f0966624829979936e85807f295:de24c33b0bbdba764d4d2f94fec873d229c4ff867be46b34a278bb259bb65a6d",
+    "model_key": "CA7000H0EVD",
+    "json_pointer": "/info/otherInfo",
+    "value_raw": "本车型能耗、里程基于新的中国工况,与NEDC工况略有差异。",
+    "nedc_word_occurrence_is_not_cycle_certification": true,
+    "contains_comparison_phrase": true
+  },
+  {
+    "record_key": "old:bb66682d51124b34b5aca2001c48baa4:f7efbeec8d78b9c240b824dddda298e85fc307aedb1beb417166b212b0881320",
+    "model_key": "JX6556TA-M6BEV",
+    "json_pointer": "/info/otherInfo",
+    "value_raw": "本车型能耗、里程基于新的中国工况，与NEDC工况略有差异。",
+    "nedc_word_occurrence_is_not_cycle_certification": true,
+    "contains_comparison_phrase": true
+  },
+  {
+    "record_key": "old:7d0e8cd2a8154491a0e25dcd539835ae:2cc866be7913a118cccc70ad702de8afa6e47570b4218d1d245d884f00cf2618",
+    "model_key": "JX6556TA-M6BEV",
+    "json_pointer": "/info/otherInfo",
+    "value_raw": "本车型能耗、里程基于新的中国工况，与NEDC工况略有差异。",
+    "nedc_word_occurrence_is_not_cycle_certification": true,
+    "contains_comparison_phrase": true
+  },
+  {
+    "record_key": "old:84cb6832bad840cbac7fe3ec639b79a4:07d27ad6a57f91a0615bb9b1d024fe53ccae93f0274e378f8b1b9f89b4371243",
+    "model_key": "LZW7004EVA4",
+    "json_pointer": "/info/otherInfo",
+    "value_raw": "本车型能耗、里程基于新的中国工况,与NEDC工况略有差异。",
+    "nedc_word_occurrence_is_not_cycle_certification": true,
+    "contains_comparison_phrase": true
+  },
+  {
+    "record_key": "old:02995b4473ed4d3b8bb34ee69bb2cf04:fb17218203c748957699a5c5a7b5e2d5728acca9a1f8c2487983edada35844a0",
+    "model_key": "LTS6510H3BEV",
+    "json_pointer": "/info/otherInfo",
+    "value_raw": "本车型能耗、里程基于新的中国工况,与NEDC工况略有差异",
+    "nedc_word_occurrence_is_not_cycle_certification": true,
+    "contains_comparison_phrase": true
+  },
+  {
+    "record_key": "old:6077d32a8a6346f086fa46cab8ee6a0e:5a15e729b82f9af686c8536a6564f1f81cc139a26b3ce552592c59b5f2066eec",
+    "model_key": "NEQ7000BEVJH11P",
+    "json_pointer": "/info/otherInfo",
+    "value_raw": "本车型能耗、里程基于新的中国工况,于NEDC略有差异",
+    "nedc_word_occurrence_is_not_cycle_certification": true,
+    "contains_comparison_phrase": false
+  },
+  {
+    "record_key": "old:f69b162b104b4e92aa37aaaca3339545:3fe6ffc7bef71ec0e683f2656adb6db1d9e490ec4c82d926e587eae1781e99d5",
+    "model_key": "NEQ7000BEVJH11P",
+    "json_pointer": "/info/otherInfo",
+    "value_raw": "本车型能耗、里程基于新的中国工况,于NEDC略有差异",
+    "nedc_word_occurrence_is_not_cycle_certification": true,
+    "contains_comparison_phrase": false
+  },
+  {
+    "record_key": "old:ed49465c04fe452d980df5c462690e2c:df15c1ff0a0b809e2ec222bbc8cf43e6e8b2c4e0de2d199a56facfd724189517",
+    "model_key": "HFC7001AEV6",
+    "json_pointer": "/info/otherInfo",
+    "value_raw": "本车型能耗、里程基于新的中国工况,与NEDC工况略有差异",
+    "nedc_word_occurrence_is_not_cycle_certification": true,
+    "contains_comparison_phrase": true
+  },
+  {
+    "record_key": "old:84946aa333f54f32aa013ae3e85cad66:5094f40386cca0464215c0687b4cb71cb267b6796997e7eae71669d3b3cc126e",
+    "model_key": "HFC7001AEV6",
+    "json_pointer": "/info/otherInfo",
+    "value_raw": "本车型能耗、里程基于新的中国工况,与NEDC工况略有差异",
+    "nedc_word_occurrence_is_not_cycle_certification": true,
+    "contains_comparison_phrase": true
+  },
+  {
+    "record_key": "old:f0c78e88a48a4e53812d224b3e46f398:9c5264cd02923a4cb3b38f5885bb60c468fe455fc995bb56e308bc7ecd52d211",
+    "model_key": "JMV6550QRBEV",
+    "json_pointer": "/info/otherInfo",
+    "value_raw": "本车型能耗、里程基于新的中国工况，与NEDC工况略有差异。",
+    "nedc_word_occurrence_is_not_cycle_certification": true,
+    "contains_comparison_phrase": true
+  },
+  {
+    "record_key": "old:ca797d983e454cf59b9fc4950c4d52e8:646acedb7394ebf5c78716274326fde72c10e421fd851feadc09ced19ce955dc",
+    "model_key": "NEQ7000BEVJH11M",
+    "json_pointer": "/info/otherInfo",
+    "value_raw": "本车型能耗、里程基于新的中国工况,于NEDC略有差异",
+    "nedc_word_occurrence_is_not_cycle_certification": true,
+    "contains_comparison_phrase": false
+  },
+  {
+    "record_key": "old:11d32b2c62b949dfbd65551e7a88bdff:445c7d74808bad1ed89641fe52c62fd18badf12d3015b34c267ea5bda1edee65",
+    "model_key": "JHC7002BEV69",
+    "json_pointer": "/info/otherInfo",
+    "value_raw": "本车型能耗、里程基于新的中国工况，与NEDC工况略有差异。",
+    "nedc_word_occurrence_is_not_cycle_certification": true,
+    "contains_comparison_phrase": true
+  },
+  {
+    "record_key": "old:20b86ca1efce4793995b4b9772634679:3da3581a17c33442ac47c292d383f80b8c3324ae9f3979f7f4697472557fe1d0",
+    "model_key": "JHC7002BEV69",
+    "json_pointer": "/info/otherInfo",
+    "value_raw": "本车型能耗、里程基于新的中国工况，与NEDC工况略有差异。",
+    "nedc_word_occurrence_is_not_cycle_certification": true,
+    "contains_comparison_phrase": true
+  },
+  {
+    "record_key": "old:e21bb561604e40f3ba9186470097963f:ab6b1495f9942c09a5da9f47e1a062053ad7d44c2fc10c9d9da2b91b85f2c2d9",
+    "model_key": "LZW7009EVA2",
+    "json_pointer": "/info/otherInfo",
+    "value_raw": "本车型能耗、里程基于新的中国工况,与NEDC工况略有差异。",
+    "nedc_word_occurrence_is_not_cycle_certification": true,
+    "contains_comparison_phrase": true
+  },
+  {
+    "record_key": "old:f80da50e0e1745d58e6da6e6b10490d5:b6be74de53bc80b7a1be0f661ec5a63df3013b44e43662d752e34ee5764aac7a",
+    "model_key": "LZW7009EVA2",
+    "json_pointer": "/info/otherInfo",
+    "value_raw": "本车型能耗、里程基于新的中国工况,与NEDC工况略有差异。",
+    "nedc_word_occurrence_is_not_cycle_certification": true,
+    "contains_comparison_phrase": true
+  },
+  {
+    "record_key": "old:6803f92d4d14492194a911d6bc46d35a:6921d31373b46984d20622a3cf90b1edf217187cd97c111ef9cffab0cb64c31d",
+    "model_key": "LZW7009EVA2",
+    "json_pointer": "/info/otherInfo",
+    "value_raw": "本车型能耗、里程基于新的中国工况,与NEDC工况略有差异。",
+    "nedc_word_occurrence_is_not_cycle_certification": true,
+    "contains_comparison_phrase": true
+  },
+  {
+    "record_key": "old:8b3426c1e7be41858ff4910d7eb58238:0b3a8fc4eb607c77b2b720b93951c96aafc85359848b034b715887d8f1c4d5d9",
+    "model_key": "CSA6493YSEV2",
+    "json_pointer": "/info/otherInfo",
+    "value_raw": "本车型能耗、里程基于新的中国工况,与NEDC工况略有差异。",
+    "nedc_word_occurrence_is_not_cycle_certification": true,
+    "contains_comparison_phrase": true
+  },
+  {
+    "record_key": "old:9bcd53bdd93b4f09a94838c898e4626f:cf1a75a59825c12babd54e66cfa051cc1893719876e6de68baa8422b968f3f5f",
+    "model_key": "THZ7000BEVS366",
+    "json_pointer": "/info/otherInfo",
+    "value_raw": "本车型能耗、里程基于新的中国工况,与NEDC工况略有差异",
+    "nedc_word_occurrence_is_not_cycle_certification": true,
+    "contains_comparison_phrase": true
+  },
+  {
+    "record_key": "old:776806ef213e49558629584513bb085a:0ef9680d8f7c8e64b71adb37ec080ab0f690e52689bf70fb609084b597ae438b",
+    "model_key": "JL7000BEV03",
+    "json_pointer": "/info/otherInfo",
+    "value_raw": "本车型能耗、里程基于新的中国工况，与NEDC工况略有差异。",
+    "nedc_word_occurrence_is_not_cycle_certification": true,
+    "contains_comparison_phrase": true
+  },
+  {
+    "record_key": "old:65670a0950a641c9ba2a779e53cb8e06:506690703d5ef5f559495a48ce1bb1d077239497a26fcbd047a9733e12e960ae",
+    "model_key": "LZW7009EVA2",
+    "json_pointer": "/info/otherInfo",
+    "value_raw": "本车型能耗、里程基于新的中国工况,与NEDC工况略有差异。",
+    "nedc_word_occurrence_is_not_cycle_certification": true,
+    "contains_comparison_phrase": true
+  },
+  {
+    "record_key": "old:6add2e6ac87940d0bdc9d14cf6f42dec:ddb87bcc5e75996f799cb54306047bc96f100051bca7c133d48bbfc74db2677b",
+    "model_key": "BMW7000AFEV",
+    "json_pointer": "/info/otherInfo",
+    "value_raw": "本车型能耗、里程基于新的中国工况,与NEDC工况略有差异.",
+    "nedc_word_occurrence_is_not_cycle_certification": true,
+    "contains_comparison_phrase": true
+  },
+  {
+    "record_key": "old:332a8c3262a14849a8677c11d24c2b9a:6a540989bcc9d2028d738d0df0ea9d3c24a365846df2a310a1efd6677c0ba3ea",
+    "model_key": "BMW7000ADEV",
+    "json_pointer": "/info/otherInfo",
+    "value_raw": "本车型能耗、里程基于新的中国工况,与NEDC工况略有差异.",
+    "nedc_word_occurrence_is_not_cycle_certification": true,
+    "contains_comparison_phrase": true
+  },
+  {
+    "record_key": "old:fcfae6ad74974592b0ad6a2e37bb01d6:3aed1ec1f05dd014673bc2598de8457f0808d451f26e60c81de8b808863fe9d2",
+    "model_key": "THZ7000BEVS361",
+    "json_pointer": "/info/otherInfo",
+    "value_raw": "本车型能耗、里程基于新的中国工况,与NEDC工况略有差异",
+    "nedc_word_occurrence_is_not_cycle_certification": true,
+    "contains_comparison_phrase": true
+  },
+  {
+    "record_key": "old:d6f3caa778aa46fb875557d937746095:612843fbb8d330eb9d0bc88c821d96abbda474800d6cbe32bea34544e581cfa5",
+    "model_key": "CSA6493YSEV2",
+    "json_pointer": "/info/otherInfo",
+    "value_raw": "本车型能耗、里程基于新的中国工况,与NEDC工况略有差异。",
+    "nedc_word_occurrence_is_not_cycle_certification": true,
+    "contains_comparison_phrase": true
+  },
+  {
+    "record_key": "old:b36341b683dc49499ec928b6091611ea:f02a27f072cb1033640fd9afa370534708d8211006524f6f8505c44adf39d7e6",
+    "model_key": "LZW7009EVA2",
+    "json_pointer": "/info/otherInfo",
+    "value_raw": "本车型能耗、里程基于新的中国工况,与NEDC工况略有差异。",
+    "nedc_word_occurrence_is_not_cycle_certification": true,
+    "contains_comparison_phrase": true
+  },
+  {
+    "record_key": "old:ac8e679c8af84f5faba1545dde0acf86:7367db12b4cea4b7db353fdc5af94a8d68e3ca83fc737243021b869ac903ba7c",
+    "model_key": "LZW7009EVA2",
+    "json_pointer": "/info/otherInfo",
+    "value_raw": "本车型能耗、里程基于新的中国工况,与NEDC工况略有差异。",
+    "nedc_word_occurrence_is_not_cycle_certification": true,
+    "contains_comparison_phrase": true
+  },
+  {
+    "record_key": "old:73e56ba562c14984879caededc181b35:3e77b63965e7cfa037f132b76ff423db8192fd706e9039d0795797e43dd75166",
+    "model_key": "LZW7009EVA1",
+    "json_pointer": "/info/otherInfo",
+    "value_raw": "本车型能耗、里程基于新的中国工况,与NEDC工况略有差异。",
+    "nedc_word_occurrence_is_not_cycle_certification": true,
+    "contains_comparison_phrase": true
+  },
+  {
+    "record_key": "old:644c5a7a37e04171866c0a1d0a2c5a66:38171273617ba5e10d833a22402627ad19031109949eda80ab3f435765b517de",
+    "model_key": "BMW7000ACEV",
+    "json_pointer": "/info/otherInfo",
+    "value_raw": "本车型能耗、里程基于新的中国工况,与NEDC工况略有差异.",
+    "nedc_word_occurrence_is_not_cycle_certification": true,
+    "contains_comparison_phrase": true
+  },
+  {
+    "record_key": "old:7ddc45eec28445608948dbe03b9f5e95:42ad1e69a7be08e5e43d1e689273b490f335a021c7b5bc29d31eb886774d9e61",
+    "model_key": "BMW7000AEEV",
+    "json_pointer": "/info/otherInfo",
+    "value_raw": "本车型能耗、里程基于新的中国工况,与NEDC工况略有差异.",
+    "nedc_word_occurrence_is_not_cycle_certification": true,
+    "contains_comparison_phrase": true
+  },
+  {
+    "record_key": "old:bdb480261eac414f91ce34a8c7e86153:067b73ff56ebc551abb60b5f3f502208e5a7cf3ebde445af68bcc6c01907da7f",
+    "model_key": "LZW7006EVA2",
+    "json_pointer": "/info/otherInfo",
+    "value_raw": "本车型能耗、里程基于新的中国工况,与NEDC工况略有差异。",
+    "nedc_word_occurrence_is_not_cycle_certification": true,
+    "contains_comparison_phrase": true
+  },
+  {
+    "record_key": "old:aa224bd9600b4105acdaba1a43f89ec4:5e5daea677023f34ab7b8db866d18f8e5323803db314b7eb87f64aeb5457adbf",
+    "model_key": "SC7001GAABEV",
+    "json_pointer": "/info/otherInfo",
+    "value_raw": "本车型能耗、里程基于新的中国工况,与NEDC工况略有差异。",
+    "nedc_word_occurrence_is_not_cycle_certification": true,
+    "contains_comparison_phrase": true
+  },
+  {
+    "record_key": "old:34316607646940cbb28ed9207a834ec7:aa97c4b2bf92d2cb837f08f70497dffbcc081194724d63e011e74981813f3abc",
+    "model_key": "SC7001GBABEV",
+    "json_pointer": "/info/otherInfo",
+    "value_raw": "本车型能耗、里程基于新的中国工况,与NEDC工况略有差异。",
+    "nedc_word_occurrence_is_not_cycle_certification": true,
+    "contains_comparison_phrase": true
+  },
+  {
+    "record_key": "old:f2d60715ebf2454a92298460dc65c54a:37967a2c362323358cc5760a1402444974e31cb197b9e7b6a533646f15dd52ed",
+    "model_key": "NEQ6470BEVS61A",
+    "json_pointer": "/info/otherInfo",
+    "value_raw": "本车型能耗、里程基于新的中国工况，与NEDC工况略有差异。",
+    "nedc_word_occurrence_is_not_cycle_certification": true,
+    "contains_comparison_phrase": true
+  },
+  {
+    "record_key": "old:9db222250f2b4cff9dd2960f9dfdc30e:54752750d56e2da228c7c2cbd1becf6d2606d20a7c18532db5c090b60fe3c2d0",
+    "model_key": "SC7001GBABEV",
+    "json_pointer": "/info/otherInfo",
+    "value_raw": "本车型能耗、里程基于新的中国工况,与NEDC工况略有差异。",
+    "nedc_word_occurrence_is_not_cycle_certification": true,
+    "contains_comparison_phrase": true
+  },
+  {
+    "record_key": "old:a3f72592fb59457cae768c42e088120e:af3e239f7e003c8e17e1554c2b054525a3720a6440f1750bdc0efc45a8aac7b1",
+    "model_key": "GAM7000BEVA0K",
+    "json_pointer": "/info/otherInfo",
+    "value_raw": "本车型能耗、里程基于NEDC工况",
+    "nedc_word_occurrence_is_not_cycle_certification": true,
+    "contains_comparison_phrase": false
+  },
+  {
+    "record_key": "old:4e302ae3d64b44c7925573f593cab708:9a35613fbaf04c10a4a0a688e81c0b023bbdf119367a610404284a4e8e1e8c7d",
+    "model_key": "SC7001GBABEV",
+    "json_pointer": "/info/otherInfo",
+    "value_raw": "本车型能耗、里程基于新的中国工况,与NEDC工况略有差异。",
+    "nedc_word_occurrence_is_not_cycle_certification": true,
+    "contains_comparison_phrase": true
+  },
+  {
+    "record_key": "old:dde6b90ed545482792a50b8dd581b210:262706b3574ab1d7d16178d59a924c6937b7e0a5588b260a220c515d697659cc",
+    "model_key": "NEQ6470BEVS61B",
+    "json_pointer": "/info/otherInfo",
+    "value_raw": "本车型能耗 、里程基于新的中国工况，与NEDC工况略有差异。",
+    "nedc_word_occurrence_is_not_cycle_certification": true,
+    "contains_comparison_phrase": true
+  },
+  {
+    "record_key": "old:551a4a3500044658a320367ca25669e0:75f088cbc94c5aff85b341e5f9335fb2f781e1eeffd18d8fbaf2543edadd2eae",
+    "model_key": "NEQ6470BEVS61A",
+    "json_pointer": "/info/otherInfo",
+    "value_raw": "本车型能耗、里程基于新的中国工况，与NEDC工况略有差异。",
+    "nedc_word_occurrence_is_not_cycle_certification": true,
+    "contains_comparison_phrase": true
+  },
+  {
+    "record_key": "old:30e4bbe4cb684fdaa380947168e151cf:2e7ebd0c7ebe25707bfe275edd4e31e1a37821be1b4ba132b9ffbec3f644511e",
+    "model_key": "LZW7006EVA2",
+    "json_pointer": "/info/otherInfo",
+    "value_raw": "本车型能耗、里程基于新的中国工况,与NEDC工况略有差异。",
+    "nedc_word_occurrence_is_not_cycle_certification": true,
+    "contains_comparison_phrase": true
+  },
+  {
+    "record_key": "old:c0be18ed3a0d497bb8a434358ae180e2:df44835ceb35e58418a41cec1db9260f7553cfbb49407c9d0a26c23d04c1452d",
+    "model_key": "SC7001GAABEV",
+    "json_pointer": "/info/otherInfo",
+    "value_raw": "本车型能耗、里程基于新的中国工况,与NEDC工况略有差异。",
+    "nedc_word_occurrence_is_not_cycle_certification": true,
+    "contains_comparison_phrase": true
+  },
+  {
+    "record_key": "old:d8682f585f0e4f30bcc0dd911eed879f:808bb53117a8b93db15998d971f56232bd1fa67dd37ff44a31e3f15b7da8af25",
+    "model_key": "DFM7000S1F6BEV",
+    "json_pointer": "/info/otherInfo",
+    "value_raw": "本车型能耗基于新的中国工况,较NEDC工况略有差异",
+    "nedc_word_occurrence_is_not_cycle_certification": true,
+    "contains_comparison_phrase": false
+  },
+  {
+    "record_key": "old:9aef275f01af4e5c9703db2b6434b99b:cde84ace8bead0f0df100b341b19ec9eb8445b7e4c627d0e4dfadc94f0cccafb",
+    "model_key": "JL7000BEV01",
+    "json_pointer": "/info/otherInfo",
+    "value_raw": "本车型能耗、里程基于新的中国工况，与NEDC工况略有差异。",
+    "nedc_word_occurrence_is_not_cycle_certification": true,
+    "contains_comparison_phrase": true
+  },
+  {
+    "record_key": "old:121888c0059947c2a4bef951700efe68:cbfbf6ae7e12dca47eccc6c2256fc94a3d6a6200be19f4055d6f8e958e87226a",
+    "model_key": "HFC6502ECSEV5-W",
+    "json_pointer": "/info/otherInfo",
+    "value_raw": "本车型能耗、里程基于新的中国工况,与NEDC工况略有差异",
+    "nedc_word_occurrence_is_not_cycle_certification": true,
+    "contains_comparison_phrase": true
+  },
+  {
+    "record_key": "old:4b0ac8495a184833a3de1df508f5c9dd:5326bc05c50efff9dc9f86954084c172c0046401c923f22dc12aff677432be36",
+    "model_key": "LZW7006EVA2",
+    "json_pointer": "/info/otherInfo",
+    "value_raw": "本车型能耗、里程基于新的中国工况,与NEDC工况略有差异。",
+    "nedc_word_occurrence_is_not_cycle_certification": true,
+    "contains_comparison_phrase": true
+  },
+  {
+    "record_key": "old:ab8c9b9887714dbd97bc42769e4241ae:9c7f2b3b123a4c23519455fdef2642195018d345a224340e4a1fdcfb1d419f40",
+    "model_key": "GAM7000BEVA0M",
+    "json_pointer": "/info/otherInfo",
+    "value_raw": "本车型能耗、里程基于NEDC工况",
+    "nedc_word_occurrence_is_not_cycle_certification": true,
+    "contains_comparison_phrase": false
+  }
+]

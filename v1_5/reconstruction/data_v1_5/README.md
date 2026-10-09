@@ -1,3 +1,5 @@
+> [本轮新库原件验收及口径订正](../../energy_new_complete_20261009/README.md)保存在旁证层；52份科学CSV保持原字节。
+
 > [官方能耗资料新旁证](../../energy_registry_20261009/README.md)先存独立证据层；本轮52份科学CSV未改。
 
 > [本轮剩余数据公开补查与交接](../../public_completion_20261009/README.md)已记录来源覆盖、配置及工况边界；本轮科学CSV均未更改。

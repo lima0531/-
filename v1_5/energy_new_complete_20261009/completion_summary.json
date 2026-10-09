@@ -1,0 +1,197 @@
+{
+  "generated_utc": "2026-10-09T15:15:45.434801+00:00",
+  "scientific_version": "v1.5",
+  "source_scientific_csv_bytes_changed": false,
+  "new_public_view": {
+    "filters": {
+      "energyType": "8"
+    },
+    "pages": 53,
+    "raw_rows": 10479,
+    "reported_totalSize": 10479,
+    "unique_uuid": 10476,
+    "unique_full_row_sha256": 10479,
+    "duplicate_uuid_groups": 3,
+    "duplicate_uuid_extra_occurrences": 3,
+    "all_page_receipts_and_echoes_verified": true,
+    "earliest_page_observed_utc": "2026-10-09T10:50:10.468201+00:00",
+    "latest_page_observed_utc": "2026-10-09T11:00:40.145387+00:00",
+    "atomic_transaction_snapshot_claimed": false,
+    "separate_from_round10_new_page_observations": true,
+    "category_conflict_rows": []
+  },
+  "new_page_bytes_matching_user_manifest": 53,
+  "exact_models": {
+    "new": 539,
+    "old": 1233,
+    "intersection": 526,
+    "union": 1246,
+    "new_only": 13,
+    "old_only": 707,
+    "no_match_in_observed_views": 962,
+    "union_increase_vs_previous_round": 12
+  },
+  "exact_records": {
+    "new": 936,
+    "old": 4497,
+    "combined": 5433
+  },
+  "labels": {
+    "fixed_exact_tasks": 936,
+    "accepted_pdfs": 100,
+    "remaining_exact_tasks": 836,
+    "completed": false,
+    "stop_reason": "planned_review_stage_boundary: accepted 100 of 936; resume available",
+    "whitespace_candidate_tasks": 2,
+    "candidate_finished_separately_not_added_to_exact": true
+  },
+  "old_details": {
+    "fixed_applyId_tasks": 4497,
+    "accepted_records": 100,
+    "remaining_tasks": 4397,
+    "completed": false,
+    "stop_reason": "",
+    "pause_reason": "planned_batch_budget_reached"
+  },
+  "user_claim_diagnostics": {
+    "raw_string_exact": {
+      "models": 539,
+      "records": 936,
+      "valid_pre_cutoff_issueDate": 458
+    },
+    "trim_only_candidates": {
+      "models": 539,
+      "records": 938,
+      "valid_pre_cutoff_issueDate": 460,
+      "empty_issueDate": 59
+    },
+    "nfkc_remove_whitespace_only_candidates": {
+      "models": 545,
+      "records": 961
+    },
+    "nfkc_remove_whitespace_and_uppercase_candidates": {
+      "models": 566,
+      "records": 1087
+    },
+    "invalid_empty_date_string_comparison_can_reproduce_519": true,
+    "producer_actual_code_or_request_time_authenticated": false,
+    "complete_delivered_payload_identity_now_verified": true
+  },
+  "remaining_core_and_conditional_evidence": {
+    "historical_originals_missing": 0,
+    "true_original_blank_field_models": 1,
+    "blank_field_model": "JX6550T-M5BEV",
+    "blank_field": "历史配置电池组总能量",
+    "original_unmarked_frozen_cycle_models": 2208,
+    "frozen_cycle_gaps_closed_this_round": 0,
+    "conditional_configuration_refinement_items": 36,
+    "conditional_identity_versions": 285,
+    "conditional_low_temperature_versions": 19,
+    "conditional_reapplication_models": 92,
+    "mixed_grains_must_not_be_summed": true
+  },
+  "metadata_match_is_not_configuration_or_historical_publication_certification": true,
+  "producer_log_bytes_and_10479_records_now_verified": true,
+  "producer_per_request_times_and_fresh_request_count_not_verified": true,
+  "acquired_label_explicit_cycle_evidence": {
+    "pdfs": 100,
+    "named_cycle_positive_pdfs": 50,
+    "named_cycle_positive_models": 19,
+    "named_cycle_positive_pdf_counts": {
+      "NEDC": 40,
+      "CLTC": 10,
+      "WLTC": 0,
+      "CATC": 0
+    },
+    "generic_china_cycle_main_positive_without_named_mapping_pdfs": 7,
+    "no_explicit_main_cycle_pdfs": 43,
+    "comparison_only_named_NEDC_pdfs": 7,
+    "classification_both_engines_agree": true,
+    "standard_cross_literal_cycle": [
+      {
+        "standard": "GB/T18386-2017",
+        "cycle_literal_or_status": "NEDC",
+        "pdfs": 40
+      },
+      {
+        "standard": "GB/T18386-2017",
+        "cycle_literal_or_status": "no_explicit_cycle",
+        "pdfs": 9
+      },
+      {
+        "standard": "GB/T18386.1-2021",
+        "cycle_literal_or_status": "CLTC",
+        "pdfs": 10
+      },
+      {
+        "standard": "GB/T18386.1-2021",
+        "cycle_literal_or_status": "no_explicit_cycle",
+        "pdfs": 34
+      },
+      {
+        "standard": "GB/T18386.1-2021",
+        "cycle_literal_or_status": "新的中国工况",
+        "pdfs": 7
+      }
+    ]
+  },
+  "provider_delivery": {
+    "status": "PASS",
+    "generated_utc": "2026-10-09T15:15:09.155351+00:00",
+    "network_requests_by_review": 0,
+    "delivered_repository_commit": "3cb9150",
+    "compressed_source_files": [
+      {
+        "file": "delivery_manifest.json",
+        "bytes": 10094,
+        "sha256": "33ba28fb8aaf21bd94932550ccab9cc9359caa936a1f81aabc40c8039dd20151"
+      },
+      {
+        "file": "new_registry_raw_pages.tar.gz",
+        "bytes": 1540447,
+        "sha256": "1c09901ebc7111ec4c124858aab4aca9bf7708e988921e3a58c3398dd35e7e59"
+      },
+      {
+        "file": "old_library_verification.json",
+        "bytes": 15720,
+        "sha256": "4831e97a3cf4e6ffbbbae25916210dec9300636755740740bb02a0dc12315876"
+      },
+      {
+        "file": "query_runs.jsonl",
+        "bytes": 16781,
+        "sha256": "2749df4a8232a6797f09bbdfef78e42efee8a215fb19d439a9afb7a9074ce960"
+      },
+      {
+        "file": "records.jsonl.gz",
+        "bytes": 2177874,
+        "sha256": "9b5d78819849df4c8989d7fdf3e66253770928b7b7eaabcf37d964ec055f4083"
+      },
+      {
+        "file": "requests.jsonl",
+        "bytes": 15149,
+        "sha256": "d2129d64a2289607d4527030b506fdf515ea705d3417585e244eb2434abbbc1d"
+      },
+      {
+        "file": "summary.md",
+        "bytes": 4666,
+        "sha256": "5e73040716a54d1e77f0c3e26c64386ec34ce2db77a5bceb9ee3bd1eb53a3104"
+      }
+    ],
+    "payload_manifest_items_verified": 58,
+    "payload_bytes_verified": 57291686,
+    "new_raw_pages_same_as_our_observed_raw": 53,
+    "records_full_field_source_positions_verified": 10479,
+    "unique_uuid": 10476,
+    "unique_full_rows": 10479,
+    "request_log_entries": 53,
+    "query_run_log_entries": 53,
+    "query_log_page_echo_and_hash_checks_pass": true,
+    "record_full_row_sha_recipe": "UTF-8 compact JSON sort_keys=True, ensure_ascii=False, separators=(comma, colon)",
+    "request_log_timestamp_fields": [],
+    "request_log_reuse_or_attempt_fields": [],
+    "producer_53_fresh_network_requests_certified": false,
+    "producer_observation_time_or_zero_failed_attempts_certified": false,
+    "source_boundary": "Delivered logs cover 53 accepted page entries but contain no per-request observation time, reuse marker or attempt history. Summary still says 52 fresh plus 1 reused; manifest says 53. No assertion of fresh-request count or original clock authentication.",
+    "source_scientific_input_modified": false
+  }
+}

@@ -1,0 +1,40 @@
+{
+  "label_job_id": "9716ff83e81b66064c2bb396a9e7318df87260d7d10994234fe53bbc66dbab0c",
+  "fullLabel": "63599a27b0cdda006baaff2bef087a79@48659",
+  "pdf_file": "responses/9716ff83e81b66064c2bb396a9e7318df87260d7d10994234fe53bbc66dbab0c_attempt01.pdf",
+  "pdf_sha256": "4461de42103d0f9ac98809b257a5edd90fdb21da2df22cef7ea380669ecafaab",
+  "pdf_bytes": 48659,
+  "pdf_pages": 1,
+  "receipt_file": "receipts/9716ff83e81b66064c2bb396a9e7318df87260d7d10994234fe53bbc66dbab0c_attempt01_receipt.json",
+  "observed_utc": "2026-10-09T11:06:58.599243+00:00",
+  "full_text_file": "extracted/9716ff83e81b66064c2bb396a9e7318df87260d7d10994234fe53bbc66dbab0c.txt",
+  "full_text_sha256": "592fa2231e9e5b048a9e0c8aba31415b8e78eb3a9891b8ac4ed4fc51a60ff589",
+  "standard_contexts": [
+    "本标识所采用的电能消耗量和续驶里程数据是按\n照GB/T 18386.1—2021《电动汽车能量消耗量和续驶\n里程试验方法 第1部分：轻型汽车》测定。预估能源\n成本的计算基于电费0.66元/度。",
+    "照GB/T 18386.1—2021《电动汽车能量消耗量和续驶\n里程试验方法 第1部分：轻型汽车》测定。预估能源\n成本的计算基于电费0.66元/度。\n由于驾驶习惯、道路状况、气候条件、电价等 因"
+  ],
+  "battery_energy_words_present": false,
+  "record_refs": [
+    {
+      "model_key": "EQ6533AL5F2BEV",
+      "vehicleModel_raw": "EQ6533AL5F2BEV",
+      "matching_mode": "raw",
+      "uuid": "0be718bb73c74b54bb074f6f3303759e",
+      "recordNumber": "GD20240815170810002",
+      "source_file": "../public_new_snapshot/new_currentPage/page0032_response.json",
+      "source_page_sha256": "f77dd34d893ecbd53285ccb202d8e8d1a8cb63d99794661fa7314d4548cc18ea",
+      "page": 32,
+      "json_pointer": "/info/list/85",
+      "full_row_sha256": "1da6734f314b9c5796711d7c3cb2332567932c2ce296d506b3311bdd4833400c",
+      "label_job_id": "9716ff83e81b66064c2bb396a9e7318df87260d7d10994234fe53bbc66dbab0c",
+      "fullLabel": "63599a27b0cdda006baaff2bef087a79@48659",
+      "testBasisStandard_raw": "5",
+      "issueDate_raw": "2024-08-01",
+      "enableDate_raw": "2024-08-23",
+      "createTime_raw": "2024-08-15 17:08:57",
+      "updateTime_raw": "2024-08-23 10:58:09",
+      "abandonTime_raw": null,
+      "is_new_library_only_model": true
+    }
+  ]
+}

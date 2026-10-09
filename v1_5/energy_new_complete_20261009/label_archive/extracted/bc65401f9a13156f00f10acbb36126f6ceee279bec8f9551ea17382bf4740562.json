@@ -1,0 +1,40 @@
+{
+  "label_job_id": "bc65401f9a13156f00f10acbb36126f6ceee279bec8f9551ea17382bf4740562",
+  "fullLabel": "40a2b0be73a14e68fd88ba53153e6a37@248839",
+  "pdf_file": "responses/bc65401f9a13156f00f10acbb36126f6ceee279bec8f9551ea17382bf4740562_attempt01.pdf",
+  "pdf_sha256": "bcb6407489ad9ccdd26e4e5479f404820890fa738bcb26e9902c898ccb5c51c6",
+  "pdf_bytes": 248839,
+  "pdf_pages": 1,
+  "receipt_file": "receipts/bc65401f9a13156f00f10acbb36126f6ceee279bec8f9551ea17382bf4740562_attempt01_receipt.json",
+  "observed_utc": "2026-10-09T11:08:14.387952+00:00",
+  "full_text_file": "extracted/bc65401f9a13156f00f10acbb36126f6ceee279bec8f9551ea17382bf4740562.txt",
+  "full_text_sha256": "897b656bb9e116a87683d047ed45b58519667d9e4480ce115094851ec0f1398a",
+  "standard_contexts": [
+    "本标识所采用的电能消耗量和续驶里程数据是按\n照GB/T 18386.1—2021《电动汽车能量消耗量和续驶\n里程试验方法 第1部分：轻型汽车》测定。预估能源\n成本的计算基于电费0.66元/度。",
+    "照GB/T 18386.1—2021《电动汽车能量消耗量和续驶\n里程试验方法 第1部分：轻型汽车》测定。预估能源\n成本的计算基于电费0.66元/度。\n由于驾驶习惯、道路状况、气候条件、电价等 因"
+  ],
+  "battery_energy_words_present": false,
+  "record_refs": [
+    {
+      "model_key": "MXP2P",
+      "vehicleModel_raw": "MXP2P",
+      "matching_mode": "raw",
+      "uuid": "4becbc0fe54a499f9bb550a148567a34",
+      "recordNumber": "JD20240628100475059",
+      "source_file": "../public_new_snapshot/new_currentPage/page0053_response.json",
+      "source_page_sha256": "cb7a7616938d1f5467dad82e59fc059d7a5be27d523a6246d9db32ba72929d95",
+      "page": 53,
+      "json_pointer": "/info/list/7",
+      "full_row_sha256": "92df4edc2056426ae81e310a662f8a622f7bddb616c9b4798d022d9c09bae1b4",
+      "label_job_id": "bc65401f9a13156f00f10acbb36126f6ceee279bec8f9551ea17382bf4740562",
+      "fullLabel": "40a2b0be73a14e68fd88ba53153e6a37@248839",
+      "testBasisStandard_raw": "5",
+      "issueDate_raw": "2024-05-30",
+      "enableDate_raw": "2024-06-28",
+      "createTime_raw": "2024-06-28 10:04:45",
+      "updateTime_raw": "2024-06-28 10:08:45",
+      "abandonTime_raw": null,
+      "is_new_library_only_model": true
+    }
+  ]
+}

@@ -1,0 +1,30 @@
+{
+  "audit_result": "PASS",
+  "checked_utc": "2026-10-09T11:12:31.631960+00:00",
+  "matching_scope": "trim-only candidate queue; excluded from raw exact queue",
+  "queued_records": 2,
+  "queued_unique_label_refs": 2,
+  "accepted_pdfs": 2,
+  "accepted_unique_pdf_sha256": 2,
+  "accepted_record_links": 2,
+  "accepted_models": 2,
+  "accepted_new_library_only_models": 0,
+  "accepted_pdf_bytes": 134837,
+  "remaining_unique_label_refs": 0,
+  "actual_pdf_standard_by_raw_code": [
+    {
+      "raw_code": "5",
+      "standard_observed_in_pdf": "GB/T18386.1—2021",
+      "record_links": 2
+    }
+  ],
+  "issueDate_valid_pre_freeze_record_links": 2,
+  "source_pointer_full_row_hash_pdf_and_full_text_verified": true,
+  "does_not_establish_date_field_semantics_or_historical_public_accessibility": true,
+  "does_not_certify_tax_catalogue_configuration_identity": true,
+  "same_cycle_comparability_certified": false,
+  "frozen_core_science_modified": false,
+  "all_queued_pdfs_downloaded": true,
+  "pause_kind": null,
+  "stop_reason": ""
+}

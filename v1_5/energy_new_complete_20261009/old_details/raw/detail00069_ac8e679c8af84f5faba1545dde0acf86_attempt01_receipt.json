@@ -1,0 +1,40 @@
+{
+  "method": "POST",
+  "requested_url": "https://yhgscx.miit.gov.cn/fuel-consumption-center/fuel-consumption-center/fcSearchCtr/queryDetail",
+  "request_json": {
+    "applyId": "ac8e679c8af84f5faba1545dde0acf86"
+  },
+  "invocation_id": "2026-10-09T11:14:24.472843+00:00",
+  "input_record_key": "old:ac8e679c8af84f5faba1545dde0acf86:7367db12b4cea4b7db353fdc5af94a8d68e3ca83fc737243021b869ac903ba7c",
+  "source_occurrence": "old:8:152",
+  "expected_model_raw": "LZW7009EVA2",
+  "attempt": 1,
+  "observed_utc": "2026-10-09T11:16:33.230440+00:00",
+  "tls_verified": true,
+  "anonymous_request_no_credentials_or_captcha_solution": true,
+  "source_fixed_list_file": "old_currentPage/page0008_response.json",
+  "source_fixed_list_sha256": "bc32658655634380bb53c40e2a53068f34db40e6b5126d40bd62678340f61786",
+  "source_fixed_json_pointer": "/info/list/152",
+  "http_status": 200,
+  "final_url": "https://yhgscx.miit.gov.cn/fuel-consumption-center/fuel-consumption-center/fcSearchCtr/queryDetail",
+  "content_type": "application/json;charset=UTF-8",
+  "file": "raw/detail00069_ac8e679c8af84f5faba1545dde0acf86_attempt01_response.json",
+  "bytes": 1604,
+  "sha256": "896fb18bea4ac9346809605a0ee6056247441b69c5c6eb669054370eb39a8824",
+  "validation_checks": {
+    "raw_sha256_matches_receipt": true,
+    "raw_bytes_match_receipt": true,
+    "http_200": true,
+    "exact_request_applyId": true,
+    "business_result_1": true,
+    "detail_is_object": true,
+    "exact_model_echo": true,
+    "applyId_echo_if_present_agrees": true,
+    "applyId_nonempty_echo_present": false,
+    "record_number_echo_if_present_agrees": true,
+    "record_number_nonempty_echo_present": false
+  },
+  "semantic_validation_error": null,
+  "accepted": true,
+  "finished_utc": "2026-10-09T11:16:33.798548+00:00"
+}
