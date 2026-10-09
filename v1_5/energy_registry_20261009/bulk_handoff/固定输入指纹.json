@@ -1,0 +1,92 @@
+{
+  "schema_version": "1.0",
+  "network_requests": 0,
+  "input_files": [
+    {
+      "source_key": "cycle_backlog",
+      "path_at_build": "/workspace/purchase_tax_audit/round9/public_cycle/2208型号_整篇工况补证结果_只读旁表.csv",
+      "bytes": 1472090,
+      "sha256": "a438f95dd4e0f3cf1ada1d27bf53716896d13fceaad2b0e6f424750a84c20d21"
+    },
+    {
+      "source_key": "scope_crosswalk",
+      "path_at_build": "/workspace/purchase_tax_audit/round8/final_gap_status/条件需求_型号级交叉台账.csv",
+      "bytes": 345021,
+      "sha256": "b3c46bea245d9edbf7637aa51dc6c729813566065281b08693e3788cca46fab0"
+    },
+    {
+      "source_key": "configuration_36",
+      "path_at_build": "/workspace/purchase_tax_audit/round9/public_configuration/36目标_逐型号公开探查与精确询证台账.csv",
+      "bytes": 41154,
+      "sha256": "a37a3db3833ccba738d8ac33b98195af74a97f0827e899b00ecef3a9f908ec7d"
+    },
+    {
+      "source_key": "identity_285",
+      "path_at_build": "/workspace/purchase_tax_audit/round9/public_configuration/285版本_按原文企业分组询证.csv",
+      "bytes": 223239,
+      "sha256": "86e82acee6b42ccc1d21561239e43675edab23c6f288fa692b14463a25a02ccc"
+    },
+    {
+      "source_key": "user_readme",
+      "path_at_build": "/workspace/attachments/2f9d84c3-866c-41df-9751-cc9bf8d8fc8c/README.md",
+      "bytes": 3706,
+      "sha256": "8c1af44c93a185ffbac0d6949a7f4f59c5a7bf3c1693c75cf9d9ad6ce6dc5f28"
+    },
+    {
+      "source_key": "user_response_json",
+      "path_at_build": "/workspace/attachments/420294dd-954f-4c1d-9a22-949f476755b6/原始记录_全程字段.json",
+      "bytes": 5325,
+      "sha256": "55bdb96be250dcc28db33b72932ba90b01e2e2078cf67316bfc892531fa92a1e"
+    },
+    {
+      "source_key": "user_pdf",
+      "path_at_build": "/workspace/attachments/b272bb15-e257-4e29-8725-0c511b7095c2/JX6550T-M5BEV_完整标签.pdf",
+      "bytes": 80946,
+      "sha256": "0721063c8b32892350150e56381ef4280bd6d10913429f85c5e476065c5a40ec"
+    },
+    {
+      "source_key": "pilot_JX_new",
+      "path_at_build": "/workspace/purchase_tax_audit/round10/api_pilot/JX_new_page1_response.json",
+      "bytes": 5325,
+      "sha256": "55bdb96be250dcc28db33b72932ba90b01e2e2078cf67316bfc892531fa92a1e"
+    },
+    {
+      "source_key": "pilot_JX_old",
+      "path_at_build": "/workspace/purchase_tax_audit/round10/api_pilot/JX_old_page1_response.json",
+      "bytes": 1302,
+      "sha256": "c8a3e72dbb58b0e030072ba4946814a4b77f1445ba3c172cc216ea06d1ce9c32"
+    },
+    {
+      "source_key": "pilot_JX_detail_2295",
+      "path_at_build": "/workspace/purchase_tax_audit/round10/api_pilot/JX_old_detail_2295_candidate_response.json",
+      "bytes": 1599,
+      "sha256": "da29b57b4d7dbb3a3f7aaf898e02a38e24b59a1bbce515df91237ca9cb172079"
+    },
+    {
+      "source_key": "pilot_JX_detail_2360",
+      "path_at_build": "/workspace/purchase_tax_audit/round10/api_pilot/JX_old_detail_2360_candidate_response.json",
+      "bytes": 1599,
+      "sha256": "4c88cf63c3bb10d29d0df596732f54feb0d2af73dec5fd9056170ce5d32058a6"
+    },
+    {
+      "source_key": "pilot_fuel_type_dictionary",
+      "path_at_build": "/workspace/purchase_tax_audit/round10/api_pilot/official_fuel_type_dictionary_response.json",
+      "bytes": 2186,
+      "sha256": "1887c6b9552573da90ef7a7e27fa21dc08b93b7bf7689d04a8c45e59ce90a049"
+    },
+    {
+      "source_key": "pilot_new_currentPage2",
+      "path_at_build": "/workspace/purchase_tax_audit/round10/api_pilot/new_current_page2_probe_response.json",
+      "bytes": 518925,
+      "sha256": "17fbe796d6995b3bc890f9b257ff2efeb57b1d6b2d032923403d75e4508ec900"
+    },
+    {
+      "source_key": "pilot_old_currentPage2",
+      "path_at_build": "/workspace/purchase_tax_audit/round10/api_pilot/old_current_page2_probe_response.json",
+      "bytes": 116699,
+      "sha256": "3d42ce220d4484ce7b4692ccabb7878da3e0686e764ba7d01ba17f771e0e3028"
+    }
+  ],
+  "cutoff_date": "2023-12-10",
+  "instruction_precedence": "User attachments are evidence; this handoff is a proposed collection contract."
+}

@@ -1,0 +1,184 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "public_energy_label_evidence_v1",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "label_evidence_id",
+    "record_key",
+    "label_type",
+    "request_id",
+    "download_url",
+    "pdf_path",
+    "pdf_bytes",
+    "pdf_sha256",
+    "pdf_valid",
+    "pdf_page_count",
+    "text_path",
+    "extraction_method",
+    "model_on_label_raw",
+    "record_id_on_label_raw",
+    "standard_revision_raw",
+    "standard_evidence_quote",
+    "standard_evidence_page",
+    "cycle_explicit_raw",
+    "cycle_evidence_quote",
+    "cycle_evidence_page",
+    "evidence_level",
+    "issue_date_on_label_raw",
+    "battery_total_energy_on_label_raw",
+    "low_temperature_values_scope",
+    "low_temperature_report_id_raw",
+    "low_temperature_original_report_path",
+    "scope_note"
+  ],
+  "properties": {
+    "label_evidence_id": {
+      "type": "string",
+      "description": "全局证据ID，同字节去重但保留每记录映射"
+    },
+    "record_key": {
+      "type": "string",
+      "description": "所属记录"
+    },
+    "label_type": {
+      "type": "string",
+      "description": "实际原件类别",
+      "enum": [
+        "full",
+        "abbreviated",
+        "legacy_public_document"
+      ]
+    },
+    "request_id": {
+      "type": "string",
+      "description": "下载请求日志ID"
+    },
+    "download_url": {
+      "type": "string",
+      "description": "页面正常公开下载URL，不包含账户凭证"
+    },
+    "pdf_path": {
+      "type": "string",
+      "description": "原PDF相对路径，下载失败空"
+    },
+    "pdf_bytes": {
+      "type": "integer",
+      "minimum": 0,
+      "description": "原PDF字节数"
+    },
+    "pdf_sha256": {
+      "anyOf": [
+        {
+          "type": "string",
+          "pattern": "^[a-f0-9]{64}$",
+          "description": "保存文件原始字节SHA256"
+        },
+        {
+          "type": "null"
+        }
+      ],
+      "description": "无实际字节文件则null，不伪造SHA"
+    },
+    "pdf_valid": {
+      "type": "boolean",
+      "default": false,
+      "description": "实际可解析PDF，非200验证码HTML"
+    },
+    "pdf_page_count": {
+      "type": "integer",
+      "minimum": 0,
+      "description": "实际页数"
+    },
+    "text_path": {
+      "type": "string",
+      "description": "文本/OCR旁件相对路径，原PDF不修改"
+    },
+    "extraction_method": {
+      "type": "string",
+      "description": "读取工具/版本/OCR；无文本须注明需人工"
+    },
+    "model_on_label_raw": {
+      "type": "string",
+      "description": "标签所印型号原文"
+    },
+    "record_id_on_label_raw": {
+      "type": "string",
+      "description": "标签所印备案号，未印则空"
+    },
+    "standard_revision_raw": {
+      "type": "string",
+      "description": "原文标准编号及年版，逐PDF核对"
+    },
+    "standard_evidence_quote": {
+      "type": "string",
+      "description": "逐条原文引句"
+    },
+    "standard_evidence_page": {
+      "type": [
+        "integer",
+        "null"
+      ],
+      "minimum": 1,
+      "description": "1开始；没有则null"
+    },
+    "cycle_explicit_raw": {
+      "type": "string",
+      "description": "仅填原件显式工况；标准标题不转CLTC"
+    },
+    "cycle_evidence_quote": {
+      "type": "string",
+      "description": "显式工况原文；没有为空"
+    },
+    "cycle_evidence_page": {
+      "type": [
+        "integer",
+        "null"
+      ],
+      "minimum": 1,
+      "description": "1开始；没有则null"
+    },
+    "evidence_level": {
+      "type": "string",
+      "description": "区分显式工况和仅标准",
+      "enum": [
+        "explicit_cycle_and_standard",
+        "explicit_cycle_only",
+        "standard_revision_only",
+        "neither",
+        "unreadable_or_failed"
+      ]
+    },
+    "issue_date_on_label_raw": {
+      "type": "string",
+      "description": "标签所印日期；无则空，不挪API日期过来"
+    },
+    "battery_total_energy_on_label_raw": {
+      "type": "string",
+      "description": "仅原件明确电池总能量，没写为空，禁止倒算"
+    },
+    "low_temperature_values_scope": {
+      "type": "string",
+      "description": "低温字段属性",
+      "enum": [
+        "industry_average",
+        "model_specific_declaration",
+        "model_specific_report",
+        "not_present",
+        "unresolved"
+      ]
+    },
+    "low_temperature_report_id_raw": {
+      "type": "string",
+      "description": "只抄实际报告编号；备案号不代替"
+    },
+    "low_temperature_original_report_path": {
+      "type": "string",
+      "description": "对应真实报告原件路径；无则空"
+    },
+    "scope_note": {
+      "type": "string",
+      "description": "标签匹配、不一致、日期和低温字段边界"
+    }
+  }
+}

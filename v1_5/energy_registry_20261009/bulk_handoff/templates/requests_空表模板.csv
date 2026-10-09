@@ -1,0 +1,1 @@
+﻿request_id,query_run_id,library,purpose,model_requested,method,url,request_body_path,request_body_sha256,started_at_utc,finished_at_utc,http_status,business_result_raw,pagination_request_field_raw,page_requested,current_page_returned,content_type,attempt,outcome,response_path,response_bytes,response_sha256,error_note

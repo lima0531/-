@@ -1,0 +1,114 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "schema_version",
+    "frozen_model_list_sha256",
+    "started_at_utc",
+    "finished_at_utc",
+    "network_request_count",
+    "core_model_count",
+    "core_model_library_run_count",
+    "counts",
+    "completed",
+    "stopped_reason",
+    "files"
+  ],
+  "properties": {
+    "schema_version": {
+      "const": "1.0"
+    },
+    "frozen_model_list_sha256": {
+      "type": "string",
+      "pattern": "^[a-f0-9]{64}$",
+      "description": "保存文件原始字节SHA256"
+    },
+    "started_at_utc": {
+      "type": "string",
+      "description": "ISO8601 UTC"
+    },
+    "finished_at_utc": {
+      "type": "string",
+      "description": "ISO8601 UTC"
+    },
+    "network_request_count": {
+      "type": "integer",
+      "minimum": 0,
+      "description": "全部实际请求，含失败与标签下载"
+    },
+    "core_model_count": {
+      "const": 2208
+    },
+    "core_model_library_run_count": {
+      "type": "integer",
+      "minimum": 0,
+      "description": "完成全部时4416，不含正对照"
+    },
+    "counts": {
+      "type": "object",
+      "description": "分库、逐状态计数；配置记录/PDF数与型号数分列；显式工况/仅标准/历史公开桥/同配置税桥分别统计"
+    },
+    "completed": {
+      "type": "boolean",
+      "default": false,
+      "description": "4416个核心型号×库结果全有；分页中止则false"
+    },
+    "stopped_reason": {
+      "type": "string",
+      "description": "实际中止边界"
+    },
+    "files": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": [
+          "path",
+          "bytes",
+          "sha256"
+        ],
+        "properties": {
+          "path": {
+            "type": "string",
+            "description": "包内相对路径"
+          },
+          "bytes": {
+            "type": "integer",
+            "minimum": 0,
+            "description": "原字节数"
+          },
+          "sha256": {
+            "type": "string",
+            "pattern": "^[a-f0-9]{64}$",
+            "description": "保存文件原始字节SHA256"
+          }
+        }
+      }
+    }
+  },
+  "allOf": [
+    {
+      "if": {
+        "properties": {
+          "completed": {
+            "const": true
+          }
+        },
+        "required": [
+          "completed"
+        ]
+      },
+      "then": {
+        "properties": {
+          "core_model_library_run_count": {
+            "const": 4416
+          },
+          "stopped_reason": {
+            "const": ""
+          }
+        }
+      }
+    }
+  ]
+}

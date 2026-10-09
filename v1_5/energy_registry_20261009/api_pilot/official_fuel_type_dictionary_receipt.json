@@ -1,0 +1,17 @@
+{
+  "requested_url": "https://yhgscx.miit.gov.cn/fuel-consumption-center/fuel-consumption-center/ZbzxDictCtrl/getDictByParentCode",
+  "method": "POST",
+  "observed_utc": "2026-10-09T09:47:03.333602+00:00",
+  "tls_verified": true,
+  "no_credentials_or_validation_solution_submitted": true,
+  "json_body": {
+    "dictParentCode": "FC_FUEL_TYPE"
+  },
+  "status_code": 200,
+  "final_url": "https://yhgscx.miit.gov.cn/fuel-consumption-center/fuel-consumption-center/ZbzxDictCtrl/getDictByParentCode",
+  "content_type": "application/json;charset=UTF-8",
+  "file": "official_fuel_type_dictionary_response.json",
+  "bytes": 2186,
+  "sha256": "1887c6b9552573da90ef7a7e27fa21dc08b93b7bf7689d04a8c45e59ce90a049",
+  "business_result": 1
+}

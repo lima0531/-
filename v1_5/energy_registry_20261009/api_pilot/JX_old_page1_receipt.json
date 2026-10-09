@@ -1,0 +1,25 @@
+{
+  "requested_url": "https://yhgscx.miit.gov.cn/fuel-consumption-center/fuel-consumption-center/fcSearchCtr/queryList",
+  "method": "POST",
+  "observed_utc": "2026-10-09T09:28:11.196404+00:00",
+  "tls_verified": true,
+  "no_credentials_or_validation_solution_submitted": true,
+  "json_body": {
+    "pageNum": 1,
+    "pageSize": 50,
+    "vehicleNumber": "JX6550T-M5BEV"
+  },
+  "status_code": 200,
+  "final_url": "https://yhgscx.miit.gov.cn/fuel-consumption-center/fuel-consumption-center/fcSearchCtr/queryList",
+  "content_type": "application/json;charset=UTF-8",
+  "file": "JX_old_page1_response.json",
+  "bytes": 1302,
+  "sha256": "c8a3e72dbb58b0e030072ba4946814a4b77f1445ba3c172cc216ea06d1ce9c32",
+  "business_result": 1,
+  "totalSize": 2,
+  "pages": 1,
+  "rows": 2,
+  "received_models": [
+    "JX6550T-M5BEV"
+  ]
+}

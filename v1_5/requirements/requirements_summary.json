@@ -71,5 +71,13 @@
     "public_checks": "../public_completion_20261009/README.md",
     "frozen_scientific_parameters_changed": false,
     "public_sources_not_exhausted_claim": "只认证已列公开路径的实际观察；不声称互联网绝无资料"
+  },
+  "official_energy_registry_20261009": {
+    "report": "../energy_registry_20261009/README.md",
+    "collection_contract": "../energy_registry_20261009/bulk_handoff/README.md",
+    "scientific_inputs_changed": false,
+    "jx_core_energy_missing": true,
+    "jx_in_2208": false,
+    "issueDate_not_first_public_availability": true
   }
 }

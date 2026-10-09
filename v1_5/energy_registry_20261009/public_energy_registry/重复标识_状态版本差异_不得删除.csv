@@ -1,0 +1,4 @@
+﻿library,stable_id_raw,raw_occurrences,distinct_full_rows,model_keys_json,different_fields_json,abandon_times_raw_json
+new,095196e9f79346c1bc81821a2336ed72,2,2,"[""BJ6500A601BEV""]","[""abandonTime""]","[""2026-08-06"", ""2026-08-11""]"
+new,61852b7a566d424ba2409599a2261411,2,2,"[""BJ6500A601BEV""]","[""abandonTime""]","[""2026-08-06"", ""2026-08-11""]"
+new,61aa185fd2d14281a9b2d1776622ffbf,2,2,"[""BJ6500A60BEV""]","[""abandonTime""]","[""2026-08-06"", ""2026-08-11""]"

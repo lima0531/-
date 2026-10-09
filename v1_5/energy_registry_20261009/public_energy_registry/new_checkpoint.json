@@ -1,0 +1,27 @@
+{
+  "started_utc": "2026-10-09T09:58:36.581388+00:00",
+  "library": "new",
+  "filters": {
+    "energyType": "8"
+  },
+  "completed": false,
+  "pages_validated": 4,
+  "rows": 800,
+  "unique_ids": 797,
+  "stop_reason": "Access/network/business boundary on page 5; no bypass/retry.",
+  "transactionally_atomic_snapshot": false,
+  "history_scope": "Only rows returned by this normally public energyType8/fuelType8 filtered view at observed request times; no hidden/history completeness or certified-BEV claim.",
+  "source_page_files": [
+    "new_currentPage/page0001_response.json",
+    "new_currentPage/page0002_response.json",
+    "new_currentPage/page0003_response.json",
+    "new_currentPage/page0004_attempt02_response.json"
+  ],
+  "response_category_conflict_occurrences": 0,
+  "reported_total": 10479,
+  "reported_pages": 53,
+  "unique_full_rows": 800,
+  "repeated_id_occurrences": 3,
+  "updated_utc": "2026-10-09T09:58:57.733339+00:00",
+  "finished_utc": "2026-10-09T09:59:05.456686+00:00"
+}

@@ -1,0 +1,492 @@
+{
+  "generated_utc": "2026-10-09T10:07:59.664114+00:00",
+  "scientific_version": "v1.5",
+  "libraries": {
+    "new": {
+      "completed": false,
+      "stop_reason": "Access/network/business boundary on page 5; no bypass/retry.",
+      "reported_total": 10479,
+      "reported_pages": 53,
+      "raw_rows_observed": 800,
+      "distinct_stable_ids": 797,
+      "distinct_full_rows": 800,
+      "repeated_stable_id_occurrences": 3,
+      "identical_full_row_repeat_occurrences": 0,
+      "pages_validated": 4,
+      "all_pages_total_and_row_count_reconciled": false,
+      "observed_pages_count_and_hash_verified": true,
+      "earliest_page_observed_utc": "2026-10-09T09:49:40.199330+00:00",
+      "latest_page_observed_utc": "2026-10-09T09:58:47.632474+00:00",
+      "normal_public_filter": {
+        "energyType": "8"
+      },
+      "atomic_snapshot": false,
+      "pages": [
+        {
+          "page": 1,
+          "file": "new_currentPage/page0001_response.json",
+          "receipt": "new_currentPage/page0001_receipt.json",
+          "sha256": "1171722e6dfdb4e0943e3995d0e44d64c0324c58ecba9d64ed544b8a53aeab2d",
+          "rows": 200,
+          "observed_utc": "2026-10-09T09:49:40.199330+00:00"
+        },
+        {
+          "page": 2,
+          "file": "new_currentPage/page0002_response.json",
+          "receipt": "new_currentPage/page0002_receipt.json",
+          "sha256": "17fbe796d6995b3bc890f9b257ff2efeb57b1d6b2d032923403d75e4508ec900",
+          "rows": 200,
+          "observed_utc": "2026-10-09T09:49:55.071073+00:00"
+        },
+        {
+          "page": 3,
+          "file": "new_currentPage/page0003_response.json",
+          "receipt": "new_currentPage/page0003_receipt.json",
+          "sha256": "3f8a08b51fb7fd83215da948c47130c0807ba926a8e96279b9b053c321188008",
+          "rows": 200,
+          "observed_utc": "2026-10-09T09:54:56.376031+00:00"
+        },
+        {
+          "page": 4,
+          "file": "new_currentPage/page0004_attempt02_response.json",
+          "receipt": "new_currentPage/page0004_attempt02_receipt.json",
+          "sha256": "70da726f8f8ee0a854bffe95ab1b01c3b451c849add365f8c2f3e12e4d91fa40",
+          "rows": 200,
+          "observed_utc": "2026-10-09T09:58:47.632474+00:00"
+        }
+      ]
+    },
+    "old": {
+      "completed": true,
+      "stop_reason": "",
+      "reported_total": 9336,
+      "reported_pages": 47,
+      "raw_rows_observed": 9336,
+      "distinct_stable_ids": 9336,
+      "distinct_full_rows": 9336,
+      "repeated_stable_id_occurrences": 0,
+      "identical_full_row_repeat_occurrences": 0,
+      "pages_validated": 47,
+      "all_pages_total_and_row_count_reconciled": true,
+      "observed_pages_count_and_hash_verified": true,
+      "earliest_page_observed_utc": "2026-10-09T09:50:02.091237+00:00",
+      "latest_page_observed_utc": "2026-10-09T10:03:54.455066+00:00",
+      "normal_public_filter": {
+        "fuelType": "8"
+      },
+      "atomic_snapshot": false,
+      "pages": [
+        {
+          "page": 1,
+          "file": "old_currentPage/page0001_response.json",
+          "receipt": "old_currentPage/page0001_receipt.json",
+          "sha256": "fefd9e91800ea3dc5f6ee7acc1741ea29c2a680a9d934bdde0117f4a417ad088",
+          "rows": 200,
+          "observed_utc": "2026-10-09T09:50:02.091237+00:00"
+        },
+        {
+          "page": 2,
+          "file": "old_currentPage/page0002_response.json",
+          "receipt": "old_currentPage/page0002_receipt.json",
+          "sha256": "3d42ce220d4484ce7b4692ccabb7878da3e0686e764ba7d01ba17f771e0e3028",
+          "rows": 200,
+          "observed_utc": "2026-10-09T09:50:08.109392+00:00"
+        },
+        {
+          "page": 3,
+          "file": "old_currentPage/page0003_response.json",
+          "receipt": "old_currentPage/page0003_receipt.json",
+          "sha256": "25444f57cb6cc46bd3d341be9b19159e171c8d3522f5dd5323e7daffbafad7fc",
+          "rows": 200,
+          "observed_utc": "2026-10-09T09:50:15.315623+00:00"
+        },
+        {
+          "page": 4,
+          "file": "old_currentPage/page0004_response.json",
+          "receipt": "old_currentPage/page0004_receipt.json",
+          "sha256": "f851684be820cd9302ff472bf775ca955a68b8568f79126ca2d5e48e8b80bfe7",
+          "rows": 200,
+          "observed_utc": "2026-10-09T09:50:21.629105+00:00"
+        },
+        {
+          "page": 5,
+          "file": "old_currentPage/page0005_response.json",
+          "receipt": "old_currentPage/page0005_receipt.json",
+          "sha256": "91a1b5250284a729fe47cebc316cc22c9911e0e1a342829437f8016fcee8eb54",
+          "rows": 200,
+          "observed_utc": "2026-10-09T09:50:28.683880+00:00"
+        },
+        {
+          "page": 6,
+          "file": "old_currentPage/page0006_response.json",
+          "receipt": "old_currentPage/page0006_receipt.json",
+          "sha256": "68b730fea1ac8b827ae7633fbf4c8aff9f26e056b34ed8e5086dfe00d9f2b148",
+          "rows": 200,
+          "observed_utc": "2026-10-09T09:50:33.471515+00:00"
+        },
+        {
+          "page": 7,
+          "file": "old_currentPage/page0007_response.json",
+          "receipt": "old_currentPage/page0007_receipt.json",
+          "sha256": "40b3abdb81882a95b6f661dc5511bb5655e4a69fd27f215e49ca4533704748ab",
+          "rows": 200,
+          "observed_utc": "2026-10-09T09:50:38.552419+00:00"
+        },
+        {
+          "page": 8,
+          "file": "old_currentPage/page0008_response.json",
+          "receipt": "old_currentPage/page0008_receipt.json",
+          "sha256": "bc32658655634380bb53c40e2a53068f34db40e6b5126d40bd62678340f61786",
+          "rows": 200,
+          "observed_utc": "2026-10-09T09:50:45.484839+00:00"
+        },
+        {
+          "page": 9,
+          "file": "old_currentPage/page0009_response.json",
+          "receipt": "old_currentPage/page0009_receipt.json",
+          "sha256": "9c1ad18dc467b245029b46af95a653d97f27cf383f23ce6850f799159ecaf0df",
+          "rows": 200,
+          "observed_utc": "2026-10-09T09:50:51.158587+00:00"
+        },
+        {
+          "page": 10,
+          "file": "old_currentPage/page0010_attempt02_response.json",
+          "receipt": "old_currentPage/page0010_attempt02_receipt.json",
+          "sha256": "320ef44b657ab160c259844feaebb9f93219a1b6f07803c34883b6518c3a95eb",
+          "rows": 200,
+          "observed_utc": "2026-10-09T09:55:40.320245+00:00"
+        },
+        {
+          "page": 11,
+          "file": "old_currentPage/page0011_response.json",
+          "receipt": "old_currentPage/page0011_receipt.json",
+          "sha256": "7612cd0dacba2e021cd3a6988a28f4db037ce51eb924c3df914391021fc46688",
+          "rows": 200,
+          "observed_utc": "2026-10-09T09:59:25.577687+00:00"
+        },
+        {
+          "page": 12,
+          "file": "old_currentPage/page0012_response.json",
+          "receipt": "old_currentPage/page0012_receipt.json",
+          "sha256": "576b7882b0d12360dc89d86d20f602249c340bf802df83f3a5edb4332d70e8eb",
+          "rows": 200,
+          "observed_utc": "2026-10-09T09:59:34.093624+00:00"
+        },
+        {
+          "page": 13,
+          "file": "old_currentPage/page0013_response.json",
+          "receipt": "old_currentPage/page0013_receipt.json",
+          "sha256": "af0943590d79e0e70d525d6ccf3dcc8587f41905485c282166172b859f8b2038",
+          "rows": 200,
+          "observed_utc": "2026-10-09T09:59:41.209386+00:00"
+        },
+        {
+          "page": 14,
+          "file": "old_currentPage/page0014_response.json",
+          "receipt": "old_currentPage/page0014_receipt.json",
+          "sha256": "5e7bcded7c76784f102ce02a39e2212b336dc231adbada1a72a8a159a7f77ccb",
+          "rows": 200,
+          "observed_utc": "2026-10-09T09:59:45.803948+00:00"
+        },
+        {
+          "page": 15,
+          "file": "old_currentPage/page0015_response.json",
+          "receipt": "old_currentPage/page0015_receipt.json",
+          "sha256": "b93d5efbc89303285c846e6856e127b975982e98fc67a0f7c84f9e0e3d11bd14",
+          "rows": 200,
+          "observed_utc": "2026-10-09T09:59:52.143813+00:00"
+        },
+        {
+          "page": 16,
+          "file": "old_currentPage/page0016_response.json",
+          "receipt": "old_currentPage/page0016_receipt.json",
+          "sha256": "9b1f179f1bc4e96296fd37da582cdbd71ad9e4adb96f10b0c4f3c4de97706ec5",
+          "rows": 200,
+          "observed_utc": "2026-10-09T09:59:59.052716+00:00"
+        },
+        {
+          "page": 17,
+          "file": "old_currentPage/page0017_attempt02_response.json",
+          "receipt": "old_currentPage/page0017_attempt02_receipt.json",
+          "sha256": "bb3c15e2adaf9344a861e8a592f32ff3aee982caefc6d33cc8b72df04b17f28d",
+          "rows": 200,
+          "observed_utc": "2026-10-09T10:00:56.485889+00:00"
+        },
+        {
+          "page": 18,
+          "file": "old_currentPage/page0018_response.json",
+          "receipt": "old_currentPage/page0018_receipt.json",
+          "sha256": "0f44d6c406107027cf28dad604a8b892147e30080f052baf4f4a4a24887e40ff",
+          "rows": 200,
+          "observed_utc": "2026-10-09T10:01:16.253085+00:00"
+        },
+        {
+          "page": 19,
+          "file": "old_currentPage/page0019_response.json",
+          "receipt": "old_currentPage/page0019_receipt.json",
+          "sha256": "266461dff543e587a96796d27195ea0a17b6634c5b503eaa0aa96e01b1798371",
+          "rows": 200,
+          "observed_utc": "2026-10-09T10:01:21.304749+00:00"
+        },
+        {
+          "page": 20,
+          "file": "old_currentPage/page0020_response.json",
+          "receipt": "old_currentPage/page0020_receipt.json",
+          "sha256": "61ec1a16d92fcb8b5fba852c0315c9a74f8e3558a011687161700d56861b5db0",
+          "rows": 200,
+          "observed_utc": "2026-10-09T10:01:26.214490+00:00"
+        },
+        {
+          "page": 21,
+          "file": "old_currentPage/page0021_response.json",
+          "receipt": "old_currentPage/page0021_receipt.json",
+          "sha256": "2d2c4ca547340a90e78396655e3900142faf085f1db8c8dcd4db1bfbbc416337",
+          "rows": 200,
+          "observed_utc": "2026-10-09T10:01:32.736846+00:00"
+        },
+        {
+          "page": 22,
+          "file": "old_currentPage/page0022_response.json",
+          "receipt": "old_currentPage/page0022_receipt.json",
+          "sha256": "0310934e6d7ab3d2a5de5dcc2dde43026051d25e2f15b0ae5a847c0d7a28478f",
+          "rows": 200,
+          "observed_utc": "2026-10-09T10:01:39.809096+00:00"
+        },
+        {
+          "page": 23,
+          "file": "old_currentPage/page0023_response.json",
+          "receipt": "old_currentPage/page0023_receipt.json",
+          "sha256": "1054fbbdf2be0c98ac7a0cce4cea01dea868faa1f312ab9b0b028a0e59e2d0fe",
+          "rows": 200,
+          "observed_utc": "2026-10-09T10:01:45.094495+00:00"
+        },
+        {
+          "page": 24,
+          "file": "old_currentPage/page0024_response.json",
+          "receipt": "old_currentPage/page0024_receipt.json",
+          "sha256": "3f0f53fa4075eb0f50baef9a1f17ac0759dbbce4199f14c556a4f65c50ee6272",
+          "rows": 200,
+          "observed_utc": "2026-10-09T10:01:52.532814+00:00"
+        },
+        {
+          "page": 25,
+          "file": "old_currentPage/page0025_response.json",
+          "receipt": "old_currentPage/page0025_receipt.json",
+          "sha256": "4b326d833a657cbaf03bc3b5ecd91a74ac9dd013aaf37b6eb6bffb1e9fe087b3",
+          "rows": 200,
+          "observed_utc": "2026-10-09T10:02:00.736244+00:00"
+        },
+        {
+          "page": 26,
+          "file": "old_currentPage/page0026_response.json",
+          "receipt": "old_currentPage/page0026_receipt.json",
+          "sha256": "749d05c412fd2db90efe924140bfd809481ce90a01ea84e010c33eb23b8df7dc",
+          "rows": 200,
+          "observed_utc": "2026-10-09T10:02:06.473355+00:00"
+        },
+        {
+          "page": 27,
+          "file": "old_currentPage/page0027_response.json",
+          "receipt": "old_currentPage/page0027_receipt.json",
+          "sha256": "c5a69308aa7f9a452c243be2a21d640492222a3be532f26f7d5a342b263ee865",
+          "rows": 200,
+          "observed_utc": "2026-10-09T10:02:12.947706+00:00"
+        },
+        {
+          "page": 28,
+          "file": "old_currentPage/page0028_response.json",
+          "receipt": "old_currentPage/page0028_receipt.json",
+          "sha256": "f91ba2d44ee2b3d56fdcfd609a592968d37560389f72ceef699da55bc6d5f173",
+          "rows": 200,
+          "observed_utc": "2026-10-09T10:02:19.025157+00:00"
+        },
+        {
+          "page": 29,
+          "file": "old_currentPage/page0029_response.json",
+          "receipt": "old_currentPage/page0029_receipt.json",
+          "sha256": "2db8874da1c94df92763e45d803c302470b9b6f9a155cb6edcb8399b034eeac9",
+          "rows": 200,
+          "observed_utc": "2026-10-09T10:02:23.906393+00:00"
+        },
+        {
+          "page": 30,
+          "file": "old_currentPage/page0030_response.json",
+          "receipt": "old_currentPage/page0030_receipt.json",
+          "sha256": "70b17cdf0aeab94b219f46013bb7499098fffbc7235b8c90455052c9ca963f4e",
+          "rows": 200,
+          "observed_utc": "2026-10-09T10:02:31.557969+00:00"
+        },
+        {
+          "page": 31,
+          "file": "old_currentPage/page0031_response.json",
+          "receipt": "old_currentPage/page0031_receipt.json",
+          "sha256": "1d4a7c29624a7908ce4dce2430b9a31b68b8a6be67685a30abb5438b6d6ddf1e",
+          "rows": 200,
+          "observed_utc": "2026-10-09T10:02:36.592652+00:00"
+        },
+        {
+          "page": 32,
+          "file": "old_currentPage/page0032_response.json",
+          "receipt": "old_currentPage/page0032_receipt.json",
+          "sha256": "ca2e5f7711046b159d51530bb3a5a6fb097c4c8783aca9d9f77c8adee61e1967",
+          "rows": 200,
+          "observed_utc": "2026-10-09T10:02:43.660034+00:00"
+        },
+        {
+          "page": 33,
+          "file": "old_currentPage/page0033_response.json",
+          "receipt": "old_currentPage/page0033_receipt.json",
+          "sha256": "3622479042b0fe890780ce3bac0019e061e557fcb498805621fd672ea793b399",
+          "rows": 200,
+          "observed_utc": "2026-10-09T10:02:49.476205+00:00"
+        },
+        {
+          "page": 34,
+          "file": "old_currentPage/page0034_response.json",
+          "receipt": "old_currentPage/page0034_receipt.json",
+          "sha256": "10f9bd4fff48b2b46f12e7d5f7759ee31403280b011c4c674611741f3119b1c9",
+          "rows": 200,
+          "observed_utc": "2026-10-09T10:02:54.644910+00:00"
+        },
+        {
+          "page": 35,
+          "file": "old_currentPage/page0035_response.json",
+          "receipt": "old_currentPage/page0035_receipt.json",
+          "sha256": "f03d0fef19dae31b9c29b48af31c988eba29f37e5c27dcd646f0bb0addadf1c2",
+          "rows": 200,
+          "observed_utc": "2026-10-09T10:02:59.175818+00:00"
+        },
+        {
+          "page": 36,
+          "file": "old_currentPage/page0036_response.json",
+          "receipt": "old_currentPage/page0036_receipt.json",
+          "sha256": "00052ec86ae3e3ec5d1627bc2522308e723ea7407bd14cd8a76b70a6e0ceca08",
+          "rows": 200,
+          "observed_utc": "2026-10-09T10:03:03.427905+00:00"
+        },
+        {
+          "page": 37,
+          "file": "old_currentPage/page0037_response.json",
+          "receipt": "old_currentPage/page0037_receipt.json",
+          "sha256": "4632efdb68d35d89920e24e3b96eb753cca34e483eca3f8c0b610c9b4184d53d",
+          "rows": 200,
+          "observed_utc": "2026-10-09T10:03:07.428086+00:00"
+        },
+        {
+          "page": 38,
+          "file": "old_currentPage/page0038_response.json",
+          "receipt": "old_currentPage/page0038_receipt.json",
+          "sha256": "615b52044475dc7f432d4475619f02903e8780776bf7b1063e7a4926f2c80b43",
+          "rows": 200,
+          "observed_utc": "2026-10-09T10:03:11.444511+00:00"
+        },
+        {
+          "page": 39,
+          "file": "old_currentPage/page0039_response.json",
+          "receipt": "old_currentPage/page0039_receipt.json",
+          "sha256": "eadd447786dd7e43ec19d65c89deaa4cb0c4358506e82d23e58ac937ed79dabc",
+          "rows": 200,
+          "observed_utc": "2026-10-09T10:03:17.420930+00:00"
+        },
+        {
+          "page": 40,
+          "file": "old_currentPage/page0040_response.json",
+          "receipt": "old_currentPage/page0040_receipt.json",
+          "sha256": "9b2ff2784aa7cd61510245b4f02bce5bae1e1970385318c7b60b63f09edcab51",
+          "rows": 200,
+          "observed_utc": "2026-10-09T10:03:21.460165+00:00"
+        },
+        {
+          "page": 41,
+          "file": "old_currentPage/page0041_response.json",
+          "receipt": "old_currentPage/page0041_receipt.json",
+          "sha256": "1b81f2a4d62ab0142e44481203b14cc84f4bd96f29a6974eb6a27bf848c6571e",
+          "rows": 200,
+          "observed_utc": "2026-10-09T10:03:26.113250+00:00"
+        },
+        {
+          "page": 42,
+          "file": "old_currentPage/page0042_response.json",
+          "receipt": "old_currentPage/page0042_receipt.json",
+          "sha256": "2c5eb3b05f1fdc95280853219bf242696c7ad7a2ce5a7040aa6a63a46331f12b",
+          "rows": 200,
+          "observed_utc": "2026-10-09T10:03:30.414924+00:00"
+        },
+        {
+          "page": 43,
+          "file": "old_currentPage/page0043_response.json",
+          "receipt": "old_currentPage/page0043_receipt.json",
+          "sha256": "b28f2080a633a1eb7af4ec3cd3ccbb331e8ae724a11542b9726753fdd3b48762",
+          "rows": 200,
+          "observed_utc": "2026-10-09T10:03:34.795316+00:00"
+        },
+        {
+          "page": 44,
+          "file": "old_currentPage/page0044_response.json",
+          "receipt": "old_currentPage/page0044_receipt.json",
+          "sha256": "74273b209c7b7e9529c17e2f0ab645952a33f700afaaa6a5ca509892ccd5e36a",
+          "rows": 200,
+          "observed_utc": "2026-10-09T10:03:38.895385+00:00"
+        },
+        {
+          "page": 45,
+          "file": "old_currentPage/page0045_response.json",
+          "receipt": "old_currentPage/page0045_receipt.json",
+          "sha256": "b639a84f448be7b1472cb0650444a195486c3c32da83711ef3252562b11e9894",
+          "rows": 200,
+          "observed_utc": "2026-10-09T10:03:42.736093+00:00"
+        },
+        {
+          "page": 46,
+          "file": "old_currentPage/page0046_response.json",
+          "receipt": "old_currentPage/page0046_receipt.json",
+          "sha256": "10b7be3db2a1b2f2ad370ddd47ea2ae8b47dcba13ea79280343667b5b15cf120",
+          "rows": 200,
+          "observed_utc": "2026-10-09T10:03:49.496052+00:00"
+        },
+        {
+          "page": 47,
+          "file": "old_currentPage/page0047_response.json",
+          "receipt": "old_currentPage/page0047_receipt.json",
+          "sha256": "173156018eb97d0193eb60dc77338e0e6bc4528dbd7a2a28514fd03fb403990f",
+          "rows": 136,
+          "observed_utc": "2026-10-09T10:03:54.455066+00:00"
+        }
+      ]
+    }
+  },
+  "core_2208_models": 2208,
+  "core_match_states": {
+    "no_match_in_pages_observed": 974,
+    "old_observed": 1231,
+    "both_observed": 2,
+    "new_observed": 1
+  },
+  "core_models_with_any_visible_exact_record": 1234,
+  "core_models_with_old_cycle_code_observed": 1232,
+  "core_new_raw_rows_matched": 5,
+  "core_old_raw_rows_matched": 4497,
+  "all_target_model_universe": 2333,
+  "non_core_models_in_separate_table": 125,
+  "all_target_raw_rows_preserved": 5071,
+  "whitespace_only_candidate_rows_not_counted": 5,
+  "new_nonempty_report_reference_candidate_rows": 0,
+  "response_category_conflict_rows": 1,
+  "jx_in_core_2208": false,
+  "numeric_ready_delta": 0,
+  "unmarked_frozen_cycle_list_closed": 0,
+  "battery_energy_gap_closed": 0,
+  "issue_date_semantics_not_assumed": true,
+  "raw_cycle_codes_not_mapped": true,
+  "metadata_hits_do_not_imply_frozen_comparability": true,
+  "unmatched_only_describes_observed_public_filtered_views": true,
+  "cycle_input_sha256": "a438f95dd4e0f3cf1ada1d27bf53716896d13fceaad2b0e6f424750a84c20d21",
+  "purpose_scopes_sha256": "b3c46bea245d9edbf7637aa51dc6c729813566065281b08693e3788cca46fab0",
+  "old_cycle_code_model_sets": {
+    "CATC": 818,
+    "NEDC": 616,
+    "both_CATC_and_NEDC": 202,
+    "any_CATC_or_NEDC": 1232,
+    "codes_are_raw_and_not_standard_mappings": true
+  }
+}

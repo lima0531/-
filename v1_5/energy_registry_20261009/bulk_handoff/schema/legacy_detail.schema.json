@@ -1,0 +1,124 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "public_energy_legacy_detail_v1",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "detail_evidence_id",
+    "record_key",
+    "request_id",
+    "apply_id_requested",
+    "response_path",
+    "response_sha256",
+    "model_raw",
+    "curb_mass_raw",
+    "range_raw",
+    "power_consumption_raw",
+    "standard_revision_raw",
+    "standard_evidence_quote",
+    "standard_json_pointer",
+    "other_info_raw",
+    "work_condition_code_raw",
+    "work_condition_source_path",
+    "work_condition_json_pointer",
+    "cycle_named_explicit_raw",
+    "issue_date_semantics_verified",
+    "historical_public_availability_certified",
+    "same_tax_configuration_identity_certified",
+    "scope_note"
+  ],
+  "properties": {
+    "detail_evidence_id": {
+      "type": "string",
+      "description": "详情证据ID"
+    },
+    "record_key": {
+      "type": "string",
+      "description": "所属旧库列表记录"
+    },
+    "request_id": {
+      "type": "string",
+      "description": "下载日志ID"
+    },
+    "apply_id_requested": {
+      "type": "string",
+      "description": "取自该条列表的applyId；不得由型号猜造"
+    },
+    "response_path": {
+      "type": "string",
+      "description": "原queryDetail响应相对路径"
+    },
+    "response_sha256": {
+      "type": "string",
+      "pattern": "^[a-f0-9]{64}$",
+      "description": "保存文件原始字节SHA256"
+    },
+    "model_raw": {
+      "type": "string",
+      "description": "详情vehicleNumber原文"
+    },
+    "curb_mass_raw": {
+      "type": "string",
+      "description": "详情vehicleQuality原文"
+    },
+    "range_raw": {
+      "type": "string",
+      "description": "详情runingRange等原字段，保留映射位置"
+    },
+    "power_consumption_raw": {
+      "type": "string",
+      "description": "详情powerConsumption原文"
+    },
+    "standard_revision_raw": {
+      "type": "string",
+      "description": "实际testBasisStandard字面值，例GB/T 18386.1-2021"
+    },
+    "standard_evidence_quote": {
+      "type": "string",
+      "description": "详情说明原文，不能用代码猜值"
+    },
+    "standard_json_pointer": {
+      "type": "string",
+      "description": "例如/info/testBasisStandard或/info/energyConsumptionMarkDes"
+    },
+    "other_info_raw": {
+      "type": "string",
+      "description": "详情otherInfo原文，新的中国工况不能机械CLTC-P"
+    },
+    "work_condition_code_raw": {
+      "type": "string",
+      "description": "所关联列表workConditionVos原代码；详情缺时注明来自列表"
+    },
+    "work_condition_source_path": {
+      "type": "string",
+      "description": "该代码原始响应路径"
+    },
+    "work_condition_json_pointer": {
+      "type": "string",
+      "description": "实际原JSON位置，如/info/list/0/workConditionVos/0/workConditionType"
+    },
+    "cycle_named_explicit_raw": {
+      "type": "string",
+      "description": "仅明确写CLTC-P/NEDC等时填；CATC单独保留代码，不填映射名"
+    },
+    "issue_date_semantics_verified": {
+      "type": "boolean",
+      "default": false,
+      "description": "旧publicTime/列表备案号不推出检测/试验日期"
+    },
+    "historical_public_availability_certified": {
+      "type": "boolean",
+      "default": false,
+      "description": "须另证；publicTime本身不机械当首次公开"
+    },
+    "same_tax_configuration_identity_certified": {
+      "type": "boolean",
+      "default": false,
+      "description": "须正式桥；相同质量/续航不够"
+    },
+    "scope_note": {
+      "type": "string",
+      "description": "JSON为公开详情原响应；不能假称已取得官方PDF/试验报告"
+    }
+  }
+}

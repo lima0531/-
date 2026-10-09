@@ -1,0 +1,74 @@
+{
+  "generated_utc": "2026-10-09T10:08:00.074376+00:00",
+  "scientific_version": "v1.5",
+  "scientific_csv_count": 52,
+  "scientific_csv_unchanged": true,
+  "JX_original_energy_gap_remaining": 1,
+  "jx_in_2208": false,
+  "jx_new_complete_label_pdfs_verified": 2,
+  "jx_legacy_details_verified": 2,
+  "uploaded_pdf_and_json_match_current_official_retrieval_exact_bytes": true,
+  "issueDate_semantics_verified": false,
+  "pre_freeze_public_availability_of_jx_label_verified": false,
+  "old_public_view_completed": true,
+  "old_public_view_rows": 9336,
+  "old_public_view_pages": 47,
+  "new_public_view_completed": false,
+  "new_public_view_observed_rows": 800,
+  "new_public_view_observed_pages": 4,
+  "new_public_view_reported_rows": 10479,
+  "new_public_view_reported_pages": 53,
+  "new_public_view_remaining_pages": 49,
+  "new_page5_boundary": "HTTP403 No approved upstream IPv4 address; stopped and no bypass",
+  "fixed_core_models": 2208,
+  "core_models_with_any_observed_exact_record": 1234,
+  "core_models_with_old_cycle_code": 1232,
+  "both_raw_CATC_NEDC_models": 202,
+  "models_not_matched_in_observed_pages": 974,
+  "missing_match_is_not_completed_two_library_zero": true,
+  "frozen_cycle_gap_closed": 0,
+  "numeric_ready_delta": 0,
+  "false_or_industry_average_lowtemp_report_closures": 0,
+  "source_fingerprints": [
+    {
+      "file": "user_submitted/JX6550T-M5BEV_完整标签.pdf",
+      "bytes": 80946,
+      "sha256": "0721063c8b32892350150e56381ef4280bd6d10913429f85c5e476065c5a40ec"
+    },
+    {
+      "file": "user_submitted/原始记录_全程字段.json",
+      "bytes": 5325,
+      "sha256": "55bdb96be250dcc28db33b72932ba90b01e2e2078cf67316bfc892531fa92a1e"
+    },
+    {
+      "file": "user_submitted/README_用户提供原文.md",
+      "bytes": 3706,
+      "sha256": "8c1af44c93a185ffbac0d6949a7f4f59c5a7bf3c1693c75cf9d9ad6ce6dc5f28"
+    },
+    {
+      "file": "api_pilot/JX_new_page1_response.json",
+      "bytes": 5325,
+      "sha256": "55bdb96be250dcc28db33b72932ba90b01e2e2078cf67316bfc892531fa92a1e"
+    },
+    {
+      "file": "api_pilot/JX_2360_full_label_response.pdf",
+      "bytes": 80946,
+      "sha256": "0721063c8b32892350150e56381ef4280bd6d10913429f85c5e476065c5a40ec"
+    },
+    {
+      "file": "api_pilot/JX_2295_full_label_response.pdf",
+      "bytes": 80956,
+      "sha256": "b952117f2f1672ce29b31f5fbb53de8c47b73f87dfe5faea49bf6ece0a58a461"
+    },
+    {
+      "file": "public_energy_registry/registry_summary.json",
+      "bytes": 20179,
+      "sha256": "bf0b67005cccd5569003127bf5b80363c7c06f2be2bac131e8fdd57c832466be"
+    },
+    {
+      "file": "bulk_handoff/bulk_contract_summary.json",
+      "bytes": 2394,
+      "sha256": "a5214b713a2d8d77da145a1dd38ada899942ace101c7f24be6e64d8b5ba0761c"
+    }
+  ]
+}

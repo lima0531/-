@@ -1,0 +1,44 @@
+{
+  "schema_version": "1.0",
+  "network_requests_performed_by_this_handoff": 0,
+  "science_files_written": 0,
+  "core_model_count": 2208,
+  "core_model_library_run_count_when_complete": 4416,
+  "jx_in_core_2208": false,
+  "input_cycle_source_sha256": "a438f95dd4e0f3cf1ada1d27bf53716896d13fceaad2b0e6f424750a84c20d21",
+  "request_model_list_sha256": "9c0b9327f7d9270e64cb13c0ac8c0020e07db7e519983786e818a373eb79afca",
+  "source_copy_sha256": "a438f95dd4e0f3cf1ada1d27bf53716896d13fceaad2b0e6f424750a84c20d21",
+  "supplementary_non_core_model_count": 91,
+  "priority_intersections_inside_core": {
+    "configuration_36": 0,
+    "identity_285_models": 113,
+    "low_temperature_19_models": 9
+  },
+  "certification_flags_default_false": true,
+  "new_library_schema_evidence": "User-uploaded response plus current JX pilot confirm /info/list, totalSize/pages, vehicleModel; actual currentPage2 probe confirms pagination.",
+  "old_library_schema_evidence": "Current pilot JX queryList HTTP200 business result1 /info/list, vehicleNumber; queryDetail applyId returns literal standard and curb mass. Copied with fixed SHA.",
+  "business_success_codes_observed": {
+    "new": 200,
+    "old": 1
+  },
+  "pagination_field_verified": "currentPage",
+  "pagination_rejected_recipe": "pageNum=2 was ignored and returned info.currentPage=1 with repeated first page; cannot serve as enumeration proof.",
+  "new_bev_filter": {
+    "field": "energyType",
+    "value": "8"
+  },
+  "old_bev_filter": {
+    "field": "fuelType",
+    "value": "8",
+    "basis": "Official FC_FUEL_TYPE dictionary, exact dictName 纯电动"
+  },
+  "old_work_condition_observed": "CATC (raw code only; not an automatic CLTC-P mapping)",
+  "jx_cross_version_consumption_conflict": {
+    "old_kwh_per_100km": "22.8",
+    "new_kwh_per_100km": "19.2",
+    "merge_allowed": false
+  },
+  "complete_universe_cache_reuse": "If independently verified complete snapshots of the specified public energyType8/fuelType8 filter views are delivered, match fixed models locally rather than repeat 4416 live queries; download labels/details by stable record references.",
+  "scope_boundary": "Completeness concerns the public filter view, not all hidden history or certified BEV identity of every returned row. Keep response classification inconsistencies as separate evidence without dropping rows.",
+  "universe_collection_completion_not_assumed": true
+}

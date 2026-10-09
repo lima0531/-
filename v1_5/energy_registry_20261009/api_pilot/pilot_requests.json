@@ -1,0 +1,213 @@
+[
+  {
+    "requested_url": "https://yhgscx.miit.gov.cn/fuel-consumption-center/fuel-consumption-center/fcSearchCtr/queryNewList",
+    "method": "POST",
+    "json_body": {
+      "pageNum": 1,
+      "pageSize": 50,
+      "vehicleModel": "JX6550T-M5BEV"
+    },
+    "observed_utc": "2026-10-09T09:26:09.586240+00:00",
+    "tls_verified": true,
+    "no_credentials_or_validation_solution_submitted": true,
+    "status_code": 200,
+    "final_url": "https://yhgscx.miit.gov.cn/fuel-consumption-center/fuel-consumption-center/fcSearchCtr/queryNewList",
+    "content_type": "application/json;charset=UTF-8",
+    "file": "JX_new_page1_response.json",
+    "bytes": 5325,
+    "sha256": "55bdb96be250dcc28db33b72932ba90b01e2e2078cf67316bfc892531fa92a1e",
+    "business_result": 200,
+    "totalSize": 2,
+    "pages": 1,
+    "rows": 2
+  },
+  {
+    "requested_url": "https://yhgscx.miit.gov.cn/fuel-consumption-center/fuel-consumption-center/fcSearchCtr/queryList",
+    "method": "POST",
+    "observed_utc": "2026-10-09T09:28:11.196404+00:00",
+    "tls_verified": true,
+    "no_credentials_or_validation_solution_submitted": true,
+    "json_body": {
+      "pageNum": 1,
+      "pageSize": 50,
+      "vehicleNumber": "JX6550T-M5BEV"
+    },
+    "status_code": 200,
+    "final_url": "https://yhgscx.miit.gov.cn/fuel-consumption-center/fuel-consumption-center/fcSearchCtr/queryList",
+    "content_type": "application/json;charset=UTF-8",
+    "file": "JX_old_page1_response.json",
+    "bytes": 1302,
+    "sha256": "c8a3e72dbb58b0e030072ba4946814a4b77f1445ba3c172cc216ea06d1ce9c32",
+    "business_result": 1,
+    "totalSize": 2,
+    "pages": 1,
+    "rows": 2,
+    "received_models": [
+      "JX6550T-M5BEV"
+    ]
+  },
+  {
+    "requested_url": "https://yhgscx.miit.gov.cn/fuel-consumption-center/fuel-consumption-center/file/file/file/download?m=377db9bc3a76717693fff445fff4b9ae%4080946&p=1",
+    "method": "GET",
+    "observed_utc": "2026-10-09T09:28:16.842748+00:00",
+    "tls_verified": true,
+    "no_credentials_or_validation_solution_submitted": true,
+    "status_code": 200,
+    "final_url": "https://yhgscx.miit.gov.cn/fuel-consumption-center/fuel-consumption-center/file/file/file/download?m=377db9bc3a76717693fff445fff4b9ae%4080946&p=1",
+    "content_type": "application/pdf;charset=UTF-8",
+    "file": "JX_2360_full_label_response.pdf",
+    "bytes": 80946,
+    "sha256": "0721063c8b32892350150e56381ef4280bd6d10913429f85c5e476065c5a40ec"
+  },
+  {
+    "requested_url": "https://yhgscx.miit.gov.cn/fuel-consumption-center/fuel-consumption-center/file/file/file/download?m=8ba4fe7af7c3364b4e85f48231945413%4080956&p=1",
+    "method": "GET",
+    "observed_utc": "2026-10-09T09:28:22.668078+00:00",
+    "tls_verified": true,
+    "no_credentials_or_validation_solution_submitted": true,
+    "status_code": 200,
+    "final_url": "https://yhgscx.miit.gov.cn/fuel-consumption-center/fuel-consumption-center/file/file/file/download?m=8ba4fe7af7c3364b4e85f48231945413%4080956&p=1",
+    "content_type": "application/pdf;charset=UTF-8",
+    "file": "JX_2295_full_label_response.pdf",
+    "bytes": 80956,
+    "sha256": "b952117f2f1672ce29b31f5fbb53de8c47b73f87dfe5faea49bf6ece0a58a461"
+  },
+  {
+    "requested_url": "https://yhgscx.miit.gov.cn/fuel-consumption-center/fuel-consumption-center/fcSearchCtr/queryNewList",
+    "method": "POST",
+    "observed_utc": "2026-10-09T09:28:30.257540+00:00",
+    "tls_verified": true,
+    "no_credentials_or_validation_solution_submitted": true,
+    "json_body": {
+      "pageNum": 1,
+      "pageSize": 50,
+      "vehicleModel": "GTM6470BFEBEV"
+    },
+    "status_code": 200,
+    "final_url": "https://yhgscx.miit.gov.cn/fuel-consumption-center/fuel-consumption-center/fcSearchCtr/queryNewList",
+    "content_type": "application/json;charset=UTF-8",
+    "file": "GTM_new_page1_response.json",
+    "bytes": 5305,
+    "sha256": "7ebb617efd03c24902b807072b267e275efb95b310fbe9d02b46de465a489671",
+    "business_result": 200,
+    "totalSize": 2,
+    "pages": 1,
+    "rows": 2,
+    "received_models": [
+      "GTM6470BFEBEV"
+    ]
+  },
+  {
+    "requested_url": "https://yhgscx.miit.gov.cn/fuel-consumption-center/fuel-consumption-center/fcSearchCtr/queryNewList",
+    "method": "POST",
+    "observed_utc": "2026-10-09T09:28:35.415621+00:00",
+    "tls_verified": true,
+    "no_credentials_or_validation_solution_submitted": true,
+    "json_body": {
+      "pageNum": 1,
+      "pageSize": 50,
+      "vehicleModel": "CC7000CG00FBEV"
+    },
+    "status_code": 200,
+    "final_url": "https://yhgscx.miit.gov.cn/fuel-consumption-center/fuel-consumption-center/fcSearchCtr/queryNewList",
+    "content_type": "application/json;charset=UTF-8",
+    "file": "CC_new_page1_response.json",
+    "bytes": 147,
+    "sha256": "cdf9b1ab3f32720250bc8b0f5d8611a24b8c2803fd4deb608350fe11fbdafc61",
+    "business_result": 200,
+    "totalSize": 0,
+    "pages": 0,
+    "rows": 0,
+    "received_models": []
+  },
+  {
+    "requested_url": "https://yhgscx.miit.gov.cn/fuel-consumption-center/fuel-consumption-center/fcSearchCtr/queryList",
+    "method": "POST",
+    "observed_utc": "2026-10-09T09:29:59.552973+00:00",
+    "tls_verified": true,
+    "no_credentials_or_validation_solution_submitted": true,
+    "json_body": {
+      "pageNum": 1,
+      "pageSize": 50,
+      "vehicleNumber": "GTM6470BFEBEV"
+    },
+    "status_code": 200,
+    "final_url": "https://yhgscx.miit.gov.cn/fuel-consumption-center/fuel-consumption-center/fcSearchCtr/queryList",
+    "content_type": "application/json;charset=UTF-8",
+    "file": "GTM_old_page1_response.json",
+    "bytes": 1294,
+    "sha256": "6cd60fb50a3688e79404b06bae17875e5bd96b0b1eb7bf1d4a9711728c3b722d",
+    "business_result": 1,
+    "totalSize": 2,
+    "pages": 1,
+    "rows": 2,
+    "received_models": [
+      "GTM6470BFEBEV"
+    ]
+  },
+  {
+    "requested_url": "https://yhgscx.miit.gov.cn/fuel-consumption-center/fuel-consumption-center/fcSearchCtr/queryList",
+    "method": "POST",
+    "observed_utc": "2026-10-09T09:30:05.161852+00:00",
+    "tls_verified": true,
+    "no_credentials_or_validation_solution_submitted": true,
+    "json_body": {
+      "pageNum": 1,
+      "pageSize": 50,
+      "vehicleNumber": "CC7000CG00FBEV"
+    },
+    "status_code": 200,
+    "final_url": "https://yhgscx.miit.gov.cn/fuel-consumption-center/fuel-consumption-center/fcSearchCtr/queryList",
+    "content_type": "application/json;charset=UTF-8",
+    "file": "CC_old_page1_response.json",
+    "bytes": 149,
+    "sha256": "15158d2890a3c5c823b98f57e7d34ccde4a554f5aac45ff2791048050565cc02",
+    "business_result": 1,
+    "totalSize": 0,
+    "pages": 0,
+    "rows": 0,
+    "received_models": []
+  },
+  {
+    "requested_url": "https://yhgscx.miit.gov.cn/fuel-consumption-center/fuel-consumption-center/fcSearchCtr/queryDetail",
+    "method": "POST",
+    "observed_utc": "2026-10-09T09:30:08.610021+00:00",
+    "tls_verified": true,
+    "no_credentials_or_validation_solution_submitted": true,
+    "json_body": {
+      "applyId": "594e5ea08ab144b98a2c07c2f9a311a6"
+    },
+    "status_code": 200,
+    "final_url": "https://yhgscx.miit.gov.cn/fuel-consumption-center/fuel-consumption-center/fcSearchCtr/queryDetail",
+    "content_type": "application/json;charset=UTF-8",
+    "file": "JX_old_detail_2360_candidate_response.json",
+    "bytes": 1599,
+    "sha256": "4c88cf63c3bb10d29d0df596732f54feb0d2af73dec5fd9056170ce5d32058a6",
+    "business_result": 1,
+    "totalSize": null,
+    "pages": null,
+    "rows": 0,
+    "received_models": []
+  },
+  {
+    "requested_url": "https://yhgscx.miit.gov.cn/fuel-consumption-center/fuel-consumption-center/fcSearchCtr/queryDetail",
+    "method": "POST",
+    "observed_utc": "2026-10-09T09:30:11.509451+00:00",
+    "tls_verified": true,
+    "no_credentials_or_validation_solution_submitted": true,
+    "json_body": {
+      "applyId": "b527ea874fd442538c4d0d82adf5f167"
+    },
+    "status_code": 200,
+    "final_url": "https://yhgscx.miit.gov.cn/fuel-consumption-center/fuel-consumption-center/fcSearchCtr/queryDetail",
+    "content_type": "application/json;charset=UTF-8",
+    "file": "JX_old_detail_2295_candidate_response.json",
+    "bytes": 1599,
+    "sha256": "da29b57b4d7dbb3a3f7aaf898e02a38e24b59a1bbce515df91237ca9cb172079",
+    "business_result": 1,
+    "totalSize": null,
+    "pages": null,
+    "rows": 0,
+    "received_models": []
+  }
+]

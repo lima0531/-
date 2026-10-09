@@ -1,0 +1,25 @@
+{
+  "requested_url": "https://yhgscx.miit.gov.cn/fuel-consumption-center/fuel-consumption-center/fcSearchCtr/queryNewList",
+  "method": "POST",
+  "observed_utc": "2026-10-09T09:28:30.257540+00:00",
+  "tls_verified": true,
+  "no_credentials_or_validation_solution_submitted": true,
+  "json_body": {
+    "pageNum": 1,
+    "pageSize": 50,
+    "vehicleModel": "GTM6470BFEBEV"
+  },
+  "status_code": 200,
+  "final_url": "https://yhgscx.miit.gov.cn/fuel-consumption-center/fuel-consumption-center/fcSearchCtr/queryNewList",
+  "content_type": "application/json;charset=UTF-8",
+  "file": "GTM_new_page1_response.json",
+  "bytes": 5305,
+  "sha256": "7ebb617efd03c24902b807072b267e275efb95b310fbe9d02b46de465a489671",
+  "business_result": 200,
+  "totalSize": 2,
+  "pages": 1,
+  "rows": 2,
+  "received_models": [
+    "GTM6470BFEBEV"
+  ]
+}

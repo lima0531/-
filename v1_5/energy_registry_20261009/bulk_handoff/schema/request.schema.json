@@ -1,0 +1,185 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "public_energy_request_v1",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "request_id",
+    "query_run_id",
+    "library",
+    "purpose",
+    "model_requested",
+    "method",
+    "url",
+    "request_body_path",
+    "request_body_sha256",
+    "started_at_utc",
+    "finished_at_utc",
+    "http_status",
+    "business_result_raw",
+    "pagination_request_field_raw",
+    "page_requested",
+    "current_page_returned",
+    "content_type",
+    "attempt",
+    "outcome",
+    "response_path",
+    "response_bytes",
+    "response_sha256",
+    "error_note"
+  ],
+  "properties": {
+    "request_id": {
+      "type": "string",
+      "description": "全局唯一请求ID"
+    },
+    "query_run_id": {
+      "type": "string",
+      "description": "所属型号×库查询；标签下载也保留所属查询"
+    },
+    "library": {
+      "type": "string",
+      "description": "库",
+      "enum": [
+        "new",
+        "old",
+        "site_schema"
+      ]
+    },
+    "purpose": {
+      "type": "string",
+      "description": "请求用途",
+      "enum": [
+        "schema_probe",
+        "positive_control",
+        "query_page",
+        "universe_query_page",
+        "legacy_detail",
+        "full_label",
+        "other_public_evidence"
+      ]
+    },
+    "model_requested": {
+      "type": "string",
+      "description": "精确请求型号；页面模式探测或公开energyType8/fuelType8筛选视图枚举可为空"
+    },
+    "method": {
+      "type": "string",
+      "description": "实际方法",
+      "enum": [
+        "GET",
+        "POST"
+      ]
+    },
+    "url": {
+      "type": "string",
+      "description": "完整实际公开URL；不附带账户凭证"
+    },
+    "request_body_path": {
+      "type": "string",
+      "description": "保存的JSON请求体相对路径，GET为空"
+    },
+    "request_body_sha256": {
+      "anyOf": [
+        {
+          "type": "string",
+          "pattern": "^[a-f0-9]{64}$",
+          "description": "保存文件原始字节SHA256"
+        },
+        {
+          "type": "null"
+        }
+      ],
+      "description": "无实际字节文件则null，不伪造SHA"
+    },
+    "started_at_utc": {
+      "type": "string",
+      "description": "ISO8601 UTC，带Z"
+    },
+    "finished_at_utc": {
+      "type": "string",
+      "description": "ISO8601 UTC，带Z"
+    },
+    "http_status": {
+      "type": [
+        "integer",
+        "null"
+      ],
+      "minimum": 0,
+      "description": "未收到HTTP响应则null"
+    },
+    "business_result_raw": {
+      "type": "string",
+      "description": "业务结果原值；新库成功观察为200，旧库成功观察为1，不统一假定200"
+    },
+    "pagination_request_field_raw": {
+      "type": "string",
+      "description": "实际分页请求字段；本轮new/old验证为currentPage，不能用被忽略的pageNum"
+    },
+    "page_requested": {
+      "type": [
+        "integer",
+        "null"
+      ],
+      "minimum": 0,
+      "description": "实际请求页号；非分页请求null"
+    },
+    "current_page_returned": {
+      "type": [
+        "integer",
+        "null"
+      ],
+      "minimum": 0,
+      "description": "响应回显info.currentPage；非分页请求null"
+    },
+    "content_type": {
+      "type": "string",
+      "description": "实际响应Content-Type，不猜格式"
+    },
+    "attempt": {
+      "type": "integer",
+      "minimum": 1,
+      "description": "从1开始，同次失败重试单独日志"
+    },
+    "outcome": {
+      "type": "string",
+      "description": "实际结果",
+      "enum": [
+        "ok",
+        "http_error",
+        "network_error",
+        "captcha_or_login",
+        "rate_limited",
+        "invalid_json",
+        "business_error",
+        "invalid_pdf"
+      ]
+    },
+    "response_path": {
+      "type": "string",
+      "description": "原响应字节文件相对路径，无收到字节则空"
+    },
+    "response_bytes": {
+      "type": "integer",
+      "minimum": 0,
+      "description": "保存字节数，无响应为0"
+    },
+    "response_sha256": {
+      "anyOf": [
+        {
+          "type": "string",
+          "pattern": "^[a-f0-9]{64}$",
+          "description": "保存文件原始字节SHA256"
+        },
+        {
+          "type": "null"
+        }
+      ],
+      "description": "无实际字节文件则null，不伪造SHA"
+    },
+    "error_note": {
+      "type": "string",
+      "description": "错误/重定向/校验失败原文概要，不将错误当零命中"
+    }
+  }
+}

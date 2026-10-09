@@ -1,0 +1,278 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "public_energy_query_run_v1",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "query_run_id",
+    "model_requested",
+    "library",
+    "collection_mode",
+    "source_snapshot_id",
+    "source_collection_manifest_path",
+    "is_core_2208",
+    "request_model_field",
+    "request_filters_json",
+    "energy_filter_field_raw",
+    "energy_filter_value_raw",
+    "source_enumeration_complete",
+    "page_size",
+    "reported_total_first",
+    "reported_total_last",
+    "reported_pages",
+    "pages_fetched_successfully",
+    "source_collection_raw_row_count",
+    "raw_records_seen",
+    "distinct_identifier_count",
+    "distinct_full_row_hash_count",
+    "exact_model_records",
+    "nonexact_model_records",
+    "pages_complete",
+    "observed_history_filter_scope",
+    "status",
+    "response_paths_json",
+    "stop_reason"
+  ],
+  "properties": {
+    "query_run_id": {
+      "type": "string",
+      "description": "一个精确型号×一个库×本次快照的稳定ID"
+    },
+    "model_requested": {
+      "type": "string",
+      "description": "与固定名单精确一致"
+    },
+    "library": {
+      "type": "string",
+      "description": "库",
+      "enum": [
+        "new",
+        "old"
+      ]
+    },
+    "collection_mode": {
+      "type": "string",
+      "description": "来源模式",
+      "enum": [
+        "direct_model",
+        "global_enumeration"
+      ]
+    },
+    "source_snapshot_id": {
+      "type": "string",
+      "description": "完整公开纯电快照或本次型号查询的稳定ID"
+    },
+    "source_collection_manifest_path": {
+      "type": "string",
+      "description": "公开筛选视图枚举必须指向完整分页/范围/总数核验清单；逐型号可为空"
+    },
+    "is_core_2208": {
+      "type": "boolean",
+      "default": false,
+      "description": "JX正对照和可选补充任务为false"
+    },
+    "request_model_field": {
+      "type": "string",
+      "description": "经页面/schema确认的实际字段；公开筛选视图枚举没有型号条件时为空",
+      "enum": [
+        "vehicleModel",
+        "vehicleNumber",
+        ""
+      ]
+    },
+    "request_filters_json": {
+      "type": "string",
+      "description": "实际全部请求过滤项含默认状态/日期；无日期过滤也明写"
+    },
+    "energy_filter_field_raw": {
+      "type": "string",
+      "description": "实际库中纯电筛选字段；未筛为空",
+      "enum": [
+        "energyType",
+        "fuelType",
+        ""
+      ]
+    },
+    "energy_filter_value_raw": {
+      "type": "string",
+      "description": "实际正常前端/动态字典值，纯电观察8；不由reportType推断"
+    },
+    "source_enumeration_complete": {
+      "type": "boolean",
+      "default": false,
+      "description": "指定公开筛选视图分页/总行数/状态版本核验完成后true，不保证返回行都是真纯电或涵盖全部隐藏历史"
+    },
+    "page_size": {
+      "type": "integer",
+      "minimum": 0,
+      "description": "实际页长，不超过接口正常范围"
+    },
+    "reported_total_first": {
+      "type": [
+        "integer",
+        "null"
+      ],
+      "minimum": 0,
+      "description": "首屏API查询范围总数；global模式是指定公开energyType8/fuelType8视图，不是本型号配置数；不支持则null"
+    },
+    "reported_total_last": {
+      "type": [
+        "integer",
+        "null"
+      ],
+      "minimum": 0,
+      "description": "末屏API查询范围总数；global模式同样为指定公开筛选视图；不支持则null"
+    },
+    "reported_pages": {
+      "type": [
+        "integer",
+        "null"
+      ],
+      "minimum": 0,
+      "description": "服务端报告页数；没有则null"
+    },
+    "pages_fetched_successfully": {
+      "type": "integer",
+      "minimum": 0,
+      "description": "有效且不同页码的响应数"
+    },
+    "source_collection_raw_row_count": {
+      "type": "integer",
+      "minimum": 0,
+      "description": "所属实际查询/公开筛选视图快照全部原行数，必须在源manifest可核查"
+    },
+    "raw_records_seen": {
+      "type": "integer",
+      "minimum": 0,
+      "description": "此型号台账保留的原行发生数；direct含近似命中，global是精确匹配发生数；不拿视图总数冒充目标数"
+    },
+    "distinct_identifier_count": {
+      "type": "integer",
+      "minimum": 0,
+      "description": "不同UUID/uniqId等数量，只做剖面；不能要求等于报告总行数"
+    },
+    "distinct_full_row_hash_count": {
+      "type": "integer",
+      "minimum": 0,
+      "description": "全字段规范JSON行哈希不同值数；相同哈希的原发生次数仍保留"
+    },
+    "exact_model_records": {
+      "type": "integer",
+      "minimum": 0,
+      "description": "精确型号的原响应行发生次数，不冒充配置数/版本数"
+    },
+    "nonexact_model_records": {
+      "type": "integer",
+      "minimum": 0,
+      "description": "近似/错型号原响应行次数，原记录仍保留"
+    },
+    "pages_complete": {
+      "type": "boolean",
+      "default": false,
+      "description": "实际页号、全部原行数与总数对账，无忽略页号/截断/未解释漂移；UUID重复本身不使其false"
+    },
+    "observed_history_filter_scope": {
+      "type": "string",
+      "description": "只描述实际接口可见范围；不声称涵盖库中隐藏历史"
+    },
+    "status": {
+      "type": "string",
+      "description": "每型号每库必须有一个结果",
+      "enum": [
+        "complete_hits",
+        "complete_zero_hits",
+        "complete_nonexact_only",
+        "error",
+        "blocked",
+        "truncated",
+        "inconsistent",
+        "not_attempted"
+      ]
+    },
+    "response_paths_json": {
+      "type": "string",
+      "description": "按页顺序的原响应相对路径JSON数组"
+    },
+    "stop_reason": {
+      "type": "string",
+      "description": "中止/错误/零命中边界，勿写全网无数据"
+    }
+  },
+  "allOf": [
+    {
+      "if": {
+        "properties": {
+          "status": {
+            "enum": [
+              "complete_hits",
+              "complete_zero_hits",
+              "complete_nonexact_only"
+            ]
+          }
+        },
+        "required": [
+          "status"
+        ]
+      },
+      "then": {
+        "properties": {
+          "pages_complete": {
+            "const": true
+          }
+        }
+      }
+    },
+    {
+      "if": {
+        "properties": {
+          "status": {
+            "enum": [
+              "complete_hits",
+              "complete_zero_hits",
+              "complete_nonexact_only"
+            ]
+          },
+          "collection_mode": {
+            "const": "global_enumeration"
+          }
+        },
+        "required": [
+          "status",
+          "collection_mode"
+        ]
+      },
+      "then": {
+        "properties": {
+          "source_enumeration_complete": {
+            "const": true
+          },
+          "source_collection_manifest_path": {
+            "minLength": 1
+          }
+        }
+      }
+    },
+    {
+      "if": {
+        "properties": {
+          "status": {
+            "const": "complete_zero_hits"
+          }
+        },
+        "required": [
+          "status"
+        ]
+      },
+      "then": {
+        "properties": {
+          "exact_model_records": {
+            "const": 0
+          },
+          "nonexact_model_records": {
+            "const": 0
+          }
+        }
+      }
+    }
+  ]
+}

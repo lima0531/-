@@ -1,0 +1,102 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "public_energy_version_conflict_v1",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "conflict_id",
+    "model_key",
+    "left_record_key",
+    "right_record_key",
+    "candidate_pair_basis",
+    "field",
+    "left_raw_value",
+    "right_raw_value",
+    "left_source_path",
+    "right_source_path",
+    "left_source_locator",
+    "right_source_locator",
+    "resolution_status",
+    "resolution_evidence_paths_json",
+    "same_configuration_identity_certified",
+    "merge_allowed",
+    "scope_note"
+  ],
+  "properties": {
+    "conflict_id": {
+      "type": "string",
+      "description": "稳定冲突ID"
+    },
+    "model_key": {
+      "type": "string",
+      "description": "精确型号"
+    },
+    "left_record_key": {
+      "type": "string",
+      "description": "候选关联左记录"
+    },
+    "right_record_key": {
+      "type": "string",
+      "description": "候选关联右记录"
+    },
+    "candidate_pair_basis": {
+      "type": "string",
+      "description": "例同型号+质量/续航一致，仅候选关联，不是配置认证"
+    },
+    "field": {
+      "type": "string",
+      "description": "冲突字段，如electric_energy_consumption"
+    },
+    "left_raw_value": {
+      "type": "string",
+      "description": "原值和单位"
+    },
+    "right_raw_value": {
+      "type": "string",
+      "description": "原值和单位"
+    },
+    "left_source_path": {
+      "type": "string",
+      "description": "左侧原响应/PDF路径"
+    },
+    "right_source_path": {
+      "type": "string",
+      "description": "右侧原响应/PDF路径"
+    },
+    "left_source_locator": {
+      "type": "string",
+      "description": "JSONpointer或PDF页码"
+    },
+    "right_source_locator": {
+      "type": "string",
+      "description": "JSONpointer或PDF页码"
+    },
+    "resolution_status": {
+      "type": "string",
+      "description": "处置",
+      "enum": [
+        "unresolved_keep_separate",
+        "different_configuration_proven",
+        "official_correction_proven"
+      ]
+    },
+    "resolution_evidence_paths_json": {
+      "type": "string",
+      "description": "未取得时[]；不能编造迁移/口径差异原因"
+    },
+    "same_configuration_identity_certified": {
+      "type": "boolean",
+      "default": false,
+      "description": "同质量续航仍false"
+    },
+    "merge_allowed": {
+      "type": "boolean",
+      "default": false,
+      "description": "保守默认false；需正式版本/配置对应和修订依据"
+    },
+    "scope_note": {
+      "type": "string",
+      "description": "冲突不是可平均值或可任取其一的证据"
+    }
+  }
+}

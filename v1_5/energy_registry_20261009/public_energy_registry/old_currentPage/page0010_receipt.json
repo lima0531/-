@@ -1,0 +1,22 @@
+{
+  "library": "old",
+  "page": 10,
+  "requested_url": "https://yhgscx.miit.gov.cn/fuel-consumption-center/fuel-consumption-center/fcSearchCtr/queryList",
+  "request_json": {
+    "currentPage": 10,
+    "pageSize": 200,
+    "fuelType": "8"
+  },
+  "method": "POST",
+  "observed_utc": "2026-10-09T09:50:57.435837+00:00",
+  "tls_verified": true,
+  "no_credentials_or_captcha_solution_submitted": true,
+  "http_status": 503,
+  "final_url": "https://yhgscx.miit.gov.cn/fuel-consumption-center/fuel-consumption-center/fcSearchCtr/queryList",
+  "content_type": "text/plain",
+  "file": "old_currentPage/page0010_response.json",
+  "bytes": 95,
+  "sha256": "9deff96f9b5925fa5081257849ace321304b382d64cfb67d90a21a3c7cbf2925",
+  "finished_utc": "2026-10-09T09:50:57.562917+00:00",
+  "parse_error": "invalid_json"
+}

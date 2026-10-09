@@ -20,14 +20,14 @@
     },
     {
       "file": "audit_report.md",
-      "bytes": 10731,
-      "sha256": "1dfb0941f934bacd12b162a22694cac209bf158da3d4e7f83a9df81bb416b690",
+      "bytes": 11030,
+      "sha256": "09a2e6ada3dacdc61f1e5e3e0ff6e365fe56521c0b1a14b6f59e4d5c06631068",
       "github_file_page": "https://github.com/lima0531/-/blob/purchase-tax-v1-4-files/v1_5/audit_report.md"
     },
     {
       "file": "requirements/需要用户亲自提供的数据.md",
-      "bytes": 10936,
-      "sha256": "f70f59d7e388780fa938a32fe5bf32424fa5b576943f64a45aaf1a71f3a63b0a",
+      "bytes": 11233,
+      "sha256": "abf47bb7d400a1e986124517fbb741f503cda8f09620c33ac64c49a3538fc5a1",
       "github_file_page": "https://github.com/lima0531/-/blob/purchase-tax-v1-4-files/v1_5/requirements/需要用户亲自提供的数据.md"
     },
     {
@@ -58,8 +58,8 @@
     },
     {
       "file": "public_completion_20261009/README.md",
-      "bytes": 6222,
-      "sha256": "656a6346c88974409311276c2c83d318f5097db9032b2b941ff4d679a5175984",
+      "bytes": 6438,
+      "sha256": "3b2bfa8bed6d3b019b428b0236e33f01cad46c58a5a2ee543fb98ab68c7abac4",
       "github_file_page": "https://github.com/lima0531/-/blob/purchase-tax-v1-4-files/v1_5/public_completion_20261009/README.md"
     },
     {
@@ -71,13 +71,29 @@
       "all_members_crc_and_sha_verified": true,
       "includes_scientific_data_replacement": false,
       "original_file_name": "购置税v1_5_公开补查与企业询证交接_20261009.zip"
+    },
+    {
+      "file": "energy_registry_20261009/README.md",
+      "bytes": 5080,
+      "sha256": "c36a3a0629b34e0f0a84ba4864afdba4e5bdc700a4c15abe795111c86b74bc32",
+      "github_file_page": "https://github.com/lima0531/-/blob/purchase-tax-v1-4-files/v1_5/energy_registry_20261009/README.md"
+    },
+    {
+      "file": "energy_registry_20261009/energy_records_and_review_20261009.zip",
+      "bytes": 2814421,
+      "sha256": "3bf75d9b8c33f51de3cb7b2690db2142d31b68e727fae224a43d7b2ffa2b9184",
+      "github_file_page": "https://github.com/lima0531/-/blob/purchase-tax-v1-4-files/v1_5/energy_registry_20261009/energy_records_and_review_20261009.zip",
+      "member_files": 226,
+      "all_members_crc_and_sha_verified": true,
+      "includes_scientific_data_replacement": false,
+      "original_file_name": "购置税v1_5_官方能耗资料与批量核查_20261009.zip"
     }
   ],
   "files_excluding_this_manifest": [
     {
       "file": "README.md",
-      "bytes": 3380,
-      "sha256": "46663d7d468bfa68e505fac08675610822911d5f9899af3660dfdca4dd0ee551"
+      "bytes": 3679,
+      "sha256": "f08e4c5a99ec9b07831990b39bde5b2644034acf6e0b4673f5fcd87c539dfaf9"
     },
     {
       "file": "aggregate_source_audit.py",
@@ -86,8 +102,8 @@
     },
     {
       "file": "audit_report.md",
-      "bytes": 10731,
-      "sha256": "1dfb0941f934bacd12b162a22694cac209bf158da3d4e7f83a9df81bb416b690"
+      "bytes": 11030,
+      "sha256": "09a2e6ada3dacdc61f1e5e3e0ff6e365fe56521c0b1a14b6f59e4d5c06631068"
     },
     {
       "file": "batch01/68项科学原值_逐字段对账.csv",
@@ -238,6 +254,1141 @@
       "file": "core_package_result_v1_5.json",
       "bytes": 494,
       "sha256": "65514f30c15a224ae89769b109690eba69bbee4112181177d6fcea46ad99e0b0"
+    },
+    {
+      "file": "energy_registry_20261009/README.md",
+      "bytes": 5080,
+      "sha256": "c36a3a0629b34e0f0a84ba4864afdba4e5bdc700a4c15abe795111c86b74bc32"
+    },
+    {
+      "file": "energy_registry_20261009/api_pilot/CC_new_page1_receipt.json",
+      "bytes": 803,
+      "sha256": "8fad8ff23ac590cdd779a4a941be0d3c66345b080c8445e5064e9340ff5af43a"
+    },
+    {
+      "file": "energy_registry_20261009/api_pilot/CC_new_page1_response.json",
+      "bytes": 147,
+      "sha256": "cdf9b1ab3f32720250bc8b0f5d8611a24b8c2803fd4deb608350fe11fbdafc61"
+    },
+    {
+      "file": "energy_registry_20261009/api_pilot/CC_old_page1_receipt.json",
+      "bytes": 796,
+      "sha256": "4f27367e4d6817b3deaf549693995ec37f717829176ecaca5cbcf68ff0e1864c"
+    },
+    {
+      "file": "energy_registry_20261009/api_pilot/CC_old_page1_response.json",
+      "bytes": 149,
+      "sha256": "15158d2890a3c5c823b98f57e7d34ccde4a554f5aac45ff2791048050565cc02"
+    },
+    {
+      "file": "energy_registry_20261009/api_pilot/GTM_new_page1_receipt.json",
+      "bytes": 827,
+      "sha256": "4ec0731278c9fb04bf6f43921b9077d103f91e81eba496e56076cb71b68668bb"
+    },
+    {
+      "file": "energy_registry_20261009/api_pilot/GTM_new_page1_response.json",
+      "bytes": 5305,
+      "sha256": "7ebb617efd03c24902b807072b267e275efb95b310fbe9d02b46de465a489671"
+    },
+    {
+      "file": "energy_registry_20261009/api_pilot/GTM_old_page1_receipt.json",
+      "bytes": 820,
+      "sha256": "11c281f5579287c733332580886e18932569acebaf0f8bd5af762718aa220f62"
+    },
+    {
+      "file": "energy_registry_20261009/api_pilot/GTM_old_page1_response.json",
+      "bytes": 1294,
+      "sha256": "6cd60fb50a3688e79404b06bae17875e5bd96b0b1eb7bf1d4a9711728c3b722d"
+    },
+    {
+      "file": "energy_registry_20261009/api_pilot/JX_2295_full_label_receipt.json",
+      "bytes": 707,
+      "sha256": "6784624e991d0945fe2dd61ad19888830f9acf8b30e85ff38316a50994389e63"
+    },
+    {
+      "file": "energy_registry_20261009/api_pilot/JX_2295_full_label_response.pdf",
+      "bytes": 80956,
+      "sha256": "b952117f2f1672ce29b31f5fbb53de8c47b73f87dfe5faea49bf6ece0a58a461"
+    },
+    {
+      "file": "energy_registry_20261009/api_pilot/JX_2360_full_label_receipt.json",
+      "bytes": 707,
+      "sha256": "4bb2078ab1f3e511b573eaabff6e5f43a5e02b10bb70e1eea08e850ebf358d72"
+    },
+    {
+      "file": "energy_registry_20261009/api_pilot/JX_2360_full_label_response.pdf",
+      "bytes": 80946,
+      "sha256": "0721063c8b32892350150e56381ef4280bd6d10913429f85c5e476065c5a40ec"
+    },
+    {
+      "file": "energy_registry_20261009/api_pilot/JX_new_page1_receipt.json",
+      "bytes": 778,
+      "sha256": "8f08a5ad2277ea6f718d020b88cec084a76b1933b1573aec0e4162cb56555028"
+    },
+    {
+      "file": "energy_registry_20261009/api_pilot/JX_new_page1_response.json",
+      "bytes": 5325,
+      "sha256": "55bdb96be250dcc28db33b72932ba90b01e2e2078cf67316bfc892531fa92a1e"
+    },
+    {
+      "file": "energy_registry_20261009/api_pilot/JX_old_detail_2295_candidate_receipt.json",
+      "bytes": 797,
+      "sha256": "181e111bd500dc0b229191e18b0c6704cd961a4cb2835badf3628b51283b7b48"
+    },
+    {
+      "file": "energy_registry_20261009/api_pilot/JX_old_detail_2295_candidate_response.json",
+      "bytes": 1599,
+      "sha256": "da29b57b4d7dbb3a3f7aaf898e02a38e24b59a1bbce515df91237ca9cb172079"
+    },
+    {
+      "file": "energy_registry_20261009/api_pilot/JX_old_detail_2360_candidate_receipt.json",
+      "bytes": 797,
+      "sha256": "9f3f247ef195e63f4bab2cbc326ec979aea74feb8e4b5492b22fa8af19423fb2"
+    },
+    {
+      "file": "energy_registry_20261009/api_pilot/JX_old_detail_2360_candidate_response.json",
+      "bytes": 1599,
+      "sha256": "4c88cf63c3bb10d29d0df596732f54feb0d2af73dec5fd9056170ce5d32058a6"
+    },
+    {
+      "file": "energy_registry_20261009/api_pilot/JX_old_page1_receipt.json",
+      "bytes": 819,
+      "sha256": "fdeca999538bcc4d7a304f5f2efe07887d6bf7ad67e066c45995135fbe5f9927"
+    },
+    {
+      "file": "energy_registry_20261009/api_pilot/JX_old_page1_response.json",
+      "bytes": 1302,
+      "sha256": "c8a3e72dbb58b0e030072ba4946814a4b77f1445ba3c172cc216ea06d1ce9c32"
+    },
+    {
+      "file": "energy_registry_20261009/api_pilot/README.md",
+      "bytes": 4665,
+      "sha256": "5cf532eead282989e33e4759e12dc9d66f5c909f8ebda4fc703110dd2b0be458"
+    },
+    {
+      "file": "energy_registry_20261009/api_pilot/collect_pilot.py",
+      "bytes": 4067,
+      "sha256": "de8869a425597f98dfbc60521de2b27f67dcccf40c51773b4254613db166c7e4"
+    },
+    {
+      "file": "energy_registry_20261009/api_pilot/new_all_bev_probe_page1_receipt.json",
+      "bytes": 3511,
+      "sha256": "65e13a390eb0562518f971792025a428ef1cbf5b3acc5a72ecca7d287dd11249"
+    },
+    {
+      "file": "energy_registry_20261009/api_pilot/new_all_bev_probe_page1_response.json",
+      "bytes": 524833,
+      "sha256": "18fa8bfbe00a7458ed407485d1de5eb9d03a489541e288fdf6530bfe870b92a8"
+    },
+    {
+      "file": "energy_registry_20261009/api_pilot/new_current_page2_probe_receipt.json",
+      "bytes": 3426,
+      "sha256": "416249ae2455b439f6f998672d155bd514cac623a1b2efb62e7444045d28a26b"
+    },
+    {
+      "file": "energy_registry_20261009/api_pilot/new_current_page2_probe_response.json",
+      "bytes": 518925,
+      "sha256": "17fbe796d6995b3bc890f9b257ff2efeb57b1d6b2d032923403d75e4508ec900"
+    },
+    {
+      "file": "energy_registry_20261009/api_pilot/new_energy8_probe_page1_receipt.json",
+      "bytes": 3312,
+      "sha256": "2c18b5cb92b3e206613a81edf707ee5759b3f67fd85d33a9e1f3ec749fbdf76d"
+    },
+    {
+      "file": "energy_registry_20261009/api_pilot/new_energy8_probe_page1_response.json",
+      "bytes": 520951,
+      "sha256": "1171722e6dfdb4e0943e3995d0e44d64c0324c58ecba9d64ed544b8a53aeab2d"
+    },
+    {
+      "file": "energy_registry_20261009/api_pilot/official_fuel_type_dictionary_receipt.json",
+      "bytes": 727,
+      "sha256": "b8761e5fd2b47fb488c1473f5c17ce4ee262cc66cc03c73668e20932d12a2b3e"
+    },
+    {
+      "file": "energy_registry_20261009/api_pilot/official_fuel_type_dictionary_response.json",
+      "bytes": 2186,
+      "sha256": "1887c6b9552573da90ef7a7e27fa21dc08b93b7bf7689d04a8c45e59ce90a049"
+    },
+    {
+      "file": "energy_registry_20261009/api_pilot/old_all_bev_probe_page1_receipt.json",
+      "bytes": 3361,
+      "sha256": "0daf21fbf8f073d9a140e93a7816d0e07b768a81233335efeccf056dbcf8a38d"
+    },
+    {
+      "file": "energy_registry_20261009/api_pilot/old_all_bev_probe_page1_response.json",
+      "bytes": 117619,
+      "sha256": "68e4d6767b6ac4c56161babbe6489732956096a0b2710d4aff0c6dbc9d53de56"
+    },
+    {
+      "file": "energy_registry_20261009/api_pilot/old_current_page2_probe_receipt.json",
+      "bytes": 3745,
+      "sha256": "95ec7b2df5d79e535820355b90b2f16987553bdd96e3d4db315ee41e3f4d6990"
+    },
+    {
+      "file": "energy_registry_20261009/api_pilot/old_current_page2_probe_response.json",
+      "bytes": 116699,
+      "sha256": "3d42ce220d4484ce7b4692ccabb7878da3e0686e764ba7d01ba17f771e0e3028"
+    },
+    {
+      "file": "energy_registry_20261009/api_pilot/pilot_requests.json",
+      "bytes": 8286,
+      "sha256": "2bfb44e4f33d54888bf47611c4c53e871fd59761f18b4a53abf9f262e9fbd7dc"
+    },
+    {
+      "file": "energy_registry_20261009/api_pilot/文件_SHA256.csv",
+      "bytes": 3635,
+      "sha256": "f70b79021d062d00e7a177d0433c386c9bf9f846f4e76792a53630537d2d9667"
+    },
+    {
+      "file": "energy_registry_20261009/bulk_handoff/2208精确请求型号名单.csv",
+      "bytes": 404024,
+      "sha256": "9c0b9327f7d9270e64cb13c0ac8c0020e07db7e519983786e818a373eb79afca"
+    },
+    {
+      "file": "energy_registry_20261009/bulk_handoff/README.md",
+      "bytes": 11300,
+      "sha256": "d62cf046dfd07dfcb39ed65fff3d83e8a555247848212c0a3a235ffb7c9dcac3"
+    },
+    {
+      "file": "energy_registry_20261009/bulk_handoff/build_spec.py",
+      "bytes": 30220,
+      "sha256": "e14d38fade9e2f451897ebc6a2a8753574b2b5685eed8ae2e9033ec110eef78d"
+    },
+    {
+      "file": "energy_registry_20261009/bulk_handoff/bulk_contract_summary.json",
+      "bytes": 2394,
+      "sha256": "a5214b713a2d8d77da145a1dd38ada899942ace101c7f24be6e64d8b5ba0761c"
+    },
+    {
+      "file": "energy_registry_20261009/bulk_handoff/inputs/2208型号_冻结来源旁表.csv",
+      "bytes": 1472090,
+      "sha256": "a438f95dd4e0f3cf1ada1d27bf53716896d13fceaad2b0e6f424750a84c20d21"
+    },
+    {
+      "file": "energy_registry_20261009/bulk_handoff/inputs/285版本_身份与低温用途参考.csv",
+      "bytes": 223239,
+      "sha256": "86e82acee6b42ccc1d21561239e43675edab23c6f288fa692b14463a25a02ccc"
+    },
+    {
+      "file": "energy_registry_20261009/bulk_handoff/inputs/schema_probe/JX_new_page1_response.json",
+      "bytes": 5325,
+      "sha256": "55bdb96be250dcc28db33b72932ba90b01e2e2078cf67316bfc892531fa92a1e"
+    },
+    {
+      "file": "energy_registry_20261009/bulk_handoff/inputs/schema_probe/JX_old_detail_2295_candidate_response.json",
+      "bytes": 1599,
+      "sha256": "da29b57b4d7dbb3a3f7aaf898e02a38e24b59a1bbce515df91237ca9cb172079"
+    },
+    {
+      "file": "energy_registry_20261009/bulk_handoff/inputs/schema_probe/JX_old_detail_2360_candidate_response.json",
+      "bytes": 1599,
+      "sha256": "4c88cf63c3bb10d29d0df596732f54feb0d2af73dec5fd9056170ce5d32058a6"
+    },
+    {
+      "file": "energy_registry_20261009/bulk_handoff/inputs/schema_probe/JX_old_page1_response.json",
+      "bytes": 1302,
+      "sha256": "c8a3e72dbb58b0e030072ba4946814a4b77f1445ba3c172cc216ea06d1ce9c32"
+    },
+    {
+      "file": "energy_registry_20261009/bulk_handoff/inputs/schema_probe/new_current_page2_probe_response.json",
+      "bytes": 518925,
+      "sha256": "17fbe796d6995b3bc890f9b257ff2efeb57b1d6b2d032923403d75e4508ec900"
+    },
+    {
+      "file": "energy_registry_20261009/bulk_handoff/inputs/schema_probe/official_fuel_type_dictionary_response.json",
+      "bytes": 2186,
+      "sha256": "1887c6b9552573da90ef7a7e27fa21dc08b93b7bf7689d04a8c45e59ce90a049"
+    },
+    {
+      "file": "energy_registry_20261009/bulk_handoff/inputs/schema_probe/old_current_page2_probe_response.json",
+      "bytes": 116699,
+      "sha256": "3d42ce220d4484ce7b4692ccabb7878da3e0686e764ba7d01ba17f771e0e3028"
+    },
+    {
+      "file": "energy_registry_20261009/bulk_handoff/schema/delivery_manifest.schema.json",
+      "bytes": 2694,
+      "sha256": "d2889d4fe6c65a4d592009cec4250171147c0837b6c98570d58f17a80b6b3a68"
+    },
+    {
+      "file": "energy_registry_20261009/bulk_handoff/schema/label_evidence.schema.json",
+      "bytes": 4885,
+      "sha256": "84c4fb707127ed809437035f6d52e6afd31159ba1fbab34dbe4ea5f96dd37f8b"
+    },
+    {
+      "file": "energy_registry_20261009/bulk_handoff/schema/legacy_detail.schema.json",
+      "bytes": 3776,
+      "sha256": "a8e6ce8da8843b48fd545bf525e078b420ec9bb6c7e2126df7161058ff65818e"
+    },
+    {
+      "file": "energy_registry_20261009/bulk_handoff/schema/query_run.schema.json",
+      "bytes": 7580,
+      "sha256": "ad515f6bedfa23ad3277997374f58fd42a6d9f4ec8c839c5068928d5c7326714"
+    },
+    {
+      "file": "energy_registry_20261009/bulk_handoff/schema/record.schema.json",
+      "bytes": 9948,
+      "sha256": "3ea9e25f75e92cf9540e31c931356c09b4270868bd95fc822b7730ce1229cd74"
+    },
+    {
+      "file": "energy_registry_20261009/bulk_handoff/schema/request.schema.json",
+      "bytes": 4576,
+      "sha256": "690d8423d0e50607841d43f16fa24069d46cc94c98c23d3b9ddb0ee446ffef7a"
+    },
+    {
+      "file": "energy_registry_20261009/bulk_handoff/schema/version_conflict.schema.json",
+      "bytes": 2713,
+      "sha256": "df18cca9bb91dec5594e38cbe268a0684d4acebe9d628de3cb51f4bbc2ec5df6"
+    },
+    {
+      "file": "energy_registry_20261009/bulk_handoff/templates/label_evidences_空表模板.csv",
+      "bytes": 501,
+      "sha256": "db0d56106b094aeb118e27adcae61401fb32e8b9c77e55bedcd345a164e02c52"
+    },
+    {
+      "file": "energy_registry_20261009/bulk_handoff/templates/legacy_details_空表模板.csv",
+      "bytes": 460,
+      "sha256": "d5360b5031092edbd5d86a01e866d23e4bc15a42feb29057d5a881a5ac4b8f76"
+    },
+    {
+      "file": "energy_registry_20261009/bulk_handoff/templates/query_runs_空表模板.csv",
+      "bytes": 561,
+      "sha256": "766ac88518a84885f7926f3b6ef7eb82cc5436db332270ecb50c4f13630eb920"
+    },
+    {
+      "file": "energy_registry_20261009/bulk_handoff/templates/records_空表模板.csv",
+      "bytes": 1257,
+      "sha256": "7bc885e050b3a3bfd5982d788b12a211c7ffcaf4d5ff3e3684f27718186583b9"
+    },
+    {
+      "file": "energy_registry_20261009/bulk_handoff/templates/requests_空表模板.csv",
+      "bytes": 322,
+      "sha256": "064c069ba24624fd852437deb5407429b6be999e5b5512cf4c666d18fff45aea"
+    },
+    {
+      "file": "energy_registry_20261009/bulk_handoff/templates/version_conflicts_空表模板.csv",
+      "bytes": 304,
+      "sha256": "a348099a2419391e011f89588fa7bb36d80aaef50719e167f715415a6b9a12f0"
+    },
+    {
+      "file": "energy_registry_20261009/bulk_handoff/不在2208内_其他用途可选精确型号.csv",
+      "bytes": 4835,
+      "sha256": "954ffe67194008cd6455cf8bcbc1726440ef2b3af2764ce04e9acba2c063fdd5"
+    },
+    {
+      "file": "energy_registry_20261009/bulk_handoff/固定输入指纹.json",
+      "bytes": 4055,
+      "sha256": "4e34306a358bcb4d2b93b28a9d009d57016a06a4f1ea9c6413c0de3ea496dd4d"
+    },
+    {
+      "file": "energy_registry_20261009/bulk_handoff/文件_SHA256.csv",
+      "bytes": 3202,
+      "sha256": "7d210cdeaee29141a3d4f1aa6a22590edfa786d3425028ca6ed50b8a1d1ec1c4"
+    },
+    {
+      "file": "energy_registry_20261009/bulk_handoff/额外正对照_JX不计入2208.csv",
+      "bytes": 271,
+      "sha256": "86ac936efca0951574fb3c2e279c6aa02d8c945103b2bac88d761d592bb899cf"
+    },
+    {
+      "file": "energy_registry_20261009/energy_evidence_summary.json",
+      "bytes": 2749,
+      "sha256": "8e443028b3d284598dddfdc21cd85e4ab15374fbe5bc5c6165dc90e111db4e58"
+    },
+    {
+      "file": "energy_registry_20261009/energy_records_and_review_20261009.zip",
+      "bytes": 2814421,
+      "sha256": "3bf75d9b8c33f51de3cb7b2690db2142d31b68e727fae224a43d7b2ffa2b9184"
+    },
+    {
+      "file": "energy_registry_20261009/independent_pdf_review/JX_2295_PDF文本_PyMuPDF.txt",
+      "bytes": 1243,
+      "sha256": "5d99a65d6c23a3c6061599b5525278d6d0988f79bb3858a5aea0eb0050c21c4d"
+    },
+    {
+      "file": "energy_registry_20261009/independent_pdf_review/JX_2295_PDF文本_pypdf.txt",
+      "bytes": 1246,
+      "sha256": "bd2158a078e4b6207da7ce32dbed9d64804e33e4f3c3a52a8559e2a5ee32ce87"
+    },
+    {
+      "file": "energy_registry_20261009/independent_pdf_review/JX_2295_标签_第1页.png",
+      "bytes": 173082,
+      "sha256": "c73c412808d525ac3eb90ea1e139781f85fe102620bdfcfb7bf6c8d8639886a5"
+    },
+    {
+      "file": "energy_registry_20261009/independent_pdf_review/JX_2360_PDF文本_PyMuPDF.txt",
+      "bytes": 1243,
+      "sha256": "b31c8d56ebc662facf8906ca4fd8420efa8f7b0ad1028f7dd650cb560bdcae7e"
+    },
+    {
+      "file": "energy_registry_20261009/independent_pdf_review/JX_2360_PDF文本_pypdf.txt",
+      "bytes": 1246,
+      "sha256": "f7a61af92a0a3f499a8f4083103a7e454440d99f0905567f56fc4f633e508531"
+    },
+    {
+      "file": "energy_registry_20261009/independent_pdf_review/JX_2360_标签_第1页.png",
+      "bytes": 173324,
+      "sha256": "09826f97d2393fa1f7af7d7fbaedca73c23cdb7ef42d9b0a287db7dd41492022"
+    },
+    {
+      "file": "energy_registry_20261009/independent_pdf_review/PDF文本_PyMuPDF.txt",
+      "bytes": 1243,
+      "sha256": "b31c8d56ebc662facf8906ca4fd8420efa8f7b0ad1028f7dd650cb560bdcae7e"
+    },
+    {
+      "file": "energy_registry_20261009/independent_pdf_review/PDF文本_pypdf.txt",
+      "bytes": 1246,
+      "sha256": "f7a61af92a0a3f499a8f4083103a7e454440d99f0905567f56fc4f633e508531"
+    },
+    {
+      "file": "energy_registry_20261009/independent_pdf_review/README.md",
+      "bytes": 5665,
+      "sha256": "59b2d708d721cfd3cba20fbc6814987a849ef8caf32dc1af69f134e197ba2d82"
+    },
+    {
+      "file": "energy_registry_20261009/independent_pdf_review/live_label_pair_review.json",
+      "bytes": 6322,
+      "sha256": "9fb954f44a999fba7b31b577357c1b346a4f6230c6f1dd8e8fe3a71738a46ad3"
+    },
+    {
+      "file": "energy_registry_20261009/independent_pdf_review/live_label_pair_review.md",
+      "bytes": 2588,
+      "sha256": "aa9a303c62579f0f981121d8c267aa5d3f8d9cb84a79c33264ac3105afd089be"
+    },
+    {
+      "file": "energy_registry_20261009/independent_pdf_review/review.json",
+      "bytes": 15189,
+      "sha256": "82633c20162e5930d2f005abdacc2d1e29e5e4ff1de1a32f5b5415a19eb40f6b"
+    },
+    {
+      "file": "energy_registry_20261009/independent_pdf_review/review_inputs.py",
+      "bytes": 9426,
+      "sha256": "cd6e3d79149f9fcc7fae1118da4456ba7b43eb0a82729d3a61c525500a3dbcab"
+    },
+    {
+      "file": "energy_registry_20261009/independent_pdf_review/review_live_labels.py",
+      "bytes": 5471,
+      "sha256": "6a2e8550cbaacabc7a059cb947251a1e204192c0ad8aadc44f5432974e3e3694"
+    },
+    {
+      "file": "energy_registry_20261009/independent_pdf_review/文件_SHA256.csv",
+      "bytes": 1440,
+      "sha256": "9d724054365c8e37316e200eae752703e7a8a1e4ff940bb13f199d393a32098e"
+    },
+    {
+      "file": "energy_registry_20261009/independent_pdf_review/标签_第1页.png",
+      "bytes": 173324,
+      "sha256": "09826f97d2393fa1f7af7d7fbaedca73c23cdb7ef42d9b0a287db7dd41492022"
+    },
+    {
+      "file": "energy_registry_20261009/independent_scope_review/README.md",
+      "bytes": 3962,
+      "sha256": "40436cb61f9baad84548e3986eb5aee60c45b81391794916416dc0c236ef6f9b"
+    },
+    {
+      "file": "energy_registry_20261009/independent_scope_review/registry_join_readonly_review.json",
+      "bytes": 63533,
+      "sha256": "98c496405c1e5ff63e3d779fa1e8641097547f8cea3894dc621bdd430d225a70"
+    },
+    {
+      "file": "energy_registry_20261009/independent_scope_review/review.json",
+      "bytes": 32647,
+      "sha256": "93331b7fb1ea58277b1e5a128ac8ff426af7529527661452a307ca8aed5ff952"
+    },
+    {
+      "file": "energy_registry_20261009/independent_scope_review/review_registry_join.py",
+      "bytes": 15546,
+      "sha256": "45ca631d45952b67753cf8fc5677d4e9d9bc30f3794d15f643e6d61d8432a9f6"
+    },
+    {
+      "file": "energy_registry_20261009/independent_scope_review/review_scope.py",
+      "bytes": 16061,
+      "sha256": "951912c962c60d827fe945f09b5c594e247acb8c1ca2c454baec0d97489cf670"
+    },
+    {
+      "file": "energy_registry_20261009/independent_scope_review/文件_SHA256.csv",
+      "bytes": 478,
+      "sha256": "90d353e129ee8eb701e578405308d33e2fc83fbfd508e5f241bac1c95d7101fb"
+    },
+    {
+      "file": "energy_registry_20261009/public_energy_registry/2208型号_两库完整视图精确匹配.csv",
+      "bytes": 672581,
+      "sha256": "ad45b4776dfae60606067aa4be254809e948dc4c0e3057d1cbec26fa9b16a14c"
+    },
+    {
+      "file": "energy_registry_20261009/public_energy_registry/README.md",
+      "bytes": 5504,
+      "sha256": "76cea3482b19fd5d13d7741fdb4dd2206be38942c1d2f8315dbc15621b488ad0"
+    },
+    {
+      "file": "energy_registry_20261009/public_energy_registry/analyze_registry.py",
+      "bytes": 11049,
+      "sha256": "b45a27a37266b00099d008885f93845b13718ba84e29d0056a5150e4e1aa7bde"
+    },
+    {
+      "file": "energy_registry_20261009/public_energy_registry/collect_registry.py",
+      "bytes": 6357,
+      "sha256": "b2ba875d9931326e3d39e9f976ac7c9dff788aa1ec2ffe897050ef6cc6ab88d4"
+    },
+    {
+      "file": "energy_registry_20261009/public_energy_registry/failed_pageNum_checkpoint.json",
+      "bytes": 587,
+      "sha256": "27b362ffe94093dc97dca7b07d75aa2db4731e51ad81c85b4959b29d9071883c"
+    },
+    {
+      "file": "energy_registry_20261009/public_energy_registry/failed_uuid_unique_assumption_checkpoint.json",
+      "bytes": 594,
+      "sha256": "30bc30eb87ba59f0567b1f179ae921b5700a94a83f4b7409de43059f6a8eb95a"
+    },
+    {
+      "file": "energy_registry_20261009/public_energy_registry/new/page0001_receipt.json",
+      "bytes": 783,
+      "sha256": "7d00270e401957a4ca1fe7e9ebb6bf78604a607e4d024909dd8ef63043e6b2c1"
+    },
+    {
+      "file": "energy_registry_20261009/public_energy_registry/new/page0001_response.json",
+      "bytes": 520951,
+      "sha256": "1171722e6dfdb4e0943e3995d0e44d64c0324c58ecba9d64ed544b8a53aeab2d"
+    },
+    {
+      "file": "energy_registry_20261009/public_energy_registry/new/page0002_receipt.json",
+      "bytes": 783,
+      "sha256": "6533859163e4ee1812c0d2fe482096cc47583b86ccaf09688e826026b6a7d223"
+    },
+    {
+      "file": "energy_registry_20261009/public_energy_registry/new/page0002_response.json",
+      "bytes": 520951,
+      "sha256": "1171722e6dfdb4e0943e3995d0e44d64c0324c58ecba9d64ed544b8a53aeab2d"
+    },
+    {
+      "file": "energy_registry_20261009/public_energy_registry/new_checkpoint.json",
+      "bytes": 995,
+      "sha256": "59a112a949ea18b4ae45c3b1ce573226b19c4f1a697532c86dc3511677e9a17e"
+    },
+    {
+      "file": "energy_registry_20261009/public_energy_registry/new_currentPage/page0001_receipt.json",
+      "bytes": 799,
+      "sha256": "8f88a767a20ae41b78edb7fb1d76ce4dab5bf7a54399c4acd69246b705348f4d"
+    },
+    {
+      "file": "energy_registry_20261009/public_energy_registry/new_currentPage/page0001_response.json",
+      "bytes": 520951,
+      "sha256": "1171722e6dfdb4e0943e3995d0e44d64c0324c58ecba9d64ed544b8a53aeab2d"
+    },
+    {
+      "file": "energy_registry_20261009/public_energy_registry/new_currentPage/page0002_receipt.json",
+      "bytes": 799,
+      "sha256": "ab2f1465b0378aa152e9e865efc9e5e1075ed6a125a7e75946f06a349d41cb7e"
+    },
+    {
+      "file": "energy_registry_20261009/public_energy_registry/new_currentPage/page0002_response.json",
+      "bytes": 518925,
+      "sha256": "17fbe796d6995b3bc890f9b257ff2efeb57b1d6b2d032923403d75e4508ec900"
+    },
+    {
+      "file": "energy_registry_20261009/public_energy_registry/new_currentPage/page0003_receipt.json",
+      "bytes": 815,
+      "sha256": "789ea3fda6a4ed723c39d9ab99b12f3f85d248489dce712d84da06dda590fcda"
+    },
+    {
+      "file": "energy_registry_20261009/public_energy_registry/new_currentPage/page0003_response.json",
+      "bytes": 518784,
+      "sha256": "3f8a08b51fb7fd83215da948c47130c0807ba926a8e96279b9b053c321188008"
+    },
+    {
+      "file": "energy_registry_20261009/public_energy_registry/new_currentPage/page0004_attempt02_receipt.json",
+      "bytes": 825,
+      "sha256": "306099ceeb9df0e50e820b23babc165aa8dbb81044560a3a46ea809b3ee48fc5"
+    },
+    {
+      "file": "energy_registry_20261009/public_energy_registry/new_currentPage/page0004_attempt02_response.json",
+      "bytes": 520485,
+      "sha256": "70da726f8f8ee0a854bffe95ab1b01c3b451c849add365f8c2f3e12e4d91fa40"
+    },
+    {
+      "file": "energy_registry_20261009/public_energy_registry/new_currentPage/page0004_receipt.json",
+      "bytes": 824,
+      "sha256": "6b5d3d94cafc0d76a8e673136533530041c86ea92e6bb57ab2ad0363c4bc4417"
+    },
+    {
+      "file": "energy_registry_20261009/public_energy_registry/new_currentPage/page0004_response.json",
+      "bytes": 91,
+      "sha256": "2f85832e31ca57711e6107af6b142363351ae516adb71c69afc643fac26be7f6"
+    },
+    {
+      "file": "energy_registry_20261009/public_energy_registry/new_currentPage/page0005_receipt.json",
+      "bytes": 824,
+      "sha256": "ef5887051a1bb1e960b1fa5dd0e2a8f9d91ee9b033434ccc70e041ff4d7edb76"
+    },
+    {
+      "file": "energy_registry_20261009/public_energy_registry/new_currentPage/page0005_response.json",
+      "bytes": 33,
+      "sha256": "beb861eaa39f786b701fafe0c93827f91c26b4fd7bda29668712515b031e2569"
+    },
+    {
+      "file": "energy_registry_20261009/public_energy_registry/old_checkpoint.json",
+      "bytes": 2923,
+      "sha256": "8c441a9ad2a3313f03ae615fc60389dbd4321b18f6b73570340b8b3dd00c3620"
+    },
+    {
+      "file": "energy_registry_20261009/public_energy_registry/old_currentPage/page0001_receipt.json",
+      "bytes": 791,
+      "sha256": "783251802ffcf3ceb1642c7fc77aa60d6def66321368ff5070c7d3c30a3e6e7f"
+    },
+    {
+      "file": "energy_registry_20261009/public_energy_registry/old_currentPage/page0001_response.json",
+      "bytes": 116351,
+      "sha256": "fefd9e91800ea3dc5f6ee7acc1741ea29c2a680a9d934bdde0117f4a417ad088"
+    },
+    {
+      "file": "energy_registry_20261009/public_energy_registry/old_currentPage/page0002_receipt.json",
+      "bytes": 791,
+      "sha256": "3544ec1b18423f06442684928ba2152658fc3c0a115d496c3ec8ae45848d09a5"
+    },
+    {
+      "file": "energy_registry_20261009/public_energy_registry/old_currentPage/page0002_response.json",
+      "bytes": 116699,
+      "sha256": "3d42ce220d4484ce7b4692ccabb7878da3e0686e764ba7d01ba17f771e0e3028"
+    },
+    {
+      "file": "energy_registry_20261009/public_energy_registry/old_currentPage/page0003_receipt.json",
+      "bytes": 791,
+      "sha256": "11845f45190832929ba91b841daae776c61cfcaaa3e2056b5be2f420d5da3497"
+    },
+    {
+      "file": "energy_registry_20261009/public_energy_registry/old_currentPage/page0003_response.json",
+      "bytes": 116588,
+      "sha256": "25444f57cb6cc46bd3d341be9b19159e171c8d3522f5dd5323e7daffbafad7fc"
+    },
+    {
+      "file": "energy_registry_20261009/public_energy_registry/old_currentPage/page0004_receipt.json",
+      "bytes": 791,
+      "sha256": "14a20aa642b1ff98246e872ca02e11dee2a667bfeb1d56248266e4702bdcc9d4"
+    },
+    {
+      "file": "energy_registry_20261009/public_energy_registry/old_currentPage/page0004_response.json",
+      "bytes": 116094,
+      "sha256": "f851684be820cd9302ff472bf775ca955a68b8568f79126ca2d5e48e8b80bfe7"
+    },
+    {
+      "file": "energy_registry_20261009/public_energy_registry/old_currentPage/page0005_receipt.json",
+      "bytes": 791,
+      "sha256": "861c4b2e983f8c34c419f133910666d6c62152cf20d3e0958f318249cdd70067"
+    },
+    {
+      "file": "energy_registry_20261009/public_energy_registry/old_currentPage/page0005_response.json",
+      "bytes": 115347,
+      "sha256": "91a1b5250284a729fe47cebc316cc22c9911e0e1a342829437f8016fcee8eb54"
+    },
+    {
+      "file": "energy_registry_20261009/public_energy_registry/old_currentPage/page0006_receipt.json",
+      "bytes": 791,
+      "sha256": "9cdaf02f07c436a2ffea7ad659b9282bfc0b5345e113bea15213507ac39e4057"
+    },
+    {
+      "file": "energy_registry_20261009/public_energy_registry/old_currentPage/page0006_response.json",
+      "bytes": 116142,
+      "sha256": "68b730fea1ac8b827ae7633fbf4c8aff9f26e056b34ed8e5086dfe00d9f2b148"
+    },
+    {
+      "file": "energy_registry_20261009/public_energy_registry/old_currentPage/page0007_receipt.json",
+      "bytes": 791,
+      "sha256": "7d9a81188fbe72b6d1fa28e38b0f4473a655f72d09eb4f62f489b6720df3ceb3"
+    },
+    {
+      "file": "energy_registry_20261009/public_energy_registry/old_currentPage/page0007_response.json",
+      "bytes": 116680,
+      "sha256": "40b3abdb81882a95b6f661dc5511bb5655e4a69fd27f215e49ca4533704748ab"
+    },
+    {
+      "file": "energy_registry_20261009/public_energy_registry/old_currentPage/page0008_receipt.json",
+      "bytes": 791,
+      "sha256": "63557cf3c933c0d76351eec83235471e6aadb8ff68ac29c4999991317db05853"
+    },
+    {
+      "file": "energy_registry_20261009/public_energy_registry/old_currentPage/page0008_response.json",
+      "bytes": 117094,
+      "sha256": "bc32658655634380bb53c40e2a53068f34db40e6b5126d40bd62678340f61786"
+    },
+    {
+      "file": "energy_registry_20261009/public_energy_registry/old_currentPage/page0009_receipt.json",
+      "bytes": 791,
+      "sha256": "f0fc2a2f96bc2ec9148d2c325e243119e417683c34f93d9205b658506203f16f"
+    },
+    {
+      "file": "energy_registry_20261009/public_energy_registry/old_currentPage/page0009_response.json",
+      "bytes": 116077,
+      "sha256": "9c1ad18dc467b245029b46af95a653d97f27cf383f23ce6850f799159ecaf0df"
+    },
+    {
+      "file": "energy_registry_20261009/public_energy_registry/old_currentPage/page0010_attempt02_receipt.json",
+      "bytes": 819,
+      "sha256": "52fdee94040d179c7895da7d3eca770506e4ae3b4862174b63f35ae7b73b3102"
+    },
+    {
+      "file": "energy_registry_20261009/public_energy_registry/old_currentPage/page0010_attempt02_response.json",
+      "bytes": 115806,
+      "sha256": "320ef44b657ab160c259844feaebb9f93219a1b6f07803c34883b6518c3a95eb"
+    },
+    {
+      "file": "energy_registry_20261009/public_energy_registry/old_currentPage/page0010_receipt.json",
+      "bytes": 802,
+      "sha256": "aa67fb00256870afda3438684be96137d7a9c9ea23c3ec32db516d48c3778012"
+    },
+    {
+      "file": "energy_registry_20261009/public_energy_registry/old_currentPage/page0010_response.json",
+      "bytes": 95,
+      "sha256": "9deff96f9b5925fa5081257849ace321304b382d64cfb67d90a21a3c7cbf2925"
+    },
+    {
+      "file": "energy_registry_20261009/public_energy_registry/old_currentPage/page0011_receipt.json",
+      "bytes": 809,
+      "sha256": "91db14944f662f56772ffc3867cde9984e9d12ae88504b1ea84af7c422bbb4ce"
+    },
+    {
+      "file": "energy_registry_20261009/public_energy_registry/old_currentPage/page0011_response.json",
+      "bytes": 116486,
+      "sha256": "7612cd0dacba2e021cd3a6988a28f4db037ce51eb924c3df914391021fc46688"
+    },
+    {
+      "file": "energy_registry_20261009/public_energy_registry/old_currentPage/page0012_receipt.json",
+      "bytes": 809,
+      "sha256": "3c3f32a745f677264a431421734147903216a3fc1e88c86cd6b9de7954d14ce7"
+    },
+    {
+      "file": "energy_registry_20261009/public_energy_registry/old_currentPage/page0012_response.json",
+      "bytes": 116536,
+      "sha256": "576b7882b0d12360dc89d86d20f602249c340bf802df83f3a5edb4332d70e8eb"
+    },
+    {
+      "file": "energy_registry_20261009/public_energy_registry/old_currentPage/page0013_receipt.json",
+      "bytes": 809,
+      "sha256": "d62258eefd4c8428e3a1c0a45d5c2802a738a0a80320cb97420597f0ebaa6c31"
+    },
+    {
+      "file": "energy_registry_20261009/public_energy_registry/old_currentPage/page0013_response.json",
+      "bytes": 116432,
+      "sha256": "af0943590d79e0e70d525d6ccf3dcc8587f41905485c282166172b859f8b2038"
+    },
+    {
+      "file": "energy_registry_20261009/public_energy_registry/old_currentPage/page0014_receipt.json",
+      "bytes": 809,
+      "sha256": "73e8c3a3d8a5ca3f636516dad773c12e8adc1c7c9a5edb87faabda1fd513fa99"
+    },
+    {
+      "file": "energy_registry_20261009/public_energy_registry/old_currentPage/page0014_response.json",
+      "bytes": 115594,
+      "sha256": "5e7bcded7c76784f102ce02a39e2212b336dc231adbada1a72a8a159a7f77ccb"
+    },
+    {
+      "file": "energy_registry_20261009/public_energy_registry/old_currentPage/page0015_receipt.json",
+      "bytes": 809,
+      "sha256": "3cf01e6fcca0692155106f481f1b42f545a84d02eaaafe6a2001faa6590e2222"
+    },
+    {
+      "file": "energy_registry_20261009/public_energy_registry/old_currentPage/page0015_response.json",
+      "bytes": 115715,
+      "sha256": "b93d5efbc89303285c846e6856e127b975982e98fc67a0f7c84f9e0e3d11bd14"
+    },
+    {
+      "file": "energy_registry_20261009/public_energy_registry/old_currentPage/page0016_receipt.json",
+      "bytes": 809,
+      "sha256": "df67480b0afe23c398c821dea61a8611a81985e9959fc2f35e7219025720e3ef"
+    },
+    {
+      "file": "energy_registry_20261009/public_energy_registry/old_currentPage/page0016_response.json",
+      "bytes": 115093,
+      "sha256": "9b1f179f1bc4e96296fd37da582cdbd71ad9e4adb96f10b0c4f3c4de97706ec5"
+    },
+    {
+      "file": "energy_registry_20261009/public_energy_registry/old_currentPage/page0017_attempt02_receipt.json",
+      "bytes": 819,
+      "sha256": "3e7d7071b1e0f6d9910b21d2cc8e11799d0b7b5d37cb7a4ccfbeee4c3f76e522"
+    },
+    {
+      "file": "energy_registry_20261009/public_energy_registry/old_currentPage/page0017_attempt02_response.json",
+      "bytes": 115397,
+      "sha256": "bb3c15e2adaf9344a861e8a592f32ff3aee982caefc6d33cc8b72df04b17f28d"
+    },
+    {
+      "file": "energy_registry_20261009/public_energy_registry/old_currentPage/page0017_receipt.json",
+      "bytes": 492,
+      "sha256": "5071fa77c17690ae98191ed1e7525f8f1f0a5e40a3e3f9efb1782d56c3a1a7c1"
+    },
+    {
+      "file": "energy_registry_20261009/public_energy_registry/old_currentPage/page0018_receipt.json",
+      "bytes": 809,
+      "sha256": "368c8ca3897bd8dd6b661e8613f961e79401f232941ab6a9c275c205f429a231"
+    },
+    {
+      "file": "energy_registry_20261009/public_energy_registry/old_currentPage/page0018_response.json",
+      "bytes": 115322,
+      "sha256": "0f44d6c406107027cf28dad604a8b892147e30080f052baf4f4a4a24887e40ff"
+    },
+    {
+      "file": "energy_registry_20261009/public_energy_registry/old_currentPage/page0019_receipt.json",
+      "bytes": 809,
+      "sha256": "4a2aa8948c4d0c4f003e48c8ba5d359942de26f225d0e168ec92bde948c74aef"
+    },
+    {
+      "file": "energy_registry_20261009/public_energy_registry/old_currentPage/page0019_response.json",
+      "bytes": 115457,
+      "sha256": "266461dff543e587a96796d27195ea0a17b6634c5b503eaa0aa96e01b1798371"
+    },
+    {
+      "file": "energy_registry_20261009/public_energy_registry/old_currentPage/page0020_receipt.json",
+      "bytes": 809,
+      "sha256": "d150e1c2c215924139c2aa0603f62cd8c7dec3a3d77166955cd009feba47367b"
+    },
+    {
+      "file": "energy_registry_20261009/public_energy_registry/old_currentPage/page0020_response.json",
+      "bytes": 115785,
+      "sha256": "61ec1a16d92fcb8b5fba852c0315c9a74f8e3558a011687161700d56861b5db0"
+    },
+    {
+      "file": "energy_registry_20261009/public_energy_registry/old_currentPage/page0021_receipt.json",
+      "bytes": 809,
+      "sha256": "b22ced34401437564ab52ba7be0fd92b60ff3a39665c4807b14a9a8633a34451"
+    },
+    {
+      "file": "energy_registry_20261009/public_energy_registry/old_currentPage/page0021_response.json",
+      "bytes": 115267,
+      "sha256": "2d2c4ca547340a90e78396655e3900142faf085f1db8c8dcd4db1bfbbc416337"
+    },
+    {
+      "file": "energy_registry_20261009/public_energy_registry/old_currentPage/page0022_receipt.json",
+      "bytes": 809,
+      "sha256": "c61ccc8dc93c0a120bd9f375cb975e94430361ef92b3196e90169350ffca6ba7"
+    },
+    {
+      "file": "energy_registry_20261009/public_energy_registry/old_currentPage/page0022_response.json",
+      "bytes": 115683,
+      "sha256": "0310934e6d7ab3d2a5de5dcc2dde43026051d25e2f15b0ae5a847c0d7a28478f"
+    },
+    {
+      "file": "energy_registry_20261009/public_energy_registry/old_currentPage/page0023_receipt.json",
+      "bytes": 809,
+      "sha256": "5e4602ccb1e840674367f7100d4ada19200631eef0f06aa1e7d8c76b9c16452e"
+    },
+    {
+      "file": "energy_registry_20261009/public_energy_registry/old_currentPage/page0023_response.json",
+      "bytes": 115596,
+      "sha256": "1054fbbdf2be0c98ac7a0cce4cea01dea868faa1f312ab9b0b028a0e59e2d0fe"
+    },
+    {
+      "file": "energy_registry_20261009/public_energy_registry/old_currentPage/page0024_receipt.json",
+      "bytes": 809,
+      "sha256": "6554eccdf8f077b1dc61eaae1233f24512ae55370d2b5b5c7f8a2ebc280aa12f"
+    },
+    {
+      "file": "energy_registry_20261009/public_energy_registry/old_currentPage/page0024_response.json",
+      "bytes": 115628,
+      "sha256": "3f0f53fa4075eb0f50baef9a1f17ac0759dbbce4199f14c556a4f65c50ee6272"
+    },
+    {
+      "file": "energy_registry_20261009/public_energy_registry/old_currentPage/page0025_receipt.json",
+      "bytes": 809,
+      "sha256": "7f54e069d71a66820a6cc0ca36835a9ddcd2ea5a0a7cabbdec60cdf4a1aa0ebe"
+    },
+    {
+      "file": "energy_registry_20261009/public_energy_registry/old_currentPage/page0025_response.json",
+      "bytes": 114962,
+      "sha256": "4b326d833a657cbaf03bc3b5ecd91a74ac9dd013aaf37b6eb6bffb1e9fe087b3"
+    },
+    {
+      "file": "energy_registry_20261009/public_energy_registry/old_currentPage/page0026_receipt.json",
+      "bytes": 809,
+      "sha256": "f115014de851dffec352292ccb41f91756657507d76965525a83531c216407c7"
+    },
+    {
+      "file": "energy_registry_20261009/public_energy_registry/old_currentPage/page0026_response.json",
+      "bytes": 114829,
+      "sha256": "749d05c412fd2db90efe924140bfd809481ce90a01ea84e010c33eb23b8df7dc"
+    },
+    {
+      "file": "energy_registry_20261009/public_energy_registry/old_currentPage/page0027_receipt.json",
+      "bytes": 809,
+      "sha256": "4c9aca110dab53a640b86321a2cdd08caf8529c324ea8715c797ecc08664c67c"
+    },
+    {
+      "file": "energy_registry_20261009/public_energy_registry/old_currentPage/page0027_response.json",
+      "bytes": 113967,
+      "sha256": "c5a69308aa7f9a452c243be2a21d640492222a3be532f26f7d5a342b263ee865"
+    },
+    {
+      "file": "energy_registry_20261009/public_energy_registry/old_currentPage/page0028_receipt.json",
+      "bytes": 809,
+      "sha256": "20d4d07a62bd81635d338103edd55adf539e5b14a740826fc93aca6120a60513"
+    },
+    {
+      "file": "energy_registry_20261009/public_energy_registry/old_currentPage/page0028_response.json",
+      "bytes": 114191,
+      "sha256": "f91ba2d44ee2b3d56fdcfd609a592968d37560389f72ceef699da55bc6d5f173"
+    },
+    {
+      "file": "energy_registry_20261009/public_energy_registry/old_currentPage/page0029_receipt.json",
+      "bytes": 809,
+      "sha256": "367cd3b14f97ec738518e1c81b3524139b7c9174240361ec583a27a40f8c89fa"
+    },
+    {
+      "file": "energy_registry_20261009/public_energy_registry/old_currentPage/page0029_response.json",
+      "bytes": 115068,
+      "sha256": "2db8874da1c94df92763e45d803c302470b9b6f9a155cb6edcb8399b034eeac9"
+    },
+    {
+      "file": "energy_registry_20261009/public_energy_registry/old_currentPage/page0030_receipt.json",
+      "bytes": 809,
+      "sha256": "223740b464a01c33d6eaa1aa4cb336c47eddea552e84b394d32153fb1fe704f8"
+    },
+    {
+      "file": "energy_registry_20261009/public_energy_registry/old_currentPage/page0030_response.json",
+      "bytes": 114145,
+      "sha256": "70b17cdf0aeab94b219f46013bb7499098fffbc7235b8c90455052c9ca963f4e"
+    },
+    {
+      "file": "energy_registry_20261009/public_energy_registry/old_currentPage/page0031_receipt.json",
+      "bytes": 809,
+      "sha256": "77619b95133111cd643f3f526e77809086672489f4cd5488c95ce6e1a5d78587"
+    },
+    {
+      "file": "energy_registry_20261009/public_energy_registry/old_currentPage/page0031_response.json",
+      "bytes": 114091,
+      "sha256": "1d4a7c29624a7908ce4dce2430b9a31b68b8a6be67685a30abb5438b6d6ddf1e"
+    },
+    {
+      "file": "energy_registry_20261009/public_energy_registry/old_currentPage/page0032_receipt.json",
+      "bytes": 809,
+      "sha256": "0eb53d9441296fd3babf6dcd53dc4dd766eed1ea5082bafe195d39538f9fc3e3"
+    },
+    {
+      "file": "energy_registry_20261009/public_energy_registry/old_currentPage/page0032_response.json",
+      "bytes": 114161,
+      "sha256": "ca2e5f7711046b159d51530bb3a5a6fb097c4c8783aca9d9f77c8adee61e1967"
+    },
+    {
+      "file": "energy_registry_20261009/public_energy_registry/old_currentPage/page0033_receipt.json",
+      "bytes": 809,
+      "sha256": "58bd3a48b4227469e478dba434d92f23b751c5786421f27a402cf2d3967f8201"
+    },
+    {
+      "file": "energy_registry_20261009/public_energy_registry/old_currentPage/page0033_response.json",
+      "bytes": 114691,
+      "sha256": "3622479042b0fe890780ce3bac0019e061e557fcb498805621fd672ea793b399"
+    },
+    {
+      "file": "energy_registry_20261009/public_energy_registry/old_currentPage/page0034_receipt.json",
+      "bytes": 809,
+      "sha256": "e8102b40783abe472506465986a53758e68d76e26920f8cbac37b6f4d2c6b083"
+    },
+    {
+      "file": "energy_registry_20261009/public_energy_registry/old_currentPage/page0034_response.json",
+      "bytes": 114567,
+      "sha256": "10f9bd4fff48b2b46f12e7d5f7759ee31403280b011c4c674611741f3119b1c9"
+    },
+    {
+      "file": "energy_registry_20261009/public_energy_registry/old_currentPage/page0035_receipt.json",
+      "bytes": 809,
+      "sha256": "c7e841e265b72291433d5c1e8b06e83c99d654765d741d792e43b5736e47cfc8"
+    },
+    {
+      "file": "energy_registry_20261009/public_energy_registry/old_currentPage/page0035_response.json",
+      "bytes": 114672,
+      "sha256": "f03d0fef19dae31b9c29b48af31c988eba29f37e5c27dcd646f0bb0addadf1c2"
+    },
+    {
+      "file": "energy_registry_20261009/public_energy_registry/old_currentPage/page0036_receipt.json",
+      "bytes": 809,
+      "sha256": "bc807b93fa7b8fd3fed7083b30de5ce693a8c6a6b2cec5fc9f1cd8044b974f84"
+    },
+    {
+      "file": "energy_registry_20261009/public_energy_registry/old_currentPage/page0036_response.json",
+      "bytes": 114096,
+      "sha256": "00052ec86ae3e3ec5d1627bc2522308e723ea7407bd14cd8a76b70a6e0ceca08"
+    },
+    {
+      "file": "energy_registry_20261009/public_energy_registry/old_currentPage/page0037_receipt.json",
+      "bytes": 809,
+      "sha256": "a08e0d703cbb20a2baf8ae49e340245b649bb66f418330351d13fa2b01455d3b"
+    },
+    {
+      "file": "energy_registry_20261009/public_energy_registry/old_currentPage/page0037_response.json",
+      "bytes": 114427,
+      "sha256": "4632efdb68d35d89920e24e3b96eb753cca34e483eca3f8c0b610c9b4184d53d"
+    },
+    {
+      "file": "energy_registry_20261009/public_energy_registry/old_currentPage/page0038_receipt.json",
+      "bytes": 809,
+      "sha256": "6a5732cb903a3385afb8cf27d95044b5155bfbd06d4a50dc69c7f5b4ab10e21f"
+    },
+    {
+      "file": "energy_registry_20261009/public_energy_registry/old_currentPage/page0038_response.json",
+      "bytes": 113753,
+      "sha256": "615b52044475dc7f432d4475619f02903e8780776bf7b1063e7a4926f2c80b43"
+    },
+    {
+      "file": "energy_registry_20261009/public_energy_registry/old_currentPage/page0039_receipt.json",
+      "bytes": 809,
+      "sha256": "bf5fb20aebd097c048e397d7defd64bedc01495668407b2f5e6f11e88b093c9b"
+    },
+    {
+      "file": "energy_registry_20261009/public_energy_registry/old_currentPage/page0039_response.json",
+      "bytes": 114234,
+      "sha256": "eadd447786dd7e43ec19d65c89deaa4cb0c4358506e82d23e58ac937ed79dabc"
+    },
+    {
+      "file": "energy_registry_20261009/public_energy_registry/old_currentPage/page0040_receipt.json",
+      "bytes": 809,
+      "sha256": "641049726bb2a48070d2133047d367f602dfb9190b9b50341882921d22b7dbf6"
+    },
+    {
+      "file": "energy_registry_20261009/public_energy_registry/old_currentPage/page0040_response.json",
+      "bytes": 109201,
+      "sha256": "9b2ff2784aa7cd61510245b4f02bce5bae1e1970385318c7b60b63f09edcab51"
+    },
+    {
+      "file": "energy_registry_20261009/public_energy_registry/old_currentPage/page0041_receipt.json",
+      "bytes": 809,
+      "sha256": "266ce324a6e793c2338af496914043bc7bcee308badccf0d6459ac49aff9f7c8"
+    },
+    {
+      "file": "energy_registry_20261009/public_energy_registry/old_currentPage/page0041_response.json",
+      "bytes": 109687,
+      "sha256": "1b81f2a4d62ab0142e44481203b14cc84f4bd96f29a6974eb6a27bf848c6571e"
+    },
+    {
+      "file": "energy_registry_20261009/public_energy_registry/old_currentPage/page0042_receipt.json",
+      "bytes": 809,
+      "sha256": "8399020d3b4b9dc812377a2f892eaf38ad618505e0bd9a8b523b852907873e5f"
+    },
+    {
+      "file": "energy_registry_20261009/public_energy_registry/old_currentPage/page0042_response.json",
+      "bytes": 108865,
+      "sha256": "2c5eb3b05f1fdc95280853219bf242696c7ad7a2ce5a7040aa6a63a46331f12b"
+    },
+    {
+      "file": "energy_registry_20261009/public_energy_registry/old_currentPage/page0043_receipt.json",
+      "bytes": 809,
+      "sha256": "c053f292a9d2d73e87fe8de3e3fe7671f211e23285d7508498feeeb6a939fd4f"
+    },
+    {
+      "file": "energy_registry_20261009/public_energy_registry/old_currentPage/page0043_response.json",
+      "bytes": 111714,
+      "sha256": "b28f2080a633a1eb7af4ec3cd3ccbb331e8ae724a11542b9726753fdd3b48762"
+    },
+    {
+      "file": "energy_registry_20261009/public_energy_registry/old_currentPage/page0044_receipt.json",
+      "bytes": 809,
+      "sha256": "43538683c98f2607accab01aeb9c5e2a2c8220410d2d00a0495e0eda0240619c"
+    },
+    {
+      "file": "energy_registry_20261009/public_energy_registry/old_currentPage/page0044_response.json",
+      "bytes": 118033,
+      "sha256": "74273b209c7b7e9529c17e2f0ab645952a33f700afaaa6a5ca509892ccd5e36a"
+    },
+    {
+      "file": "energy_registry_20261009/public_energy_registry/old_currentPage/page0045_receipt.json",
+      "bytes": 809,
+      "sha256": "62b8cde4740c9ffbfcd5570051160ab7581f4d2f6d2f0deca83d4b10dd2438b1"
+    },
+    {
+      "file": "energy_registry_20261009/public_energy_registry/old_currentPage/page0045_response.json",
+      "bytes": 117546,
+      "sha256": "b639a84f448be7b1472cb0650444a195486c3c32da83711ef3252562b11e9894"
+    },
+    {
+      "file": "energy_registry_20261009/public_energy_registry/old_currentPage/page0046_receipt.json",
+      "bytes": 809,
+      "sha256": "617343f9be320e081dbfa8b9e6cf35b27accbbe84b3b60729e12950076fed72e"
+    },
+    {
+      "file": "energy_registry_20261009/public_energy_registry/old_currentPage/page0046_response.json",
+      "bytes": 109627,
+      "sha256": "10b7be3db2a1b2f2ad370ddd47ea2ae8b47dcba13ea79280343667b5b15cf120"
+    },
+    {
+      "file": "energy_registry_20261009/public_energy_registry/old_currentPage/page0047_receipt.json",
+      "bytes": 808,
+      "sha256": "c8496b477366731aae717797403aafcdbfe62780fb5d61cc8bddc8448c184fe3"
+    },
+    {
+      "file": "energy_registry_20261009/public_energy_registry/old_currentPage/page0047_response.json",
+      "bytes": 73767,
+      "sha256": "173156018eb97d0193eb60dc77338e0e6bc4528dbd7a2a28514fd03fb403990f"
+    },
+    {
+      "file": "energy_registry_20261009/public_energy_registry/registry_summary.json",
+      "bytes": 20179,
+      "sha256": "bf0b67005cccd5569003127bf5b80363c7c06f2be2bac131e8fdd57c832466be"
+    },
+    {
+      "file": "energy_registry_20261009/public_energy_registry/文件_SHA256.csv",
+      "bytes": 14035,
+      "sha256": "58d2ca12fc763a517def949ed0de432178747b3ad29e2baee23f1860275376e4"
+    },
+    {
+      "file": "energy_registry_20261009/public_energy_registry/筛选视图_响应分类冲突_原行保留.csv",
+      "bytes": 205,
+      "sha256": "18ad3e2ca3a44f5241ebad880f796ae8379071b7a05d96864adf171724c8ee72"
+    },
+    {
+      "file": "energy_registry_20261009/public_energy_registry/精确目标_全字段记录_只读旁表.jsonl",
+      "bytes": 6175485,
+      "sha256": "a87defb02e64e2e6c3656846b4ae19999722ba6fcc43b398dc3a7cd69bf08a09"
+    },
+    {
+      "file": "energy_registry_20261009/public_energy_registry/重复标识_状态版本差异_不得删除.csv",
+      "bytes": 478,
+      "sha256": "d99fe1a62a90085045a56ae29c20bca41ae57f4da21e3ba9eab55f522bef831a"
+    },
+    {
+      "file": "energy_registry_20261009/public_energy_registry/非2208_其他用途与正对照精确匹配.csv",
+      "bytes": 39485,
+      "sha256": "4572018fa74e97043fb8fa2326e4febbaa7dcbe7e85f5f3416e863da21d28b93"
+    },
+    {
+      "file": "energy_registry_20261009/public_energy_registry/非空报告引用线索_尚未认证.csv",
+      "bytes": 124,
+      "sha256": "761035e3a8649eae3e1d958f44bc1e30a024800849e4c02edeb042bba788e697"
+    },
+    {
+      "file": "energy_registry_20261009/public_energy_registry/首尾空白差异候选_不计精确命中.csv",
+      "bytes": 562,
+      "sha256": "f44443b9dc5343eda9a1429ed3826c14a7cd018a39db68b2729a2b425f8b264e"
+    },
+    {
+      "file": "energy_registry_20261009/stage_energy_evidence.py",
+      "bytes": 9330,
+      "sha256": "20f8cc0f01fd96a63c7577ff3d6b46b260cd00ac703a164db8c859ea3030a771"
+    },
+    {
+      "file": "energy_registry_20261009/user_submitted/JX6550T-M5BEV_完整标签.pdf",
+      "bytes": 80946,
+      "sha256": "0721063c8b32892350150e56381ef4280bd6d10913429f85c5e476065c5a40ec"
+    },
+    {
+      "file": "energy_registry_20261009/user_submitted/README.md",
+      "bytes": 877,
+      "sha256": "c21c55ab14c3e96da6d5a3498d4fa214bf6a1bd48ac21042a135745b46cde530"
+    },
+    {
+      "file": "energy_registry_20261009/user_submitted/README_用户提供原文.md",
+      "bytes": 3706,
+      "sha256": "8c1af44c93a185ffbac0d6949a7f4f59c5a7bf3c1693c75cf9d9ad6ce6dc5f28"
+    },
+    {
+      "file": "energy_registry_20261009/user_submitted/原始记录_全程字段.json",
+      "bytes": 5325,
+      "sha256": "55bdb96be250dcc28db33b72932ba90b01e2e2078cf67316bfc892531fa92a1e"
+    },
+    {
+      "file": "energy_registry_20261009/user_submitted/文件_SHA256.csv",
+      "bytes": 407,
+      "sha256": "06859065aa2e69598a9c6519bf04673108acd5fc65c1abc584861b4021da5eaa"
+    },
+    {
+      "file": "energy_registry_20261009/文件_SHA256.csv",
+      "bytes": 28237,
+      "sha256": "43eafcdb9ed7c92a599766b4d6aaf5761e4fda23ce4f7e134e7d630cd37c240e"
     },
     {
       "file": "finalize_data_v1_5.py",
@@ -886,8 +2037,8 @@
     },
     {
       "file": "public_completion_20261009/README.md",
-      "bytes": 6222,
-      "sha256": "656a6346c88974409311276c2c83d318f5097db9032b2b941ff4d679a5175984"
+      "bytes": 6438,
+      "sha256": "3b2bfa8bed6d3b019b428b0236e33f01cad46c58a5a2ee543fb98ab68c7abac4"
     },
     {
       "file": "public_completion_20261009/public_completion_and_handoff_20261009.zip",
@@ -941,8 +2092,8 @@
     },
     {
       "file": "public_completion_20261009/public_configuration/README.md",
-      "bytes": 5596,
-      "sha256": "cb57c98d99224f4ec8db36069dc50ffa83404390bf4ab8c0dd339e42df294fb0"
+      "bytes": 5820,
+      "sha256": "ec7b7b99a9e43cce8b53161cc2bbe83ddeaa7c65dde8c23f0753601380cc5a95"
     },
     {
       "file": "public_completion_20261009/public_configuration/build_configuration_status.py",
@@ -2341,8 +3492,8 @@
     },
     {
       "file": "public_completion_20261009/public_configuration/人工官网查询_操作与交回格式.md",
-      "bytes": 4034,
-      "sha256": "8e814d563d40564d3eafda376f31043ef69712a0f688fec71e487eccd5469424"
+      "bytes": 4398,
+      "sha256": "6d2ca6c56a16652815b153f603e8a8cc4b8efb65dc72ff0bf0e1abab302b3281"
     },
     {
       "file": "public_completion_20261009/public_configuration/外部索引_逐结果相关性与候选.csv",
@@ -2352,7 +3503,7 @@
     {
       "file": "public_completion_20261009/public_configuration/文件_SHA256.csv",
       "bytes": 32103,
-      "sha256": "be0f83c9cf9f63dda0d6aed53604e612ff7fa8fd5fc2e3a2ffc4d2795293fe28"
+      "sha256": "7a2c73a4282bcf5247b905b91ab0df9b2032c7aeed4ecbf1ca3149d71e06e343"
     },
     {
       "file": "public_completion_20261009/public_configuration/核查输入_SHA256.csv",
@@ -5706,8 +6857,8 @@
     },
     {
       "file": "public_completion_20261009/user_handoff/README.md",
-      "bytes": 5502,
-      "sha256": "8a0486608ba401d4bd140f2982ac3b36a4c1ac00156da693253ff8eddc3052e1"
+      "bytes": 5720,
+      "sha256": "38cb7a8a6ccfa83547e6968817c43bca900f9dea30613e7fad612f68400806e9"
     },
     {
       "file": "public_completion_20261009/user_handoff/build_enterprise_handoff.py",
@@ -7707,7 +8858,7 @@
     {
       "file": "public_completion_20261009/user_handoff/文件_SHA256.csv",
       "bytes": 47446,
-      "sha256": "e1c9ee90acb036bbc5a9589e813abfea26fe4e0292a76f025c170385ab0fba45"
+      "sha256": "141fe68b74df26be22d2e0442bf8515030030752d44fc4307b4aa6edaf304806"
     },
     {
       "file": "public_completion_20261009/user_handoff/有效交回材料_按用途验收字段.csv",
@@ -7732,7 +8883,7 @@
     {
       "file": "public_completion_20261009/文件_SHA256.csv",
       "bytes": 172166,
-      "sha256": "67c9d0073e8afb732a86eff22470389ec1a7fecfbc5d32fdf0244fb18d2fd662"
+      "sha256": "7658cf9b90aeb6c55985d934df08cc8811bf15c704c65acd46f2d4d89e05c314"
     },
     {
       "file": "purchase_tax_data_v1_5.zip",
@@ -7771,8 +8922,8 @@
     },
     {
       "file": "reconstruction/data_v1_5/README.md",
-      "bytes": 3196,
-      "sha256": "a18540a8a013e360a0f72ac4788f4ac56dcf055c4bb88b2750048349de3f9db6"
+      "bytes": 3324,
+      "sha256": "6f86bab7329da09abdecadbccb32a73da24fa05a20810dc097e6ffeced3cdb47"
     },
     {
       "file": "reconstruction/data_v1_5/README_版本v1_3.md",
@@ -7912,7 +9063,7 @@
     {
       "file": "reconstruction/data_v1_5/文件清单_SHA256.txt",
       "bytes": 6913,
-      "sha256": "9e53ff6c847adc33da12176c3a5e5a2194ae1d29ef7d3c7473ce964373aee3bd"
+      "sha256": "eaee946ac7b2e37237a82bf0305b21f2f5fbf86e1f57548f9f06117d3860c10b"
     },
     {
       "file": "reconstruction/data_v1_5/日期续查/97批次日期_续查登记.csv",
@@ -8096,8 +9247,8 @@
     },
     {
       "file": "requirements/requirements_summary.json",
-      "bytes": 3364,
-      "sha256": "aaaf90ccfae155491ddd6db054b958606065e6e92ecfd27ebdea53e1d6d53e64"
+      "bytes": 3699,
+      "sha256": "06418a6ca7dbdebb90fe8c0f306b8f1277c096130f717f4597c43e9f631a118c"
     },
     {
       "file": "requirements/update_public_registry_requirements.py",
@@ -8127,7 +9278,7 @@
     {
       "file": "requirements/文件_SHA256.csv",
       "bytes": 2103,
-      "sha256": "889b8eb8e0155c0f83b0124baccc4e73342ad6759261f8611e34bfca3312a001"
+      "sha256": "d490ec976f385b54699a17ecf36f4a59b7412523d5e6c0dddbfa565ecfb1794b"
     },
     {
       "file": "requirements/输入来源与SHA256.csv",
@@ -8146,8 +9297,8 @@
     },
     {
       "file": "requirements/需要用户亲自提供的数据.md",
-      "bytes": 10936,
-      "sha256": "f70f59d7e388780fa938a32fe5bf32424fa5b576943f64a45aaf1a71f3a63b0a"
+      "bytes": 11233,
+      "sha256": "abf47bb7d400a1e986124517fbb741f503cda8f09620c33ac64c49a3538fc5a1"
     },
     {
       "file": "review_20261009/README.md",
@@ -8476,10 +9627,11 @@
     },
     {
       "file": "原件补齐与字段勘误修订报告_v1_5_20261009.md",
-      "bytes": 10731,
-      "sha256": "1dfb0941f934bacd12b162a22694cac209bf158da3d4e7f83a9df81bb416b690"
+      "bytes": 11030,
+      "sha256": "09a2e6ada3dacdc61f1e5e3e0ff6e365fe56521c0b1a14b6f59e4d5c06631068"
     }
   ],
   "latest_progress_directory": "progress_20261009",
-  "latest_public_completion_directory": "public_completion_20261009"
+  "latest_public_completion_directory": "public_completion_20261009",
+  "latest_official_energy_evidence_directory": "energy_registry_20261009"
 }

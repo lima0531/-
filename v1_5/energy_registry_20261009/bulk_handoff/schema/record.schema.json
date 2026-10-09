@@ -1,0 +1,310 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "public_energy_record_v1",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "record_key",
+    "record_entity_key",
+    "record_version_key",
+    "full_row_sha256",
+    "source_snapshot_id",
+    "source_page_number",
+    "source_row_index_zero_based",
+    "query_run_id",
+    "library",
+    "model_requested",
+    "vehicle_model_raw",
+    "model_exact_match",
+    "record_id_raw",
+    "uuid_raw",
+    "enterprise_raw",
+    "announcement_batch_raw",
+    "response_report_type_raw",
+    "response_energy_or_fuel_type_raw",
+    "view_filter_record_type_consistency",
+    "pure_electric_identity_certified",
+    "configuration_key_raw",
+    "curb_mass_raw",
+    "driving_range_raw",
+    "electric_energy_consumption_raw",
+    "test_basis_standard_code_raw",
+    "issue_date_raw",
+    "create_time_raw",
+    "submit_date_raw",
+    "enable_date_raw",
+    "activation_date_raw",
+    "update_time_raw",
+    "abandon_time_raw",
+    "migration_note_raw",
+    "post_cutoff_registration_or_migration_observed",
+    "public_time_raw",
+    "public_time_precision",
+    "apply_id_raw",
+    "work_condition_vos_raw_json",
+    "work_condition_type_raw",
+    "legacy_detail_evidence_ids_json",
+    "full_label_reference_raw",
+    "label_evidence_ids_json",
+    "raw_response_path",
+    "raw_record_json_pointer",
+    "standard_revision_officially_observed",
+    "work_condition_code_officially_observed",
+    "explicit_test_cycle_officially_observed",
+    "issue_date_semantics_verified",
+    "historical_public_availability_certified",
+    "same_tax_configuration_identity_certified",
+    "same_cycle_comparability_certified",
+    "can_replace_frozen_scientific_input",
+    "bridge_evidence_paths_json",
+    "scope_note"
+  ],
+  "properties": {
+    "record_key": {
+      "type": "string",
+      "description": "发生项ID：库+快照+ID+全字段row_hash+页号+行序；不得把同UUID状态版本删掉"
+    },
+    "record_entity_key": {
+      "type": "string",
+      "description": "库+稳定ID，只关联实体，不能当唯一历史记录键"
+    },
+    "record_version_key": {
+      "type": "string",
+      "description": "库+稳定ID+全字段row_hash，允许一个UUID多个状态版本"
+    },
+    "full_row_sha256": {
+      "type": "string",
+      "pattern": "^[a-f0-9]{64}$",
+      "description": "完整原列表对象规范JSON(sort_keys=True,ensure_ascii=False,separators=(',',':')) UTF8 SHA256；不删除null/日期/abandonTime字段"
+    },
+    "source_snapshot_id": {
+      "type": "string",
+      "description": "该次快照ID"
+    },
+    "source_page_number": {
+      "type": "integer",
+      "minimum": 1,
+      "description": "原响应回显页号"
+    },
+    "source_row_index_zero_based": {
+      "type": "integer",
+      "minimum": 0,
+      "description": "原info.list中的0-based位置，完整相同行也各保留发生项"
+    },
+    "query_run_id": {
+      "type": "string",
+      "description": "所属查询"
+    },
+    "library": {
+      "type": "string",
+      "description": "库",
+      "enum": [
+        "new",
+        "old"
+      ]
+    },
+    "model_requested": {
+      "type": "string",
+      "description": "精确请求型号"
+    },
+    "vehicle_model_raw": {
+      "type": "string",
+      "description": "返回型号原值，新旧字段均逐库识别"
+    },
+    "model_exact_match": {
+      "type": "boolean",
+      "default": false,
+      "description": "只按原始型号精确相等；不得按商品名/质量替代"
+    },
+    "record_id_raw": {
+      "type": "string",
+      "description": "备案号原文，不等同检测报告编号"
+    },
+    "uuid_raw": {
+      "type": "string",
+      "description": "UUID原值"
+    },
+    "enterprise_raw": {
+      "type": "string",
+      "description": "申报企业原文，未认证历史法律身份"
+    },
+    "announcement_batch_raw": {
+      "type": "string",
+      "description": "实际字段原值，不等同购置税目录批次"
+    },
+    "response_report_type_raw": {
+      "type": "string",
+      "description": "列表reportType原值，不能当请求selector"
+    },
+    "response_energy_or_fuel_type_raw": {
+      "type": "string",
+      "description": "列表若有energyType/fuelType则原文记录；不存在留空不填请求值"
+    },
+    "view_filter_record_type_consistency": {
+      "type": "string",
+      "description": "仅对实际返回分类/请求视图做一致性观察，不认证真实动力类别",
+      "enum": [
+        "consistent_observed",
+        "inconsistent_observed",
+        "unresolved"
+      ]
+    },
+    "pure_electric_identity_certified": {
+      "type": "boolean",
+      "default": false,
+      "description": "不能由请求energyType8/fuelType8推所有返回行均是真纯电；默认false"
+    },
+    "configuration_key_raw": {
+      "type": "string",
+      "description": "若实际官方字段/原件有配置键才填；否则空"
+    },
+    "curb_mass_raw": {
+      "type": "string",
+      "description": "整备质量原值和单位；不与电池质量混淆"
+    },
+    "driving_range_raw": {
+      "type": "string",
+      "description": "续驶里程原值"
+    },
+    "electric_energy_consumption_raw": {
+      "type": "string",
+      "description": "消耗量原值，不是电池总能量"
+    },
+    "test_basis_standard_code_raw": {
+      "type": "string",
+      "description": "代码原值，不无依据映射5"
+    },
+    "issue_date_raw": {
+      "type": "string",
+      "description": "issueDate原值，字段语义未证不称官方出具日期"
+    },
+    "create_time_raw": {
+      "type": "string",
+      "description": "createTime原值"
+    },
+    "submit_date_raw": {
+      "type": "string",
+      "description": "submitDate原值"
+    },
+    "enable_date_raw": {
+      "type": "string",
+      "description": "enableDate原值"
+    },
+    "activation_date_raw": {
+      "type": "string",
+      "description": "activationDate原值"
+    },
+    "update_time_raw": {
+      "type": "string",
+      "description": "updateTime原值"
+    },
+    "abandon_time_raw": {
+      "type": "string",
+      "description": "abandonTime原值；同UUID两条不同撤销日期都保留"
+    },
+    "migration_note_raw": {
+      "type": "string",
+      "description": "例如老数据切换新油耗系统，照录"
+    },
+    "post_cutoff_registration_or_migration_observed": {
+      "type": "boolean",
+      "default": false,
+      "description": "2023-12-10后登记/提交/启用/迁移观察标记；不等于此前从未公开"
+    },
+    "public_time_raw": {
+      "type": "string",
+      "description": "旧库publicTime原值，例2023-06，保持月精度；非首次公开/试验日"
+    },
+    "public_time_precision": {
+      "type": "string",
+      "description": "只描述原字段精度",
+      "enum": [
+        "month",
+        "day",
+        "timestamp",
+        "unparsed",
+        "not_present"
+      ]
+    },
+    "apply_id_raw": {
+      "type": "string",
+      "description": "旧库列表applyId，queryDetail实际请求键，详情可能不回传，不能丢列表映射"
+    },
+    "work_condition_vos_raw_json": {
+      "type": "string",
+      "description": "旧库workConditionVos全列表原文JSON；多工况不折成一个值"
+    },
+    "work_condition_type_raw": {
+      "type": "string",
+      "description": "实际代码原文，如CATC；不机械等于CLTC-P"
+    },
+    "legacy_detail_evidence_ids_json": {
+      "type": "string",
+      "description": "queryDetail原响应证据ID数组"
+    },
+    "full_label_reference_raw": {
+      "type": "string",
+      "description": "实际标签路径/公开下载标识原值；不伪造"
+    },
+    "label_evidence_ids_json": {
+      "type": "string",
+      "description": "逐记录关联标签证据ID JSON数组"
+    },
+    "raw_response_path": {
+      "type": "string",
+      "description": "所属响应文件相对路径"
+    },
+    "raw_record_json_pointer": {
+      "type": "string",
+      "description": "原JSON精确位置，如/info/list/0"
+    },
+    "standard_revision_officially_observed": {
+      "type": "boolean",
+      "default": false,
+      "description": "逐条PDF、旧queryDetail字面标准原响应或正式代码字典有版本依据"
+    },
+    "work_condition_code_officially_observed": {
+      "type": "boolean",
+      "default": false,
+      "description": "旧列表实际工况代码已观察，例CATC；这不认证其对应CLTC-P"
+    },
+    "explicit_test_cycle_officially_observed": {
+      "type": "boolean",
+      "default": false,
+      "description": "逐条对应原件明确写具体试验工况名；仅CATC原代码不标此命名flag为true"
+    },
+    "issue_date_semantics_verified": {
+      "type": "boolean",
+      "default": false,
+      "description": "须另有官方字段释义/对应原件，默认false"
+    },
+    "historical_public_availability_certified": {
+      "type": "boolean",
+      "default": false,
+      "description": "独立证据证明冻结点前公开，不由issueDate推出"
+    },
+    "same_tax_configuration_identity_certified": {
+      "type": "boolean",
+      "default": false,
+      "description": "正式跨目录配置桥已证；质量/续航相同不足"
+    },
+    "same_cycle_comparability_certified": {
+      "type": "boolean",
+      "default": false,
+      "description": "工况、配置及适用历史版本全部核验前false"
+    },
+    "can_replace_frozen_scientific_input": {
+      "type": "boolean",
+      "default": false,
+      "description": "默认false，批量采集阶段不能自动改科学输入"
+    },
+    "bridge_evidence_paths_json": {
+      "type": "string",
+      "description": "上述证书flag的独立依据路径JSON数组；未证[]"
+    },
+    "scope_note": {
+      "type": "string",
+      "description": "未提供/矛盾/不同配置/历史可得性未证边界"
+    }
+  }
+}

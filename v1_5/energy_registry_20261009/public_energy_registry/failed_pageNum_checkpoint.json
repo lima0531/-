@@ -1,0 +1,18 @@
+{
+  "started_utc": "2026-10-09T09:47:05.742797+00:00",
+  "library": "new",
+  "filters": {
+    "energyType": "8"
+  },
+  "completed": false,
+  "pages_validated": 1,
+  "rows": 200,
+  "unique_ids": 200,
+  "stop_reason": "page_parameter_mismatch",
+  "transactionally_atomic_snapshot": false,
+  "history_scope": "Only rows returned by this normally public BEV filter at observed request times; no hidden/history completeness claim.",
+  "reported_total": 10479,
+  "reported_pages": 53,
+  "updated_utc": "2026-10-09T09:47:16.578390+00:00",
+  "finished_utc": "2026-10-09T09:47:29.880723+00:00"
+}

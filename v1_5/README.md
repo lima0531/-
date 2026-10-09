@@ -1,3 +1,5 @@
+> 最新[官方能耗库实取证据与严格边界](energy_registry_20261009/README.md)及[可直接交给DeepSeek的批量要求](energy_registry_20261009/bulk_handoff/README.md)已发布。JX不在2208数值齐备清单，issueDate不作为历史首次公开证明，主数据保持原字节。
+
 > [本轮公开补查与用户接手清单](public_completion_20261009/README.md)记录已查路径、有效证据与仍需原机构提供的材料；[按企业合并的询证表](public_completion_20261009/user_handoff/README.md)可直接使用。本轮未替空值猜数，52份规范科学CSV保持原字节，历史发布包均保留。
 
 > 2026-10-09[最新剩余总账与时间判断](progress_20261009/README.md)：原件缺0份，JX真实原空1字段；配置、工况、低温和逐车按用途计数，资料取得日不作保证。标准4项登记已补齐，旧2488轨迹指纹已定位。本轮只补证据和订正说明，52份规范科学CSV及原两个数据ZIP字节未变。[新补证包](progress_20261009/progress_and_evidence_20261009.zip)可单独下载。

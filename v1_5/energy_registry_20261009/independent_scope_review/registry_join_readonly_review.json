@@ -1,0 +1,1274 @@
+{
+  "status": "PASS",
+  "reviewed_at_utc": "2026-10-09T10:09:07.408538+00:00",
+  "mode": "independent_local_read_only_no_network",
+  "libraries": {
+    "old": {
+      "completed": true,
+      "reported_pages": 47,
+      "validated_pages": 47,
+      "reported_total": 9336,
+      "raw_rows": 9336,
+      "distinct_identifiers": 9336,
+      "distinct_full_rows": 9336,
+      "duplicate_identifier_occurrences": 0,
+      "duplicate_full_row_occurrences": 0,
+      "global_repeated_page_groups": [],
+      "verified_pages": [
+        {
+          "page": 1,
+          "response": "old_currentPage/page0001_response.json",
+          "response_sha256": "fefd9e91800ea3dc5f6ee7acc1741ea29c2a680a9d934bdde0117f4a417ad088",
+          "receipt_sha256": "783251802ffcf3ceb1642c7fc77aa60d6def66321368ff5070c7d3c30a3e6e7f",
+          "list_content_sha256": "8f419cb568be4f56921de5039133c87ee238e881290a3de46b66c4da7726db29",
+          "rows": 200,
+          "filter": {
+            "fuelType": "8"
+          }
+        },
+        {
+          "page": 2,
+          "response": "old_currentPage/page0002_response.json",
+          "response_sha256": "3d42ce220d4484ce7b4692ccabb7878da3e0686e764ba7d01ba17f771e0e3028",
+          "receipt_sha256": "3544ec1b18423f06442684928ba2152658fc3c0a115d496c3ec8ae45848d09a5",
+          "list_content_sha256": "e39b91b7b4d5e2642b39b4b7da3ef8e1aa36e96f04aa82b9987f5b1bfe599dad",
+          "rows": 200,
+          "filter": {
+            "fuelType": "8"
+          }
+        },
+        {
+          "page": 3,
+          "response": "old_currentPage/page0003_response.json",
+          "response_sha256": "25444f57cb6cc46bd3d341be9b19159e171c8d3522f5dd5323e7daffbafad7fc",
+          "receipt_sha256": "11845f45190832929ba91b841daae776c61cfcaaa3e2056b5be2f420d5da3497",
+          "list_content_sha256": "1c2edfe18de38cf33815d7e07ca5309acbb2a1ef4dec6dbd31f80041e0760599",
+          "rows": 200,
+          "filter": {
+            "fuelType": "8"
+          }
+        },
+        {
+          "page": 4,
+          "response": "old_currentPage/page0004_response.json",
+          "response_sha256": "f851684be820cd9302ff472bf775ca955a68b8568f79126ca2d5e48e8b80bfe7",
+          "receipt_sha256": "14a20aa642b1ff98246e872ca02e11dee2a667bfeb1d56248266e4702bdcc9d4",
+          "list_content_sha256": "0f182bf83466b4b7576581b0d14a97e0b1c5e5bae7a4f9421834b8228d03887e",
+          "rows": 200,
+          "filter": {
+            "fuelType": "8"
+          }
+        },
+        {
+          "page": 5,
+          "response": "old_currentPage/page0005_response.json",
+          "response_sha256": "91a1b5250284a729fe47cebc316cc22c9911e0e1a342829437f8016fcee8eb54",
+          "receipt_sha256": "861c4b2e983f8c34c419f133910666d6c62152cf20d3e0958f318249cdd70067",
+          "list_content_sha256": "fbe92eb17169b673eb217967bae88f2a7b297f54a25b47f50478666622e57330",
+          "rows": 200,
+          "filter": {
+            "fuelType": "8"
+          }
+        },
+        {
+          "page": 6,
+          "response": "old_currentPage/page0006_response.json",
+          "response_sha256": "68b730fea1ac8b827ae7633fbf4c8aff9f26e056b34ed8e5086dfe00d9f2b148",
+          "receipt_sha256": "9cdaf02f07c436a2ffea7ad659b9282bfc0b5345e113bea15213507ac39e4057",
+          "list_content_sha256": "665e13add7555309eb210690b29a954569163405261e5de4b49bff10bba05ecf",
+          "rows": 200,
+          "filter": {
+            "fuelType": "8"
+          }
+        },
+        {
+          "page": 7,
+          "response": "old_currentPage/page0007_response.json",
+          "response_sha256": "40b3abdb81882a95b6f661dc5511bb5655e4a69fd27f215e49ca4533704748ab",
+          "receipt_sha256": "7d9a81188fbe72b6d1fa28e38b0f4473a655f72d09eb4f62f489b6720df3ceb3",
+          "list_content_sha256": "9ec7a00e951b407a169ae481e621b48a71cfe337208b65bc06a3f3fe22c24c27",
+          "rows": 200,
+          "filter": {
+            "fuelType": "8"
+          }
+        },
+        {
+          "page": 8,
+          "response": "old_currentPage/page0008_response.json",
+          "response_sha256": "bc32658655634380bb53c40e2a53068f34db40e6b5126d40bd62678340f61786",
+          "receipt_sha256": "63557cf3c933c0d76351eec83235471e6aadb8ff68ac29c4999991317db05853",
+          "list_content_sha256": "bebf9643aa226d025c995af090d7dfbd0c466c4724b55647ab6ebfc2837f816f",
+          "rows": 200,
+          "filter": {
+            "fuelType": "8"
+          }
+        },
+        {
+          "page": 9,
+          "response": "old_currentPage/page0009_response.json",
+          "response_sha256": "9c1ad18dc467b245029b46af95a653d97f27cf383f23ce6850f799159ecaf0df",
+          "receipt_sha256": "f0fc2a2f96bc2ec9148d2c325e243119e417683c34f93d9205b658506203f16f",
+          "list_content_sha256": "af00d528c294ceafd7db6e9e578dfdb3c338831bce368e5d8199b8f3a20289f5",
+          "rows": 200,
+          "filter": {
+            "fuelType": "8"
+          }
+        },
+        {
+          "page": 10,
+          "response": "old_currentPage/page0010_attempt02_response.json",
+          "response_sha256": "320ef44b657ab160c259844feaebb9f93219a1b6f07803c34883b6518c3a95eb",
+          "receipt_sha256": "52fdee94040d179c7895da7d3eca770506e4ae3b4862174b63f35ae7b73b3102",
+          "list_content_sha256": "ff2b75fb68bdf70ee566311bd9528f3ce8d2f419b531ef269e2af698f778c584",
+          "rows": 200,
+          "filter": {
+            "fuelType": "8"
+          }
+        },
+        {
+          "page": 11,
+          "response": "old_currentPage/page0011_response.json",
+          "response_sha256": "7612cd0dacba2e021cd3a6988a28f4db037ce51eb924c3df914391021fc46688",
+          "receipt_sha256": "91db14944f662f56772ffc3867cde9984e9d12ae88504b1ea84af7c422bbb4ce",
+          "list_content_sha256": "5e38a6e68de91f6b11365d76b980b44c0e8dc927c61b27fb1110e17e745c64a0",
+          "rows": 200,
+          "filter": {
+            "fuelType": "8"
+          }
+        },
+        {
+          "page": 12,
+          "response": "old_currentPage/page0012_response.json",
+          "response_sha256": "576b7882b0d12360dc89d86d20f602249c340bf802df83f3a5edb4332d70e8eb",
+          "receipt_sha256": "3c3f32a745f677264a431421734147903216a3fc1e88c86cd6b9de7954d14ce7",
+          "list_content_sha256": "6589ecae51c28bb2e574983b79f68845b459a0789c74e33855aaaef993f174e4",
+          "rows": 200,
+          "filter": {
+            "fuelType": "8"
+          }
+        },
+        {
+          "page": 13,
+          "response": "old_currentPage/page0013_response.json",
+          "response_sha256": "af0943590d79e0e70d525d6ccf3dcc8587f41905485c282166172b859f8b2038",
+          "receipt_sha256": "d62258eefd4c8428e3a1c0a45d5c2802a738a0a80320cb97420597f0ebaa6c31",
+          "list_content_sha256": "879557de5ae5e76f15b54ea3b192858cfb37b00f312d2dbc4c882930086a9b0f",
+          "rows": 200,
+          "filter": {
+            "fuelType": "8"
+          }
+        },
+        {
+          "page": 14,
+          "response": "old_currentPage/page0014_response.json",
+          "response_sha256": "5e7bcded7c76784f102ce02a39e2212b336dc231adbada1a72a8a159a7f77ccb",
+          "receipt_sha256": "73e8c3a3d8a5ca3f636516dad773c12e8adc1c7c9a5edb87faabda1fd513fa99",
+          "list_content_sha256": "737ba6c148c00d9fedf5823793e4f9b71325793726406242ffb9e060a89952c2",
+          "rows": 200,
+          "filter": {
+            "fuelType": "8"
+          }
+        },
+        {
+          "page": 15,
+          "response": "old_currentPage/page0015_response.json",
+          "response_sha256": "b93d5efbc89303285c846e6856e127b975982e98fc67a0f7c84f9e0e3d11bd14",
+          "receipt_sha256": "3cf01e6fcca0692155106f481f1b42f545a84d02eaaafe6a2001faa6590e2222",
+          "list_content_sha256": "7a98d1a9143578143bdf9dffdebedb8fd058f164b05c10ffea38ff5ed88a9dca",
+          "rows": 200,
+          "filter": {
+            "fuelType": "8"
+          }
+        },
+        {
+          "page": 16,
+          "response": "old_currentPage/page0016_response.json",
+          "response_sha256": "9b1f179f1bc4e96296fd37da582cdbd71ad9e4adb96f10b0c4f3c4de97706ec5",
+          "receipt_sha256": "df67480b0afe23c398c821dea61a8611a81985e9959fc2f35e7219025720e3ef",
+          "list_content_sha256": "d974e8c0cdd879fc61111d80a2e31caa50c30ba0f33a97a4d5cb287d203d0cf8",
+          "rows": 200,
+          "filter": {
+            "fuelType": "8"
+          }
+        },
+        {
+          "page": 17,
+          "response": "old_currentPage/page0017_attempt02_response.json",
+          "response_sha256": "bb3c15e2adaf9344a861e8a592f32ff3aee982caefc6d33cc8b72df04b17f28d",
+          "receipt_sha256": "3e7d7071b1e0f6d9910b21d2cc8e11799d0b7b5d37cb7a4ccfbeee4c3f76e522",
+          "list_content_sha256": "06a8631e7d14f621cf140899bd5f9a059b1444fbbcb268b1e993228591510210",
+          "rows": 200,
+          "filter": {
+            "fuelType": "8"
+          }
+        },
+        {
+          "page": 18,
+          "response": "old_currentPage/page0018_response.json",
+          "response_sha256": "0f44d6c406107027cf28dad604a8b892147e30080f052baf4f4a4a24887e40ff",
+          "receipt_sha256": "368c8ca3897bd8dd6b661e8613f961e79401f232941ab6a9c275c205f429a231",
+          "list_content_sha256": "009405492d63347340aca255a43897f2f5caf8724aad7e2a1d6e6dd33ac2493a",
+          "rows": 200,
+          "filter": {
+            "fuelType": "8"
+          }
+        },
+        {
+          "page": 19,
+          "response": "old_currentPage/page0019_response.json",
+          "response_sha256": "266461dff543e587a96796d27195ea0a17b6634c5b503eaa0aa96e01b1798371",
+          "receipt_sha256": "4a2aa8948c4d0c4f003e48c8ba5d359942de26f225d0e168ec92bde948c74aef",
+          "list_content_sha256": "ca513c845d4926ab2d50a642e684cdf4aa93c1484a9bc24844edab4ca7eb0365",
+          "rows": 200,
+          "filter": {
+            "fuelType": "8"
+          }
+        },
+        {
+          "page": 20,
+          "response": "old_currentPage/page0020_response.json",
+          "response_sha256": "61ec1a16d92fcb8b5fba852c0315c9a74f8e3558a011687161700d56861b5db0",
+          "receipt_sha256": "d150e1c2c215924139c2aa0603f62cd8c7dec3a3d77166955cd009feba47367b",
+          "list_content_sha256": "f97d19f08b84ec81e91d790789d3c90f851b9e20d0a75970055d714106c63405",
+          "rows": 200,
+          "filter": {
+            "fuelType": "8"
+          }
+        },
+        {
+          "page": 21,
+          "response": "old_currentPage/page0021_response.json",
+          "response_sha256": "2d2c4ca547340a90e78396655e3900142faf085f1db8c8dcd4db1bfbbc416337",
+          "receipt_sha256": "b22ced34401437564ab52ba7be0fd92b60ff3a39665c4807b14a9a8633a34451",
+          "list_content_sha256": "9a180184035b039ef52fbbfa6c0455172a324b60b092a6cd795e9afbddb64431",
+          "rows": 200,
+          "filter": {
+            "fuelType": "8"
+          }
+        },
+        {
+          "page": 22,
+          "response": "old_currentPage/page0022_response.json",
+          "response_sha256": "0310934e6d7ab3d2a5de5dcc2dde43026051d25e2f15b0ae5a847c0d7a28478f",
+          "receipt_sha256": "c61ccc8dc93c0a120bd9f375cb975e94430361ef92b3196e90169350ffca6ba7",
+          "list_content_sha256": "57442cd91c457486017f61bfa3c651bf128f70aad8b22f59a349be1ccbfb99f9",
+          "rows": 200,
+          "filter": {
+            "fuelType": "8"
+          }
+        },
+        {
+          "page": 23,
+          "response": "old_currentPage/page0023_response.json",
+          "response_sha256": "1054fbbdf2be0c98ac7a0cce4cea01dea868faa1f312ab9b0b028a0e59e2d0fe",
+          "receipt_sha256": "5e4602ccb1e840674367f7100d4ada19200631eef0f06aa1e7d8c76b9c16452e",
+          "list_content_sha256": "806ab5d3ab27ac41237b02e3a745b8156787a11c157cbba1a27302997542b5af",
+          "rows": 200,
+          "filter": {
+            "fuelType": "8"
+          }
+        },
+        {
+          "page": 24,
+          "response": "old_currentPage/page0024_response.json",
+          "response_sha256": "3f0f53fa4075eb0f50baef9a1f17ac0759dbbce4199f14c556a4f65c50ee6272",
+          "receipt_sha256": "6554eccdf8f077b1dc61eaae1233f24512ae55370d2b5b5c7f8a2ebc280aa12f",
+          "list_content_sha256": "cce0f11495abd575a538488c0bd03fd1f74fe7a3ec9d4a9912dcb1b6114003d1",
+          "rows": 200,
+          "filter": {
+            "fuelType": "8"
+          }
+        },
+        {
+          "page": 25,
+          "response": "old_currentPage/page0025_response.json",
+          "response_sha256": "4b326d833a657cbaf03bc3b5ecd91a74ac9dd013aaf37b6eb6bffb1e9fe087b3",
+          "receipt_sha256": "7f54e069d71a66820a6cc0ca36835a9ddcd2ea5a0a7cabbdec60cdf4a1aa0ebe",
+          "list_content_sha256": "aba85d2ea0c3512a6f6f76f845addcbca85eb294d641a353f13ea7f91bd7e9bb",
+          "rows": 200,
+          "filter": {
+            "fuelType": "8"
+          }
+        },
+        {
+          "page": 26,
+          "response": "old_currentPage/page0026_response.json",
+          "response_sha256": "749d05c412fd2db90efe924140bfd809481ce90a01ea84e010c33eb23b8df7dc",
+          "receipt_sha256": "f115014de851dffec352292ccb41f91756657507d76965525a83531c216407c7",
+          "list_content_sha256": "7bf0b40987d65fd86cff9c11a8b6dd40a5c9a728a43d3a134378b2cc87947d4c",
+          "rows": 200,
+          "filter": {
+            "fuelType": "8"
+          }
+        },
+        {
+          "page": 27,
+          "response": "old_currentPage/page0027_response.json",
+          "response_sha256": "c5a69308aa7f9a452c243be2a21d640492222a3be532f26f7d5a342b263ee865",
+          "receipt_sha256": "4c9aca110dab53a640b86321a2cdd08caf8529c324ea8715c797ecc08664c67c",
+          "list_content_sha256": "3f8b28e5ec21549d54c26768ccdbcdf8dd13fe5c5f8336b812ac40b9d3d7594e",
+          "rows": 200,
+          "filter": {
+            "fuelType": "8"
+          }
+        },
+        {
+          "page": 28,
+          "response": "old_currentPage/page0028_response.json",
+          "response_sha256": "f91ba2d44ee2b3d56fdcfd609a592968d37560389f72ceef699da55bc6d5f173",
+          "receipt_sha256": "20d4d07a62bd81635d338103edd55adf539e5b14a740826fc93aca6120a60513",
+          "list_content_sha256": "cd8794f412c0222262f306b0f4daab5745035e5246f92a59f4a2f730cc8f5d49",
+          "rows": 200,
+          "filter": {
+            "fuelType": "8"
+          }
+        },
+        {
+          "page": 29,
+          "response": "old_currentPage/page0029_response.json",
+          "response_sha256": "2db8874da1c94df92763e45d803c302470b9b6f9a155cb6edcb8399b034eeac9",
+          "receipt_sha256": "367cd3b14f97ec738518e1c81b3524139b7c9174240361ec583a27a40f8c89fa",
+          "list_content_sha256": "80640125094abca97cc3ba6df9d7e696d8a96b47508654694f1ed5989f469ab0",
+          "rows": 200,
+          "filter": {
+            "fuelType": "8"
+          }
+        },
+        {
+          "page": 30,
+          "response": "old_currentPage/page0030_response.json",
+          "response_sha256": "70b17cdf0aeab94b219f46013bb7499098fffbc7235b8c90455052c9ca963f4e",
+          "receipt_sha256": "223740b464a01c33d6eaa1aa4cb336c47eddea552e84b394d32153fb1fe704f8",
+          "list_content_sha256": "f641ffa12f540e00c64d73223437e59213a7deb57d07fc3108ca1adb9dd0ceef",
+          "rows": 200,
+          "filter": {
+            "fuelType": "8"
+          }
+        },
+        {
+          "page": 31,
+          "response": "old_currentPage/page0031_response.json",
+          "response_sha256": "1d4a7c29624a7908ce4dce2430b9a31b68b8a6be67685a30abb5438b6d6ddf1e",
+          "receipt_sha256": "77619b95133111cd643f3f526e77809086672489f4cd5488c95ce6e1a5d78587",
+          "list_content_sha256": "0f6bd4443cf4b67da006caeb41f44ac8018e1ecfcd772dbb13735e35a26059ef",
+          "rows": 200,
+          "filter": {
+            "fuelType": "8"
+          }
+        },
+        {
+          "page": 32,
+          "response": "old_currentPage/page0032_response.json",
+          "response_sha256": "ca2e5f7711046b159d51530bb3a5a6fb097c4c8783aca9d9f77c8adee61e1967",
+          "receipt_sha256": "0eb53d9441296fd3babf6dcd53dc4dd766eed1ea5082bafe195d39538f9fc3e3",
+          "list_content_sha256": "97c38df20c6f322aed80d7a9b4dbc687a8f032d1256e12d2aeccd2f8799e3a57",
+          "rows": 200,
+          "filter": {
+            "fuelType": "8"
+          }
+        },
+        {
+          "page": 33,
+          "response": "old_currentPage/page0033_response.json",
+          "response_sha256": "3622479042b0fe890780ce3bac0019e061e557fcb498805621fd672ea793b399",
+          "receipt_sha256": "58bd3a48b4227469e478dba434d92f23b751c5786421f27a402cf2d3967f8201",
+          "list_content_sha256": "2b5808fc9b27b7793b3f021a9190966b4a96a0215f756e01799e20cdc4ef9b16",
+          "rows": 200,
+          "filter": {
+            "fuelType": "8"
+          }
+        },
+        {
+          "page": 34,
+          "response": "old_currentPage/page0034_response.json",
+          "response_sha256": "10f9bd4fff48b2b46f12e7d5f7759ee31403280b011c4c674611741f3119b1c9",
+          "receipt_sha256": "e8102b40783abe472506465986a53758e68d76e26920f8cbac37b6f4d2c6b083",
+          "list_content_sha256": "f9b79156232150c5c627ba4fd5eace5d68b36fe1dd2ad474cb8b0fb06e8dd636",
+          "rows": 200,
+          "filter": {
+            "fuelType": "8"
+          }
+        },
+        {
+          "page": 35,
+          "response": "old_currentPage/page0035_response.json",
+          "response_sha256": "f03d0fef19dae31b9c29b48af31c988eba29f37e5c27dcd646f0bb0addadf1c2",
+          "receipt_sha256": "c7e841e265b72291433d5c1e8b06e83c99d654765d741d792e43b5736e47cfc8",
+          "list_content_sha256": "2ffac9b4a9234557725c57dbd48e00fe787766dcc03f5784d523ee4f503d0cb7",
+          "rows": 200,
+          "filter": {
+            "fuelType": "8"
+          }
+        },
+        {
+          "page": 36,
+          "response": "old_currentPage/page0036_response.json",
+          "response_sha256": "00052ec86ae3e3ec5d1627bc2522308e723ea7407bd14cd8a76b70a6e0ceca08",
+          "receipt_sha256": "bc807b93fa7b8fd3fed7083b30de5ce693a8c6a6b2cec5fc9f1cd8044b974f84",
+          "list_content_sha256": "20d3933565722053222be2902c4b808cb864a48a13fe80b8c36387cb598c1e6a",
+          "rows": 200,
+          "filter": {
+            "fuelType": "8"
+          }
+        },
+        {
+          "page": 37,
+          "response": "old_currentPage/page0037_response.json",
+          "response_sha256": "4632efdb68d35d89920e24e3b96eb753cca34e483eca3f8c0b610c9b4184d53d",
+          "receipt_sha256": "a08e0d703cbb20a2baf8ae49e340245b649bb66f418330351d13fa2b01455d3b",
+          "list_content_sha256": "3896256becb22b424df605f125fba40847116fd217893c6695e0878e3f0110be",
+          "rows": 200,
+          "filter": {
+            "fuelType": "8"
+          }
+        },
+        {
+          "page": 38,
+          "response": "old_currentPage/page0038_response.json",
+          "response_sha256": "615b52044475dc7f432d4475619f02903e8780776bf7b1063e7a4926f2c80b43",
+          "receipt_sha256": "6a5732cb903a3385afb8cf27d95044b5155bfbd06d4a50dc69c7f5b4ab10e21f",
+          "list_content_sha256": "fc6972ef1976066ca488a11beb0ba68ef39a98a62ae52923cd2897ff1ebf2394",
+          "rows": 200,
+          "filter": {
+            "fuelType": "8"
+          }
+        },
+        {
+          "page": 39,
+          "response": "old_currentPage/page0039_response.json",
+          "response_sha256": "eadd447786dd7e43ec19d65c89deaa4cb0c4358506e82d23e58ac937ed79dabc",
+          "receipt_sha256": "bf5fb20aebd097c048e397d7defd64bedc01495668407b2f5e6f11e88b093c9b",
+          "list_content_sha256": "2561b8ade8a2fefbd1872a495848688cc31da468512ced822cbb1b9caeb97339",
+          "rows": 200,
+          "filter": {
+            "fuelType": "8"
+          }
+        },
+        {
+          "page": 40,
+          "response": "old_currentPage/page0040_response.json",
+          "response_sha256": "9b2ff2784aa7cd61510245b4f02bce5bae1e1970385318c7b60b63f09edcab51",
+          "receipt_sha256": "641049726bb2a48070d2133047d367f602dfb9190b9b50341882921d22b7dbf6",
+          "list_content_sha256": "3101ae7f0b37f913c5b2d220ea398c7eb9b5847d010aa7a9606509df05cb7f86",
+          "rows": 200,
+          "filter": {
+            "fuelType": "8"
+          }
+        },
+        {
+          "page": 41,
+          "response": "old_currentPage/page0041_response.json",
+          "response_sha256": "1b81f2a4d62ab0142e44481203b14cc84f4bd96f29a6974eb6a27bf848c6571e",
+          "receipt_sha256": "266ce324a6e793c2338af496914043bc7bcee308badccf0d6459ac49aff9f7c8",
+          "list_content_sha256": "beb19dd922d317b8f01e456388e9c468dea97703c6264d4a25e86a9a89e8cfb2",
+          "rows": 200,
+          "filter": {
+            "fuelType": "8"
+          }
+        },
+        {
+          "page": 42,
+          "response": "old_currentPage/page0042_response.json",
+          "response_sha256": "2c5eb3b05f1fdc95280853219bf242696c7ad7a2ce5a7040aa6a63a46331f12b",
+          "receipt_sha256": "8399020d3b4b9dc812377a2f892eaf38ad618505e0bd9a8b523b852907873e5f",
+          "list_content_sha256": "905931a685d725d61c210e30577837194cc8658671504ec4693fa7c684b18c2f",
+          "rows": 200,
+          "filter": {
+            "fuelType": "8"
+          }
+        },
+        {
+          "page": 43,
+          "response": "old_currentPage/page0043_response.json",
+          "response_sha256": "b28f2080a633a1eb7af4ec3cd3ccbb331e8ae724a11542b9726753fdd3b48762",
+          "receipt_sha256": "c053f292a9d2d73e87fe8de3e3fe7671f211e23285d7508498feeeb6a939fd4f",
+          "list_content_sha256": "a06a7f3cd36b60344bad090c7d8761298480545487fc29d901fe39ae4accd133",
+          "rows": 200,
+          "filter": {
+            "fuelType": "8"
+          }
+        },
+        {
+          "page": 44,
+          "response": "old_currentPage/page0044_response.json",
+          "response_sha256": "74273b209c7b7e9529c17e2f0ab645952a33f700afaaa6a5ca509892ccd5e36a",
+          "receipt_sha256": "43538683c98f2607accab01aeb9c5e2a2c8220410d2d00a0495e0eda0240619c",
+          "list_content_sha256": "fdfd81b8bde4c2f310efb30c9568fbb588ab20da8307524d3a8602f802ac8028",
+          "rows": 200,
+          "filter": {
+            "fuelType": "8"
+          }
+        },
+        {
+          "page": 45,
+          "response": "old_currentPage/page0045_response.json",
+          "response_sha256": "b639a84f448be7b1472cb0650444a195486c3c32da83711ef3252562b11e9894",
+          "receipt_sha256": "62b8cde4740c9ffbfcd5570051160ab7581f4d2f6d2f0deca83d4b10dd2438b1",
+          "list_content_sha256": "5ab97d72f3536708f4431b44adf24bd37aeb925b813c2108b98cc7590237eb01",
+          "rows": 200,
+          "filter": {
+            "fuelType": "8"
+          }
+        },
+        {
+          "page": 46,
+          "response": "old_currentPage/page0046_response.json",
+          "response_sha256": "10b7be3db2a1b2f2ad370ddd47ea2ae8b47dcba13ea79280343667b5b15cf120",
+          "receipt_sha256": "617343f9be320e081dbfa8b9e6cf35b27accbbe84b3b60729e12950076fed72e",
+          "list_content_sha256": "b5bbc19b2f02dbf38778afd1c1841a26c42b0eba08a77c8b3097ea9f3b0662a7",
+          "rows": 200,
+          "filter": {
+            "fuelType": "8"
+          }
+        },
+        {
+          "page": 47,
+          "response": "old_currentPage/page0047_response.json",
+          "response_sha256": "173156018eb97d0193eb60dc77338e0e6bc4528dbd7a2a28514fd03fb403990f",
+          "receipt_sha256": "c8496b477366731aae717797403aafcdbfe62780fb5d61cc8bddc8448c184fe3",
+          "list_content_sha256": "e058f1f45a75f66708ed5f1cf3b450e4498142d0fd05cc2b84de84dc11018d94",
+          "rows": 136,
+          "filter": {
+            "fuelType": "8"
+          }
+        }
+      ]
+    },
+    "new": {
+      "completed": false,
+      "reported_pages": 53,
+      "validated_pages": 4,
+      "reported_total": 10479,
+      "raw_rows": 800,
+      "distinct_identifiers": 797,
+      "distinct_full_rows": 800,
+      "duplicate_identifier_occurrences": 3,
+      "duplicate_full_row_occurrences": 0,
+      "global_repeated_page_groups": [],
+      "verified_pages": [
+        {
+          "page": 1,
+          "response": "new_currentPage/page0001_response.json",
+          "response_sha256": "1171722e6dfdb4e0943e3995d0e44d64c0324c58ecba9d64ed544b8a53aeab2d",
+          "receipt_sha256": "8f88a767a20ae41b78edb7fb1d76ce4dab5bf7a54399c4acd69246b705348f4d",
+          "list_content_sha256": "cf9569a60d4312d2c761147411c8769dce497495ee5bb97ed7de6c373c3a9ef2",
+          "rows": 200,
+          "filter": {
+            "energyType": "8"
+          }
+        },
+        {
+          "page": 2,
+          "response": "new_currentPage/page0002_response.json",
+          "response_sha256": "17fbe796d6995b3bc890f9b257ff2efeb57b1d6b2d032923403d75e4508ec900",
+          "receipt_sha256": "ab2f1465b0378aa152e9e865efc9e5e1075ed6a125a7e75946f06a349d41cb7e",
+          "list_content_sha256": "98309b07b254f962a19e75e6df2d352b28d72872225f90dc9df56288cd32c5ce",
+          "rows": 200,
+          "filter": {
+            "energyType": "8"
+          }
+        },
+        {
+          "page": 3,
+          "response": "new_currentPage/page0003_response.json",
+          "response_sha256": "3f8a08b51fb7fd83215da948c47130c0807ba926a8e96279b9b053c321188008",
+          "receipt_sha256": "789ea3fda6a4ed723c39d9ab99b12f3f85d248489dce712d84da06dda590fcda",
+          "list_content_sha256": "4b165629daa7d247ea74a2956050e59ee4b0d7d4ce8f05e21e9519e71959ce54",
+          "rows": 200,
+          "filter": {
+            "energyType": "8"
+          }
+        },
+        {
+          "page": 4,
+          "response": "new_currentPage/page0004_attempt02_response.json",
+          "response_sha256": "70da726f8f8ee0a854bffe95ab1b01c3b451c849add365f8c2f3e12e4d91fa40",
+          "receipt_sha256": "306099ceeb9df0e50e820b23babc165aa8dbb81044560a3a46ea809b3ee48fc5",
+          "list_content_sha256": "99b1fbe7291856f46f4bff66652fbc740fceb0548102c34f20b1e4c35562b4c7",
+          "rows": 200,
+          "filter": {
+            "energyType": "8"
+          }
+        }
+      ]
+    }
+  },
+  "fixed_model_count": 2208,
+  "core_models_with_any_visible_exact_record": 1234,
+  "core_match_states": {
+    "old_observed": 1231,
+    "no_match_in_pages_observed": 974,
+    "both_observed": 2,
+    "new_observed": 1
+  },
+  "core_models_with_old_code": 1232,
+  "old_raw_code_model_counts": {
+    "CATC": 818,
+    "NEDC": 616
+  },
+  "CATC_NEDC_model_intersection": 202,
+  "target_universe_models": 2333,
+  "target_jsonl_rows": 5071,
+  "core_target_jsonl_rows_by_library": {
+    "new": 5,
+    "old": 4497
+  },
+  "category_conflict_count": 1,
+  "category_conflict_model": "ART5010TSLS09BEV",
+  "new_page5_boundary": {
+    "http_status": 403,
+    "response_text": "No approved upstream IPv4 address",
+    "saved_attempts": 1,
+    "response_sha256": "beb861eaa39f786b701fafe0c93827f91c26b4fd7bda29668712515b031e2569"
+  },
+  "scientific_csv_count": 52,
+  "scientific_csv_sha256": {
+    "reconstruction/data_v1_5/日期续查/97批次日期_续查登记.csv": "a2db26f1a4ff90d5c4bb71a4589580b398b5d3def2049e19759e0b29ef41bb1f",
+    "reconstruction/data_v1_5/研究数据/分类冲突_原文证据与隔离.csv": "70d1f6c5350b49250c3e8d5eff06aea4a6258c04cb9cbc84babb0bdcd449c6c3",
+    "reconstruction/data_v1_5/研究数据/样本成员重建.csv": "7bc82499c2b093650576e25d9b143e88140127dd536f76f41d5cb3d7767321f1",
+    "reconstruction/data_v1_5/研究数据/重建样本_两截点参数与暴露.csv": "924bf800155102bfe1421f219dfb92aab9e54f00fc7976475c42c2342095a728",
+    "reconstruction/data_v1_5/研究数据/资格事件_逐原件连接.csv": "725eb3c0fdabef8112dff848047410bd861ff8e50f8c0028116400bb6e4e7b61",
+    "reconstruction/data_v1_5/研究数据/参数版本_字段勘误生效视图.csv": "93b6dbbf41cdaada23f286f4ca3b4923b5b71ccbe6be117e2dedbd02626355c4",
+    "reconstruction/data_v1_5/研究数据/重建样本_三截点状态.csv": "535a9b81e2f2f6bef12cbc3fb1530d8343c3133c972c2bface0426feebb33fb7",
+    "reconstruction/data_v1_5/研究数据/资格事件_重建去重表.csv": "5daba3d6ff7c03174de8d6022969ac91d20df4295db4cbceaa07bd67078afba2",
+    "reconstruction/data_v1_5/研究数据/政策后资格轨迹与重申报标签.csv": "657b02dd5bd8d70c7ff1e6176d0a51d1fb3c76058a42af3f88227ada4555dde5",
+    "reconstruction/data_v1_5/研究数据/车型月度面板_2022至2024.csv": "a9013b4ed53cf833ab4dddcba23efd1259e3c98b1c9002fd09267fff475528fb",
+    "reconstruction/data_v1_5/研究数据/参数版本_原值与计算代理.csv": "d72dddbc280eec061894e39321c0cf37a2b3b0ec89bdbe1623614616604888ab",
+    "reconstruction/data_v1_5/研究数据/原件列入_成员来源长表.csv": "a52eeb0db087a88c4e53deebd76d48d5cc88f7a7b22d3a578df11e2cfca89ee6",
+    "reconstruction/data_v1_5/研究数据/公告前风险集_连续处理强度输入.csv": "8adf5f12dd05109d4084723b47e9249c9adc9227b4f14e5787cd198d8c1552ff",
+    "reconstruction/data_v1_5/数值补充核查/2条原件注释与排版_解析补充证据.csv": "eca9f474ee6ffba8a05c5840cee2aeb39508fba2aaae703b7e222d305f95a7af",
+    "reconstruction/data_v1_5/数值补充核查/380单值不足_原因与保守区间核查.csv": "d93fd4b44d93ffc01b57cd8bea0bc28df7ffca9724b152177155d3dd73120e87",
+    "reconstruction/data_v1_5/数值补充核查/29推荐配置版本_四技术条件保守外包络核查.csv": "4122b835bbc1083a017d20af7c38f3189fda7daabbdff2e03b413911728b583c",
+    "reconstruction/data_v1_5/勘误补充/字段继承建议与逐字段来源.csv": "7b792baa9f46c62f0170cec4769ebca2f98ef6dd5f7331ad79fb12f3fde7cc80",
+    "reconstruction/data_v1_5/勘误补充/SGM6500BEBEV_字段级更正后的参数_证据旁表.csv": "3769defc1964eb0136789016a70dd3ee49cfaaf1c4f44df57db890c0f18fa2ed",
+    "reconstruction/data_v1_5/勘误补充/第64批_SGM6500BEBEV_原文限定字段勘误.csv": "33b89ba7a3ea829708cb78a33ac233fde75b0e012ae257537fc0dd5058dd1ec5",
+    "reconstruction/data_v1_5/勘误补充/名称更正_带观察日期证据表.csv": "77e2ceecb04c20034d103b9a64bb005b5df4ba982b97c62a1d23a018674087de",
+    "reconstruction/data_v1_5/推荐参数/推荐参数_配置版本长表.csv": "84c945d3c19dbffa5c1d2ae0f82f73e8717e85d2ebe63afa3246cf0b06d80807",
+    "reconstruction/data_v1_5/推荐参数/157配置_原文标注映射.csv": "45d9b823b32c4f1e1ca1eb7f30520ff3dcb31db181deaaf8210c8c5587965bc1",
+    "reconstruction/data_v1_5/推荐参数/469产品_原文标注映射.csv": "3cbc7627886d7a53f380ed624f4112f8351546839802c4c9a9eb23f2c138cd9e",
+    "reconstruction/data_v1_5/推荐参数/同配置ID_推荐目录两版本逐字段对照.csv": "d626d571c7eaf1852e902d2ed40a60a9751041a33c1cc87edf6e6b07b3060db9",
+    "reconstruction/data_v1_5/官方技术清单/五档数值层_逐型号归属与判据2877行.csv": "167ca79d52ee82d5dae706c7d5b6311791acfdb976981aad203f2f9f9edaf7b4",
+    "reconstruction/data_v1_5/官方技术清单/五档数值层_逐型号归属与判据.csv": "167ca79d52ee82d5dae706c7d5b6311791acfdb976981aad203f2f9f9edaf7b4",
+    "reconstruction/data_v1_5/官方技术清单/重建3328_官方清单标记与资格轨迹.csv": "11e493ec70376fde3b463dcbc701bbda91f2bb7fc94c1a567e41e031a4fb8ce7",
+    "reconstruction/data_v1_5/官方技术清单/简单裁切_邻格字符边界登记.csv": "c690617010611b22f1bb5cb057c73bc338c4be3ce201293dc1faecce45fa0997",
+    "reconstruction/data_v1_5/官方技术清单/2024撤销观察_分母与集合对账.csv": "7e6e26e2cd4e42ac018c1e93cf063a03fc62bdbe980af8c81ce8b07140564d2e",
+    "reconstruction/data_v1_5/官方技术清单/官方不符合技术要求_全表4160行.csv": "aa228b12c7a60b8f4b5a750889c94900b7099ff89871a1bf9528bced30de5d29",
+    "reconstruction/data_v1_5/官方技术清单/2024撤销观察_风险集外8型号.csv": "24f0fae49065c09c58a313d21f74a73e98a71083632de13b0d7bf5fed4034f21",
+    "reconstruction/data_v1_5/官方技术清单/2024撤销观察_风险集外型号.csv": "24f0fae49065c09c58a313d21f74a73e98a71083632de13b0d7bf5fed4034f21",
+    "reconstruction/data_v1_5/官方技术清单/公告前风险集_官方标记与数值层对账.csv": "3ca8db79542a6bd3175edb8be1abcec19f5ffca483167eab1871a4ef7f79e127",
+    "reconstruction/data_v1_5/目录覆盖/97份目录_独立科学原值枚举7203行.csv": "abc58902939c2d61e8b82d729af5c67e03cbb02e62dc3ada37e455d8a91804cc",
+    "reconstruction/data_v1_5/目录覆盖/正式历史撤销_语义记录修正版3007行.csv": "1af458fdd3db5752132c8acccd7965df4f49171aa37e37c9dd4a3c66f9325f91",
+    "reconstruction/data_v1_5/目录覆盖/97份目录_最终逐源参数覆盖.csv": "5ac223b0e0bac4d0866745f18546ae64640185ac9cb7e08a5a4d17b7cf327ac1",
+    "reconstruction/data_v1_5/目录覆盖/新增2份历史撤销_独立全表枚举.csv": "0630e19de9699dab3f62a109bc595d144ba9ecc5b7a6da6a9a295cc9dd96bab9",
+    "reconstruction/data_v1_5/目录覆盖/历史撤销_旧3008行与原件差异.csv": "3504ccbb1e0afbb54da1ac5f6f1b844ec7705e89ffab58d64fb1af169ec09c14",
+    "reconstruction/data_v1_5/目录覆盖/原件逐表独立枚举.csv": "2921701b8a459e15bb663a56fd3153925413b7890199116774c59cc55f426637",
+    "reconstruction/data_v1_5/目录覆盖/9份历史撤销_逐文件双向覆盖.csv": "17c3a181040cce5f122de2ad77e33e7dce401e815e5778ddd3dc8bc961607198",
+    "reconstruction/data_v1_5/目录覆盖/旧撤销底表_误纳表头隔离证据.csv": "0d423616749dcccde5c18786fa43b25b20585709564cf8119a3c2b9d328742a6",
+    "reconstruction/data_v1_5/目录覆盖/97份目录_逐文件覆盖对账.csv": "0cd642d92878c9d2d64d5b7c1c6648af0bd2a7b4fb8f426abb85bc3cab6805b6",
+    "reconstruction/data_v1_5/目录覆盖/9份历史撤销_原件全列枚举3007行.csv": "fdf57fc7d6bfd1b3a822930f85f94cb61173cacf21781580546ec855af0a25ff",
+    "reconstruction/data_v1_5/参数版本边界/再申报92型号_制造日期待核口径.csv": "4a00063b211094b8e933de00d74fe9dd4f23f0cddf561c6fbe1fabf003ee1985",
+    "reconstruction/data_v1_5/参数版本边界/100份原件_跨目录身份键检查.csv": "9de2010d6dc6f8fda753d01a0c717c3d6c87fd7043d8532a90ab1cd45c19fc3c",
+    "reconstruction/data_v1_5/车辆类别外部证据/型号级原文连接_874.csv": "917f2e180345c8a5f2061096fafa299a8e2065656b16d31ca631d7b95fdf1aa1",
+    "reconstruction/data_v1_5/车辆类别外部证据/型号级类别佐证_3328.csv": "9b540e7ea6fd51aaa76faffb471f6405406e9f83f898b99fb38ad184ff4a19f5",
+    "reconstruction/data_v1_5/1991基线/1991_独立重建名单.csv": "4a909b0b068a92db801186cecded98f49d40167b73515afc6157fa4e36f5189c",
+    "reconstruction/data_v1_5/1991基线/1991_去重组.csv": "33b5c0bc95cd20ae23b43fd9655d32f24a81d463c14bac7acd6b4cd2ac1c4942",
+    "reconstruction/data_v1_5/1991基线/1991_逐型号构造与原件连接.csv": "586fcf518ea63dbd85c6c8db86d149ded8a74b26c298f346a2925f5896e81a45",
+    "reconstruction/data_v1_5/1991基线/16753_逐行筛选说明.csv": "d7c9d081e1a9237cc404190063eea8610e3dff23e2ddda7d76b4dd00d89cf41f",
+    "reconstruction/data_v1_5/原件回收登记/106原件回收清单_v1_5.csv": "73e22063a352897ba2895071ebadeacefb9d7a77c2be6bb922c7a7fd2886d8a7"
+  },
+  "frozen_cycle_gap_closed": 0,
+  "numeric_ready_delta": 0,
+  "battery_energy_gap_closed": 0,
+  "boundaries": [
+    "Old complete means all 47 pages/9336 rows of the observed public fuelType8 filtered view, not exhaustive hidden or global historical records.",
+    "New incomplete: the 974 no-match models are not certified zero across both libraries; new unobserved pages remain unknown.",
+    "Pagination is not an atomic snapshot; stable counts and page uniqueness cannot prove absence of every possible concurrent migration.",
+    "CATC/NEDC are preserved raw codes; no mechanical CATC-to-CLTC-P conversion or applied historical tax-configuration mapping.",
+    "No exact-model hit count is a frozen-information, same-configuration, legal-eligibility or same-cycle closure count.",
+    "403 response was captured as an access boundary; review did not retry, route around it or call the network."
+  ],
+  "checks_passed": [
+    "All 47 old accepted receipts and raw page bytes verified; totals/currentPage/pageSize/list lengths reconcile 9336 visible rows.",
+    "All 4 accepted new pages verified; 800 raw rows, 797 identifiers, 800 distinct full rows; incomplete 53-page view preserved.",
+    "Global list-content hashes for accepted pages are unique within each library, including nonadjacent comparisons.",
+    "2208 fixed keys independently joined by exact raw model equality; any-record hits 1234, no hit in observed pages 974.",
+    "Old raw cycle-code model sets independently recomputed: union1232/CATC818/NEDC616/intersection202.",
+    "Every one of 5071 target JSONL occurrences equals its original page/list entry, complete raw JSON and hash included.",
+    "Core target JSONL contains old4497/new5 row occurrences; 125 noncore target rows kept separate.",
+    "One response category-conflict row retained and locators independently reconciled.",
+    "New page5 HTTP403 body and SHA verified, no further page5 attempt in saved receipts.",
+    "All 52 scientific CSV files match golden SHA256 and bytes; side-table freeze/identity replacement flags remain false."
+  ],
+  "input_fingerprints": [
+    {
+      "path": "/workspace/purchase_tax_audit/round9/public_cycle/2208型号_整篇工况补证结果_只读旁表.csv",
+      "bytes": 1472090,
+      "sha256": "a438f95dd4e0f3cf1ada1d27bf53716896d13fceaad2b0e6f424750a84c20d21"
+    },
+    {
+      "path": "/workspace/purchase_tax_audit/round8/final_gap_status/条件需求_型号级交叉台账.csv",
+      "bytes": 345021,
+      "sha256": "b3c46bea245d9edbf7637aa51dc6c729813566065281b08693e3788cca46fab0"
+    },
+    {
+      "path": "/workspace/purchase_tax_audit/round10/public_energy_registry/registry_summary.json",
+      "bytes": 20179,
+      "sha256": "bf0b67005cccd5569003127bf5b80363c7c06f2be2bac131e8fdd57c832466be"
+    },
+    {
+      "path": "/workspace/purchase_tax_audit/round10/public_energy_registry/old_checkpoint.json",
+      "bytes": 2923,
+      "sha256": "8c441a9ad2a3313f03ae615fc60389dbd4321b18f6b73570340b8b3dd00c3620"
+    },
+    {
+      "path": "/workspace/purchase_tax_audit/round10/public_energy_registry/old_currentPage/page0001_response.json",
+      "bytes": 116351,
+      "sha256": "fefd9e91800ea3dc5f6ee7acc1741ea29c2a680a9d934bdde0117f4a417ad088"
+    },
+    {
+      "path": "/workspace/purchase_tax_audit/round10/public_energy_registry/old_currentPage/page0001_receipt.json",
+      "bytes": 791,
+      "sha256": "783251802ffcf3ceb1642c7fc77aa60d6def66321368ff5070c7d3c30a3e6e7f"
+    },
+    {
+      "path": "/workspace/purchase_tax_audit/round10/public_energy_registry/old_currentPage/page0002_response.json",
+      "bytes": 116699,
+      "sha256": "3d42ce220d4484ce7b4692ccabb7878da3e0686e764ba7d01ba17f771e0e3028"
+    },
+    {
+      "path": "/workspace/purchase_tax_audit/round10/public_energy_registry/old_currentPage/page0002_receipt.json",
+      "bytes": 791,
+      "sha256": "3544ec1b18423f06442684928ba2152658fc3c0a115d496c3ec8ae45848d09a5"
+    },
+    {
+      "path": "/workspace/purchase_tax_audit/round10/public_energy_registry/old_currentPage/page0003_response.json",
+      "bytes": 116588,
+      "sha256": "25444f57cb6cc46bd3d341be9b19159e171c8d3522f5dd5323e7daffbafad7fc"
+    },
+    {
+      "path": "/workspace/purchase_tax_audit/round10/public_energy_registry/old_currentPage/page0003_receipt.json",
+      "bytes": 791,
+      "sha256": "11845f45190832929ba91b841daae776c61cfcaaa3e2056b5be2f420d5da3497"
+    },
+    {
+      "path": "/workspace/purchase_tax_audit/round10/public_energy_registry/old_currentPage/page0004_response.json",
+      "bytes": 116094,
+      "sha256": "f851684be820cd9302ff472bf775ca955a68b8568f79126ca2d5e48e8b80bfe7"
+    },
+    {
+      "path": "/workspace/purchase_tax_audit/round10/public_energy_registry/old_currentPage/page0004_receipt.json",
+      "bytes": 791,
+      "sha256": "14a20aa642b1ff98246e872ca02e11dee2a667bfeb1d56248266e4702bdcc9d4"
+    },
+    {
+      "path": "/workspace/purchase_tax_audit/round10/public_energy_registry/old_currentPage/page0005_response.json",
+      "bytes": 115347,
+      "sha256": "91a1b5250284a729fe47cebc316cc22c9911e0e1a342829437f8016fcee8eb54"
+    },
+    {
+      "path": "/workspace/purchase_tax_audit/round10/public_energy_registry/old_currentPage/page0005_receipt.json",
+      "bytes": 791,
+      "sha256": "861c4b2e983f8c34c419f133910666d6c62152cf20d3e0958f318249cdd70067"
+    },
+    {
+      "path": "/workspace/purchase_tax_audit/round10/public_energy_registry/old_currentPage/page0006_response.json",
+      "bytes": 116142,
+      "sha256": "68b730fea1ac8b827ae7633fbf4c8aff9f26e056b34ed8e5086dfe00d9f2b148"
+    },
+    {
+      "path": "/workspace/purchase_tax_audit/round10/public_energy_registry/old_currentPage/page0006_receipt.json",
+      "bytes": 791,
+      "sha256": "9cdaf02f07c436a2ffea7ad659b9282bfc0b5345e113bea15213507ac39e4057"
+    },
+    {
+      "path": "/workspace/purchase_tax_audit/round10/public_energy_registry/old_currentPage/page0007_response.json",
+      "bytes": 116680,
+      "sha256": "40b3abdb81882a95b6f661dc5511bb5655e4a69fd27f215e49ca4533704748ab"
+    },
+    {
+      "path": "/workspace/purchase_tax_audit/round10/public_energy_registry/old_currentPage/page0007_receipt.json",
+      "bytes": 791,
+      "sha256": "7d9a81188fbe72b6d1fa28e38b0f4473a655f72d09eb4f62f489b6720df3ceb3"
+    },
+    {
+      "path": "/workspace/purchase_tax_audit/round10/public_energy_registry/old_currentPage/page0008_response.json",
+      "bytes": 117094,
+      "sha256": "bc32658655634380bb53c40e2a53068f34db40e6b5126d40bd62678340f61786"
+    },
+    {
+      "path": "/workspace/purchase_tax_audit/round10/public_energy_registry/old_currentPage/page0008_receipt.json",
+      "bytes": 791,
+      "sha256": "63557cf3c933c0d76351eec83235471e6aadb8ff68ac29c4999991317db05853"
+    },
+    {
+      "path": "/workspace/purchase_tax_audit/round10/public_energy_registry/old_currentPage/page0009_response.json",
+      "bytes": 116077,
+      "sha256": "9c1ad18dc467b245029b46af95a653d97f27cf383f23ce6850f799159ecaf0df"
+    },
+    {
+      "path": "/workspace/purchase_tax_audit/round10/public_energy_registry/old_currentPage/page0009_receipt.json",
+      "bytes": 791,
+      "sha256": "f0fc2a2f96bc2ec9148d2c325e243119e417683c34f93d9205b658506203f16f"
+    },
+    {
+      "path": "/workspace/purchase_tax_audit/round10/public_energy_registry/old_currentPage/page0010_attempt02_response.json",
+      "bytes": 115806,
+      "sha256": "320ef44b657ab160c259844feaebb9f93219a1b6f07803c34883b6518c3a95eb"
+    },
+    {
+      "path": "/workspace/purchase_tax_audit/round10/public_energy_registry/old_currentPage/page0010_attempt02_receipt.json",
+      "bytes": 819,
+      "sha256": "52fdee94040d179c7895da7d3eca770506e4ae3b4862174b63f35ae7b73b3102"
+    },
+    {
+      "path": "/workspace/purchase_tax_audit/round10/public_energy_registry/old_currentPage/page0011_response.json",
+      "bytes": 116486,
+      "sha256": "7612cd0dacba2e021cd3a6988a28f4db037ce51eb924c3df914391021fc46688"
+    },
+    {
+      "path": "/workspace/purchase_tax_audit/round10/public_energy_registry/old_currentPage/page0011_receipt.json",
+      "bytes": 809,
+      "sha256": "91db14944f662f56772ffc3867cde9984e9d12ae88504b1ea84af7c422bbb4ce"
+    },
+    {
+      "path": "/workspace/purchase_tax_audit/round10/public_energy_registry/old_currentPage/page0012_response.json",
+      "bytes": 116536,
+      "sha256": "576b7882b0d12360dc89d86d20f602249c340bf802df83f3a5edb4332d70e8eb"
+    },
+    {
+      "path": "/workspace/purchase_tax_audit/round10/public_energy_registry/old_currentPage/page0012_receipt.json",
+      "bytes": 809,
+      "sha256": "3c3f32a745f677264a431421734147903216a3fc1e88c86cd6b9de7954d14ce7"
+    },
+    {
+      "path": "/workspace/purchase_tax_audit/round10/public_energy_registry/old_currentPage/page0013_response.json",
+      "bytes": 116432,
+      "sha256": "af0943590d79e0e70d525d6ccf3dcc8587f41905485c282166172b859f8b2038"
+    },
+    {
+      "path": "/workspace/purchase_tax_audit/round10/public_energy_registry/old_currentPage/page0013_receipt.json",
+      "bytes": 809,
+      "sha256": "d62258eefd4c8428e3a1c0a45d5c2802a738a0a80320cb97420597f0ebaa6c31"
+    },
+    {
+      "path": "/workspace/purchase_tax_audit/round10/public_energy_registry/old_currentPage/page0014_response.json",
+      "bytes": 115594,
+      "sha256": "5e7bcded7c76784f102ce02a39e2212b336dc231adbada1a72a8a159a7f77ccb"
+    },
+    {
+      "path": "/workspace/purchase_tax_audit/round10/public_energy_registry/old_currentPage/page0014_receipt.json",
+      "bytes": 809,
+      "sha256": "73e8c3a3d8a5ca3f636516dad773c12e8adc1c7c9a5edb87faabda1fd513fa99"
+    },
+    {
+      "path": "/workspace/purchase_tax_audit/round10/public_energy_registry/old_currentPage/page0015_response.json",
+      "bytes": 115715,
+      "sha256": "b93d5efbc89303285c846e6856e127b975982e98fc67a0f7c84f9e0e3d11bd14"
+    },
+    {
+      "path": "/workspace/purchase_tax_audit/round10/public_energy_registry/old_currentPage/page0015_receipt.json",
+      "bytes": 809,
+      "sha256": "3cf01e6fcca0692155106f481f1b42f545a84d02eaaafe6a2001faa6590e2222"
+    },
+    {
+      "path": "/workspace/purchase_tax_audit/round10/public_energy_registry/old_currentPage/page0016_response.json",
+      "bytes": 115093,
+      "sha256": "9b1f179f1bc4e96296fd37da582cdbd71ad9e4adb96f10b0c4f3c4de97706ec5"
+    },
+    {
+      "path": "/workspace/purchase_tax_audit/round10/public_energy_registry/old_currentPage/page0016_receipt.json",
+      "bytes": 809,
+      "sha256": "df67480b0afe23c398c821dea61a8611a81985e9959fc2f35e7219025720e3ef"
+    },
+    {
+      "path": "/workspace/purchase_tax_audit/round10/public_energy_registry/old_currentPage/page0017_attempt02_response.json",
+      "bytes": 115397,
+      "sha256": "bb3c15e2adaf9344a861e8a592f32ff3aee982caefc6d33cc8b72df04b17f28d"
+    },
+    {
+      "path": "/workspace/purchase_tax_audit/round10/public_energy_registry/old_currentPage/page0017_attempt02_receipt.json",
+      "bytes": 819,
+      "sha256": "3e7d7071b1e0f6d9910b21d2cc8e11799d0b7b5d37cb7a4ccfbeee4c3f76e522"
+    },
+    {
+      "path": "/workspace/purchase_tax_audit/round10/public_energy_registry/old_currentPage/page0018_response.json",
+      "bytes": 115322,
+      "sha256": "0f44d6c406107027cf28dad604a8b892147e30080f052baf4f4a4a24887e40ff"
+    },
+    {
+      "path": "/workspace/purchase_tax_audit/round10/public_energy_registry/old_currentPage/page0018_receipt.json",
+      "bytes": 809,
+      "sha256": "368c8ca3897bd8dd6b661e8613f961e79401f232941ab6a9c275c205f429a231"
+    },
+    {
+      "path": "/workspace/purchase_tax_audit/round10/public_energy_registry/old_currentPage/page0019_response.json",
+      "bytes": 115457,
+      "sha256": "266461dff543e587a96796d27195ea0a17b6634c5b503eaa0aa96e01b1798371"
+    },
+    {
+      "path": "/workspace/purchase_tax_audit/round10/public_energy_registry/old_currentPage/page0019_receipt.json",
+      "bytes": 809,
+      "sha256": "4a2aa8948c4d0c4f003e48c8ba5d359942de26f225d0e168ec92bde948c74aef"
+    },
+    {
+      "path": "/workspace/purchase_tax_audit/round10/public_energy_registry/old_currentPage/page0020_response.json",
+      "bytes": 115785,
+      "sha256": "61ec1a16d92fcb8b5fba852c0315c9a74f8e3558a011687161700d56861b5db0"
+    },
+    {
+      "path": "/workspace/purchase_tax_audit/round10/public_energy_registry/old_currentPage/page0020_receipt.json",
+      "bytes": 809,
+      "sha256": "d150e1c2c215924139c2aa0603f62cd8c7dec3a3d77166955cd009feba47367b"
+    },
+    {
+      "path": "/workspace/purchase_tax_audit/round10/public_energy_registry/old_currentPage/page0021_response.json",
+      "bytes": 115267,
+      "sha256": "2d2c4ca547340a90e78396655e3900142faf085f1db8c8dcd4db1bfbbc416337"
+    },
+    {
+      "path": "/workspace/purchase_tax_audit/round10/public_energy_registry/old_currentPage/page0021_receipt.json",
+      "bytes": 809,
+      "sha256": "b22ced34401437564ab52ba7be0fd92b60ff3a39665c4807b14a9a8633a34451"
+    },
+    {
+      "path": "/workspace/purchase_tax_audit/round10/public_energy_registry/old_currentPage/page0022_response.json",
+      "bytes": 115683,
+      "sha256": "0310934e6d7ab3d2a5de5dcc2dde43026051d25e2f15b0ae5a847c0d7a28478f"
+    },
+    {
+      "path": "/workspace/purchase_tax_audit/round10/public_energy_registry/old_currentPage/page0022_receipt.json",
+      "bytes": 809,
+      "sha256": "c61ccc8dc93c0a120bd9f375cb975e94430361ef92b3196e90169350ffca6ba7"
+    },
+    {
+      "path": "/workspace/purchase_tax_audit/round10/public_energy_registry/old_currentPage/page0023_response.json",
+      "bytes": 115596,
+      "sha256": "1054fbbdf2be0c98ac7a0cce4cea01dea868faa1f312ab9b0b028a0e59e2d0fe"
+    },
+    {
+      "path": "/workspace/purchase_tax_audit/round10/public_energy_registry/old_currentPage/page0023_receipt.json",
+      "bytes": 809,
+      "sha256": "5e4602ccb1e840674367f7100d4ada19200631eef0f06aa1e7d8c76b9c16452e"
+    },
+    {
+      "path": "/workspace/purchase_tax_audit/round10/public_energy_registry/old_currentPage/page0024_response.json",
+      "bytes": 115628,
+      "sha256": "3f0f53fa4075eb0f50baef9a1f17ac0759dbbce4199f14c556a4f65c50ee6272"
+    },
+    {
+      "path": "/workspace/purchase_tax_audit/round10/public_energy_registry/old_currentPage/page0024_receipt.json",
+      "bytes": 809,
+      "sha256": "6554eccdf8f077b1dc61eaae1233f24512ae55370d2b5b5c7f8a2ebc280aa12f"
+    },
+    {
+      "path": "/workspace/purchase_tax_audit/round10/public_energy_registry/old_currentPage/page0025_response.json",
+      "bytes": 114962,
+      "sha256": "4b326d833a657cbaf03bc3b5ecd91a74ac9dd013aaf37b6eb6bffb1e9fe087b3"
+    },
+    {
+      "path": "/workspace/purchase_tax_audit/round10/public_energy_registry/old_currentPage/page0025_receipt.json",
+      "bytes": 809,
+      "sha256": "7f54e069d71a66820a6cc0ca36835a9ddcd2ea5a0a7cabbdec60cdf4a1aa0ebe"
+    },
+    {
+      "path": "/workspace/purchase_tax_audit/round10/public_energy_registry/old_currentPage/page0026_response.json",
+      "bytes": 114829,
+      "sha256": "749d05c412fd2db90efe924140bfd809481ce90a01ea84e010c33eb23b8df7dc"
+    },
+    {
+      "path": "/workspace/purchase_tax_audit/round10/public_energy_registry/old_currentPage/page0026_receipt.json",
+      "bytes": 809,
+      "sha256": "f115014de851dffec352292ccb41f91756657507d76965525a83531c216407c7"
+    },
+    {
+      "path": "/workspace/purchase_tax_audit/round10/public_energy_registry/old_currentPage/page0027_response.json",
+      "bytes": 113967,
+      "sha256": "c5a69308aa7f9a452c243be2a21d640492222a3be532f26f7d5a342b263ee865"
+    },
+    {
+      "path": "/workspace/purchase_tax_audit/round10/public_energy_registry/old_currentPage/page0027_receipt.json",
+      "bytes": 809,
+      "sha256": "4c9aca110dab53a640b86321a2cdd08caf8529c324ea8715c797ecc08664c67c"
+    },
+    {
+      "path": "/workspace/purchase_tax_audit/round10/public_energy_registry/old_currentPage/page0028_response.json",
+      "bytes": 114191,
+      "sha256": "f91ba2d44ee2b3d56fdcfd609a592968d37560389f72ceef699da55bc6d5f173"
+    },
+    {
+      "path": "/workspace/purchase_tax_audit/round10/public_energy_registry/old_currentPage/page0028_receipt.json",
+      "bytes": 809,
+      "sha256": "20d4d07a62bd81635d338103edd55adf539e5b14a740826fc93aca6120a60513"
+    },
+    {
+      "path": "/workspace/purchase_tax_audit/round10/public_energy_registry/old_currentPage/page0029_response.json",
+      "bytes": 115068,
+      "sha256": "2db8874da1c94df92763e45d803c302470b9b6f9a155cb6edcb8399b034eeac9"
+    },
+    {
+      "path": "/workspace/purchase_tax_audit/round10/public_energy_registry/old_currentPage/page0029_receipt.json",
+      "bytes": 809,
+      "sha256": "367cd3b14f97ec738518e1c81b3524139b7c9174240361ec583a27a40f8c89fa"
+    },
+    {
+      "path": "/workspace/purchase_tax_audit/round10/public_energy_registry/old_currentPage/page0030_response.json",
+      "bytes": 114145,
+      "sha256": "70b17cdf0aeab94b219f46013bb7499098fffbc7235b8c90455052c9ca963f4e"
+    },
+    {
+      "path": "/workspace/purchase_tax_audit/round10/public_energy_registry/old_currentPage/page0030_receipt.json",
+      "bytes": 809,
+      "sha256": "223740b464a01c33d6eaa1aa4cb336c47eddea552e84b394d32153fb1fe704f8"
+    },
+    {
+      "path": "/workspace/purchase_tax_audit/round10/public_energy_registry/old_currentPage/page0031_response.json",
+      "bytes": 114091,
+      "sha256": "1d4a7c29624a7908ce4dce2430b9a31b68b8a6be67685a30abb5438b6d6ddf1e"
+    },
+    {
+      "path": "/workspace/purchase_tax_audit/round10/public_energy_registry/old_currentPage/page0031_receipt.json",
+      "bytes": 809,
+      "sha256": "77619b95133111cd643f3f526e77809086672489f4cd5488c95ce6e1a5d78587"
+    },
+    {
+      "path": "/workspace/purchase_tax_audit/round10/public_energy_registry/old_currentPage/page0032_response.json",
+      "bytes": 114161,
+      "sha256": "ca2e5f7711046b159d51530bb3a5a6fb097c4c8783aca9d9f77c8adee61e1967"
+    },
+    {
+      "path": "/workspace/purchase_tax_audit/round10/public_energy_registry/old_currentPage/page0032_receipt.json",
+      "bytes": 809,
+      "sha256": "0eb53d9441296fd3babf6dcd53dc4dd766eed1ea5082bafe195d39538f9fc3e3"
+    },
+    {
+      "path": "/workspace/purchase_tax_audit/round10/public_energy_registry/old_currentPage/page0033_response.json",
+      "bytes": 114691,
+      "sha256": "3622479042b0fe890780ce3bac0019e061e557fcb498805621fd672ea793b399"
+    },
+    {
+      "path": "/workspace/purchase_tax_audit/round10/public_energy_registry/old_currentPage/page0033_receipt.json",
+      "bytes": 809,
+      "sha256": "58bd3a48b4227469e478dba434d92f23b751c5786421f27a402cf2d3967f8201"
+    },
+    {
+      "path": "/workspace/purchase_tax_audit/round10/public_energy_registry/old_currentPage/page0034_response.json",
+      "bytes": 114567,
+      "sha256": "10f9bd4fff48b2b46f12e7d5f7759ee31403280b011c4c674611741f3119b1c9"
+    },
+    {
+      "path": "/workspace/purchase_tax_audit/round10/public_energy_registry/old_currentPage/page0034_receipt.json",
+      "bytes": 809,
+      "sha256": "e8102b40783abe472506465986a53758e68d76e26920f8cbac37b6f4d2c6b083"
+    },
+    {
+      "path": "/workspace/purchase_tax_audit/round10/public_energy_registry/old_currentPage/page0035_response.json",
+      "bytes": 114672,
+      "sha256": "f03d0fef19dae31b9c29b48af31c988eba29f37e5c27dcd646f0bb0addadf1c2"
+    },
+    {
+      "path": "/workspace/purchase_tax_audit/round10/public_energy_registry/old_currentPage/page0035_receipt.json",
+      "bytes": 809,
+      "sha256": "c7e841e265b72291433d5c1e8b06e83c99d654765d741d792e43b5736e47cfc8"
+    },
+    {
+      "path": "/workspace/purchase_tax_audit/round10/public_energy_registry/old_currentPage/page0036_response.json",
+      "bytes": 114096,
+      "sha256": "00052ec86ae3e3ec5d1627bc2522308e723ea7407bd14cd8a76b70a6e0ceca08"
+    },
+    {
+      "path": "/workspace/purchase_tax_audit/round10/public_energy_registry/old_currentPage/page0036_receipt.json",
+      "bytes": 809,
+      "sha256": "bc807b93fa7b8fd3fed7083b30de5ce693a8c6a6b2cec5fc9f1cd8044b974f84"
+    },
+    {
+      "path": "/workspace/purchase_tax_audit/round10/public_energy_registry/old_currentPage/page0037_response.json",
+      "bytes": 114427,
+      "sha256": "4632efdb68d35d89920e24e3b96eb753cca34e483eca3f8c0b610c9b4184d53d"
+    },
+    {
+      "path": "/workspace/purchase_tax_audit/round10/public_energy_registry/old_currentPage/page0037_receipt.json",
+      "bytes": 809,
+      "sha256": "a08e0d703cbb20a2baf8ae49e340245b649bb66f418330351d13fa2b01455d3b"
+    },
+    {
+      "path": "/workspace/purchase_tax_audit/round10/public_energy_registry/old_currentPage/page0038_response.json",
+      "bytes": 113753,
+      "sha256": "615b52044475dc7f432d4475619f02903e8780776bf7b1063e7a4926f2c80b43"
+    },
+    {
+      "path": "/workspace/purchase_tax_audit/round10/public_energy_registry/old_currentPage/page0038_receipt.json",
+      "bytes": 809,
+      "sha256": "6a5732cb903a3385afb8cf27d95044b5155bfbd06d4a50dc69c7f5b4ab10e21f"
+    },
+    {
+      "path": "/workspace/purchase_tax_audit/round10/public_energy_registry/old_currentPage/page0039_response.json",
+      "bytes": 114234,
+      "sha256": "eadd447786dd7e43ec19d65c89deaa4cb0c4358506e82d23e58ac937ed79dabc"
+    },
+    {
+      "path": "/workspace/purchase_tax_audit/round10/public_energy_registry/old_currentPage/page0039_receipt.json",
+      "bytes": 809,
+      "sha256": "bf5fb20aebd097c048e397d7defd64bedc01495668407b2f5e6f11e88b093c9b"
+    },
+    {
+      "path": "/workspace/purchase_tax_audit/round10/public_energy_registry/old_currentPage/page0040_response.json",
+      "bytes": 109201,
+      "sha256": "9b2ff2784aa7cd61510245b4f02bce5bae1e1970385318c7b60b63f09edcab51"
+    },
+    {
+      "path": "/workspace/purchase_tax_audit/round10/public_energy_registry/old_currentPage/page0040_receipt.json",
+      "bytes": 809,
+      "sha256": "641049726bb2a48070d2133047d367f602dfb9190b9b50341882921d22b7dbf6"
+    },
+    {
+      "path": "/workspace/purchase_tax_audit/round10/public_energy_registry/old_currentPage/page0041_response.json",
+      "bytes": 109687,
+      "sha256": "1b81f2a4d62ab0142e44481203b14cc84f4bd96f29a6974eb6a27bf848c6571e"
+    },
+    {
+      "path": "/workspace/purchase_tax_audit/round10/public_energy_registry/old_currentPage/page0041_receipt.json",
+      "bytes": 809,
+      "sha256": "266ce324a6e793c2338af496914043bc7bcee308badccf0d6459ac49aff9f7c8"
+    },
+    {
+      "path": "/workspace/purchase_tax_audit/round10/public_energy_registry/old_currentPage/page0042_response.json",
+      "bytes": 108865,
+      "sha256": "2c5eb3b05f1fdc95280853219bf242696c7ad7a2ce5a7040aa6a63a46331f12b"
+    },
+    {
+      "path": "/workspace/purchase_tax_audit/round10/public_energy_registry/old_currentPage/page0042_receipt.json",
+      "bytes": 809,
+      "sha256": "8399020d3b4b9dc812377a2f892eaf38ad618505e0bd9a8b523b852907873e5f"
+    },
+    {
+      "path": "/workspace/purchase_tax_audit/round10/public_energy_registry/old_currentPage/page0043_response.json",
+      "bytes": 111714,
+      "sha256": "b28f2080a633a1eb7af4ec3cd3ccbb331e8ae724a11542b9726753fdd3b48762"
+    },
+    {
+      "path": "/workspace/purchase_tax_audit/round10/public_energy_registry/old_currentPage/page0043_receipt.json",
+      "bytes": 809,
+      "sha256": "c053f292a9d2d73e87fe8de3e3fe7671f211e23285d7508498feeeb6a939fd4f"
+    },
+    {
+      "path": "/workspace/purchase_tax_audit/round10/public_energy_registry/old_currentPage/page0044_response.json",
+      "bytes": 118033,
+      "sha256": "74273b209c7b7e9529c17e2f0ab645952a33f700afaaa6a5ca509892ccd5e36a"
+    },
+    {
+      "path": "/workspace/purchase_tax_audit/round10/public_energy_registry/old_currentPage/page0044_receipt.json",
+      "bytes": 809,
+      "sha256": "43538683c98f2607accab01aeb9c5e2a2c8220410d2d00a0495e0eda0240619c"
+    },
+    {
+      "path": "/workspace/purchase_tax_audit/round10/public_energy_registry/old_currentPage/page0045_response.json",
+      "bytes": 117546,
+      "sha256": "b639a84f448be7b1472cb0650444a195486c3c32da83711ef3252562b11e9894"
+    },
+    {
+      "path": "/workspace/purchase_tax_audit/round10/public_energy_registry/old_currentPage/page0045_receipt.json",
+      "bytes": 809,
+      "sha256": "62b8cde4740c9ffbfcd5570051160ab7581f4d2f6d2f0deca83d4b10dd2438b1"
+    },
+    {
+      "path": "/workspace/purchase_tax_audit/round10/public_energy_registry/old_currentPage/page0046_response.json",
+      "bytes": 109627,
+      "sha256": "10b7be3db2a1b2f2ad370ddd47ea2ae8b47dcba13ea79280343667b5b15cf120"
+    },
+    {
+      "path": "/workspace/purchase_tax_audit/round10/public_energy_registry/old_currentPage/page0046_receipt.json",
+      "bytes": 809,
+      "sha256": "617343f9be320e081dbfa8b9e6cf35b27accbbe84b3b60729e12950076fed72e"
+    },
+    {
+      "path": "/workspace/purchase_tax_audit/round10/public_energy_registry/old_currentPage/page0047_response.json",
+      "bytes": 73767,
+      "sha256": "173156018eb97d0193eb60dc77338e0e6bc4528dbd7a2a28514fd03fb403990f"
+    },
+    {
+      "path": "/workspace/purchase_tax_audit/round10/public_energy_registry/old_currentPage/page0047_receipt.json",
+      "bytes": 808,
+      "sha256": "c8496b477366731aae717797403aafcdbfe62780fb5d61cc8bddc8448c184fe3"
+    },
+    {
+      "path": "/workspace/purchase_tax_audit/round10/public_energy_registry/new_checkpoint.json",
+      "bytes": 995,
+      "sha256": "59a112a949ea18b4ae45c3b1ce573226b19c4f1a697532c86dc3511677e9a17e"
+    },
+    {
+      "path": "/workspace/purchase_tax_audit/round10/public_energy_registry/new_currentPage/page0001_response.json",
+      "bytes": 520951,
+      "sha256": "1171722e6dfdb4e0943e3995d0e44d64c0324c58ecba9d64ed544b8a53aeab2d"
+    },
+    {
+      "path": "/workspace/purchase_tax_audit/round10/public_energy_registry/new_currentPage/page0001_receipt.json",
+      "bytes": 799,
+      "sha256": "8f88a767a20ae41b78edb7fb1d76ce4dab5bf7a54399c4acd69246b705348f4d"
+    },
+    {
+      "path": "/workspace/purchase_tax_audit/round10/public_energy_registry/new_currentPage/page0002_response.json",
+      "bytes": 518925,
+      "sha256": "17fbe796d6995b3bc890f9b257ff2efeb57b1d6b2d032923403d75e4508ec900"
+    },
+    {
+      "path": "/workspace/purchase_tax_audit/round10/public_energy_registry/new_currentPage/page0002_receipt.json",
+      "bytes": 799,
+      "sha256": "ab2f1465b0378aa152e9e865efc9e5e1075ed6a125a7e75946f06a349d41cb7e"
+    },
+    {
+      "path": "/workspace/purchase_tax_audit/round10/public_energy_registry/new_currentPage/page0003_response.json",
+      "bytes": 518784,
+      "sha256": "3f8a08b51fb7fd83215da948c47130c0807ba926a8e96279b9b053c321188008"
+    },
+    {
+      "path": "/workspace/purchase_tax_audit/round10/public_energy_registry/new_currentPage/page0003_receipt.json",
+      "bytes": 815,
+      "sha256": "789ea3fda6a4ed723c39d9ab99b12f3f85d248489dce712d84da06dda590fcda"
+    },
+    {
+      "path": "/workspace/purchase_tax_audit/round10/public_energy_registry/new_currentPage/page0004_attempt02_response.json",
+      "bytes": 520485,
+      "sha256": "70da726f8f8ee0a854bffe95ab1b01c3b451c849add365f8c2f3e12e4d91fa40"
+    },
+    {
+      "path": "/workspace/purchase_tax_audit/round10/public_energy_registry/new_currentPage/page0004_attempt02_receipt.json",
+      "bytes": 825,
+      "sha256": "306099ceeb9df0e50e820b23babc165aa8dbb81044560a3a46ea809b3ee48fc5"
+    },
+    {
+      "path": "/workspace/purchase_tax_audit/round10/public_energy_registry/2208型号_两库完整视图精确匹配.csv",
+      "bytes": 672581,
+      "sha256": "ad45b4776dfae60606067aa4be254809e948dc4c0e3057d1cbec26fa9b16a14c"
+    },
+    {
+      "path": "/workspace/purchase_tax_audit/round10/public_energy_registry/非2208_其他用途与正对照精确匹配.csv",
+      "bytes": 39485,
+      "sha256": "4572018fa74e97043fb8fa2326e4febbaa7dcbe7e85f5f3416e863da21d28b93"
+    },
+    {
+      "path": "/workspace/purchase_tax_audit/round10/public_energy_registry/精确目标_全字段记录_只读旁表.jsonl",
+      "bytes": 6175485,
+      "sha256": "a87defb02e64e2e6c3656846b4ae19999722ba6fcc43b398dc3a7cd69bf08a09"
+    },
+    {
+      "path": "/workspace/purchase_tax_audit/round10/public_energy_registry/筛选视图_响应分类冲突_原行保留.csv",
+      "bytes": 205,
+      "sha256": "18ad3e2ca3a44f5241ebad880f796ae8379071b7a05d96864adf171724c8ee72"
+    },
+    {
+      "path": "/workspace/purchase_tax_audit/round10/public_energy_registry/new_currentPage/page0005_receipt.json",
+      "bytes": 824,
+      "sha256": "ef5887051a1bb1e960b1fa5dd0e2a8f9d91ee9b033434ccc70e041ff4d7edb76"
+    },
+    {
+      "path": "/workspace/purchase_tax_audit/round10/public_energy_registry/new_currentPage/page0005_response.json",
+      "bytes": 33,
+      "sha256": "beb861eaa39f786b701fafe0c93827f91c26b4fd7bda29668712515b031e2569"
+    },
+    {
+      "path": "/workspace/purchase_tax_audit/round6/pre_review_scientific_csv_sha256.json",
+      "bytes": 10106,
+      "sha256": "5738854737fc12902a608d89300acf049f620075ead07866973fb6f36ce69f33"
+    }
+  ]
+}
