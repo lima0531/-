@@ -1,0 +1,127 @@
+{
+  "source_file": "/workspace/purchase_tax_audit/round5/originals/mf_batch64.doc",
+  "source_bytes": 597504,
+  "source_sha256": "c4e238989e7e40ec2c3a6a899ead170b4a745bc72546ba6fd4a5731d8890c6cb",
+  "source_matches_historic_sha256": true,
+  "independent_scope": "只从原文动力/类别标题和原表结构确定范围；未读取研究型号或以前40行结论",
+  "native_logical_cell_count_before_narrative": 410,
+  "native_row_stride": 10,
+  "native_physical_table_rows": 41,
+  "native_header_rows": 1,
+  "native_data_rows": 40,
+  "native_BEV_passenger_table_first_model": "JWEV2WD",
+  "native_BEV_passenger_table_last_model": "NEQ6470BEVS61",
+  "independent_BEV_passenger_narrative_corrections": [
+    {
+      "source_sha256": "c4e238989e7e40ec2c3a6a899ead170b4a745bc72546ba6fd4a5731d8890c6cb",
+      "observation_kind": "仅续航文字勘误",
+      "model_raw": "SGM6500BEBEV",
+      "range_corrected_raw": "608",
+      "included_as_parameter_observation": 1,
+      "included_as_new_listing_table_row": 0,
+      "source_cell_0based": 410,
+      "power_section": "纯电动汽车",
+      "vehicle_class_section": "乘用车",
+      "source_quote": "勘误：《免征车辆购置税的新能源汽车车型目录》（第六十二批）纯电动乘用车部分第6项，上汽通用汽车有限公司凯迪拉克(CADILLAC)牌SGM6500BEBEV纯电动多用途乘用车，纯电动续驶里程应为608km。"
+    }
+  ],
+  "total_BEV_passenger_parameter_observations_in_this_source": 41,
+  "parameter_observation_count_scope": "40表格列入记录+1独立仅续航勘误=41参数观察记录；文字勘误不计新增车型列入",
+  "complete_section_v1_5_raw_parameter_reconciliation": {
+    "existing_raw_parameter_file": "/workspace/purchase_tax_audit/round5/reconstruction/data_v1_5/研究数据/参数版本_原值与计算代理.csv",
+    "existing_raw_parameter_file_sha256": "d72dddbc280eec061894e39321c0cf37a2b3b0ec89bdbe1623614616604888ab",
+    "normalized_comparison_fields": [
+      "source_sha256",
+      "source_file",
+      "observation_kind",
+      "model_raw",
+      "model_key",
+      "firm_raw",
+      "trade_name_raw",
+      "product_name_raw",
+      "range_raw",
+      "curb_mass_raw",
+      "battery_mass_raw",
+      "battery_energy_raw",
+      "remarks_raw",
+      "catalogue_batch_marked_raw"
+    ],
+    "independently_extracted_parameter_observations": 41,
+    "existing_raw_parameter_records": 41,
+    "source_observation_kind_counts": {
+      "目录列入": 40,
+      "仅续航文字勘误": 1
+    },
+    "existing_raw_observation_kind_counts": {
+      "目录列入": 40,
+      "仅续航文字勘误": 1
+    },
+    "existing_only_multiset_records": 0,
+    "source_only_multiset_records": 0,
+    "all_source_records_matched": 1,
+    "narrative_uncorrected_mass_energy_fields_remain_blank": true,
+    "fields_filled_from_other_catalogue": false,
+    "scientific_tables_modified": false
+  },
+  "fresh_docx_all_body_tables": 10,
+  "fresh_docx_all_physical_rows": 237,
+  "fresh_docx_BEV_passenger_tables": [
+    {
+      "table_1based": 1,
+      "table_0based": 0,
+      "body_element_1based": 8,
+      "power_section": "纯电动汽车",
+      "vehicle_class_section": "乘用车",
+      "physical_rows": 41,
+      "header_rows": 1,
+      "data_rows": 40,
+      "included_in_BEV_passenger_scope": 1
+    }
+  ],
+  "fresh_docx_BEV_passenger_data_rows": 40,
+  "fresh_docx_second_table": {
+    "table_1based": 2,
+    "table_0based": 1,
+    "body_element_1based": 12,
+    "power_section": "纯电动汽车",
+    "vehicle_class_section": "客车",
+    "physical_rows": 8,
+    "header_rows": 1,
+    "data_rows": 7,
+    "included_in_BEV_passenger_scope": 0
+  },
+  "pdf_total_document_pages": 11,
+  "PDF_BEV_passenger_fragments": [
+    {
+      "page_1based": 1,
+      "page_table_1based": 1,
+      "physical_fragment_rows": 21,
+      "header_rows": 1,
+      "data_rows": 20,
+      "bbox": "[43.02499961853027, 194.70062255859375, 803.2000122070312, 538.4756164550781]"
+    },
+    {
+      "page_1based": 2,
+      "page_table_1based": 1,
+      "physical_fragment_rows": 21,
+      "header_rows": 1,
+      "data_rows": 20,
+      "bbox": "[43.02499961853027, 28.600616455078125, 803.2000122070312, 386.57562255859375]"
+    }
+  ],
+  "PDF_BEV_passenger_data_rows": 40,
+  "PDF_printed_automatic_sequence_first": 1,
+  "PDF_printed_automatic_sequence_last": 40,
+  "PDF_sequences_contiguous": true,
+  "original_and_fresh_docx_complete_main_story_equal": true,
+  "native_DOC_DOCX_and_rendered_PDF_ordered_models_equal": true,
+  "next_class_heading": "（二）客车",
+  "next_class_heading_source_char_0based": 2371,
+  "correction_source_cell_0based": 410,
+  "correction_included_as_new_table_model": false,
+  "data_row_conclusion": 40,
+  "reported_two_fragments_27_plus_14_reproduced": false,
+  "reported_41_is_physical_row_count_if_one_header_included": true,
+  "explanatory_limit": "本次上传同SHA原件的原表为1表、41物理行=1表头+40数据行。本地分页为两页20+20数据行，每页各重复1表头。用户所指27+14具体切分未复现，未凭猜测认定其误差来源；另一转换文件若有不同结构需单独比对。",
+  "root_scientific_tables_modified": false
+}

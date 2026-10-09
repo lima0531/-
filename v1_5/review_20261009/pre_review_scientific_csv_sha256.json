@@ -1,0 +1,210 @@
+{
+  "reconstruction/data_v1_5/日期续查/97批次日期_续查登记.csv": {
+    "bytes": 36701,
+    "sha256": "a2db26f1a4ff90d5c4bb71a4589580b398b5d3def2049e19759e0b29ef41bb1f"
+  },
+  "reconstruction/data_v1_5/研究数据/分类冲突_原文证据与隔离.csv": {
+    "bytes": 2230,
+    "sha256": "70d1f6c5350b49250c3e8d5eff06aea4a6258c04cb9cbc84babb0bdcd449c6c3"
+  },
+  "reconstruction/data_v1_5/研究数据/样本成员重建.csv": {
+    "bytes": 875420,
+    "sha256": "7bc82499c2b093650576e25d9b143e88140127dd536f76f41d5cb3d7767321f1"
+  },
+  "reconstruction/data_v1_5/研究数据/重建样本_两截点参数与暴露.csv": {
+    "bytes": 2649867,
+    "sha256": "924bf800155102bfe1421f219dfb92aab9e54f00fc7976475c42c2342095a728"
+  },
+  "reconstruction/data_v1_5/研究数据/资格事件_逐原件连接.csv": {
+    "bytes": 2865026,
+    "sha256": "725eb3c0fdabef8112dff848047410bd861ff8e50f8c0028116400bb6e4e7b61"
+  },
+  "reconstruction/data_v1_5/研究数据/参数版本_字段勘误生效视图.csv": {
+    "bytes": 14074707,
+    "sha256": "93b6dbbf41cdaada23f286f4ca3b4923b5b71ccbe6be117e2dedbd02626355c4"
+  },
+  "reconstruction/data_v1_5/研究数据/重建样本_三截点状态.csv": {
+    "bytes": 2194326,
+    "sha256": "535a9b81e2f2f6bef12cbc3fb1530d8343c3133c972c2bface0426feebb33fb7"
+  },
+  "reconstruction/data_v1_5/研究数据/资格事件_重建去重表.csv": {
+    "bytes": 1179014,
+    "sha256": "5daba3d6ff7c03174de8d6022969ac91d20df4295db4cbceaa07bd67078afba2"
+  },
+  "reconstruction/data_v1_5/研究数据/政策后资格轨迹与重申报标签.csv": {
+    "bytes": 861137,
+    "sha256": "657b02dd5bd8d70c7ff1e6176d0a51d1fb3c76058a42af3f88227ada4555dde5"
+  },
+  "reconstruction/data_v1_5/研究数据/车型月度面板_2022至2024.csv": {
+    "bytes": 29452126,
+    "sha256": "a9013b4ed53cf833ab4dddcba23efd1259e3c98b1c9002fd09267fff475528fb"
+  },
+  "reconstruction/data_v1_5/研究数据/参数版本_原值与计算代理.csv": {
+    "bytes": 6774326,
+    "sha256": "d72dddbc280eec061894e39321c0cf37a2b3b0ec89bdbe1623614616604888ab"
+  },
+  "reconstruction/data_v1_5/研究数据/原件列入_成员来源长表.csv": {
+    "bytes": 1165861,
+    "sha256": "a52eeb0db087a88c4e53deebd76d48d5cc88f7a7b22d3a578df11e2cfca89ee6"
+  },
+  "reconstruction/data_v1_5/研究数据/公告前风险集_连续处理强度输入.csv": {
+    "bytes": 1322741,
+    "sha256": "8adf5f12dd05109d4084723b47e9249c9adc9227b4f14e5787cd198d8c1552ff"
+  },
+  "reconstruction/data_v1_5/数值补充核查/2条原件注释与排版_解析补充证据.csv": {
+    "bytes": 1461,
+    "sha256": "eca9f474ee6ffba8a05c5840cee2aeb39508fba2aaae703b7e222d305f95a7af"
+  },
+  "reconstruction/data_v1_5/数值补充核查/380单值不足_原因与保守区间核查.csv": {
+    "bytes": 253236,
+    "sha256": "d93fd4b44d93ffc01b57cd8bea0bc28df7ffca9724b152177155d3dd73120e87"
+  },
+  "reconstruction/data_v1_5/数值补充核查/29推荐配置版本_四技术条件保守外包络核查.csv": {
+    "bytes": 17477,
+    "sha256": "4122b835bbc1083a017d20af7c38f3189fda7daabbdff2e03b413911728b583c"
+  },
+  "reconstruction/data_v1_5/勘误补充/字段继承建议与逐字段来源.csv": {
+    "bytes": 1684,
+    "sha256": "7b792baa9f46c62f0170cec4769ebca2f98ef6dd5f7331ad79fb12f3fde7cc80"
+  },
+  "reconstruction/data_v1_5/勘误补充/SGM6500BEBEV_字段级更正后的参数_证据旁表.csv": {
+    "bytes": 795,
+    "sha256": "3769defc1964eb0136789016a70dd3ee49cfaaf1c4f44df57db890c0f18fa2ed"
+  },
+  "reconstruction/data_v1_5/勘误补充/第64批_SGM6500BEBEV_原文限定字段勘误.csv": {
+    "bytes": 867,
+    "sha256": "33b89ba7a3ea829708cb78a33ac233fde75b0e012ae257537fc0dd5058dd1ec5"
+  },
+  "reconstruction/data_v1_5/勘误补充/名称更正_带观察日期证据表.csv": {
+    "bytes": 1541,
+    "sha256": "77e2ceecb04c20034d103b9a64bb005b5df4ba982b97c62a1d23a018674087de"
+  },
+  "reconstruction/data_v1_5/推荐参数/推荐参数_配置版本长表.csv": {
+    "bytes": 953428,
+    "sha256": "84c945d3c19dbffa5c1d2ae0f82f73e8717e85d2ebe63afa3246cf0b06d80807"
+  },
+  "reconstruction/data_v1_5/推荐参数/157配置_原文标注映射.csv": {
+    "bytes": 29444,
+    "sha256": "45d9b823b32c4f1e1ca1eb7f30520ff3dcb31db181deaaf8210c8c5587965bc1"
+  },
+  "reconstruction/data_v1_5/推荐参数/469产品_原文标注映射.csv": {
+    "bytes": 82828,
+    "sha256": "3cbc7627886d7a53f380ed624f4112f8351546839802c4c9a9eb23f2c138cd9e"
+  },
+  "reconstruction/data_v1_5/推荐参数/同配置ID_推荐目录两版本逐字段对照.csv": {
+    "bytes": 62141,
+    "sha256": "d626d571c7eaf1852e902d2ed40a60a9751041a33c1cc87edf6e6b07b3060db9"
+  },
+  "reconstruction/data_v1_5/官方技术清单/五档数值层_逐型号归属与判据2877行.csv": {
+    "bytes": 535563,
+    "sha256": "167ca79d52ee82d5dae706c7d5b6311791acfdb976981aad203f2f9f9edaf7b4"
+  },
+  "reconstruction/data_v1_5/官方技术清单/五档数值层_逐型号归属与判据.csv": {
+    "bytes": 535563,
+    "sha256": "167ca79d52ee82d5dae706c7d5b6311791acfdb976981aad203f2f9f9edaf7b4"
+  },
+  "reconstruction/data_v1_5/官方技术清单/重建3328_官方清单标记与资格轨迹.csv": {
+    "bytes": 855684,
+    "sha256": "11e493ec70376fde3b463dcbc701bbda91f2bb7fc94c1a567e41e031a4fb8ce7"
+  },
+  "reconstruction/data_v1_5/官方技术清单/简单裁切_邻格字符边界登记.csv": {
+    "bytes": 390,
+    "sha256": "c690617010611b22f1bb5cb057c73bc338c4be3ce201293dc1faecce45fa0997"
+  },
+  "reconstruction/data_v1_5/官方技术清单/2024撤销观察_分母与集合对账.csv": {
+    "bytes": 1571,
+    "sha256": "7e6e26e2cd4e42ac018c1e93cf063a03fc62bdbe980af8c81ce8b07140564d2e"
+  },
+  "reconstruction/data_v1_5/官方技术清单/官方不符合技术要求_全表4160行.csv": {
+    "bytes": 907667,
+    "sha256": "aa228b12c7a60b8f4b5a750889c94900b7099ff89871a1bf9528bced30de5d29"
+  },
+  "reconstruction/data_v1_5/官方技术清单/2024撤销观察_风险集外8型号.csv": {
+    "bytes": 835,
+    "sha256": "24f0fae49065c09c58a313d21f74a73e98a71083632de13b0d7bf5fed4034f21"
+  },
+  "reconstruction/data_v1_5/官方技术清单/2024撤销观察_风险集外型号.csv": {
+    "bytes": 835,
+    "sha256": "24f0fae49065c09c58a313d21f74a73e98a71083632de13b0d7bf5fed4034f21"
+  },
+  "reconstruction/data_v1_5/官方技术清单/公告前风险集_官方标记与数值层对账.csv": {
+    "bytes": 1926,
+    "sha256": "3ca8db79542a6bd3175edb8be1abcec19f5ffca483167eab1871a4ef7f79e127"
+  },
+  "reconstruction/data_v1_5/目录覆盖/97份目录_独立科学原值枚举7203行.csv": {
+    "bytes": 1430197,
+    "sha256": "abc58902939c2d61e8b82d729af5c67e03cbb02e62dc3ada37e455d8a91804cc"
+  },
+  "reconstruction/data_v1_5/目录覆盖/正式历史撤销_语义记录修正版3007行.csv": {
+    "bytes": 4598798,
+    "sha256": "1af458fdd3db5752132c8acccd7965df4f49171aa37e37c9dd4a3c66f9325f91"
+  },
+  "reconstruction/data_v1_5/目录覆盖/97份目录_最终逐源参数覆盖.csv": {
+    "bytes": 8763,
+    "sha256": "5ac223b0e0bac4d0866745f18546ae64640185ac9cb7e08a5a4d17b7cf327ac1"
+  },
+  "reconstruction/data_v1_5/目录覆盖/新增2份历史撤销_独立全表枚举.csv": {
+    "bytes": 1596976,
+    "sha256": "0630e19de9699dab3f62a109bc595d144ba9ecc5b7a6da6a9a295cc9dd96bab9"
+  },
+  "reconstruction/data_v1_5/目录覆盖/历史撤销_旧3008行与原件差异.csv": {
+    "bytes": 180,
+    "sha256": "3504ccbb1e0afbb54da1ac5f6f1b844ec7705e89ffab58d64fb1af169ec09c14"
+  },
+  "reconstruction/data_v1_5/目录覆盖/原件逐表独立枚举.csv": {
+    "bytes": 3122420,
+    "sha256": "2921701b8a459e15bb663a56fd3153925413b7890199116774c59cc55f426637"
+  },
+  "reconstruction/data_v1_5/目录覆盖/9份历史撤销_逐文件双向覆盖.csv": {
+    "bytes": 1110,
+    "sha256": "17c3a181040cce5f122de2ad77e33e7dce401e815e5778ddd3dc8bc961607198"
+  },
+  "reconstruction/data_v1_5/目录覆盖/旧撤销底表_误纳表头隔离证据.csv": {
+    "bytes": 1746,
+    "sha256": "0d423616749dcccde5c18786fa43b25b20585709564cf8119a3c2b9d328742a6"
+  },
+  "reconstruction/data_v1_5/目录覆盖/97份目录_逐文件覆盖对账.csv": {
+    "bytes": 14523,
+    "sha256": "0cd642d92878c9d2d64d5b7c1c6648af0bd2a7b4fb8f426abb85bc3cab6805b6"
+  },
+  "reconstruction/data_v1_5/目录覆盖/9份历史撤销_原件全列枚举3007行.csv": {
+    "bytes": 796772,
+    "sha256": "fdf57fc7d6bfd1b3a822930f85f94cb61173cacf21781580546ec855af0a25ff"
+  },
+  "reconstruction/data_v1_5/参数版本边界/再申报92型号_制造日期待核口径.csv": {
+    "bytes": 17677,
+    "sha256": "4a00063b211094b8e933de00d74fe9dd4f23f0cddf561c6fbe1fabf003ee1985"
+  },
+  "reconstruction/data_v1_5/参数版本边界/100份原件_跨目录身份键检查.csv": {
+    "bytes": 23820,
+    "sha256": "9de2010d6dc6f8fda753d01a0c717c3d6c87fd7043d8532a90ab1cd45c19fc3c"
+  },
+  "reconstruction/data_v1_5/车辆类别外部证据/型号级原文连接_874.csv": {
+    "bytes": 324422,
+    "sha256": "917f2e180345c8a5f2061096fafa299a8e2065656b16d31ca631d7b95fdf1aa1"
+  },
+  "reconstruction/data_v1_5/车辆类别外部证据/型号级类别佐证_3328.csv": {
+    "bytes": 787376,
+    "sha256": "9b540e7ea6fd51aaa76faffb471f6405406e9f83f898b99fb38ad184ff4a19f5"
+  },
+  "reconstruction/data_v1_5/1991基线/1991_独立重建名单.csv": {
+    "bytes": 26894,
+    "sha256": "4a909b0b068a92db801186cecded98f49d40167b73515afc6157fa4e36f5189c"
+  },
+  "reconstruction/data_v1_5/1991基线/1991_去重组.csv": {
+    "bytes": 4714,
+    "sha256": "33b5c0bc95cd20ae23b43fd9655d32f24a81d463c14bac7acd6b4cd2ac1c4942"
+  },
+  "reconstruction/data_v1_5/1991基线/1991_逐型号构造与原件连接.csv": {
+    "bytes": 338466,
+    "sha256": "586fcf518ea63dbd85c6c8db86d149ded8a74b26c298f346a2925f5896e81a45"
+  },
+  "reconstruction/data_v1_5/1991基线/16753_逐行筛选说明.csv": {
+    "bytes": 1292045,
+    "sha256": "d7c9d081e1a9237cc404190063eea8610e3dff23e2ddda7d76b4dd00d89cf41f"
+  },
+  "reconstruction/data_v1_5/原件回收登记/106原件回收清单_v1_5.csv": {
+    "bytes": 86023,
+    "sha256": "73e22063a352897ba2895071ebadeacefb9d7a77c2be6bb922c7a7fd2886d8a7"
+  }
+}

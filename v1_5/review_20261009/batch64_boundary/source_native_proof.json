@@ -1,0 +1,13 @@
+{
+  "source_sha256": "c4e238989e7e40ec2c3a6a899ead170b4a745bc72546ba6fd4a5731d8890c6cb",
+  "reader": "bounded CFB and MS-DOC CLX main-story pieces; no layout reconstruction",
+  "fib_nFib": 193,
+  "table_stream": "0Table",
+  "main_story_utf16_units": 15282,
+  "extracted_main_story_units": 15282,
+  "piece_count_total": 1,
+  "piece_count_main_story": 1,
+  "word_stream_sha256": "6dca0b7fb9a6630afd50200e26d0ba1a84934513573c69dc2340ac2f3182a32e",
+  "table_stream_sha256": "6247ec0143236b9210fa22346a519a601c64de101de295b4a4ee7ba4e86d8603",
+  "independent_table_enumeration": false
+}

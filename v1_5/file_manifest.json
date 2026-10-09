@@ -1,5 +1,8 @@
 {
   "version": "v1.5",
+  "documentation_supplement_date": "2026-10-09",
+  "scientific_csv_bytes_changed": false,
+  "original_data_and_source_zips_unchanged": true,
   "artifacts": [
     {
       "file": "purchase_tax_data_v1_5.zip",
@@ -17,8 +20,8 @@
     },
     {
       "file": "audit_report.md",
-      "bytes": 9543,
-      "sha256": "a482ead4e931a7957707ca5a4580ae5ba54328406cea2993e07bdb949f673195",
+      "bytes": 9950,
+      "sha256": "8d788f4dba62a0775ad296eb09db995d9db7a2da69417847f18c7a86b35f6135",
       "github_file_page": "https://github.com/lima0531/-/blob/purchase-tax-v1-4-files/v1_5/audit_report.md"
     },
     {
@@ -26,13 +29,23 @@
       "bytes": 9263,
       "sha256": "c5e2c402e2f623eab407eb63ca345b43d6b1caac113374773d6e250b9aa6e9cd",
       "github_file_page": "https://github.com/lima0531/-/blob/purchase-tax-v1-4-files/v1_5/requirements/%E9%9C%80%E8%A6%81%E7%94%A8%E6%88%B7%E4%BA%B2%E8%87%AA%E6%8F%90%E4%BE%9B%E7%9A%84%E6%95%B0%E6%8D%AE.md"
+    },
+    {
+      "file": "review_20261009/review_supplement_20261009.zip",
+      "original_file_name": "购置税v1_5_复核说明补充_20261009.zip",
+      "bytes": 1217777,
+      "sha256": "d5dfad8e6f2cfd5ae50ef0a76c2e384b5c8e1306a45ca928c96f4fb6ca5bb521",
+      "member_files": 55,
+      "all_members_crc_and_sha_verified": true,
+      "includes_scientific_data_replacement": false,
+      "github_file_page": "https://github.com/lima0531/-/blob/purchase-tax-v1-4-files/v1_5/review_20261009/review_supplement_20261009.zip"
     }
   ],
   "files_excluding_this_manifest": [
     {
       "file": "README.md",
-      "bytes": 2330,
-      "sha256": "16f08ee951cd9ffa2e8708912e64a3181c27ec18de8e8024ddc29205cf09a59d"
+      "bytes": 2596,
+      "sha256": "64da3df4dd94cd34870e6a9c777d08405da0cbad78c0106f870bb235096c5da4"
     },
     {
       "file": "aggregate_source_audit.py",
@@ -41,8 +54,8 @@
     },
     {
       "file": "audit_report.md",
-      "bytes": 9543,
-      "sha256": "a482ead4e931a7957707ca5a4580ae5ba54328406cea2993e07bdb949f673195"
+      "bytes": 9950,
+      "sha256": "8d788f4dba62a0775ad296eb09db995d9db7a2da69417847f18c7a86b35f6135"
     },
     {
       "file": "batch01/68项科学原值_逐字段对账.csv",
@@ -86,8 +99,8 @@
     },
     {
       "file": "batch64/README.md",
-      "bytes": 4321,
-      "sha256": "5f47a54ec1ae3d12783382dd8492145a960a0ffe4fc9784f2a127af24bb71839"
+      "bytes": 5371,
+      "sha256": "44ad4634bdddc0dde48d7793938cf457ce736b0a793f6044b8f127db0f3e6828"
     },
     {
       "file": "batch64/SGM6500BEBEV_字段级更正后的参数_证据旁表.csv",
@@ -162,7 +175,7 @@
     {
       "file": "batch64/输出文件_SHA256.csv",
       "bytes": 1646,
-      "sha256": "2095674969d409c35083700e33c25ed4f824cf4bfbe0556a3a7f8e7bd7832eac"
+      "sha256": "cee27a213f0c6bdc4949ae3124d29e0c7ede7e442235a345bd68ae3c736c479b"
     },
     {
       "file": "batch64/逐字段对账差异.csv",
@@ -296,13 +309,13 @@
     },
     {
       "file": "reconstruction/data_v1_5/README.md",
-      "bytes": 2586,
-      "sha256": "38a340e0668c966377919a5280f5dacec9325447312f7021d81b0f2fda26f562"
+      "bytes": 2819,
+      "sha256": "1d53f42cbff4963ce2c0dae1aa9a47120ddffc3e55fd0cadd798b1c5ce8c7152"
     },
     {
       "file": "reconstruction/data_v1_5/README_版本v1_3.md",
-      "bytes": 2088,
-      "sha256": "5b6b85efc0a4a021e301c4d62e28c55b915b20c64c9cf9c4ca5f3744a33e73fe"
+      "bytes": 2655,
+      "sha256": "ceccf39ef55854d96c474781e0803be3a35332f4aa06d68fff61e0888c5b28c5"
     },
     {
       "file": "reconstruction/data_v1_5/README_版本v1_4.md",
@@ -437,7 +450,7 @@
     {
       "file": "reconstruction/data_v1_5/文件清单_SHA256.txt",
       "bytes": 6913,
-      "sha256": "d47f8acae1796c6d7d4155bf9155ed94fa97427949c18c2160996944bd42d6b4"
+      "sha256": "4cfa70b0356080a02ebcd0b481a3884766194084dee452bddbfae83df1910287"
     },
     {
       "file": "reconstruction/data_v1_5/日期续查/97批次日期_续查登记.csv",
@@ -665,6 +678,286 @@
       "sha256": "c5e2c402e2f623eab407eb63ca345b43d6b1caac113374773d6e250b9aa6e9cd"
     },
     {
+      "file": "review_20261009/README.md",
+      "bytes": 4931,
+      "sha256": "e3e2ff89e06a45698a91d9eacd32bbed19a84bc7fba02180de9cc175390ecb0a"
+    },
+    {
+      "file": "review_20261009/batch64_boundary/41参数观察记录_原值表双向对账.json",
+      "bytes": 1162,
+      "sha256": "f26cb6d1d44d1d89d0a7c086a599cf21d2b1b02adafc8f1e2145bbf883928564"
+    },
+    {
+      "file": "review_20261009/batch64_boundary/41参数观察记录_双向多重集差异.csv",
+      "bytes": 230,
+      "sha256": "de8b393dd4684beddf20d889584d3076dfb29e5d7382f1d870b3e17719ca8b91"
+    },
+    {
+      "file": "review_20261009/batch64_boundary/DOCX_自动编号定义.json",
+      "bytes": 1291,
+      "sha256": "967c19070eaa8f8d4d97f826af2ea9e3ec6772f27e7b0c58cf5c45293fb41331"
+    },
+    {
+      "file": "review_20261009/batch64_boundary/PDF分页_乘用车全部表片段物理行.csv",
+      "bytes": 13035,
+      "sha256": "60a1474854db39bb5563bd507e6edbd387f57a6f2c95cee616eed20c27821401"
+    },
+    {
+      "file": "review_20261009/batch64_boundary/PDF分页_逐表片段计数.csv",
+      "bytes": 271,
+      "sha256": "45b2516dfd56a90800fa45bab0909a26efe2042961d3cc73071048cf9e8a60aa"
+    },
+    {
+      "file": "review_20261009/batch64_boundary/README.md",
+      "bytes": 4611,
+      "sha256": "91a5929ebed354c6ad402f527f43c85817d8bc735e361873c98db44d25d7761d"
+    },
+    {
+      "file": "review_20261009/batch64_boundary/boundary_verification_summary.json",
+      "bytes": 5218,
+      "sha256": "4fac1c9564f8cd0e4f05adb841a27451ab0862cf57b46d591d745dd892760096"
+    },
+    {
+      "file": "review_20261009/batch64_boundary/mf_batch64.docx",
+      "bytes": 52492,
+      "sha256": "4a90946c8c94e4fb352b6e6eb609c09e2a8624d3653f6e466be25df5e10310ca"
+    },
+    {
+      "file": "review_20261009/batch64_boundary/mf_batch64.pdf",
+      "bytes": 1108744,
+      "sha256": "aba440b6bc0d8f51c3f92802fabf11bc62cfceb64b16a4e4a6bdc1b5a77343a1"
+    },
+    {
+      "file": "review_20261009/batch64_boundary/recheck_table_boundary.py",
+      "bytes": 22841,
+      "sha256": "c045c3c9cf7762482db7b69a1ded274238c8ae987d93a2f9eaff656d35fa4d4a"
+    },
+    {
+      "file": "review_20261009/batch64_boundary/source_native_proof.json",
+      "bytes": 581,
+      "sha256": "edb4498b335c33c090e5447b9a4d21d1dd07d374484d8f76e70ec428eaec52aa"
+    },
+    {
+      "file": "review_20261009/batch64_boundary/乘用车独立文字勘误_与表格记录分开.csv",
+      "bytes": 594,
+      "sha256": "554302532a8bae06eacb9ded030ae197c368e7df9e07dd5014d0aca337b57d95"
+    },
+    {
+      "file": "review_20261009/batch64_boundary/全篇DOCX_所有表所有行物理位置与纳排理由.csv",
+      "bytes": 112631,
+      "sha256": "0486277bc5f4d98c97436fa0fc5db565baa07cb0e05cb050ccf880e2d47670f0"
+    },
+    {
+      "file": "review_20261009/batch64_boundary/全篇DOCX_标题勘误与表格顺序.csv",
+      "bytes": 2983,
+      "sha256": "58e09e8179d6039f180d00a8e44f04e3686bb2b33b89090d956e74edcd7bdd9d"
+    },
+    {
+      "file": "review_20261009/batch64_boundary/全篇DOCX_逐表章节边界与行数.csv",
+      "bytes": 615,
+      "sha256": "c52fc6d92c2387c670e4662e5f96cfbf7246e10f11d4446b4bc3b5158d2a5d1c"
+    },
+    {
+      "file": "review_20261009/batch64_boundary/原DOC_乘用车含表头逐行位置.csv",
+      "bytes": 15276,
+      "sha256": "4e8f102a6fc5aa90600f6d9cd7c007f0f6e4324c6eac4ad7922ede5f10f5b0e9"
+    },
+    {
+      "file": "review_20261009/batch64_boundary/原DOC_完整主文档.txt",
+      "bytes": 23415,
+      "sha256": "b5141f61b6b22aedbbb3261a3faf6e53621058ae610ebac48b8a04c7e60c4818"
+    },
+    {
+      "file": "review_20261009/batch64_boundary/第1页_编号和章节.png",
+      "bytes": 174599,
+      "sha256": "da05b1a23ce0dcfe722d58188357d5137d33efbf50591bfe4647da5ed5f2f02c"
+    },
+    {
+      "file": "review_20261009/batch64_boundary/第2页_编号和章节.png",
+      "bytes": 231760,
+      "sha256": "a5626a730a5cb30b803d7b646a94e9b5eab870700ecbc00044408972bd4dcadd"
+    },
+    {
+      "file": "review_20261009/batch64_boundary/第64批_完整乘用小节41参数记录独立对账.csv",
+      "bytes": 9555,
+      "sha256": "e0c9acd95db13abc2060f533151e507aa6cb222a628357b23bbcc22424a3454c"
+    },
+    {
+      "file": "review_20261009/batch64_boundary/输出文件_SHA256.csv",
+      "bytes": 2172,
+      "sha256": "d35fb558842c0702ab896b3e45b72f28c9f5b60ba5ca9af0af3581618ae190f5"
+    },
+    {
+      "file": "review_20261009/batch64_independent/40_listing_rows_7_fields_three_way_comparison_280.csv",
+      "bytes": 21208,
+      "sha256": "4133215e0071942b3529029fe1d89ebc7dc960cf6521d812fac8bbfc4644fa20"
+    },
+    {
+      "file": "review_20261009/batch64_independent/41_raw_parameter_record_scope_reconciliation.csv",
+      "bytes": 9436,
+      "sha256": "35c5fe423c339d0a4968848a69aea918fa52bfdbf44813bb4e855e49aa8f51a0"
+    },
+    {
+      "file": "review_20261009/batch64_independent/README.md",
+      "bytes": 4804,
+      "sha256": "05cff7e28a66113163906e8c1b1cd24329f18a0e3080194df70c5e3aaa080132"
+    },
+    {
+      "file": "review_20261009/batch64_independent/audit_batch64_independent.py",
+      "bytes": 12531,
+      "sha256": "a863c1530b04b44cd239aee87a2aef78b89768c7ffb49c31b23687661f8d70a7"
+    },
+    {
+      "file": "review_20261009/batch64_independent/cfb_cells_398_to_422_boundary_verbatim.csv",
+      "bytes": 1328,
+      "sha256": "7c7fe3ae635d5ee8d32a3ec19723ca77c94b239ea1eac755d0c547fe72dad60b"
+    },
+    {
+      "file": "review_20261009/batch64_independent/cfb_main_story_independent.txt",
+      "bytes": 23415,
+      "sha256": "b5141f61b6b22aedbbb3261a3faf6e53621058ae610ebac48b8a04c7e60c4818"
+    },
+    {
+      "file": "review_20261009/batch64_independent/cfb_main_story_reader_proof.json",
+      "bytes": 581,
+      "sha256": "edb4498b335c33c090e5447b9a4d21d1dd07d374484d8f76e70ec428eaec52aa"
+    },
+    {
+      "file": "review_20261009/batch64_independent/cfb_passenger_data_rows_independent_40.csv",
+      "bytes": 3411,
+      "sha256": "19a493a0afaa2e8c793b047dc9591041902e376d80063f97ee1cdd32ea334d93"
+    },
+    {
+      "file": "review_20261009/batch64_independent/docx_body_node_structure.csv",
+      "bytes": 2670,
+      "sha256": "657c5d6e277637f3121218922e28b03efc275eeede62163bff458864a6ee45b6"
+    },
+    {
+      "file": "review_20261009/batch64_independent/docx_table0_all_physical_rows_41.csv",
+      "bytes": 24501,
+      "sha256": "2b7d55cc25a09021a3ffea5893fa2203c104f7cd75b00b51d1e4a7b610d57ec4"
+    },
+    {
+      "file": "review_20261009/batch64_independent/docx_table1_all_physical_rows_8.csv",
+      "bytes": 5561,
+      "sha256": "38a71f647976744c63fbcc9677ad09f59c04c8d88a5861c9aa018934f7fd6039"
+    },
+    {
+      "file": "review_20261009/batch64_independent/independent_result.json",
+      "bytes": 2631,
+      "sha256": "e502b98b7d361f314f17b2985817b7c42479d14b4d2afbfc4aa52b2eeb229965"
+    },
+    {
+      "file": "review_20261009/batch64_independent/mf_batch64.pdf",
+      "bytes": 1108744,
+      "sha256": "a16cfacef6200a69fa8429b127aa91ca0c7f6561c81d26044acf02dfc48ffa60"
+    },
+    {
+      "file": "review_20261009/batch64_independent/passenger_erratum_verbatim.txt",
+      "bytes": 254,
+      "sha256": "32f83799c3da3dfb0b49fa21eeb2973583eaa1078afd2aea911f3eee4a3ce8aa"
+    },
+    {
+      "file": "review_20261009/batch64_independent/verification_summary.json",
+      "bytes": 2631,
+      "sha256": "e502b98b7d361f314f17b2985817b7c42479d14b4d2afbfc4aa52b2eeb229965"
+    },
+    {
+      "file": "review_20261009/batch64_independent/word_document.xml",
+      "bytes": 2572278,
+      "sha256": "fc6da4cbb72e20bf4c25c3f64348244166ec8605ed96c3f5dbec9b5ff3ba4177"
+    },
+    {
+      "file": "review_20261009/batch64_independent/输出文件_SHA256.csv",
+      "bytes": 1674,
+      "sha256": "600a0fcdee882b88cee637bc839868f0a425a13c07906963a69ecd3bb810993a"
+    },
+    {
+      "file": "review_20261009/pre_review_scientific_csv_sha256.json",
+      "bytes": 10106,
+      "sha256": "5738854737fc12902a608d89300acf049f620075ead07866973fb6f36ce69f33"
+    },
+    {
+      "file": "review_20261009/review_supplement_20261009.zip",
+      "bytes": 1217777,
+      "sha256": "d5dfad8e6f2cfd5ae50ef0a76c2e384b5c8e1306a45ca928c96f4fb6ca5bb521"
+    },
+    {
+      "file": "review_20261009/risk_change/README.md",
+      "bytes": 4635,
+      "sha256": "2a4a7df63c3252797188d22159d7ec261872d8b8bb6d99dcabf0bd7a906b6d32"
+    },
+    {
+      "file": "review_20261009/risk_change/audit_version_labels.py",
+      "bytes": 10370,
+      "sha256": "d0d400ca43dccc9d58fc00a72f66657f45e699d76af7653be277fbd581c1861d"
+    },
+    {
+      "file": "review_20261009/risk_change/risk_change_summary.json",
+      "bytes": 4663,
+      "sha256": "86fb4dd4e00a9011e5783d093ab30579e74704fbf059b9cf540a300c19d4be6f"
+    },
+    {
+      "file": "review_20261009/risk_change/trace_risk_change.py",
+      "bytes": 16207,
+      "sha256": "12d33996857caea2093a4f1f039a67f012766e8581ed9b9c22a8d611ae72d2da"
+    },
+    {
+      "file": "review_20261009/risk_change/version_label_audit.json",
+      "bytes": 15888,
+      "sha256": "45350d034e9de2b5ca2e3d43f52ab4748526d26cb35ab4fa3a9d7c4f157ab232"
+    },
+    {
+      "file": "review_20261009/risk_change/只读追溯输入_SHA256.csv",
+      "bytes": 4757,
+      "sha256": "9a895a89fd19a0101fa92332114fb6728068fe4e81cd8bb0b3c1345b14eef335"
+    },
+    {
+      "file": "review_20261009/risk_change/文件清单_SHA256.csv",
+      "bytes": 1150,
+      "sha256": "1cf5869e2f9d09368a1f33fb6cfb63323b0317e38a769e7f188ae7e08997394a"
+    },
+    {
+      "file": "review_20261009/risk_change/新增撤销_逐来源数量及证据.csv",
+      "bytes": 1010,
+      "sha256": "5ebb62ff1e0d1a0b6c946461532fe6c2d5c7b6a69f6fb936432d0bb34a0a6378"
+    },
+    {
+      "file": "review_20261009/risk_change/版本命名核查.md",
+      "bytes": 1788,
+      "sha256": "4eb8a18d401d20431b89c5d8b500dd470d16da277c78f802a351919e53dfce94"
+    },
+    {
+      "file": "review_20261009/risk_change/版本阶段_实际人数与风险标记指纹.csv",
+      "bytes": 645,
+      "sha256": "78b66a9afca209cb6f98ff9ff84ef6e7a46a3676c83dccd939c4163d967a27bb"
+    },
+    {
+      "file": "review_20261009/risk_change/风险集变动_74型号逐源对照.csv",
+      "bytes": 64772,
+      "sha256": "f1465c7dfdc87bf04a11521a7fb59a0d5acb39409cc857f37b20742d4b69244d"
+    },
+    {
+      "file": "review_20261009/risk_change/风险集变动_旧新事件链与原件出处.csv",
+      "bytes": 162752,
+      "sha256": "6b4aa568c056da00dd827480c8ef5961dea3f6b14fec18c9b4620081e6ac4107"
+    },
+    {
+      "file": "review_20261009/stage_review_update.py",
+      "bytes": 9760,
+      "sha256": "5d069ac807fb2780787d13c747faff2e9a58dca4d6863d7f03c329ba2f0da8ce"
+    },
+    {
+      "file": "review_20261009/supplement_package_result.json",
+      "bytes": 350,
+      "sha256": "aa93d3b150d08ff84b36aef98f0c16c425d9fc58336f9eff6fe9c45ae4fe9247"
+    },
+    {
+      "file": "review_20261009/user_review_input.json",
+      "bytes": 447,
+      "sha256": "71618b94ef9842cb1f5562e4619d3a2ea61c2d7cad70cfe20f5783d81136f974"
+    },
+    {
       "file": "source_recovery/106原件回收清单_v1_5.csv",
       "bytes": 86023,
       "sha256": "73e22063a352897ba2895071ebadeacefb9d7a77c2be6bb922c7a7fd2886d8a7"
@@ -711,8 +1004,8 @@
     },
     {
       "file": "原件补齐与字段勘误修订报告_v1_5_20261009.md",
-      "bytes": 9543,
-      "sha256": "a482ead4e931a7957707ca5a4580ae5ba54328406cea2993e07bdb949f673195"
+      "bytes": 9950,
+      "sha256": "8d788f4dba62a0775ad296eb09db995d9db7a2da69417847f18c7a86b35f6135"
     }
   ]
 }

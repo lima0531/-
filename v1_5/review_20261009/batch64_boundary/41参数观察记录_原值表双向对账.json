@@ -1,0 +1,36 @@
+{
+  "existing_raw_parameter_file": "/workspace/purchase_tax_audit/round5/reconstruction/data_v1_5/研究数据/参数版本_原值与计算代理.csv",
+  "existing_raw_parameter_file_sha256": "d72dddbc280eec061894e39321c0cf37a2b3b0ec89bdbe1623614616604888ab",
+  "normalized_comparison_fields": [
+    "source_sha256",
+    "source_file",
+    "observation_kind",
+    "model_raw",
+    "model_key",
+    "firm_raw",
+    "trade_name_raw",
+    "product_name_raw",
+    "range_raw",
+    "curb_mass_raw",
+    "battery_mass_raw",
+    "battery_energy_raw",
+    "remarks_raw",
+    "catalogue_batch_marked_raw"
+  ],
+  "independently_extracted_parameter_observations": 41,
+  "existing_raw_parameter_records": 41,
+  "source_observation_kind_counts": {
+    "目录列入": 40,
+    "仅续航文字勘误": 1
+  },
+  "existing_raw_observation_kind_counts": {
+    "目录列入": 40,
+    "仅续航文字勘误": 1
+  },
+  "existing_only_multiset_records": 0,
+  "source_only_multiset_records": 0,
+  "all_source_records_matched": 1,
+  "narrative_uncorrected_mass_energy_fields_remain_blank": true,
+  "fields_filled_from_other_catalogue": false,
+  "scientific_tables_modified": false
+}

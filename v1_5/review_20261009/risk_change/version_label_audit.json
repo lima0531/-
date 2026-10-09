@@ -1,0 +1,318 @@
+{
+  "generated_at_utc": "2026-10-09T04:39:03.517902+00:00",
+  "scope": "指定本地文件的版本命名、阶段摘要和同名README继承事实核查；不重建风险模型集合",
+  "resolved_path_note": "请求中的round5/data_v1_5实际本地目录为round5/reconstruction/data_v1_5。",
+  "source_files": {
+    "compact_readme": {
+      "path": "/workspace/purchase_tax_audit/compact_input_20261008/购置税项目_必要数据精简包_20261008/README.md",
+      "bytes": 4701,
+      "sha256": "1e2c0fd395c9777a227d76db1ad4843470531f9762a7b748d427665bd91263ac"
+    },
+    "intermediate_summary": {
+      "path": "/workspace/purchase_tax_audit/round3/reconstruction/intermediate_2804/reconstruction_summary.json",
+      "bytes": 10684,
+      "sha256": "030fbd75fdc0c5afda8daf791d6d3ce64912381db5aa0e4f8c12d55cf2197582"
+    },
+    "intermediate_manifest": {
+      "path": "/workspace/purchase_tax_audit/round3/reconstruction/intermediate_2804/data_v1_3_manifest.csv",
+      "bytes": 4940,
+      "sha256": "03a61521eef8e7ba9b523b61f3b43a05ac29f26ae64d7468a50c8a671ccadf48"
+    },
+    "final_summary": {
+      "path": "/workspace/purchase_tax_audit/round3/reconstruction/reconstruction_summary.json",
+      "bytes": 11055,
+      "sha256": "9ff46728648a3b67bc50f22e0136cfd4a1ba3c39a1b2058876294f96e2a768ef"
+    },
+    "final_manifest": {
+      "path": "/workspace/purchase_tax_audit/round3/reconstruction/data_v1_3_manifest.csv",
+      "bytes": 5543,
+      "sha256": "d106dfa57d857758d0a0fbba7eedba4b93c85361eb9928d459dfec49d64e0bf3"
+    },
+    "rebuild_script": {
+      "path": "/workspace/purchase_tax_audit/round3/reconstruction/rebuild_with_new_withdrawals.py",
+      "bytes": 25873,
+      "sha256": "28baa9c662a101072cce7b2fa93ad4044f1db8594560437c6b513e9cb2234c6e"
+    },
+    "v1_3_readme": {
+      "path": "/workspace/purchase_tax_audit/round3/reconstruction/data_v1_3/README_版本v1_3.md",
+      "bytes": 2088,
+      "sha256": "5b6b85efc0a4a021e301c4d62e28c55b915b20c64c9cf9c4ca5f3744a33e73fe"
+    },
+    "v1_4_readme_copy": {
+      "path": "/workspace/purchase_tax_audit/round4/data_v1_4/README_版本v1_3.md",
+      "bytes": 2088,
+      "sha256": "5b6b85efc0a4a021e301c4d62e28c55b915b20c64c9cf9c4ca5f3744a33e73fe"
+    },
+    "v1_4_copy_script": {
+      "path": "/workspace/purchase_tax_audit/round4/build_final_version.py",
+      "bytes": 7084,
+      "sha256": "712fbb1f559fbbfef86362f3ec50840f449a1a164ad3c27cd2f5c483e88de115"
+    },
+    "v1_5_readme_copy": {
+      "path": "/workspace/purchase_tax_audit/round5/reconstruction/data_v1_5/README_版本v1_3.md",
+      "bytes": 2088,
+      "sha256": "5b6b85efc0a4a021e301c4d62e28c55b915b20c64c9cf9c4ca5f3744a33e73fe"
+    },
+    "v1_5_current_boundaries": {
+      "path": "/workspace/purchase_tax_audit/round5/reconstruction/data_v1_5/字段说明_版本边界.md",
+      "bytes": 3270,
+      "sha256": "39badd6ee94a747f0d20312b94c4cb0442773eee7bdcc8d61a20870998bf8d92"
+    },
+    "v1_5_copy_script": {
+      "path": "/workspace/purchase_tax_audit/round5/reconstruction/build_effective_correction_version.py",
+      "bytes": 23115,
+      "sha256": "4491ca7e237869656c080a310294cf49f8965465f7e879d3c546bb600020c85d"
+    },
+    "v1_5_finalizer_script": {
+      "path": "/workspace/purchase_tax_audit/round5/finalize_data_v1_5.py",
+      "bytes": 6172,
+      "sha256": "502709b933c259b7fb6584eaba03f0c6e81d10f3ef2fcb6fc4c1ca2b06ccc566"
+    }
+  },
+  "local_stage_records": [
+    {
+      "stage_id": "local_intermediate_2804",
+      "summary_source_id": "intermediate_summary",
+      "recorded_values": {
+        "generated_at_utc": "2026-10-08T14:13:51.011801+00:00",
+        "baseline_root": "/workspace/purchase_tax_audit/round3/versioning/data_v1_2",
+        "output_root": "/workspace/purchase_tax_audit/round3/reconstruction/data_v1_3",
+        "cohort_models": 3328,
+        "new_cohort_withdrawal_events": 73,
+        "preannouncement_risk_models": 2804,
+        "numeric_input_ready": 2423,
+        "source_correction_base_used": null
+      },
+      "counts_are_read_from_summary_not_recomputed": true
+    },
+    {
+      "stage_id": "local_final_2805",
+      "summary_source_id": "final_summary",
+      "recorded_values": {
+        "generated_at_utc": "2026-10-08T14:45:42.521551+00:00",
+        "baseline_root": "/workspace/purchase_tax_audit/round3/reconstruction/corrected_source_base",
+        "output_root": "/workspace/purchase_tax_audit/round3/reconstruction/data_v1_3",
+        "cohort_models": 3328,
+        "new_cohort_withdrawal_events": 73,
+        "preannouncement_risk_models": 2805,
+        "numeric_input_ready": 2424,
+        "source_correction_base_used": true
+      },
+      "counts_are_read_from_summary_not_recomputed": true
+    }
+  ],
+  "intermediate_directory_actual_file_names": [
+    "73型号_撤销补漏对风险集的影响.csv",
+    "data_v1_3_manifest.csv",
+    "data_v1_3_表变化.csv",
+    "reconstruction_summary.json"
+  ],
+  "same_version_label_has_multiple_local_build_stages": true,
+  "same_output_root_recorded_for_intermediate_and_final": true,
+  "claims": [
+    {
+      "claim_id": "F01",
+      "status": "documented_local_fact",
+      "claim": "精简包 README 自称从2026-10-08完整包v1.1提取，研究边界文本记录风险集2877；这只界定该指定精简包自身的声明。",
+      "evidence": [
+        {
+          "source_id": "compact_readme",
+          "path": "/workspace/purchase_tax_audit/compact_input_20261008/购置税项目_必要数据精简包_20261008/README.md",
+          "matches": [
+            {
+              "line_1based": 3,
+              "text": "这份包用于继续分析、阅读结论和轻量核查。它从2026-10-08完整包v1.1提取必要内容，保留文件均逐字节复制，不改原值、成员、事件或参数。完整归档另行保留。"
+            }
+          ]
+        },
+        {
+          "source_id": "compact_readme",
+          "path": "/workspace/purchase_tax_audit/compact_input_20261008/购置税项目_必要数据精简包_20261008/README.md",
+          "matches": [
+            {
+              "line_1based": 45,
+              "text": "- 2877公告前在册风险型号中，官方标记576；全队列标记591。事后清单标记不回填为2023-12-10前特征。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "claim_id": "F02",
+      "status": "documented_local_fact",
+      "claim": "本地保存的2804中间摘要与2805最终摘要是两个不同阶段记录，生成时间、baseline_root和风险数均不同，但output_root相同且均为data_v1_3。",
+      "evidence_source_ids": [
+        "intermediate_summary",
+        "final_summary"
+      ],
+      "stage_ids": [
+        "local_intermediate_2804",
+        "local_final_2805"
+      ]
+    },
+    {
+      "claim_id": "F03",
+      "status": "documented_local_fact",
+      "claim": "构建脚本把输出数据目录固定命名为data_v1_3并生成README_版本v1_3.md；仅这一目录名不会自动区分中间和最终构建阶段。",
+      "evidence": [
+        {
+          "source_id": "rebuild_script",
+          "path": "/workspace/purchase_tax_audit/round3/reconstruction/rebuild_with_new_withdrawals.py",
+          "matches": [
+            {
+              "line_1based": 76,
+              "text": "    base=args.base.resolve();cov=args.coverage.resolve();out=args.output.resolve();data=out/'data_v1_3';out.mkdir(parents=True,exist_ok=True)"
+            }
+          ]
+        },
+        {
+          "source_id": "rebuild_script",
+          "path": "/workspace/purchase_tax_audit/round3/reconstruction/rebuild_with_new_withdrawals.py",
+          "matches": [
+            {
+              "line_1based": 252,
+              "text": "    (data/'README_版本v1_3.md').write_text(f'''# 数据版本 v1.3：历史撤销补齐与公告批次修正\\n\\n本版本保留原冻结1991及重建3328成员，参数来源和冻结点单值不变。新增2018-05-22独立撤销名单1882行、第28批撤销名单138行，全表共2020行；其中73个队列型号新增正式撤销观察。{source_note}已按完整新事件重新计算2022—2024每月月末状态、三截点状态、公告前风险集、输入准备标记、后续轨迹、官方标记分层及分母对账。\\n\\n公告前风险集现为{len(riskset)}；两项单值输入准备型号{summary['numeric_input_ready']}；风险集单值不足{summary['risk_single_value_insufficient']}。这些值取决于已取得来源，仍不认证全目录穷尽、法律资格、低温例外、同配置或市场退出。2024撤销观察集合共{len(wdset)}，风险集内{len(riskwd)}、风险集外{len(outsidewd)}。历史补漏不属于2024撤销，不能把新增73叠加到2024的503。\\n\\n新增撤销使用主管部门页面明确登记公开观察日期。落款分别2018-05-21和2019-12-06；采用的公开观察日期分别2018-05-22和2019-12-10。尚无逐车型法定撤销生效日期证据，不将公开观察日期改称法定资格失效日。\\n\\n`五档数值层_逐型号归属与判据.csv` 为规范使用文件。继承的 `五档数值层_逐型号归属与判据2877行.csv` 仅为旧校验脚本的兼容入口，两者内容完全相同，真实行数为{len(layers)}，文件名旧人数不作为本版本统计。\\n\\n`9份历史撤销...3007行` 等旧范围表仍表示原9份保留来源，未伪称11份；新增两份全表单列于 `目录覆盖/新增2份历史撤销_独立全表枚举.csv`，合并原件逐表枚举已加入2020新增行。\\n\\n完整差异、输入保护校验和生成脚本见父目录。推荐后续分析使用本v1.3，不再将仅补日期的v1.2作为完整事件数据。\\n''',encoding='utf8')"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "claim_id": "F04",
+      "status": "documented_local_fact",
+      "claim": "中间与最终清单都记录README_版本v1_3.md，但清单中的字节数和SHA不同。当前最终README字节与最终清单匹配；中间目录现仅保存摘要、清单和差异记录，不能据此称其完整2804数据快照仍在该目录中。",
+      "evidence_source_ids": [
+        "intermediate_manifest",
+        "final_manifest",
+        "v1_3_readme"
+      ],
+      "manifest_readme_entries": {
+        "intermediate_manifest": {
+          "path": "README_版本v1_3.md",
+          "bytes": "1763",
+          "sha256": "5b251b827b6854119effc0f86cbb84fe0c5bd4777f747410e18c5a808ac4b0ac"
+        },
+        "final_manifest": {
+          "path": "README_版本v1_3.md",
+          "bytes": "2088",
+          "sha256": "5b6b85efc0a4a021e301c4d62e28c55b915b20c64c9cf9c4ca5f3744a33e73fe"
+        }
+      }
+    },
+    {
+      "claim_id": "F05",
+      "status": "documented_local_fact",
+      "claim": "round3最终v1.3 README明确写2805，且其2088字节SHA与round4及round5同名README完全一致；此比较仅认证该README文件的字节继承，未比较全部科学数据。",
+      "evidence": [
+        {
+          "source_id": "v1_3_readme",
+          "path": "/workspace/purchase_tax_audit/round3/reconstruction/data_v1_3/README_版本v1_3.md",
+          "matches": [
+            {
+              "line_1based": 7,
+              "text": "公告前风险集现为2805；两项单值输入准备型号2424；风险集单值不足381。这些值取决于已取得来源，仍不认证全目录穷尽、法律资格、低温例外、同配置或市场退出。2024撤销观察集合共503，风险集内496、风险集外7。历史补漏不属于2024撤销，不能把新增73叠加到2024的503。"
+            }
+          ]
+        }
+      ],
+      "compared_source_ids": [
+        "v1_3_readme",
+        "v1_4_readme_copy",
+        "v1_5_readme_copy"
+      ],
+      "identical_sha256": "5b6b85efc0a4a021e301c4d62e28c55b915b20c64c9cf9c4ca5f3744a33e73fe"
+    },
+    {
+      "claim_id": "F06",
+      "status": "documented_local_fact",
+      "claim": "round4脚本复制round3/data_v1_3为data_v1_4；round5脚本默认复制round4/data_v1_4为data_v1_5。round5当前字段说明明确同名v1.3 README为历史记录，故位于v1.5目录中不表示当前数据的版本标签仍为v1.3。",
+      "evidence": [
+        {
+          "source_id": "v1_4_copy_script",
+          "path": "/workspace/purchase_tax_audit/round4/build_final_version.py",
+          "matches": [
+            {
+              "line_1based": 6,
+              "text": "BASE=ROOT.parent/'round3/reconstruction/data_v1_3'"
+            }
+          ]
+        },
+        {
+          "source_id": "v1_4_copy_script",
+          "path": "/workspace/purchase_tax_audit/round4/build_final_version.py",
+          "matches": [
+            {
+              "line_1based": 20,
+              "text": "shutil.copytree(BASE,OUT)"
+            }
+          ]
+        },
+        {
+          "source_id": "v1_5_copy_script",
+          "path": "/workspace/purchase_tax_audit/round5/reconstruction/build_effective_correction_version.py",
+          "matches": [
+            {
+              "line_1based": 98,
+              "text": "    parser.add_argument('--base', type=Path, default=Path(__file__).resolve().parents[2] / 'round4/data_v1_4')"
+            }
+          ]
+        },
+        {
+          "source_id": "v1_5_copy_script",
+          "path": "/workspace/purchase_tax_audit/round5/reconstruction/build_effective_correction_version.py",
+          "matches": [
+            {
+              "line_1based": 103,
+              "text": "    data = out / 'data_v1_5'"
+            }
+          ]
+        },
+        {
+          "source_id": "v1_5_copy_script",
+          "path": "/workspace/purchase_tax_audit/round5/reconstruction/build_effective_correction_version.py",
+          "matches": [
+            {
+              "line_1based": 106,
+              "text": "    shutil.copytree(base, data)"
+            }
+          ]
+        },
+        {
+          "source_id": "v1_5_current_boundaries",
+          "path": "/workspace/purchase_tax_audit/round5/reconstruction/data_v1_5/字段说明_版本边界.md",
+          "matches": [
+            {
+              "line_1based": 19,
+              "text": "`README_版本v1_3.md`、`README_版本v1_4.md`及 `字段说明_版本边界_历史v1_3.md`是历史记录，当前口径以本文件和README为准。"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "not_established": [
+    {
+      "claim_id": "U01",
+      "status": "not_established_by_reviewed_materials",
+      "claim": "用户所称另一份“v1.3”与本地2804中间阶段、2805最终阶段或指定compact_input之间的唯一对应关系，本次指定材料尚不能证明。",
+      "reason": "未将该另一份具体产物的包SHA、确定归档成员或关键文件指纹与上述阶段记录建立可核查映射；相同版本字符串或同名README不足以唯一定位。"
+    },
+    {
+      "claim_id": "U02",
+      "status": "inference_not_authorized_by_evidence",
+      "claim": "不能因为compact README自称v1.1，或v1.5中保留v1.3同名README，就断言用户另一份v1.3只补日期、未补历史撤销、风险集必为2877或必为2805。",
+      "reason": "这些证据界定的是已定位本地文件的声明和继承，不能跨产物推断另一包的范围。"
+    },
+    {
+      "claim_id": "U03",
+      "status": "outside_this_audit_scope",
+      "claim": "2877、2804、2805之间逐型号变动及具体来源因果，本任务未复算或认证。",
+      "reason": "本任务只核命名与阶段记录；逐型号源追溯由风险变化主核查执行。"
+    }
+  ],
+  "naming_for_followup": "引用本地v1.3时同时注明阶段、摘要SHA和生成时间；用户另一份v1.3保持“未对应”，待其具体产物指纹可比后再对应。",
+  "risk_model_sets_recomputed": false,
+  "old_scientific_data_written": false,
+  "reviewed_source_file_hashes_unchanged": true,
+  "reviewed_source_file_count": 13
+}
