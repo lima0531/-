@@ -1,0 +1,40 @@
+{
+  "label_job_id": "2be5a9bb8ccd49a0c7057141df1276f1aff14bde66fbe54dca747e1ff9e028fd",
+  "fullLabel": "60854455b83a9bca254c7564ae3bb1f3@47484",
+  "pdf_file": "responses/2be5a9bb8ccd49a0c7057141df1276f1aff14bde66fbe54dca747e1ff9e028fd_attempt01.pdf",
+  "pdf_sha256": "e835589e3c8a7c9ce26bb27fd1b7374c385793c1a6902fcf0635d6c7292bc941",
+  "pdf_bytes": 47484,
+  "pdf_pages": 1,
+  "receipt_file": "receipts/2be5a9bb8ccd49a0c7057141df1276f1aff14bde66fbe54dca747e1ff9e028fd_attempt01_receipt.json",
+  "observed_utc": "2026-10-09T15:33:49.134024+00:00",
+  "full_text_file": "extracted/2be5a9bb8ccd49a0c7057141df1276f1aff14bde66fbe54dca747e1ff9e028fd.txt",
+  "full_text_sha256": "583661d813798459fa0fdcb3145b959fe27f01fb1b50796632bf269487f25538",
+  "standard_contexts": [
+    "本标识所采用的电能消耗量和续驶里程数据是按\n照GB/T 18386.1—2021《电动汽车能量消耗量和续驶\n里程试验方法 第1部分：轻型汽车》测定。预估能源\n成本的计算基于电费0.66元/度。",
+    "照GB/T 18386.1—2021《电动汽车能量消耗量和续驶\n里程试验方法 第1部分：轻型汽车》测定。预估能源\n成本的计算基于电费0.66元/度。\n由于驾驶习惯、道路状况、气候条件、电价等 因"
+  ],
+  "battery_energy_words_present": false,
+  "record_refs": [
+    {
+      "model_key": "GAH7000BEVT0B",
+      "vehicleModel_raw": "GAH7000BEVT0B",
+      "matching_mode": "raw",
+      "uuid": "705f457938f14fa4b872857331c2429f",
+      "recordNumber": "GD20240718113813473",
+      "source_file": "../../energy_new_complete_20261009/public_new_snapshot/new_currentPage/page0042_response.json",
+      "source_page_sha256": "2d1945568a6a2b019783e3790cd35de00d4977caa23e7bce3f4a7b2aca12db22",
+      "page": 42,
+      "json_pointer": "/info/list/122",
+      "full_row_sha256": "d65ef9e8a05dbdc43e9da494847d7daffc324d408b37d7289172d9abc14ba391",
+      "label_job_id": "2be5a9bb8ccd49a0c7057141df1276f1aff14bde66fbe54dca747e1ff9e028fd",
+      "fullLabel": "60854455b83a9bca254c7564ae3bb1f3@47484",
+      "testBasisStandard_raw": "5",
+      "issueDate_raw": "2022-09-15",
+      "enableDate_raw": "2024-07-18",
+      "createTime_raw": "2024-07-18 11:38:47",
+      "updateTime_raw": "2024-07-18 11:41:06",
+      "abandonTime_raw": "2024-07-18",
+      "is_new_library_only_model": false
+    }
+  ]
+}
