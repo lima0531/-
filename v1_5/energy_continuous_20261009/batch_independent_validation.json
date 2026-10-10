@@ -1,9 +1,9 @@
 {
-  "generated_utc": "2026-10-09T16:13:20.929361+00:00",
+  "generated_utc": "2026-10-10T13:19:10.054570+00:00",
   "labels": {
-    "validated_pdfs": 600,
+    "validated_pdfs": 700,
     "standards_literal_counts": {
-      "GB/T18386.1-2021": 551,
+      "GB/T18386.1-2021": 651,
       "GB/T18386-2017": 49
     },
     "dual_text_engines": true,
@@ -11,14 +11,16 @@
     "same_tax_configuration_certified": false
   },
   "old_details": {
-    "validated_details": 100,
+    "validated_details": 200,
     "standard_fields_raw_counts": {
-      "GB/T 18386.1-2021": 85,
-      "BJ_18386_2017": 11,
-      "GB/T18386.1-2021": 3,
+      "GB/T 18386.1-2021": 181,
+      "BJ_18386_2017": 14,
+      "GB/T18386.1-2021": 4,
       "GB/T18386-2017": 1
     },
     "identity_echo_not_invented": true,
+    "imported_provider_records": 100,
+    "provider_tls_attestation_unavailable_records": 100,
     "same_tax_configuration_certified": false
   },
   "protected_scientific_csv": 52,

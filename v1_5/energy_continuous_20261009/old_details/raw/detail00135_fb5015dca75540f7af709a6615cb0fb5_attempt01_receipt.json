@@ -1,0 +1,29 @@
+{
+  "method": "POST",
+  "requested_url": "https://yhgscx.miit.gov.cn/fuel-consumption-center/fuel-consumption-center/fcSearchCtr/queryDetail",
+  "request_json": {
+    "applyId": "fb5015dca75540f7af709a6615cb0fb5"
+  },
+  "input_record_key": "old:fb5015dca75540f7af709a6615cb0fb5:c28ca87f8ac7d5cc2c75d2e81eedfd2786a41c026f8e930ca43a0e9ed21b0784",
+  "source_occurrence": "old:10:101",
+  "expected_model_raw": "GAM7000BEVA0L",
+  "attempt": 1,
+  "observed_utc": "2026-10-10T06:16:57.714612+00:00",
+  "http_status": 200,
+  "bytes": 1561,
+  "sha256": "60ad7f503a8186c4c012bc01bb83a71a0a2aabfb2af0dc93cc3985fe2111c83c",
+  "file": "raw/detail00135_fb5015dca75540f7af709a6615cb0fb5_attempt01_response.json",
+  "accepted": true,
+  "tls_verified": null,
+  "anonymous_request_no_credentials_or_captcha_solution": null,
+  "imported_external_delivery": true,
+  "provider_original_receipt_file": "../deepseek_old_details_101_200/raw/detail00135_fb5015dca75540f7af709a6615cb0fb5_attempt01_receipt.json",
+  "provider_original_receipt_sha256": "dddc57b10a8214b13a08a5facd07764bb45d16f3567468241768cf4d836b88a3",
+  "provider_original_response_file": "../deepseek_old_details_101_200/raw/detail00135_fb5015dca75540f7af709a6615cb0fb5_attempt01_response.json",
+  "provider_original_response_sha256": "60ad7f503a8186c4c012bc01bb83a71a0a2aabfb2af0dc93cc3985fe2111c83c",
+  "source_fixed_list_file": "old_currentPage/page0010_attempt02_response.json",
+  "source_fixed_list_sha256": "320ef44b657ab160c259844feaebb9f93219a1b6f07803c34883b6518c3a95eb",
+  "source_fixed_json_pointer": "/info/list/101",
+  "transport_limit": "Provider archive verified locally; TLS verification and anonymous-request claims were not attested in original receipts.",
+  "normalized_receipt_fields_are_archive_metadata": true
+}

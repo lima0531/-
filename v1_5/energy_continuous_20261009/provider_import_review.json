@@ -1,0 +1,23 @@
+{
+  "reviewed_utc": "2026-10-10T13:12:11.860080+00:00",
+  "provider_directory": "deepseek_old_details_101_200",
+  "provider_manifest_sha256": "5553c014d6bc14396271e588a7a3c0af18de0183a08dd6ec401d46bfba71aeb6",
+  "provider_payload_files_verified": 203,
+  "queue_sha256": "54edef6f8a0d0a43f4f790cb4e6493ef70242d016e961ba66bd6f51cbb72d5e9",
+  "queue_range_1based": [
+    101,
+    200
+  ],
+  "accepted_original_responses": 100,
+  "provider_attempts_retained_in_original_archive": 101,
+  "all_fixed_source_pointers_models_and_response_hashes_verified": true,
+  "response_bytes_changed": false,
+  "provider_original_receipts_changed": false,
+  "provider_original_observation_times_preserved": true,
+  "tls_attestation_unavailable_records": 100,
+  "anonymous_request_attestation_unavailable_records": 100,
+  "network_requests_performed_by_import": 0,
+  "scientific_csv_changed": false,
+  "frozen_cycle_gaps_closed": 0,
+  "verification": "PASS"
+}

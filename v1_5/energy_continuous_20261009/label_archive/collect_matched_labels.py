@@ -404,7 +404,7 @@ def main():
     write_status(state, rows, summary)
     print(json.dumps({'completed': state['completed'], 'accepted_pdfs': state['accepted_pdfs'],
                       'stop_reason': state['stop_reason']}, ensure_ascii=False), flush=True)
-    sys.exit(0 if state['completed'] or state.get('pause_kind') else 1)
+    sys.exit(0 if state['completed'] or state.get('pause_kind') in {'planned_review_stage_boundary', 'planned_new_job_budget'} else 1)
 
 
 if __name__ == '__main__':

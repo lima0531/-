@@ -93,12 +93,25 @@ def validate_old():
     folder = ROOT / 'old_details'; cp = load(folder / 'checkpoint.json')
     sources = {r['stable_id_raw']: r for r in map(json.loads, (ROOT / 'independent_old_review/4497记录_旧库精确命中固定来源键.jsonl').read_text().splitlines())}
     seen, codes = set(), Counter()
+    provider_records = 0
     for receipt_file in sorted((folder / 'raw').glob('*_receipt.json')):
         receipt = load(receipt_file)
         if not receipt.get('accepted'): continue
         identity = receipt['request_json']['applyId']; source = sources[identity]
         p = folder / receipt['file']; body = load(p); info = body['info']
-        assert receipt['http_status'] == 200 and receipt['tls_verified'] and body['result'] == 1
+        assert receipt['http_status'] == 200 and body['result'] == 1
+        if receipt.get('imported_external_delivery'):
+            original = folder / receipt['provider_original_receipt_file']
+            assert sha(original) == receipt['provider_original_receipt_sha256']
+            original_receipt = load(original)
+            assert original_receipt['applyId'] == identity
+            assert original_receipt['sha256'] == receipt['sha256']
+            original_response = folder / receipt['provider_original_response_file']
+            assert sha(original_response) == sha(p) == receipt['provider_original_response_sha256']
+            assert receipt['tls_verified'] is None
+            provider_records += 1
+        else:
+            assert receipt['tls_verified'] is True
         assert sha(p) == receipt['sha256'] and p.stat().st_size == receipt['bytes']
         assert info['vehicleNumber'] == source['model_key'] and receipt['input_record_key'] == source['record_key']
         if info.get('applyId'): assert info['applyId'] == identity
@@ -107,6 +120,8 @@ def validate_old():
         seen.add(identity); codes[str(info.get('testBasisStandard'))] += 1
     assert len(seen) == cp['accepted_records']
     return {'validated_details': len(seen), 'standard_fields_raw_counts': dict(codes), 'identity_echo_not_invented': True,
+            'imported_provider_records': provider_records,
+            'provider_tls_attestation_unavailable_records': provider_records,
             'same_tax_configuration_certified': False}
 
 def publish(state, validate=True):
@@ -157,6 +172,8 @@ def publish(state, validate=True):
 最新剩余{state['remaining_old_details']}条。以[checkpoint](checkpoint.json)和[全部已取详情](details_readonly.jsonl)为准；本目录archive_review_summary及旧标准CSV是原首100阶段快照，不冒充当前全量复核。本轮当前来源/字节独立验证见[当前批次校验](../batch_independent_validation.json)。
 
 `--limit N`是累计前N预算，复跑校验缓存后续取；0是完整4497。正常单worker，至少2秒间隔；访问拒绝保存断点停。详情applyId/uniqId为空时不虚构回显。固定输入来自相邻independent_old_review，旧列表原件位于[原公开视图](../../energy_registry_20261009/public_energy_registry/README.md)。
+
+第101—200条复用用户已上传的DeepSeek原响应，经[逐条来源与原字节导入核查](../provider_import_review.json)后加入断点缓存。原收据、101次尝试和提供方时间保留在原目录；其TLS/匿名请求证明字段缺失，规范收据明确记为null，不声称这100条是本环境重新网络取得。
 '''
     (ROOT/'old_details/README.md').write_text(old_header)
     for p, link in [(REPO/'README.md', 'v1_5/'+NAME), (V5/'README.md', NAME)]:
