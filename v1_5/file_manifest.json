@@ -106,8 +106,8 @@
     },
     {
       "file": "energy_continuous_20261009/README.md",
-      "bytes": 2463,
-      "sha256": "e822ef10669e3e05f0b2635ebf5ba3b8f745f059ca6fed11696e8f6265506548",
+      "bytes": 2643,
+      "sha256": "04ddbb4d4aed21ae536cc66d789abd9848fffe497e8a543b7574be30d73fee60",
       "github_file_page": "https://github.com/lima0531/-/blob/purchase-tax-v1-4-files/v1_5/energy_continuous_20261009/README.md"
     }
   ],
@@ -279,13 +279,13 @@
     },
     {
       "file": "energy_continuous_20261009/README.md",
-      "bytes": 2463,
-      "sha256": "e822ef10669e3e05f0b2635ebf5ba3b8f745f059ca6fed11696e8f6265506548"
+      "bytes": 2643,
+      "sha256": "04ddbb4d4aed21ae536cc66d789abd9848fffe497e8a543b7574be30d73fee60"
     },
     {
       "file": "energy_continuous_20261009/batch_independent_validation.json",
       "bytes": 783,
-      "sha256": "eb13d90e0108df3b8bca1210658decd6d267109f37b3cbebca1f0a655d381d4a"
+      "sha256": "89863c57e22fb9ada9f910caa866eb7916b5a9e938e4686ef98dcc83c267a491"
     },
     {
       "file": "energy_continuous_20261009/cloud_resume_request.json",
@@ -1359,13 +1359,13 @@
     },
     {
       "file": "energy_continuous_20261009/job_status.json",
-      "bytes": 520,
-      "sha256": "a520e3b4c29521c3bbc86d3b885fbcde9de50323a7a97aa6992855b352facbab"
+      "bytes": 558,
+      "sha256": "fc44e43ebf4d862fab69b7733807da2544c63c12311bf8b6e3562cd0a8248d2c"
     },
     {
       "file": "energy_continuous_20261009/label_archive/README.md",
       "bytes": 1479,
-      "sha256": "19415c623da518af8a7660bf11e60858f2c2f2a4072120a5d87783ef4cda4d6e"
+      "sha256": "97d33c9ed0ec8757b139a50aa6579f602ced5529bdf0d54953cc5170609e4002"
     },
     {
       "file": "energy_continuous_20261009/label_archive/collect_matched_labels.py",
@@ -8400,7 +8400,7 @@
     {
       "file": "energy_continuous_20261009/label_archive/label_checkpoint.json",
       "bytes": 553,
-      "sha256": "5e5c819ae6d30f0bad60cea35ede0e90b43bd42a3553cface595e37103673b47"
+      "sha256": "a3e8bc78577399526ccf3fa4ce62d5ca8e75453331b409703c73d96bb4425d13"
     },
     {
       "file": "energy_continuous_20261009/label_archive/label_download_queue.jsonl",
@@ -15480,7 +15480,7 @@
     {
       "file": "energy_continuous_20261009/label_archive/summary.json",
       "bytes": 1042,
-      "sha256": "f5e393e0e244b77ded68b3187ec87d04505d22a13cf09680abd7ece3bec659da"
+      "sha256": "18d08aeca3362c2821ac4ed28bfc086a44384b2f9740542530187ab143d2ba29"
     },
     {
       "file": "energy_continuous_20261009/label_archive/verify_label_phase.py",
@@ -15605,7 +15605,7 @@
     {
       "file": "energy_continuous_20261009/label_archive/文件_SHA256.csv",
       "bytes": 447570,
-      "sha256": "3ad5c105e7308002aac32c9a5d20c40cd8da3524ba99d7271dbcf3192a318f29"
+      "sha256": "625c9320c64f3a90f2746dab95e99620b9bc40535df7d25b366f7a84f8179f12"
     },
     {
       "file": "energy_continuous_20261009/label_archive/精确命中记录_标签原件与标准原句_只读旁表.csv",
@@ -17720,7 +17720,7 @@
     {
       "file": "energy_continuous_20261009/文件_SHA256.csv",
       "bytes": 588171,
-      "sha256": "419b91ee3779e23b392187d31ee41507a3371123af58b696adcf0e37fafdeaa7"
+      "sha256": "54162afb2d37f7a2ca0f0d0f1d957f7a4ecf30d57fdff121306345cda0c1a554"
     },
     {
       "file": "energy_new_complete_20261009/README.md",
@@ -32484,8 +32484,8 @@
   "latest_official_energy_complete_evidence_directory": "energy_new_complete_20261009",
   "latest_continuous_energy_evidence_directory": "energy_continuous_20261009",
   "continuous_energy_collection_counts": {
-    "status": "ready_for_github_resume",
-    "updated_utc": "2026-10-10T13:23:14.348689+00:00",
+    "status": "running",
+    "updated_utc": "2026-10-10T13:27:38.361744+00:00",
     "labels": 700,
     "old_details": 200,
     "remaining_labels": 236,

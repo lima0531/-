@@ -1,6 +1,6 @@
 {
-  "started_utc": "2026-10-10T13:18:48.392569+00:00",
-  "updated_utc": "2026-10-10T13:19:09.045494+00:00",
+  "started_utc": "2026-10-10T13:27:21.117368+00:00",
+  "updated_utc": "2026-10-10T13:27:37.824751+00:00",
   "completed": false,
   "unique_label_jobs": 936,
   "jobs_validated": 700,
@@ -10,5 +10,5 @@
   "stop_reason": "planned_review_stage_boundary: accepted 700 of 936; resume available",
   "pause_kind": "planned_review_stage_boundary",
   "source_queue_sha256": "e8890cdd7192ae0481ce4791c3b9543424d7523075eef31a17dd25fcae5323b2",
-  "finished_utc": "2026-10-10T13:19:09.045494+00:00"
+  "finished_utc": "2026-10-10T13:27:37.824751+00:00"
 }
