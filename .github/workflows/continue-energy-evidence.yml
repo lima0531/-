@@ -1,0 +1,51 @@
+name: Continue official energy evidence
+
+on:
+  push:
+    branches:
+      - purchase-tax-v1-4-files
+    paths:
+      - v1_5/energy_continuous_20261009/cloud_resume_request.json
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: purchase-tax-official-energy-evidence
+  cancel-in-progress: false
+
+jobs:
+  collect:
+    if: github.repository == 'lima0531/-' && github.ref == 'refs/heads/purchase-tax-v1-4-files'
+    runs-on: ubuntu-24.04
+    timeout-minutes: 330
+    env:
+      GH_TOKEN: ${{ github.token }}
+      PYTHONUNBUFFERED: '1'
+    steps:
+      - name: Check out current evidence and fixed queues
+        uses: actions/checkout@11bd71901bbe5b1630ceea73d27597364c9af683 # v4.2.2
+        with:
+          ref: purchase-tax-v1-4-files
+          fetch-depth: 1
+          persist-credentials: false
+      - name: Prepare fixed PDF dependencies
+        run: |
+          python3 -m venv .energy-venv
+          .energy-venv/bin/python -m pip install --disable-pip-version-check -r v1_5/energy_new_complete_20261009/requirements_audit.txt
+          gh --version
+      - name: Resume and publish each verified batch
+        run: .energy-venv/bin/python v1_5/energy_continuous_20261009/run_continuous.py --batch-size 100
+      - name: Show last saved checkpoint
+        if: always()
+        run: |
+          python3 - <<'PY'
+          import json
+          from pathlib import Path
+          path = Path('v1_5/energy_continuous_20261009/job_status.json')
+          if path.exists():
+              data = json.loads(path.read_bytes())
+              for key in ['status', 'updated_utc', 'labels', 'old_details', 'remaining_labels', 'remaining_old_details', 'message']:
+                  print(f'{key}: {data.get(key)}')
+          PY

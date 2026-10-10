@@ -358,6 +358,11 @@ def main():
                     state['stop_reason'] = 'planned_new_job_budget: resumable, not an access refusal'
                     state['pause_kind'] = 'planned_new_job_budget'
                     break
+            handoff_marker = ROOT.parent.parent.parent / '.git/energy_handoff_requested'
+            if handoff_marker.exists() and not accepted_cache(job)[0]:
+                state['stop_reason'] = 'operator handoff to GitHub cloud worker; successful saved cache preserved'
+                state['pause_kind'] = 'cloud_worker_handoff'
+                break
             result, boundary = fetch(job, args.interval)
             if boundary:
                 state['stop_reason'] = json.dumps(boundary, ensure_ascii=False)

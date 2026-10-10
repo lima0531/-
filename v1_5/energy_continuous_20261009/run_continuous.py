@@ -11,6 +11,9 @@ V5, REPO = ROOT.parent, ROOT.parent.parent
 BASE = V5 / 'energy_new_complete_20261009'
 NAME = ROOT.name
 BRANCH = 'purchase-tax-v1-4-files'
+IN_ACTIONS = os.environ.get('GITHUB_ACTIONS') == 'true'
+RUN_ID = os.environ.get('GITHUB_RUN_ID', '') if IN_ACTIONS else ''
+RUN_URL = 'https://github.com/lima0531/-/actions/runs/' + RUN_ID if RUN_ID.isdigit() else None
 ZIPS = {
     'purchase_tax_data_v1_5.zip': '3fd50d6aa95eca0d8483b5bcc409b4c246b024b1dd707ef8e67d95df84e70f20',
     'purchase_tax_sources_v1_5.zip': '17b10d905721b38526a6fc0191680721bb10dc977e8efbad6a28e2385d0f06a2',
@@ -115,6 +118,11 @@ def publish(state, validate=True):
     if validate:
         jwrite(ROOT / 'batch_independent_validation.json', {'generated_utc': now(), 'labels': validate_labels(), 'old_details': validate_old(), 'protected_scientific_csv': 52, 'protected_zips': 7})
     jwrite(ROOT / 'job_status.json', state)
+    execution_note = (f'本轮由[GitHub云端任务]({RUN_URL})执行，关闭聊天不影响该任务。每100条核验后提交本分支；页面计数仅代表最后一次成功发布。任务最多运行330分钟，完成队列、遇访问边界或本地/发布异常时停止。若被取消或达到任务时限，使用仓库Actions页面的Run workflow从已提交断点恢复；最后一次running不等于此刻仍在线。'
+                      if IN_ACTIONS else
+                      '本轮在实际云工作区进程中执行，工作区保持运行时续采。工作区停止后须从已提交checkpoint恢复；最后一次running不等于此刻仍在线。')
+    if state['status'] == 'ready_for_github_resume':
+        execution_note = '本轮新增原件及缓存已核验，等待GitHub云端任务从已保存断点继续。是否启动以[实际Actions任务](https://github.com/lima0531/-/actions/workflows/continue-energy-evidence.yml)为准；等待交接状态不声称后台已运行。'
     (ROOT / 'README.md').write_text(f'''# 官方能耗证据连续续采
 
 状态：**{state['status']}**。更新UTC：{state['updated_utc']}（北京时间＝UTC＋8小时）。
@@ -126,7 +134,7 @@ def publish(state, validate=True):
 
 {state.get('message', '')}
 
-单worker、至少2秒间隔，先余下标签，再余下旧详情；按100条一批落盘、来源/SHA/双文本引擎核验并提交同一分支。不是计划任务平台；这是本云工作区的实际进程，工作区保持运行时续采。若工作区被停止、网络或发布失败，按已有checkpoint恢复；页面只显示最后一次已发布的批次，不虚构仍在线或已经完成。网络拒绝、登录/验证码、429等保存断点并停，不切换路由或凭证。
+单worker、至少2秒间隔，先余下标签，再余下旧详情；按100条一批落盘、来源/SHA/双文本引擎核验并提交同一分支。{execution_note} 网络拒绝、登录/验证码、429等保存断点并停，不切换路由或凭证。
 
 以首100实测节奏，剩余公开原件约数小时；这不是全部科学缺口闭合时间。新库53页不重复采，复用已核验原字节；2条BMW空白候选保留在原阶段，不增加936口径。两库并集1246与被冻结的2208缺口不同。历史配置身份、历史公开时间、低温或逐车资格未经认证，不修改主CSV。JX历史电池总能量仍需企业/检测机构材料。
 
@@ -141,7 +149,7 @@ def publish(state, validate=True):
 - [实际运行脚本](run_continuous.py)
 - [输出SHA清单](文件_SHA256.csv)
 
-运行：在已有原仓库checkout中执行`python v1_5/energy_continuous_20261009/run_continuous.py --batch-size 100`。需Python/PDF依赖、正常公开网络；自动提交需已有GitHub写入连接。不需要官网账户凭证。`--no-publish`仅采集与本地验证，不提交Git。没有后台进程时页面中的最后一次running不应被当作实时在线认证，须查本地进程及checkpoint观察时间。
+运行：仓库Actions页面可手动运行`Continue official energy evidence`；或在已有原仓库checkout中执行`python v1_5/energy_continuous_20261009/run_continuous.py --batch-size 100`。需Python/PDF依赖、正常公开网络；自动提交需已有GitHub写入连接。不需要官网账户凭证。`--no-publish`仅采集与本地验证，不提交Git。当前是否运行以实际Actions任务或本地进程为准，checkpoint是已保存证据的观察时间。
 ''')
     # The first-stage analysis files remain dated evidence, while this header reports current counts.
     old_header = f'''# 旧库详情连续续采：{state['old_details']} / 4497
@@ -193,16 +201,20 @@ parser=argparse.ArgumentParser(description=__doc__)
 parser.add_argument('--batch-size',type=int,default=100)
 parser.add_argument('--no-publish',action='store_true')
 parser.add_argument('--publish-only',action='store_true')
+parser.add_argument('--handoff-only',action='store_true',help='Revalidate saved evidence and publish a truthful ready-for-cloud handoff without collecting.')
 args=parser.parse_args(); assert 1<=args.batch_size<=200
 lock = (REPO/'.git/purchase_tax_energy_collection.lock').open('w')
 fcntl.flock(lock,fcntl.LOCK_EX|fcntl.LOCK_NB)
-state={'started_utc':now(),'pid':os.getpid(),'status':'running','active_library':'starting', 'message':'实际续采进程已启动，准备核验缓存并继续下一批。'}
+state={'started_utc':now(),'pid':os.getpid(),'status':'ready_for_github_resume' if args.handoff_only else 'running','active_library':'starting',
+       'execution_environment':'github_actions' if IN_ACTIONS else 'local_workspace',
+       'workflow_run_url':RUN_URL,
+       'message':'新增原件和缓存重新核验；准备交由GitHub任务续采。' if args.handoff_only else '实际续采进程已启动，准备核验缓存并继续下一批。'}
 try:
     # Revalidate the actual copied PDF cache before publishing the seeded count.
     seed_count = sum(bool(load(p).get('accepted')) for p in (ROOT/'label_archive/receipts').glob('*_receipt.json'))
     subprocess.run([sys.executable,str(ROOT/'label_archive/collect_matched_labels.py'),'--stop-after-total',str(seed_count),'--source-root',str(BASE/'public_new_snapshot'),'--output-root',str(ROOT/'label_archive'),'--target-model-file',str(ROOT/'label_archive/inputs/2208型号_固定工况待核清单.csv'),'--old-exact-model-file',str(ROOT/'label_archive/inputs/1233型号_旧库原文精确命中集合.csv')],check=True)
     publish(state)
-    if not args.publish_only:
+    if not args.publish_only and not args.handoff_only:
         for kind,total in [('new_labels',936),('old_details',4497)]:
             while True:
                 progress=load(ROOT/('label_archive/label_checkpoint.json' if kind=='new_labels' else 'old_details/checkpoint.json'))
