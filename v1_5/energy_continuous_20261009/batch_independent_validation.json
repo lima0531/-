@@ -1,9 +1,9 @@
 {
-  "generated_utc": "2026-10-10T13:27:38.361941+00:00",
+  "generated_utc": "2026-10-10T13:33:59.838829+00:00",
   "labels": {
-    "validated_pdfs": 700,
+    "validated_pdfs": 728,
     "standards_literal_counts": {
-      "GB/T18386.1-2021": 651,
+      "GB/T18386.1-2021": 679,
       "GB/T18386-2017": 49
     },
     "dual_text_engines": true,

@@ -1,13 +1,13 @@
 # 官方能耗证据连续续采
 
-状态：**running**。更新UTC：2026-10-10T13:27:38.361744+00:00（北京时间＝UTC＋8小时）。
+状态：**stopped_at_recorded_boundary**。更新UTC：2026-10-10T13:33:59.838619+00:00（北京时间＝UTC＋8小时）。
 
 | 固定自动队列 | 累计已归档 | 待取 |
 |---|---:|---:|
-| 新库原样精确标签 | 700 / 936 | 236 |
+| 新库原样精确标签 | 728 / 936 | 208 |
 | 旧库匹配applyId详情 | 200 / 4497 | 4297 |
 
-实际续采进程已启动，准备核验缓存并继续下一批。
+{"label_job_id": "6b593a6719ffce451a037818c46166ec2284f0fb5282e71481187941d5a68d8b", "fullLabel": "4323c00818cf0a1a421b5fb9c029a874@231317", "attempt": 1, "method": "GET", "requested_url": "https://yhgscx.miit.gov.cn/fuel-consumption-center/fuel-consumption-center/file/file/file/download?m=4323c00818cf0a1a421b5fb9c029a874%40231317&p=1", "observed_utc": "2026-10-10T13:33:51.769001+00:00", "tls_verified": true, "no_credentials_or_captcha_solution_submitted": true, "accepted": false, "record_reference_count": 1, "http_status": 200, "content_type": "application/pdf;charset=UTF-8", "final_url": "https://yhgscx.miit.gov.cn/fuel-consumption-center/fuel-consumption-center/file/file/file/download?m=4323c00818cf0a1a421b5fb9c029a874%40231317&p=1", "bytes": 231317, "sha256": "70b207a1a8cb5b8a7610599db3b4cdcdd9ba888ad31a989b3336ec121ab14847", "response_file": "responses/6b593a6719ffce451a037818c46166ec2284f0fb5282e71481187941d5a68d8b_attempt01.pdf", "finished_utc": "2026-10-10T13:33:59.292670+00:00", "stop_boundary": "HTTP200 invalid PDF: PDF encrypted or empty"}
 
 单worker、至少2秒间隔，先余下标签，再余下旧详情；按100条一批落盘、来源/SHA/双文本引擎核验并提交同一分支。本轮由[GitHub云端任务](https://github.com/lima0531/-/actions/runs/38055756530)执行，关闭聊天不影响该任务。每100条核验后提交本分支；页面计数仅代表最后一次成功发布。任务最多运行330分钟，完成队列、遇访问边界或本地/发布异常时停止。若被取消或达到任务时限，使用仓库Actions页面的Run workflow从已提交断点恢复；最后一次running不等于此刻仍在线。 网络拒绝、登录/验证码、429等保存断点并停，不切换路由或凭证。
 
