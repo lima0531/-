@@ -1,0 +1,517 @@
+{
+ "started_utc": "2026-10-10T06:15:39.063171+00:00",
+ "endpoint": "https://yhgscx.miit.gov.cn/fuel-consumption-center/fuel-consumption-center/fcSearchCtr/queryDetail",
+ "queue_file": "4497记录_旧库精确命中固定来源键.jsonl",
+ "queue_sha256": "54edef6f8a0d0a43f4f790cb4e6493ef70242d016e961ba66bd6f51cbb72d5e9",
+ "queue_records": 4497,
+ "accepted_before_this_run": 100,
+ "budget_this_run": 100,
+ "interval_seconds": 2.0,
+ "single_worker": true,
+ "accepted": 100,
+ "attempts": 101,
+ "stop_reason": "",
+ "results": [
+  {
+   "record_index_1based": 101,
+   "applyId": "5e31c2aa87ab4bdfb4d0f8f7f0b410a6",
+   "accepted": true
+  },
+  {
+   "record_index_1based": 102,
+   "applyId": "8cb860cf7f1d41ac876007207c95648e",
+   "accepted": true
+  },
+  {
+   "record_index_1based": 103,
+   "applyId": "3bf365a84fb74a128e135ec7ad92a44a",
+   "accepted": true
+  },
+  {
+   "record_index_1based": 104,
+   "applyId": "f7e5083c4b31428ba8aa9dd100a768cf",
+   "accepted": true
+  },
+  {
+   "record_index_1based": 105,
+   "applyId": "5ef67f1f95a7401d96962ac429d334c2",
+   "accepted": true
+  },
+  {
+   "record_index_1based": 106,
+   "applyId": "4671cba28e084104a113c60d331eec79",
+   "accepted": true
+  },
+  {
+   "record_index_1based": 107,
+   "applyId": "202bd2cb01364b118e12dc4a32fc04b5",
+   "accepted": true
+  },
+  {
+   "record_index_1based": 108,
+   "applyId": "8e041ffa3cd14f91969cfead466dfc02",
+   "accepted": true
+  },
+  {
+   "record_index_1based": 109,
+   "applyId": "ce46c216ef2c4bbea120236b1ac49b93",
+   "accepted": true
+  },
+  {
+   "record_index_1based": 110,
+   "applyId": "edf9ec66f4c142c4a6c64b3b10151823",
+   "accepted": true
+  },
+  {
+   "record_index_1based": 111,
+   "applyId": "7b9cffcaf8554e37a57aa3eb7bd565a4",
+   "accepted": true
+  },
+  {
+   "record_index_1based": 112,
+   "applyId": "ffb91420b772497ab4c299e48bc7d595",
+   "accepted": true
+  },
+  {
+   "record_index_1based": 113,
+   "applyId": "56e5788813404745a9dd44edeb3495bc",
+   "accepted": true
+  },
+  {
+   "record_index_1based": 114,
+   "applyId": "9bb9c98dc4254cf197062816e61654b5",
+   "accepted": true
+  },
+  {
+   "record_index_1based": 115,
+   "applyId": "53d1fa62e1fb4af6b8191f6af9276a8e",
+   "accepted": true
+  },
+  {
+   "record_index_1based": 116,
+   "applyId": "b44dae09f78e4699a8103efa01ca3ed9",
+   "accepted": true
+  },
+  {
+   "record_index_1based": 117,
+   "applyId": "fad0f835d0284ac58a8b8d013f07dd3e",
+   "accepted": true
+  },
+  {
+   "record_index_1based": 118,
+   "applyId": "02b8a9040d9045698e26ae1b8016deb7",
+   "accepted": true
+  },
+  {
+   "record_index_1based": 119,
+   "applyId": "694110d55fda457ea96317e7a252e412",
+   "accepted": true
+  },
+  {
+   "record_index_1based": 120,
+   "applyId": "1d956d88882742aab2e36910f883c946",
+   "accepted": true
+  },
+  {
+   "record_index_1based": 121,
+   "applyId": "db4ec0557a9c4477b7c10bf0d0db15a2",
+   "accepted": true
+  },
+  {
+   "record_index_1based": 122,
+   "applyId": "dedb9235f654468aaf17dfd328d5c4e9",
+   "accepted": true
+  },
+  {
+   "record_index_1based": 123,
+   "applyId": "2a89f1d467ee4defb86de3c8a84fb780",
+   "accepted": true
+  },
+  {
+   "record_index_1based": 124,
+   "applyId": "73eac6456b12460197d561e64bdcd677",
+   "accepted": true
+  },
+  {
+   "record_index_1based": 125,
+   "applyId": "d7be1a9da0e2483ca237b9397f00e0cd",
+   "accepted": true
+  },
+  {
+   "record_index_1based": 126,
+   "applyId": "66844615cab44e9caf1d3462017d65a6",
+   "accepted": true
+  },
+  {
+   "record_index_1based": 127,
+   "applyId": "bf080eb05b354cf396b97b287c5b1f44",
+   "accepted": true
+  },
+  {
+   "record_index_1based": 128,
+   "applyId": "a960c002e25142a8ae65551c5371ab2f",
+   "accepted": true
+  },
+  {
+   "record_index_1based": 129,
+   "applyId": "4b7fa0dd16914d85a8d9859b01f2021e",
+   "accepted": true
+  },
+  {
+   "record_index_1based": 130,
+   "applyId": "deacb0775a5345c9a5a0bc397d898544",
+   "accepted": true
+  },
+  {
+   "record_index_1based": 131,
+   "applyId": "4abc65ff85b04fd8b5c4291bb0c5bee3",
+   "accepted": true
+  },
+  {
+   "record_index_1based": 132,
+   "applyId": "33f2001feebe4eea96cb69e88904370d",
+   "accepted": true
+  },
+  {
+   "record_index_1based": 133,
+   "applyId": "373ed9936aed46aaa89f48e6b1332d32",
+   "accepted": true
+  },
+  {
+   "record_index_1based": 134,
+   "applyId": "491656ea27564034bbc62361f0b97fe4",
+   "accepted": true
+  },
+  {
+   "record_index_1based": 135,
+   "applyId": "fb5015dca75540f7af709a6615cb0fb5",
+   "accepted": true
+  },
+  {
+   "record_index_1based": 136,
+   "applyId": "ec10c0a85bfb4910a1a8e8862ee6278d",
+   "accepted": true
+  },
+  {
+   "record_index_1based": 137,
+   "applyId": "b85f480572444da8b65aec0e282e385c",
+   "accepted": true
+  },
+  {
+   "record_index_1based": 138,
+   "applyId": "a20a64aa171743988cf7efa303e7ff8c",
+   "accepted": true
+  },
+  {
+   "record_index_1based": 139,
+   "applyId": "9800313d9a994bdc8b37b4d9ee774838",
+   "accepted": true
+  },
+  {
+   "record_index_1based": 140,
+   "applyId": "5893233009d84fde96f2f3a64e50884a",
+   "accepted": true
+  },
+  {
+   "record_index_1based": 141,
+   "applyId": "82c3a4a31f0b4a7aa6e4d3e84af1a96b",
+   "accepted": true
+  },
+  {
+   "record_index_1based": 142,
+   "applyId": "e8fac12420c848cdae3b9bed53393edc",
+   "accepted": true
+  },
+  {
+   "record_index_1based": 143,
+   "applyId": "b0a08dcdaf48406d944250ef4cac2ddd",
+   "accepted": true
+  },
+  {
+   "record_index_1based": 144,
+   "applyId": "d4002d2f18324d0e9104011c45a9d995",
+   "accepted": true
+  },
+  {
+   "record_index_1based": 145,
+   "applyId": "d01560d3702042e7afa3505e1872945a",
+   "accepted": true
+  },
+  {
+   "record_index_1based": 146,
+   "applyId": "042faad00f4e48848e3e807948988937",
+   "accepted": true
+  },
+  {
+   "record_index_1based": 147,
+   "applyId": "06fbea7bb34f4ac8ae01988360a42451",
+   "accepted": true
+  },
+  {
+   "record_index_1based": 148,
+   "applyId": "2fb7359ae96548bdbd90231e8ad410fc",
+   "accepted": true
+  },
+  {
+   "record_index_1based": 149,
+   "applyId": "0e627ef1322b4aa383704c6a1764cef1",
+   "accepted": true
+  },
+  {
+   "record_index_1based": 150,
+   "applyId": "cce1990ac6a3453e9aabd77b26c17063",
+   "accepted": true
+  },
+  {
+   "record_index_1based": 151,
+   "applyId": "f13106d908e8439abda16061cde93def",
+   "accepted": true
+  },
+  {
+   "record_index_1based": 152,
+   "applyId": "27956239131441989f61baf9ca529768",
+   "accepted": true
+  },
+  {
+   "record_index_1based": 153,
+   "applyId": "84916eb7330e459085beb0d2e806a7d2",
+   "accepted": true
+  },
+  {
+   "record_index_1based": 154,
+   "applyId": "547d24cc34224aeea216452ecda8e49a",
+   "accepted": true
+  },
+  {
+   "record_index_1based": 155,
+   "applyId": "02bd96b0a06a47738f100cec3cdfd6e7",
+   "accepted": true
+  },
+  {
+   "record_index_1based": 156,
+   "applyId": "dd3d14180c8f4980ba9302193d93de7e",
+   "accepted": true
+  },
+  {
+   "record_index_1based": 157,
+   "applyId": "b4c47a52c53646d8ae81d347de0dd7d1",
+   "accepted": true
+  },
+  {
+   "record_index_1based": 158,
+   "applyId": "0976bdb7b2174396bca7e360523c41f7",
+   "accepted": true
+  },
+  {
+   "record_index_1based": 159,
+   "applyId": "ddcec1b6543a410ca97f8ac6b280b5b4",
+   "accepted": true
+  },
+  {
+   "record_index_1based": 160,
+   "applyId": "3931bd39a72d4920b2a238e65dfb3868",
+   "accepted": true
+  },
+  {
+   "record_index_1based": 161,
+   "applyId": "e4f6e7cc07d8451fa995bf846769c14e",
+   "accepted": true
+  },
+  {
+   "record_index_1based": 162,
+   "applyId": "8eb2dd8cc0ef48beb8cda69b89f8d909",
+   "accepted": true
+  },
+  {
+   "record_index_1based": 163,
+   "applyId": "d766c123a6ff47e5b1c119b37640b7c3",
+   "accepted": true
+  },
+  {
+   "record_index_1based": 164,
+   "applyId": "2de55f7de74e438d99f22d88e7b32d1e",
+   "accepted": true
+  },
+  {
+   "record_index_1based": 165,
+   "applyId": "1ee7c47e75944ddfb8d51392e870fed9",
+   "accepted": true
+  },
+  {
+   "record_index_1based": 166,
+   "applyId": "3f9c472f98734e0d966085e2611f41ff",
+   "accepted": true
+  },
+  {
+   "record_index_1based": 167,
+   "applyId": "223646fd3a5e42fcb6d7d8df3647f418",
+   "accepted": true
+  },
+  {
+   "record_index_1based": 168,
+   "applyId": "9a7f1595a639412dbeb339f2b4f6e743",
+   "accepted": true
+  },
+  {
+   "record_index_1based": 169,
+   "applyId": "96a582e0d76140219838777674464ac6",
+   "accepted": true
+  },
+  {
+   "record_index_1based": 170,
+   "applyId": "198bcf3a585c4ea48af44155f1b67694",
+   "accepted": true
+  },
+  {
+   "record_index_1based": 171,
+   "applyId": "a011f32dae514825b15d18c3a09f50d7",
+   "accepted": true
+  },
+  {
+   "record_index_1based": 172,
+   "applyId": "dfa9925c041a4e9a90399bf3a49927d3",
+   "accepted": true
+  },
+  {
+   "record_index_1based": 173,
+   "applyId": "a221698bcbcb48f896b447ddb4576a35",
+   "accepted": true
+  },
+  {
+   "record_index_1based": 174,
+   "applyId": "a7e7e713197f4d97b7501af98f6e0805",
+   "accepted": true
+  },
+  {
+   "record_index_1based": 175,
+   "applyId": "45484c198b3d4c7287bc516eea7c2941",
+   "accepted": true
+  },
+  {
+   "record_index_1based": 176,
+   "applyId": "1b24de6dc8b94225a7ac8e367fc24d7e",
+   "accepted": true
+  },
+  {
+   "record_index_1based": 177,
+   "applyId": "daf9004be88a44b0b227a7470f6085df",
+   "accepted": true
+  },
+  {
+   "record_index_1based": 178,
+   "applyId": "88270c85f186418086aee7185072f08c",
+   "accepted": true
+  },
+  {
+   "record_index_1based": 179,
+   "applyId": "b0d0894dd979423a872589730beaa8bb",
+   "accepted": true
+  },
+  {
+   "record_index_1based": 180,
+   "applyId": "6a0d5b0bf60748159a22995c68915fc4",
+   "accepted": true
+  },
+  {
+   "record_index_1based": 181,
+   "applyId": "f9fec770f08d4c7c981df4ea0c3324ed",
+   "accepted": true
+  },
+  {
+   "record_index_1based": 182,
+   "applyId": "c5affc1ce2ed44a98fe03e2e23a80394",
+   "accepted": true
+  },
+  {
+   "record_index_1based": 183,
+   "applyId": "c2e70440e0004a3db035f922063f26d0",
+   "accepted": true
+  },
+  {
+   "record_index_1based": 184,
+   "applyId": "25ba44e472f94b19bc32bf8e16b00b25",
+   "accepted": true
+  },
+  {
+   "record_index_1based": 185,
+   "applyId": "c7b2e5b70eee44fca27840dc39b1ed00",
+   "accepted": true
+  },
+  {
+   "record_index_1based": 186,
+   "applyId": "f60b5bd51862481487d9f42806185170",
+   "accepted": true
+  },
+  {
+   "record_index_1based": 187,
+   "applyId": "134ec2a52a124090b4cd533aee9e5f49",
+   "accepted": true
+  },
+  {
+   "record_index_1based": 188,
+   "applyId": "a8ca71a521d44452879cec4de9ee6e9c",
+   "accepted": true
+  },
+  {
+   "record_index_1based": 189,
+   "applyId": "1961fcbf94ee430590eabc337bf9bdcb",
+   "accepted": true
+  },
+  {
+   "record_index_1based": 190,
+   "applyId": "c07555a2222a451ebe14666f4989de56",
+   "accepted": true
+  },
+  {
+   "record_index_1based": 191,
+   "applyId": "53fb8974fef44fb18310bad7f8b7f773",
+   "accepted": true
+  },
+  {
+   "record_index_1based": 192,
+   "applyId": "5bb0cf05ad574b97bb0cc9309380e0b7",
+   "accepted": true
+  },
+  {
+   "record_index_1based": 193,
+   "applyId": "1acaa11cb1604377b856ffc284dd15a7",
+   "accepted": true
+  },
+  {
+   "record_index_1based": 194,
+   "applyId": "2e586856dbc84037937c6e6d1bb37a87",
+   "accepted": true
+  },
+  {
+   "record_index_1based": 195,
+   "applyId": "a9c3c9df7a2e4798b28664a44b461715",
+   "accepted": true
+  },
+  {
+   "record_index_1based": 196,
+   "applyId": "51a594ec48b44f1ba9c0496480f0653e",
+   "accepted": true
+  },
+  {
+   "record_index_1based": 197,
+   "applyId": "a1f63e41a4954bb9aa29942dfb6a9bb4",
+   "accepted": true
+  },
+  {
+   "record_index_1based": 198,
+   "applyId": "d9499e6bb8f34769847a09af2f09f795",
+   "accepted": true
+  },
+  {
+   "record_index_1based": 199,
+   "applyId": "0171c352113044bda8a4539844265834",
+   "accepted": true
+  },
+  {
+   "record_index_1based": 200,
+   "applyId": "6340b353c91040cab327955eca9d0b3e",
+   "accepted": true
+  }
+ ],
+ "finished_utc": "2026-10-10T06:19:26.256508+00:00"
+}

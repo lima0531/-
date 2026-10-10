@@ -1,0 +1,15 @@
+{
+ "record_index_1based": 155,
+ "applyId": "02bd96b0a06a47738f100cec3cdfd6e7",
+ "model_key": "SC6491ECHBEV",
+ "source_json_pointer": "/info/list/174",
+ "source_file": "old_currentPage/page0010_attempt02_response.json",
+ "source_sha256": "320ef44b657ab160c259844feaebb9f93219a1b6f07803c34883b6518c3a95eb",
+ "observed_utc": "2026-10-10T06:17:43.309901+00:00",
+ "attempt": 1,
+ "http_status": 200,
+ "bytes": 1609,
+ "sha256": "ddcb42efba62334eebd51132664c72c3d9f69d775ccaa80140a30b35003af226",
+ "seconds": 1.03,
+ "error": null
+}

@@ -1,0 +1,15 @@
+{
+ "record_index_1based": 168,
+ "applyId": "9a7f1595a639412dbeb339f2b4f6e743",
+ "model_key": "SC7001FAUBEV",
+ "source_json_pointer": "/info/list/6",
+ "source_file": "old_currentPage/page0011_response.json",
+ "source_sha256": "7612cd0dacba2e021cd3a6988a28f4db037ce51eb924c3df914391021fc46688",
+ "observed_utc": "2026-10-10T06:18:12.223062+00:00",
+ "attempt": 1,
+ "http_status": 200,
+ "bytes": 1601,
+ "sha256": "489a7ca778ef61e3f1085694d77431da2eb6978ea3cc49d9145f7139dc357464",
+ "seconds": 0.24,
+ "error": null
+}

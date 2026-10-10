@@ -1,0 +1,15 @@
+{
+ "record_index_1based": 120,
+ "applyId": "1d956d88882742aab2e36910f883c946",
+ "model_key": "JX7001ESMBEV",
+ "source_json_pointer": "/info/list/21",
+ "source_file": "old_currentPage/page0010_attempt02_response.json",
+ "source_sha256": "320ef44b657ab160c259844feaebb9f93219a1b6f07803c34883b6518c3a95eb",
+ "observed_utc": "2026-10-10T06:16:24.169871+00:00",
+ "attempt": 1,
+ "http_status": 200,
+ "bytes": 1545,
+ "sha256": "f3acba5df274fcb5f7177f090d62044d8243f82773f28aca3c5d28f3928470e8",
+ "seconds": 0.22,
+ "error": null
+}

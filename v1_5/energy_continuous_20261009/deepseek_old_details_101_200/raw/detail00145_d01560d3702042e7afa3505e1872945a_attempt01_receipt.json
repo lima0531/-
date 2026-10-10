@@ -1,0 +1,15 @@
+{
+ "record_index_1based": 145,
+ "applyId": "d01560d3702042e7afa3505e1872945a",
+ "model_key": "BMW7001ABEV",
+ "source_json_pointer": "/info/list/148",
+ "source_file": "old_currentPage/page0010_attempt02_response.json",
+ "source_sha256": "320ef44b657ab160c259844feaebb9f93219a1b6f07803c34883b6518c3a95eb",
+ "observed_utc": "2026-10-10T06:17:19.987244+00:00",
+ "attempt": 1,
+ "http_status": 200,
+ "bytes": 1595,
+ "sha256": "54e4ad74598214a920fd864f7244c3042dbf95bab29ede4a81100570db4444d1",
+ "seconds": 0.32,
+ "error": null
+}

@@ -1,0 +1,15 @@
+{
+ "record_index_1based": 159,
+ "applyId": "ddcec1b6543a410ca97f8ac6b280b5b4",
+ "model_key": "LZ6460XLD0EV",
+ "source_json_pointer": "/info/list/185",
+ "source_file": "old_currentPage/page0010_attempt02_response.json",
+ "source_sha256": "320ef44b657ab160c259844feaebb9f93219a1b6f07803c34883b6518c3a95eb",
+ "observed_utc": "2026-10-10T06:17:52.173801+00:00",
+ "attempt": 1,
+ "http_status": 200,
+ "bytes": 1602,
+ "sha256": "2548a3b12a4c63108121410f82d72e2f5864dee9bd727934c8efadd3ee48e555",
+ "seconds": 0.17,
+ "error": null
+}

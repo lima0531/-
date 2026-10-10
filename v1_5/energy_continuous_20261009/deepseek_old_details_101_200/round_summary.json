@@ -1,0 +1,60 @@
+{
+ "run": {
+  "started_utc": "2026-10-10T06:15:39.063171+00:00",
+  "finished_utc": "2026-10-10T06:19:26.256508+00:00",
+  "endpoint": "https://yhgscx.miit.gov.cn/fuel-consumption-center/fuel-consumption-center/fcSearchCtr/queryDetail",
+  "interval_seconds": 2.0,
+  "attempts": 101,
+  "accepted": 100,
+  "stop_reason": "",
+  "queue_sha256": "54edef6f8a0d0a43f4f790cb4e6493ef70242d016e961ba66bd6f51cbb72d5e9",
+  "queue_records": 4497,
+  "range": "record 101..200"
+ },
+ "integrity": {
+  "receipts_checked": 100,
+  "all_sha_match": true,
+  "bad": []
+ },
+ "content": {
+  "distinct_models": 77,
+  "exact_model_echo_all": true,
+  "workConditionType": {
+   "null": 100
+  },
+  "standard_literals": {
+   "<p>本标识所采用的燃料消耗量和续航里程数据系根据GB/T 18386.1-2021《电动汽车能量消耗量和续驶里程试验方法 第1部分：轻型汽车》测定。</p><p>电能消耗量与燃料消耗量是按照等量热值的方法进行折算，1kW.h电能消耗量约合0.1131L汽油燃料消耗量。</p><p>由于驾驶习惯、道路情况、气候条件和燃料品质等因素的影响，实际电能消耗量与续航里程可能与本标识的电能消耗量不同。</p><p>为避免标识影响视野，请在购买车辆后去除标识。</p>": 96,
+   "GB/T 18386.1-2021": 96,
+   "<p>本标识所采用的燃料消耗量和续航里程数据系根据GB/T 18386-2017《电动汽车能量消耗率和续驶里程试验方法》测定。</p><p>电能消耗量与燃料消耗量是按照等量热值的方法进行折算，1kW.h电能消耗量约合0.1131L汽油燃料消耗量。</p><p>由于驾驶习惯、道路情况、气候条件和燃料品质等因素的影响，实际电能消耗量与续航里程可能与本标识的电能消耗量不同。</p><p>为避免标识影响视野，请在购买车辆后去除标识。</p>": 3,
+   "BJ_18386_2017": 3,
+   "GB/T18386.1-2021": 2,
+   "<p>本标识所采用的燃料消耗量和续航里程数据系根据GB/T18386.1-2021测定。</p><p>电能消耗量与燃料消耗量是按照等量热值的方法进行折算，1kW.h电能消耗量约合0.1131L汽油燃料消耗量。</p><p>由于驾驶习惯、道路情况、气候条件和燃料品质等因素的影响，实际电能消耗量与续航里程可能与本标识的电能消耗量不同。</p><p>为避免标识影响视野，请在购买车辆后去除标识。</p>": 1,
+   "该车型采用GB/T 18386.1-2021的CLTC工况测试": 4,
+   "GB/T 18386.1-2021 ": 1
+  },
+  "publicTime_sample": [
+   null,
+   null,
+   null,
+   null,
+   null
+  ],
+  "applyId_echo_nonempty": 0,
+  "uniqId_echo_nonempty": 0
+ },
+ "first_record": {
+  "record_key": "old:5e31c2aa87ab4bdfb4d0f8f7f0b410a6:1fb15eb742ea5467fafb7d4bfad6b0866a0865ae714af73bef5ebeaa2dfd83cb",
+  "model_key": "HFC6483ECSEV6-W",
+  "applyId_request": "5e31c2aa87ab4bdfb4d0f8f7f0b410a6",
+  "observed_utc": "2026-10-10T06:15:39.326421+00:00",
+  "detail_sha256": "810967f2177ece03f417d9347b590820c52a4bca5cd6653783a6012d22637874"
+ },
+ "last_record": {
+  "record_key": "old:6340b353c91040cab327955eca9d0b3e:a2a0db58267807bdf88dbf4860a5f4962f501222f90697e57f3d3d7eb0a8b2f4",
+  "model_key": "SGM6484BABEV",
+  "applyId_request": "6340b353c91040cab327955eca9d0b3e",
+  "observed_utc": "2026-10-10T06:19:24.255176+00:00",
+  "detail_sha256": "47e669743ff47ccafac8c930349329a22a942cf054d91cee1e0f08b4fc05a494"
+ },
+ "provenance_note": "本批为 DeepSeek 侧独立采集：时间戳为本次 observed_utc，来源为固定队列 applyId 与官方 queryDetail；未与对方 100 条合并，未改写任何科学表。"
+}

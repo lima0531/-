@@ -1,0 +1,15 @@
+{
+ "record_index_1based": 109,
+ "applyId": "ce46c216ef2c4bbea120236b1ac49b93",
+ "model_key": "GAM7000BEVF0A",
+ "source_json_pointer": "/info/list/177",
+ "source_file": "old_currentPage/page0009_response.json",
+ "source_sha256": "9c1ad18dc467b245029b46af95a653d97f27cf383f23ce6850f799159ecaf0df",
+ "observed_utc": "2026-10-10T06:15:57.407116+00:00",
+ "attempt": 1,
+ "http_status": 200,
+ "bytes": 1573,
+ "sha256": "1aa6619bd22879f3f5aac678683c9c80fb036100f0affcb4669c6b796a69f8d0",
+ "seconds": 0.25,
+ "error": null
+}

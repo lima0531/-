@@ -1,0 +1,15 @@
+{
+ "record_index_1based": 152,
+ "applyId": "27956239131441989f61baf9ca529768",
+ "model_key": "MR7001SEV02",
+ "source_json_pointer": "/info/list/167",
+ "source_file": "old_currentPage/page0010_attempt02_response.json",
+ "source_sha256": "320ef44b657ab160c259844feaebb9f93219a1b6f07803c34883b6518c3a95eb",
+ "observed_utc": "2026-10-10T06:17:35.796695+00:00",
+ "attempt": 1,
+ "http_status": 200,
+ "bytes": 1569,
+ "sha256": "1f314c4d93b364205f7199f210a670a6fc7698ea1e17e6ae5cb0368ea511124f",
+ "seconds": 0.27,
+ "error": null
+}

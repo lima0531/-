@@ -1,0 +1,15 @@
+{
+ "record_index_1based": 101,
+ "applyId": "5e31c2aa87ab4bdfb4d0f8f7f0b410a6",
+ "model_key": "HFC6483ECSEV6-W",
+ "source_json_pointer": "/info/list/149",
+ "source_file": "old_currentPage/page0009_response.json",
+ "source_sha256": "9c1ad18dc467b245029b46af95a653d97f27cf383f23ce6850f799159ecaf0df",
+ "observed_utc": "2026-10-10T06:15:39.322821+00:00",
+ "attempt": 1,
+ "http_status": 200,
+ "bytes": 1612,
+ "sha256": "810967f2177ece03f417d9347b590820c52a4bca5cd6653783a6012d22637874",
+ "seconds": 0.25,
+ "error": null
+}

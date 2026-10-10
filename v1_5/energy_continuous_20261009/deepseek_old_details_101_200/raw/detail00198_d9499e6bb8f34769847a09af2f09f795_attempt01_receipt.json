@@ -1,0 +1,15 @@
+{
+ "record_index_1based": 198,
+ "applyId": "d9499e6bb8f34769847a09af2f09f795",
+ "model_key": "SC7001FARBEV",
+ "source_json_pointer": "/info/list/70",
+ "source_file": "old_currentPage/page0011_response.json",
+ "source_sha256": "7612cd0dacba2e021cd3a6988a28f4db037ce51eb924c3df914391021fc46688",
+ "observed_utc": "2026-10-10T06:19:19.834924+00:00",
+ "attempt": 1,
+ "http_status": 200,
+ "bytes": 1593,
+ "sha256": "795c19e81d3e48ba0edf1b7db9237fc7e50e7b839a7fbf34b5b602dc48038434",
+ "seconds": 0.22,
+ "error": null
+}

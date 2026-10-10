@@ -1,0 +1,15 @@
+{
+ "record_index_1based": 154,
+ "applyId": "547d24cc34224aeea216452ecda8e49a",
+ "model_key": "THZ6460BEVS301",
+ "source_json_pointer": "/info/list/171",
+ "source_file": "old_currentPage/page0010_attempt02_response.json",
+ "source_sha256": "320ef44b657ab160c259844feaebb9f93219a1b6f07803c34883b6518c3a95eb",
+ "observed_utc": "2026-10-10T06:17:40.275807+00:00",
+ "attempt": 1,
+ "http_status": 200,
+ "bytes": 1604,
+ "sha256": "10d24bd82b4c95e6a45a038b2c144654a295d5515a7c69c8d1229a30e90a3b2b",
+ "seconds": 0.25,
+ "error": null
+}

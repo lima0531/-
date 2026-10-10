@@ -1,0 +1,15 @@
+{
+ "record_index_1based": 142,
+ "applyId": "e8fac12420c848cdae3b9bed53393edc",
+ "model_key": "BMW6475AEEV",
+ "source_json_pointer": "/info/list/137",
+ "source_file": "old_currentPage/page0010_attempt02_response.json",
+ "source_sha256": "320ef44b657ab160c259844feaebb9f93219a1b6f07803c34883b6518c3a95eb",
+ "observed_utc": "2026-10-10T06:17:13.236475+00:00",
+ "attempt": 1,
+ "http_status": 200,
+ "bytes": 1594,
+ "sha256": "a9bc12e312f54954c0718655272c8453bc301bbd244b3ce47c5aa39c1146f83b",
+ "seconds": 0.24,
+ "error": null
+}

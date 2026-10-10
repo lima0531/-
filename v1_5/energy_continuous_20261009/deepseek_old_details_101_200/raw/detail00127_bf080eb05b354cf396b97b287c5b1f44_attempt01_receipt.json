@@ -1,0 +1,15 @@
+{
+ "record_index_1based": 127,
+ "applyId": "bf080eb05b354cf396b97b287c5b1f44",
+ "model_key": "SGM7008LLBEV",
+ "source_json_pointer": "/info/list/57",
+ "source_file": "old_currentPage/page0010_attempt02_response.json",
+ "source_sha256": "320ef44b657ab160c259844feaebb9f93219a1b6f07803c34883b6518c3a95eb",
+ "observed_utc": "2026-10-10T06:16:39.965619+00:00",
+ "attempt": 1,
+ "http_status": 200,
+ "bytes": 1596,
+ "sha256": "8930e090a0d898babae68b2b5c24ed5b0c121b7e6ea025d6f9f721ede916bf9f",
+ "seconds": 0.32,
+ "error": null
+}

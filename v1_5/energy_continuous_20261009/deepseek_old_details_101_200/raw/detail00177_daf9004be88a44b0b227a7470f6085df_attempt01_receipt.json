@@ -1,0 +1,15 @@
+{
+ "record_index_1based": 177,
+ "applyId": "daf9004be88a44b0b227a7470f6085df",
+ "model_key": "NEQ6440BEVS56D",
+ "source_json_pointer": "/info/list/21",
+ "source_file": "old_currentPage/page0011_response.json",
+ "source_sha256": "7612cd0dacba2e021cd3a6988a28f4db037ce51eb924c3df914391021fc46688",
+ "observed_utc": "2026-10-10T06:18:32.323928+00:00",
+ "attempt": 1,
+ "http_status": 200,
+ "bytes": 1612,
+ "sha256": "6ff9d4cf1ac734471563e69325be11325e14bc07737c2e549e012194e3dddf18",
+ "seconds": 0.37,
+ "error": null
+}

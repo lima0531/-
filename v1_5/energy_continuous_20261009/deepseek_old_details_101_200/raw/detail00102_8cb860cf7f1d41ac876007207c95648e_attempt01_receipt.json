@@ -1,0 +1,15 @@
+{
+ "record_index_1based": 102,
+ "applyId": "8cb860cf7f1d41ac876007207c95648e",
+ "model_key": "LZW7006EVA2",
+ "source_json_pointer": "/info/list/150",
+ "source_file": "old_currentPage/page0009_response.json",
+ "source_sha256": "9c1ad18dc467b245029b46af95a653d97f27cf383f23ce6850f799159ecaf0df",
+ "observed_utc": "2026-10-10T06:15:41.565037+00:00",
+ "attempt": 1,
+ "http_status": 200,
+ "bytes": 1604,
+ "sha256": "a1be69d9d5dec8b591938c40ac658df0bec4d037afe9982d078f5f4738252b27",
+ "seconds": 0.24,
+ "error": null
+}
